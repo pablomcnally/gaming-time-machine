@@ -1,0 +1,184 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "January 1997",
+    "accession": "GTM-1997-01",
+    "dek": "A cold-start month for 1997: Diablo clicks into PC life, Final Fantasy VII arrives in Japan, and British players watch the Nintendo 64 approach from magazine pages.",
+    "curatorNote": "January is framed as a month of signals rather than a crowded UK release calendar. The strongest anchors are Diablo's early-January PC launch and Final Fantasy VII's 31 January Japanese debut.",
+    "statusChips": ["PC loot", "Japan import aura", "N64 waiting room", "magazine prophecy"]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "The year begins with two different futures: networked dungeon crawling on PC and cinematic RPG scale on PlayStation.",
+      "items": [
+        {
+          "date": "January 1997",
+          "title": "Diablo becomes the PC word of mouth game",
+          "body": "Blizzard's action RPG turned clicking, loot, and Battle.net into a winter ritual. Its precise street-date history is messy, but January 1997 is the safe release window used by Blizzard-era references.",
+          "artifact": "Battle.net login memory",
+          "certainty": "verified month; exact day debated",
+          "sourceNote": "Diablo references commonly cite January 3, 1997, while some retrospective sources discuss a December 31, 1996 availability claim. Kept as January 1997."
+        },
+        {
+          "date": "January 31",
+          "title": "Final Fantasy VII launches in Japan",
+          "body": "Square's PlayStation epic arrived in Japan, immediately becoming an import-shop object and a magazine-screen mystery for Western players.",
+          "artifact": "Import preview spread",
+          "certainty": "verified date",
+          "sourceNote": "Final Fantasy VII references consistently list Japan as January 31, 1997."
+        },
+        {
+          "date": "January 1997",
+          "title": "The UK waits for the Nintendo 64",
+          "body": "The N64 was already a known object abroad, but in Britain it still belonged to preview pages, price talk, and arguments about cartridges before its March European launch.",
+          "artifact": "Pre-launch price clipping",
+          "certainty": "contextual",
+          "sourceNote": "Nintendo 64 launched in Europe on March 1, 1997; January is pre-launch UK context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "A short shelf, but a loud one: January's biggest releases cast long shadows across the rest of the year.",
+      "items": [
+        {
+          "date": "January 1997",
+          "title": "Diablo",
+          "platform": "Windows / Mac",
+          "body": "A dark, compulsive PC dungeon whose loot loop and online support helped define Blizzard's year.",
+          "signal": "Click, loot, repeat",
+          "certainty": "verified month; exact day debated",
+          "sourceNote": "Marked by month because release-date sources conflict around January 3 versus late-1996 availability."
+        },
+        {
+          "date": "January 31",
+          "title": "Final Fantasy VII",
+          "platform": "PlayStation",
+          "body": "Japanese release only, but already a Western event through screenshots, imports, and the sense that RPG scale had changed.",
+          "signal": "Cinematic RPG threshold",
+          "certainty": "verified Japanese release",
+          "sourceNote": "Western releases followed later in 1997."
+        },
+        {
+          "date": "January 1997",
+          "title": "Nintendo 64 launch library previews",
+          "platform": "Nintendo 64",
+          "body": "Super Mario 64, Pilotwings 64, and Star Wars: Shadows of the Empire were not new globally, but they were about to become the British launch shelf.",
+          "signal": "UK launch countdown",
+          "certainty": "contextual",
+          "sourceNote": "Listed as UK pre-launch context, not a January UK release."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "January feels like a hardware forecast: modems, PlayStations, and the not-yet-launched European N64.",
+      "items": [
+        {
+          "title": "Battle.net and the household phone line",
+          "body": "Diablo made online play feel close enough to touch, but in UK homes the internet was still scheduled around phone access and patience.",
+          "specs": ["Dial-up ritual", "Battle.net context", "PC as social machine"],
+          "certainty": "contextual",
+          "sourceNote": "Battle.net launched at the end of 1996; Diablo popularised it in early 1997."
+        },
+        {
+          "title": "N64 anticipation before launch",
+          "body": "The machine's analogue stick and cartridge format were already talking points before British players could buy one officially.",
+          "specs": ["Analogue stick", "Cartridge pricing anxiety", "March European launch"],
+          "certainty": "contextual",
+          "sourceNote": "Europe launch verified as March 1, 1997."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "The newsagent shelf did what broadband could not: show the future before it arrived.",
+      "items": [
+        {
+          "title": "UK PlayStation press",
+          "month": "January 1997",
+          "publicationName": "UK PlayStation magazines",
+          "issueDate": "January 1997",
+          "headline": "Final Fantasy VII and the import imagination",
+          "coverImage": "/magazine-covers/1997/opm-uk-november.svg",
+          "coverImageAlt": "Reconstructed PlayStation magazine-style cover image standing in for January 1997.",
+          "curatorNote": "A placeholder for the way PlayStation magazines made Japanese screenshots feel like museum glass: close, bright, and not yet playable.",
+          "body": "A placeholder for the way PlayStation magazines made Japanese screenshots feel like museum glass: close, bright, and not yet playable.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Specific January cover lines are not asserted; included as press context."
+        },
+        {
+          "title": "N64 launch previews",
+          "month": "January 1997",
+          "publicationName": "Nintendo and multiformat magazines",
+          "issueDate": "January 1997",
+          "headline": "The European N64 waiting room",
+          "coverImage": "/magazine-covers/1997/n64-magazine-issue-7.svg",
+          "coverImageAlt": "Reconstructed N64 magazine-style cover image standing in for January 1997.",
+          "curatorNote": "Before the console reached UK shops, the magazine page was the place where Mario 64 became a promise.",
+          "body": "Before the console reached UK shops, the magazine page was the place where Mario 64 became a promise.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Specific January cover not asserted."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "A month where online play was still a deliberate act.",
+      "items": [
+        {
+          "title": "Diablo made logging on feel purposeful",
+          "body": "Battle.net meant the dungeon was no longer entirely private. Connecting was noisy, slow, and somehow futuristic."
+        },
+        {
+          "title": "Import knowledge travelled as text",
+          "body": "Final Fantasy VII information moved through fan pages, forums, and printed magazine captions long before most Western players saw a disc."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "January 1997 as a waiting room with one very dark PC in the corner.",
+      "items": [
+        {
+          "title": "The year opened underground",
+          "body": "Diablo made the PC feel like a cellar door: one more run, one more item, one more room below."
+        },
+        {
+          "title": "The future was printed before it was playable",
+          "body": "For UK players, Final Fantasy VII and the N64 were often images first, purchases later."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Diablo release context",
+      "url": "https://diablo.fandom.com/wiki/Diablo_(Game)",
+      "note": "Used for January 1997 release context while marking exact-day uncertainty."
+    },
+    {
+      "label": "Final Fantasy VII release context",
+      "url": "https://en.wikipedia.org/wiki/Final_Fantasy_VII",
+      "note": "Used for the January 31, 1997 Japanese release."
+    },
+    {
+      "label": "Nintendo 64 European launch context",
+      "url": "https://www.computinghistory.org.uk/det/71742/Nintendo-releases-the-Nintendo-64/",
+      "note": "Used for Europe launch timing and launch-game context."
+    }
+  ]
+}

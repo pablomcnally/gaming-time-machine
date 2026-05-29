@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">N64 Magazine issue 7 reconstructed cover image</title>
+  <desc id="desc">A museum-style reconstructed magazine cover image for N64 Magazine issue 7, October 1997.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fde047"/>
+      <stop offset="0.48" stop-color="#052e16"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect x="58" y="58" width="784" height="1084" fill="none" stroke="#fefce8" stroke-width="8"/>
+  <text x="84" y="218" fill="#fefce8" font-family="Arial, sans-serif" font-size="168" font-weight="800" letter-spacing="-6">N64</text>
+  <text x="92" y="292" fill="#dcfce7" font-family="Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="10">MAGAZINE</text>
+  <text x="96" y="356" fill="#dcfce7" font-family="Arial, sans-serif" font-size="30" letter-spacing="12">ISSUE 7  OCTOBER 1997</text>
+  <ellipse cx="452" cy="644" rx="230" ry="255" fill="#22c55e" fill-opacity="0.7" stroke="#fefce8" stroke-width="6"/>
+  <circle cx="368" cy="590" r="32" fill="#fefce8"/>
+  <circle cx="536" cy="590" r="32" fill="#fefce8"/>
+  <path d="M370 722 C430 770 484 770 538 722" fill="none" stroke="#fefce8" stroke-width="18" stroke-linecap="round"/>
+  <text x="122" y="956" fill="#fefce8" font-family="Arial, sans-serif" font-size="44" font-weight="700">YOSHI'S STORY</text>
+  <text x="124" y="1022" fill="#dcfce7" font-family="Arial, sans-serif" font-size="30" letter-spacing="7">DIDDY KONG RACING</text>
+  <text x="126" y="1082" fill="#dcfce7" font-family="Arial, sans-serif" font-size="23" letter-spacing="5">RECONSTRUCTED COVER IMAGE</text>
+</svg>

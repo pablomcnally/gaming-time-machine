@@ -1,0 +1,184 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "September 1997",
+    "accession": "GTM-1997-09",
+    "dek": "Final Fantasy VII reaches North America, Oddworld arrives, GoldenEye stories spread, and autumn starts to look like a PlayStation season.",
+    "curatorNote": "September is anchored by Final Fantasy VII's North American release and Oddworld's September debut. UK context is build-up: Europe still waits for Final Fantasy VII.",
+    "statusChips": ["FFVII West", "Oddworld", "GoldenEye stories", "autumn begins"]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "A month where PlayStation scale becomes impossible to ignore.",
+      "items": [
+        {
+          "date": "September 1997",
+          "title": "Final Fantasy VII launches in North America",
+          "body": "Square's RPG reached Western shelves, turning a Japanese import fascination into a mainstream PlayStation event.",
+          "artifact": "Three-disc case",
+          "certainty": "verified month; exact day varies by source",
+          "sourceNote": "Sources cite early September 1997, commonly September 3 or September 7. Kept as September 1997 to avoid false precision."
+        },
+        {
+          "date": "September 19",
+          "title": "Oddworld: Abe's Oddysee begins",
+          "body": "Oddworld introduced Abe and a darker, stranger kind of cinematic platforming, where factory work and escape became game language.",
+          "artifact": "Abe chant",
+          "certainty": "verified date in several references",
+          "sourceNote": "Oddworld Library and other references list September 19, 1997."
+        },
+        {
+          "date": "September 1997",
+          "title": "GoldenEye stories multiply",
+          "body": "The N64 shooter was becoming the game people described through moments: mines, Facility, screen-watching, and arguments over rules.",
+          "artifact": "No Oddjob house rule",
+          "certainty": "contextual post-release momentum",
+          "sourceNote": "GoldenEye launched in Japan/North America in August; regional UK/Europe date sources conflict."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "September makes the PlayStation feel broad: blockbuster RPG, strange platformer, and a growing autumn queue.",
+      "items": [
+        {
+          "date": "September 1997",
+          "title": "Final Fantasy VII",
+          "platform": "PlayStation",
+          "body": "North American release window. Europe still waited, but the Western conversation had changed.",
+          "signal": "RPG blockbuster",
+          "certainty": "verified month",
+          "sourceNote": "Exact North American day varies across sources."
+        },
+        {
+          "date": "September 19",
+          "title": "Oddworld: Abe's Oddysee",
+          "platform": "PlayStation / Windows",
+          "body": "A cinematic puzzle-platformer with industrial dread and a hero who felt oddly fragile.",
+          "signal": "Strange cinematic platforming",
+          "certainty": "verified date in several references",
+          "sourceNote": "Oddworld Library lists September 19, 1997."
+        },
+        {
+          "date": "September 1997",
+          "title": "GoldenEye 007",
+          "platform": "Nintendo 64",
+          "body": "New enough to feel like discovery, especially wherever import or regional release timing made access uneven.",
+          "signal": "N64 multiplayer fever",
+          "certainty": "contextual",
+          "sourceNote": "Included as momentum rather than a precise UK release claim."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Long games made storage and screens feel practical.",
+      "items": [
+        {
+          "title": "The multi-disc PlayStation case",
+          "body": "Final Fantasy VII made the jewel case feel archival: several discs, a manual, and the promise of a larger world.",
+          "specs": ["Multiple CDs", "Memory card saves", "Cinematic RPG scale"],
+          "certainty": "contextual",
+          "sourceNote": "Final Fantasy VII shipped as a multi-disc PlayStation game."
+        },
+        {
+          "title": "N64 local multiplayer hardware",
+          "body": "GoldenEye made every extra controller feel like infrastructure.",
+          "specs": ["Four ports", "Split-screen", "House rules"],
+          "certainty": "contextual",
+          "sourceNote": "GoldenEye multiplayer context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "September magazines had the glow of games becoming events.",
+      "items": [
+        {
+          "title": "Final Fantasy VII coverage",
+          "month": "September 1997",
+          "publicationName": "PlayStation press",
+          "issueDate": "September 1997",
+          "headline": "The RPG blockbuster arrives",
+          "coverImage": "/magazine-covers/1997/opm-uk-november.svg",
+          "coverImageAlt": "Reconstructed PlayStation magazine-style cover image standing in for September 1997.",
+          "curatorNote": "For UK readers, North American reviews and coverage intensified the wait for the European release.",
+          "body": "For UK readers, North American reviews and coverage intensified the wait for the European release.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Specific September cover not asserted."
+        },
+        {
+          "title": "Oddworld previews and reviews",
+          "month": "September 1997",
+          "publicationName": "Multiformat press",
+          "issueDate": "September 1997",
+          "headline": "Abe enters the factory",
+          "coverImage": "/magazine-covers/1997/edge-50-october.svg",
+          "coverImageAlt": "Reconstructed multiformat magazine-style cover image standing in for September 1997.",
+          "curatorNote": "Oddworld's tone made PlayStation feel stranger and more adult without becoming grim in the usual way.",
+          "body": "Oddworld's tone made PlayStation feel stranger and more adult without becoming grim in the usual way.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Based on September release context."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Guides and rumours began to gather around long games.",
+      "items": [
+        {
+          "title": "RPG information became communal",
+          "body": "Final Fantasy VII encouraged secrets, boss advice, and printed walkthrough fragments."
+        },
+        {
+          "title": "GoldenEye rules travelled socially",
+          "body": "Its multiplayer culture spread through rooms first, then through message boards and memory."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "September felt like the year had stepped into its serious phase.",
+      "items": [
+        {
+          "title": "PlayStation became cinematic",
+          "body": "The console could do speed and attitude, but now it could also do scale, melancholy, and three discs of promise."
+        },
+        {
+          "title": "The N64 had a secret weapon",
+          "body": "GoldenEye made the console feel less isolated from the older-player conversation."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Final Fantasy VII release context",
+      "url": "https://en.wikipedia.org/wiki/Final_Fantasy_VII",
+      "note": "Used for September North American and November European release context; exact day varies by source."
+    },
+    {
+      "label": "Oddworld release context",
+      "url": "https://oddworldlibrary.net/wiki/Oddworld:_Abe%27s_Oddysee",
+      "note": "Used for September 19, 1997 release reference."
+    },
+    {
+      "label": "GoldenEye release context",
+      "url": "https://en.wikipedia.org/wiki/GoldenEye_007",
+      "note": "Used for post-release momentum and regional-date caution."
+    }
+  ]
+}

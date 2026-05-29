@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Reconstructed ZX Computing 1983 cover</title>
+  <desc id="desc">A reconstructed ZX Computing cover for Spectrum-focused 1983 exhibits.</desc>
+  <rect width="900" height="1200" fill="#171717"/>
+  <rect x="52" y="52" width="796" height="1096" fill="#f8fafc"/>
+  <text x="102" y="166" font-family="Arial Black, Arial, sans-serif" font-size="112" fill="#111">ZX</text>
+  <text x="264" y="166" font-family="Arial Black, Arial, sans-serif" font-size="70" fill="#111">COMPUTING</text>
+  <rect x="102" y="232" width="696" height="104" fill="#111"/>
+  <rect x="102" y="232" width="174" height="104" fill="#2563eb"/>
+  <rect x="276" y="232" width="174" height="104" fill="#dc2626"/>
+  <rect x="450" y="232" width="174" height="104" fill="#facc15"/>
+  <rect x="624" y="232" width="174" height="104" fill="#16a34a"/>
+  <rect x="134" y="418" width="632" height="360" fill="#0f172a"/>
+  <text x="450" y="556" text-anchor="middle" font-family="Courier New, monospace" font-size="42" fill="#facc15">48K GAMES</text>
+  <text x="450" y="626" text-anchor="middle" font-family="Courier New, monospace" font-size="30" fill="#fff">MANIC MINER / JETPAC / ANT ATTACK</text>
+  <text x="108" y="884" font-family="Courier New, monospace" font-size="32" fill="#111">Cassette software for a changing Britain</text>
+  <text x="108" y="1018" font-family="Courier New, monospace" font-size="24" fill="#555">Reconstructed exhibit cover</text>
+</svg>

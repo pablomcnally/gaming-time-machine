@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">GamePro November 1997 reconstructed cover image</title>
+  <desc id="desc">A museum-style reconstructed magazine cover image for GamePro, November 1997.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#be123c"/>
+      <stop offset="0.5" stop-color="#18181b"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect x="62" y="62" width="776" height="1076" fill="none" stroke="#fff7ed" stroke-width="8"/>
+  <text x="80" y="196" fill="#fff7ed" font-family="Arial, sans-serif" font-size="132" font-weight="800" letter-spacing="-2">GamePro</text>
+  <text x="86" y="260" fill="#fecdd3" font-family="Arial, sans-serif" font-size="32" letter-spacing="12">NOVEMBER 1997</text>
+  <text x="116" y="462" fill="#fff7ed" font-family="Arial, sans-serif" font-size="62" font-weight="700">TOMB RAIDER II</text>
+  <text x="116" y="552" fill="#fde68a" font-family="Arial, sans-serif" font-size="48" font-weight="700">FINAL FANTASY VII</text>
+  <text x="116" y="632" fill="#fff7ed" font-family="Arial, sans-serif" font-size="42" font-weight="700">ODDWORLD</text>
+  <path d="M192 804 L450 676 L708 804 L450 932 Z" fill="#fff7ed" fill-opacity="0.12" stroke="#fde68a" stroke-width="7"/>
+  <text x="106" y="1068" fill="#fff7ed" font-family="Arial, sans-serif" font-size="35" letter-spacing="8">HOLIDAY QUEUE</text>
+  <text x="108" y="1114" fill="#fecdd3" font-family="Arial, sans-serif" font-size="23" letter-spacing="5">RECONSTRUCTED COVER IMAGE</text>
+</svg>

@@ -1,0 +1,184 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "July 1997",
+    "accession": "GTM-1997-07",
+    "dek": "A summer month of previews and pressure: Star Fox 64 lands in North America, GoldenEye approaches, and the UK N64 shelf starts to look livelier.",
+    "curatorNote": "July is treated as a bridge month. Star Fox 64's North American release and post-E3 coverage are the safest anchors; UK notes stay contextual.",
+    "statusChips": ["post-E3", "Star Fox 64", "GoldenEye waiting", "summer previews"]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "The year begins turning toward autumn.",
+      "items": [
+        {
+          "date": "June 30 / July 1997",
+          "title": "Star Fox 64 carries rumble into North America",
+          "body": "Released at the turn of July in North America, Star Fox 64 made the Rumble Pak a public-facing N64 feature outside Japan.",
+          "artifact": "Rumble Pak bundle note",
+          "certainty": "verified late-June/early-July context",
+          "sourceNote": "Sources list Star Fox 64 around June 30/July 1, 1997 in North America; kept as turn-of-July context."
+        },
+        {
+          "date": "July 1997",
+          "title": "GoldenEye waits in the wings",
+          "body": "Rare's Bond game was approaching release, but expectations were not yet fixed. It still looked like a licensed shooter arriving late for a 1995 film.",
+          "artifact": "Preview screenshot",
+          "certainty": "pre-release context",
+          "sourceNote": "GoldenEye released in Japan and North America in August 1997, with UK/Europe date references varying between August and November depending on source."
+        },
+        {
+          "date": "July 1997",
+          "title": "Final Fantasy VII becomes a Western marketing object",
+          "body": "The Japanese phenomenon was now being translated into Western anticipation: trailers, magazine spreads, and the promise of a September North American launch.",
+          "artifact": "CG screenshot caption",
+          "certainty": "contextual",
+          "sourceNote": "Final Fantasy VII Western releases followed in September and November 1997."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "A summer shelf of arrivals abroad and near-arrivals at home.",
+      "items": [
+        {
+          "date": "Turn of July",
+          "title": "Star Fox 64",
+          "platform": "Nintendo 64",
+          "body": "North American release window for Nintendo's rail shooter and Rumble Pak showcase.",
+          "signal": "Tactile Nintendo",
+          "certainty": "verified window",
+          "sourceNote": "Sources differ by June 30/July 1; represented conservatively."
+        },
+        {
+          "date": "July 1997",
+          "title": "Mario Kart 64",
+          "platform": "Nintendo 64",
+          "body": "Fresh on European shelves from late June, now becoming part of summer multiplayer routines.",
+          "signal": "N64 social shelf",
+          "certainty": "post-release context",
+          "sourceNote": "European release was June 24, 1997."
+        },
+        {
+          "date": "July 1997",
+          "title": "Final Fantasy VII",
+          "platform": "PlayStation",
+          "body": "Still not out in the West, but already occupying the kind of space usually reserved for released games.",
+          "signal": "Anticipation as release culture",
+          "certainty": "contextual",
+          "sourceNote": "Japan January; North America September; Europe November."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Accessories start to become identity.",
+      "items": [
+        {
+          "title": "Force feedback becomes imaginable",
+          "body": "Even before Lylat Wars arrived in Europe, rumble coverage made the N64 controller feel unfinished without an accessory in the back.",
+          "specs": ["Rumble Pak", "AAA batteries", "Controller expansion slot"],
+          "certainty": "contextual",
+          "sourceNote": "Star Fox 64/Rumble Pak context from 1997 releases."
+        },
+        {
+          "title": "PC graphics cards become aspirational",
+          "body": "The PC future looked smoother for players with the right 3D accelerator, and slightly punishing for everyone else.",
+          "specs": ["3dfx era", "OpenGL talk", "Upgrade pressure"],
+          "certainty": "contextual",
+          "sourceNote": "Late-1997 Quake II and 3dfx context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Post-E3 issues turned rumour into a queue.",
+      "items": [
+        {
+          "title": "GoldenEye previews",
+          "month": "July 1997",
+          "publicationName": "N64 press",
+          "issueDate": "July 1997",
+          "headline": "Bond before the phenomenon",
+          "coverImage": "/magazine-covers/1997/n64-magazine-issue-7.svg",
+          "coverImageAlt": "Reconstructed N64 magazine-style cover image standing in for July 1997.",
+          "curatorNote": "Before GoldenEye became a living-room legend, it was a preview item asking to be believed.",
+          "body": "Before GoldenEye became a living-room legend, it was a preview item asking to be believed.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Specific July cover not asserted."
+        },
+        {
+          "title": "RPG import coverage",
+          "month": "July 1997",
+          "publicationName": "PlayStation press",
+          "issueDate": "July 1997",
+          "headline": "Final Fantasy VII approaches the West",
+          "coverImage": "/magazine-covers/1997/opm-uk-november.svg",
+          "coverImageAlt": "Reconstructed PlayStation magazine-style cover image standing in for July 1997.",
+          "curatorNote": "The magazine page taught readers how large a PlayStation RPG could look.",
+          "body": "The magazine page taught readers how large a PlayStation RPG could look.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Specific July cover not asserted."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Summer rumours moved faster online, but the printed version still had weight.",
+      "items": [
+        {
+          "title": "GoldenEye chatter was pre-social media",
+          "body": "Expectation moved through forums, fan pages, and playground confidence rather than feeds."
+        },
+        {
+          "title": "PC hardware talk was already networked",
+          "body": "Drivers, patches, and card recommendations circulated online for players following the shooter future."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "July felt like looking through the window of autumn.",
+      "items": [
+        {
+          "title": "Everything important seemed nearly here",
+          "body": "GoldenEye, Final Fantasy VII, and the winter PC shooters all felt close enough to start arguing about."
+        },
+        {
+          "title": "Accessories felt like secrets",
+          "body": "Rumble sounded like a gimmick until the idea of feeling a hit started to stick."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Star Fox 64 release context",
+      "url": "https://en.wikipedia.org/wiki/Star_Fox_64",
+      "note": "Used for 1997 Star Fox 64/Rumble Pak context; date represented cautiously."
+    },
+    {
+      "label": "GoldenEye 007 release context",
+      "url": "https://en.wikipedia.org/wiki/GoldenEye_007",
+      "note": "Used for August/late-1997 release context."
+    },
+    {
+      "label": "Final Fantasy VII release context",
+      "url": "https://en.wikipedia.org/wiki/Final_Fantasy_VII",
+      "note": "Used for Western release build-up."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Edge November 1997 reconstructed cover image</title>
+  <desc id="desc">A museum-style reconstructed magazine cover image for Edge, November 1997.</desc>
+  <rect width="900" height="1200" fill="#f3efe4"/>
+  <rect x="58" y="58" width="784" height="1084" fill="none" stroke="#18181b" stroke-width="8"/>
+  <text x="84" y="214" fill="#18181b" font-family="Arial, sans-serif" font-size="172" font-weight="800" letter-spacing="-6">edge</text>
+  <text x="96" y="286" fill="#57534e" font-family="Arial, sans-serif" font-size="34" letter-spacing="13">NOVEMBER 1997</text>
+  <rect x="120" y="392" width="660" height="404" fill="#18181b"/>
+  <text x="156" y="506" fill="#f3efe4" font-family="Arial, sans-serif" font-size="48" font-weight="700">GRAN TURISMO</text>
+  <text x="156" y="590" fill="#fca5a5" font-family="Arial, sans-serif" font-size="44" font-weight="700">QUAKE II</text>
+  <text x="156" y="674" fill="#bfdbfe" font-family="Arial, sans-serif" font-size="40" font-weight="700">LARA RETURNS</text>
+  <path d="M156 742 H744" stroke="#f3efe4" stroke-width="8" stroke-dasharray="32 20"/>
+  <text x="104" y="1036" fill="#18181b" font-family="Arial, sans-serif" font-size="38" letter-spacing="7">THE WAITING ROOM</text>
+  <text x="106" y="1088" fill="#57534e" font-family="Arial, sans-serif" font-size="23" letter-spacing="5">RECONSTRUCTED COVER IMAGE</text>
+</svg>

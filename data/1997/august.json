@@ -1,0 +1,184 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "August 1997",
+    "accession": "GTM-1997-08",
+    "dek": "GoldenEye arrives, Final Fantasy VII is almost here in North America, and the N64 suddenly has a shooter nobody quite expected to become a social landmark.",
+    "curatorNote": "GoldenEye date references conflict by region and source, especially around Europe. This exhibit treats August as the verified Japan/North America arrival and the start of the phenomenon.",
+    "statusChips": ["GoldenEye begins", "Bond on N64", "FFVII imminent", "late-summer shelf"]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "A licensed game starts becoming something stranger and larger.",
+      "items": [
+        {
+          "date": "August 23/25",
+          "title": "GoldenEye 007 launches in Japan and North America",
+          "body": "Rare's N64 shooter arrived with modest expectations and began the slow transformation into one of the console's defining multiplayer objects.",
+          "artifact": "Facility map memory",
+          "certainty": "verified Japan/North America dates",
+          "sourceNote": "Common references list Japan as August 23 and North America as August 25, 1997. European/UK date sources conflict, so no precise UK date is asserted here."
+        },
+        {
+          "date": "August 1997",
+          "title": "Final Fantasy VII nears Western shelves",
+          "body": "Square's RPG was close enough that North American marketing and magazine attention made it feel present before the disc reached most players.",
+          "artifact": "Pre-order card",
+          "certainty": "contextual",
+          "sourceNote": "North American release follows in September 1997; Europe follows in November."
+        },
+        {
+          "date": "August 1997",
+          "title": "UK N64 owners get a new argument",
+          "body": "Even where the local release date is contested by sources, GoldenEye's late-summer/late-1997 arrival became the game that changed the N64's reputation.",
+          "artifact": "Four-player split-screen",
+          "certainty": "regional date uncertain",
+          "sourceNote": "Some sources list Europe as August 25, while others list the UK as November 7. The exhibit avoids a fake exact UK date."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "August belongs to Bond, with Final Fantasy waiting just outside the door.",
+      "items": [
+        {
+          "date": "August 23/25",
+          "title": "GoldenEye 007",
+          "platform": "Nintendo 64",
+          "body": "Japan and North America release window for Rare's shooter, which would become the N64's social weapon.",
+          "signal": "Console FPS breakthrough",
+          "certainty": "verified Japan/North America dates",
+          "sourceNote": "Regional UK/Europe date left uncertain."
+        },
+        {
+          "date": "August 1997",
+          "title": "Mario Kart 64",
+          "platform": "Nintendo 64",
+          "body": "Still fresh in Europe, now joined by the idea that N64 multiplayer could mean shooting as well as racing.",
+          "signal": "Local multiplayer foundation",
+          "certainty": "contextual",
+          "sourceNote": "European release was June 24, 1997."
+        },
+        {
+          "date": "August 1997",
+          "title": "Final Fantasy VII",
+          "platform": "PlayStation",
+          "body": "A near-release presence in the West: previewed, advertised, and already mythic.",
+          "signal": "RPG marketing gravity",
+          "certainty": "pre-release context",
+          "sourceNote": "North American release follows in September."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "GoldenEye makes four controller ports feel less like a spec and more like a social contract.",
+      "items": [
+        {
+          "title": "Four controller ports",
+          "body": "GoldenEye gave the N64's built-in multiplayer hardware a new identity: competitive, secretive, and endlessly replayed.",
+          "specs": ["Four local players", "Split-screen", "No multitap required"],
+          "certainty": "contextual",
+          "sourceNote": "Derived from GoldenEye's multiplayer design and N64 hardware."
+        },
+        {
+          "title": "PlayStation memory-card seriousness",
+          "body": "As Final Fantasy VII approached, the humble memory card began to feel more important. RPG time needed somewhere to live.",
+          "specs": ["Save blocks", "Long-form RPG play", "Portable progress"],
+          "certainty": "contextual",
+          "sourceNote": "Final Fantasy VII Western release context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "The shelf starts dividing into Bond and Cloud.",
+      "items": [
+        {
+          "title": "GoldenEye coverage",
+          "month": "August 1997",
+          "publicationName": "N64 press",
+          "issueDate": "August 1997",
+          "headline": "Bond becomes playable",
+          "coverImage": "/magazine-covers/1997/n64-magazine-issue-7.svg",
+          "coverImageAlt": "Reconstructed N64 magazine-style cover image standing in for August 1997.",
+          "curatorNote": "Before it became folklore, GoldenEye had to be explained as a licensed shooter that somehow worked.",
+          "body": "Before it became folklore, GoldenEye had to be explained as a licensed shooter that somehow worked.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Specific August cover not asserted."
+        },
+        {
+          "title": "Final Fantasy VII countdown",
+          "month": "August 1997",
+          "publicationName": "PlayStation press",
+          "issueDate": "August 1997",
+          "headline": "The RPG blockbuster approaches",
+          "coverImage": "/magazine-covers/1997/opm-uk-november.svg",
+          "coverImageAlt": "Reconstructed PlayStation magazine-style cover image standing in for August 1997.",
+          "curatorNote": "Screenshots of Cloud and Midgar made the PlayStation feel like a cinema machine.",
+          "body": "Screenshots of Cloud and Midgar made the PlayStation feel like a cinema machine.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Specific August cover not asserted."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "GoldenEye was not online, but its reputation spread like it was.",
+      "items": [
+        {
+          "title": "Word of mouth did the network's job",
+          "body": "GoldenEye's multiplayer stories moved through friends, shops, school, and magazines."
+        },
+        {
+          "title": "FFVII rumours and guides gathered early",
+          "body": "Before many Western players owned it, Final Fantasy VII already had a trail of character names, screenshots, and speculation."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "August is the month the N64 learned a new tone.",
+      "items": [
+        {
+          "title": "Bond changed the room",
+          "body": "The N64 was no longer just bright colours and analogue wonder. It could be tense, competitive, and a little adult."
+        },
+        {
+          "title": "PlayStation felt cinematic",
+          "body": "Final Fantasy VII's approach made the console feel like it was about to host something larger than a game."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "GoldenEye 007 release context",
+      "url": "https://en.wikipedia.org/wiki/GoldenEye_007",
+      "note": "Used for Japan/North America dates and regional-date caution."
+    },
+    {
+      "label": "GoldenEye version context",
+      "url": "https://goldeneyedepot.com/versions",
+      "note": "Used for regional version/release context."
+    },
+    {
+      "label": "Final Fantasy VII release context",
+      "url": "https://en.wikipedia.org/wiki/Final_Fantasy_VII",
+      "note": "Used for September/November Western release build-up."
+    }
+  ]
+}

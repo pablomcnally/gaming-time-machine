@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Official UK PlayStation Magazine November 1997 reconstructed cover image</title>
+  <desc id="desc">A museum-style reconstructed magazine cover image for Official UK PlayStation Magazine, November 1997.</desc>
+  <rect width="900" height="1200" fill="#111827"/>
+  <rect x="58" y="58" width="784" height="1084" fill="none" stroke="#e5e7eb" stroke-width="8"/>
+  <text x="80" y="150" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="6">OFFICIAL UK</text>
+  <text x="80" y="242" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="84" font-weight="800">PLAYSTATION</text>
+  <text x="84" y="310" fill="#fca5a5" font-family="Arial, sans-serif" font-size="34" letter-spacing="10">MAGAZINE  NOV 1997</text>
+  <rect x="130" y="424" width="640" height="360" fill="#f9fafb" fill-opacity="0.08" stroke="#e5e7eb" stroke-width="4"/>
+  <text x="162" y="536" fill="#f9fafb" font-family="Arial, sans-serif" font-size="58" font-weight="700">FINAL FANTASY VII</text>
+  <text x="162" y="632" fill="#fca5a5" font-family="Arial, sans-serif" font-size="44" font-weight="700">TOMB RAIDER II</text>
+  <text x="162" y="712" fill="#bfdbfe" font-family="Arial, sans-serif" font-size="34" letter-spacing="7">DEMO DISC CULTURE</text>
+  <circle cx="680" cy="900" r="82" fill="#e5e7eb" fill-opacity="0.88"/>
+  <circle cx="680" cy="900" r="28" fill="#111827"/>
+  <text x="104" y="1062" fill="#f9fafb" font-family="Arial, sans-serif" font-size="34" letter-spacing="8">NEWSAGENT HARDWARE</text>
+  <text x="106" y="1112" fill="#d1d5db" font-family="Arial, sans-serif" font-size="23" letter-spacing="5">RECONSTRUCTED COVER IMAGE</text>
+</svg>

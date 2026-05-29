@@ -1,0 +1,189 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "March 1997",
+    "accession": "GTM-1997-03",
+    "dek": "The month the Nintendo 64 finally reached Europe, bringing Mario 64 into UK living rooms and turning cartridge prices into high-street conversation.",
+    "curatorNote": "March is one of 1997's clearest UK hardware months: the European N64 launch is the centre of the exhibit, with Turok, Doom 64, and Symphony of the Night providing wider platform texture.",
+    "statusChips": ["N64 UK launch", "Mario arrives", "cartridge debate", "arcade energy"]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Nintendo's 64-bit machine became a real British retail object.",
+      "items": [
+        {
+          "date": "March 1",
+          "title": "Nintendo 64 launches in Europe",
+          "body": "The N64 reached Europe and Australia with Super Mario 64, Pilotwings 64, and Star Wars: Shadows of the Empire as the launch shelf.",
+          "artifact": "Launch-day receipt",
+          "certainty": "verified date",
+          "sourceNote": "Centre for Computing History lists Europe and Australia launch as March 1, 1997 with three launch games."
+        },
+        {
+          "date": "March 4",
+          "title": "Turok tests the early N64 identity",
+          "body": "Acclaim's shooter became an important early third-party N64 showcase. It was violent, expensive, technically impressive, and often discussed through the console's fog.",
+          "artifact": "Cartridge box in glass",
+          "certainty": "verified North American date; regional timing may vary",
+          "sourceNote": "Giant Bomb lists March 4, 1997; some sources use nearby dates."
+        },
+        {
+          "date": "March 20",
+          "title": "Symphony of the Night launches in Japan",
+          "body": "Konami's PlayStation Castlevania arrived in Japan. Western players would wait, but the import aura began here.",
+          "artifact": "Japanese art-book note",
+          "certainty": "verified Japanese date",
+          "sourceNote": "Castlevania release-date references list Japan as March 20, 1997."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "March is unusually concrete: launch games, a flagship shooter, and arcade energy all at once.",
+      "items": [
+        {
+          "date": "March 1",
+          "title": "Super Mario 64",
+          "platform": "Nintendo 64",
+          "body": "European launch title and the clearest argument for buying the machine.",
+          "signal": "3D platform grammar",
+          "certainty": "verified European launch context",
+          "sourceNote": "Listed as one of the three European N64 launch titles."
+        },
+        {
+          "date": "March 1",
+          "title": "Pilotwings 64",
+          "platform": "Nintendo 64",
+          "body": "A slower, stranger launch companion: less mascot, more sensation of floating through early 3D space.",
+          "signal": "Analogue showcase",
+          "certainty": "verified European launch context",
+          "sourceNote": "Listed as one of the three European N64 launch titles."
+        },
+        {
+          "date": "March 1997",
+          "title": "Tekken 3",
+          "platform": "Arcade",
+          "body": "Namco's arcade fighter hit internationally in March, a reminder that arcades still had a technical glamour consoles chased.",
+          "signal": "Arcade prestige",
+          "certainty": "verified month",
+          "sourceNote": "Tekken 3 references list arcade release in March 1997, with PlayStation home release in 1998."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "The N64 made hardware conversation physical: analogue stick, four ports, cartridges, and a new controller shape.",
+      "items": [
+        {
+          "title": "The N64 controller as museum object",
+          "body": "Three prongs, one analogue stick, and a feeling that 3D movement required a new hand position.",
+          "specs": ["Analogue stick", "Four controller ports", "Cartridge slot"],
+          "certainty": "verified hardware context",
+          "sourceNote": "European launch and launch titles are verified; controller context is descriptive."
+        },
+        {
+          "title": "PlayStation as the established shelf",
+          "body": "The N64 was new, but the PlayStation already owned breadth: cheaper CD-ROMs, demo discs, and a growing library.",
+          "specs": ["CD-ROM pricing", "Memory cards", "Demo discs"],
+          "certainty": "contextual",
+          "sourceNote": "Included as UK retail context around N64 launch."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "March magazine pages felt like instruction labels for a new machine.",
+      "items": [
+        {
+          "title": "N64 launch issue culture",
+          "month": "March 1997",
+          "publicationName": "UK Nintendo and multiformat press",
+          "issueDate": "March 1997",
+          "headline": "Mario 64, launch verdicts and cartridge debate",
+          "coverImage": "/magazine-covers/1997/n64-magazine-issue-7.svg",
+          "coverImageAlt": "Reconstructed N64 magazine-style cover image standing in for March 1997.",
+          "curatorNote": "The launch issue was both review and buyer's guide: it explained how to hold the future.",
+          "body": "The launch issue was both review and buyer's guide: it explained how to hold the future.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Specific cover not asserted."
+        },
+        {
+          "title": "Arcade pages still mattered",
+          "month": "March 1997",
+          "publicationName": "Arcade and multiformat press",
+          "issueDate": "March 1997",
+          "headline": "Tekken 3 in the arcade bloodstream",
+          "coverImage": "/magazine-covers/1997/gamepro-october.svg",
+          "coverImageAlt": "Reconstructed arcade magazine-style cover image standing in for March 1997.",
+          "curatorNote": "Even in a console launch month, arcades still looked like the sharper screen.",
+          "body": "Even in a console launch month, arcades still looked like the sharper screen.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Tekken 3 arcade month is sourced; cover is a reconstruction."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Console excitement was local; PC connection stayed deliberate.",
+      "items": [
+        {
+          "title": "The launch was offline",
+          "body": "The N64 arrived as a living-room object, not a network platform. Its social life was a sofa, not a server."
+        },
+        {
+          "title": "PC players kept logging in",
+          "body": "Diablo and QuakeWorld kept the modem relevant in a month dominated by console retail spectacle."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "March 1997 is the sound of a new box being opened.",
+      "items": [
+        {
+          "title": "Mario made the argument",
+          "body": "You could complain about cartridges until someone handed you the controller and let you run around the castle."
+        },
+        {
+          "title": "The price was part of the texture",
+          "body": "N64 games felt substantial partly because they were expensive enough to require negotiation."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Nintendo 64 European launch",
+      "url": "https://www.computinghistory.org.uk/det/71742/Nintendo-releases-the-Nintendo-64/",
+      "note": "Used for March 1 launch and launch titles."
+    },
+    {
+      "label": "Turok release context",
+      "url": "https://www.giantbomb.com/turok-dinosaur-hunter/3030-14614/",
+      "note": "Used for the March 1997 Turok anchor."
+    },
+    {
+      "label": "Castlevania release dates",
+      "url": "https://castlevania.fandom.com/wiki/Castlevania:_Symphony_of_the_Night/Release_dates",
+      "note": "Used for March 20 Japanese release."
+    },
+    {
+      "label": "Tekken 3 arcade release context",
+      "url": "https://www.mobygames.com/game/3569/tekken-3/",
+      "note": "Used for March 1997 arcade release month."
+    }
+  ]
+}

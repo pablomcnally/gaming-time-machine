@@ -1,0 +1,388 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "October 1997",
+    "accession": "GTM-1997-10",
+    "dek": "A museum case for the month when PlayStation queues, N64 rumble, PC strategy, import chatter, and modem patience all shared the same carpeted room.",
+    "curatorNote": "This researched draft treats October 1997 as a UK-aware exhibit: the month of Lylat Wars and Rumble Pak on British shelves, Edge issue 50 at the newsagent, and a wider release calendar whose exact dates often shift by region.",
+    "statusChips": ["UK-aware", "source-noted", "32-bit winter", "dial-up culture"]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five moments that made October feel less like a date on a calendar and more like a threshold between boxed media and networked play.",
+      "items": [
+        {
+          "date": "October 2/3",
+          "title": "Castlevania: Symphony of the Night finally reaches North America",
+          "body": "Konami's PlayStation gothic adventure arrived in North America at the start of the month, while European players were still waiting for the PAL release. In hindsight it looks like a museum object from the future: 2D craft surviving inside the 3D boom.",
+          "artifact": "Import review clipping",
+          "certainty": "verified date range; sources differ by one day",
+          "sourceNote": "Castlevania release-date listings give North America as October 2 or October 3, 1997; Europe follows in November 1997."
+        },
+        {
+          "date": "October 10",
+          "title": "Fallout opens the vault",
+          "body": "Interplay's post-nuclear PC RPG launched in North America for MS-DOS and Windows. It was not a loud console-window event in Britain, but for PC players it made moral choice, text, and consequence feel newly radioactive.",
+          "artifact": "Big-box PC manual",
+          "certainty": "verified North American release",
+          "sourceNote": "Fallout Wiki and Wikipedia both list October 10, 1997 for the original Fallout release."
+        },
+        {
+          "date": "October 15",
+          "title": "Age of Empires makes history playable",
+          "body": "Microsoft and Ensemble Studios released Age of Empires, turning ancient history into a CD-ROM ritual of villagers, tech trees, and skirmishes that could swallow an evening at the family PC.",
+          "artifact": "Tech tree foldout",
+          "certainty": "verified release date",
+          "sourceNote": "Age of Empires references list October 15, 1997 as the first release date."
+        },
+        {
+          "date": "October 20",
+          "title": "Lylat Wars and the Rumble Pak land in Europe",
+          "body": "Nintendo UK's Lylat Wars page lists a 20 October 1997 release. For British N64 owners, the game made vibration feel less like a novelty and more like a new sense built into the controller.",
+          "artifact": "Rumble Pak battery door",
+          "certainty": "verified Nintendo UK date",
+          "sourceNote": "Nintendo UK lists Lylat Wars for Nintendo 64 with a 20/10/1997 release date."
+        },
+        {
+          "date": "October issue",
+          "title": "Edge issue 50 turns the newsagent into a preview room",
+          "body": "Future Publishing's Edge issue 50, dated October 1997, gathered previews and CD-ROM material for Grand Theft Auto, Zelda 64, Tomb Raider 2, Panzer Dragoon Saga, Quake, and more. In the UK, that kind of cover-mounted media was part news, part shrine.",
+          "artifact": "Cover-mounted CD-ROM",
+          "certainty": "verified issue listing",
+          "sourceNote": "The Centre for Computing History listing for Edge issue 50 records its October 1997 publication date and preview contents."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable October-window releases. Dates are regional where possible; uncertain or conflicting entries are marked rather than smoothed over.",
+      "items": [
+        {
+          "date": "Oct 2/3",
+          "title": "Castlevania: Symphony of the Night",
+          "platform": "PlayStation",
+          "body": "North American PlayStation release; European release followed in November. A 2D landmark arriving while the industry was talking almost entirely in polygons.",
+          "signal": "Gothic 2D survival",
+          "certainty": "verified date range; not UK release",
+          "sourceNote": "Castlevania Wiki lists October 2, 1997 for North America; Wikipedia lists October 3, 1997."
+        },
+        {
+          "date": "Oct 10",
+          "title": "Fallout",
+          "platform": "MS-DOS / Windows",
+          "body": "North American PC release of Interplay's post-apocalyptic role-playing game, notable for tone, consequence, and a harsher kind of humour than most fantasy RPGs.",
+          "signal": "PC role-playing grows teeth",
+          "certainty": "verified North American release",
+          "sourceNote": "Fallout Wiki and Wikipedia list October 10, 1997."
+        },
+        {
+          "date": "Oct 15",
+          "title": "Age of Empires",
+          "platform": "Windows",
+          "body": "The first Age of Empires made ancient history into a real-time strategy toybox, complete with scenario-making and multiplayer potential.",
+          "signal": "Strategy goes ancient",
+          "certainty": "verified release date",
+          "sourceNote": "Age of Empires references list October 15, 1997."
+        },
+        {
+          "date": "Oct 15 / Oct 24",
+          "title": "G-Police",
+          "platform": "PlayStation / Windows",
+          "body": "Psygnosis' sci-fi police craft game belongs firmly to the autumn 1997 UK PlayStation mood: ambitious, cinematic, and slightly fogged by draw distance.",
+          "signal": "Psygnosis spectacle",
+          "certainty": "uncertain exact European date",
+          "sourceNote": "Push Square lists a UK/Europe PlayStation date of 15 October 1997; VGMdb lists 24 October 1997 for Europe. Kept as uncertain."
+        },
+        {
+          "date": "Oct 20",
+          "title": "Lylat Wars",
+          "platform": "Nintendo 64",
+          "body": "The European Star Fox 64 release, bundled in memory with the Rumble Pak sensation even when the accessory itself became the bigger playground story.",
+          "signal": "Vibration arrives in Britain",
+          "certainty": "verified Nintendo UK date",
+          "sourceNote": "Nintendo UK lists Lylat Wars release date as 20/10/1997."
+        },
+        {
+          "date": "Oct 21",
+          "title": "Monopoly Star Wars",
+          "platform": "Windows",
+          "body": "A very 1997 artefact: the Star Wars Special Edition moment translated into a CD-ROM board game with multimedia sheen.",
+          "signal": "Licensed CD-ROM culture",
+          "certainty": "verified release date",
+          "sourceNote": "Monopoly Star Wars references list October 21, 1997."
+        },
+        {
+          "date": "Oct 31",
+          "title": "Fighting Force",
+          "platform": "PlayStation",
+          "body": "Core Design and Eidos pushed the belt-scroller into polygonal streets. The exact feel was modern arcade bravado: big fists, blocky bodies, and a British studio name on the box.",
+          "signal": "3D beat-'em-up",
+          "certainty": "release date from secondary databases",
+          "sourceNote": "Giant Bomb, IMDb, and Grouvee list October 31, 1997; treated as sourced secondary data."
+        },
+        {
+          "date": "Late Oct / early Nov",
+          "title": "Crash Bandicoot 2: Cortex Strikes Back",
+          "platform": "PlayStation",
+          "body": "Naughty Dog's sequel sat on the edge of October in many modern listings, though reliable sources conflict between October 31 and early November for North America. UK players were still looking ahead to the December PAL release.",
+          "signal": "Mascot sequel fever",
+          "certainty": "uncertain exact North American date",
+          "sourceNote": "Crash Bandicoot Wiki and IMDb list October 31, 1997; Wikipedia lists November 6, 1997 and Europe as December 5. Marked uncertain."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "The machines were teaching players new bodily habits: rumble, analogue sticks, graphics cards, and the etiquette of the household phone line.",
+      "items": [
+        {
+          "title": "Nintendo 64 Rumble Pak",
+          "body": "By October, the European Rumble Pak moment arrived with Lylat Wars. It made impact tactile, but also made AAA batteries part of the ritual.",
+          "specs": ["European launch window: October 1997", "Controller slot accessory", "Force feedback as novelty and promise"],
+          "certainty": "verified context",
+          "sourceNote": "Rumble Pak references list Europe in October 1997; Nintendo UK lists Lylat Wars on 20/10/1997."
+        },
+        {
+          "title": "PlayStation Dual Analog",
+          "body": "Sony's Dual Analog Controller had launched in Japan in April 1997, placing two sticks into the PlayStation conversation before the DualShock became the familiar standard.",
+          "specs": ["Japan: April 1997", "Twin analogue sticks", "Pre-DualShock transition hardware"],
+          "certainty": "verified Japan date",
+          "sourceNote": "Guinness World Records and PlayStation controller histories list the Dual Analog's Japanese release in April 1997."
+        },
+        {
+          "title": "3dfx Voodoo and the PC upgrade itch",
+          "body": "By late 1997, 3dfx Voodoo Graphics and Glide had become a shorthand for the PC owner who could make games look impossibly smooth, provided the family machine had the right card inside.",
+          "specs": ["Glide API", "3D accelerator culture", "PC boxes as compatibility tests"],
+          "certainty": "verified broad context",
+          "sourceNote": "3dfx histories and Glide manuals document the 1996-1997 Voodoo/Glide ecosystem; 3dfx was widely adopted by end of 1997."
+        },
+        {
+          "title": "Dial-up Britain",
+          "body": "The internet was present but not ambient. UK reporting in October 1997 described roughly one in 25 households as having an internet connection, which meant online gaming still felt scheduled, precious, and interruptible.",
+          "specs": ["Phone-line contention", "Low household access", "FAQs and server lists over always-on feeds"],
+          "certainty": "verified UK context",
+          "sourceNote": "The Independent reported in October 1997 that one in 25 UK households had an internet connection; Ipsos later summarised 1997 home ISP access at about 5%."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "The newsagent shelf was the algorithm. Covers, preview discs, and tips booklets told you where the future was supposed to be.",
+      "items": [
+        {
+          "title": "Edge #50",
+          "month": "October 1997",
+          "publicationName": "Edge #50",
+          "issueDate": "October 1997",
+          "headline": "GTA, Zelda 64, Tomb Raider 2 and the year's biggest games",
+          "palette": "teal",
+          "coverImage": "/magazine-covers/1997/edge-50-october.svg",
+          "coverImageAlt": "Reconstructed cover image for Edge issue 50, October 1997.",
+          "curatorNote": "A UK Future Publishing issue that reads like a map of the next six months: Grand Theft Auto, Zelda 64, Tomb Raider 2, Panzer Dragoon Saga, Quake, and a CD-ROM preview culture all in one object.",
+          "body": "A UK Future Publishing issue that reads like a map of the next six months: Grand Theft Auto, Zelda 64, Tomb Raider 2, Panzer Dragoon Saga, Quake, and a CD-ROM preview culture all in one object.",
+          "certainty": "verified issue listing",
+          "sourceNote": "Centre for Computing History lists Edge issue 50, October 1997, with preview and CD-ROM contents."
+        },
+        {
+          "title": "N64 Magazine Issue 7",
+          "month": "October 1997",
+          "publicationName": "N64 Magazine Issue 7",
+          "issueDate": "October 1997",
+          "headline": "Yoshi's Story, Diddy Kong Racing and GoldenEye import fever",
+          "palette": "gold",
+          "coverImage": "/magazine-covers/1997/n64-magazine-issue-7.svg",
+          "coverImageAlt": "Reconstructed cover image standing in for N64 Magazine issue 7, October 1997.",
+          "curatorNote": "A very British N64 snapshot: Yoshi on the cover, Diddy Kong Racing nearly ready, UK reviews for Doom 64 and others, and GoldenEye import coverage glowing at 94%.",
+          "body": "A very British N64 snapshot: Yoshi on the cover, Diddy Kong Racing nearly ready, UK reviews for Doom 64 and others, and GoldenEye import coverage glowing at 94%.",
+          "certainty": "verified issue listing",
+          "sourceNote": "Nintendo Mags lists N64 Magazine issue 7 as October 1997 and summarises cover and contents."
+        },
+        {
+          "title": "Official Nintendo Magazine",
+          "month": "October 1997",
+          "publicationName": "Official Nintendo Magazine",
+          "issueDate": "October 1997",
+          "headline": "Diddy Kong Racing, GoldenEye 007, Zelda and a tips booklet",
+          "palette": "gold",
+          "coverImage": "/magazine-covers/1997/official-nintendo-magazine-october.svg",
+          "coverImageAlt": "Reconstructed cover image for Official Nintendo Magazine, October 1997.",
+          "curatorNote": "The cover as equipment: an official Nintendo licence, Diddy Kong Racing anticipation, GoldenEye presence, and a tips booklet physically attached to the issue.",
+          "body": "The cover as equipment: an official Nintendo licence, Diddy Kong Racing anticipation, GoldenEye presence, and a tips booklet physically attached to the issue.",
+          "certainty": "verified issue listing",
+          "sourceNote": "Centre for Computing History lists Official Nintendo Magazine October 1997 and notes the attached tips booklet."
+        },
+        {
+          "title": "Nintendo Power #101",
+          "month": "October 1997",
+          "publicationName": "Nintendo Power #101",
+          "issueDate": "October 1997",
+          "headline": "Extreme-G: Speed Zone Ahead",
+          "palette": "teal",
+          "coverImage": "/magazine-covers/1997/nintendo-power-101.svg",
+          "coverImageAlt": "Reconstructed cover image for Nintendo Power issue 101, October 1997.",
+          "curatorNote": "A North American counterpoint on the shelf: futuristic racing, Mace: The Dark Age, Mischief Makers, and the bright certainty that the N64 still had speed to sell.",
+          "body": "A North American counterpoint on the shelf: futuristic racing, Mace: The Dark Age, Mischief Makers, and the bright certainty that the N64 still had speed to sell.",
+          "certainty": "verified collector listing",
+          "sourceNote": "Original Magazines and Emuparadise listings identify Nintendo Power #101 as October 1997 with Extreme-G cover focus."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Going online still felt like an event: switch on, dial in, wait, search, print, disconnect.",
+      "items": [
+        {
+          "title": "Dial-up was household negotiation",
+          "body": "In Britain, the internet was still rare enough to feel special. The phone line mattered; a parent picking up downstairs could end the session as surely as a boss fight.",
+          "certainty": "verified UK adoption context",
+          "sourceNote": "The Independent reported one in 25 UK households online in October 1997; Ipsos later summarised 1997 home ISP access at about 5%."
+        },
+        {
+          "title": "Server lists felt like treasure maps",
+          "body": "QuakeWorld had already changed PC multiplayer, and tools around Quake server browsing helped define the shape of late-1990s online play. You found an address, copied it carefully, and hoped the ping behaved.",
+          "certainty": "verified broad context",
+          "sourceNote": "QuakeWorld references place its release in December 1996; GameSpy histories trace the QSpy/GameSpy server-browser lineage through 1996-1997."
+        },
+        {
+          "title": "FAQs were pocket guides",
+          "body": "Game help moved through plain-text walkthroughs, Usenet posts, and fan pages. Many players still printed pages, folded them, and carried them back to the console.",
+          "certainty": "contextual; not tied to a single October event",
+          "sourceNote": "Included as cultural context rather than a dated news claim."
+        },
+        {
+          "title": "Cover discs were broadband by post",
+          "body": "For many UK players, demo discs and magazine CD-ROMs were the most reliable way to encounter videos, playable demos, and previews without waiting on a modem.",
+          "certainty": "verified magazine context",
+          "sourceNote": "Edge issue 50 is listed with a CD-ROM previewing major games; Official U.S. PlayStation Magazine also launched with demo-disc culture in late September/October 1997."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A narrative rather than a timeline: October 1997 as remembered through shops, bedrooms, magazines, and the hum of hardware.",
+      "items": [
+        {
+          "title": "The future arrived unevenly",
+          "body": "One house had a PlayStation, another had an N64, another had a PC that could just about run the new strategy game if nothing else was open. Visiting a friend could feel like crossing a platform border."
+        },
+        {
+          "title": "The UK shelf had its own weather",
+          "body": "American dates appeared in magazines, Japanese imports haunted preview pages, and PAL releases landed when they landed. The waiting was not a bug in the culture; it was part of the culture."
+        },
+        {
+          "title": "Paper made games bigger",
+          "body": "A cover line could keep a school lunch table busy for a week. An attached tips booklet could feel like an upgrade. A CD-ROM on the cover was not a supplement; it was a small door."
+        },
+        {
+          "title": "Everything was becoming touchable",
+          "body": "Rumble, twin sticks, 3D cards, and online server lists all suggested the same thing: games were starting to push out of the screen and into the hands, the room, and the phone line."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Nintendo UK: Lylat Wars release date",
+      "url": "https://www.nintendo.com/en-gb/Games/Nintendo-64/Lylat-Wars-277897.html",
+      "note": "Used for the verified UK/Europe date of 20/10/1997."
+    },
+    {
+      "label": "Centre for Computing History: Edge issue 50",
+      "url": "https://www.computinghistory.org.uk/det/43354/Edge-Issue-50-October-1997/",
+      "note": "Used for Edge issue date and preview/CD-ROM contents."
+    },
+    {
+      "label": "Centre for Computing History: Official Nintendo Magazine October 1997",
+      "url": "https://www.computinghistory.org.uk/det/68373/Official-Nintendo-Magazine-October-1997/",
+      "note": "Used for ONM October 1997 contents and attached tips booklet note."
+    },
+    {
+      "label": "Nintendo Mags: N64 Magazine issue 7",
+      "url": "https://www.nintendomags.com/magazines/n64-magazine/issue7/",
+      "note": "Used for UK N64 Magazine issue 7 content summary."
+    },
+    {
+      "label": "Original Magazines: Nintendo Power #101",
+      "url": "https://www.originalmagazines.com/products/nintendo-power-magazine-101-october-1997-extreme-6-speed-zone-ahead-w-poster",
+      "note": "Used for Nintendo Power issue 101 cover identification."
+    },
+    {
+      "label": "Fallout Wiki: Fallout release",
+      "url": "https://fallout.wiki/wiki/Fallout",
+      "note": "Used for October 10, 1997 release date."
+    },
+    {
+      "label": "Age of Empires reference",
+      "url": "https://en.wikipedia.org/wiki/Age_of_Empires",
+      "note": "Used for October 15, 1997 first release date."
+    },
+    {
+      "label": "Castlevania release-date reference",
+      "url": "https://castlevania.fandom.com/wiki/Castlevania%3A_Symphony_of_the_Night/Release_dates",
+      "note": "Used for North American and European release-date context."
+    },
+    {
+      "label": "Crash Bandicoot 2 release-date reference",
+      "url": "https://crashbandicootwiki.com/wiki/Crash_Bandicoot_2:_Cortex_Strikes_Back",
+      "note": "Used for the October 31 date while noting conflict with other references."
+    },
+    {
+      "label": "G-Police release-date references",
+      "url": "https://www.pushsquare.com/games/ps1/g-police",
+      "note": "Used with VGMdb to mark the exact European date as uncertain."
+    },
+    {
+      "label": "VGMdb: G-Police date reference",
+      "url": "https://vgmdb.net/product/19381",
+      "note": "Used as the conflicting 24 October 1997 Europe date for G-Police."
+    },
+    {
+      "label": "Monopoly Star Wars release reference",
+      "url": "https://en.wikipedia.org/wiki/Monopoly_Star_Wars",
+      "note": "Used for the October 21, 1997 Windows release."
+    },
+    {
+      "label": "Giant Bomb: Fighting Force date reference",
+      "url": "https://www.giantbomb.com/fighting-force/3030-14996/",
+      "note": "Used as a secondary source for the October 31, 1997 Fighting Force date."
+    },
+    {
+      "label": "Rumble Pak context",
+      "url": "https://en.wikipedia.org/wiki/Rumble_Pak",
+      "note": "Used for Europe October 1997 Rumble Pak context."
+    },
+    {
+      "label": "The Independent: UK internet access in October 1997",
+      "url": "https://www.the-independent.com/news/technology-internet-spreads-its-web-1235920.html",
+      "note": "Used for UK household internet context."
+    },
+    {
+      "label": "Guinness World Records: PlayStation Dual Analog",
+      "url": "https://www.guinnessworldrecords.com/world-records/88345-first-dual-analog-controller-for-a-videogame-console",
+      "note": "Used for the April 1997 Japanese Dual Analog context."
+    },
+    {
+      "label": "3dfx / Glide reference material",
+      "url": "https://bitsavers.computerhistory.org/components/3dfx/Glide_Reference_Manual_2.4_199707.pdf",
+      "note": "Used for 1997 Glide/Voodoo context."
+    },
+    {
+      "label": "QuakeWorld / online multiplayer context",
+      "url": "https://quake.fandom.com/wiki/QuakeWorld",
+      "note": "Used for QuakeWorld online-play context; not an October 1997 release claim."
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "November 1997",
+    "accession": "GTM-1997-11",
+    "dek": "The month when Lara Croft returned, GoldenEye kept four controllers warm, PC players watched the Quake II countdown, and the Christmas shelves began to feel heavy.",
+    "curatorNote": "This November exhibit is UK-aware rather than date-obsessed: exact day-level release dates are only used where multiple sources agree, and uncertain items are labelled as November or late 1997.",
+    "statusChips": ["Lara returns", "GoldenEye momentum", "Christmas shelves", "PC CD-ROM pressure"]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "A month of arrivals, aftershocks, and the particular UK sensation that the high street was setting its Christmas display early.",
+      "items": [
+        {
+          "date": "November 1997",
+          "title": "Tomb Raider II becomes the November object of attention",
+          "body": "Core Design and Eidos put Lara Croft back into the centre of the PlayStation conversation. Modern databases often list 21 November 1997 for North America and Europe, while a contemporary UK business report says the game had launched in the US the previous week and had just reached the UK by 28 November.",
+          "artifact": "Lara window display",
+          "certainty": "verified month; exact UK day disputed",
+          "sourceNote": "Wikipedia and Push Square list 21 November 1997; The Independent on 28 November 1997 says Tomb Raider II was released in the UK the previous day."
+        },
+        {
+          "date": "November 1997",
+          "title": "GoldenEye 007 becomes a Christmas multiplayer machine",
+          "body": "Rare's N64 shooter was not new in November, but its UK momentum was unmistakable: a late-August release had turned into word-of-mouth, sleepovers, and four-player split-screen arguments before Christmas.",
+          "artifact": "Four-controller knot",
+          "certainty": "contextual momentum, not a new release",
+          "sourceNote": "Nintendo Life and Giant Bomb list the UK/Europe GoldenEye 007 date as 25 August 1997; November entry describes continued holiday momentum."
+        },
+        {
+          "date": "November 1997",
+          "title": "Fallout settles into the PC RPG conversation",
+          "body": "After its October launch, Fallout began to feel less like one more boxed RPG and more like a whispered recommendation: darker, funnier, and more willing to let a player make a mess.",
+          "artifact": "Printed walkthrough pages",
+          "certainty": "contextual post-release reception",
+          "sourceNote": "Fallout release is sourced to October 10, 1997; this November note describes post-launch conversation rather than a new dated event."
+        },
+        {
+          "date": "Late 1997",
+          "title": "Gran Turismo waits just beyond the glass in Japan",
+          "body": "Polyphony Digital's Gran Turismo had not yet launched, but Japanese PlayStation anticipation was part of the late-1997 air. Its 23 December Japanese release would arrive just after this exhibit month.",
+          "artifact": "Import preview note",
+          "certainty": "verified future release date",
+          "sourceNote": "Official Gran Turismo product pages list the Japanese release date as 23 December 1997."
+        },
+        {
+          "date": "Late 1997",
+          "title": "Quake II approaches on PC",
+          "body": "id Software's next shooter was still imminent in November. PC players were already thinking about OpenGL, deathmatch, hardware, and whether their machines were ready for December.",
+          "artifact": "Graphics card advert",
+          "certainty": "verified future release date",
+          "sourceNote": "Quake II references list 9 December 1997 in North America and 12 December 1997 in Europe."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Not a fake day-by-day calendar: a shelf record of what was newly arrived, freshly reviewed, or looming over November 1997.",
+      "items": [
+        {
+          "date": "November 1997",
+          "title": "Tomb Raider II",
+          "platform": "PlayStation / Windows",
+          "body": "The month's headline retail object: Core Design's sequel put Lara Croft back into the high-street window and into the UK games press bloodstream.",
+          "signal": "Lara Croft returns",
+          "certainty": "verified month; exact UK day disputed",
+          "sourceNote": "See news item source note; 21 November appears in many modern references, while The Independent implies a UK release around 27 November."
+        },
+        {
+          "date": "Late 1997",
+          "title": "GoldenEye 007",
+          "platform": "Nintendo 64",
+          "body": "A summer release that behaved like a winter system-seller. By November it was less a new game than a reason to ask for extra controllers.",
+          "signal": "N64 living-room gravity",
+          "certainty": "not a November release",
+          "sourceNote": "UK/Europe release date listed as 25 August 1997; included for November momentum."
+        },
+        {
+          "date": "Late 1997",
+          "title": "Fallout",
+          "platform": "MS-DOS / Windows",
+          "body": "Still fresh from October, Fallout occupied the PC shelf as the colder, stranger RPG next to brighter fantasy boxes.",
+          "signal": "PC role-playing aftershock",
+          "certainty": "not a November release",
+          "sourceNote": "Fallout release date is October 10, 1997; included as post-launch context."
+        },
+        {
+          "date": "Late 1997",
+          "title": "Quake II",
+          "platform": "Windows",
+          "body": "Not out yet, but close enough to bend magazine previews and PC upgrade fantasies around itself.",
+          "signal": "PC shooter countdown",
+          "certainty": "future release",
+          "sourceNote": "Quake II released in December 1997; this item is anticipation, not a November launch."
+        },
+        {
+          "date": "Late 1997",
+          "title": "Gran Turismo",
+          "platform": "PlayStation",
+          "body": "The Japanese launch was still weeks away, but the promise of car culture, licence tests, and real-world handling was becoming visible through import previews.",
+          "signal": "Driving sim anticipation",
+          "certainty": "future release",
+          "sourceNote": "Official Gran Turismo pages list 23 December 1997 for Japan."
+        },
+        {
+          "date": "November 1997",
+          "title": "Christmas 1997 shelves",
+          "platform": "PlayStation / Nintendo 64 / PC CD-ROM",
+          "body": "The release story was also retail: PlayStation breadth, N64 exclusives, and PC CD-ROM boxes fought for the same gift-list space.",
+          "signal": "Buying pressure",
+          "certainty": "contextual retail trend",
+          "sourceNote": "Forbes, The Independent, and Eidos marketing coverage describe PlayStation/N64 competition, Christmas game promotions, and Tomb Raider II campaign pressure."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "The November machine room: consoles under trees, PCs under strain, and accessories becoming part of the social ritual.",
+      "items": [
+        {
+          "title": "PlayStation as the safe Christmas bet",
+          "body": "By winter 1997, PlayStation's catalogue depth made it feel like the high-street default: Tomb Raider II, Final Fantasy VII, demos, memory cards, and a wall of third-party boxes.",
+          "specs": ["Large software library", "Memory-card ritual", "Demo-disc ecosystem"],
+          "certainty": "contextual market position",
+          "sourceNote": "Forbes' 1997 PlayStation-versus-N64 coverage discusses PlayStation's software shipment advantage over Nintendo 64."
+        },
+        {
+          "title": "Nintendo 64 as the multiplayer argument",
+          "body": "The N64's UK Christmas strength was social: GoldenEye, Mario Kart 64, Lylat Wars rumble, and the promise that four controller ports could turn one room into a tournament.",
+          "specs": ["Four controller ports", "GoldenEye split-screen", "Rumble Pak context"],
+          "certainty": "contextual",
+          "sourceNote": "GoldenEye UK/Europe release date is sourced to August 1997; Lylat Wars/Rumble Pak context is sourced to October 1997."
+        },
+        {
+          "title": "PC CD-ROM as upgrade anxiety",
+          "body": "A PC game box was still a checklist: processor, RAM, CD-ROM speed, sound card, DirectX, and increasingly whether your graphics hardware could do the future justice.",
+          "specs": ["DirectX-era setup", "3D accelerator pressure", "Patch and driver culture"],
+          "certainty": "contextual",
+          "sourceNote": "3dfx/Glide and Quake II context support the late-1997 PC graphics-card pressure."
+        },
+        {
+          "title": "The magazine demo disc",
+          "body": "For many UK players, a cover-mounted demo disc was a hardware-adjacent object: something the console or PC physically consumed, turning the magazine into a playable exhibit.",
+          "specs": ["Playable previews", "Shop-bought discovery", "No broadband required"],
+          "certainty": "contextual UK magazine culture",
+          "sourceNote": "Official UK PlayStation Magazine listings and Edge issue records support the demo-disc/cover-disc context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "The November shelf was a forecast: Lara, Bond, Final Fantasy, Quake II, and Christmas buying pressure compressed into cover lines.",
+      "items": [
+        {
+          "title": "Official UK PlayStation Magazine #25",
+          "month": "November 1997",
+          "publicationName": "Official UK PlayStation Magazine #25",
+          "issueDate": "November 1997",
+          "headline": "Final Fantasy VII, Tomb Raider II and demo-disc culture",
+          "coverImage": "/magazine-covers/1997/opm-uk-november.svg",
+          "coverImageAlt": "Reconstructed cover image for Official UK PlayStation Magazine issue 25, November 1997.",
+          "curatorNote": "A PlayStation newsagent object: Final Fantasy VII as cultural prestige, Tomb Raider II on the near horizon, and a playable disc as part of the purchase.",
+          "body": "A PlayStation newsagent object: Final Fantasy VII as cultural prestige, Tomb Raider II on the near horizon, and a playable disc as part of the purchase.",
+          "certainty": "collector listing",
+          "sourceNote": "Pyro Games lists Official UK PlayStation Magazine November 1997 issue 25 with Final Fantasy VII and Tomb Raider II tags."
+        },
+        {
+          "title": "N64 Magazine Issue 8",
+          "month": "November 1997",
+          "publicationName": "N64 Magazine Issue 8",
+          "issueDate": "November 1997",
+          "headline": "GoldenEye, Yoshi, Diddy Kong Racing and the N64 winter",
+          "coverImage": "/magazine-covers/1997/n64-magazine-issue-7.svg",
+          "coverImageAlt": "Reconstructed cover image standing in for N64 Magazine issue 8, November 1997.",
+          "curatorNote": "The N64 press in November carried the afterglow of GoldenEye and the feeling that Nintendo's European Christmas had finally begun.",
+          "body": "The N64 press in November carried the afterglow of GoldenEye and the feeling that Nintendo's European Christmas had finally begun.",
+          "certainty": "issue month verified",
+          "sourceNote": "Retromags and Magazines from the Past list N64 issue 8 with cover date November 1997."
+        },
+        {
+          "title": "GamePro November 1997",
+          "month": "November 1997",
+          "publicationName": "GamePro",
+          "issueDate": "November 1997",
+          "headline": "Tomb Raider II, Final Fantasy VII, Oddworld",
+          "coverImage": "/magazine-covers/1997/gamepro-november.svg",
+          "coverImageAlt": "Reconstructed cover image for GamePro, November 1997.",
+          "curatorNote": "A North American counterpoint to the UK shelf, but its cover lines mirror the same holiday pressure: Lara, Square, and cinematic PlayStation worlds.",
+          "body": "A North American counterpoint to the UK shelf, but its cover lines mirror the same holiday pressure: Lara, Square, and cinematic PlayStation worlds.",
+          "certainty": "collector listing",
+          "sourceNote": "Noble Knight lists GamePro November 1997 with Tomb Raider II, Final Fantasy VII, and Oddworld cover line."
+        },
+        {
+          "title": "Edge November 1997",
+          "month": "November 1997",
+          "publicationName": "Edge",
+          "issueDate": "November 1997",
+          "headline": "The waiting room: Gran Turismo, Quake II and Lara Croft",
+          "coverImage": "/magazine-covers/1997/edge-51-november.svg",
+          "coverImageAlt": "Reconstructed cover image for Edge, November 1997.",
+          "curatorNote": "Included as a UK high-street placeholder for the premium-magazine mood: fewer cheats, more future tense, and a colder view of where games were going.",
+          "body": "Included as a UK high-street placeholder for the premium-magazine mood: fewer cheats, more future tense, and a colder view of where games were going.",
+          "certainty": "contextual magazine entry; issue-specific cover line not independently verified",
+          "sourceNote": "Kept deliberately cautious: Edge issue 50 is verified for October; this November entry reflects UK magazine context rather than a confirmed exact cover scan."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Still noisy, still scheduled, still slightly magical when it worked.",
+      "items": [
+        {
+          "title": "Tomb Raider II hints travelled fast enough",
+          "body": "The web was not yet the first place most UK players went, but walkthroughs, newsgroups, and fan pages could already make a new release feel mapped within days."
+        },
+        {
+          "title": "Quake II anticipation lived online before release",
+          "body": "The PC shooter crowd used websites, FTP mirrors, server tools, and hardware talk as part of the waiting ritual. The game had not arrived yet, but the conversation had."
+        },
+        {
+          "title": "GoldenEye was mostly offline, socially online",
+          "body": "Its multiplayer legend moved by word of mouth, magazines, school talk, and living-room sessions rather than internet matchmaking."
+        },
+        {
+          "title": "Demo discs were still faster than the modem",
+          "body": "For many homes, the most reliable monthly download was the disc stuck to the front of a magazine."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "November 1997 as a month of wanting: wanting the sequel, the extra controller, the better PC, the right magazine, the Christmas answer.",
+      "items": [
+        {
+          "title": "The high street felt curated",
+          "body": "HMV, Electronics Boutique, Dixons, WHSmith, and the local independent did not just sell games. In November, they arranged the future under fluorescent light."
+        },
+        {
+          "title": "Lara Croft felt bigger than the box",
+          "body": "Tomb Raider II arrived with advertising weight, magazine gravity, and the sense that a British-made game could be a mainstream pop object."
+        },
+        {
+          "title": "The N64 defended itself socially",
+          "body": "PlayStation had the wall of boxes, but the N64 had GoldenEye on a sofa with four people leaning forward."
+        },
+        {
+          "title": "PC players watched the horizon",
+          "body": "Fallout was already installed, Age of Empires was still eating evenings, and Quake II sat just beyond November like a system requirement in human form."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Tomb Raider II release context",
+      "url": "https://www.pushsquare.com/games/ps1/tomb_raider_ii",
+      "note": "Used for the common 21 November 1997 UK/Europe listing."
+    },
+    {
+      "label": "The Independent: Tomb Raider II UK launch context",
+      "url": "https://www.the-independent.com/news/business/has-lara-croft-at-last-passed-her-sellby-date-1296997.html",
+      "note": "Used to mark the exact UK day as uncertain, because the 28 November article says the game was released in the UK yesterday."
+    },
+    {
+      "label": "Nintendo Life: GoldenEye 007 UK/Europe date",
+      "url": "https://www.nintendolife.com/games/n64/goldeneye_007",
+      "note": "Used for the August 25, 1997 UK/Europe date and November momentum framing."
+    },
+    {
+      "label": "Official Gran Turismo product page",
+      "url": "https://www.gran-turismo.com/jp/products/gt/",
+      "note": "Used for the Japanese release date of 23 December 1997."
+    },
+    {
+      "label": "Quake II release context",
+      "url": "https://quake.fandom.com/wiki/Quake_II",
+      "note": "Used for December 1997 release context."
+    },
+    {
+      "label": "Forbes: PlayStation versus Nintendo 64",
+      "url": "https://www.forbes.com/1997/09/19/feat.html",
+      "note": "Used for late-1997 PlayStation/N64 market context."
+    },
+    {
+      "label": "Campaign: Eidos Tomb Raider II marketing",
+      "url": "https://www.campaignlive.co.uk/article/eidos-puts-pounds-2m-behind-game-girl/55252",
+      "note": "Used for UK/European Tomb Raider II marketing pressure."
+    },
+    {
+      "label": "Official UK PlayStation Magazine issue 25 listing",
+      "url": "https://pyrogames.co.uk/product/official-uk-playstation-magazine-november-1997-issue-25-final-fantasy-vii",
+      "note": "Used for November 1997 OPM issue context."
+    },
+    {
+      "label": "N64 Magazine issue 8 listing",
+      "url": "https://www.retromags.com/magazines/uk/n64/n64-issue-8/",
+      "note": "Used for N64 Magazine issue 8 month."
+    },
+    {
+      "label": "GamePro November 1997 listing",
+      "url": "https://www.nobleknight.com/P/2148116473/1997-November-Tomb-Raider-II-Final-Fantasy-VII-Oddworld---Abes-Oddysee",
+      "note": "Used for GamePro November 1997 cover-line context."
+    }
+  ]
+}

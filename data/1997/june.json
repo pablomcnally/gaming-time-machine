@@ -1,0 +1,179 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "June 1997",
+    "accession": "GTM-1997-06",
+    "dek": "E3 in Atlanta, Mario Kart 64 in Europe, and the N64's UK identity finally gains a multiplayer rhythm.",
+    "curatorNote": "June is anchored by E3 1997 and Mario Kart 64's European release. Exact magazine cover claims are avoided unless the source is already known.",
+    "statusChips": ["E3 Atlanta", "Mario Kart UK", "summer previews", "multiplayer shelf"]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "The summer preview machine switches on.",
+      "items": [
+        {
+          "date": "June 19-21",
+          "title": "E3 1997 takes place in Atlanta",
+          "body": "The US trade show gathered the coming shape of the year: PlayStation spectacle, Nintendo exclusives, Sega's difficult Saturn moment, and PC technology talk.",
+          "artifact": "Trade-show badge",
+          "certainty": "verified dates",
+          "sourceNote": "E3 1997 listings place the show in Atlanta from June 19-21."
+        },
+        {
+          "date": "June 24",
+          "title": "Mario Kart 64 reaches Europe",
+          "body": "The N64's UK multiplayer argument strengthened. Mario 64 sold the analogue stick; Mario Kart 64 sold the second, third, and fourth controller.",
+          "artifact": "Controller extension of friendship",
+          "certainty": "verified European date",
+          "sourceNote": "Mario Kart 64 references list Europe as June 24, 1997."
+        },
+        {
+          "date": "June 1997",
+          "title": "N64 becomes more than a Mario box",
+          "body": "With Mario Kart on the shelf and GoldenEye still ahead, the N64's social identity was starting to become legible.",
+          "artifact": "Split-screen promise",
+          "certainty": "contextual",
+          "sourceNote": "Derived from European Mario Kart 64 release and late-1997 GoldenEye context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "June gives the European N64 a second strong argument.",
+      "items": [
+        {
+          "date": "June 24",
+          "title": "Mario Kart 64",
+          "platform": "Nintendo 64",
+          "body": "European release. A living-room multiplier for the N64, and a key reason to own more than one pad.",
+          "signal": "Four-player retail logic",
+          "certainty": "verified date",
+          "sourceNote": "Mario Kart 64 European date is widely listed as June 24, 1997."
+        },
+        {
+          "date": "June 1997",
+          "title": "E3 preview slate",
+          "platform": "PlayStation / N64 / PC",
+          "body": "Final Fantasy VII, GoldenEye, Oddworld, Quake II, and other late-1997 names gathered preview weight around E3 coverage.",
+          "signal": "The year's second half appears",
+          "certainty": "contextual preview set",
+          "sourceNote": "Included as E3/preview context, not a release claim."
+        },
+        {
+          "date": "June 1997",
+          "title": "Diablo and QuakeWorld",
+          "platform": "PC",
+          "body": "The PC's online side continued to run underneath the console headlines.",
+          "signal": "Networked PC life",
+          "certainty": "contextual",
+          "sourceNote": "Ongoing early-1997 PC context."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "June is where the N64's four controller ports started to matter more.",
+      "items": [
+        {
+          "title": "Extra controllers become part of the purchase",
+          "body": "Mario Kart 64 made multiplayer hardware feel practical. The console was not just the box; it was the number of pads in the room.",
+          "specs": ["Four controller ports", "Split-screen racing", "Local multiplayer"],
+          "certainty": "contextual",
+          "sourceNote": "Derived from Mario Kart 64 European release."
+        },
+        {
+          "title": "PC 3D acceleration at E3",
+          "body": "The PC future was increasingly shown through graphics hardware, shooter demos, and the promise of smoother 3D worlds.",
+          "specs": ["3dfx / Glide era", "Direct3D talk", "Upgrade pressure"],
+          "certainty": "contextual",
+          "sourceNote": "Supported by 1997 3dfx/Glide context and E3 timing."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "E3 coverage turned magazines into catalogues of the future.",
+      "items": [
+        {
+          "title": "E3 report issues",
+          "month": "June 1997",
+          "publicationName": "UK multiformat press",
+          "issueDate": "June 1997",
+          "headline": "Atlanta shows the second half of 1997",
+          "coverImage": "/magazine-covers/1997/edge-50-october.svg",
+          "coverImageAlt": "Reconstructed multiformat magazine-style cover image standing in for June 1997.",
+          "curatorNote": "E3 made the year feel curated before it had even arrived in shops.",
+          "body": "E3 made the year feel curated before it had even arrived in shops.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Specific cover not asserted."
+        },
+        {
+          "title": "Mario Kart coverage",
+          "month": "June 1997",
+          "publicationName": "Nintendo press",
+          "issueDate": "June 1997",
+          "headline": "The N64 gets its party game",
+          "coverImage": "/magazine-covers/1997/n64-magazine-issue-7.svg",
+          "coverImageAlt": "Reconstructed N64 magazine-style cover image standing in for June 1997.",
+          "curatorNote": "Mario Kart 64 transformed the N64 from spectacle machine to social machine.",
+          "body": "Mario Kart 64 transformed the N64 from spectacle machine to social machine.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Based on European release context."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "E3 news began to move faster than the printed month, but not cleanly.",
+      "items": [
+        {
+          "title": "Trade-show rumours had two speeds",
+          "body": "Online snippets arrived quickly; magazine analysis arrived later and felt more official."
+        },
+        {
+          "title": "LAN dreams stayed aspirational",
+          "body": "PC multiplayer was real, but for many players it still meant arranging machines, cables, and permission."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "June widened the year.",
+      "items": [
+        {
+          "title": "The N64 finally had a party trick",
+          "body": "Mario Kart made the console easier to explain to friends who did not care about camera systems."
+        },
+        {
+          "title": "The future became a list",
+          "body": "E3 turned coming games into a sequence of names to remember, circle, and wait for."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "E3 1997 timing",
+      "url": "https://segaretro.org/E3_1997",
+      "note": "Used for June 19-21 Atlanta E3 dates."
+    },
+    {
+      "label": "Mario Kart 64 release context",
+      "url": "https://en.wikipedia.org/wiki/Mario_Kart_64",
+      "note": "Used for June 24, 1997 European release."
+    }
+  ]
+}

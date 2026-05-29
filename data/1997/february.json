@@ -1,0 +1,184 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "February 1997",
+    "accession": "GTM-1997-02",
+    "dek": "The month before the N64 officially reached Europe: Mario Kart 64 accelerated in North America, Turok loomed, and UK shelves waited for a new console war chapter.",
+    "curatorNote": "February is a hinge month. The strongest dated anchor is Mario Kart 64's North American release; UK content is mostly launch build-up rather than street-date certainty.",
+    "statusChips": ["N64 build-up", "kart momentum", "pre-launch Britain", "PC evenings"]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "A month of acceleration: racing abroad, marketing at home, and one last stretch before the European N64 launch.",
+      "items": [
+        {
+          "date": "February 10",
+          "title": "Mario Kart 64 reaches North America",
+          "body": "Nintendo's kart sequel arrived in North America, sharpening the N64's multiplayer identity before British players had the console officially on shelves.",
+          "artifact": "Four-player promise",
+          "certainty": "verified North American release",
+          "sourceNote": "Mario Kart 64 references list North America as February 10, 1997; Europe follows in June."
+        },
+        {
+          "date": "February 1997",
+          "title": "Turok becomes the imminent N64 showpiece",
+          "body": "Acclaim's dinosaur shooter was about to become one of the first third-party tests of the N64's early identity: foggy, violent, expensive, and technically fascinating.",
+          "artifact": "Pre-order shelf talk",
+          "certainty": "near-release context",
+          "sourceNote": "Turok is tied to early March 1997 by multiple release references; February is pre-release context."
+        },
+        {
+          "date": "February 1997",
+          "title": "UK magazines prepare the console launch",
+          "body": "N64 launch coverage moved from speculation to buying advice. The questions were practical: price, cartridges, and which game justified the leap.",
+          "artifact": "Buying guide",
+          "certainty": "contextual",
+          "sourceNote": "European launch follows on March 1, 1997."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "February's notable games are best read as North American momentum and UK anticipation.",
+      "items": [
+        {
+          "date": "February 10",
+          "title": "Mario Kart 64",
+          "platform": "Nintendo 64",
+          "body": "North American release. In the UK, it still lived in preview pages and import envy.",
+          "signal": "Four-player racing identity",
+          "certainty": "verified North American release",
+          "sourceNote": "Europe release listed as June 24, 1997."
+        },
+        {
+          "date": "February 1997",
+          "title": "Diablo",
+          "platform": "Windows / Mac",
+          "body": "Still fresh enough to dominate PC evenings, especially for players discovering Battle.net and loot obsession after launch.",
+          "signal": "PC aftershock",
+          "certainty": "post-launch context",
+          "sourceNote": "January release context; included for February momentum."
+        },
+        {
+          "date": "February 1997",
+          "title": "N64 launch shelf previews",
+          "platform": "Nintendo 64",
+          "body": "Super Mario 64, Pilotwings 64, and Shadows of the Empire were treated as the imminent UK starter set.",
+          "signal": "Launch library incoming",
+          "certainty": "contextual",
+          "sourceNote": "Computing History lists the three European launch games."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "The question was not whether the N64 was powerful. It was whether cartridges and price felt worth it.",
+      "items": [
+        {
+          "title": "Cartridge confidence and anxiety",
+          "body": "Nintendo's cartridge format promised speed and durability, but UK buyers could already see the price difference against PlayStation CD-ROM shelves.",
+          "specs": ["No loading screens", "Higher cartridge cost", "First-party appeal"],
+          "certainty": "contextual",
+          "sourceNote": "Included as retail/platform context around the European N64 launch."
+        },
+        {
+          "title": "PC networking becomes less exotic",
+          "body": "Diablo and QuakeWorld made multiplayer networking feel more plausible, even if most homes still treated a modem session as an appointment.",
+          "specs": ["Dial-up", "Battle.net", "QuakeWorld culture"],
+          "certainty": "contextual",
+          "sourceNote": "Battle.net and QuakeWorld were active by early 1997."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "The shelf acted like a launch countdown.",
+      "items": [
+        {
+          "title": "N64 launch previews",
+          "month": "February 1997",
+          "publicationName": "UK multiformat magazines",
+          "issueDate": "February 1997",
+          "headline": "Nintendo 64 buying advice",
+          "coverImage": "/magazine-covers/1997/n64-magazine-issue-7.svg",
+          "coverImageAlt": "Reconstructed N64 magazine-style cover image standing in for February 1997.",
+          "curatorNote": "The magazine became a pre-order companion: screenshots, verdicts, and the question of whether Mario was enough.",
+          "body": "The magazine became a pre-order companion: screenshots, verdicts, and the question of whether Mario was enough.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Specific February cover not asserted."
+        },
+        {
+          "title": "PC dungeon talk",
+          "month": "February 1997",
+          "publicationName": "PC games press",
+          "issueDate": "February 1997",
+          "headline": "Diablo, networks and the family computer",
+          "coverImage": "/magazine-covers/1997/edge-51-november.svg",
+          "coverImageAlt": "Reconstructed PC magazine-style cover image standing in for February 1997.",
+          "curatorNote": "PC coverage made Diablo feel like both a game and a warning about lost evenings.",
+          "body": "PC coverage made Diablo feel like both a game and a warning about lost evenings.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Included as cultural context."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Online play was still a thing you announced to the household.",
+      "items": [
+        {
+          "title": "Battle.net becomes a destination",
+          "body": "Diablo gave PC owners a reason to connect repeatedly, not just browse once."
+        },
+        {
+          "title": "N64 multiplayer was local by design",
+          "body": "Before the console even launched in Europe, its four controller ports promised a different kind of network: friends on a carpet."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "February was mostly anticipation, but anticipation had a shape.",
+      "items": [
+        {
+          "title": "The N64 was almost touchable",
+          "body": "By now the console was not rumour. It was a date, a price, a launch shelf, and a decision."
+        },
+        {
+          "title": "PC games felt bottomless",
+          "body": "Diablo made the family computer feel less like a homework machine and more like a trapdoor."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Mario Kart 64 release context",
+      "url": "https://en.wikipedia.org/wiki/Mario_Kart_64",
+      "note": "Used for North American and European release timing."
+    },
+    {
+      "label": "Turok release context",
+      "url": "https://www.giantbomb.com/turok-dinosaur-hunter/3030-14614/",
+      "note": "Used for early March 1997 release context."
+    },
+    {
+      "label": "Nintendo 64 European launch context",
+      "url": "https://www.computinghistory.org.uk/det/71742/Nintendo-releases-the-Nintendo-64/",
+      "note": "Used for European launch timing and launch games."
+    }
+  ]
+}

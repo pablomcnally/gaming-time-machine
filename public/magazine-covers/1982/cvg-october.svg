@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Computer and Video Games October 1982 reconstructed cover image</title>
+  <desc id="desc">A museum-style reconstructed magazine cover for Computer and Video Games, October 1982.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fde047"/>
+      <stop offset="0.48" stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect x="58" y="58" width="784" height="1084" fill="none" stroke="#f8fafc" stroke-width="8"/>
+  <text x="82" y="160" fill="#f8fafc" font-family="Arial, sans-serif" font-size="58" font-weight="800">COMPUTER</text>
+  <text x="82" y="232" fill="#f8fafc" font-family="Arial, sans-serif" font-size="48" font-weight="700">AND VIDEO</text>
+  <text x="82" y="330" fill="#f8fafc" font-family="Arial, sans-serif" font-size="102" font-weight="800">GAMES</text>
+  <text x="88" y="390" fill="#e0f2fe" font-family="Arial, sans-serif" font-size="30" letter-spacing="12">OCTOBER 1982</text>
+  <rect x="138" y="500" width="624" height="280" fill="#f8fafc" fill-opacity="0.14" stroke="#f8fafc" stroke-width="4"/>
+  <text x="170" y="604" fill="#f8fafc" font-family="Arial, sans-serif" font-size="45" font-weight="700">SPECTRUM</text>
+  <text x="170" y="682" fill="#fde68a" font-family="Arial, sans-serif" font-size="45" font-weight="700">ARCADE</text>
+  <text x="170" y="742" fill="#f8fafc" font-family="Arial, sans-serif" font-size="30" letter-spacing="6">LISTINGS + REVIEWS</text>
+  <text x="106" y="1062" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" letter-spacing="8">UK NEWSAGENT FEED</text>
+  <text x="108" y="1112" fill="#e0f2fe" font-family="Arial, sans-serif" font-size="23" letter-spacing="5">RECONSTRUCTED COVER IMAGE</text>
+</svg>

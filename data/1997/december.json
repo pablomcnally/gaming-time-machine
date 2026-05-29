@@ -1,0 +1,210 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "December 1997",
+    "accession": "GTM-1997-12",
+    "dek": "The year closes with Quake II on PC, Gran Turismo launching in Japan, Grand Theft Auto on UK shelves, and Christmas lists split between PlayStation, N64, and the family computer.",
+    "curatorNote": "December is unusually dense but still region-sensitive. Quake II and Gran Turismo have strong late-December anchors; UK retail context is kept broad unless a source supports precision.",
+    "statusChips": ["Quake II", "Gran Turismo Japan", "GTA arrives", "Christmas 1997"]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "The year ends by turning three futures into shelves: online shooters, driving simulation, and open-city crime.",
+      "items": [
+        {
+          "date": "December 1997",
+          "title": "Quake II releases on PC",
+          "body": "id Software's shooter arrived in December, bringing the year's PC hardware talk into a playable object of coloured lighting, network play, and upgrade pressure.",
+          "artifact": "OpenGL settings menu",
+          "certainty": "verified month; exact regional days vary",
+          "sourceNote": "Quake II references list December 1997, commonly December 9 in North America and December 12 in Europe."
+        },
+        {
+          "date": "December 23",
+          "title": "Gran Turismo launches in Japan",
+          "body": "Polyphony Digital's driving game arrived in Japan just before the year ended, pointing PlayStation toward a more simulation-minded future.",
+          "artifact": "Licence test certificate",
+          "certainty": "verified Japanese date",
+          "sourceNote": "Official Gran Turismo pages list Japan as December 23, 1997."
+        },
+        {
+          "date": "Late 1997",
+          "title": "Grand Theft Auto reaches the UK PC conversation",
+          "body": "DMA Design's original GTA was a British-made provocation: top-down, rude, urban, and already generating the sense that games could be discussed as public trouble.",
+          "artifact": "City map poster",
+          "certainty": "verified late-1997 PC context",
+          "sourceNote": "References list European MS-DOS/Windows release in late November 1997 and PlayStation in December 1997."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "December's release shelf is a clash of machines: PC acceleration, Japanese car obsession, and console Christmas pressure.",
+      "items": [
+        {
+          "date": "December 1997",
+          "title": "Quake II",
+          "platform": "Windows",
+          "body": "A PC shooter that made graphics cards, network play, and industrial sci-fi feel like one package.",
+          "signal": "Shooter hardware test",
+          "certainty": "verified month",
+          "sourceNote": "Exact regional day differs by source; kept as December 1997."
+        },
+        {
+          "date": "December 23",
+          "title": "Gran Turismo",
+          "platform": "PlayStation",
+          "body": "Japanese release of a driving game that would become a global PlayStation identity piece in 1998.",
+          "signal": "Simulation future",
+          "certainty": "verified Japanese release",
+          "sourceNote": "Official Gran Turismo page lists December 23, 1997."
+        },
+        {
+          "date": "Late 1997",
+          "title": "Grand Theft Auto",
+          "platform": "MS-DOS / Windows / PlayStation",
+          "body": "A UK-developed crime sandbox whose exact platform timing varies by source and region, but whose late-1997 presence belongs in the Christmas exhibit.",
+          "signal": "British controversy object",
+          "certainty": "verified late-1997 window; platform dates vary",
+          "sourceNote": "Wikipedia and Take-Two materials place PC in November 1997 and PlayStation in December 1997."
+        },
+        {
+          "date": "December 1997",
+          "title": "Tomb Raider II",
+          "platform": "PlayStation / Windows",
+          "body": "Still the shop-window sequel of the season in the UK, carrying Eidos' Christmas campaign into the final month.",
+          "signal": "Lara at Christmas",
+          "certainty": "post-release context",
+          "sourceNote": "November release context; included for Christmas retail momentum."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "December made hardware decisions feel like family economics.",
+      "items": [
+        {
+          "title": "PC graphics as Christmas pressure",
+          "body": "Quake II made the family PC feel measurable: did it run, did it run well, and did it need a card?",
+          "specs": ["OpenGL / 3D acceleration", "Network play", "Driver anxiety"],
+          "certainty": "contextual",
+          "sourceNote": "Quake II and 3dfx late-1997 context."
+        },
+        {
+          "title": "Console choice under the tree",
+          "body": "PlayStation offered breadth and cheaper CDs; N64 offered Mario, Kart, Bond, and first-party certainty.",
+          "specs": ["PlayStation library", "N64 local multiplayer", "Christmas buying pressure"],
+          "certainty": "contextual",
+          "sourceNote": "Forbes and late-1997 retail context support PlayStation/N64 comparison."
+        },
+        {
+          "title": "Memory cards and save permanence",
+          "body": "Long PlayStation games made saves feel fragile and valuable. A memory card could be the most important small object in the house.",
+          "specs": ["Save blocks", "RPG progress", "Shared household cards"],
+          "certainty": "contextual",
+          "sourceNote": "Final Fantasy VII/Tomb Raider II seasonal context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "December issues felt like buying guides disguised as prophecy.",
+      "items": [
+        {
+          "title": "Christmas buyer's guides",
+          "month": "December 1997",
+          "publicationName": "UK multiformat press",
+          "issueDate": "December 1997",
+          "headline": "PlayStation, N64 and PC CD-ROM under pressure",
+          "coverImage": "/magazine-covers/1997/edge-51-november.svg",
+          "coverImageAlt": "Reconstructed multiformat magazine-style cover image standing in for December 1997.",
+          "curatorNote": "The magazine became a family negotiation aid: what is worth buying, what needs extra hardware, and what will last past Boxing Day.",
+          "body": "The magazine became a family negotiation aid: what is worth buying, what needs extra hardware, and what will last past Boxing Day.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Specific December cover not asserted."
+        },
+        {
+          "title": "PC shooter coverage",
+          "month": "December 1997",
+          "publicationName": "PC games press",
+          "issueDate": "December 1997",
+          "headline": "Quake II and the graphics card question",
+          "coverImage": "/magazine-covers/1997/edge-50-october.svg",
+          "coverImageAlt": "Reconstructed PC magazine-style cover image standing in for December 1997.",
+          "curatorNote": "Quake II coverage made screenshots feel like hardware evidence.",
+          "body": "Quake II coverage made screenshots feel like hardware evidence.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Based on December Quake II release context."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "December's PC future was connected, but still not effortless.",
+      "items": [
+        {
+          "title": "Quake II made servers feel like destinations",
+          "body": "Deathmatch, patches, and performance talk moved through the same modem line that someone else might need for a phone call."
+        },
+        {
+          "title": "Christmas guides travelled by print and text",
+          "body": "Walkthroughs and hints could be found online, but many players still trusted a magazine supplement or a printed FAQ."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "December 1997 as gift list, upgrade list, and wish list.",
+      "items": [
+        {
+          "title": "The year became a shelf",
+          "body": "Final Fantasy VII, GoldenEye, Tomb Raider II, GTA, Quake II, and Gran Turismo did not feel like separate events anymore. They felt like a wall of possible futures."
+        },
+        {
+          "title": "Choosing a platform felt personal",
+          "body": "PlayStation meant breadth, N64 meant rooms full of people, and PC meant the thrill and dread of system requirements."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Quake II release context",
+      "url": "https://quake.fandom.com/wiki/Quake_II",
+      "note": "Used for December 1997 release context."
+    },
+    {
+      "label": "Gran Turismo official product page",
+      "url": "https://www.gran-turismo.com/jp/products/gt/",
+      "note": "Used for December 23, 1997 Japanese release."
+    },
+    {
+      "label": "Grand Theft Auto release context",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_(video_game)",
+      "note": "Used for late-1997 PC/PlayStation regional context."
+    },
+    {
+      "label": "Take-Two historical GTA listing",
+      "url": "https://ir.take2games.com/static-files/863edafe-3083-474b-935c-265b19554be6",
+      "note": "Used for Grand Theft Auto PC November 1997 context."
+    },
+    {
+      "label": "Forbes PlayStation/N64 context",
+      "url": "https://www.forbes.com/1997/09/19/feat.html",
+      "note": "Used for late-1997 platform comparison."
+    }
+  ]
+}

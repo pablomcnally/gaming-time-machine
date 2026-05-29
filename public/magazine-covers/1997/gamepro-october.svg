@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">GamePro October 1997 reconstructed cover image</title>
+  <desc id="desc">A museum-style reconstructed magazine cover image for GamePro, October 1997.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e11d48"/>
+      <stop offset="0.52" stop-color="#0c0a09"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect x="62" y="62" width="776" height="1076" fill="none" stroke="#fff7ed" stroke-width="8"/>
+  <text x="80" y="196" fill="#fff7ed" font-family="Arial, sans-serif" font-size="132" font-weight="800" letter-spacing="-2">GamePro</text>
+  <text x="86" y="260" fill="#fecdd3" font-family="Arial, sans-serif" font-size="32" letter-spacing="12">OCTOBER 1997</text>
+  <rect x="92" y="330" width="716" height="362" fill="#fff7ed" fill-opacity="0.08" stroke="#fff7ed" stroke-width="4"/>
+  <text x="126" y="430" fill="#fff7ed" font-family="Arial, sans-serif" font-size="56" font-weight="700">FINAL FANTASY VII</text>
+  <text x="126" y="522" fill="#fde68a" font-family="Arial, sans-serif" font-size="50" font-weight="700">MORTAL KOMBAT 4</text>
+  <text x="126" y="614" fill="#fff7ed" font-family="Arial, sans-serif" font-size="50" font-weight="700">MADDEN 64</text>
+  <path d="M168 846 C260 742 392 742 480 846 C568 950 700 950 782 846" fill="none" stroke="#fde68a" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="236" cy="848" r="44" fill="#fff7ed"/>
+  <circle cx="714" cy="848" r="44" fill="#fff7ed"/>
+  <text x="104" y="1068" fill="#fff7ed" font-family="Arial, sans-serif" font-size="35" letter-spacing="8">COVER-LINE COLLISION</text>
+  <text x="106" y="1114" fill="#fecdd3" font-family="Arial, sans-serif" font-size="23" letter-spacing="5">RECONSTRUCTED COVER IMAGE</text>
+</svg>

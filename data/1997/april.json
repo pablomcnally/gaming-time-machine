@@ -1,0 +1,179 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "April 1997",
+    "accession": "GTM-1997-04",
+    "dek": "A month of settling in: the European N64 is no longer theoretical, PlayStation keeps the shelf broad, and Japan introduces force feedback with Star Fox 64.",
+    "curatorNote": "April is anchored by the Rumble Pak/Star Fox 64 Japanese moment and by UK post-launch N64 ownership rather than a crowded set of British release dates.",
+    "statusChips": ["rumble begins", "post-launch N64", "PlayStation breadth", "import pages"]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "After the March launch rush, April is about what the new machines started to mean.",
+      "items": [
+        {
+          "date": "April 1997",
+          "title": "Rumble becomes the next controller promise",
+          "body": "The Rumble Pak launched in Japan with Star Fox 64, making force feedback part of the N64 story months before many UK players encountered it through Lylat Wars.",
+          "artifact": "AAA batteries",
+          "certainty": "verified month",
+          "sourceNote": "Guinness World Records lists the Rumble Pak as launching in April 1997 to coincide with Star Fox 64."
+        },
+        {
+          "date": "April 1997",
+          "title": "UK N64 owners settle into the launch library",
+          "body": "The post-launch month was not just about new games. It was about proving that Mario 64, Pilotwings 64, and Shadows of the Empire could sustain a new console.",
+          "artifact": "Three-game launch shelf",
+          "certainty": "contextual",
+          "sourceNote": "European launch titles verified from March 1997; April note describes post-launch context."
+        },
+        {
+          "date": "April 1997",
+          "title": "PlayStation remains the wide shelf",
+          "body": "Nintendo had novelty; Sony had breadth. In UK shops, the PlayStation's CD-ROM library and magazine demo discs kept it feeling like the safer everyday machine.",
+          "artifact": "Demo-disc wallet",
+          "certainty": "contextual",
+          "sourceNote": "Included as UK retail context rather than a single dated event."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "April's release story is mostly regional: Japan sees the tactile future first.",
+      "items": [
+        {
+          "date": "April 1997",
+          "title": "Star Fox 64",
+          "platform": "Nintendo 64",
+          "body": "Japanese release window for the game that introduced Rumble Pak support and would become Lylat Wars in Europe.",
+          "signal": "Force feedback arrives",
+          "certainty": "verified month",
+          "sourceNote": "Rumble Pak launch context ties Star Fox 64 to April 1997 in Japan."
+        },
+        {
+          "date": "April 1997",
+          "title": "Super Mario 64",
+          "platform": "Nintendo 64",
+          "body": "Still the defining UK N64 experience in the month after launch.",
+          "signal": "Launch title afterglow",
+          "certainty": "post-launch context",
+          "sourceNote": "Not an April release; included as active UK shelf context."
+        },
+        {
+          "date": "April 1997",
+          "title": "Diablo",
+          "platform": "Windows / Mac",
+          "body": "Still the PC game that made home networking and dungeon repetition feel newly social.",
+          "signal": "PC staying power",
+          "certainty": "post-launch context",
+          "sourceNote": "January release; included for ongoing 1997 PC momentum."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "The year starts to move from polygons to sensation.",
+      "items": [
+        {
+          "title": "Rumble Pak",
+          "body": "Force feedback made the controller feel less like a window and more like a small machine reacting in the hands.",
+          "specs": ["N64 controller slot", "AAA batteries", "Japan launch context"],
+          "certainty": "verified context",
+          "sourceNote": "April 1997 Japanese launch context from Guinness World Records."
+        },
+        {
+          "title": "PlayStation memory cards",
+          "body": "While Nintendo sold cartridge permanence, PlayStation owners learned to manage save blocks like a small filing cabinet.",
+          "specs": ["15 blocks", "Portable saves", "Delete-to-make-room ritual"],
+          "certainty": "contextual",
+          "sourceNote": "Included as platform context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Rumble and import reports made hardware feel narrative.",
+      "items": [
+        {
+          "title": "Import Star Fox coverage",
+          "month": "April 1997",
+          "publicationName": "Nintendo press",
+          "issueDate": "April 1997",
+          "headline": "Rumble before Britain",
+          "coverImage": "/magazine-covers/1997/n64-magazine-issue-7.svg",
+          "coverImageAlt": "Reconstructed Nintendo magazine-style cover image standing in for April 1997.",
+          "curatorNote": "Import coverage taught UK readers about rumble before many could try it.",
+          "body": "Import coverage taught UK readers about rumble before many could try it.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Specific April cover not asserted."
+        },
+        {
+          "title": "PlayStation demo-disc routine",
+          "month": "April 1997",
+          "publicationName": "UK PlayStation press",
+          "issueDate": "April 1997",
+          "headline": "The monthly playable sampler",
+          "coverImage": "/magazine-covers/1997/opm-uk-november.svg",
+          "coverImageAlt": "Reconstructed PlayStation magazine-style cover image standing in for April 1997.",
+          "curatorNote": "The demo disc remained a practical answer to the question, what should I play next?",
+          "body": "The demo disc remained a practical answer to the question, what should I play next?",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Included as UK magazine culture."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Online play stayed largely PC-shaped.",
+      "items": [
+        {
+          "title": "QuakeWorld kept the server list alive",
+          "body": "PC players were learning to think in pings, addresses, and late-night connections."
+        },
+        {
+          "title": "Console news still came on paper",
+          "body": "For the N64 and PlayStation, magazine pages remained the most reliable monthly feed."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "April feels like the month after a birthday: the present is real now, and you are learning its limits.",
+      "items": [
+        {
+          "title": "The N64 had to prove depth",
+          "body": "Mario was magnificent, but owners were already asking what came next."
+        },
+        {
+          "title": "Rumble sounded strange until you felt it",
+          "body": "Force feedback was hard to describe on paper, which made it perfect magazine mythology."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Rumble Pak launch context",
+      "url": "https://www.guinnessworldrecords.com/world-records/88331-first-rumble-controller-for-a-videogame-console",
+      "note": "Used for April 1997 Rumble Pak/Star Fox 64 context."
+    },
+    {
+      "label": "Nintendo 64 European launch context",
+      "url": "https://www.computinghistory.org.uk/det/71742/Nintendo-releases-the-Nintendo-64/",
+      "note": "Used for post-launch UK context."
+    }
+  ]
+}

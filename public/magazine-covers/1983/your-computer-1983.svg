@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Reconstructed Your Computer 1983 cover</title>
+  <desc id="desc">A reconstructed UK home-computing magazine cover with listings and cassette culture cues.</desc>
+  <rect width="900" height="1200" fill="#f4f0df"/>
+  <rect x="54" y="58" width="792" height="1084" fill="#fff" stroke="#222" stroke-width="8"/>
+  <text x="104" y="168" font-family="Georgia, serif" font-size="92" font-weight="700" fill="#0f172a">Your</text>
+  <text x="104" y="258" font-family="Georgia, serif" font-size="92" font-weight="700" fill="#b91c1c">Computer</text>
+  <rect x="104" y="322" width="692" height="426" fill="#d9ead3" stroke="#0f172a" stroke-width="6"/>
+  <text x="148" y="402" font-family="Courier New, monospace" font-size="26" fill="#0f172a">10 PRINT "LOAD FROM TAPE"</text>
+  <text x="148" y="452" font-family="Courier New, monospace" font-size="26" fill="#0f172a">20 POKE patience,255</text>
+  <text x="148" y="502" font-family="Courier New, monospace" font-size="26" fill="#0f172a">30 GOTO BEDROOM</text>
+  <rect x="154" y="584" width="520" height="88" rx="10" fill="#111"/>
+  <circle cx="218" cy="628" r="28" fill="#f4f0df"/>
+  <circle cx="610" cy="628" r="28" fill="#f4f0df"/>
+  <text x="104" y="834" font-family="Courier New, monospace" font-size="34" fill="#111">ZX Spectrum / BBC / C64 / Electron</text>
+  <text x="104" y="914" font-family="Courier New, monospace" font-size="28" fill="#b91c1c">Listings, reviews, adverts, and typed-in games</text>
+  <text x="104" y="1060" font-family="Courier New, monospace" font-size="24" fill="#555">Reconstructed exhibit cover</text>
+</svg>

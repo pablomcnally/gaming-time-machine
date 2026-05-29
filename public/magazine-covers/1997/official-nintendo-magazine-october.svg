@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Official Nintendo Magazine October 1997 reconstructed cover image</title>
+  <desc id="desc">A museum-style reconstructed magazine cover image for Official Nintendo Magazine, October 1997.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fcd34d"/>
+      <stop offset="0.48" stop-color="#18181b"/>
+      <stop offset="1" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <pattern id="lines" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M0 28 L28 0" stroke="#ffffff" stroke-opacity="0.14" stroke-width="4"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect width="900" height="1200" fill="url(#lines)"/>
+  <rect x="58" y="58" width="784" height="1084" fill="none" stroke="#fffbeb" stroke-width="8"/>
+  <text x="86" y="160" fill="#fffbeb" font-family="Arial, sans-serif" font-size="54" font-weight="700" letter-spacing="8">OFFICIAL</text>
+  <text x="84" y="254" fill="#fffbeb" font-family="Arial, sans-serif" font-size="94" font-weight="800">NINTENDO</text>
+  <text x="86" y="324" fill="#fef3c7" font-family="Arial, sans-serif" font-size="44" font-weight="700" letter-spacing="6">MAGAZINE</text>
+  <text x="90" y="386" fill="#fef3c7" font-family="Arial, sans-serif" font-size="30" letter-spacing="12">OCTOBER 1997</text>
+  <rect x="150" y="500" width="600" height="370" fill="#fffbeb" fill-opacity="0.92"/>
+  <rect x="194" y="546" width="512" height="278" fill="#18181b"/>
+  <text x="236" y="654" fill="#fcd34d" font-family="Arial, sans-serif" font-size="56" font-weight="700">TIPS</text>
+  <text x="236" y="728" fill="#bae6fd" font-family="Arial, sans-serif" font-size="52" font-weight="700">BOOKLET</text>
+  <text x="236" y="786" fill="#fffbeb" font-family="Arial, sans-serif" font-size="30" letter-spacing="7">ATTACHED</text>
+  <text x="104" y="1036" fill="#fffbeb" font-family="Arial, sans-serif" font-size="38" letter-spacing="7">PAPER AS EQUIPMENT</text>
+  <text x="106" y="1088" fill="#fef3c7" font-family="Arial, sans-serif" font-size="23" letter-spacing="5">RECONSTRUCTED COVER IMAGE</text>
+</svg>

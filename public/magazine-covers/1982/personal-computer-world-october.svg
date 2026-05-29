@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Personal Computer World October 1982 reconstructed cover image</title>
+  <desc id="desc">A museum-style reconstructed magazine cover for Personal Computer World, October 1982.</desc>
+  <rect width="900" height="1200" fill="#f3efe4"/>
+  <rect x="58" y="58" width="784" height="1084" fill="none" stroke="#18181b" stroke-width="8"/>
+  <text x="82" y="154" fill="#18181b" font-family="Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="8">PERSONAL</text>
+  <text x="82" y="248" fill="#18181b" font-family="Arial, sans-serif" font-size="82" font-weight="800">COMPUTER</text>
+  <text x="82" y="336" fill="#18181b" font-family="Arial, sans-serif" font-size="78" font-weight="800">WORLD</text>
+  <text x="88" y="398" fill="#57534e" font-family="Arial, sans-serif" font-size="30" letter-spacing="12">OCTOBER 1982</text>
+  <rect x="138" y="488" width="624" height="340" fill="#18181b"/>
+  <text x="174" y="604" fill="#f3efe4" font-family="Arial, sans-serif" font-size="44" font-weight="700">BBC MICRO</text>
+  <text x="174" y="686" fill="#fca5a5" font-family="Arial, sans-serif" font-size="44" font-weight="700">SPECTRUM</text>
+  <text x="174" y="762" fill="#bfdbfe" font-family="Arial, sans-serif" font-size="34" letter-spacing="7">CASSETTE AGE</text>
+  <text x="104" y="1054" fill="#18181b" font-family="Arial, sans-serif" font-size="34" letter-spacing="8">HOME MICRO SHELF</text>
+  <text x="106" y="1104" fill="#57534e" font-family="Arial, sans-serif" font-size="23" letter-spacing="5">RECONSTRUCTED COVER IMAGE</text>
+</svg>

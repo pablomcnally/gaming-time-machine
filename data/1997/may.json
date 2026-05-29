@@ -1,0 +1,179 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "May 1997",
+    "accession": "GTM-1997-05",
+    "dek": "A quieter archive drawer: the N64 settles, PlayStation keeps widening, and E3 approaches as the place where the rest of 1997 will be arranged.",
+    "curatorNote": "May is deliberately contextual. Rather than inventing a false release calendar, this exhibit treats it as a preview and retail month between the N64 launch and the June E3/Mario Kart moment.",
+    "statusChips": ["pre-E3", "retail waiting", "demo discs", "PC upgrade talk"]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "May is the intake of breath before summer previews start to land.",
+      "items": [
+        {
+          "date": "May 1997",
+          "title": "E3 anticipation starts to shape the year",
+          "body": "The Atlanta E3 show was still weeks away, but the press cycle was already leaning toward what would be shown next: PlayStation spectacle, N64 exclusives, and PC hardware pressure.",
+          "artifact": "Preview issue margin notes",
+          "certainty": "contextual",
+          "sourceNote": "E3 1997 took place in Atlanta from June 19-21; May is build-up context."
+        },
+        {
+          "date": "May 1997",
+          "title": "The N64 library question grows louder",
+          "body": "After the March European launch, UK owners could admire Mario 64 and still wonder how quickly the cartridge shelf would fill.",
+          "artifact": "Shop shelf gap",
+          "certainty": "contextual",
+          "sourceNote": "Based on N64 European launch timing and early-library context."
+        },
+        {
+          "date": "May 1997",
+          "title": "PC boxes make hardware feel unstable",
+          "body": "CD-ROM games increasingly read like compatibility tests. Processor, RAM, DirectX, and graphics acceleration were becoming part of the buying ritual.",
+          "artifact": "System requirements panel",
+          "certainty": "contextual",
+          "sourceNote": "3dfx/Glide and late-1997 PC shooter context support the broader hardware trend."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "May's exhibit shelf is more about sustained play than a single safe day-one headline.",
+      "items": [
+        {
+          "date": "May 1997",
+          "title": "Super Mario 64",
+          "platform": "Nintendo 64",
+          "body": "Still the UK N64's museum centrepiece, carrying the machine through its early months.",
+          "signal": "Launch title endurance",
+          "certainty": "contextual",
+          "sourceNote": "Not a May release; included as active UK shelf context."
+        },
+        {
+          "date": "May 1997",
+          "title": "Diablo",
+          "platform": "Windows / Mac",
+          "body": "A PC fixture by now, still shaping how players thought about online identity and repeatable loot.",
+          "signal": "Long-tail PC play",
+          "certainty": "contextual",
+          "sourceNote": "January release; included as ongoing momentum."
+        },
+        {
+          "date": "May 1997",
+          "title": "Final Fantasy VII",
+          "platform": "PlayStation",
+          "body": "Still a Japanese release only, but Western magazines were turning it into a coming event.",
+          "signal": "Western build-up",
+          "certainty": "contextual",
+          "sourceNote": "Japan January; Western releases later in 1997."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "The console war feels less like a slogan and more like shelf mechanics.",
+      "items": [
+        {
+          "title": "PlayStation CD-ROM abundance",
+          "body": "The PlayStation's strength was not one object. It was the amount of plastic on the shelf, the demo discs, and the lower cost of experiments.",
+          "specs": ["CD-ROM games", "Demo discs", "Memory cards"],
+          "certainty": "contextual",
+          "sourceNote": "UK retail context."
+        },
+        {
+          "title": "N64 cartridge scarcity",
+          "body": "The N64 felt premium and focused. That made each purchase more deliberate, especially for younger players negotiating with parents.",
+          "specs": ["Cartridges", "Higher software prices", "First-party focus"],
+          "certainty": "contextual",
+          "sourceNote": "Early European N64 library context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "May magazines were less verdict than weather report.",
+      "items": [
+        {
+          "title": "Pre-E3 preview culture",
+          "month": "May 1997",
+          "publicationName": "UK multiformat press",
+          "issueDate": "May 1997",
+          "headline": "What the summer shows might reveal",
+          "coverImage": "/magazine-covers/1997/edge-51-november.svg",
+          "coverImageAlt": "Reconstructed magazine-style cover image standing in for May 1997.",
+          "curatorNote": "The premium magazine voice made waiting feel analytical rather than merely impatient.",
+          "body": "The premium magazine voice made waiting feel analytical rather than merely impatient.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Specific cover not asserted."
+        },
+        {
+          "title": "Demo-disc habit",
+          "month": "May 1997",
+          "publicationName": "PlayStation and PC press",
+          "issueDate": "May 1997",
+          "headline": "Playable samplers as monthly ritual",
+          "coverImage": "/magazine-covers/1997/opm-uk-november.svg",
+          "coverImageAlt": "Reconstructed demo-disc magazine-style cover image standing in for May 1997.",
+          "curatorNote": "A demo disc was the opposite of a rumour: a preview you could actually load.",
+          "body": "A demo disc was the opposite of a rumour: a preview you could actually load.",
+          "certainty": "contextual magazine entry",
+          "sourceNote": "Included as magazine culture."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "The web existed, but the monthly magazine still felt more authoritative.",
+      "items": [
+        {
+          "title": "Preview news travelled slowly",
+          "body": "Rumours could appear online, but for many UK players the confirmed version arrived later in print."
+        },
+        {
+          "title": "PC players compared machines",
+          "body": "Hardware discussion was becoming part of game discussion, especially for players following shooters and 3D acceleration."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "May was the quiet bit between unboxing and the next wave.",
+      "items": [
+        {
+          "title": "You learned the shelf",
+          "body": "The PlayStation shelf was wide, the N64 shelf was small and bright, and PC games looked like homework until they loaded."
+        },
+        {
+          "title": "Waiting had texture",
+          "body": "Waiting meant rereading previews, circling screenshots, and hoping the next issue had something playable on the disc."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "E3 1997 date context",
+      "url": "https://segaretro.org/E3_1997",
+      "note": "Used for June 19-21 E3 timing; May entry is build-up context."
+    },
+    {
+      "label": "Nintendo 64 European launch context",
+      "url": "https://www.computinghistory.org.uk/det/71742/Nintendo-releases-the-Nintendo-64/",
+      "note": "Used for early UK N64 shelf context."
+    }
+  ]
+}

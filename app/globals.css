@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Times New Roman";
+  --font-sans: "Arial";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f3efe4;
+}
+
+::selection {
+  background: #b91c1c;
+  color: #fff7ed;
+}

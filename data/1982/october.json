@@ -1,0 +1,359 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "October 1982",
+    "accession": "GTM-1982-10",
+    "dek": "A museum drawer from the golden-age peak: Q*bert hops into arcades, Atari pushes the 5200 into limited retail, and British homes begin to hear games loading from cassette.",
+    "curatorNote": "October 1982 is a difficult month to pin down cleanly. Arcade publication dates, trade-show showings, home-console launch windows, and UK microcomputer availability overlap, so this exhibit marks uncertain dates openly rather than pretending every cabinet and cartridge arrived on the same day everywhere.",
+    "statusChips": ["arcade peak", "UK micro boom", "Atari pressure", "cassette culture"]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five moments from a month when the arcade still felt central, but the home computer was beginning to tug games into bedrooms.",
+      "items": [
+        {
+          "date": "October 18",
+          "title": "Q*bert enters the record",
+          "body": "Gottlieb's isometric arcade oddity has a copyright publication date of 18 October 1982, though public showing and wider operator availability are often tied to the November AMOA show and later trade reporting.",
+          "artifact": "Pyramid cabinet placard",
+          "certainty": "verified publication date; public availability complicated",
+          "sourceNote": "Q*bert's US copyright registration cites publication on October 18, 1982; Video Games reported direct sales at the AMOA show in November."
+        },
+        {
+          "date": "October 1982",
+          "title": "Atari 5200 starts appearing in limited retail",
+          "body": "Atari's premium SuperSystem began appearing in a handful of US department stores around October, bundled with Super Breakout and surrounded by launch-window cartridges. In Britain, this was mostly news from across the Atlantic rather than a local shelf object.",
+          "artifact": "Analogue controller under glass",
+          "certainty": "verified limited launch window",
+          "sourceNote": "Atari 5200 sources describe an October 1982 limited appearance, with broader availability later and some references simplifying this to November 1982."
+        },
+        {
+          "date": "October 1982",
+          "title": "Swordquest: EarthWorld begins Atari's contest mythology",
+          "body": "Atari's first Swordquest game tied a cartridge to a comic book and prize contest. It looks, in hindsight, like an industry at its most lavish just before conditions changed.",
+          "artifact": "Contest comic",
+          "certainty": "verified month from 1982 release summaries",
+          "sourceNote": "1982 release summaries list Swordquest: EarthWorld in October; exact retail day not asserted."
+        },
+        {
+          "date": "October 1982",
+          "title": "UK microcomputers become household contenders",
+          "body": "By October, the ZX Spectrum, BBC Micro, Dragon 32, VIC-20 and newly marketed Commodore 64 had turned games into something that could arrive on a cassette from a newsagent or mail-order advert.",
+          "artifact": "Cassette inlay card",
+          "certainty": "contextual UK hardware moment",
+          "sourceNote": "ZX Spectrum launched in April 1982; Dragon 32 in August 1982; Commodore 64 marketing began in August 1982; BBC Micro had launched in late 1981."
+        },
+        {
+          "date": "October issue",
+          "title": "Electronic Games previews 1983 before the crash",
+          "body": "The October 1982 Electronic Games issue is remembered for a 1983 videogame preview mood: confident, busy, and still unaware of how fragile the market would soon look.",
+          "artifact": "1983 preview cover",
+          "certainty": "verified issue context",
+          "sourceNote": "Original Magazines identifies the October 1982 Electronic Games issue as a 1983 videogame preview."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight October-window releases and launch items. Dates are kept broad where trade records disagree.",
+      "items": [
+        {
+          "date": "October 1982",
+          "title": "Q*bert",
+          "platform": "Arcade",
+          "body": "Gottlieb's diagonal, swearing, pyramid-hopping arcade game. Its October publication date is clear; its wider public/operator rollout is fuzzier.",
+          "signal": "Arcade character oddity",
+          "certainty": "verified October publication; rollout uncertain",
+          "sourceNote": "Copyright publication date October 18, 1982; AMOA public sales reported in November."
+        },
+        {
+          "date": "October 1982",
+          "title": "Pengo",
+          "platform": "Arcade",
+          "body": "Sega's ice-block maze game had a Japanese September release and is listed by some references as reaching North America the following month.",
+          "signal": "Cute maze tactics",
+          "certainty": "North American month uncertain",
+          "sourceNote": "VGMdb lists Japan as September 26, 1982; HandWiki-style release summaries place North America in the following month and Europe in December."
+        },
+        {
+          "date": "October 1982",
+          "title": "Demon Attack",
+          "platform": "Intellivision",
+          "body": "Imagic's shooter reached Intellivision in October, part of a wave of third-party cartridge makers treating the home console shelf as a serious battleground.",
+          "signal": "Third-party cartridge pressure",
+          "certainty": "verified month",
+          "sourceNote": "Demon Attack references list the Intellivision release in October 1982."
+        },
+        {
+          "date": "October 1982",
+          "title": "Swordquest: EarthWorld",
+          "platform": "Atari 2600",
+          "body": "The first Swordquest cartridge, inseparable from its comic and contest premise.",
+          "signal": "Prize-culture cartridge",
+          "certainty": "verified month in release summaries",
+          "sourceNote": "1982 release summaries list Atari's Swordquest: EarthWorld in October; exact day not asserted."
+        },
+        {
+          "date": "October 1982",
+          "title": "Super Breakout",
+          "platform": "Atari 5200",
+          "body": "The Atari 5200 pack-in that made the new console feel both premium and strangely tied to an older arcade lineage.",
+          "signal": "Pack-in inheritance",
+          "certainty": "launch-window item",
+          "sourceNote": "Atari Archive lists Super Breakout for the Atari 5200 in the October 1982 launch window."
+        },
+        {
+          "date": "October 1982",
+          "title": "Star Raiders",
+          "platform": "Atari 5200",
+          "body": "A prestige Atari name reappearing for the 5200, carrying home-computer space-sim ambition into the console's launch story.",
+          "signal": "Atari prestige title",
+          "certainty": "launch-window item",
+          "sourceNote": "Atari Archive lists Star Raiders for the Atari 5200 in the October 1982 launch window."
+        },
+        {
+          "date": "October 1982",
+          "title": "Missile Command",
+          "platform": "Atari 5200",
+          "body": "A familiar arcade defence game used to make the 5200's new hardware feel immediately legible.",
+          "signal": "Arcade-to-home continuity",
+          "certainty": "launch-window item",
+          "sourceNote": "Atari Archive lists Missile Command for the Atari 5200 in the October 1982 launch window."
+        },
+        {
+          "date": "October 1982",
+          "title": "Space Invaders",
+          "platform": "Atari 5200",
+          "body": "An older icon pressed into service for Atari's new premium console, proof that early-1980s launch libraries still leaned heavily on arcade memory.",
+          "signal": "Old icon, new box",
+          "certainty": "launch-window item",
+          "sourceNote": "Atari Archive lists Space Invaders for the Atari 5200 in the October 1982 launch window."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four objects explain the month: an American premium console, British micros, cassette tapes, and arcade cabinets.",
+      "items": [
+        {
+          "title": "Atari 5200 SuperSystem",
+          "body": "A powerful but awkward premium console, based closely on Atari's 8-bit computer technology and famous for its analogue controller. In October it was more limited US rollout than UK retail reality.",
+          "specs": ["Limited US launch window", "Analogue joystick", "Bundled with Super Breakout"],
+          "certainty": "verified launch window, regional caveat",
+          "sourceNote": "Atari 5200 sources describe October/November 1982 launch timing and limited initial availability."
+        },
+        {
+          "title": "ZX Spectrum",
+          "body": "Launched in April, but by October it was becoming a central UK gaming machine: cheap enough to imagine at home, flexible enough to invite bedroom coding.",
+          "specs": ["16K / 48K models", "Colour graphics", "Cassette loading"],
+          "certainty": "verified April launch, October context",
+          "sourceNote": "Centre for Computing History lists the ZX Spectrum launch on 23 April 1982."
+        },
+        {
+          "title": "Dragon 32 and BBC Micro",
+          "body": "British home computing did not belong to one machine. The BBC Micro carried educational authority; the Welsh Dragon 32 added another serious colour-computer option.",
+          "specs": ["BBC education aura", "Dragon 32 launched August 1982", "Home micro competition"],
+          "certainty": "verified broad context",
+          "sourceNote": "Dragon 32 references list August 1982; BBC Micro launched in December 1981."
+        },
+        {
+          "title": "Cassette as game delivery",
+          "body": "For UK micro owners, the sound of loading was part of the exhibit: squeal, border stripes, patience, and the real possibility of failure.",
+          "specs": ["Compact cassette", "TV display", "Mail-order software"],
+          "certainty": "contextual",
+          "sourceNote": "Included as UK home-computer culture around Spectrum/BBC/Dragon software."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "In 1982 the magazine was not a supplement to the internet. It was the map.",
+      "items": [
+        {
+          "title": "Electronic Games",
+          "month": "October 1982",
+          "publicationName": "Electronic Games",
+          "issueDate": "October 1982",
+          "headline": "1983 Videogame Preview",
+          "coverImage": "/magazine-covers/1982/electronic-games-october.svg",
+          "coverImageAlt": "Reconstructed cover image for Electronic Games, October 1982.",
+          "curatorNote": "A confident American videogame magazine looking forward to 1983, still standing inside the arcade-and-console boom.",
+          "body": "A confident American videogame magazine looking forward to 1983, still standing inside the arcade-and-console boom.",
+          "certainty": "verified collector listing",
+          "sourceNote": "Original Magazines identifies the October 1982 Electronic Games issue as a 1983 videogame preview."
+        },
+        {
+          "title": "Computer and Video Games",
+          "month": "October 1982",
+          "publicationName": "Computer and Video Games",
+          "issueDate": "October 1982",
+          "headline": "Arcade and home-computer coverage for UK readers",
+          "coverImage": "/magazine-covers/1982/cvg-october.svg",
+          "coverImageAlt": "Reconstructed cover image for Computer and Video Games, October 1982.",
+          "curatorNote": "C&VG sat exactly where this exhibit lives: between coin-op fascination and the domestic computer arriving under the television.",
+          "body": "C&VG sat exactly where this exhibit lives: between coin-op fascination and the domestic computer arriving under the television.",
+          "certainty": "issue existence supported by archive context; cover line reconstructed",
+          "sourceNote": "Retro magazine archives document C&VG's early-1980s monthly run; specific cover-line text here is treated as reconstructed."
+        },
+        {
+          "title": "Personal Computer World",
+          "month": "October 1982",
+          "publicationName": "Personal Computer World",
+          "issueDate": "October 1982",
+          "headline": "The home micro as serious machine",
+          "coverImage": "/magazine-covers/1982/personal-computer-world-october.svg",
+          "coverImageAlt": "Reconstructed cover image for Personal Computer World, October 1982.",
+          "curatorNote": "Not a games magazine, but an essential UK shelf object for the world that made home computer games possible.",
+          "body": "Not a games magazine, but an essential UK shelf object for the world that made home computer games possible.",
+          "certainty": "verified issue listing",
+          "sourceNote": "Centre for Computing History lists Personal Computer World - October 1982."
+        },
+        {
+          "title": "Popular Computing Weekly",
+          "month": "7 October 1982",
+          "publicationName": "Popular Computing Weekly",
+          "issueDate": "7 October 1982",
+          "headline": "The weekly feed for British micro owners",
+          "coverImage": "/magazine-covers/1982/popular-computing-weekly-october.svg",
+          "coverImageAlt": "Reconstructed cover image for Popular Computing Weekly, 7 October 1982.",
+          "curatorNote": "A weekly UK pulse: cheaper, faster, and closer to the reader who wanted listings, adverts, and machine gossip now.",
+          "body": "A weekly UK pulse: cheaper, faster, and closer to the reader who wanted listings, adverts, and machine gossip now.",
+          "certainty": "verified issue scan exists",
+          "sourceNote": "A scan of Popular Computing Weekly, Vol. 1 No. 25, dated 7 October 1982, is available online."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "There was no ordinary online life for most players. The network was paper, cassette, club, shop, and school.",
+      "items": [
+        {
+          "title": "Listings were the download",
+          "body": "A program printed in a magazine could become a game if you typed it correctly and the machine accepted your patience.",
+          "certainty": "contextual",
+          "sourceNote": "Included as UK microcomputer culture rather than a single dated claim."
+        },
+        {
+          "title": "Mail order was a network",
+          "body": "Adverts, order forms, postal delays, and small software houses acted like a slow, physical internet for early home-computer games.",
+          "certainty": "contextual",
+          "sourceNote": "Included as early-1980s software distribution context."
+        },
+        {
+          "title": "Arcade knowledge was local",
+          "body": "Strategies travelled by watching over shoulders, reading magazines, and hearing rumours near the cabinet.",
+          "certainty": "contextual",
+          "sourceNote": "Arcade culture context."
+        },
+        {
+          "title": "Teletext and bulletin boards were edge cases",
+          "body": "Networked information existed, but it was not the normal way a UK child or teenager discovered games in October 1982.",
+          "certainty": "contextual",
+          "sourceNote": "Phrased cautiously to avoid overstating online access."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "October 1982 was a split-screen month: arcade brightness on one side, domestic loading noise on the other.",
+      "items": [
+        {
+          "title": "The arcade still felt like the future",
+          "body": "Cabinets had colour, sound, art, and presence. Q*bert did not look like a home-computer program; it looked like a machine with a personality."
+        },
+        {
+          "title": "The home felt newly programmable",
+          "body": "A Spectrum or BBC Micro was not just a game machine. It suggested that games were things a person might type, save, trade, and understand."
+        },
+        {
+          "title": "The UK experience was cassette-shaped",
+          "body": "Loading was part of play: the squeal, the wait, the fear that a volume knob could ruin everything."
+        },
+        {
+          "title": "The boom felt normal from inside it",
+          "body": "From October 1982, the coming crash was not yet the story in the room. The story was more games, more machines, more magazines, more choice."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Q*bert release context",
+      "url": "https://en.wikipedia.org/wiki/Q%2Abert",
+      "note": "Used for October 18, 1982 copyright publication date and November AMOA caveat."
+    },
+    {
+      "label": "GameSpot: Q*bert first released October 1982",
+      "url": "https://www.gamespot.com/games/qbert/",
+      "note": "Used as a secondary October 1982 release anchor."
+    },
+    {
+      "label": "Atari Archive: Atari 5200 game release dates",
+      "url": "https://www.atariarchive.org/atari-5200-game-release-dates/",
+      "note": "Used for Atari 5200 launch-window cartridges and October scheduling notes."
+    },
+    {
+      "label": "Atari 5200 launch context",
+      "url": "https://en.wikipedia.org/wiki/Atari_5200",
+      "note": "Used for limited October retail appearance and wider launch caveat."
+    },
+    {
+      "label": "ZX Spectrum launch",
+      "url": "https://www.computinghistory.org.uk/det/43781/Sinclair%20ZX%20Spectrum%20Launched",
+      "note": "Used for 23 April 1982 ZX Spectrum launch and UK games-industry context."
+    },
+    {
+      "label": "Dragon 32 context",
+      "url": "https://t-lcarchive.org/dragon-32/",
+      "note": "Used for August 1982 Dragon 32 context."
+    },
+    {
+      "label": "Commodore 64 context",
+      "url": "https://en.wikipedia.org/wiki/Commodore_64",
+      "note": "Used for January 1982 introduction and August 1982 marketing context."
+    },
+    {
+      "label": "Electronic Games October 1982",
+      "url": "https://www.originalmagazines.com/blogs/vintage-magazines/the-arcade-boom-console-wars-and-electronic-games-magazine-s-1982-videogame-preview",
+      "note": "Used for the October 1982 issue and 1983 videogame preview context."
+    },
+    {
+      "label": "Personal Computer World October 1982",
+      "url": "https://www.computinghistory.org.uk/det/619/Personal-Computer-World-October-1982/",
+      "note": "Used for verified PCW October 1982 issue listing."
+    },
+    {
+      "label": "Popular Computing Weekly 7 October 1982 scan",
+      "url": "https://www.two-mag.com/cpc/ACME/LITTERATURE/REVUES/%5BENG%5DENGLISH_UK/%5BINCOMPLETE%5D%5BENG%5D%5BMULTI%5DPOPULAR_COMPUTING_WEEKLY/1982/POPULAR_COMPUTING_WEEKLY_1982-10-07.pdf",
+      "note": "Used for verified weekly issue date and UK microcomputer context."
+    },
+    {
+      "label": "Pengo release context",
+      "url": "https://vgmdb.net/product/13158",
+      "note": "Used for September 26, 1982 Japan release and cautious October North America context from secondary summaries."
+    },
+    {
+      "label": "Demon Attack release context",
+      "url": "https://en.wikipedia.org/wiki/Demon_Attack",
+      "note": "Used for October 1982 Intellivision release."
+    },
+    {
+      "label": "1982 in video games",
+      "url": "https://en.wikipedia.org/wiki/1982_in_video_games",
+      "note": "Used for broad 1982 arcade/home-console context and Swordquest month anchor."
+    }
+  ]
+}
