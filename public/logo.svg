@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="260" viewBox="0 0 1180 260" role="img" aria-labelledby="title desc">
+  <title id="title">Gaming Time Machine logo</title>
+  <desc id="desc">Premium museum-style Gaming Time Machine wordmark with a minimal timeline marker and archive plaque detail.</desc>
+  <defs>
+    <style>
+      .ivory { fill: #f3efe4; }
+      .gold { fill: #c9a45d; }
+      .gold-stroke { stroke: #c9a45d; }
+      .ivory-stroke { stroke: #f3efe4; }
+      .word { font-family: Georgia, "Times New Roman", serif; font-weight: 700; letter-spacing: 9px; }
+      .meta { font-family: Arial, Helvetica, sans-serif; font-weight: 700; letter-spacing: 8px; }
+    </style>
+  </defs>
+
+  <g transform="translate(24 24)">
+    <path d="M18 0h1114c10 0 18 8 18 18v188c0 10-8 18-18 18H18c-10 0-18-8-18-18V18C0 8 8 0 18 0Z" fill="none" class="gold-stroke" stroke-width="2" opacity=".56"/>
+    <path d="M42 30h180v164H42z" fill="none" class="gold-stroke" stroke-width="4"/>
+    <path d="M76 112h112" class="gold-stroke" stroke-width="5" stroke-linecap="round"/>
+    <path d="M132 64v96" class="gold-stroke" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="132" cy="112" r="28" fill="none" class="ivory-stroke" stroke-width="5"/>
+    <circle cx="132" cy="112" r="7" class="gold"/>
+    <path d="M88 164h88" class="gold-stroke" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+    <path d="M88 182h88" class="gold-stroke" stroke-width="3" stroke-linecap="round" opacity=".42"/>
+
+    <text x="270" y="94" class="word ivory" font-size="50">GAMING TIME</text>
+    <text x="270" y="166" class="word ivory" font-size="72">MACHINE</text>
+    <path d="M276 196h548" class="gold-stroke" stroke-width="3" stroke-linecap="round" opacity=".84"/>
+    <circle cx="904" cy="196" r="10" class="gold"/>
+    <path d="M914 196h182" class="gold-stroke" stroke-width="3" stroke-linecap="round" opacity=".52"/>
+    <text x="912" y="178" class="meta gold" font-size="18">ARCHIVE</text>
+  </g>
+</svg>

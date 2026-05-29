@@ -197,9 +197,20 @@ export default async function Home({ searchParams }: { searchParams: SearchParam
           months={months.map(({ id, label, href }) => ({ id, label, href }))}
           randomHref={`/?year=${DEFAULT_YEAR}&month=october`}
         />
-        <nav className="relative mx-auto flex max-w-7xl items-center justify-between px-5 py-5 md:px-8">
-          <a href="#top" className="font-mono text-xs uppercase tracking-[0.28em] text-amber-200">
-            {museum.accession}
+        <nav className="relative mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-5 md:px-8">
+          <a
+            href="/"
+            className="group flex min-w-0 items-center gap-4"
+            aria-label="Gaming Time Machine home"
+          >
+            <img
+              src="/logo.svg"
+              alt="Gaming Time Machine"
+              className="h-auto w-[min(58vw,15rem)] transition duration-300 group-hover:opacity-85 sm:w-64"
+            />
+            <span className="hidden border-l border-stone-100/20 pl-4 font-mono text-xs uppercase tracking-[0.24em] text-amber-200 lg:inline">
+              {museum.accession}
+            </span>
           </a>
           <div className="hidden gap-5 text-xs uppercase tracking-[0.18em] text-stone-300 md:flex">
             {sections.map((section) => (
@@ -212,7 +223,18 @@ export default async function Home({ searchParams }: { searchParams: SearchParam
         <div id="top" className="relative mx-auto grid max-w-7xl gap-10 px-5 pb-16 pt-14 md:grid-cols-[1.2fr_0.8fr] md:px-8 md:pb-24 md:pt-20">
           <div>
             <p className="font-mono text-sm uppercase tracking-[0.42em] text-red-300">{museum.period}</p>
-            <h1 className="mt-5 max-w-4xl font-display text-6xl leading-[0.9] md:text-8xl">{museum.name}</h1>
+            <h1 className="mt-6 max-w-4xl">
+              <a href="/" aria-label="Gaming Time Machine home" className="inline-block transition duration-300 hover:opacity-90">
+                <img
+                  src="/logo.svg"
+                  alt={museum.name}
+                  className="h-auto w-full max-w-[46rem]"
+                />
+              </a>
+            </h1>
+            <p className="mt-5 max-w-2xl font-mono text-xs uppercase tracking-[0.28em] text-amber-100/80 sm:text-sm">
+              Gaming History, One Month at a Time
+            </p>
             <p className="mt-8 max-w-2xl text-xl leading-9 text-stone-200">{museum.dek}</p>
             <div className="mt-8 flex flex-wrap gap-3">
               {museum.statusChips.map((chip) => (
