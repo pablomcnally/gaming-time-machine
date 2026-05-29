@@ -1,42 +1,327 @@
 {
-  "museum": {"name":"Gaming Time Machine","period":"July 1982","accession":"GTM-1982-07","dek":"ColecoVision begins its limited rollout, Tron reaches cinemas, and the year's home-arcade promise starts to look more competitive.","curatorNote":"July's strongest hardware anchor is ColecoVision's late-July limited rollout in New York and Boston. Tron is included as game-adjacent arcade/media context rather than a precise game release claim.","statusChips":["ColecoVision begins","Tron summer","arcade licences","home arcade pressure"]},
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "July 1982",
+    "accession": "GTM-1982-07",
+    "dek": "ColecoVision begins its limited rollout, Tron reaches cinemas, and the year's home-arcade promise starts to look more competitive.",
+    "curatorNote": "July's strongest hardware anchor is ColecoVision's late-July limited rollout in New York and Boston. Tron is included as game-adjacent arcade/media context rather than a precise game release claim.",
+    "statusChips": [
+      "ColecoVision begins",
+      "Tron summer",
+      "arcade licences",
+      "home arcade pressure"
+    ]
+  },
   "sections": [
-    {"id":"news","eyebrow":"Gallery 01","title":"News","subtitle":"July turns arcade culture into a hardware and cinema story.","items":[
-      {"date":"Late July 1982","title":"ColecoVision begins limited rollout","body":"ColecoVision launched around the end of July in New York and Boston, expanding during August and later months with Donkey Kong as its pack-in showpiece.","artifact":"Donkey Kong pack-in box","certainty":"verified limited rollout window","sourceNote":"Atari Archive cites Computer Entertainer: late July in New York/Boston, expansion in August, national rollout later."},
-      {"date":"July 1982","title":"Tron brings arcade imagery to cinema",
-      "body":"Disney's Tron made videogame imagery part of a major film object, even if the arcade tie-ins and release timings vary by market.","artifact":"Light-cycle grid","certainty":"film release/context verified; game date not asserted","sourceNote":"Tron film released in 1982; arcade-game timing is handled broadly to avoid false precision."},
-      {"date":"July 1982","title":"Donkey Kong becomes console bait","body":"Coleco's use of Donkey Kong as a pack-in made one arcade licence feel like a reason to choose hardware.","artifact":"Pack-in cartridge","certainty":"contextual tied to ColecoVision rollout","sourceNote":"ColecoVision launched with Donkey Kong as pack-in."},
-      {"date":"July 1982","title":"Spectrum software ecosystem grows","body":"Summer Spectrum ownership meant more tapes, more adverts and more small publishers trying to be found.","artifact":"Tape duplicator label","certainty":"contextual","sourceNote":"Post-April UK Spectrum context."},
-      {"date":"July 1982","title":"Atari faces a more credible home challenger","body":"The Atari 2600 still dominated, but ColecoVision's visual comparison pitch made the home market feel less settled.","artifact":"Comparison screenshot","certainty":"contextual","sourceNote":"ColecoVision launch and Donkey Kong pack-in context."}
-    ]},
-    {"id":"releases","eyebrow":"Gallery 02","title":"Releases","subtitle":"July release history is really rollout history.","items":[
-      {"date":"Late July 1982","title":"ColecoVision","platform":"Home console","body":"Limited-market launch begins with Donkey Kong as the defining pack-in.","signal":"Arcade-quality promise","certainty":"verified limited rollout","sourceNote":"Atari Archive launch chronology."},
-      {"date":"Late July 1982","title":"Donkey Kong","platform":"ColecoVision","body":"The pack-in that made the new console legible to arcade players.","signal":"Pack-in power","certainty":"launch context","sourceNote":"ColecoVision launched with Donkey Kong pack-in."},
-      {"date":"July 1982","title":"Pac-Man","platform":"Atari 2600","body":"Still the mass-market cartridge everyone could compare against better-looking arcade promises.","signal":"Compromise baseline","certainty":"post-release context","sourceNote":"March/April release context."},
-      {"date":"July 1982","title":"Ms. Pac-Man","platform":"Arcade","body":"The arcade sequel stayed strong through summer.","signal":"Maze-game staying power","certainty":"contextual","sourceNote":"Early-1982 release."},
-      {"date":"July 1982","title":"Dig Dug","platform":"Arcade","body":"A spring release now established in arcades.","signal":"Character maze action","certainty":"contextual","sourceNote":"February/April release context."},
-      {"date":"July 1982","title":"Robotron: 2084","platform":"Arcade","body":"A cabinet that made control itself the attraction.","signal":"Twin-stick mastery","certainty":"contextual","sourceNote":"March AOE debut."},
-      {"date":"July 1982","title":"Zaxxon","platform":"Arcade","body":"Still a useful comparison point for claims of arcade-quality home graphics.","signal":"Visual benchmark","certainty":"contextual","sourceNote":"January release context."},
-      {"date":"July 1982","title":"Spectrum cassette releases","platform":"ZX Spectrum","body":"The names are harder to date precisely, but the flow of small UK cassette software was now part of the market.","signal":"Bedroom software flow","certainty":"contextual","sourceNote":"No exact July title asserted."}
-    ]},
-    {"id":"hardware","eyebrow":"Gallery 03","title":"Hardware","subtitle":"ColecoVision changes the comparison chart.","items":[
-      {"title":"ColecoVision","body":"A home console sold on the idea that arcade conversions could look closer to the real thing.","specs":["Donkey Kong pack-in","Z80 CPU","Arcade-focused pitch"],"certainty":"verified rollout window","sourceNote":"Late July/August rollout source."},
-      {"title":"Atari 2600 under pressure","body":"The 2600's huge base still mattered, but its technical limits were easier to see beside Coleco's new pitch.","specs":["Huge library","Older hardware","Arcade licences"],"certainty":"contextual","sourceNote":"ColecoVision comparison context."},
-      {"title":"Tron-style arcade spectacle","body":"The arcade was increasingly part of wider pop-culture imagery, not just an amusement venue.","specs":["Vector/film imagery","Cabinet art","Public play"],"certainty":"contextual","sourceNote":"Tron film/game-adjacent context."},
-      {"title":"Spectrum tape setup","body":"UK home gaming still involved a TV, a computer, a cassette recorder and patience.","specs":["LOAD command","Cassette recorder","TV output"],"certainty":"contextual","sourceNote":"Spectrum post-launch context."}
-    ]},
-    {"id":"magazines","eyebrow":"Gallery 04","title":"Magazine Covers","subtitle":"July magazines had new hardware to explain.","items":[
-      {"title":"ColecoVision preview culture","month":"July 1982","publicationName":"Electronic Games","issueDate":"July 1982","headline":"A new home-arcade challenger","coverImage":"/magazine-covers/1982/electronic-games-october.svg","coverImageAlt":"Reconstructed Electronic Games cover for July 1982.","curatorNote":"ColecoVision's promise was exactly the kind of hardware story magazines could turn into charts and screenshots.","body":"ColecoVision's promise was exactly the kind of hardware story magazines could turn into charts and screenshots.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"UK micro weekly coverage","month":"July 1982","publicationName":"Popular Computing Weekly","issueDate":"July 1982","headline":"Spectrum software and small adverts","coverImage":"/magazine-covers/1982/popular-computing-weekly-october.svg","coverImageAlt":"Reconstructed Popular Computing Weekly cover for July 1982.","curatorNote":"For UK readers, the weekly press made new software feel findable.","body":"For UK readers, the weekly press made new software feel findable.","certainty":"contextual reconstruction","sourceNote":"Specific issue line not asserted."},
-      {"title":"C&VG summer mix","month":"July 1982","publicationName":"Computer and Video Games","issueDate":"July 1982","headline":"Arcade spectacle and home machine choice","coverImage":"/magazine-covers/1982/cvg-october.svg","coverImageAlt":"Reconstructed C&VG cover for July 1982.","curatorNote":"C&VG could cover Tron-like arcade spectacle and bedroom computers in the same breath.","body":"C&VG could cover Tron-like arcade spectacle and bedroom computers in the same breath.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Personal Computer World","month":"July 1982","publicationName":"Personal Computer World","issueDate":"July 1982","headline":"Choosing a home computer","coverImage":"/magazine-covers/1982/personal-computer-world-october.svg","coverImageAlt":"Reconstructed PCW cover for July 1982.","curatorNote":"The serious buying-guide voice mattered because computers were still expensive family decisions.","body":"The serious buying-guide voice mattered because computers were still expensive family decisions.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."}
-    ]},
-    {"id":"online","eyebrow":"Gallery 05","title":"Online Life","subtitle":"The market's network was still retail and print.","items":[{"title":"Comparison charts were search engines","body":"Magazines helped readers compare machines they could not easily try."},{"title":"Adverts made small software visible","body":"A tiny classified could launch a buying decision."},{"title":"Arcade gossip had geography","body":"What you knew depended on which machines your local venue had."},{"title":"Cinema fed the arcade imagination","body":"Tron made game imagery feel part of a larger future."}]},
-    {"id":"felt","eyebrow":"Gallery 06","title":"What It Felt Like","subtitle":"July felt like a new challenger stepping into a noisy room.","items":[{"title":"Donkey Kong sold more than a game","body":"As a pack-in, it sold the idea that home could get closer to arcade."},{"title":"Atari suddenly looked older","body":"The 2600 was familiar, but familiarity could become age."},{"title":"The Spectrum made another route","body":"Not arcade perfect, but personal, cheap and programmable."},{"title":"The future had competing shapes","body":"Console, computer, cabinet and cinema all claimed part of play."}]}
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "July turns arcade culture into a hardware and cinema story.",
+      "items": [
+        {
+          "date": "Late July 1982",
+          "title": "ColecoVision begins limited rollout",
+          "body": "ColecoVision launched around the end of July in New York and Boston, expanding during August and later months with Donkey Kong as its pack-in showpiece.",
+          "artifact": "Donkey Kong pack-in box",
+          "certainty": "verified limited rollout window",
+          "sourceNote": "Atari Archive cites Computer Entertainer: late July in New York/Boston, expansion in August, national rollout later."
+        },
+        {
+          "date": "July 1982",
+          "title": "Tron brings arcade imagery to cinema",
+          "body": "Disney's Tron made videogame imagery part of a major film object, even if the arcade tie-ins and release timings vary by market.",
+          "artifact": "Light-cycle grid",
+          "certainty": "film release/context verified; game date not asserted",
+          "sourceNote": "Tron film released in 1982; arcade-game timing is handled broadly to avoid false precision."
+        },
+        {
+          "date": "July 1982",
+          "title": "Donkey Kong becomes console bait",
+          "body": "Coleco's use of Donkey Kong as a pack-in made one arcade licence feel like a reason to choose hardware.",
+          "artifact": "Pack-in cartridge",
+          "certainty": "contextual tied to ColecoVision rollout",
+          "sourceNote": "ColecoVision launched with Donkey Kong as pack-in."
+        },
+        {
+          "date": "July 1982",
+          "title": "Spectrum software ecosystem grows",
+          "body": "Summer Spectrum ownership meant more tapes, more adverts and more small publishers trying to be found.",
+          "artifact": "Tape duplicator label",
+          "certainty": "contextual",
+          "sourceNote": "Post-April UK Spectrum context."
+        },
+        {
+          "date": "July 1982",
+          "title": "Atari faces a more credible home challenger",
+          "body": "The Atari 2600 still dominated, but ColecoVision's visual comparison pitch made the home market feel less settled.",
+          "artifact": "Comparison screenshot",
+          "certainty": "contextual",
+          "sourceNote": "ColecoVision launch and Donkey Kong pack-in context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "July release history is really rollout history.",
+      "items": [
+        {
+          "date": "Late July 1982",
+          "title": "ColecoVision",
+          "platform": "Home console",
+          "body": "Limited-market launch begins with Donkey Kong as the defining pack-in.",
+          "signal": "Arcade-quality promise",
+          "certainty": "verified limited rollout",
+          "sourceNote": "Atari Archive launch chronology."
+        },
+        {
+          "date": "Late July 1982",
+          "title": "Donkey Kong",
+          "platform": "ColecoVision",
+          "body": "The pack-in that made the new console legible to arcade players.",
+          "signal": "Pack-in power",
+          "certainty": "launch context",
+          "sourceNote": "ColecoVision launched with Donkey Kong pack-in."
+        },
+        {
+          "date": "July 1982",
+          "title": "Pac-Man",
+          "platform": "Atari 2600",
+          "body": "Still the mass-market cartridge everyone could compare against better-looking arcade promises.",
+          "signal": "Compromise baseline",
+          "certainty": "post-release context",
+          "sourceNote": "March/April release context."
+        },
+        {
+          "date": "July 1982",
+          "title": "Ms. Pac-Man",
+          "platform": "Arcade",
+          "body": "The arcade sequel stayed strong through summer.",
+          "signal": "Maze-game staying power",
+          "certainty": "contextual",
+          "sourceNote": "Early-1982 release."
+        },
+        {
+          "date": "July 1982",
+          "title": "Dig Dug",
+          "platform": "Arcade",
+          "body": "A spring release now established in arcades.",
+          "signal": "Character maze action",
+          "certainty": "contextual",
+          "sourceNote": "February/April release context."
+        },
+        {
+          "date": "July 1982",
+          "title": "Robotron: 2084",
+          "platform": "Arcade",
+          "body": "A cabinet that made control itself the attraction.",
+          "signal": "Twin-stick mastery",
+          "certainty": "contextual",
+          "sourceNote": "March AOE debut."
+        },
+        {
+          "date": "July 1982",
+          "title": "Zaxxon",
+          "platform": "Arcade",
+          "body": "Still a useful comparison point for claims of arcade-quality home graphics.",
+          "signal": "Visual benchmark",
+          "certainty": "contextual",
+          "sourceNote": "January release context."
+        },
+        {
+          "date": "July 1982",
+          "title": "Spectrum cassette releases",
+          "platform": "ZX Spectrum",
+          "body": "The names are harder to date precisely, but the flow of small UK cassette software was now part of the market.",
+          "signal": "Bedroom software flow",
+          "certainty": "contextual",
+          "sourceNote": "No exact July title asserted."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "ColecoVision changes the comparison chart.",
+      "items": [
+        {
+          "title": "ColecoVision",
+          "body": "A home console sold on the idea that arcade conversions could look closer to the real thing.",
+          "specs": [
+            "Donkey Kong pack-in",
+            "Z80 CPU",
+            "Arcade-focused pitch"
+          ],
+          "certainty": "verified rollout window",
+          "sourceNote": "Late July/August rollout source."
+        },
+        {
+          "title": "Atari 2600 under pressure",
+          "body": "The 2600's huge base still mattered, but its technical limits were easier to see beside Coleco's new pitch.",
+          "specs": [
+            "Huge library",
+            "Older hardware",
+            "Arcade licences"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "ColecoVision comparison context."
+        },
+        {
+          "title": "Tron-style arcade spectacle",
+          "body": "The arcade was increasingly part of wider pop-culture imagery, not just an amusement venue.",
+          "specs": [
+            "Vector/film imagery",
+            "Cabinet art",
+            "Public play"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Tron film/game-adjacent context."
+        },
+        {
+          "title": "Spectrum tape setup",
+          "body": "UK home gaming still involved a TV, a computer, a cassette recorder and patience.",
+          "specs": [
+            "LOAD command",
+            "Cassette recorder",
+            "TV output"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Spectrum post-launch context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "July magazines had new hardware to explain.",
+      "items": [
+        {
+          "title": "ColecoVision preview culture",
+          "month": "July 1982",
+          "publicationName": "Electronic Games",
+          "issueDate": "July 1982",
+          "headline": "A new home-arcade challenger",
+          "coverImage": "/magazine-covers/1982/electronic-games-october.svg",
+          "coverImageAlt": "Reconstructed Electronic Games cover for July 1982.",
+          "curatorNote": "ColecoVision's promise was exactly the kind of hardware story magazines could turn into charts and screenshots.",
+          "body": "ColecoVision's promise was exactly the kind of hardware story magazines could turn into charts and screenshots.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "UK micro weekly coverage",
+          "month": "July 1982",
+          "publicationName": "Popular Computing Weekly",
+          "issueDate": "July 1982",
+          "headline": "Spectrum software and small adverts",
+          "coverImage": "/magazine-covers/1982/popular-computing-weekly-october.svg",
+          "coverImageAlt": "Reconstructed Popular Computing Weekly cover for July 1982.",
+          "curatorNote": "For UK readers, the weekly press made new software feel findable.",
+          "body": "For UK readers, the weekly press made new software feel findable.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific issue line not asserted."
+        },
+        {
+          "title": "C&VG summer mix",
+          "month": "July 1982",
+          "publicationName": "Computer and Video Games",
+          "issueDate": "July 1982",
+          "headline": "Arcade spectacle and home machine choice",
+          "coverImage": "/magazine-covers/1982/cvg-october.svg",
+          "coverImageAlt": "Reconstructed C&VG cover for July 1982.",
+          "curatorNote": "C&VG could cover Tron-like arcade spectacle and bedroom computers in the same breath.",
+          "body": "C&VG could cover Tron-like arcade spectacle and bedroom computers in the same breath.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Personal Computer World",
+          "month": "July 1982",
+          "publicationName": "Personal Computer World",
+          "issueDate": "July 1982",
+          "headline": "Choosing a home computer",
+          "coverImage": "/magazine-covers/1982/personal-computer-world-october.svg",
+          "coverImageAlt": "Reconstructed PCW cover for July 1982.",
+          "curatorNote": "The serious buying-guide voice mattered because computers were still expensive family decisions.",
+          "body": "The serious buying-guide voice mattered because computers were still expensive family decisions.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "The market's network was still retail and print.",
+      "items": [
+        {
+          "title": "Comparison charts were search engines",
+          "body": "Magazines helped readers compare machines they could not easily try."
+        },
+        {
+          "title": "Adverts made small software visible",
+          "body": "A tiny classified could launch a buying decision."
+        },
+        {
+          "title": "Arcade gossip had geography",
+          "body": "What you knew depended on which machines your local venue had."
+        },
+        {
+          "title": "Cinema fed the arcade imagination",
+          "body": "Tron made game imagery feel part of a larger future."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "July felt like a new challenger stepping into a noisy room.",
+      "items": [
+        {
+          "title": "Donkey Kong sold more than a game",
+          "body": "As a pack-in, it sold the idea that home could get closer to arcade."
+        },
+        {
+          "title": "Atari suddenly looked older",
+          "body": "The 2600 was familiar, but familiarity could become age."
+        },
+        {
+          "title": "The Spectrum made another route",
+          "body": "Not arcade perfect, but personal, cheap and programmable."
+        },
+        {
+          "title": "The future had competing shapes",
+          "body": "Console, computer, cabinet and cinema all claimed part of play."
+        }
+      ]
+    }
   ],
   "sources": [
-    {"label":"ColecoVision launch chronology","url":"https://www.atariarchive.org/colecovision-game-release-dates/","note":"Used for late July limited rollout and Donkey Kong pack-in."},
-    {"label":"ColecoVision overview","url":"https://en.wikipedia.org/wiki/ColecoVision","note":"Used for August launch and Donkey Kong pack-in context."},
-    {"label":"Tron game-adjacent context","url":"https://en.wikipedia.org/wiki/Tron","note":"Used for 1982 film context; no exact game release day asserted."}
+    {
+      "label": "ColecoVision launch chronology",
+      "url": "https://www.atariarchive.org/colecovision-game-release-dates/",
+      "note": "Used for late July limited rollout and Donkey Kong pack-in."
+    },
+    {
+      "label": "ColecoVision overview",
+      "url": "https://en.wikipedia.org/wiki/ColecoVision",
+      "note": "Used for August launch and Donkey Kong pack-in context."
+    },
+    {
+      "label": "Tron game-adjacent context",
+      "url": "https://en.wikipedia.org/wiki/Tron",
+      "note": "Used for 1982 film context; no exact game release day asserted."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

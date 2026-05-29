@@ -5,7 +5,12 @@
     "accession": "GTM-1997-11",
     "dek": "The month when Lara Croft returned, GoldenEye kept four controllers warm, PC players watched the Quake II countdown, and the Christmas shelves began to feel heavy.",
     "curatorNote": "This November exhibit is UK-aware rather than date-obsessed: exact day-level release dates are only used where multiple sources agree, and uncertain items are labelled as November or late 1997.",
-    "statusChips": ["Lara returns", "GoldenEye momentum", "Christmas shelves", "PC CD-ROM pressure"]
+    "statusChips": [
+      "Lara returns",
+      "GoldenEye momentum",
+      "Christmas shelves",
+      "PC CD-ROM pressure"
+    ]
   },
   "sections": [
     {
@@ -127,28 +132,44 @@
         {
           "title": "PlayStation as the safe Christmas bet",
           "body": "By winter 1997, PlayStation's catalogue depth made it feel like the high-street default: Tomb Raider II, Final Fantasy VII, demos, memory cards, and a wall of third-party boxes.",
-          "specs": ["Large software library", "Memory-card ritual", "Demo-disc ecosystem"],
+          "specs": [
+            "Large software library",
+            "Memory-card ritual",
+            "Demo-disc ecosystem"
+          ],
           "certainty": "contextual market position",
           "sourceNote": "Forbes' 1997 PlayStation-versus-N64 coverage discusses PlayStation's software shipment advantage over Nintendo 64."
         },
         {
           "title": "Nintendo 64 as the multiplayer argument",
           "body": "The N64's UK Christmas strength was social: GoldenEye, Mario Kart 64, Lylat Wars rumble, and the promise that four controller ports could turn one room into a tournament.",
-          "specs": ["Four controller ports", "GoldenEye split-screen", "Rumble Pak context"],
+          "specs": [
+            "Four controller ports",
+            "GoldenEye split-screen",
+            "Rumble Pak context"
+          ],
           "certainty": "contextual",
           "sourceNote": "GoldenEye UK/Europe release date is sourced to August 1997; Lylat Wars/Rumble Pak context is sourced to October 1997."
         },
         {
           "title": "PC CD-ROM as upgrade anxiety",
           "body": "A PC game box was still a checklist: processor, RAM, CD-ROM speed, sound card, DirectX, and increasingly whether your graphics hardware could do the future justice.",
-          "specs": ["DirectX-era setup", "3D accelerator pressure", "Patch and driver culture"],
+          "specs": [
+            "DirectX-era setup",
+            "3D accelerator pressure",
+            "Patch and driver culture"
+          ],
           "certainty": "contextual",
           "sourceNote": "3dfx/Glide and Quake II context support the late-1997 PC graphics-card pressure."
         },
         {
           "title": "The magazine demo disc",
           "body": "For many UK players, a cover-mounted demo disc was a hardware-adjacent object: something the console or PC physically consumed, turning the magazine into a playable exhibit.",
-          "specs": ["Playable previews", "Shop-bought discovery", "No broadband required"],
+          "specs": [
+            "Playable previews",
+            "Shop-bought discovery",
+            "No broadband required"
+          ],
           "certainty": "contextual UK magazine culture",
           "sourceNote": "Official UK PlayStation Magazine listings and Edge issue records support the demo-disc/cover-disc context."
         }
@@ -314,5 +335,10 @@
       "url": "https://www.nobleknight.com/P/2148116473/1997-November-Tomb-Raider-II-Final-Fantasy-VII-Oddworld---Abes-Oddysee",
       "note": "Used for GamePro November 1997 cover-line context."
     }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

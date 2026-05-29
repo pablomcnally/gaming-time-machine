@@ -5,7 +5,12 @@
     "accession": "GTM-1997-05",
     "dek": "A quieter archive drawer: the N64 settles, PlayStation keeps widening, and E3 approaches as the place where the rest of 1997 will be arranged.",
     "curatorNote": "May is deliberately contextual. Rather than inventing a false release calendar, this exhibit treats it as a preview and retail month between the N64 launch and the June E3/Mario Kart moment.",
-    "statusChips": ["pre-E3", "retail waiting", "demo discs", "PC upgrade talk"]
+    "statusChips": [
+      "pre-E3",
+      "retail waiting",
+      "demo discs",
+      "PC upgrade talk"
+    ]
   },
   "sections": [
     {
@@ -84,14 +89,22 @@
         {
           "title": "PlayStation CD-ROM abundance",
           "body": "The PlayStation's strength was not one object. It was the amount of plastic on the shelf, the demo discs, and the lower cost of experiments.",
-          "specs": ["CD-ROM games", "Demo discs", "Memory cards"],
+          "specs": [
+            "CD-ROM games",
+            "Demo discs",
+            "Memory cards"
+          ],
           "certainty": "contextual",
           "sourceNote": "UK retail context."
         },
         {
           "title": "N64 cartridge scarcity",
           "body": "The N64 felt premium and focused. That made each purchase more deliberate, especially for younger players negotiating with parents.",
-          "specs": ["Cartridges", "Higher software prices", "First-party focus"],
+          "specs": [
+            "Cartridges",
+            "Higher software prices",
+            "First-party focus"
+          ],
           "certainty": "contextual",
           "sourceNote": "Early European N64 library context."
         }
@@ -175,5 +188,10 @@
       "url": "https://www.computinghistory.org.uk/det/71742/Nintendo-releases-the-Nintendo-64/",
       "note": "Used for early UK N64 shelf context."
     }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

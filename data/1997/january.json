@@ -5,7 +5,12 @@
     "accession": "GTM-1997-01",
     "dek": "A cold-start month for 1997: Diablo clicks into PC life, Final Fantasy VII arrives in Japan, and British players watch the Nintendo 64 approach from magazine pages.",
     "curatorNote": "January is framed as a month of signals rather than a crowded UK release calendar. The strongest anchors are Diablo's early-January PC launch and Final Fantasy VII's 31 January Japanese debut.",
-    "statusChips": ["PC loot", "Japan import aura", "N64 waiting room", "magazine prophecy"]
+    "statusChips": [
+      "PC loot",
+      "Japan import aura",
+      "N64 waiting room",
+      "magazine prophecy"
+    ]
   },
   "sections": [
     {
@@ -84,14 +89,22 @@
         {
           "title": "Battle.net and the household phone line",
           "body": "Diablo made online play feel close enough to touch, but in UK homes the internet was still scheduled around phone access and patience.",
-          "specs": ["Dial-up ritual", "Battle.net context", "PC as social machine"],
+          "specs": [
+            "Dial-up ritual",
+            "Battle.net context",
+            "PC as social machine"
+          ],
           "certainty": "contextual",
           "sourceNote": "Battle.net launched at the end of 1996; Diablo popularised it in early 1997."
         },
         {
           "title": "N64 anticipation before launch",
           "body": "The machine's analogue stick and cartridge format were already talking points before British players could buy one officially.",
-          "specs": ["Analogue stick", "Cartridge pricing anxiety", "March European launch"],
+          "specs": [
+            "Analogue stick",
+            "Cartridge pricing anxiety",
+            "March European launch"
+          ],
           "certainty": "contextual",
           "sourceNote": "Europe launch verified as March 1, 1997."
         }
@@ -180,5 +193,10 @@
       "url": "https://www.computinghistory.org.uk/det/71742/Nintendo-releases-the-Nintendo-64/",
       "note": "Used for Europe launch timing and launch-game context."
     }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

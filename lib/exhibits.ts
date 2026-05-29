@@ -35,7 +35,12 @@ import october1997 from "../data/1997/october.json";
 import november1997 from "../data/1997/november.json";
 import december1997 from "../data/1997/december.json";
 
+export type ExhibitStatus = "ai-draft" | "human-edited" | "verified";
+
 export type Exhibit = {
+  status: ExhibitStatus;
+  lastEdited: string;
+  editorNotes: string[];
   museum: {
     name: string;
     period: string;
@@ -74,7 +79,7 @@ export type ExhibitManifest = Record<number, Partial<Record<string, Exhibit>>>;
   This manifest replaces runtime filesystem scanning so serverless deployments do not
   attempt to read /var/task/data.
 */
-export const EXHIBIT_MANIFEST: ExhibitManifest = {
+export const EXHIBIT_MANIFEST = {
   1982: {
     january: january1982,
     february: february1982,
@@ -117,4 +122,4 @@ export const EXHIBIT_MANIFEST: ExhibitManifest = {
     november: november1997,
     december: december1997
   }
-};
+} as unknown as ExhibitManifest;

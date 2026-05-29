@@ -1,42 +1,332 @@
 {
-  "museum": {"name":"Gaming Time Machine","period":"July 1983","accession":"GTM-1983-07","dek":"Nintendo launches the Famicom, Sega launches the SG-1000, Mario Bros. reaches Japan, Manic Miner arrives for the Spectrum, and the future quietly changes shape on both sides of the world.","curatorNote":"July is unusually well anchored. The Japanese console dates are solid; some UK software dates are year or month-level depending on source, so those entries stay modest.","statusChips":["Famicom","SG-1000","Mario Bros.","Manic Miner"]},
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "July 1983",
+    "accession": "GTM-1983-07",
+    "dek": "Nintendo launches the Famicom, Sega launches the SG-1000, Mario Bros. reaches Japan, Manic Miner arrives for the Spectrum, and the future quietly changes shape on both sides of the world.",
+    "curatorNote": "July is unusually well anchored. The Japanese console dates are solid; some UK software dates are year or month-level depending on source, so those entries stay modest.",
+    "statusChips": [
+      "Famicom",
+      "SG-1000",
+      "Mario Bros.",
+      "Manic Miner"
+    ]
+  },
   "sections": [
-    {"id":"news","eyebrow":"Gallery 01","title":"News","subtitle":"July gives 1983 a new centre of gravity.","items":[
-      {"date":"July 15, 1983","title":"Nintendo launches the Family Computer in Japan","body":"The Famicom arrived with Donkey Kong, Donkey Kong Jr. and Popeye, years before the machine's redesigned western life as the NES.","artifact":"Red-and-white controller","certainty":"verified date","sourceNote":"Nintendo/Famicom histories list July 15, 1983 and the three launch games."},
-      {"date":"July 15, 1983","title":"Sega launches the SG-1000 in Japan","body":"Sega's first home console launched the same day as the Famicom, making July 15 a quietly enormous date for Japanese hardware history.","artifact":"Sega console placard","certainty":"verified date","sourceNote":"SG-1000 references list July 15, 1983."},
-      {"date":"July 14, 1983","title":"Mario Bros. releases in Japan","body":"Nintendo's pipe-platform cabinet gave Mario and Luigi a clearer shared identity just as Nintendo was preparing its home-console future.","artifact":"POW block","certainty":"verified Japan date","sourceNote":"Mario Bros. references list July 14, 1983 in Japan."},
-      {"date":"July 1983","title":"Manic Miner gives the Spectrum a platforming myth","body":"Matthew Smith's game became a defining UK microcomputer object: strange rooms, bright screens, unforgiving jumps and bedroom-programmer legend.","artifact":"Miner Willy helmet","certainty":"verified year; month commonly cited","sourceNote":"Manic Miner references list 1983 and many summaries place release in July."},
-      {"date":"July 1983","title":"The crash looks less universal from Japan and Britain","body":"North American consoles were collapsing, but Japan launched new consoles and Britain leaned into micros. The global story was splitting.","artifact":"Three-market map","certainty":"interpretive","sourceNote":"Synthesis from Famicom, SG-1000 and UK micro context."}
-    ]},
-    {"id":"releases","eyebrow":"Gallery 02","title":"Releases","subtitle":"Eight July arrivals and launch-window objects.","items":[
-      {"date":"July 15, 1983","title":"Family Computer","platform":"Home console, Japan","body":"Nintendo's Famicom begins its Japanese life as a cartridge console attached to the family television.","signal":"Future console lineage","certainty":"verified date","sourceNote":"Famicom launch sources."},
-      {"date":"July 15, 1983","title":"Donkey Kong","platform":"Famicom","body":"One of the three Famicom launch games, translating Nintendo's arcade credibility into the home.","signal":"Launch arcade proof","certainty":"verified launch title","sourceNote":"Famicom launch game lists."},
-      {"date":"July 15, 1983","title":"Donkey Kong Jr.","platform":"Famicom","body":"A second arcade conversion in the Famicom's launch set.","signal":"Nintendo continuity","certainty":"verified launch title","sourceNote":"Famicom launch game lists."},
-      {"date":"July 15, 1983","title":"Popeye","platform":"Famicom","body":"The licensed cartoon cabinet becomes a launch cartridge.","signal":"Launch licence","certainty":"verified launch title","sourceNote":"Famicom launch game lists."},
-      {"date":"July 15, 1983","title":"SG-1000","platform":"Home console, Japan","body":"Sega's first console enters the same market on the same date as Nintendo's Famicom.","signal":"Sega console origin","certainty":"verified date","sourceNote":"SG-1000 sources."},
-      {"date":"July 14, 1983","title":"Mario Bros.","platform":"Arcade, Japan","body":"Mario and Luigi fight pests from below in a single-screen arena.","signal":"Nintendo platform arena","certainty":"verified Japan date","sourceNote":"Mario Bros. sources."},
-      {"date":"July 1983","title":"Manic Miner","platform":"ZX Spectrum","body":"A landmark British platformer with surreal screens and exacting jumps.","signal":"UK micro icon","certainty":"month commonly cited; source caution","sourceNote":"Manic Miner references vary in precision; July is widely cited."},
-      {"date":"July 1983","title":"Elevator Action","platform":"Arcade, North America","body":"Taito's lift-and-door spy game reaches a wider arcade audience after Japanese release.","signal":"Spy platform action","certainty":"regional month supported by secondary sources","sourceNote":"Elevator Action references list June Japan and July North America."}
-    ]},
-    {"id":"hardware","eyebrow":"Gallery 03","title":"Hardware","subtitle":"July's display case is a console counter-history.","items":[
-      {"title":"Nintendo Famicom","body":"Cheap-looking, powerful enough, and software-led. Its 1983 Japanese launch would matter far beyond the month itself.","specs":["July 15 launch","Hardwired controllers","Cartridge software"],"certainty":"verified","sourceNote":"Famicom launch sources."},
-      {"title":"Sega SG-1000","body":"Sega's first home console, launched on the same day as the Famicom and tied to Sega's broader home-hardware path.","specs":["July 15 launch","Cartridge cards and carts","Japan first"],"certainty":"verified","sourceNote":"SG-1000 sources."},
-      {"title":"ZX Spectrum 48K","body":"Manic Miner made the Spectrum feel like a native games machine rather than a cheap computer playing dress-up.","specs":["48K target audience","Cassette software","Keyboard/joystick play"],"certainty":"contextual","sourceNote":"Manic Miner context."},
-      {"title":"Arcade cabinet as Nintendo pipeline","body":"Mario Bros. shows the arcade-to-console pipeline forming before western players recognised the pattern.","specs":["Arcade first","Famicom conversion later","Character continuity"],"certainty":"contextual","sourceNote":"Mario Bros. and Famicom context."}
-    ]},
-    {"id":"magazines","eyebrow":"Gallery 04","title":"Magazine Covers","subtitle":"July's paper record would have felt ahead and behind at once.","items":[
-      {"title":"Electronic Games","month":"July 1983","publicationName":"Electronic Games","issueDate":"July 1983","headline":"The console crash, seen from America","coverImage":"/magazine-covers/1983/electronic-games-1983.svg","coverImageAlt":"Reconstructed Electronic Games cover for July 1983.","curatorNote":"A US magazine could not yet know how important Nintendo's Japanese launch would become.","body":"A US magazine could not yet know how important Nintendo's Japanese launch would become.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Computer and Video Games","month":"July 1983","publicationName":"Computer and Video Games","issueDate":"July 1983","headline":"Manic Miner and the summer of Spectrum play","coverImage":"/magazine-covers/1983/cvg-1983.svg","coverImageAlt":"Reconstructed C&VG cover for July 1983.","curatorNote":"For UK readers, Manic Miner was nearer and more tangible than the Famicom.","body":"For UK readers, Manic Miner was nearer and more tangible than the Famicom.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Your Computer","month":"July 1983","publicationName":"Your Computer","issueDate":"July 1983","headline":"The home computer as games platform","coverImage":"/magazine-covers/1983/your-computer-1983.svg","coverImageAlt":"Reconstructed Your Computer cover for July 1983.","curatorNote":"The UK computer press made platform choice feel like cultural identity.","body":"The UK computer press made platform choice feel like cultural identity.","certainty":"contextual reconstruction","sourceNote":"Your Computer 1983 archive."},
-      {"title":"ZX Computing","month":"July 1983","publicationName":"ZX Computing","issueDate":"July 1983","headline":"Spectrum rooms, jumps and cassette myth","coverImage":"/magazine-covers/1983/zx-computing-1983.svg","coverImageAlt":"Reconstructed ZX Computing cover for July 1983.","curatorNote":"The Spectrum magazine shelf was ready for Miner Willy.","body":"The Spectrum magazine shelf was ready for Miner Willy.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."}
-    ]},
-    {"id":"online","eyebrow":"Gallery 05","title":"Online Life","subtitle":"The most important news did not arrive evenly.","items":[{"title":"Japan's future was distant","body":"Most UK players would not experience the Famicom launch directly."},{"title":"Tapes travelled faster than consoles","body":"A Spectrum game could become schoolyard knowledge quickly."},{"title":"Magazine lag shaped reality","body":"A July event might become a reader's fact weeks or months later."},{"title":"Local play defined importance","body":"Manic Miner mattered because it was on machines people nearby owned."}]},
-    {"id":"felt","eyebrow":"Gallery 06","title":"What It Felt Like","subtitle":"July felt like several futures starting separately.","items":[{"title":"Japan rebooted the console idea","body":"The Famicom and SG-1000 launched while the US console market struggled."},{"title":"Britain had its own hero","body":"Manic Miner made the Spectrum feel proudly local."},{"title":"Mario moved closer to centre stage","body":"Mario Bros. made him more than the man from Donkey Kong."},{"title":"The crash became regional","body":"One country's disaster was not the whole medium's fate."}]}
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "July gives 1983 a new centre of gravity.",
+      "items": [
+        {
+          "date": "July 15, 1983",
+          "title": "Nintendo launches the Family Computer in Japan",
+          "body": "The Famicom arrived with Donkey Kong, Donkey Kong Jr. and Popeye, years before the machine's redesigned western life as the NES.",
+          "artifact": "Red-and-white controller",
+          "certainty": "verified date",
+          "sourceNote": "Nintendo/Famicom histories list July 15, 1983 and the three launch games."
+        },
+        {
+          "date": "July 15, 1983",
+          "title": "Sega launches the SG-1000 in Japan",
+          "body": "Sega's first home console launched the same day as the Famicom, making July 15 a quietly enormous date for Japanese hardware history.",
+          "artifact": "Sega console placard",
+          "certainty": "verified date",
+          "sourceNote": "SG-1000 references list July 15, 1983."
+        },
+        {
+          "date": "July 14, 1983",
+          "title": "Mario Bros. releases in Japan",
+          "body": "Nintendo's pipe-platform cabinet gave Mario and Luigi a clearer shared identity just as Nintendo was preparing its home-console future.",
+          "artifact": "POW block",
+          "certainty": "verified Japan date",
+          "sourceNote": "Mario Bros. references list July 14, 1983 in Japan."
+        },
+        {
+          "date": "July 1983",
+          "title": "Manic Miner gives the Spectrum a platforming myth",
+          "body": "Matthew Smith's game became a defining UK microcomputer object: strange rooms, bright screens, unforgiving jumps and bedroom-programmer legend.",
+          "artifact": "Miner Willy helmet",
+          "certainty": "verified year; month commonly cited",
+          "sourceNote": "Manic Miner references list 1983 and many summaries place release in July."
+        },
+        {
+          "date": "July 1983",
+          "title": "The crash looks less universal from Japan and Britain",
+          "body": "North American consoles were collapsing, but Japan launched new consoles and Britain leaned into micros. The global story was splitting.",
+          "artifact": "Three-market map",
+          "certainty": "interpretive",
+          "sourceNote": "Synthesis from Famicom, SG-1000 and UK micro context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight July arrivals and launch-window objects.",
+      "items": [
+        {
+          "date": "July 15, 1983",
+          "title": "Family Computer",
+          "platform": "Home console, Japan",
+          "body": "Nintendo's Famicom begins its Japanese life as a cartridge console attached to the family television.",
+          "signal": "Future console lineage",
+          "certainty": "verified date",
+          "sourceNote": "Famicom launch sources."
+        },
+        {
+          "date": "July 15, 1983",
+          "title": "Donkey Kong",
+          "platform": "Famicom",
+          "body": "One of the three Famicom launch games, translating Nintendo's arcade credibility into the home.",
+          "signal": "Launch arcade proof",
+          "certainty": "verified launch title",
+          "sourceNote": "Famicom launch game lists."
+        },
+        {
+          "date": "July 15, 1983",
+          "title": "Donkey Kong Jr.",
+          "platform": "Famicom",
+          "body": "A second arcade conversion in the Famicom's launch set.",
+          "signal": "Nintendo continuity",
+          "certainty": "verified launch title",
+          "sourceNote": "Famicom launch game lists."
+        },
+        {
+          "date": "July 15, 1983",
+          "title": "Popeye",
+          "platform": "Famicom",
+          "body": "The licensed cartoon cabinet becomes a launch cartridge.",
+          "signal": "Launch licence",
+          "certainty": "verified launch title",
+          "sourceNote": "Famicom launch game lists."
+        },
+        {
+          "date": "July 15, 1983",
+          "title": "SG-1000",
+          "platform": "Home console, Japan",
+          "body": "Sega's first console enters the same market on the same date as Nintendo's Famicom.",
+          "signal": "Sega console origin",
+          "certainty": "verified date",
+          "sourceNote": "SG-1000 sources."
+        },
+        {
+          "date": "July 14, 1983",
+          "title": "Mario Bros.",
+          "platform": "Arcade, Japan",
+          "body": "Mario and Luigi fight pests from below in a single-screen arena.",
+          "signal": "Nintendo platform arena",
+          "certainty": "verified Japan date",
+          "sourceNote": "Mario Bros. sources."
+        },
+        {
+          "date": "July 1983",
+          "title": "Manic Miner",
+          "platform": "ZX Spectrum",
+          "body": "A landmark British platformer with surreal screens and exacting jumps.",
+          "signal": "UK micro icon",
+          "certainty": "month commonly cited; source caution",
+          "sourceNote": "Manic Miner references vary in precision; July is widely cited."
+        },
+        {
+          "date": "July 1983",
+          "title": "Elevator Action",
+          "platform": "Arcade, North America",
+          "body": "Taito's lift-and-door spy game reaches a wider arcade audience after Japanese release.",
+          "signal": "Spy platform action",
+          "certainty": "regional month supported by secondary sources",
+          "sourceNote": "Elevator Action references list June Japan and July North America."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "July's display case is a console counter-history.",
+      "items": [
+        {
+          "title": "Nintendo Famicom",
+          "body": "Cheap-looking, powerful enough, and software-led. Its 1983 Japanese launch would matter far beyond the month itself.",
+          "specs": [
+            "July 15 launch",
+            "Hardwired controllers",
+            "Cartridge software"
+          ],
+          "certainty": "verified",
+          "sourceNote": "Famicom launch sources."
+        },
+        {
+          "title": "Sega SG-1000",
+          "body": "Sega's first home console, launched on the same day as the Famicom and tied to Sega's broader home-hardware path.",
+          "specs": [
+            "July 15 launch",
+            "Cartridge cards and carts",
+            "Japan first"
+          ],
+          "certainty": "verified",
+          "sourceNote": "SG-1000 sources."
+        },
+        {
+          "title": "ZX Spectrum 48K",
+          "body": "Manic Miner made the Spectrum feel like a native games machine rather than a cheap computer playing dress-up.",
+          "specs": [
+            "48K target audience",
+            "Cassette software",
+            "Keyboard/joystick play"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Manic Miner context."
+        },
+        {
+          "title": "Arcade cabinet as Nintendo pipeline",
+          "body": "Mario Bros. shows the arcade-to-console pipeline forming before western players recognised the pattern.",
+          "specs": [
+            "Arcade first",
+            "Famicom conversion later",
+            "Character continuity"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Mario Bros. and Famicom context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "July's paper record would have felt ahead and behind at once.",
+      "items": [
+        {
+          "title": "Electronic Games",
+          "month": "July 1983",
+          "publicationName": "Electronic Games",
+          "issueDate": "July 1983",
+          "headline": "The console crash, seen from America",
+          "coverImage": "/magazine-covers/1983/electronic-games-1983.svg",
+          "coverImageAlt": "Reconstructed Electronic Games cover for July 1983.",
+          "curatorNote": "A US magazine could not yet know how important Nintendo's Japanese launch would become.",
+          "body": "A US magazine could not yet know how important Nintendo's Japanese launch would become.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Computer and Video Games",
+          "month": "July 1983",
+          "publicationName": "Computer and Video Games",
+          "issueDate": "July 1983",
+          "headline": "Manic Miner and the summer of Spectrum play",
+          "coverImage": "/magazine-covers/1983/cvg-1983.svg",
+          "coverImageAlt": "Reconstructed C&VG cover for July 1983.",
+          "curatorNote": "For UK readers, Manic Miner was nearer and more tangible than the Famicom.",
+          "body": "For UK readers, Manic Miner was nearer and more tangible than the Famicom.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Your Computer",
+          "month": "July 1983",
+          "publicationName": "Your Computer",
+          "issueDate": "July 1983",
+          "headline": "The home computer as games platform",
+          "coverImage": "/magazine-covers/1983/your-computer-1983.svg",
+          "coverImageAlt": "Reconstructed Your Computer cover for July 1983.",
+          "curatorNote": "The UK computer press made platform choice feel like cultural identity.",
+          "body": "The UK computer press made platform choice feel like cultural identity.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Your Computer 1983 archive."
+        },
+        {
+          "title": "ZX Computing",
+          "month": "July 1983",
+          "publicationName": "ZX Computing",
+          "issueDate": "July 1983",
+          "headline": "Spectrum rooms, jumps and cassette myth",
+          "coverImage": "/magazine-covers/1983/zx-computing-1983.svg",
+          "coverImageAlt": "Reconstructed ZX Computing cover for July 1983.",
+          "curatorNote": "The Spectrum magazine shelf was ready for Miner Willy.",
+          "body": "The Spectrum magazine shelf was ready for Miner Willy.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "The most important news did not arrive evenly.",
+      "items": [
+        {
+          "title": "Japan's future was distant",
+          "body": "Most UK players would not experience the Famicom launch directly."
+        },
+        {
+          "title": "Tapes travelled faster than consoles",
+          "body": "A Spectrum game could become schoolyard knowledge quickly."
+        },
+        {
+          "title": "Magazine lag shaped reality",
+          "body": "A July event might become a reader's fact weeks or months later."
+        },
+        {
+          "title": "Local play defined importance",
+          "body": "Manic Miner mattered because it was on machines people nearby owned."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "July felt like several futures starting separately.",
+      "items": [
+        {
+          "title": "Japan rebooted the console idea",
+          "body": "The Famicom and SG-1000 launched while the US console market struggled."
+        },
+        {
+          "title": "Britain had its own hero",
+          "body": "Manic Miner made the Spectrum feel proudly local."
+        },
+        {
+          "title": "Mario moved closer to centre stage",
+          "body": "Mario Bros. made him more than the man from Donkey Kong."
+        },
+        {
+          "title": "The crash became regional",
+          "body": "One country's disaster was not the whole medium's fate."
+        }
+      ]
+    }
   ],
   "sources": [
-    {"label":"Famicom launch context","url":"https://en.wikipedia.org/wiki/Nintendo_Entertainment_System","note":"Used for July 15, 1983 Family Computer launch and launch games."},
-    {"label":"SG-1000 launch context","url":"https://en.wikipedia.org/wiki/SG-1000","note":"Used for July 15, 1983 launch."},
-    {"label":"Mario Bros. release context","url":"https://en.wikipedia.org/wiki/Mario_Bros.","note":"Used for July 14, 1983 Japan release and regional caveat."},
-    {"label":"Manic Miner context","url":"https://en.wikipedia.org/wiki/Manic_Miner","note":"Used for 1983 release and UK platform-game context."}
+    {
+      "label": "Famicom launch context",
+      "url": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+      "note": "Used for July 15, 1983 Family Computer launch and launch games."
+    },
+    {
+      "label": "SG-1000 launch context",
+      "url": "https://en.wikipedia.org/wiki/SG-1000",
+      "note": "Used for July 15, 1983 launch."
+    },
+    {
+      "label": "Mario Bros. release context",
+      "url": "https://en.wikipedia.org/wiki/Mario_Bros.",
+      "note": "Used for July 14, 1983 Japan release and regional caveat."
+    },
+    {
+      "label": "Manic Miner context",
+      "url": "https://en.wikipedia.org/wiki/Manic_Miner",
+      "note": "Used for 1983 release and UK platform-game context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

@@ -5,7 +5,12 @@
     "accession": "GTM-1997-02",
     "dek": "The month before the N64 officially reached Europe: Mario Kart 64 accelerated in North America, Turok loomed, and UK shelves waited for a new console war chapter.",
     "curatorNote": "February is a hinge month. The strongest dated anchor is Mario Kart 64's North American release; UK content is mostly launch build-up rather than street-date certainty.",
-    "statusChips": ["N64 build-up", "kart momentum", "pre-launch Britain", "PC evenings"]
+    "statusChips": [
+      "N64 build-up",
+      "kart momentum",
+      "pre-launch Britain",
+      "PC evenings"
+    ]
   },
   "sections": [
     {
@@ -84,14 +89,22 @@
         {
           "title": "Cartridge confidence and anxiety",
           "body": "Nintendo's cartridge format promised speed and durability, but UK buyers could already see the price difference against PlayStation CD-ROM shelves.",
-          "specs": ["No loading screens", "Higher cartridge cost", "First-party appeal"],
+          "specs": [
+            "No loading screens",
+            "Higher cartridge cost",
+            "First-party appeal"
+          ],
           "certainty": "contextual",
           "sourceNote": "Included as retail/platform context around the European N64 launch."
         },
         {
           "title": "PC networking becomes less exotic",
           "body": "Diablo and QuakeWorld made multiplayer networking feel more plausible, even if most homes still treated a modem session as an appointment.",
-          "specs": ["Dial-up", "Battle.net", "QuakeWorld culture"],
+          "specs": [
+            "Dial-up",
+            "Battle.net",
+            "QuakeWorld culture"
+          ],
           "certainty": "contextual",
           "sourceNote": "Battle.net and QuakeWorld were active by early 1997."
         }
@@ -180,5 +193,10 @@
       "url": "https://www.computinghistory.org.uk/det/71742/Nintendo-releases-the-Nintendo-64/",
       "note": "Used for European launch timing and launch games."
     }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

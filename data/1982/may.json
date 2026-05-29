@@ -1,41 +1,327 @@
 {
-  "museum": {"name":"Gaming Time Machine","period":"May 1982","accession":"GTM-1982-05","dek":"A quieter month in the boom: the Spectrum is newly real, arcades keep cycling hits, and the year's bigger hardware shocks are still just over the horizon.","curatorNote":"May has fewer clean release anchors than March, April, August or September. This draft treats it as a post-Spectrum, pre-ColecoVision context month and marks broad items accordingly.","statusChips":["post-Spectrum","arcade boom","mail-order games","cassette patience"]},
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "May 1982",
+    "accession": "GTM-1982-05",
+    "dek": "A quieter month in the boom: the Spectrum is newly real, arcades keep cycling hits, and the year's bigger hardware shocks are still just over the horizon.",
+    "curatorNote": "May has fewer clean release anchors than March, April, August or September. This draft treats it as a post-Spectrum, pre-ColecoVision context month and marks broad items accordingly.",
+    "statusChips": [
+      "post-Spectrum",
+      "arcade boom",
+      "mail-order games",
+      "cassette patience"
+    ]
+  },
   "sections": [
-    {"id":"news","eyebrow":"Gallery 01","title":"News","subtitle":"The new UK micro era begins to settle into ordinary routines.","items":[
-      {"date":"May 1982","title":"The ZX Spectrum becomes a real UK ownership question","body":"After April's launch, the Spectrum moved from announcement to availability, reviews, adverts and waiting lists.","artifact":"Sinclair order form","certainty":"post-launch context","sourceNote":"Spectrum launched 23 April 1982; May is early ownership and retail context."},
-      {"date":"May 1982","title":"Cassette software starts to feel like a market","body":"Small UK software firms, mail-order adverts and typed listings made games feel close to readers rather than distant corporations.","artifact":"Photocopied cassette inlay","certainty":"contextual","sourceNote":"UK Spectrum/microcomputer software context."},
-      {"date":"May 1982","title":"Arcade cabinets continue to set the visual standard","body":"Dig Dug, Ms. Pac-Man, Zaxxon and Robotron represented four different answers to what a modern arcade game could look and feel like.","artifact":"Cabinet row","certainty":"contextual","sourceNote":"Based on 1982 arcade release context."},
-      {"date":"May 1982","title":"Atari Pac-Man becomes a talking point","body":"The Atari 2600 port had already sold massively, but its compromises were becoming part of home-game discussion.","artifact":"Instruction manual crease","certainty":"post-release context","sourceNote":"Atari 2600 Pac-Man released in March with April promotion."},
-      {"date":"May 1982","title":"The American console race widens offstage","body":"ColecoVision was not yet a mass shelf object, but the idea of better arcade-style home conversions was gathering force before its summer rollout.","artifact":"Trade preview note","certainty":"pre-launch context","sourceNote":"ColecoVision rolled out from late July/August 1982."}
-    ]},
-    {"id":"releases","eyebrow":"Gallery 02","title":"Releases","subtitle":"May is a shelf-context month rather than a clean launch calendar.","items":[
-      {"date":"May 1982","title":"ZX Spectrum early software","platform":"ZX Spectrum","body":"The first wave of Spectrum gaming was small, strange and often cassette-based.","signal":"UK micro beginning","certainty":"contextual","sourceNote":"Platform launched late April; individual May title dates not asserted."},
-      {"date":"May 1982","title":"Dig Dug","platform":"Arcade","body":"Fresh internationally, the game remained an arcade presence through spring.","signal":"Underground arcade hit","certainty":"post-release context","sourceNote":"April international release context."},
-      {"date":"May 1982","title":"Robotron: 2084","platform":"Arcade","body":"The twin-stick Williams cabinet continued its move from showpiece to player legend.","signal":"Control intensity","certainty":"contextual","sourceNote":"March AOE debut."},
-      {"date":"May 1982","title":"Ms. Pac-Man","platform":"Arcade","body":"By May, it was a defining sequel rather than a novelty.","signal":"Maze-game dominance","certainty":"contextual","sourceNote":"Early-1982 release context."},
-      {"date":"May 1982","title":"Zaxxon","platform":"Arcade","body":"Still the cabinet that made players tilt their heads before touching the controls.","signal":"Isometric spectacle","certainty":"contextual","sourceNote":"January Japan listing."},
-      {"date":"May 1982","title":"Pac-Man","platform":"Atari 2600","body":"A giant home release whose reputation was already complicated.","signal":"Mass-market compromise","certainty":"post-release context","sourceNote":"March/April 1982."},
-      {"date":"May 1982","title":"BBC Micro games","platform":"BBC Micro","body":"The BBC Micro was becoming a place for education and play to overlap uneasily.","signal":"Serious machine, playful use","certainty":"contextual","sourceNote":"BBC Micro context."},
-      {"date":"May 1982","title":"VIC-20 games","platform":"VIC-20","body":"Commodore's pre-C64 colour micro kept a place in UK homes and adverts.","signal":"Colour micro foothold","certainty":"contextual","sourceNote":"Not a May release claim."}
-    ]},
-    {"id":"hardware","eyebrow":"Gallery 03","title":"Hardware","subtitle":"The home computer starts to look ordinary enough to be radical.","items":[
-      {"title":"ZX Spectrum after launch","body":"Its importance was not just specification; it was the price at which programming and games entered British homes.","specs":["16K/48K","Cassette software","Rubber keys"],"certainty":"post-launch context","sourceNote":"Spectrum launched in April."},
-      {"title":"Atari 2600 installed base","body":"The 2600 was everywhere enough that one cartridge could become a national talking point.","specs":["Mass-market console","Cartridge library","Arcade licences"],"certainty":"contextual","sourceNote":"Pac-Man 2600 context."},
-      {"title":"Arcade hardware variety","body":"Cabinets had custom controls, unique boards and public presence home systems could not match.","specs":["Dedicated boards","Custom art","Coin-op economics"],"certainty":"contextual","sourceNote":"Arcade-boom context."},
-      {"title":"Mail-order micro economy","body":"Hardware, tapes and peripherals circulated through adverts as much as through shops.","specs":["Magazine ads","Postal orders","Small publishers"],"certainty":"contextual","sourceNote":"UK microcomputer culture."}
-    ]},
-    {"id":"magazines","eyebrow":"Gallery 04","title":"Magazine Covers","subtitle":"The magazine shelf was now also a software shelf.","items":[
-      {"title":"Spectrum early coverage","month":"May 1982","publicationName":"Popular Computing Weekly","issueDate":"May 1982","headline":"The new Sinclair machine settles in","coverImage":"/magazine-covers/1982/popular-computing-weekly-october.svg","coverImageAlt":"Reconstructed Popular Computing Weekly cover for May 1982.","curatorNote":"Weekly coverage helped turn launch curiosity into routines: adverts, tips, listings, prices.","body":"Weekly coverage helped turn launch curiosity into routines: adverts, tips, listings, prices.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Home-computer seriousness","month":"May 1982","publicationName":"Personal Computer World","issueDate":"May 1982","headline":"The practical home machine","coverImage":"/magazine-covers/1982/personal-computer-world-october.svg","coverImageAlt":"Reconstructed PCW cover for May 1982.","curatorNote":"PCW made the machines respectable even when readers wanted games.","body":"PCW made the machines respectable even when readers wanted games.","certainty":"contextual reconstruction","sourceNote":"Specific issue line not asserted."},
-      {"title":"C&VG hybrid shelf","month":"May 1982","publicationName":"Computer and Video Games","issueDate":"May 1982","headline":"Arcade hits and micro listings","coverImage":"/magazine-covers/1982/cvg-october.svg","coverImageAlt":"Reconstructed C&VG cover for May 1982.","curatorNote":"The hybrid title captured the moment: computer and video games were not yet the same thing, but they were sharing pages.","body":"The hybrid title captured the moment: computer and video games were not yet the same thing, but they were sharing pages.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Electronic Games boom lens","month":"May 1982","publicationName":"Electronic Games","issueDate":"May 1982","headline":"The arcade market as national culture","coverImage":"/magazine-covers/1982/electronic-games-october.svg","coverImageAlt":"Reconstructed Electronic Games cover for May 1982.","curatorNote":"American games-magazine confidence still matched the boom's public mood.","body":"American games-magazine confidence still matched the boom's public mood.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."}
-    ]},
-    {"id":"online","eyebrow":"Gallery 05","title":"Online Life","subtitle":"For a UK home player, the network was a magazine and a postbox.","items":[{"title":"Listings made readers into operators","body":"Typing a game changed the reader from consumer to participant."},{"title":"Adverts were discovery","body":"A small classified could be the first sight of a new game."},{"title":"Arcade gossip was physical","body":"Cabinet knowledge moved through queues and over shoulders."},{"title":"Remote computing stayed niche","body":"Modems existed, but not as everyday gaming infrastructure."}]},
-    {"id":"felt","eyebrow":"Gallery 06","title":"What It Felt Like","subtitle":"May felt like the month after a machine enters the house.","items":[{"title":"The Spectrum made games feel local","body":"A game could come from a shop, a magazine or someone nearby."},{"title":"The arcade still won on spectacle","body":"No cassette loading screen looked like a cabinet marquee."},{"title":"The market felt crowded in a good way","body":"More machines meant more possibilities, not yet more confusion."},{"title":"Everything required patience","body":"Saving, loading, ordering and learning all took time."}]}
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "The new UK micro era begins to settle into ordinary routines.",
+      "items": [
+        {
+          "date": "May 1982",
+          "title": "The ZX Spectrum becomes a real UK ownership question",
+          "body": "After April's launch, the Spectrum moved from announcement to availability, reviews, adverts and waiting lists.",
+          "artifact": "Sinclair order form",
+          "certainty": "post-launch context",
+          "sourceNote": "Spectrum launched 23 April 1982; May is early ownership and retail context."
+        },
+        {
+          "date": "May 1982",
+          "title": "Cassette software starts to feel like a market",
+          "body": "Small UK software firms, mail-order adverts and typed listings made games feel close to readers rather than distant corporations.",
+          "artifact": "Photocopied cassette inlay",
+          "certainty": "contextual",
+          "sourceNote": "UK Spectrum/microcomputer software context."
+        },
+        {
+          "date": "May 1982",
+          "title": "Arcade cabinets continue to set the visual standard",
+          "body": "Dig Dug, Ms. Pac-Man, Zaxxon and Robotron represented four different answers to what a modern arcade game could look and feel like.",
+          "artifact": "Cabinet row",
+          "certainty": "contextual",
+          "sourceNote": "Based on 1982 arcade release context."
+        },
+        {
+          "date": "May 1982",
+          "title": "Atari Pac-Man becomes a talking point",
+          "body": "The Atari 2600 port had already sold massively, but its compromises were becoming part of home-game discussion.",
+          "artifact": "Instruction manual crease",
+          "certainty": "post-release context",
+          "sourceNote": "Atari 2600 Pac-Man released in March with April promotion."
+        },
+        {
+          "date": "May 1982",
+          "title": "The American console race widens offstage",
+          "body": "ColecoVision was not yet a mass shelf object, but the idea of better arcade-style home conversions was gathering force before its summer rollout.",
+          "artifact": "Trade preview note",
+          "certainty": "pre-launch context",
+          "sourceNote": "ColecoVision rolled out from late July/August 1982."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "May is a shelf-context month rather than a clean launch calendar.",
+      "items": [
+        {
+          "date": "May 1982",
+          "title": "ZX Spectrum early software",
+          "platform": "ZX Spectrum",
+          "body": "The first wave of Spectrum gaming was small, strange and often cassette-based.",
+          "signal": "UK micro beginning",
+          "certainty": "contextual",
+          "sourceNote": "Platform launched late April; individual May title dates not asserted."
+        },
+        {
+          "date": "May 1982",
+          "title": "Dig Dug",
+          "platform": "Arcade",
+          "body": "Fresh internationally, the game remained an arcade presence through spring.",
+          "signal": "Underground arcade hit",
+          "certainty": "post-release context",
+          "sourceNote": "April international release context."
+        },
+        {
+          "date": "May 1982",
+          "title": "Robotron: 2084",
+          "platform": "Arcade",
+          "body": "The twin-stick Williams cabinet continued its move from showpiece to player legend.",
+          "signal": "Control intensity",
+          "certainty": "contextual",
+          "sourceNote": "March AOE debut."
+        },
+        {
+          "date": "May 1982",
+          "title": "Ms. Pac-Man",
+          "platform": "Arcade",
+          "body": "By May, it was a defining sequel rather than a novelty.",
+          "signal": "Maze-game dominance",
+          "certainty": "contextual",
+          "sourceNote": "Early-1982 release context."
+        },
+        {
+          "date": "May 1982",
+          "title": "Zaxxon",
+          "platform": "Arcade",
+          "body": "Still the cabinet that made players tilt their heads before touching the controls.",
+          "signal": "Isometric spectacle",
+          "certainty": "contextual",
+          "sourceNote": "January Japan listing."
+        },
+        {
+          "date": "May 1982",
+          "title": "Pac-Man",
+          "platform": "Atari 2600",
+          "body": "A giant home release whose reputation was already complicated.",
+          "signal": "Mass-market compromise",
+          "certainty": "post-release context",
+          "sourceNote": "March/April 1982."
+        },
+        {
+          "date": "May 1982",
+          "title": "BBC Micro games",
+          "platform": "BBC Micro",
+          "body": "The BBC Micro was becoming a place for education and play to overlap uneasily.",
+          "signal": "Serious machine, playful use",
+          "certainty": "contextual",
+          "sourceNote": "BBC Micro context."
+        },
+        {
+          "date": "May 1982",
+          "title": "VIC-20 games",
+          "platform": "VIC-20",
+          "body": "Commodore's pre-C64 colour micro kept a place in UK homes and adverts.",
+          "signal": "Colour micro foothold",
+          "certainty": "contextual",
+          "sourceNote": "Not a May release claim."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "The home computer starts to look ordinary enough to be radical.",
+      "items": [
+        {
+          "title": "ZX Spectrum after launch",
+          "body": "Its importance was not just specification; it was the price at which programming and games entered British homes.",
+          "specs": [
+            "16K/48K",
+            "Cassette software",
+            "Rubber keys"
+          ],
+          "certainty": "post-launch context",
+          "sourceNote": "Spectrum launched in April."
+        },
+        {
+          "title": "Atari 2600 installed base",
+          "body": "The 2600 was everywhere enough that one cartridge could become a national talking point.",
+          "specs": [
+            "Mass-market console",
+            "Cartridge library",
+            "Arcade licences"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Pac-Man 2600 context."
+        },
+        {
+          "title": "Arcade hardware variety",
+          "body": "Cabinets had custom controls, unique boards and public presence home systems could not match.",
+          "specs": [
+            "Dedicated boards",
+            "Custom art",
+            "Coin-op economics"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Arcade-boom context."
+        },
+        {
+          "title": "Mail-order micro economy",
+          "body": "Hardware, tapes and peripherals circulated through adverts as much as through shops.",
+          "specs": [
+            "Magazine ads",
+            "Postal orders",
+            "Small publishers"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "UK microcomputer culture."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "The magazine shelf was now also a software shelf.",
+      "items": [
+        {
+          "title": "Spectrum early coverage",
+          "month": "May 1982",
+          "publicationName": "Popular Computing Weekly",
+          "issueDate": "May 1982",
+          "headline": "The new Sinclair machine settles in",
+          "coverImage": "/magazine-covers/1982/popular-computing-weekly-october.svg",
+          "coverImageAlt": "Reconstructed Popular Computing Weekly cover for May 1982.",
+          "curatorNote": "Weekly coverage helped turn launch curiosity into routines: adverts, tips, listings, prices.",
+          "body": "Weekly coverage helped turn launch curiosity into routines: adverts, tips, listings, prices.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Home-computer seriousness",
+          "month": "May 1982",
+          "publicationName": "Personal Computer World",
+          "issueDate": "May 1982",
+          "headline": "The practical home machine",
+          "coverImage": "/magazine-covers/1982/personal-computer-world-october.svg",
+          "coverImageAlt": "Reconstructed PCW cover for May 1982.",
+          "curatorNote": "PCW made the machines respectable even when readers wanted games.",
+          "body": "PCW made the machines respectable even when readers wanted games.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific issue line not asserted."
+        },
+        {
+          "title": "C&VG hybrid shelf",
+          "month": "May 1982",
+          "publicationName": "Computer and Video Games",
+          "issueDate": "May 1982",
+          "headline": "Arcade hits and micro listings",
+          "coverImage": "/magazine-covers/1982/cvg-october.svg",
+          "coverImageAlt": "Reconstructed C&VG cover for May 1982.",
+          "curatorNote": "The hybrid title captured the moment: computer and video games were not yet the same thing, but they were sharing pages.",
+          "body": "The hybrid title captured the moment: computer and video games were not yet the same thing, but they were sharing pages.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Electronic Games boom lens",
+          "month": "May 1982",
+          "publicationName": "Electronic Games",
+          "issueDate": "May 1982",
+          "headline": "The arcade market as national culture",
+          "coverImage": "/magazine-covers/1982/electronic-games-october.svg",
+          "coverImageAlt": "Reconstructed Electronic Games cover for May 1982.",
+          "curatorNote": "American games-magazine confidence still matched the boom's public mood.",
+          "body": "American games-magazine confidence still matched the boom's public mood.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "For a UK home player, the network was a magazine and a postbox.",
+      "items": [
+        {
+          "title": "Listings made readers into operators",
+          "body": "Typing a game changed the reader from consumer to participant."
+        },
+        {
+          "title": "Adverts were discovery",
+          "body": "A small classified could be the first sight of a new game."
+        },
+        {
+          "title": "Arcade gossip was physical",
+          "body": "Cabinet knowledge moved through queues and over shoulders."
+        },
+        {
+          "title": "Remote computing stayed niche",
+          "body": "Modems existed, but not as everyday gaming infrastructure."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "May felt like the month after a machine enters the house.",
+      "items": [
+        {
+          "title": "The Spectrum made games feel local",
+          "body": "A game could come from a shop, a magazine or someone nearby."
+        },
+        {
+          "title": "The arcade still won on spectacle",
+          "body": "No cassette loading screen looked like a cabinet marquee."
+        },
+        {
+          "title": "The market felt crowded in a good way",
+          "body": "More machines meant more possibilities, not yet more confusion."
+        },
+        {
+          "title": "Everything required patience",
+          "body": "Saving, loading, ordering and learning all took time."
+        }
+      ]
+    }
   ],
   "sources": [
-    {"label":"ZX Spectrum launch context","url":"https://www.computinghistory.org.uk/det/43781/Sinclair%20ZX%20Spectrum%20Launched","note":"Used for post-launch May context."},
-    {"label":"ColecoVision release context","url":"https://www.atariarchive.org/colecovision-game-release-dates/","note":"Used for pre-launch summer rollout context."},
-    {"label":"Pac-Man Atari 2600 context","url":"https://en.wikipedia.org/wiki/Pac-Man_(Atari_2600_video_game)","note":"Used for post-release discussion context."}
+    {
+      "label": "ZX Spectrum launch context",
+      "url": "https://www.computinghistory.org.uk/det/43781/Sinclair%20ZX%20Spectrum%20Launched",
+      "note": "Used for post-launch May context."
+    },
+    {
+      "label": "ColecoVision release context",
+      "url": "https://www.atariarchive.org/colecovision-game-release-dates/",
+      "note": "Used for pre-launch summer rollout context."
+    },
+    {
+      "label": "Pac-Man Atari 2600 context",
+      "url": "https://en.wikipedia.org/wiki/Pac-Man_(Atari_2600_video_game)",
+      "note": "Used for post-release discussion context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

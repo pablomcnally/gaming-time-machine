@@ -1,42 +1,332 @@
 {
-  "museum": {"name":"Gaming Time Machine","period":"September 1983","accession":"GTM-1983-09","dek":"The Atari landfill becomes a symbol, computer games keep thriving, and the UK micro scene feels busy, local and strangely insulated from the worst American console damage.","curatorNote":"The Alamogordo burial is one of 1983's most mythologised stories. This exhibit treats it as a verified disposal event that later became larger than itself in memory.","statusChips":["Atari landfill","crash mythology","computer games","UK resilience"]},
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "September 1983",
+    "accession": "GTM-1983-09",
+    "dek": "The Atari landfill becomes a symbol, computer games keep thriving, and the UK micro scene feels busy, local and strangely insulated from the worst American console damage.",
+    "curatorNote": "The Alamogordo burial is one of 1983's most mythologised stories. This exhibit treats it as a verified disposal event that later became larger than itself in memory.",
+    "statusChips": [
+      "Atari landfill",
+      "crash mythology",
+      "computer games",
+      "UK resilience"
+    ]
+  },
   "sections": [
-    {"id":"news","eyebrow":"Gallery 01","title":"News","subtitle":"September is where business failure becomes folklore.","items":[
-      {"date":"September 1983","title":"Atari cartridges are buried in Alamogordo","body":"Atari disposed of unsold and returned stock in a New Mexico landfill, an event later inflated into shorthand for the crash itself.","artifact":"Landfill excavation tag","certainty":"verified event; mythology caveat","sourceNote":"Atari video game burial sources place disposal in September 1983."},
-      {"date":"September 1983","title":"The crash hardens into a public story","body":"By autumn, the US console downturn had become impossible to frame as a temporary wobble.","artifact":"Business-page clipping","certainty":"contextual","sourceNote":"Crash histories describe 1983 revenue collapse and publisher failures."},
-      {"date":"September 1983","title":"Home-computer games keep gaining cultural weight","body":"Lode Runner, Ultima III, EA's first wave and UK Spectrum hits made the computer side feel creative even as console retail looked damaged.","artifact":"Disk and cassette pairing","certainty":"contextual","sourceNote":"1983 release anchors."},
-      {"date":"September 1983","title":"UK players experience a different recession of faith","body":"The American crash mattered, but British high streets were also full of microcomputer promise, budget tapes and magazine enthusiasm.","artifact":"WHSmith cassette rack","certainty":"contextual","sourceNote":"UK micro market context."},
-      {"date":"September 1983","title":"Atari's symbol changes","body":"Atari had once meant the future arriving early. By September, it could also mean overreach, waste and a market that had misread itself.","artifact":"Atari label under glass","certainty":"interpretive","sourceNote":"Atari burial and crash context."}
-    ]},
-    {"id":"releases","eyebrow":"Gallery 02","title":"Releases","subtitle":"Eight games and objects in September's shadow.","items":[
-      {"date":"September 1983","title":"Atari landfill stock","platform":"Atari 2600 / related stock","body":"Not a release, but an anti-release: cartridges leaving the market as waste rather than play.","signal":"Crash artefact","certainty":"verified disposal context","sourceNote":"Atari burial sources."},
-      {"date":"September 1983","title":"Lode Runner","platform":"Home computers","body":"Still fresh as a puzzle-platformer with editability built into its identity.","signal":"Player-made levels","certainty":"recent-release context","sourceNote":"June 1983 release."},
-      {"date":"September 1983","title":"Ultima III: Exodus","platform":"Home computers","body":"A newly released RPG showing the scale computers could hold.","signal":"RPG worldbuilding","certainty":"recent-release context","sourceNote":"August 1983 release."},
-      {"date":"September 1983","title":"Manic Miner","platform":"ZX Spectrum","body":"A UK platformer whose rooms already felt like folk memory.","signal":"Spectrum icon","certainty":"1983 context","sourceNote":"1983 release."},
-      {"date":"September 1983","title":"Jetpac","platform":"ZX Spectrum","body":"Still a benchmark for fast, compact Spectrum design.","signal":"Ultimate polish","certainty":"recent-release context","sourceNote":"May 1983 release."},
-      {"date":"September 1983","title":"Dragon's Lair","platform":"Arcade","body":"The laserdisc cabinet remained a talking point, admired and argued about.","signal":"Animated spectacle","certainty":"ongoing context","sourceNote":"June 1983 release."},
-      {"date":"September 1983","title":"Star Wars","platform":"Arcade","body":"Atari's vector cabinet still offered a cleaner symbol of Atari craft than its home-console business did.","signal":"Vector prestige","certainty":"ongoing context","sourceNote":"May 1983 release."},
-      {"date":"September 1983","title":"Ant Attack build-up","platform":"ZX Spectrum","body":"Quicksilva's isometric survival game belongs to the late-1983 Spectrum story, with exact month often treated broadly.","signal":"Isometric UK anticipation","certainty":"late-1983 context","sourceNote":"Ant Attack references list 1983; exact month not asserted."}
-    ]},
-    {"id":"hardware","eyebrow":"Gallery 03","title":"Hardware","subtitle":"September's case is about what machines leave behind.","items":[
-      {"title":"Atari 2600 surplus","body":"The same installed base that once guaranteed power now made the glut physically visible.","specs":["Unsold cartridges","Returns","Discount bins"],"certainty":"contextual","sourceNote":"Atari burial and crash context."},
-      {"title":"ZX Spectrum","body":"The Spectrum's cassette market gave Britain a different relationship to 1983's downturn.","specs":["Low software prices","Local publishers","Magazine listings"],"certainty":"contextual","sourceNote":"UK micro context."},
-      {"title":"Apple II and C64","body":"Computer-game platforms carried much of the year's creative prestige.","specs":["Disk software","RPGs and strategy","Keyboard play"],"certainty":"contextual","sourceNote":"Lode Runner, Ultima III and EA context."},
-      {"title":"Arcade vector cabinets","body":"Star Wars showed Atari could still make elegant arcade hardware while its home business struggled.","specs":["Colour vector display","Flight yoke","Film licence"],"certainty":"contextual","sourceNote":"Star Wars arcade context."}
-    ]},
-    {"id":"magazines","eyebrow":"Gallery 04","title":"Magazine Covers","subtitle":"September magazines had to explain a culture splitting apart.","items":[
-      {"title":"Electronic Games","month":"September 1983","publicationName":"Electronic Games","issueDate":"September 1983","headline":"The crash becomes visible","coverImage":"/magazine-covers/1983/electronic-games-1983.svg","coverImageAlt":"Reconstructed Electronic Games cover for September 1983.","curatorNote":"The American magazine shelf could no longer treat the downturn as background noise.","body":"The American magazine shelf could no longer treat the downturn as background noise.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Computer and Video Games","month":"September 1983","publicationName":"Computer and Video Games","issueDate":"September 1983","headline":"UK micro energy against US console gloom","coverImage":"/magazine-covers/1983/cvg-1983.svg","coverImageAlt":"Reconstructed C&VG cover for September 1983.","curatorNote":"C&VG's mixed remit made it well suited to a fractured year.","body":"C&VG's mixed remit made it well suited to a fractured year.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Your Computer","month":"September 1983","publicationName":"Your Computer","issueDate":"September 1983","headline":"Computer ownership after the console wobble","coverImage":"/magazine-covers/1983/your-computer-1983.svg","coverImageAlt":"Reconstructed Your Computer cover for September 1983.","curatorNote":"A serious-computing frame made games feel safer from the crash narrative.","body":"A serious-computing frame made games feel safer from the crash narrative.","certainty":"contextual reconstruction","sourceNote":"Your Computer 1983 archive."},
-      {"title":"ZX Computing","month":"September 1983","publicationName":"ZX Computing","issueDate":"September 1983","headline":"Spectrum software keeps moving","coverImage":"/magazine-covers/1983/zx-computing-1983.svg","coverImageAlt":"Reconstructed ZX Computing cover for September 1983.","curatorNote":"The Spectrum scene did not feel like a market ending; it felt like a queue forming.","body":"The Spectrum scene did not feel like a market ending; it felt like a queue forming.","certainty":"contextual reconstruction","sourceNote":"World of Spectrum archive."}
-    ]},
-    {"id":"online","eyebrow":"Gallery 05","title":"Online Life","subtitle":"September's rumours were becoming legends.","items":[{"title":"The landfill story travelled well","body":"It was simple, visual and perfect for retelling."},{"title":"Local scenes contradicted headlines","body":"A UK player with a Spectrum might not feel the industry was dying at all."},{"title":"Reviews replaced trust","body":"After too many weak cartridges, buyers needed stronger filters."},{"title":"Computer clubs kept optimism alive","body":"Seeing software shared in person made the future feel active."}]},
-    {"id":"felt","eyebrow":"Gallery 06","title":"What It Felt Like","subtitle":"September felt like a split between shame and invention.","items":[{"title":"Atari became a cautionary object","body":"The landfill turned business failure into something almost archaeological."},{"title":"Computer games felt alive","body":"The best home-computer releases made the crash feel incomplete as an explanation."},{"title":"Britain felt adjacent, not untouched","body":"The news mattered, but the local shelf told another story."},{"title":"Memory started simplifying early","body":"Even as it happened, the crash wanted a symbol."}]}
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "September is where business failure becomes folklore.",
+      "items": [
+        {
+          "date": "September 1983",
+          "title": "Atari cartridges are buried in Alamogordo",
+          "body": "Atari disposed of unsold and returned stock in a New Mexico landfill, an event later inflated into shorthand for the crash itself.",
+          "artifact": "Landfill excavation tag",
+          "certainty": "verified event; mythology caveat",
+          "sourceNote": "Atari video game burial sources place disposal in September 1983."
+        },
+        {
+          "date": "September 1983",
+          "title": "The crash hardens into a public story",
+          "body": "By autumn, the US console downturn had become impossible to frame as a temporary wobble.",
+          "artifact": "Business-page clipping",
+          "certainty": "contextual",
+          "sourceNote": "Crash histories describe 1983 revenue collapse and publisher failures."
+        },
+        {
+          "date": "September 1983",
+          "title": "Home-computer games keep gaining cultural weight",
+          "body": "Lode Runner, Ultima III, EA's first wave and UK Spectrum hits made the computer side feel creative even as console retail looked damaged.",
+          "artifact": "Disk and cassette pairing",
+          "certainty": "contextual",
+          "sourceNote": "1983 release anchors."
+        },
+        {
+          "date": "September 1983",
+          "title": "UK players experience a different recession of faith",
+          "body": "The American crash mattered, but British high streets were also full of microcomputer promise, budget tapes and magazine enthusiasm.",
+          "artifact": "WHSmith cassette rack",
+          "certainty": "contextual",
+          "sourceNote": "UK micro market context."
+        },
+        {
+          "date": "September 1983",
+          "title": "Atari's symbol changes",
+          "body": "Atari had once meant the future arriving early. By September, it could also mean overreach, waste and a market that had misread itself.",
+          "artifact": "Atari label under glass",
+          "certainty": "interpretive",
+          "sourceNote": "Atari burial and crash context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight games and objects in September's shadow.",
+      "items": [
+        {
+          "date": "September 1983",
+          "title": "Atari landfill stock",
+          "platform": "Atari 2600 / related stock",
+          "body": "Not a release, but an anti-release: cartridges leaving the market as waste rather than play.",
+          "signal": "Crash artefact",
+          "certainty": "verified disposal context",
+          "sourceNote": "Atari burial sources."
+        },
+        {
+          "date": "September 1983",
+          "title": "Lode Runner",
+          "platform": "Home computers",
+          "body": "Still fresh as a puzzle-platformer with editability built into its identity.",
+          "signal": "Player-made levels",
+          "certainty": "recent-release context",
+          "sourceNote": "June 1983 release."
+        },
+        {
+          "date": "September 1983",
+          "title": "Ultima III: Exodus",
+          "platform": "Home computers",
+          "body": "A newly released RPG showing the scale computers could hold.",
+          "signal": "RPG worldbuilding",
+          "certainty": "recent-release context",
+          "sourceNote": "August 1983 release."
+        },
+        {
+          "date": "September 1983",
+          "title": "Manic Miner",
+          "platform": "ZX Spectrum",
+          "body": "A UK platformer whose rooms already felt like folk memory.",
+          "signal": "Spectrum icon",
+          "certainty": "1983 context",
+          "sourceNote": "1983 release."
+        },
+        {
+          "date": "September 1983",
+          "title": "Jetpac",
+          "platform": "ZX Spectrum",
+          "body": "Still a benchmark for fast, compact Spectrum design.",
+          "signal": "Ultimate polish",
+          "certainty": "recent-release context",
+          "sourceNote": "May 1983 release."
+        },
+        {
+          "date": "September 1983",
+          "title": "Dragon's Lair",
+          "platform": "Arcade",
+          "body": "The laserdisc cabinet remained a talking point, admired and argued about.",
+          "signal": "Animated spectacle",
+          "certainty": "ongoing context",
+          "sourceNote": "June 1983 release."
+        },
+        {
+          "date": "September 1983",
+          "title": "Star Wars",
+          "platform": "Arcade",
+          "body": "Atari's vector cabinet still offered a cleaner symbol of Atari craft than its home-console business did.",
+          "signal": "Vector prestige",
+          "certainty": "ongoing context",
+          "sourceNote": "May 1983 release."
+        },
+        {
+          "date": "September 1983",
+          "title": "Ant Attack build-up",
+          "platform": "ZX Spectrum",
+          "body": "Quicksilva's isometric survival game belongs to the late-1983 Spectrum story, with exact month often treated broadly.",
+          "signal": "Isometric UK anticipation",
+          "certainty": "late-1983 context",
+          "sourceNote": "Ant Attack references list 1983; exact month not asserted."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "September's case is about what machines leave behind.",
+      "items": [
+        {
+          "title": "Atari 2600 surplus",
+          "body": "The same installed base that once guaranteed power now made the glut physically visible.",
+          "specs": [
+            "Unsold cartridges",
+            "Returns",
+            "Discount bins"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Atari burial and crash context."
+        },
+        {
+          "title": "ZX Spectrum",
+          "body": "The Spectrum's cassette market gave Britain a different relationship to 1983's downturn.",
+          "specs": [
+            "Low software prices",
+            "Local publishers",
+            "Magazine listings"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "UK micro context."
+        },
+        {
+          "title": "Apple II and C64",
+          "body": "Computer-game platforms carried much of the year's creative prestige.",
+          "specs": [
+            "Disk software",
+            "RPGs and strategy",
+            "Keyboard play"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Lode Runner, Ultima III and EA context."
+        },
+        {
+          "title": "Arcade vector cabinets",
+          "body": "Star Wars showed Atari could still make elegant arcade hardware while its home business struggled.",
+          "specs": [
+            "Colour vector display",
+            "Flight yoke",
+            "Film licence"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Star Wars arcade context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "September magazines had to explain a culture splitting apart.",
+      "items": [
+        {
+          "title": "Electronic Games",
+          "month": "September 1983",
+          "publicationName": "Electronic Games",
+          "issueDate": "September 1983",
+          "headline": "The crash becomes visible",
+          "coverImage": "/magazine-covers/1983/electronic-games-1983.svg",
+          "coverImageAlt": "Reconstructed Electronic Games cover for September 1983.",
+          "curatorNote": "The American magazine shelf could no longer treat the downturn as background noise.",
+          "body": "The American magazine shelf could no longer treat the downturn as background noise.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Computer and Video Games",
+          "month": "September 1983",
+          "publicationName": "Computer and Video Games",
+          "issueDate": "September 1983",
+          "headline": "UK micro energy against US console gloom",
+          "coverImage": "/magazine-covers/1983/cvg-1983.svg",
+          "coverImageAlt": "Reconstructed C&VG cover for September 1983.",
+          "curatorNote": "C&VG's mixed remit made it well suited to a fractured year.",
+          "body": "C&VG's mixed remit made it well suited to a fractured year.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Your Computer",
+          "month": "September 1983",
+          "publicationName": "Your Computer",
+          "issueDate": "September 1983",
+          "headline": "Computer ownership after the console wobble",
+          "coverImage": "/magazine-covers/1983/your-computer-1983.svg",
+          "coverImageAlt": "Reconstructed Your Computer cover for September 1983.",
+          "curatorNote": "A serious-computing frame made games feel safer from the crash narrative.",
+          "body": "A serious-computing frame made games feel safer from the crash narrative.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Your Computer 1983 archive."
+        },
+        {
+          "title": "ZX Computing",
+          "month": "September 1983",
+          "publicationName": "ZX Computing",
+          "issueDate": "September 1983",
+          "headline": "Spectrum software keeps moving",
+          "coverImage": "/magazine-covers/1983/zx-computing-1983.svg",
+          "coverImageAlt": "Reconstructed ZX Computing cover for September 1983.",
+          "curatorNote": "The Spectrum scene did not feel like a market ending; it felt like a queue forming.",
+          "body": "The Spectrum scene did not feel like a market ending; it felt like a queue forming.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "World of Spectrum archive."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "September's rumours were becoming legends.",
+      "items": [
+        {
+          "title": "The landfill story travelled well",
+          "body": "It was simple, visual and perfect for retelling."
+        },
+        {
+          "title": "Local scenes contradicted headlines",
+          "body": "A UK player with a Spectrum might not feel the industry was dying at all."
+        },
+        {
+          "title": "Reviews replaced trust",
+          "body": "After too many weak cartridges, buyers needed stronger filters."
+        },
+        {
+          "title": "Computer clubs kept optimism alive",
+          "body": "Seeing software shared in person made the future feel active."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "September felt like a split between shame and invention.",
+      "items": [
+        {
+          "title": "Atari became a cautionary object",
+          "body": "The landfill turned business failure into something almost archaeological."
+        },
+        {
+          "title": "Computer games felt alive",
+          "body": "The best home-computer releases made the crash feel incomplete as an explanation."
+        },
+        {
+          "title": "Britain felt adjacent, not untouched",
+          "body": "The news mattered, but the local shelf told another story."
+        },
+        {
+          "title": "Memory started simplifying early",
+          "body": "Even as it happened, the crash wanted a symbol."
+        }
+      ]
+    }
   ],
   "sources": [
-    {"label":"Atari video game burial","url":"https://en.wikipedia.org/wiki/Atari_video_game_burial","note":"Used for September 1983 Alamogordo disposal and mythology caveat."},
-    {"label":"Video game crash context","url":"https://en.wikipedia.org/wiki/Video_game_crash_of_1983","note":"Used for autumn crash framing."},
-    {"label":"Ant Attack context","url":"https://en.wikipedia.org/wiki/Ant_Attack","note":"Used for 1983 Spectrum release context; exact month not asserted."},
-    {"label":"Your Computer 1983 archive","url":"https://www.computinghistory.org.uk/sec/25328/Your-Computer-1983/","note":"Used for UK magazine context."}
+    {
+      "label": "Atari video game burial",
+      "url": "https://en.wikipedia.org/wiki/Atari_video_game_burial",
+      "note": "Used for September 1983 Alamogordo disposal and mythology caveat."
+    },
+    {
+      "label": "Video game crash context",
+      "url": "https://en.wikipedia.org/wiki/Video_game_crash_of_1983",
+      "note": "Used for autumn crash framing."
+    },
+    {
+      "label": "Ant Attack context",
+      "url": "https://en.wikipedia.org/wiki/Ant_Attack",
+      "note": "Used for 1983 Spectrum release context; exact month not asserted."
+    },
+    {
+      "label": "Your Computer 1983 archive",
+      "url": "https://www.computinghistory.org.uk/sec/25328/Your-Computer-1983/",
+      "note": "Used for UK magazine context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

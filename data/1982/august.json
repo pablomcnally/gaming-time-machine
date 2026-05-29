@@ -1,42 +1,332 @@
 {
-  "museum": {"name":"Gaming Time Machine","period":"August 1982","accession":"GTM-1982-08","dek":"ColecoVision expands, Donkey Kong Jr. arrives in arcades, the Dragon 32 launches in Britain, and the Commodore 64 begins its public retail life.","curatorNote":"August is one of the richest 1982 hardware months. Some release records are month-level, so the exhibit avoids invented days unless sources support them.","statusChips":["ColecoVision","Donkey Kong Jr.","Dragon 32","C64 marketing"]},
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "August 1982",
+    "accession": "GTM-1982-08",
+    "dek": "ColecoVision expands, Donkey Kong Jr. arrives in arcades, the Dragon 32 launches in Britain, and the Commodore 64 begins its public retail life.",
+    "curatorNote": "August is one of the richest 1982 hardware months. Some release records are month-level, so the exhibit avoids invented days unless sources support them.",
+    "statusChips": [
+      "ColecoVision",
+      "Donkey Kong Jr.",
+      "Dragon 32",
+      "C64 marketing"
+    ]
+  },
   "sections": [
-    {"id":"news","eyebrow":"Gallery 01","title":"News","subtitle":"August turns hardware competition into something visible.","items":[
-      {"date":"August 1982","title":"ColecoVision expands in North America","body":"After limited late-July rollout, ColecoVision expanded to more US markets with Donkey Kong as the conversion everyone wanted to compare.","artifact":"Pack-in cartridge tray","certainty":"verified rollout window","sourceNote":"Atari Archive describes late-July launch followed by August expansion."},
-      {"date":"August 1982","title":"Donkey Kong Jr. releases in arcades","body":"Nintendo's sequel inverted the first game's rescue story and became one of 1982's major arcade follow-ups.","artifact":"Vine cabinet art","certainty":"verified month","sourceNote":"MobyGames, Donkey Kong Wiki and Arcade History list August 1982."},
-      {"date":"August 1982","title":"Dragon 32 launches in the UK","body":"The Welsh-built Dragon 32 entered Britain's home-computer market as another serious colour micro for families and schools to consider.","artifact":"Dragon badge","certainty":"verified month","sourceNote":"Dragon 32 histories list August 1982."},
-      {"date":"August 1982","title":"Commodore 64 marketing begins","body":"After its January introduction, the C64 entered wider public marketing and retail life in August, carrying a strong games promise through its sound and graphics hardware.","artifact":"SID sound promise","certainty":"verified marketing window","sourceNote":"C64 histories list marketing from August 1982."},
-      {"date":"August 1982","title":"Home arcade becomes a hardware battle","body":"ColecoVision, Atari and Intellivision now looked less like interchangeable boxes and more like competing claims about how close home could get to the arcade.","artifact":"Comparison chart","certainty":"contextual","sourceNote":"ColecoVision launch and console-market context."}
-    ]},
-    {"id":"releases","eyebrow":"Gallery 02","title":"Releases","subtitle":"August has real arrivals: console rollout, arcade sequel, and British micro hardware.","items":[
-      {"date":"August 1982","title":"ColecoVision","platform":"Home console","body":"Wider North American market expansion with Donkey Kong as defining pack-in.","signal":"Arcade-quality challenger","certainty":"verified rollout month","sourceNote":"Atari Archive / ColecoVision histories."},
-      {"date":"August 1982","title":"Donkey Kong","platform":"ColecoVision","body":"The pack-in conversion that sold the machine's arcade promise.","signal":"Pack-in system seller","certainty":"launch context","sourceNote":"ColecoVision launched with Donkey Kong."},
-      {"date":"August 1982","title":"Donkey Kong Jr.","platform":"Arcade","body":"Nintendo's arcade sequel gives 1982 another character platformer anchor.","signal":"Arcade sequel","certainty":"verified month","sourceNote":"MobyGames and arcade-history references."},
-      {"date":"August 1982","title":"Dragon 32","platform":"Home computer","body":"A UK home-computer release with games potential and school/family positioning.","signal":"Welsh microcomputer entrant","certainty":"verified month","sourceNote":"Dragon 32 references."},
-      {"date":"August 1982","title":"Commodore 64","platform":"Home computer","body":"Public marketing/retail window for a machine whose games legacy would become enormous.","signal":"Sprite-and-sound home future","certainty":"verified marketing window","sourceNote":"C64 histories."},
-      {"date":"August 1982","title":"BurgerTime","platform":"Arcade","body":"Data East's food-stacking arcade game belongs to 1982's character-action wave, though exact regional months vary by source.","signal":"Character arcade novelty","certainty":"1982 release; exact month uncertain","sourceNote":"Included as 1982 arcade context, not a precise August claim."},
-      {"date":"August 1982","title":"Moon Patrol","platform":"Arcade","body":"Irem's side-scrolling moon buggy shooter is another 1982 arcade landmark often discussed around mid-year release windows.","signal":"Scrolling arcade motion","certainty":"1982 release; exact month uncertain","sourceNote":"Included cautiously as 1982 arcade context."},
-      {"date":"August 1982","title":"Spectrum cassette releases","platform":"ZX Spectrum","body":"The UK cassette software stream kept growing around the young machine.","signal":"Bedroom software market","certainty":"contextual","sourceNote":"Specific August title dates not asserted."}
-    ]},
-    {"id":"hardware","eyebrow":"Gallery 03","title":"Hardware","subtitle":"August is a hardware display case.","items":[
-      {"title":"ColecoVision","body":"Its Donkey Kong pack-in made the system feel like a serious home-arcade challenger.","specs":["Z80 CPU","Donkey Kong pack-in","Arcade conversion pitch"],"certainty":"verified rollout","sourceNote":"ColecoVision launch sources."},
-      {"title":"Dragon 32","body":"The Dragon joined the UK home-computer shelf with a proper keyboard and colour graphics, aiming at homes and schools.","specs":["32 KB RAM","6809 processor","Cassette software"],"certainty":"verified month","sourceNote":"Dragon 32 August 1982 sources."},
-      {"title":"Commodore 64","body":"The C64's SID sound and sprite hardware made it feel unusually ready for games.","specs":["64 KB RAM","SID chip","Hardware sprites"],"certainty":"verified 1982 marketing context","sourceNote":"C64 histories."},
-      {"title":"Atari 2600 comparison point","body":"The old leader now had to be compared against newer machines claiming better arcade fidelity.","specs":["Large library","Older graphics","Arcade licences"],"certainty":"contextual","sourceNote":"ColecoVision comparison context."}
-    ]},
-    {"id":"magazines","eyebrow":"Gallery 04","title":"Magazine Covers","subtitle":"August issues had new boxes to diagram.","items":[
-      {"title":"ColecoVision coverage","month":"August 1982","publicationName":"Electronic Games","issueDate":"August 1982","headline":"Arcade quality comes home","coverImage":"/magazine-covers/1982/electronic-games-october.svg","coverImageAlt":"Reconstructed Electronic Games cover for August 1982.","curatorNote":"The console's pitch was made for magazine comparison photos.","body":"The console's pitch was made for magazine comparison photos.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Dragon and Spectrum listings","month":"August 1982","publicationName":"Popular Computing Weekly","issueDate":"August 1982","headline":"New British micros on the shelf","coverImage":"/magazine-covers/1982/popular-computing-weekly-october.svg","coverImageAlt":"Reconstructed Popular Computing Weekly cover for August 1982.","curatorNote":"The weekly UK press made new machines feel like a living marketplace.","body":"The weekly UK press made new machines feel like a living marketplace.","certainty":"contextual reconstruction","sourceNote":"Specific issue line not asserted."},
-      {"title":"C&VG arcade sequel context","month":"August 1982","publicationName":"Computer and Video Games","issueDate":"August 1982","headline":"Donkey Kong Jr. and the new home challengers","coverImage":"/magazine-covers/1982/cvg-october.svg","coverImageAlt":"Reconstructed C&VG cover for August 1982.","curatorNote":"Arcade sequel and console competition were now one story.","body":"Arcade sequel and console competition were now one story.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Personal Computer World","month":"August 1982","publicationName":"Personal Computer World","issueDate":"August 1982","headline":"Choosing between serious home computers","coverImage":"/magazine-covers/1982/personal-computer-world-october.svg","coverImageAlt":"Reconstructed PCW cover for August 1982.","curatorNote":"For families, choosing a micro still sounded like buying educational equipment, even when games were waiting.","body":"For families, choosing a micro still sounded like buying educational equipment, even when games were waiting.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."}
-    ]},
-    {"id":"online","eyebrow":"Gallery 05","title":"Online Life","subtitle":"Comparison was the work of magazines and shops.","items":[{"title":"Screenshots were evidence","body":"Magazine comparison shots mattered because most readers could not try every machine."},{"title":"Shop demos were rare gateways","body":"Seeing Donkey Kong on ColecoVision could make the hardware argument instantly."},{"title":"Listings and adverts moved software","body":"For micro owners, discovery was still printed and postal."},{"title":"Arcade knowledge stayed social","body":"Donkey Kong Jr. strategy spread through watching and retelling."}]},
-    {"id":"felt","eyebrow":"Gallery 06","title":"What It Felt Like","subtitle":"August made 1982 feel crowded with machines.","items":[{"title":"The home arcade promise improved","body":"ColecoVision made players believe the gap might shrink."},{"title":"British computers multiplied","body":"Spectrum, Dragon, BBC and Commodore made the UK shelf feel wonderfully unresolved."},{"title":"Arcades still led character design","body":"Donkey Kong Jr. proved the cabinet could still introduce personalities faster than home systems."},{"title":"The future had too many plugs","body":"Consoles, computers, cassette decks and TVs all wanted space."}]}
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "August turns hardware competition into something visible.",
+      "items": [
+        {
+          "date": "August 1982",
+          "title": "ColecoVision expands in North America",
+          "body": "After limited late-July rollout, ColecoVision expanded to more US markets with Donkey Kong as the conversion everyone wanted to compare.",
+          "artifact": "Pack-in cartridge tray",
+          "certainty": "verified rollout window",
+          "sourceNote": "Atari Archive describes late-July launch followed by August expansion."
+        },
+        {
+          "date": "August 1982",
+          "title": "Donkey Kong Jr. releases in arcades",
+          "body": "Nintendo's sequel inverted the first game's rescue story and became one of 1982's major arcade follow-ups.",
+          "artifact": "Vine cabinet art",
+          "certainty": "verified month",
+          "sourceNote": "MobyGames, Donkey Kong Wiki and Arcade History list August 1982."
+        },
+        {
+          "date": "August 1982",
+          "title": "Dragon 32 launches in the UK",
+          "body": "The Welsh-built Dragon 32 entered Britain's home-computer market as another serious colour micro for families and schools to consider.",
+          "artifact": "Dragon badge",
+          "certainty": "verified month",
+          "sourceNote": "Dragon 32 histories list August 1982."
+        },
+        {
+          "date": "August 1982",
+          "title": "Commodore 64 marketing begins",
+          "body": "After its January introduction, the C64 entered wider public marketing and retail life in August, carrying a strong games promise through its sound and graphics hardware.",
+          "artifact": "SID sound promise",
+          "certainty": "verified marketing window",
+          "sourceNote": "C64 histories list marketing from August 1982."
+        },
+        {
+          "date": "August 1982",
+          "title": "Home arcade becomes a hardware battle",
+          "body": "ColecoVision, Atari and Intellivision now looked less like interchangeable boxes and more like competing claims about how close home could get to the arcade.",
+          "artifact": "Comparison chart",
+          "certainty": "contextual",
+          "sourceNote": "ColecoVision launch and console-market context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "August has real arrivals: console rollout, arcade sequel, and British micro hardware.",
+      "items": [
+        {
+          "date": "August 1982",
+          "title": "ColecoVision",
+          "platform": "Home console",
+          "body": "Wider North American market expansion with Donkey Kong as defining pack-in.",
+          "signal": "Arcade-quality challenger",
+          "certainty": "verified rollout month",
+          "sourceNote": "Atari Archive / ColecoVision histories."
+        },
+        {
+          "date": "August 1982",
+          "title": "Donkey Kong",
+          "platform": "ColecoVision",
+          "body": "The pack-in conversion that sold the machine's arcade promise.",
+          "signal": "Pack-in system seller",
+          "certainty": "launch context",
+          "sourceNote": "ColecoVision launched with Donkey Kong."
+        },
+        {
+          "date": "August 1982",
+          "title": "Donkey Kong Jr.",
+          "platform": "Arcade",
+          "body": "Nintendo's arcade sequel gives 1982 another character platformer anchor.",
+          "signal": "Arcade sequel",
+          "certainty": "verified month",
+          "sourceNote": "MobyGames and arcade-history references."
+        },
+        {
+          "date": "August 1982",
+          "title": "Dragon 32",
+          "platform": "Home computer",
+          "body": "A UK home-computer release with games potential and school/family positioning.",
+          "signal": "Welsh microcomputer entrant",
+          "certainty": "verified month",
+          "sourceNote": "Dragon 32 references."
+        },
+        {
+          "date": "August 1982",
+          "title": "Commodore 64",
+          "platform": "Home computer",
+          "body": "Public marketing/retail window for a machine whose games legacy would become enormous.",
+          "signal": "Sprite-and-sound home future",
+          "certainty": "verified marketing window",
+          "sourceNote": "C64 histories."
+        },
+        {
+          "date": "August 1982",
+          "title": "BurgerTime",
+          "platform": "Arcade",
+          "body": "Data East's food-stacking arcade game belongs to 1982's character-action wave, though exact regional months vary by source.",
+          "signal": "Character arcade novelty",
+          "certainty": "1982 release; exact month uncertain",
+          "sourceNote": "Included as 1982 arcade context, not a precise August claim."
+        },
+        {
+          "date": "August 1982",
+          "title": "Moon Patrol",
+          "platform": "Arcade",
+          "body": "Irem's side-scrolling moon buggy shooter is another 1982 arcade landmark often discussed around mid-year release windows.",
+          "signal": "Scrolling arcade motion",
+          "certainty": "1982 release; exact month uncertain",
+          "sourceNote": "Included cautiously as 1982 arcade context."
+        },
+        {
+          "date": "August 1982",
+          "title": "Spectrum cassette releases",
+          "platform": "ZX Spectrum",
+          "body": "The UK cassette software stream kept growing around the young machine.",
+          "signal": "Bedroom software market",
+          "certainty": "contextual",
+          "sourceNote": "Specific August title dates not asserted."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "August is a hardware display case.",
+      "items": [
+        {
+          "title": "ColecoVision",
+          "body": "Its Donkey Kong pack-in made the system feel like a serious home-arcade challenger.",
+          "specs": [
+            "Z80 CPU",
+            "Donkey Kong pack-in",
+            "Arcade conversion pitch"
+          ],
+          "certainty": "verified rollout",
+          "sourceNote": "ColecoVision launch sources."
+        },
+        {
+          "title": "Dragon 32",
+          "body": "The Dragon joined the UK home-computer shelf with a proper keyboard and colour graphics, aiming at homes and schools.",
+          "specs": [
+            "32 KB RAM",
+            "6809 processor",
+            "Cassette software"
+          ],
+          "certainty": "verified month",
+          "sourceNote": "Dragon 32 August 1982 sources."
+        },
+        {
+          "title": "Commodore 64",
+          "body": "The C64's SID sound and sprite hardware made it feel unusually ready for games.",
+          "specs": [
+            "64 KB RAM",
+            "SID chip",
+            "Hardware sprites"
+          ],
+          "certainty": "verified 1982 marketing context",
+          "sourceNote": "C64 histories."
+        },
+        {
+          "title": "Atari 2600 comparison point",
+          "body": "The old leader now had to be compared against newer machines claiming better arcade fidelity.",
+          "specs": [
+            "Large library",
+            "Older graphics",
+            "Arcade licences"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "ColecoVision comparison context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "August issues had new boxes to diagram.",
+      "items": [
+        {
+          "title": "ColecoVision coverage",
+          "month": "August 1982",
+          "publicationName": "Electronic Games",
+          "issueDate": "August 1982",
+          "headline": "Arcade quality comes home",
+          "coverImage": "/magazine-covers/1982/electronic-games-october.svg",
+          "coverImageAlt": "Reconstructed Electronic Games cover for August 1982.",
+          "curatorNote": "The console's pitch was made for magazine comparison photos.",
+          "body": "The console's pitch was made for magazine comparison photos.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Dragon and Spectrum listings",
+          "month": "August 1982",
+          "publicationName": "Popular Computing Weekly",
+          "issueDate": "August 1982",
+          "headline": "New British micros on the shelf",
+          "coverImage": "/magazine-covers/1982/popular-computing-weekly-october.svg",
+          "coverImageAlt": "Reconstructed Popular Computing Weekly cover for August 1982.",
+          "curatorNote": "The weekly UK press made new machines feel like a living marketplace.",
+          "body": "The weekly UK press made new machines feel like a living marketplace.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific issue line not asserted."
+        },
+        {
+          "title": "C&VG arcade sequel context",
+          "month": "August 1982",
+          "publicationName": "Computer and Video Games",
+          "issueDate": "August 1982",
+          "headline": "Donkey Kong Jr. and the new home challengers",
+          "coverImage": "/magazine-covers/1982/cvg-october.svg",
+          "coverImageAlt": "Reconstructed C&VG cover for August 1982.",
+          "curatorNote": "Arcade sequel and console competition were now one story.",
+          "body": "Arcade sequel and console competition were now one story.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Personal Computer World",
+          "month": "August 1982",
+          "publicationName": "Personal Computer World",
+          "issueDate": "August 1982",
+          "headline": "Choosing between serious home computers",
+          "coverImage": "/magazine-covers/1982/personal-computer-world-october.svg",
+          "coverImageAlt": "Reconstructed PCW cover for August 1982.",
+          "curatorNote": "For families, choosing a micro still sounded like buying educational equipment, even when games were waiting.",
+          "body": "For families, choosing a micro still sounded like buying educational equipment, even when games were waiting.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Comparison was the work of magazines and shops.",
+      "items": [
+        {
+          "title": "Screenshots were evidence",
+          "body": "Magazine comparison shots mattered because most readers could not try every machine."
+        },
+        {
+          "title": "Shop demos were rare gateways",
+          "body": "Seeing Donkey Kong on ColecoVision could make the hardware argument instantly."
+        },
+        {
+          "title": "Listings and adverts moved software",
+          "body": "For micro owners, discovery was still printed and postal."
+        },
+        {
+          "title": "Arcade knowledge stayed social",
+          "body": "Donkey Kong Jr. strategy spread through watching and retelling."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "August made 1982 feel crowded with machines.",
+      "items": [
+        {
+          "title": "The home arcade promise improved",
+          "body": "ColecoVision made players believe the gap might shrink."
+        },
+        {
+          "title": "British computers multiplied",
+          "body": "Spectrum, Dragon, BBC and Commodore made the UK shelf feel wonderfully unresolved."
+        },
+        {
+          "title": "Arcades still led character design",
+          "body": "Donkey Kong Jr. proved the cabinet could still introduce personalities faster than home systems."
+        },
+        {
+          "title": "The future had too many plugs",
+          "body": "Consoles, computers, cassette decks and TVs all wanted space."
+        }
+      ]
+    }
   ],
   "sources": [
-    {"label":"ColecoVision launch chronology","url":"https://www.atariarchive.org/colecovision-game-release-dates/","note":"Used for late July/August rollout and Donkey Kong pack-in."},
-    {"label":"Donkey Kong Jr. MobyGames release","url":"https://www.mobygames.com/game/7302/donkey-kong-junior/releases/arcade/","note":"Used for August 1982 arcade release month."},
-    {"label":"Dragon 32 context","url":"https://t-lcarchive.org/dragon-32/","note":"Used for August 1982 launch context."},
-    {"label":"Commodore 64 context","url":"https://en.wikipedia.org/wiki/Commodore_64","note":"Used for August 1982 marketing context."}
+    {
+      "label": "ColecoVision launch chronology",
+      "url": "https://www.atariarchive.org/colecovision-game-release-dates/",
+      "note": "Used for late July/August rollout and Donkey Kong pack-in."
+    },
+    {
+      "label": "Donkey Kong Jr. MobyGames release",
+      "url": "https://www.mobygames.com/game/7302/donkey-kong-junior/releases/arcade/",
+      "note": "Used for August 1982 arcade release month."
+    },
+    {
+      "label": "Dragon 32 context",
+      "url": "https://t-lcarchive.org/dragon-32/",
+      "note": "Used for August 1982 launch context."
+    },
+    {
+      "label": "Commodore 64 context",
+      "url": "https://en.wikipedia.org/wiki/Commodore_64",
+      "note": "Used for August 1982 marketing context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

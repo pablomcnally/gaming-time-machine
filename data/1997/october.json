@@ -5,7 +5,12 @@
     "accession": "GTM-1997-10",
     "dek": "A museum case for the month when PlayStation queues, N64 rumble, PC strategy, import chatter, and modem patience all shared the same carpeted room.",
     "curatorNote": "This researched draft treats October 1997 as a UK-aware exhibit: the month of Lylat Wars and Rumble Pak on British shelves, Edge issue 50 at the newsagent, and a wider release calendar whose exact dates often shift by region.",
-    "statusChips": ["UK-aware", "source-noted", "32-bit winter", "dial-up culture"]
+    "statusChips": [
+      "UK-aware",
+      "source-noted",
+      "32-bit winter",
+      "dial-up culture"
+    ]
   },
   "sections": [
     {
@@ -145,28 +150,44 @@
         {
           "title": "Nintendo 64 Rumble Pak",
           "body": "By October, the European Rumble Pak moment arrived with Lylat Wars. It made impact tactile, but also made AAA batteries part of the ritual.",
-          "specs": ["European launch window: October 1997", "Controller slot accessory", "Force feedback as novelty and promise"],
+          "specs": [
+            "European launch window: October 1997",
+            "Controller slot accessory",
+            "Force feedback as novelty and promise"
+          ],
           "certainty": "verified context",
           "sourceNote": "Rumble Pak references list Europe in October 1997; Nintendo UK lists Lylat Wars on 20/10/1997."
         },
         {
           "title": "PlayStation Dual Analog",
           "body": "Sony's Dual Analog Controller had launched in Japan in April 1997, placing two sticks into the PlayStation conversation before the DualShock became the familiar standard.",
-          "specs": ["Japan: April 1997", "Twin analogue sticks", "Pre-DualShock transition hardware"],
+          "specs": [
+            "Japan: April 1997",
+            "Twin analogue sticks",
+            "Pre-DualShock transition hardware"
+          ],
           "certainty": "verified Japan date",
           "sourceNote": "Guinness World Records and PlayStation controller histories list the Dual Analog's Japanese release in April 1997."
         },
         {
           "title": "3dfx Voodoo and the PC upgrade itch",
           "body": "By late 1997, 3dfx Voodoo Graphics and Glide had become a shorthand for the PC owner who could make games look impossibly smooth, provided the family machine had the right card inside.",
-          "specs": ["Glide API", "3D accelerator culture", "PC boxes as compatibility tests"],
+          "specs": [
+            "Glide API",
+            "3D accelerator culture",
+            "PC boxes as compatibility tests"
+          ],
           "certainty": "verified broad context",
           "sourceNote": "3dfx histories and Glide manuals document the 1996-1997 Voodoo/Glide ecosystem; 3dfx was widely adopted by end of 1997."
         },
         {
           "title": "Dial-up Britain",
           "body": "The internet was present but not ambient. UK reporting in October 1997 described roughly one in 25 households as having an internet connection, which meant online gaming still felt scheduled, precious, and interruptible.",
-          "specs": ["Phone-line contention", "Low household access", "FAQs and server lists over always-on feeds"],
+          "specs": [
+            "Phone-line contention",
+            "Low household access",
+            "FAQs and server lists over always-on feeds"
+          ],
           "certainty": "verified UK context",
           "sourceNote": "The Independent reported in October 1997 that one in 25 UK households had an internet connection; Ipsos later summarised 1997 home ISP access at about 5%."
         }
@@ -384,5 +405,10 @@
       "url": "https://quake.fandom.com/wiki/QuakeWorld",
       "note": "Used for QuakeWorld online-play context; not an October 1997 release claim."
     }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

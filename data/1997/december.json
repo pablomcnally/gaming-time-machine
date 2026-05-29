@@ -5,7 +5,12 @@
     "accession": "GTM-1997-12",
     "dek": "The year closes with Quake II on PC, Gran Turismo launching in Japan, Grand Theft Auto on UK shelves, and Christmas lists split between PlayStation, N64, and the family computer.",
     "curatorNote": "December is unusually dense but still region-sensitive. Quake II and Gran Turismo have strong late-December anchors; UK retail context is kept broad unless a source supports precision.",
-    "statusChips": ["Quake II", "Gran Turismo Japan", "GTA arrives", "Christmas 1997"]
+    "statusChips": [
+      "Quake II",
+      "Gran Turismo Japan",
+      "GTA arrives",
+      "Christmas 1997"
+    ]
   },
   "sections": [
     {
@@ -93,21 +98,33 @@
         {
           "title": "PC graphics as Christmas pressure",
           "body": "Quake II made the family PC feel measurable: did it run, did it run well, and did it need a card?",
-          "specs": ["OpenGL / 3D acceleration", "Network play", "Driver anxiety"],
+          "specs": [
+            "OpenGL / 3D acceleration",
+            "Network play",
+            "Driver anxiety"
+          ],
           "certainty": "contextual",
           "sourceNote": "Quake II and 3dfx late-1997 context."
         },
         {
           "title": "Console choice under the tree",
           "body": "PlayStation offered breadth and cheaper CDs; N64 offered Mario, Kart, Bond, and first-party certainty.",
-          "specs": ["PlayStation library", "N64 local multiplayer", "Christmas buying pressure"],
+          "specs": [
+            "PlayStation library",
+            "N64 local multiplayer",
+            "Christmas buying pressure"
+          ],
           "certainty": "contextual",
           "sourceNote": "Forbes and late-1997 retail context support PlayStation/N64 comparison."
         },
         {
           "title": "Memory cards and save permanence",
           "body": "Long PlayStation games made saves feel fragile and valuable. A memory card could be the most important small object in the house.",
-          "specs": ["Save blocks", "RPG progress", "Shared household cards"],
+          "specs": [
+            "Save blocks",
+            "RPG progress",
+            "Shared household cards"
+          ],
           "certainty": "contextual",
           "sourceNote": "Final Fantasy VII/Tomb Raider II seasonal context."
         }
@@ -206,5 +223,10 @@
       "url": "https://www.forbes.com/1997/09/19/feat.html",
       "note": "Used for late-1997 platform comparison."
     }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

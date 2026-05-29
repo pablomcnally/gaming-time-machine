@@ -1,0 +1,202 @@
+{
+"museum": {
+"name": "Gaming Time Machine",
+"period": "December 1984",
+"accession": "GTM-1984-12",
+"dek": "Across Britain, home computers arrive beneath Christmas trees. The Spectrum is booming, the Commodore 64 is thriving, and the Amstrad CPC 464 is rapidly becoming the machine many children will remember as their first real computer.",
+"curatorNote": "December 1984 is less about a single blockbuster release and more about a cultural shift. For thousands of British families, this was the Christmas that gaming moved permanently into the home.",
+"statusChips": [
+"Christmas 1984",
+"Amstrad arrives",
+"Home computing boom",
+"Bedroom coders"
+]
+},
+
+"sections": [
+{
+"id": "news",
+"eyebrow": "Gallery 01",
+"title": "News",
+"subtitle": "A Christmas defined by home computers rather than arcade cabinets.",
+"items": [
+{
+"date": "December 1984",
+"title": "The Amstrad CPC 464 becomes the must-have Christmas computer",
+"body": "Having launched earlier in the year, Amstrad's all-in-one machine enters its first Christmas season. Its built-in cassette deck and monitor bundles make it especially attractive to families buying their first computer.",
+"artifact": "CPC 464 retail display",
+"certainty": "period context"
+},
+{
+"date": "December 1984",
+"title": "The UK microcomputer war intensifies",
+"body": "The Spectrum, Commodore 64, BBC Micro and Amstrad CPC are all competing for space in British homes. Software publishers are increasingly releasing games across multiple formats.",
+"artifact": "High-street software shelf",
+"certainty": "verified period context"
+},
+{
+"date": "December 1984",
+"title": "Arcades remain popular but no longer dominate",
+"body": "For many younger players, the most exciting machine is no longer in the amusement arcade. It is sitting beneath the television at home.",
+"artifact": "Arcade token",
+"certainty": "contextual"
+},
+{
+"date": "December 1984",
+"title": "Budget software reshapes gaming",
+"body": "Cheap cassette games are becoming a uniquely British phenomenon. Players can increasingly build collections without spending pocket-money fortunes.",
+"artifact": "Budget cassette rack",
+"certainty": "verified trend"
+},
+{
+"date": "December 1984",
+"title": "Bedroom programmers become part of the industry",
+"body": "Small teams and individual developers continue to create games that compete with products from much larger companies, helping define the UK's emerging games industry.",
+"artifact": "Handwritten BASIC notes",
+"certainty": "verified trend"
+}
+]
+},
+
+```
+{
+  "id": "releases",
+  "eyebrow": "Gallery 02",
+  "title": "On The Shelves",
+  "subtitle": "The games and software helping define Christmas 1984.",
+  "items": [
+    {
+      "date": "1984",
+      "title": "Elite",
+      "platform": "BBC Micro",
+      "body": "Still astonishing players with its wireframe universe and sense of freedom.",
+      "signal": "Open-world pioneer"
+    },
+    {
+      "date": "1984",
+      "title": "Jet Set Willy",
+      "platform": "ZX Spectrum",
+      "body": "One of Britain's most talked-about home-computer games remains a playground favourite.",
+      "signal": "Bedroom classic"
+    },
+    {
+      "date": "1984",
+      "title": "Sabre Wulf",
+      "platform": "ZX Spectrum",
+      "body": "Ultimate Play The Game continues to set standards for presentation and polish.",
+      "signal": "Adventure phenomenon"
+    },
+    {
+      "date": "1984",
+      "title": "Knight Lore",
+      "platform": "ZX Spectrum",
+      "body": "Its Filmation engine still looks years ahead of much of the competition.",
+      "signal": "Technical showcase"
+    }
+  ]
+},
+
+{
+  "id": "hardware",
+  "eyebrow": "Gallery 03",
+  "title": "Hardware",
+  "subtitle": "The machines waiting under wrapping paper.",
+  "items": [
+    {
+      "title": "Amstrad CPC 464",
+      "body": "A colourful newcomer with a built-in cassette deck and a reputation for making home computing feel less intimidating.",
+      "specs": [
+        "64 KB RAM",
+        "Built-in cassette deck",
+        "Colour monitor option"
+      ]
+    },
+    {
+      "title": "ZX Spectrum",
+      "body": "Still the dominant force in many British bedrooms thanks to its huge software library and affordable price.",
+      "specs": [
+        "Cassette loading",
+        "Rubber-key legacy",
+        "Massive software catalogue"
+      ]
+    },
+    {
+      "title": "Commodore 64",
+      "body": "The machine many players considered the premium gaming option thanks to its sound and graphics.",
+      "specs": [
+        "SID sound",
+        "64 KB RAM",
+        "Strong games library"
+      ]
+    },
+    {
+      "title": "BBC Micro",
+      "body": "The educational machine that also happened to host one of the greatest games ever made: Elite.",
+      "specs": [
+        "Schools favourite",
+        "Strong programming culture",
+        "Elite"
+      ]
+    }
+  ]
+},
+
+{
+  "id": "online",
+  "eyebrow": "Gallery 05",
+  "title": "Online Life",
+  "subtitle": "For most players, discovery still happened face to face.",
+  "items": [
+    {
+      "title": "The magazine rack was the internet",
+      "body": "News travelled through magazines, adverts and playground conversations rather than online networks."
+    },
+    {
+      "title": "Software arrived by post",
+      "body": "Mail-order adverts promised exciting games to anyone willing to wait for delivery."
+    },
+    {
+      "title": "Type-in programs still mattered",
+      "body": "Many players were still entering pages of BASIC code from magazines in exchange for simple games."
+    },
+    {
+      "title": "The school playground spread rumours",
+      "body": "The fastest way to discover a new game was often hearing about it from somebody whose older brother already owned it."
+    }
+  ]
+},
+
+{
+  "id": "felt",
+  "eyebrow": "Gallery 06",
+  "title": "What It Felt Like",
+  "subtitle": "The Christmas many British gamers never forgot.",
+  "items": [
+    {
+      "title": "The computer under the tree",
+      "body": "For thousands of children, Christmas morning 1984 meant discovering a computer waiting beneath the decorations. It wasn't just a toy. It felt like a machine from the future."
+    },
+    {
+      "title": "The cassette ritual begins",
+      "body": "Loading a game meant connecting cables, pressing play on a cassette deck and hoping nothing went wrong during the next few minutes."
+    },
+    {
+      "title": "Every game felt valuable",
+      "body": "A new cassette could occupy an entire holiday. Players learned levels, drew maps and swapped tips because there was no endless stream of replacements."
+    },
+    {
+      "title": "Nobody knew where it would lead",
+      "body": "Some children opening computers that Christmas would grow up to become programmers, journalists, artists and game developers. In December 1984, they were simply excited to see what happened when they typed LOAD."
+    }
+  ]
+}
+```
+
+],
+
+"status": "human-edited",
+"lastEdited": "2026-05-29",
+"editorNotes": [
+"Museum-style editorial pass focused on the UK home-computer Christmas boom and the arrival of the Amstrad CPC 464."
+]
+}

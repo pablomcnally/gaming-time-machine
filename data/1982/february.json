@@ -1,41 +1,327 @@
 {
-  "museum": {"name":"Gaming Time Machine","period":"February 1982","accession":"GTM-1982-02","dek":"A short winter drawer: Dig Dug appears in Japan, Ms. Pac-Man spreads through arcades, and British microcomputer anticipation gathers around magazines and adverts.","curatorNote":"February relies on a few solid anchors and a lot of carefully marked context. The safest release anchor is Dig Dug's Japanese arcade date.","statusChips":["Dig Dug Japan","arcade momentum","Pac-Man pressure","UK micro adverts"]},
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "February 1982",
+    "accession": "GTM-1982-02",
+    "dek": "A short winter drawer: Dig Dug appears in Japan, Ms. Pac-Man spreads through arcades, and British microcomputer anticipation gathers around magazines and adverts.",
+    "curatorNote": "February relies on a few solid anchors and a lot of carefully marked context. The safest release anchor is Dig Dug's Japanese arcade date.",
+    "statusChips": [
+      "Dig Dug Japan",
+      "arcade momentum",
+      "Pac-Man pressure",
+      "UK micro adverts"
+    ]
+  },
   "sections": [
-    {"id":"news","eyebrow":"Gallery 01","title":"News","subtitle":"The arcade boom keeps producing new shapes.","items":[
-      {"date":"February 20","title":"Dig Dug releases in Japan","body":"Namco's underground maze-action game arrived in Japan, giving 1982 another characterful arcade system of tunnels, pumps and timing.","artifact":"Inflation pump","certainty":"verified date","sourceNote":"Dig Dug references list Japan as February 20, 1982."},
-      {"date":"February 1982","title":"Ms. Pac-Man moves from record to reality","body":"Where January holds the copyright date, February is a safe way to describe the cabinet's broader early-1982 arcade presence.","artifact":"Four-maze flyer","certainty":"availability phrased cautiously","sourceNote":"Pac-Man Wiki notes late-January/early-February release ambiguity."},
-      {"date":"February 1982","title":"Atari 2600 Pac-Man becomes imminent","body":"The home version of Pac-Man was close enough to dominate expectations, even before disappointment had a shape.","artifact":"Coming soon advert","certainty":"pre-release context","sourceNote":"Atari 2600 Pac-Man appears in March with April 3 promotional Pac-Man Day."},
-      {"date":"February 1982","title":"UK readers watch the microcomputer price war","body":"The Spectrum was coming, the BBC Micro had prestige, and cheaper machines made games feel domestic.","artifact":"Computer-shop advert","certainty":"contextual","sourceNote":"UK microcomputer context around ZX81, BBC Micro, Spectrum and VIC-20."},
-      {"date":"February 1982","title":"Arcade characters keep replacing abstraction","body":"Ms. Pac-Man, Zaxxon, Dig Dug and Donkey Kong pointed toward games that players remembered by character and cabinet, not just score.","artifact":"Character marquee row","certainty":"contextual","sourceNote":"Based on early-1982 arcade release context."}
-    ]},
-    {"id":"releases","eyebrow":"Gallery 02","title":"Releases","subtitle":"Eight February shelf and release-window objects, with context marked clearly.","items":[
-      {"date":"February 20","title":"Dig Dug","platform":"Arcade","body":"Japanese release of Namco's underground arcade hit.","signal":"Tunnels and timing","certainty":"verified Japan date","sourceNote":"Dig Dug references list February 20, 1982 in Japan."},
-      {"date":"February 1982","title":"Ms. Pac-Man","platform":"Arcade","body":"Early-1982 rollout context for Midway's sequel.","signal":"Maze sequel dominance","certainty":"release window uncertain","sourceNote":"Late-January/early-February ambiguity."},
-      {"date":"February 1982","title":"Zaxxon","platform":"Arcade","body":"Still fresh from January, spreading the idea that arcade screens could fake depth.","signal":"Pseudo-3D spectacle","certainty":"post-release context","sourceNote":"January Japan listing."},
-      {"date":"February 1982","title":"Pac-Man","platform":"Atari 2600","body":"Not out yet, but anticipation was release culture in itself.","signal":"Home arcade promise","certainty":"pre-release context","sourceNote":"March release / April promotion."},
-      {"date":"February 1982","title":"Donkey Kong","platform":"Arcade","body":"Still a major cabinet presence, reinforcing character-led design.","signal":"Platform-character momentum","certainty":"contextual","sourceNote":"Not a February release."},
-      {"date":"February 1982","title":"BBC Micro software","platform":"BBC Micro","body":"Early BBC Micro owners were beginning to treat the machine as a games platform as well as an educational one.","signal":"Education machine play","certainty":"contextual","sourceNote":"BBC Micro launched late 1981."},
-      {"date":"February 1982","title":"ZX81 cassette games","platform":"ZX81","body":"The British low-cost computer scene already had a cassette-software habit before the Spectrum arrived.","signal":"Bedroom coding shelf","certainty":"contextual","sourceNote":"UK micro context."},
-      {"date":"February 1982","title":"VIC-20 games","platform":"VIC-20","body":"Commodore's existing colour home computer kept the idea of affordable home games alive while the C64 waited.","signal":"Colour micro foothold","certainty":"contextual","sourceNote":"VIC-20 context; not a February release claim."}
-    ]},
-    {"id":"hardware","eyebrow":"Gallery 03","title":"Hardware","subtitle":"A month of machines becoming categories.","items":[
-      {"title":"Arcade cabinet variety","body":"Maze, shooter and character games were branching into distinctive silhouettes.","specs":["Dedicated controls","Marquee identity","Coin-op location"],"certainty":"contextual","sourceNote":"Arcade release context."},
-      {"title":"Atari VCS expectation","body":"The VCS/2600 still looked like the obvious home answer to the arcade, just before Pac-Man tested that promise.","specs":["Cartridge format","Joystick controls","Licensing pressure"],"certainty":"contextual","sourceNote":"Pac-Man 2600 pre-release context."},
-      {"title":"BBC Micro authority","body":"The BBC Micro's education aura mattered in Britain: it made home computing feel sanctioned, even when used for games.","specs":["BBC Computer Literacy Project","Keyboard-first use","Cassette/disc options"],"certainty":"contextual","sourceNote":"BBC Micro context."},
-      {"title":"Cassette loading","body":"A tape was software, storage and ritual all at once.","specs":["Audio cassette","Volume sensitivity","Magazine-advert software"],"certainty":"contextual","sourceNote":"UK microcomputer culture."}
-    ]},
-    {"id":"magazines","eyebrow":"Gallery 04","title":"Magazine Covers","subtitle":"The shelf talked before the machines did.","items":[
-      {"title":"C&VG February-style coverage","month":"February 1982","publicationName":"Computer and Video Games","issueDate":"February 1982","headline":"Arcades meet home micros","coverImage":"/magazine-covers/1982/cvg-october.svg","coverImageAlt":"Reconstructed C&VG style cover for February 1982.","curatorNote":"C&VG's value was the mix: coin-op games beside machines a reader might own.","body":"C&VG's value was the mix: coin-op games beside machines a reader might own.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Electronic Games arcade reporting","month":"February 1982","publicationName":"Electronic Games","issueDate":"February 1982","headline":"The American boom in print","coverImage":"/magazine-covers/1982/electronic-games-october.svg","coverImageAlt":"Reconstructed Electronic Games style cover for February 1982.","curatorNote":"The US magazine voice made arcade culture feel organized and named.","body":"The US magazine voice made arcade culture feel organized and named.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Personal Computer World","month":"February 1982","publicationName":"Personal Computer World","issueDate":"February 1982","headline":"Home computers before home games fully settle","coverImage":"/magazine-covers/1982/personal-computer-world-october.svg","coverImageAlt":"Reconstructed PCW style cover for February 1982.","curatorNote":"A serious magazine for machines that players would use unseriously at night.","body":"A serious magazine for machines that players would use unseriously at night.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Popular Computing Weekly","month":"February 1982","publicationName":"Popular Computing Weekly","issueDate":"February 1982","headline":"Weekly adverts and listings","coverImage":"/magazine-covers/1982/popular-computing-weekly-october.svg","coverImageAlt":"Reconstructed Popular Computing Weekly style cover for February 1982.","curatorNote":"The weekly format made the micro scene feel alive and local.","body":"The weekly format made the micro scene feel alive and local.","certainty":"contextual reconstruction","sourceNote":"Specific issue not asserted."}
-    ]},
-    {"id":"online","eyebrow":"Gallery 05","title":"Online Life","subtitle":"Discovery travelled by paper and proximity.","items":[{"title":"Watching was learning","body":"Arcade technique travelled by standing near a cabinet."},{"title":"Listings were code distribution","body":"A printed program was a game waiting for a careful typist."},{"title":"Adverts were storefronts","body":"Mail-order boxes in magazines worked like slow hyperlinks."},{"title":"The modem was not ordinary","body":"Networking existed, but not as everyday gaming culture."}]},
-    {"id":"felt","eyebrow":"Gallery 06","title":"What It Felt Like","subtitle":"February had the mood of an arcade aisle warming up.","items":[{"title":"New cabinets felt sudden","body":"A game could simply appear one week and rearrange the room."},{"title":"The home version was a promise","body":"Players wanted the arcade at home before they knew how compromised it could be."},{"title":"Computers felt expandable","body":"A keyboard implied more than the game in front of you."},{"title":"The year was still optimistic","body":"Nothing yet had taught the shelf to be cautious."}]}
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "The arcade boom keeps producing new shapes.",
+      "items": [
+        {
+          "date": "February 20",
+          "title": "Dig Dug releases in Japan",
+          "body": "Namco's underground maze-action game arrived in Japan, giving 1982 another characterful arcade system of tunnels, pumps and timing.",
+          "artifact": "Inflation pump",
+          "certainty": "verified date",
+          "sourceNote": "Dig Dug references list Japan as February 20, 1982."
+        },
+        {
+          "date": "February 1982",
+          "title": "Ms. Pac-Man moves from record to reality",
+          "body": "Where January holds the copyright date, February is a safe way to describe the cabinet's broader early-1982 arcade presence.",
+          "artifact": "Four-maze flyer",
+          "certainty": "availability phrased cautiously",
+          "sourceNote": "Pac-Man Wiki notes late-January/early-February release ambiguity."
+        },
+        {
+          "date": "February 1982",
+          "title": "Atari 2600 Pac-Man becomes imminent",
+          "body": "The home version of Pac-Man was close enough to dominate expectations, even before disappointment had a shape.",
+          "artifact": "Coming soon advert",
+          "certainty": "pre-release context",
+          "sourceNote": "Atari 2600 Pac-Man appears in March with April 3 promotional Pac-Man Day."
+        },
+        {
+          "date": "February 1982",
+          "title": "UK readers watch the microcomputer price war",
+          "body": "The Spectrum was coming, the BBC Micro had prestige, and cheaper machines made games feel domestic.",
+          "artifact": "Computer-shop advert",
+          "certainty": "contextual",
+          "sourceNote": "UK microcomputer context around ZX81, BBC Micro, Spectrum and VIC-20."
+        },
+        {
+          "date": "February 1982",
+          "title": "Arcade characters keep replacing abstraction",
+          "body": "Ms. Pac-Man, Zaxxon, Dig Dug and Donkey Kong pointed toward games that players remembered by character and cabinet, not just score.",
+          "artifact": "Character marquee row",
+          "certainty": "contextual",
+          "sourceNote": "Based on early-1982 arcade release context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight February shelf and release-window objects, with context marked clearly.",
+      "items": [
+        {
+          "date": "February 20",
+          "title": "Dig Dug",
+          "platform": "Arcade",
+          "body": "Japanese release of Namco's underground arcade hit.",
+          "signal": "Tunnels and timing",
+          "certainty": "verified Japan date",
+          "sourceNote": "Dig Dug references list February 20, 1982 in Japan."
+        },
+        {
+          "date": "February 1982",
+          "title": "Ms. Pac-Man",
+          "platform": "Arcade",
+          "body": "Early-1982 rollout context for Midway's sequel.",
+          "signal": "Maze sequel dominance",
+          "certainty": "release window uncertain",
+          "sourceNote": "Late-January/early-February ambiguity."
+        },
+        {
+          "date": "February 1982",
+          "title": "Zaxxon",
+          "platform": "Arcade",
+          "body": "Still fresh from January, spreading the idea that arcade screens could fake depth.",
+          "signal": "Pseudo-3D spectacle",
+          "certainty": "post-release context",
+          "sourceNote": "January Japan listing."
+        },
+        {
+          "date": "February 1982",
+          "title": "Pac-Man",
+          "platform": "Atari 2600",
+          "body": "Not out yet, but anticipation was release culture in itself.",
+          "signal": "Home arcade promise",
+          "certainty": "pre-release context",
+          "sourceNote": "March release / April promotion."
+        },
+        {
+          "date": "February 1982",
+          "title": "Donkey Kong",
+          "platform": "Arcade",
+          "body": "Still a major cabinet presence, reinforcing character-led design.",
+          "signal": "Platform-character momentum",
+          "certainty": "contextual",
+          "sourceNote": "Not a February release."
+        },
+        {
+          "date": "February 1982",
+          "title": "BBC Micro software",
+          "platform": "BBC Micro",
+          "body": "Early BBC Micro owners were beginning to treat the machine as a games platform as well as an educational one.",
+          "signal": "Education machine play",
+          "certainty": "contextual",
+          "sourceNote": "BBC Micro launched late 1981."
+        },
+        {
+          "date": "February 1982",
+          "title": "ZX81 cassette games",
+          "platform": "ZX81",
+          "body": "The British low-cost computer scene already had a cassette-software habit before the Spectrum arrived.",
+          "signal": "Bedroom coding shelf",
+          "certainty": "contextual",
+          "sourceNote": "UK micro context."
+        },
+        {
+          "date": "February 1982",
+          "title": "VIC-20 games",
+          "platform": "VIC-20",
+          "body": "Commodore's existing colour home computer kept the idea of affordable home games alive while the C64 waited.",
+          "signal": "Colour micro foothold",
+          "certainty": "contextual",
+          "sourceNote": "VIC-20 context; not a February release claim."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "A month of machines becoming categories.",
+      "items": [
+        {
+          "title": "Arcade cabinet variety",
+          "body": "Maze, shooter and character games were branching into distinctive silhouettes.",
+          "specs": [
+            "Dedicated controls",
+            "Marquee identity",
+            "Coin-op location"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Arcade release context."
+        },
+        {
+          "title": "Atari VCS expectation",
+          "body": "The VCS/2600 still looked like the obvious home answer to the arcade, just before Pac-Man tested that promise.",
+          "specs": [
+            "Cartridge format",
+            "Joystick controls",
+            "Licensing pressure"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Pac-Man 2600 pre-release context."
+        },
+        {
+          "title": "BBC Micro authority",
+          "body": "The BBC Micro's education aura mattered in Britain: it made home computing feel sanctioned, even when used for games.",
+          "specs": [
+            "BBC Computer Literacy Project",
+            "Keyboard-first use",
+            "Cassette/disc options"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "BBC Micro context."
+        },
+        {
+          "title": "Cassette loading",
+          "body": "A tape was software, storage and ritual all at once.",
+          "specs": [
+            "Audio cassette",
+            "Volume sensitivity",
+            "Magazine-advert software"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "UK microcomputer culture."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "The shelf talked before the machines did.",
+      "items": [
+        {
+          "title": "C&VG February-style coverage",
+          "month": "February 1982",
+          "publicationName": "Computer and Video Games",
+          "issueDate": "February 1982",
+          "headline": "Arcades meet home micros",
+          "coverImage": "/magazine-covers/1982/cvg-october.svg",
+          "coverImageAlt": "Reconstructed C&VG style cover for February 1982.",
+          "curatorNote": "C&VG's value was the mix: coin-op games beside machines a reader might own.",
+          "body": "C&VG's value was the mix: coin-op games beside machines a reader might own.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Electronic Games arcade reporting",
+          "month": "February 1982",
+          "publicationName": "Electronic Games",
+          "issueDate": "February 1982",
+          "headline": "The American boom in print",
+          "coverImage": "/magazine-covers/1982/electronic-games-october.svg",
+          "coverImageAlt": "Reconstructed Electronic Games style cover for February 1982.",
+          "curatorNote": "The US magazine voice made arcade culture feel organized and named.",
+          "body": "The US magazine voice made arcade culture feel organized and named.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Personal Computer World",
+          "month": "February 1982",
+          "publicationName": "Personal Computer World",
+          "issueDate": "February 1982",
+          "headline": "Home computers before home games fully settle",
+          "coverImage": "/magazine-covers/1982/personal-computer-world-october.svg",
+          "coverImageAlt": "Reconstructed PCW style cover for February 1982.",
+          "curatorNote": "A serious magazine for machines that players would use unseriously at night.",
+          "body": "A serious magazine for machines that players would use unseriously at night.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Popular Computing Weekly",
+          "month": "February 1982",
+          "publicationName": "Popular Computing Weekly",
+          "issueDate": "February 1982",
+          "headline": "Weekly adverts and listings",
+          "coverImage": "/magazine-covers/1982/popular-computing-weekly-october.svg",
+          "coverImageAlt": "Reconstructed Popular Computing Weekly style cover for February 1982.",
+          "curatorNote": "The weekly format made the micro scene feel alive and local.",
+          "body": "The weekly format made the micro scene feel alive and local.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific issue not asserted."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Discovery travelled by paper and proximity.",
+      "items": [
+        {
+          "title": "Watching was learning",
+          "body": "Arcade technique travelled by standing near a cabinet."
+        },
+        {
+          "title": "Listings were code distribution",
+          "body": "A printed program was a game waiting for a careful typist."
+        },
+        {
+          "title": "Adverts were storefronts",
+          "body": "Mail-order boxes in magazines worked like slow hyperlinks."
+        },
+        {
+          "title": "The modem was not ordinary",
+          "body": "Networking existed, but not as everyday gaming culture."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "February had the mood of an arcade aisle warming up.",
+      "items": [
+        {
+          "title": "New cabinets felt sudden",
+          "body": "A game could simply appear one week and rearrange the room."
+        },
+        {
+          "title": "The home version was a promise",
+          "body": "Players wanted the arcade at home before they knew how compromised it could be."
+        },
+        {
+          "title": "Computers felt expandable",
+          "body": "A keyboard implied more than the game in front of you."
+        },
+        {
+          "title": "The year was still optimistic",
+          "body": "Nothing yet had taught the shelf to be cautious."
+        }
+      ]
+    }
   ],
   "sources": [
-    {"label":"Dig Dug release context","url":"https://en.wikipedia.org/wiki/Dig_Dug","note":"Used for February 20 Japan and April international context."},
-    {"label":"Ms. Pac-Man date discussion","url":"https://pacman.fandom.com/wiki/Ms._Pac-Man_(game)","note":"Used for late-January/early-February uncertainty."},
-    {"label":"Pac-Man Atari 2600 context","url":"https://en.wikipedia.org/wiki/Pac-Man_(Atari_2600_video_game)","note":"Used for March/April 1982 release-promotion context."}
+    {
+      "label": "Dig Dug release context",
+      "url": "https://en.wikipedia.org/wiki/Dig_Dug",
+      "note": "Used for February 20 Japan and April international context."
+    },
+    {
+      "label": "Ms. Pac-Man date discussion",
+      "url": "https://pacman.fandom.com/wiki/Ms._Pac-Man_(game)",
+      "note": "Used for late-January/early-February uncertainty."
+    },
+    {
+      "label": "Pac-Man Atari 2600 context",
+      "url": "https://en.wikipedia.org/wiki/Pac-Man_(Atari_2600_video_game)",
+      "note": "Used for March/April 1982 release-promotion context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

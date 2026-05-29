@@ -1,7 +1,14 @@
 import { MagazineCoverGallery, type MagazineCoverItem } from "./components/magazine-cover-gallery";
 import { MonthSelector } from "./components/month-selector";
 import { YearTimeline } from "./components/year-timeline";
-import { DEFAULT_YEAR, getArchiveSelection, getArchiveStats, getRandomExhibitHref } from "../data/archive";
+import {
+  DEFAULT_YEAR,
+  exhibitStatusLabels,
+  getArchiveSelection,
+  getArchiveStats,
+  getRandomExhibitHref,
+  type ExhibitStatus
+} from "../data/archive";
 
 type Item = {
   title: string;
@@ -120,6 +127,18 @@ function PlainArtifact({ item }: { item: Item }) {
       <h3 className="font-display text-3xl text-zinc-950">{item.title}</h3>
       <p className="mt-4 leading-7 text-zinc-600">{item.body}</p>
     </article>
+  );
+}
+
+function CuratorStatusBadge({ status }: { status: ExhibitStatus }) {
+  if (process.env.NODE_ENV !== "development") {
+    return null;
+  }
+
+  return (
+    <div className="mt-6 inline-flex border border-amber-200/30 bg-zinc-950/40 px-3 py-2 font-mono text-[11px] uppercase tracking-[0.22em] text-amber-100">
+      Curator Status: {exhibitStatusLabels[status]}
+    </div>
   );
 }
 
@@ -249,6 +268,7 @@ export default async function Home({ searchParams }: { searchParams: SearchParam
           <aside className="self-end border border-stone-100/20 bg-stone-50/10 p-6 backdrop-blur">
             <p className="font-mono text-xs uppercase tracking-[0.28em] text-amber-200">Curator note</p>
             <p className="mt-5 text-lg leading-8 text-stone-100">{museum.curatorNote}</p>
+            {exhibit ? <CuratorStatusBadge status={exhibit.status} /> : null}
           </aside>
         </div>
       </header>

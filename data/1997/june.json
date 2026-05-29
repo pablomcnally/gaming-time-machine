@@ -5,7 +5,12 @@
     "accession": "GTM-1997-06",
     "dek": "E3 in Atlanta, Mario Kart 64 in Europe, and the N64's UK identity finally gains a multiplayer rhythm.",
     "curatorNote": "June is anchored by E3 1997 and Mario Kart 64's European release. Exact magazine cover claims are avoided unless the source is already known.",
-    "statusChips": ["E3 Atlanta", "Mario Kart UK", "summer previews", "multiplayer shelf"]
+    "statusChips": [
+      "E3 Atlanta",
+      "Mario Kart UK",
+      "summer previews",
+      "multiplayer shelf"
+    ]
   },
   "sections": [
     {
@@ -84,14 +89,22 @@
         {
           "title": "Extra controllers become part of the purchase",
           "body": "Mario Kart 64 made multiplayer hardware feel practical. The console was not just the box; it was the number of pads in the room.",
-          "specs": ["Four controller ports", "Split-screen racing", "Local multiplayer"],
+          "specs": [
+            "Four controller ports",
+            "Split-screen racing",
+            "Local multiplayer"
+          ],
           "certainty": "contextual",
           "sourceNote": "Derived from Mario Kart 64 European release."
         },
         {
           "title": "PC 3D acceleration at E3",
           "body": "The PC future was increasingly shown through graphics hardware, shooter demos, and the promise of smoother 3D worlds.",
-          "specs": ["3dfx / Glide era", "Direct3D talk", "Upgrade pressure"],
+          "specs": [
+            "3dfx / Glide era",
+            "Direct3D talk",
+            "Upgrade pressure"
+          ],
           "certainty": "contextual",
           "sourceNote": "Supported by 1997 3dfx/Glide context and E3 timing."
         }
@@ -175,5 +188,10 @@
       "url": "https://en.wikipedia.org/wiki/Mario_Kart_64",
       "note": "Used for June 24, 1997 European release."
     }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

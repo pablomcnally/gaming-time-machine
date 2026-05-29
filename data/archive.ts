@@ -1,10 +1,18 @@
-import { EXHIBIT_MANIFEST, type Exhibit } from "../lib/exhibits";
+import { EXHIBIT_MANIFEST, type Exhibit, type ExhibitStatus } from "../lib/exhibits";
 
 export const FIRST_TIMELINE_YEAR = 1975;
 export const LAST_TIMELINE_YEAR = 2026;
 export const DEFAULT_YEAR = 1997;
 
 export type { Exhibit };
+
+export type { ExhibitStatus };
+
+export const exhibitStatusLabels = {
+  "ai-draft": "AI Draft",
+  "human-edited": "Human Edited",
+  verified: "Verified"
+} satisfies Record<ExhibitStatus, string>;
 
 export type ArchiveMonth = {
   id: string;
@@ -97,6 +105,56 @@ export function getArchiveStats() {
   return {
     yearsInArchive: years.length,
     monthlyExhibits
+  };
+}
+
+export function getAllExhibitRecords() {
+  return getContentYears().flatMap((year) =>
+    getContentMonthIds(year).flatMap((monthId) => {
+      const month = readMonth(year, monthId);
+
+      return month
+        ? [
+            {
+              year,
+              monthId,
+              label: month.label,
+              href: month.href,
+              exhibit: month.exhibit
+            }
+          ]
+        : [];
+    })
+  );
+}
+
+export function getArchiveWorkflowSummary() {
+  const records = getAllExhibitRecords();
+  const statusCounts = records.reduce(
+    (counts, record) => {
+      counts[record.exhibit.status] += 1;
+
+      return counts;
+    },
+    {
+      "ai-draft": 0,
+      "human-edited": 0,
+      verified: 0
+    } satisfies Record<ExhibitStatus, number>
+  );
+  const byYear = records.reduce(
+    (years, record) => {
+      years[record.year] = [...(years[record.year] ?? []), record];
+
+      return years;
+    },
+    {} as Record<number, typeof records>
+  );
+
+  return {
+    totalExhibits: records.length,
+    statusCounts,
+    byYear
   };
 }
 

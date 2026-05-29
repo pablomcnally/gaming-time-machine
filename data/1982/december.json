@@ -1,44 +1,342 @@
 {
-  "museum": {"name":"Gaming Time Machine","period":"December 1982","accession":"GTM-1982-12","dek":"E.T. reaches the Atari 2600, the Vectrex and 5200 sit in the Christmas conversation, Time Pilot closes the arcade year, and British homes weigh computers against cartridges.","curatorNote":"December is tempting to read entirely through the later crash narrative. This exhibit keeps hindsight in the notes and tries to preserve what the month could have felt like from inside 1982: crowded, expensive, exciting and only partly anxious.","statusChips":["E.T.","Christmas shelves","Vectrex","UK micro gifting"]},
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "December 1982",
+    "accession": "GTM-1982-12",
+    "dek": "E.T. reaches the Atari 2600, the Vectrex and 5200 sit in the Christmas conversation, Time Pilot closes the arcade year, and British homes weigh computers against cartridges.",
+    "curatorNote": "December is tempting to read entirely through the later crash narrative. This exhibit keeps hindsight in the notes and tries to preserve what the month could have felt like from inside 1982: crowded, expensive, exciting and only partly anxious.",
+    "statusChips": [
+      "E.T.",
+      "Christmas shelves",
+      "Vectrex",
+      "UK micro gifting"
+    ]
+  },
   "sections": [
-    {"id":"news","eyebrow":"Gallery 01","title":"News","subtitle":"December turns the 1982 boom into a shopping-season exhibit.","items":[
-      {"date":"December 1982","title":"E.T. reaches Atari 2600 shelves","body":"Atari's film tie-in arrived in time for Christmas after an infamously compressed development cycle. Its later reputation is heavy, but in December it was also a licensed object tied to one of the year's biggest films.","artifact":"Movie tie-in cartridge","certainty":"verified month","sourceNote":"Computing History and E.T. references list December 1982 for the Atari 2600 release."},
-      {"date":"December 1982","title":"Vectrex enters its first Christmas","body":"The vector console's built-in screen made it a spectacular present idea, but also an expensive and unusual one.","artifact":"Overlay sleeve","certainty":"contextual from November launch","sourceNote":"Vectrex launched in November 1982; December context is first holiday season."},
-      {"date":"December 1982","title":"Atari 5200 and ColecoVision compete for the premium shelf","body":"American console buyers faced a new high-end comparison: Atari's successor machine, Coleco's arcade-conversion pitch, and the still-dominant 2600 library.","artifact":"Premium console shelf card","certainty":"contextual","sourceNote":"Atari 5200 and ColecoVision launched earlier in 1982; December context is seasonal."},
-      {"date":"December 1982","title":"UK families consider the home micro as Christmas machine","body":"In Britain, a ZX Spectrum, BBC Micro, Dragon 32, VIC-20 or Commodore machine could be sold as education, hobby and games machine in one box.","artifact":"Cassette deck beside television","certainty":"contextual","sourceNote":"UK microcomputer launch-year context."},
-      {"date":"December 1982","title":"The arcade year ends still bright","body":"Pole Position, Q*bert, Joust, Dig Dug and Time Pilot made the arcade feel energetic at year's end, even as the home-console market was becoming crowded.","artifact":"Operator change sheet","certainty":"contextual","sourceNote":"Based on verified 1982 arcade release anchors."}
-    ]},
-    {"id":"releases","eyebrow":"Gallery 02","title":"Releases","subtitle":"Eight December-window entries and seasonal arrivals, with later crash mythology kept at a respectful distance.","items":[
-      {"date":"December 1982","title":"E.T. the Extra-Terrestrial","platform":"Atari 2600","body":"A major film licence converted into a rushed Atari cartridge for the Christmas market.","signal":"Movie tie-in pressure","certainty":"verified month","sourceNote":"Computing History lists December 1982; E.T. release references support the month."},
-      {"date":"December 1982","title":"Time Pilot","platform":"Arcade","body":"Konami's circular dogfighting shooter is commonly listed as a December 1982 arcade release.","signal":"Late-year arcade shooter","certainty":"verified by secondary release summaries","sourceNote":"GameSpot lists first release as December 1982; MobyGames lists 1982."},
-      {"date":"December 1982","title":"Pole Position","platform":"Arcade","body":"Fresh from its late-November North American release, Namco and Atari's racer became one of the arcade machines to watch at year's end.","signal":"Racing spectacle","certainty":"recent release context","sourceNote":"North American release listed as November 30, 1982."},
-      {"date":"December 1982","title":"Mine Storm","platform":"Vectrex","body":"The built-in game that many new Vectrex owners would have met first during the holiday season.","signal":"Vector pack-in","certainty":"seasonal launch context","sourceNote":"Mine Storm was built into the November 1982 Vectrex."},
-      {"date":"December 1982","title":"Super Breakout","platform":"Atari 5200","body":"The 5200 pack-in still defined many first encounters with Atari's premium console.","signal":"Launch pack-in","certainty":"launch-window context","sourceNote":"Atari Archive launch-window context."},
-      {"date":"December 1982","title":"Q*bert","platform":"Arcade","body":"By December, Gottlieb's pyramid-hopping cabinet belonged to the visible late-1982 arcade wave.","signal":"Character arcade icon","certainty":"rollout context","sourceNote":"October publication and November AMOA context; December included as public-floor momentum."},
-      {"date":"December 1982","title":"Pitfall!","platform":"Atari 2600","body":"A September release that made enormous sense as a Christmas cartridge: original, readable, and demonstrably better than many older home games.","signal":"Holiday cartridge favourite","certainty":"seasonal context","sourceNote":"September 1982 release; December sales context not tied to one date."},
-      {"date":"December 1982","title":"Spectrum games on cassette","platform":"ZX Spectrum","body":"UK owners and gift-givers were entering a world where a game might be a tape, a listing, or a mail-order promise.","signal":"UK bedroom-computer future","certainty":"contextual","sourceNote":"No precise December title date asserted."}
-    ]},
-    {"id":"hardware","eyebrow":"Gallery 03","title":"Hardware","subtitle":"The Christmas shelf split into console, cabinet and computer futures.","items":[
-      {"title":"Atari 2600","body":"Still the dominant home-console presence, now carrying both beloved originals like Pitfall! and overextended licences like E.T.","specs":["Large installed base","Joystick simplicity","Crowded cartridge market"],"certainty":"contextual","sourceNote":"Anchored to Pitfall! and E.T. 1982 releases."},
-      {"title":"Vectrex","body":"A beautiful oddity for households that wanted the arcade glow without surrendering the television.","specs":["Built-in CRT","Vector graphics","Mine Storm built in"],"certainty":"verified November launch, December context","sourceNote":"Vectrex release sources."},
-      {"title":"Atari 5200 and ColecoVision","body":"The high-end American console comparison was now a Christmas talking point: Atari power and brand weight against Coleco's Donkey Kong argument.","specs":["Premium console market","Arcade conversions","Controller comparisons"],"certainty":"contextual","sourceNote":"1982 launch context for both platforms."},
-      {"title":"ZX Spectrum, BBC Micro, Dragon 32 and C64","body":"In the UK, the computer could be presented as practical and educational while quietly promising games, programming and late-night cassette loading.","specs":["Keyboard machines","Cassette software","Family TV display"],"certainty":"contextual","sourceNote":"UK 1982 home micro context."}
-    ]},
-    {"id":"magazines","eyebrow":"Gallery 04","title":"Magazine Covers","subtitle":"December magazines were buying guides, wish lists and maps of an overcrowded future.","items":[
-      {"title":"Christmas cartridge pressure","month":"December 1982","publicationName":"Electronic Games","issueDate":"December 1982","headline":"Which game earns its place under the tree?","coverImage":"/magazine-covers/1982/electronic-games-october.svg","coverImageAlt":"Reconstructed Electronic Games cover for December 1982.","curatorNote":"The late-1982 console shelf was rich enough to excite and crowded enough to confuse.","body":"The late-1982 console shelf was rich enough to excite and crowded enough to confuse.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"C&VG festive arcade/home mix","month":"December 1982","publicationName":"Computer and Video Games","issueDate":"December 1982","headline":"Arcades, micros and Christmas choices","coverImage":"/magazine-covers/1982/cvg-october.svg","coverImageAlt":"Reconstructed C&VG cover for December 1982.","curatorNote":"UK readers needed a magazine that could move between Pole Position and the Spectrum without blinking.","body":"UK readers needed a magazine that could move between Pole Position and the Spectrum without blinking.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Popular Computing Weekly","month":"December 1982","publicationName":"Popular Computing Weekly","issueDate":"December 1982","headline":"Listings for the holiday machine","coverImage":"/magazine-covers/1982/popular-computing-weekly-october.svg","coverImageAlt":"Reconstructed Popular Computing Weekly cover for December 1982.","curatorNote":"A new micro under the television needed software, help and reassurance almost immediately.","body":"A new micro under the television needed software, help and reassurance almost immediately.","certainty":"contextual reconstruction","sourceNote":"Specific issue line not asserted."},
-      {"title":"Personal Computer World","month":"December 1982","publicationName":"Personal Computer World","issueDate":"December 1982","headline":"The computer as serious present","coverImage":"/magazine-covers/1982/personal-computer-world-october.svg","coverImageAlt":"Reconstructed PCW cover for December 1982.","curatorNote":"The respectable magazine cover helped justify the games machine hiding inside the home computer.","body":"The respectable magazine cover helped justify the games machine hiding inside the home computer.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."}
-    ]},
-    {"id":"online","eyebrow":"Gallery 05","title":"Online Life","subtitle":"December's online life was anticipation without refresh buttons.","items":[{"title":"Wish lists were curated by paper","body":"Magazine pages, shop catalogues and handwritten notes did the work of comparison sites."},{"title":"Rumours travelled through schools","body":"A cartridge's quality might be known through one child, one cousin, or one half-remembered shop demo."},{"title":"Type-ins became holiday projects","body":"A Christmas micro could turn a magazine listing into an afternoon of careful typing."},{"title":"No patches were coming","body":"A rushed or confusing cartridge arrived as a finished object. Players could learn it, swap it, or regret it, but not update it."}]},
-    {"id":"felt","eyebrow":"Gallery 06","title":"What It Felt Like","subtitle":"December 1982 felt abundant before it felt ominous.","items":[{"title":"The shelf looked impossibly full","body":"There were too many machines, too many promises and too many logos, which was thrilling until it became confusing."},{"title":"E.T. carried cinema magic and risk","body":"The licence made sense from across a shop counter; the play experience would be argued about later."},{"title":"The UK micro felt like a permission slip","body":"A computer could be defended as education, then used for games the moment homework was mentioned."},{"title":"Hindsight had not arrived","body":"The crash was not yet the everyday story. The everyday story was choosing what to ask for before the shops ran out."}]}
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "December turns the 1982 boom into a shopping-season exhibit.",
+      "items": [
+        {
+          "date": "December 1982",
+          "title": "E.T. reaches Atari 2600 shelves",
+          "body": "Atari's film tie-in arrived in time for Christmas after an infamously compressed development cycle. Its later reputation is heavy, but in December it was also a licensed object tied to one of the year's biggest films.",
+          "artifact": "Movie tie-in cartridge",
+          "certainty": "verified month",
+          "sourceNote": "Computing History and E.T. references list December 1982 for the Atari 2600 release."
+        },
+        {
+          "date": "December 1982",
+          "title": "Vectrex enters its first Christmas",
+          "body": "The vector console's built-in screen made it a spectacular present idea, but also an expensive and unusual one.",
+          "artifact": "Overlay sleeve",
+          "certainty": "contextual from November launch",
+          "sourceNote": "Vectrex launched in November 1982; December context is first holiday season."
+        },
+        {
+          "date": "December 1982",
+          "title": "Atari 5200 and ColecoVision compete for the premium shelf",
+          "body": "American console buyers faced a new high-end comparison: Atari's successor machine, Coleco's arcade-conversion pitch, and the still-dominant 2600 library.",
+          "artifact": "Premium console shelf card",
+          "certainty": "contextual",
+          "sourceNote": "Atari 5200 and ColecoVision launched earlier in 1982; December context is seasonal."
+        },
+        {
+          "date": "December 1982",
+          "title": "UK families consider the home micro as Christmas machine",
+          "body": "In Britain, a ZX Spectrum, BBC Micro, Dragon 32, VIC-20 or Commodore machine could be sold as education, hobby and games machine in one box.",
+          "artifact": "Cassette deck beside television",
+          "certainty": "contextual",
+          "sourceNote": "UK microcomputer launch-year context."
+        },
+        {
+          "date": "December 1982",
+          "title": "The arcade year ends still bright",
+          "body": "Pole Position, Q*bert, Joust, Dig Dug and Time Pilot made the arcade feel energetic at year's end, even as the home-console market was becoming crowded.",
+          "artifact": "Operator change sheet",
+          "certainty": "contextual",
+          "sourceNote": "Based on verified 1982 arcade release anchors."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight December-window entries and seasonal arrivals, with later crash mythology kept at a respectful distance.",
+      "items": [
+        {
+          "date": "December 1982",
+          "title": "E.T. the Extra-Terrestrial",
+          "platform": "Atari 2600",
+          "body": "A major film licence converted into a rushed Atari cartridge for the Christmas market.",
+          "signal": "Movie tie-in pressure",
+          "certainty": "verified month",
+          "sourceNote": "Computing History lists December 1982; E.T. release references support the month."
+        },
+        {
+          "date": "December 1982",
+          "title": "Time Pilot",
+          "platform": "Arcade",
+          "body": "Konami's circular dogfighting shooter is commonly listed as a December 1982 arcade release.",
+          "signal": "Late-year arcade shooter",
+          "certainty": "verified by secondary release summaries",
+          "sourceNote": "GameSpot lists first release as December 1982; MobyGames lists 1982."
+        },
+        {
+          "date": "December 1982",
+          "title": "Pole Position",
+          "platform": "Arcade",
+          "body": "Fresh from its late-November North American release, Namco and Atari's racer became one of the arcade machines to watch at year's end.",
+          "signal": "Racing spectacle",
+          "certainty": "recent release context",
+          "sourceNote": "North American release listed as November 30, 1982."
+        },
+        {
+          "date": "December 1982",
+          "title": "Mine Storm",
+          "platform": "Vectrex",
+          "body": "The built-in game that many new Vectrex owners would have met first during the holiday season.",
+          "signal": "Vector pack-in",
+          "certainty": "seasonal launch context",
+          "sourceNote": "Mine Storm was built into the November 1982 Vectrex."
+        },
+        {
+          "date": "December 1982",
+          "title": "Super Breakout",
+          "platform": "Atari 5200",
+          "body": "The 5200 pack-in still defined many first encounters with Atari's premium console.",
+          "signal": "Launch pack-in",
+          "certainty": "launch-window context",
+          "sourceNote": "Atari Archive launch-window context."
+        },
+        {
+          "date": "December 1982",
+          "title": "Q*bert",
+          "platform": "Arcade",
+          "body": "By December, Gottlieb's pyramid-hopping cabinet belonged to the visible late-1982 arcade wave.",
+          "signal": "Character arcade icon",
+          "certainty": "rollout context",
+          "sourceNote": "October publication and November AMOA context; December included as public-floor momentum."
+        },
+        {
+          "date": "December 1982",
+          "title": "Pitfall!",
+          "platform": "Atari 2600",
+          "body": "A September release that made enormous sense as a Christmas cartridge: original, readable, and demonstrably better than many older home games.",
+          "signal": "Holiday cartridge favourite",
+          "certainty": "seasonal context",
+          "sourceNote": "September 1982 release; December sales context not tied to one date."
+        },
+        {
+          "date": "December 1982",
+          "title": "Spectrum games on cassette",
+          "platform": "ZX Spectrum",
+          "body": "UK owners and gift-givers were entering a world where a game might be a tape, a listing, or a mail-order promise.",
+          "signal": "UK bedroom-computer future",
+          "certainty": "contextual",
+          "sourceNote": "No precise December title date asserted."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "The Christmas shelf split into console, cabinet and computer futures.",
+      "items": [
+        {
+          "title": "Atari 2600",
+          "body": "Still the dominant home-console presence, now carrying both beloved originals like Pitfall! and overextended licences like E.T.",
+          "specs": [
+            "Large installed base",
+            "Joystick simplicity",
+            "Crowded cartridge market"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Anchored to Pitfall! and E.T. 1982 releases."
+        },
+        {
+          "title": "Vectrex",
+          "body": "A beautiful oddity for households that wanted the arcade glow without surrendering the television.",
+          "specs": [
+            "Built-in CRT",
+            "Vector graphics",
+            "Mine Storm built in"
+          ],
+          "certainty": "verified November launch, December context",
+          "sourceNote": "Vectrex release sources."
+        },
+        {
+          "title": "Atari 5200 and ColecoVision",
+          "body": "The high-end American console comparison was now a Christmas talking point: Atari power and brand weight against Coleco's Donkey Kong argument.",
+          "specs": [
+            "Premium console market",
+            "Arcade conversions",
+            "Controller comparisons"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "1982 launch context for both platforms."
+        },
+        {
+          "title": "ZX Spectrum, BBC Micro, Dragon 32 and C64",
+          "body": "In the UK, the computer could be presented as practical and educational while quietly promising games, programming and late-night cassette loading.",
+          "specs": [
+            "Keyboard machines",
+            "Cassette software",
+            "Family TV display"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "UK 1982 home micro context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "December magazines were buying guides, wish lists and maps of an overcrowded future.",
+      "items": [
+        {
+          "title": "Christmas cartridge pressure",
+          "month": "December 1982",
+          "publicationName": "Electronic Games",
+          "issueDate": "December 1982",
+          "headline": "Which game earns its place under the tree?",
+          "coverImage": "/magazine-covers/1982/electronic-games-october.svg",
+          "coverImageAlt": "Reconstructed Electronic Games cover for December 1982.",
+          "curatorNote": "The late-1982 console shelf was rich enough to excite and crowded enough to confuse.",
+          "body": "The late-1982 console shelf was rich enough to excite and crowded enough to confuse.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "C&VG festive arcade/home mix",
+          "month": "December 1982",
+          "publicationName": "Computer and Video Games",
+          "issueDate": "December 1982",
+          "headline": "Arcades, micros and Christmas choices",
+          "coverImage": "/magazine-covers/1982/cvg-october.svg",
+          "coverImageAlt": "Reconstructed C&VG cover for December 1982.",
+          "curatorNote": "UK readers needed a magazine that could move between Pole Position and the Spectrum without blinking.",
+          "body": "UK readers needed a magazine that could move between Pole Position and the Spectrum without blinking.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Popular Computing Weekly",
+          "month": "December 1982",
+          "publicationName": "Popular Computing Weekly",
+          "issueDate": "December 1982",
+          "headline": "Listings for the holiday machine",
+          "coverImage": "/magazine-covers/1982/popular-computing-weekly-october.svg",
+          "coverImageAlt": "Reconstructed Popular Computing Weekly cover for December 1982.",
+          "curatorNote": "A new micro under the television needed software, help and reassurance almost immediately.",
+          "body": "A new micro under the television needed software, help and reassurance almost immediately.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific issue line not asserted."
+        },
+        {
+          "title": "Personal Computer World",
+          "month": "December 1982",
+          "publicationName": "Personal Computer World",
+          "issueDate": "December 1982",
+          "headline": "The computer as serious present",
+          "coverImage": "/magazine-covers/1982/personal-computer-world-october.svg",
+          "coverImageAlt": "Reconstructed PCW cover for December 1982.",
+          "curatorNote": "The respectable magazine cover helped justify the games machine hiding inside the home computer.",
+          "body": "The respectable magazine cover helped justify the games machine hiding inside the home computer.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "December's online life was anticipation without refresh buttons.",
+      "items": [
+        {
+          "title": "Wish lists were curated by paper",
+          "body": "Magazine pages, shop catalogues and handwritten notes did the work of comparison sites."
+        },
+        {
+          "title": "Rumours travelled through schools",
+          "body": "A cartridge's quality might be known through one child, one cousin, or one half-remembered shop demo."
+        },
+        {
+          "title": "Type-ins became holiday projects",
+          "body": "A Christmas micro could turn a magazine listing into an afternoon of careful typing."
+        },
+        {
+          "title": "No patches were coming",
+          "body": "A rushed or confusing cartridge arrived as a finished object. Players could learn it, swap it, or regret it, but not update it."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "December 1982 felt abundant before it felt ominous.",
+      "items": [
+        {
+          "title": "The shelf looked impossibly full",
+          "body": "There were too many machines, too many promises and too many logos, which was thrilling until it became confusing."
+        },
+        {
+          "title": "E.T. carried cinema magic and risk",
+          "body": "The licence made sense from across a shop counter; the play experience would be argued about later."
+        },
+        {
+          "title": "The UK micro felt like a permission slip",
+          "body": "A computer could be defended as education, then used for games the moment homework was mentioned."
+        },
+        {
+          "title": "Hindsight had not arrived",
+          "body": "The crash was not yet the everyday story. The everyday story was choosing what to ask for before the shops ran out."
+        }
+      ]
+    }
   ],
   "sources": [
-    {"label":"E.T. release context","url":"https://www.computinghistory.org.uk/det/352/E-T-The-Extra-Terrestrial/","note":"Used for December 1982 Atari 2600 release month."},
-    {"label":"E.T. video game context","url":"https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial_(video_game)","note":"Used for rushed development and later reception context, handled cautiously."},
-    {"label":"Time Pilot release context","url":"https://www.gamespot.com/games/time-pilot/","note":"Used for December 1982 release listing."},
-    {"label":"Vectrex release context","url":"https://www.computinghistory.org.uk/sec/15376/Vectrex/","note":"Used for November 1982 launch and December holiday context."},
-    {"label":"Atari 5200 launch context","url":"https://en.wikipedia.org/wiki/Atari_5200","note":"Used for launch-window and holiday-market context."},
-    {"label":"Pole Position release context","url":"https://en.wikipedia.org/wiki/Pole_Position","note":"Used for late-November North American release and December arcade-floor momentum."}
+    {
+      "label": "E.T. release context",
+      "url": "https://www.computinghistory.org.uk/det/352/E-T-The-Extra-Terrestrial/",
+      "note": "Used for December 1982 Atari 2600 release month."
+    },
+    {
+      "label": "E.T. video game context",
+      "url": "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial_(video_game)",
+      "note": "Used for rushed development and later reception context, handled cautiously."
+    },
+    {
+      "label": "Time Pilot release context",
+      "url": "https://www.gamespot.com/games/time-pilot/",
+      "note": "Used for December 1982 release listing."
+    },
+    {
+      "label": "Vectrex release context",
+      "url": "https://www.computinghistory.org.uk/sec/15376/Vectrex/",
+      "note": "Used for November 1982 launch and December holiday context."
+    },
+    {
+      "label": "Atari 5200 launch context",
+      "url": "https://en.wikipedia.org/wiki/Atari_5200",
+      "note": "Used for launch-window and holiday-market context."
+    },
+    {
+      "label": "Pole Position release context",
+      "url": "https://en.wikipedia.org/wiki/Pole_Position",
+      "note": "Used for late-November North American release and December arcade-floor momentum."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

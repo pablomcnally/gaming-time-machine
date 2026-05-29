@@ -5,7 +5,12 @@
     "accession": "GTM-1997-09",
     "dek": "Final Fantasy VII reaches North America, Oddworld arrives, GoldenEye stories spread, and autumn starts to look like a PlayStation season.",
     "curatorNote": "September is anchored by Final Fantasy VII's North American release and Oddworld's September debut. UK context is build-up: Europe still waits for Final Fantasy VII.",
-    "statusChips": ["FFVII West", "Oddworld", "GoldenEye stories", "autumn begins"]
+    "statusChips": [
+      "FFVII West",
+      "Oddworld",
+      "GoldenEye stories",
+      "autumn begins"
+    ]
   },
   "sections": [
     {
@@ -84,14 +89,22 @@
         {
           "title": "The multi-disc PlayStation case",
           "body": "Final Fantasy VII made the jewel case feel archival: several discs, a manual, and the promise of a larger world.",
-          "specs": ["Multiple CDs", "Memory card saves", "Cinematic RPG scale"],
+          "specs": [
+            "Multiple CDs",
+            "Memory card saves",
+            "Cinematic RPG scale"
+          ],
           "certainty": "contextual",
           "sourceNote": "Final Fantasy VII shipped as a multi-disc PlayStation game."
         },
         {
           "title": "N64 local multiplayer hardware",
           "body": "GoldenEye made every extra controller feel like infrastructure.",
-          "specs": ["Four ports", "Split-screen", "House rules"],
+          "specs": [
+            "Four ports",
+            "Split-screen",
+            "House rules"
+          ],
           "certainty": "contextual",
           "sourceNote": "GoldenEye multiplayer context."
         }
@@ -180,5 +193,10 @@
       "url": "https://en.wikipedia.org/wiki/GoldenEye_007",
       "note": "Used for post-release momentum and regional-date caution."
     }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

@@ -1,43 +1,337 @@
 {
-  "museum": {"name":"Gaming Time Machine","period":"January 1983","accession":"GTM-1983-01","dek":"The year opens with award-show confidence, home-computer price pressure, crowded cartridge shelves, and a UK micro scene that feels more alive than the American console market feels stable.","curatorNote":"January 1983 is best read as a hinge. The North American crash was not a single-day event, and many games listed here are January shelf/context objects rather than exact launch-day claims.","statusChips":["crash signals","CES mood","UK micro growth","print culture"]},
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "January 1983",
+    "accession": "GTM-1983-01",
+    "dek": "The year opens with award-show confidence, home-computer price pressure, crowded cartridge shelves, and a UK micro scene that feels more alive than the American console market feels stable.",
+    "curatorNote": "January 1983 is best read as a hinge. The North American crash was not a single-day event, and many games listed here are January shelf/context objects rather than exact launch-day claims.",
+    "statusChips": [
+      "crash signals",
+      "CES mood",
+      "UK micro growth",
+      "print culture"
+    ]
+  },
   "sections": [
-    {"id":"news","eyebrow":"Gallery 01","title":"News","subtitle":"Five signs from the opening of a difficult, inventive year.","items":[
-      {"date":"January 1983","title":"Electronic Games publishes the fourth Arkie Awards","body":"The January issue of Electronic Games looked back at the previous prize year with confidence, even as the market underneath dedicated videogame publishing was beginning to wobble.","artifact":"Awards issue","certainty":"verified issue context","sourceNote":"Electronic Games records identify the January 1983 issue with the fourth Arkie Awards."},
-      {"date":"January 1983","title":"Texas Instruments pushes the TI-99/4A hard","body":"TI's home computer was selling in large numbers early in the year, but the price war with Commodore would soon turn volume into danger.","artifact":"Rebate advert","certainty":"verified broad context","sourceNote":"TI-99/4A histories describe January 1983 CES confidence and January price cuts."},
-      {"date":"January 1983","title":"The cartridge glut becomes visible","body":"US retailers faced too many console games, too many publishers, and too little confidence in quality. From Britain, the crash arrived as news and cheap import lore rather than identical lived experience.","artifact":"Discount bin label","certainty":"contextual","sourceNote":"Video game crash summaries describe oversupply and declining consumer confidence through 1983."},
-      {"date":"January 1983","title":"UK software remains magazine-shaped","body":"For Spectrum, BBC Micro and VIC-20 owners, the year's energy came from listings, small adverts, cassette inlays and the sense that anyone might publish a game.","artifact":"Typed listing","certainty":"contextual","sourceNote":"UK magazine archives document C&VG, Your Computer and ZX Computing issues through 1983."},
-      {"date":"January 1983","title":"Arcades still look healthy from the floor","body":"Pole Position, Q*bert, Joust and the late-1982 wave were still recent enough to make the arcade feel bright even while home-console economics dimmed.","artifact":"Cabinet row","certainty":"contextual","sourceNote":"1982-83 arcade release records and 1983 arcade chart context."}
-    ]},
-    {"id":"releases","eyebrow":"Gallery 02","title":"Releases","subtitle":"Eight January shelf objects and 1983 candidates, dated cautiously.","items":[
-      {"date":"January 1983","title":"Q*bert","platform":"Arcade","body":"A late-1982 release still feeling new on many floors, proof that character cabinets could still surprise players.","signal":"Arcade character oddity","certainty":"recent-release context","sourceNote":"Q*bert release records are late 1982; January is shelf context."},
-      {"date":"January 1983","title":"Pole Position","platform":"Arcade","body":"Namco and Atari's racer remained the cabinet by which driving games were judged.","signal":"Racing spectacle","certainty":"recent-release context","sourceNote":"North American mass release was late November 1982."},
-      {"date":"January 1983","title":"Popeye","platform":"Arcade","body":"Nintendo's cartoon licence stayed visible in arcades, with chart strength reported in early 1983.","signal":"Licensed cartoon cabinet","certainty":"1982 release, 1983 chart context","sourceNote":"Popeye arcade chart references place it strongly in April 1983."},
-      {"date":"January 1983","title":"E.T. the Extra-Terrestrial","platform":"Atari 2600","body":"The Christmas 1982 cartridge became part of the early-1983 returns-and-disappointment story.","signal":"Movie tie-in aftershock","certainty":"post-release context","sourceNote":"E.T. released December 1982; later crash context is handled cautiously."},
-      {"date":"January 1983","title":"Pitfall!","platform":"Atari 2600","body":"Activision's 1982 classic remained the counterexample to the idea that every console cartridge had gone stale.","signal":"Designer-led console hit","certainty":"ongoing shelf context","sourceNote":"Pitfall! was released in September 1982."},
-      {"date":"January 1983","title":"The Hobbit","platform":"ZX Spectrum / home computers","body":"Melbourne House's adventure remained a UK conversation piece for text, graphics and patience.","signal":"UK adventure touchstone","certainty":"ongoing context","sourceNote":"Originally 1982; included for early-1983 UK shelf life."},
-      {"date":"January 1983","title":"Early Spectrum cassettes","platform":"ZX Spectrum","body":"Small publishers kept feeding the young machine with games cheap enough to imagine buying with pocket money.","signal":"Cassette economy","certainty":"contextual","sourceNote":"Specific January title dates not asserted."},
-      {"date":"January 1983","title":"Arcade ports in magazines","platform":"Home computers","body":"Readers often met games as screenshots, listings and promises before they met finished software.","signal":"Print-first discovery","certainty":"contextual","sourceNote":"UK print culture context."}
-    ]},
-    {"id":"hardware","eyebrow":"Gallery 03","title":"Hardware","subtitle":"The display case is a price war, a console hangover and a British bedroom computer.","items":[
-      {"title":"TI-99/4A","body":"A technically interesting home computer being pulled into destructive discounting.","specs":["16-bit CPU lineage","Cartridge and cassette software","Heavy rebate pressure"],"certainty":"verified broad context","sourceNote":"TI-99/4A timelines describe January 1983 price pressure."},
-      {"title":"Commodore 64","body":"The C64's price aggression helped make home computers feel like a better games value than many consoles.","specs":["64 KB RAM","SID sound","Sprites"],"certainty":"contextual","sourceNote":"C64 price-war context through 1983."},
-      {"title":"Atari 2600","body":"Still everywhere, but now haunted by shelf overload and falling confidence.","specs":["Huge library","Third-party glut","Discount pressure"],"certainty":"contextual","sourceNote":"Crash histories."},
-      {"title":"ZX Spectrum","body":"In Britain, the Spectrum carried a different mood: cheaper software, local creators and the romance of cassette loading.","specs":["16K / 48K models","Cassette loading","Keyboard commands"],"certainty":"contextual","sourceNote":"UK microcomputer context."}
-    ]},
-    {"id":"magazines","eyebrow":"Gallery 04","title":"Magazine Covers","subtitle":"Magazines made January's signals readable.","items":[
-      {"title":"Electronic Games","month":"January 1983","publicationName":"Electronic Games","issueDate":"January 1983","headline":"Fourth Arkie Awards","coverImage":"/magazine-covers/1983/electronic-games-1983.svg","coverImageAlt":"Reconstructed Electronic Games cover for January 1983.","curatorNote":"An awards issue from the last confident crest of the dedicated videogame-magazine boom.","body":"An awards issue from the last confident crest of the dedicated videogame-magazine boom.","certainty":"verified issue context","sourceNote":"Electronic Games archive context."},
-      {"title":"Computer and Video Games","month":"January 1983","publicationName":"Computer and Video Games","issueDate":"January 1983","headline":"Arcade and micro coverage for UK readers","coverImage":"/magazine-covers/1983/cvg-1983.svg","coverImageAlt":"Reconstructed C&VG cover for January 1983.","curatorNote":"C&VG connected coin-op glamour to the machines appearing under British televisions.","body":"C&VG connected coin-op glamour to the machines appearing under British televisions.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Your Computer","month":"January 1983","publicationName":"Your Computer","issueDate":"January 1983","headline":"Home computing as a games workshop","coverImage":"/magazine-covers/1983/your-computer-1983.svg","coverImageAlt":"Reconstructed Your Computer cover for January 1983.","curatorNote":"A broader computer magazine that still mattered to players because listings and adverts were software discovery.","body":"A broader computer magazine that still mattered to players because listings and adverts were software discovery.","certainty":"contextual reconstruction","sourceNote":"Computing History lists Your Computer 1983 issues."},
-      {"title":"ZX Computing","month":"January/February 1983","publicationName":"ZX Computing","issueDate":"Early 1983","headline":"The Spectrum shelf takes shape","coverImage":"/magazine-covers/1983/zx-computing-1983.svg","coverImageAlt":"Reconstructed ZX Computing cover for early 1983.","curatorNote":"ZX-specific magazines made a young machine feel like a whole culture.","body":"ZX-specific magazines made a young machine feel like a whole culture.","certainty":"archive-supported issue run","sourceNote":"World of Spectrum archives list ZX Computing issues in 1983."}
-    ]},
-    {"id":"online","eyebrow":"Gallery 05","title":"Online Life","subtitle":"The network was still paper, shops, schools and clubs.","items":[{"title":"The letters page carried rumours","body":"Readers learned what mattered from magazine columns and other readers' complaints."},{"title":"Listings were downloadable by hand","body":"Typing code was slow, social and error-prone, but it made software feel graspable."},{"title":"Shop windows were search results","body":"A boxed cassette or discount cartridge could redirect a whole weekend."},{"title":"Bulletin boards were specialist","body":"Online access existed, but not as everyday gaming life for most UK players."}]},
-    {"id":"felt","eyebrow":"Gallery 06","title":"What It Felt Like","subtitle":"January felt like a year trying to hold two truths at once.","items":[{"title":"The arcade still had glamour","body":"Cabinets looked confident even as the business pages darkened."},{"title":"Home computers felt like escape routes","body":"A Spectrum or C64 promised games and agency, not just another sealed cartridge."},{"title":"The US crash was distant but audible","body":"British players heard the rumble through magazines, prices and imported stories."},{"title":"Print made the future monthly","body":"Every issue seemed to reveal another machine, language, cassette or warning sign."}]}
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five signs from the opening of a difficult, inventive year.",
+      "items": [
+        {
+          "date": "January 1983",
+          "title": "Electronic Games publishes the fourth Arkie Awards",
+          "body": "The January issue of Electronic Games looked back at the previous prize year with confidence, even as the market underneath dedicated videogame publishing was beginning to wobble.",
+          "artifact": "Awards issue",
+          "certainty": "verified issue context",
+          "sourceNote": "Electronic Games records identify the January 1983 issue with the fourth Arkie Awards."
+        },
+        {
+          "date": "January 1983",
+          "title": "Texas Instruments pushes the TI-99/4A hard",
+          "body": "TI's home computer was selling in large numbers early in the year, but the price war with Commodore would soon turn volume into danger.",
+          "artifact": "Rebate advert",
+          "certainty": "verified broad context",
+          "sourceNote": "TI-99/4A histories describe January 1983 CES confidence and January price cuts."
+        },
+        {
+          "date": "January 1983",
+          "title": "The cartridge glut becomes visible",
+          "body": "US retailers faced too many console games, too many publishers, and too little confidence in quality. From Britain, the crash arrived as news and cheap import lore rather than identical lived experience.",
+          "artifact": "Discount bin label",
+          "certainty": "contextual",
+          "sourceNote": "Video game crash summaries describe oversupply and declining consumer confidence through 1983."
+        },
+        {
+          "date": "January 1983",
+          "title": "UK software remains magazine-shaped",
+          "body": "For Spectrum, BBC Micro and VIC-20 owners, the year's energy came from listings, small adverts, cassette inlays and the sense that anyone might publish a game.",
+          "artifact": "Typed listing",
+          "certainty": "contextual",
+          "sourceNote": "UK magazine archives document C&VG, Your Computer and ZX Computing issues through 1983."
+        },
+        {
+          "date": "January 1983",
+          "title": "Arcades still look healthy from the floor",
+          "body": "Pole Position, Q*bert, Joust and the late-1982 wave were still recent enough to make the arcade feel bright even while home-console economics dimmed.",
+          "artifact": "Cabinet row",
+          "certainty": "contextual",
+          "sourceNote": "1982-83 arcade release records and 1983 arcade chart context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight January shelf objects and 1983 candidates, dated cautiously.",
+      "items": [
+        {
+          "date": "January 1983",
+          "title": "Q*bert",
+          "platform": "Arcade",
+          "body": "A late-1982 release still feeling new on many floors, proof that character cabinets could still surprise players.",
+          "signal": "Arcade character oddity",
+          "certainty": "recent-release context",
+          "sourceNote": "Q*bert release records are late 1982; January is shelf context."
+        },
+        {
+          "date": "January 1983",
+          "title": "Pole Position",
+          "platform": "Arcade",
+          "body": "Namco and Atari's racer remained the cabinet by which driving games were judged.",
+          "signal": "Racing spectacle",
+          "certainty": "recent-release context",
+          "sourceNote": "North American mass release was late November 1982."
+        },
+        {
+          "date": "January 1983",
+          "title": "Popeye",
+          "platform": "Arcade",
+          "body": "Nintendo's cartoon licence stayed visible in arcades, with chart strength reported in early 1983.",
+          "signal": "Licensed cartoon cabinet",
+          "certainty": "1982 release, 1983 chart context",
+          "sourceNote": "Popeye arcade chart references place it strongly in April 1983."
+        },
+        {
+          "date": "January 1983",
+          "title": "E.T. the Extra-Terrestrial",
+          "platform": "Atari 2600",
+          "body": "The Christmas 1982 cartridge became part of the early-1983 returns-and-disappointment story.",
+          "signal": "Movie tie-in aftershock",
+          "certainty": "post-release context",
+          "sourceNote": "E.T. released December 1982; later crash context is handled cautiously."
+        },
+        {
+          "date": "January 1983",
+          "title": "Pitfall!",
+          "platform": "Atari 2600",
+          "body": "Activision's 1982 classic remained the counterexample to the idea that every console cartridge had gone stale.",
+          "signal": "Designer-led console hit",
+          "certainty": "ongoing shelf context",
+          "sourceNote": "Pitfall! was released in September 1982."
+        },
+        {
+          "date": "January 1983",
+          "title": "The Hobbit",
+          "platform": "ZX Spectrum / home computers",
+          "body": "Melbourne House's adventure remained a UK conversation piece for text, graphics and patience.",
+          "signal": "UK adventure touchstone",
+          "certainty": "ongoing context",
+          "sourceNote": "Originally 1982; included for early-1983 UK shelf life."
+        },
+        {
+          "date": "January 1983",
+          "title": "Early Spectrum cassettes",
+          "platform": "ZX Spectrum",
+          "body": "Small publishers kept feeding the young machine with games cheap enough to imagine buying with pocket money.",
+          "signal": "Cassette economy",
+          "certainty": "contextual",
+          "sourceNote": "Specific January title dates not asserted."
+        },
+        {
+          "date": "January 1983",
+          "title": "Arcade ports in magazines",
+          "platform": "Home computers",
+          "body": "Readers often met games as screenshots, listings and promises before they met finished software.",
+          "signal": "Print-first discovery",
+          "certainty": "contextual",
+          "sourceNote": "UK print culture context."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "The display case is a price war, a console hangover and a British bedroom computer.",
+      "items": [
+        {
+          "title": "TI-99/4A",
+          "body": "A technically interesting home computer being pulled into destructive discounting.",
+          "specs": [
+            "16-bit CPU lineage",
+            "Cartridge and cassette software",
+            "Heavy rebate pressure"
+          ],
+          "certainty": "verified broad context",
+          "sourceNote": "TI-99/4A timelines describe January 1983 price pressure."
+        },
+        {
+          "title": "Commodore 64",
+          "body": "The C64's price aggression helped make home computers feel like a better games value than many consoles.",
+          "specs": [
+            "64 KB RAM",
+            "SID sound",
+            "Sprites"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "C64 price-war context through 1983."
+        },
+        {
+          "title": "Atari 2600",
+          "body": "Still everywhere, but now haunted by shelf overload and falling confidence.",
+          "specs": [
+            "Huge library",
+            "Third-party glut",
+            "Discount pressure"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Crash histories."
+        },
+        {
+          "title": "ZX Spectrum",
+          "body": "In Britain, the Spectrum carried a different mood: cheaper software, local creators and the romance of cassette loading.",
+          "specs": [
+            "16K / 48K models",
+            "Cassette loading",
+            "Keyboard commands"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "UK microcomputer context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Magazines made January's signals readable.",
+      "items": [
+        {
+          "title": "Electronic Games",
+          "month": "January 1983",
+          "publicationName": "Electronic Games",
+          "issueDate": "January 1983",
+          "headline": "Fourth Arkie Awards",
+          "coverImage": "/magazine-covers/1983/electronic-games-1983.svg",
+          "coverImageAlt": "Reconstructed Electronic Games cover for January 1983.",
+          "curatorNote": "An awards issue from the last confident crest of the dedicated videogame-magazine boom.",
+          "body": "An awards issue from the last confident crest of the dedicated videogame-magazine boom.",
+          "certainty": "verified issue context",
+          "sourceNote": "Electronic Games archive context."
+        },
+        {
+          "title": "Computer and Video Games",
+          "month": "January 1983",
+          "publicationName": "Computer and Video Games",
+          "issueDate": "January 1983",
+          "headline": "Arcade and micro coverage for UK readers",
+          "coverImage": "/magazine-covers/1983/cvg-1983.svg",
+          "coverImageAlt": "Reconstructed C&VG cover for January 1983.",
+          "curatorNote": "C&VG connected coin-op glamour to the machines appearing under British televisions.",
+          "body": "C&VG connected coin-op glamour to the machines appearing under British televisions.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Your Computer",
+          "month": "January 1983",
+          "publicationName": "Your Computer",
+          "issueDate": "January 1983",
+          "headline": "Home computing as a games workshop",
+          "coverImage": "/magazine-covers/1983/your-computer-1983.svg",
+          "coverImageAlt": "Reconstructed Your Computer cover for January 1983.",
+          "curatorNote": "A broader computer magazine that still mattered to players because listings and adverts were software discovery.",
+          "body": "A broader computer magazine that still mattered to players because listings and adverts were software discovery.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Computing History lists Your Computer 1983 issues."
+        },
+        {
+          "title": "ZX Computing",
+          "month": "January/February 1983",
+          "publicationName": "ZX Computing",
+          "issueDate": "Early 1983",
+          "headline": "The Spectrum shelf takes shape",
+          "coverImage": "/magazine-covers/1983/zx-computing-1983.svg",
+          "coverImageAlt": "Reconstructed ZX Computing cover for early 1983.",
+          "curatorNote": "ZX-specific magazines made a young machine feel like a whole culture.",
+          "body": "ZX-specific magazines made a young machine feel like a whole culture.",
+          "certainty": "archive-supported issue run",
+          "sourceNote": "World of Spectrum archives list ZX Computing issues in 1983."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "The network was still paper, shops, schools and clubs.",
+      "items": [
+        {
+          "title": "The letters page carried rumours",
+          "body": "Readers learned what mattered from magazine columns and other readers' complaints."
+        },
+        {
+          "title": "Listings were downloadable by hand",
+          "body": "Typing code was slow, social and error-prone, but it made software feel graspable."
+        },
+        {
+          "title": "Shop windows were search results",
+          "body": "A boxed cassette or discount cartridge could redirect a whole weekend."
+        },
+        {
+          "title": "Bulletin boards were specialist",
+          "body": "Online access existed, but not as everyday gaming life for most UK players."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "January felt like a year trying to hold two truths at once.",
+      "items": [
+        {
+          "title": "The arcade still had glamour",
+          "body": "Cabinets looked confident even as the business pages darkened."
+        },
+        {
+          "title": "Home computers felt like escape routes",
+          "body": "A Spectrum or C64 promised games and agency, not just another sealed cartridge."
+        },
+        {
+          "title": "The US crash was distant but audible",
+          "body": "British players heard the rumble through magazines, prices and imported stories."
+        },
+        {
+          "title": "Print made the future monthly",
+          "body": "Every issue seemed to reveal another machine, language, cassette or warning sign."
+        }
+      ]
+    }
   ],
   "sources": [
-    {"label":"Electronic Games magazine context","url":"https://en.wikipedia.org/wiki/Electronic_Games","note":"Used for Electronic Games run and January 1983 Arkie issue context."},
-    {"label":"TI-99/4A price-war context","url":"https://www.ti99ers.org/timeline/time1983.htm","note":"Used for January 1983 TI price-pressure timeline."},
-    {"label":"Video game crash context","url":"https://en.wikipedia.org/wiki/Video_game_crash_of_1983","note":"Used for broad crash causes and cautious month framing."},
-    {"label":"Your Computer 1983 archive","url":"https://www.computinghistory.org.uk/sec/25328/Your-Computer-1983/","note":"Used for UK magazine issue context."},
-    {"label":"ZX Computing archive","url":"https://worldofspectrum.org/archive/magazines/zx-computing","note":"Used for ZX Computing 1983 issue context."}
+    {
+      "label": "Electronic Games magazine context",
+      "url": "https://en.wikipedia.org/wiki/Electronic_Games",
+      "note": "Used for Electronic Games run and January 1983 Arkie issue context."
+    },
+    {
+      "label": "TI-99/4A price-war context",
+      "url": "https://www.ti99ers.org/timeline/time1983.htm",
+      "note": "Used for January 1983 TI price-pressure timeline."
+    },
+    {
+      "label": "Video game crash context",
+      "url": "https://en.wikipedia.org/wiki/Video_game_crash_of_1983",
+      "note": "Used for broad crash causes and cautious month framing."
+    },
+    {
+      "label": "Your Computer 1983 archive",
+      "url": "https://www.computinghistory.org.uk/sec/25328/Your-Computer-1983/",
+      "note": "Used for UK magazine issue context."
+    },
+    {
+      "label": "ZX Computing archive",
+      "url": "https://worldofspectrum.org/archive/magazines/zx-computing",
+      "note": "Used for ZX Computing 1983 issue context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

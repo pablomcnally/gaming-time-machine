@@ -5,7 +5,12 @@
     "accession": "GTM-1997-03",
     "dek": "The month the Nintendo 64 finally reached Europe, bringing Mario 64 into UK living rooms and turning cartridge prices into high-street conversation.",
     "curatorNote": "March is one of 1997's clearest UK hardware months: the European N64 launch is the centre of the exhibit, with Turok, Doom 64, and Symphony of the Night providing wider platform texture.",
-    "statusChips": ["N64 UK launch", "Mario arrives", "cartridge debate", "arcade energy"]
+    "statusChips": [
+      "N64 UK launch",
+      "Mario arrives",
+      "cartridge debate",
+      "arcade energy"
+    ]
   },
   "sections": [
     {
@@ -84,14 +89,22 @@
         {
           "title": "The N64 controller as museum object",
           "body": "Three prongs, one analogue stick, and a feeling that 3D movement required a new hand position.",
-          "specs": ["Analogue stick", "Four controller ports", "Cartridge slot"],
+          "specs": [
+            "Analogue stick",
+            "Four controller ports",
+            "Cartridge slot"
+          ],
           "certainty": "verified hardware context",
           "sourceNote": "European launch and launch titles are verified; controller context is descriptive."
         },
         {
           "title": "PlayStation as the established shelf",
           "body": "The N64 was new, but the PlayStation already owned breadth: cheaper CD-ROMs, demo discs, and a growing library.",
-          "specs": ["CD-ROM pricing", "Memory cards", "Demo discs"],
+          "specs": [
+            "CD-ROM pricing",
+            "Memory cards",
+            "Demo discs"
+          ],
           "certainty": "contextual",
           "sourceNote": "Included as UK retail context around N64 launch."
         }
@@ -185,5 +198,10 @@
       "url": "https://www.mobygames.com/game/3569/tekken-3/",
       "note": "Used for March 1997 arcade release month."
     }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

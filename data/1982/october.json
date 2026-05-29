@@ -5,7 +5,12 @@
     "accession": "GTM-1982-10",
     "dek": "A museum drawer from the golden-age peak: Q*bert hops into arcades, Atari pushes the 5200 into limited retail, and British homes begin to hear games loading from cassette.",
     "curatorNote": "October 1982 is a difficult month to pin down cleanly. Arcade publication dates, trade-show showings, home-console launch windows, and UK microcomputer availability overlap, so this exhibit marks uncertain dates openly rather than pretending every cabinet and cartridge arrived on the same day everywhere.",
-    "statusChips": ["arcade peak", "UK micro boom", "Atari pressure", "cassette culture"]
+    "statusChips": [
+      "arcade peak",
+      "UK micro boom",
+      "Atari pressure",
+      "cassette culture"
+    ]
   },
   "sections": [
     {
@@ -145,28 +150,44 @@
         {
           "title": "Atari 5200 SuperSystem",
           "body": "A powerful but awkward premium console, based closely on Atari's 8-bit computer technology and famous for its analogue controller. In October it was more limited US rollout than UK retail reality.",
-          "specs": ["Limited US launch window", "Analogue joystick", "Bundled with Super Breakout"],
+          "specs": [
+            "Limited US launch window",
+            "Analogue joystick",
+            "Bundled with Super Breakout"
+          ],
           "certainty": "verified launch window, regional caveat",
           "sourceNote": "Atari 5200 sources describe October/November 1982 launch timing and limited initial availability."
         },
         {
           "title": "ZX Spectrum",
           "body": "Launched in April, but by October it was becoming a central UK gaming machine: cheap enough to imagine at home, flexible enough to invite bedroom coding.",
-          "specs": ["16K / 48K models", "Colour graphics", "Cassette loading"],
+          "specs": [
+            "16K / 48K models",
+            "Colour graphics",
+            "Cassette loading"
+          ],
           "certainty": "verified April launch, October context",
           "sourceNote": "Centre for Computing History lists the ZX Spectrum launch on 23 April 1982."
         },
         {
           "title": "Dragon 32 and BBC Micro",
           "body": "British home computing did not belong to one machine. The BBC Micro carried educational authority; the Welsh Dragon 32 added another serious colour-computer option.",
-          "specs": ["BBC education aura", "Dragon 32 launched August 1982", "Home micro competition"],
+          "specs": [
+            "BBC education aura",
+            "Dragon 32 launched August 1982",
+            "Home micro competition"
+          ],
           "certainty": "verified broad context",
           "sourceNote": "Dragon 32 references list August 1982; BBC Micro launched in December 1981."
         },
         {
           "title": "Cassette as game delivery",
           "body": "For UK micro owners, the sound of loading was part of the exhibit: squeal, border stripes, patience, and the real possibility of failure.",
-          "specs": ["Compact cassette", "TV display", "Mail-order software"],
+          "specs": [
+            "Compact cassette",
+            "TV display",
+            "Mail-order software"
+          ],
           "certainty": "contextual",
           "sourceNote": "Included as UK home-computer culture around Spectrum/BBC/Dragon software."
         }
@@ -184,7 +205,7 @@
           "publicationName": "Electronic Games",
           "issueDate": "October 1982",
           "headline": "1983 Videogame Preview",
-          "coverImage": "/magazine-covers/1982/electronic-games-october.svg",
+          "coverImage": "/magazine-covers/1982/electronic-games-october.jpg",
           "coverImageAlt": "Reconstructed cover image for Electronic Games, October 1982.",
           "curatorNote": "A confident American videogame magazine looking forward to 1983, still standing inside the arcade-and-console boom.",
           "body": "A confident American videogame magazine looking forward to 1983, still standing inside the arcade-and-console boom.",
@@ -197,7 +218,7 @@
           "publicationName": "Computer and Video Games",
           "issueDate": "October 1982",
           "headline": "Arcade and home-computer coverage for UK readers",
-          "coverImage": "/magazine-covers/1982/cvg-october.svg",
+          "coverImage": "/magazine-covers/1982/cvg-october.jpg",
           "coverImageAlt": "Reconstructed cover image for Computer and Video Games, October 1982.",
           "curatorNote": "C&VG sat exactly where this exhibit lives: between coin-op fascination and the domestic computer arriving under the television.",
           "body": "C&VG sat exactly where this exhibit lives: between coin-op fascination and the domestic computer arriving under the television.",
@@ -210,7 +231,7 @@
           "publicationName": "Personal Computer World",
           "issueDate": "October 1982",
           "headline": "The home micro as serious machine",
-          "coverImage": "/magazine-covers/1982/personal-computer-world-october.svg",
+          "coverImage": "/magazine-covers/1982/personal-computer-world-october.jpg",
           "coverImageAlt": "Reconstructed cover image for Personal Computer World, October 1982.",
           "curatorNote": "Not a games magazine, but an essential UK shelf object for the world that made home computer games possible.",
           "body": "Not a games magazine, but an essential UK shelf object for the world that made home computer games possible.",
@@ -223,7 +244,7 @@
           "publicationName": "Popular Computing Weekly",
           "issueDate": "7 October 1982",
           "headline": "The weekly feed for British micro owners",
-          "coverImage": "/magazine-covers/1982/popular-computing-weekly-october.svg",
+          "coverImage": "/magazine-covers/1982/popular-computing-weekly-october.png",
           "coverImageAlt": "Reconstructed cover image for Popular Computing Weekly, 7 October 1982.",
           "curatorNote": "A weekly UK pulse: cheaper, faster, and closer to the reader who wanted listings, adverts, and machine gossip now.",
           "body": "A weekly UK pulse: cheaper, faster, and closer to the reader who wanted listings, adverts, and machine gossip now.",
@@ -355,5 +376,10 @@
       "url": "https://en.wikipedia.org/wiki/1982_in_video_games",
       "note": "Used for broad 1982 arcade/home-console context and Swordquest month anchor."
     }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

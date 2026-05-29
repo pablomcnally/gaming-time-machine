@@ -1,42 +1,332 @@
 {
-  "museum": {"name":"Gaming Time Machine","period":"October 1983","accession":"GTM-1983-10","dek":"Track & Field reaches arcades, Texas Instruments prepares to leave the home-computer market, and the UK micro press turns autumn into a buying guide for a crowded Christmas.","curatorNote":"October's strongest exact anchors are market and arcade-context rather than a single dominant UK release. Some late-1983 Spectrum titles are included with month-level caution.","statusChips":["Track & Field","TI exit","UK Christmas build-up","Spectrum autumn"]},
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "October 1983",
+    "accession": "GTM-1983-10",
+    "dek": "Track & Field reaches arcades, Texas Instruments prepares to leave the home-computer market, and the UK micro press turns autumn into a buying guide for a crowded Christmas.",
+    "curatorNote": "October's strongest exact anchors are market and arcade-context rather than a single dominant UK release. Some late-1983 Spectrum titles are included with month-level caution.",
+    "statusChips": [
+      "Track & Field",
+      "TI exit",
+      "UK Christmas build-up",
+      "Spectrum autumn"
+    ]
+  },
   "sections": [
-    {"id":"news","eyebrow":"Gallery 01","title":"News","subtitle":"October is sport, retreat and seasonal pressure.","items":[
-      {"date":"October 1983","title":"Track & Field reaches arcades","body":"Konami's button-battering sports cabinet turned physical performance into public play and helped define a new competitive arcade rhythm.","artifact":"Twin-button control panel","certainty":"verified month in release summaries","sourceNote":"Track & Field references list October 1983."},
-      {"date":"October 1983","title":"Texas Instruments moves toward withdrawal","body":"After brutal price competition, TI's home-computer story was nearing its end, with production and market exit reported in the autumn.","artifact":"Exit memo","certainty":"verified broad context","sourceNote":"TI-99/4A histories place withdrawal/discontinuation decisions in late 1983."},
-      {"date":"October 1983","title":"Electron User begins publication","body":"The new Acorn Electron had enough gravity to support its own UK magazine, even as supply problems shadowed the machine.","artifact":"First issue marker","certainty":"verified month by magazine archive summaries","sourceNote":"Electron User references list first issue in October 1983."},
-      {"date":"October 1983","title":"Christmas computer buying begins early","body":"Families weighing Spectrum, C64, BBC, Electron and Dragon were now reading specifications as holiday decisions.","artifact":"Gift guide page","certainty":"contextual","sourceNote":"UK seasonal hardware context."},
-      {"date":"October 1983","title":"Console crash coverage becomes part of the backdrop","body":"By October, the North American crash was a business reality, not just a warning sign, but games culture kept moving through computers and arcades.","artifact":"Market graph","certainty":"contextual","sourceNote":"Crash histories and autumn 1983 market context."}
-    ]},
-    {"id":"releases","eyebrow":"Gallery 02","title":"Releases","subtitle":"Eight October-window and late-1983 objects.","items":[
-      {"date":"October 1983","title":"Track & Field","platform":"Arcade","body":"A competitive sports cabinet built around timed events and frantic inputs.","signal":"Button-bashing sport","certainty":"verified month","sourceNote":"Track & Field references."},
-      {"date":"October 1983","title":"Ant Attack","platform":"ZX Spectrum","body":"Quicksilva's isometric survival game belongs to late-1983 Spectrum history and is often remembered as a 3D landmark.","signal":"Isometric UK landmark","certainty":"1983 release; exact month uncertain","sourceNote":"Included as late-1983 context, not a firm October claim."},
-      {"date":"October 1983","title":"Manic Miner","platform":"ZX Spectrum","body":"Still central to the Spectrum's autumn identity.","signal":"Platform myth","certainty":"ongoing context","sourceNote":"1983 release."},
-      {"date":"October 1983","title":"Lode Runner","platform":"Home computers","body":"Its level editor and puzzle structure kept it alive beyond launch month.","signal":"Designable play","certainty":"ongoing context","sourceNote":"June 1983 release."},
-      {"date":"October 1983","title":"Ultima III: Exodus","platform":"Home computers","body":"A serious computer RPG still inviting maps, parties and long evenings.","signal":"RPG depth","certainty":"ongoing context","sourceNote":"August 1983 release."},
-      {"date":"October 1983","title":"Famicom launch library","platform":"Famicom","body":"Nintendo's early Japanese console catalogue was still small but important.","signal":"New console ecosystem","certainty":"post-launch context","sourceNote":"Famicom launched July 1983."},
-      {"date":"October 1983","title":"Star Wars","platform":"Arcade","body":"Still a high-prestige cabinet and a reminder that Atari's arcade craft survived Atari's market problems.","signal":"Vector prestige","certainty":"ongoing context","sourceNote":"May 1983 release."},
-      {"date":"October 1983","title":"Acorn Electron software promise","platform":"Acorn Electron","body":"The new machine's software identity was still forming as buyers looked toward Christmas.","signal":"New UK micro shelf","certainty":"contextual","sourceNote":"Electron launched August 1983; supply and software context."}
-    ]},
-    {"id":"hardware","eyebrow":"Gallery 03","title":"Hardware","subtitle":"October's hardware case is about fatigue and new hope.","items":[
-      {"title":"TI-99/4A","body":"A home computer with real technical interest, damaged by a price war it could not sustain.","specs":["Late-1983 withdrawal","Cartridge software","Speech ecosystem"],"certainty":"verified broad context","sourceNote":"TI timelines."},
-      {"title":"Acorn Electron","body":"A promising UK home micro whose demand and supply did not align cleanly before Christmas.","specs":["BBC BASIC family","Cassette software","August launch"],"certainty":"contextual","sourceNote":"Acorn Electron histories."},
-      {"title":"Konami Track & Field cabinet","body":"A cabinet that made control wear and physical effort part of the game culture.","specs":["Multiple events","Rapid buttons","Competitive play"],"certainty":"verified release context","sourceNote":"Track & Field release sources."},
-      {"title":"ZX Spectrum 48K","body":"The Spectrum remained the affordable UK games machine around which magazines and schoolyard talk orbited.","specs":["48K games","Cassette loading","Budget software"],"certainty":"contextual","sourceNote":"UK Spectrum context."}
-    ]},
-    {"id":"magazines","eyebrow":"Gallery 04","title":"Magazine Covers","subtitle":"October magazines were partly buying guides and partly survival manuals.","items":[
-      {"title":"Electron User","month":"October 1983","publicationName":"Electron User","issueDate":"October 1983","headline":"A new Acorn machine gets its own shelf voice","coverImage":"/magazine-covers/1983/your-computer-1983.svg","coverImageAlt":"Reconstructed Electron User style cover for October 1983.","curatorNote":"The Electron's own magazine presence shows how quickly UK micros became communities.","body":"The Electron's own magazine presence shows how quickly UK micros became communities.","certainty":"verified issue-launch context","sourceNote":"Electron User issue history lists October 1983 start."},
-      {"title":"Computer and Video Games","month":"October 1983","publicationName":"Computer and Video Games","issueDate":"October 1983","headline":"Autumn arcade sport and micro choices","coverImage":"/magazine-covers/1983/cvg-1983.svg","coverImageAlt":"Reconstructed C&VG cover for October 1983.","curatorNote":"Track & Field-style arcade energy sat beside the practical question of which micro to buy.","body":"Track & Field-style arcade energy sat beside the practical question of which micro to buy.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Your Computer","month":"October 1983","publicationName":"Your Computer","issueDate":"October 1983","headline":"The autumn home-computer shelf","coverImage":"/magazine-covers/1983/your-computer-1983.svg","coverImageAlt":"Reconstructed Your Computer cover for October 1983.","curatorNote":"A serious computer magazine could legitimise a games purchase as household technology.","body":"A serious computer magazine could legitimise a games purchase as household technology.","certainty":"contextual reconstruction","sourceNote":"Your Computer 1983 archive."},
-      {"title":"ZX Computing","month":"October 1983","publicationName":"ZX Computing","issueDate":"Autumn 1983","headline":"Spectrum games before Christmas","coverImage":"/magazine-covers/1983/zx-computing-1983.svg","coverImageAlt":"Reconstructed ZX Computing cover for October 1983.","curatorNote":"Spectrum owners were no longer waiting for a scene. They were inside one.","body":"Spectrum owners were no longer waiting for a scene. They were inside one.","certainty":"archive-supported context","sourceNote":"World of Spectrum archive."}
-    ]},
-    {"id":"online","eyebrow":"Gallery 05","title":"Online Life","subtitle":"October's network was seasonal and practical.","items":[{"title":"Buying guides became important","body":"Families needed help choosing between too many machines."},{"title":"Arcade techniques spread by imitation","body":"Track & Field had a physical lore of tapping methods and sore fingers."},{"title":"Machine communities formed quickly","body":"A new micro could gain a magazine, listings and identity almost at once."},{"title":"Crash knowledge mixed with bargains","body":"Bad business news could still mean cheap games on a shelf."}]},
-    {"id":"felt","eyebrow":"Gallery 06","title":"What It Felt Like","subtitle":"October felt like choosing carefully under bright shop lights.","items":[{"title":"The arcade became athletic","body":"Track & Field made competition noisy and physical."},{"title":"Some machines were already cautionary tales","body":"TI showed how quickly a home-computer promise could turn."},{"title":"The Electron felt hopeful and awkward","body":"A desirable British machine, but not always easy to actually get."},{"title":"The Spectrum felt established","body":"Its games culture had become ordinary in the best sense."}]}
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "October is sport, retreat and seasonal pressure.",
+      "items": [
+        {
+          "date": "October 1983",
+          "title": "Track & Field reaches arcades",
+          "body": "Konami's button-battering sports cabinet turned physical performance into public play and helped define a new competitive arcade rhythm.",
+          "artifact": "Twin-button control panel",
+          "certainty": "verified month in release summaries",
+          "sourceNote": "Track & Field references list October 1983."
+        },
+        {
+          "date": "October 1983",
+          "title": "Texas Instruments moves toward withdrawal",
+          "body": "After brutal price competition, TI's home-computer story was nearing its end, with production and market exit reported in the autumn.",
+          "artifact": "Exit memo",
+          "certainty": "verified broad context",
+          "sourceNote": "TI-99/4A histories place withdrawal/discontinuation decisions in late 1983."
+        },
+        {
+          "date": "October 1983",
+          "title": "Electron User begins publication",
+          "body": "The new Acorn Electron had enough gravity to support its own UK magazine, even as supply problems shadowed the machine.",
+          "artifact": "First issue marker",
+          "certainty": "verified month by magazine archive summaries",
+          "sourceNote": "Electron User references list first issue in October 1983."
+        },
+        {
+          "date": "October 1983",
+          "title": "Christmas computer buying begins early",
+          "body": "Families weighing Spectrum, C64, BBC, Electron and Dragon were now reading specifications as holiday decisions.",
+          "artifact": "Gift guide page",
+          "certainty": "contextual",
+          "sourceNote": "UK seasonal hardware context."
+        },
+        {
+          "date": "October 1983",
+          "title": "Console crash coverage becomes part of the backdrop",
+          "body": "By October, the North American crash was a business reality, not just a warning sign, but games culture kept moving through computers and arcades.",
+          "artifact": "Market graph",
+          "certainty": "contextual",
+          "sourceNote": "Crash histories and autumn 1983 market context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight October-window and late-1983 objects.",
+      "items": [
+        {
+          "date": "October 1983",
+          "title": "Track & Field",
+          "platform": "Arcade",
+          "body": "A competitive sports cabinet built around timed events and frantic inputs.",
+          "signal": "Button-bashing sport",
+          "certainty": "verified month",
+          "sourceNote": "Track & Field references."
+        },
+        {
+          "date": "October 1983",
+          "title": "Ant Attack",
+          "platform": "ZX Spectrum",
+          "body": "Quicksilva's isometric survival game belongs to late-1983 Spectrum history and is often remembered as a 3D landmark.",
+          "signal": "Isometric UK landmark",
+          "certainty": "1983 release; exact month uncertain",
+          "sourceNote": "Included as late-1983 context, not a firm October claim."
+        },
+        {
+          "date": "October 1983",
+          "title": "Manic Miner",
+          "platform": "ZX Spectrum",
+          "body": "Still central to the Spectrum's autumn identity.",
+          "signal": "Platform myth",
+          "certainty": "ongoing context",
+          "sourceNote": "1983 release."
+        },
+        {
+          "date": "October 1983",
+          "title": "Lode Runner",
+          "platform": "Home computers",
+          "body": "Its level editor and puzzle structure kept it alive beyond launch month.",
+          "signal": "Designable play",
+          "certainty": "ongoing context",
+          "sourceNote": "June 1983 release."
+        },
+        {
+          "date": "October 1983",
+          "title": "Ultima III: Exodus",
+          "platform": "Home computers",
+          "body": "A serious computer RPG still inviting maps, parties and long evenings.",
+          "signal": "RPG depth",
+          "certainty": "ongoing context",
+          "sourceNote": "August 1983 release."
+        },
+        {
+          "date": "October 1983",
+          "title": "Famicom launch library",
+          "platform": "Famicom",
+          "body": "Nintendo's early Japanese console catalogue was still small but important.",
+          "signal": "New console ecosystem",
+          "certainty": "post-launch context",
+          "sourceNote": "Famicom launched July 1983."
+        },
+        {
+          "date": "October 1983",
+          "title": "Star Wars",
+          "platform": "Arcade",
+          "body": "Still a high-prestige cabinet and a reminder that Atari's arcade craft survived Atari's market problems.",
+          "signal": "Vector prestige",
+          "certainty": "ongoing context",
+          "sourceNote": "May 1983 release."
+        },
+        {
+          "date": "October 1983",
+          "title": "Acorn Electron software promise",
+          "platform": "Acorn Electron",
+          "body": "The new machine's software identity was still forming as buyers looked toward Christmas.",
+          "signal": "New UK micro shelf",
+          "certainty": "contextual",
+          "sourceNote": "Electron launched August 1983; supply and software context."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "October's hardware case is about fatigue and new hope.",
+      "items": [
+        {
+          "title": "TI-99/4A",
+          "body": "A home computer with real technical interest, damaged by a price war it could not sustain.",
+          "specs": [
+            "Late-1983 withdrawal",
+            "Cartridge software",
+            "Speech ecosystem"
+          ],
+          "certainty": "verified broad context",
+          "sourceNote": "TI timelines."
+        },
+        {
+          "title": "Acorn Electron",
+          "body": "A promising UK home micro whose demand and supply did not align cleanly before Christmas.",
+          "specs": [
+            "BBC BASIC family",
+            "Cassette software",
+            "August launch"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Acorn Electron histories."
+        },
+        {
+          "title": "Konami Track & Field cabinet",
+          "body": "A cabinet that made control wear and physical effort part of the game culture.",
+          "specs": [
+            "Multiple events",
+            "Rapid buttons",
+            "Competitive play"
+          ],
+          "certainty": "verified release context",
+          "sourceNote": "Track & Field release sources."
+        },
+        {
+          "title": "ZX Spectrum 48K",
+          "body": "The Spectrum remained the affordable UK games machine around which magazines and schoolyard talk orbited.",
+          "specs": [
+            "48K games",
+            "Cassette loading",
+            "Budget software"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "UK Spectrum context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "October magazines were partly buying guides and partly survival manuals.",
+      "items": [
+        {
+          "title": "Electron User",
+          "month": "October 1983",
+          "publicationName": "Electron User",
+          "issueDate": "October 1983",
+          "headline": "A new Acorn machine gets its own shelf voice",
+          "coverImage": "/magazine-covers/1983/your-computer-1983.svg",
+          "coverImageAlt": "Reconstructed Electron User style cover for October 1983.",
+          "curatorNote": "The Electron's own magazine presence shows how quickly UK micros became communities.",
+          "body": "The Electron's own magazine presence shows how quickly UK micros became communities.",
+          "certainty": "verified issue-launch context",
+          "sourceNote": "Electron User issue history lists October 1983 start."
+        },
+        {
+          "title": "Computer and Video Games",
+          "month": "October 1983",
+          "publicationName": "Computer and Video Games",
+          "issueDate": "October 1983",
+          "headline": "Autumn arcade sport and micro choices",
+          "coverImage": "/magazine-covers/1983/cvg-1983.svg",
+          "coverImageAlt": "Reconstructed C&VG cover for October 1983.",
+          "curatorNote": "Track & Field-style arcade energy sat beside the practical question of which micro to buy.",
+          "body": "Track & Field-style arcade energy sat beside the practical question of which micro to buy.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Your Computer",
+          "month": "October 1983",
+          "publicationName": "Your Computer",
+          "issueDate": "October 1983",
+          "headline": "The autumn home-computer shelf",
+          "coverImage": "/magazine-covers/1983/your-computer-1983.svg",
+          "coverImageAlt": "Reconstructed Your Computer cover for October 1983.",
+          "curatorNote": "A serious computer magazine could legitimise a games purchase as household technology.",
+          "body": "A serious computer magazine could legitimise a games purchase as household technology.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Your Computer 1983 archive."
+        },
+        {
+          "title": "ZX Computing",
+          "month": "October 1983",
+          "publicationName": "ZX Computing",
+          "issueDate": "Autumn 1983",
+          "headline": "Spectrum games before Christmas",
+          "coverImage": "/magazine-covers/1983/zx-computing-1983.svg",
+          "coverImageAlt": "Reconstructed ZX Computing cover for October 1983.",
+          "curatorNote": "Spectrum owners were no longer waiting for a scene. They were inside one.",
+          "body": "Spectrum owners were no longer waiting for a scene. They were inside one.",
+          "certainty": "archive-supported context",
+          "sourceNote": "World of Spectrum archive."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "October's network was seasonal and practical.",
+      "items": [
+        {
+          "title": "Buying guides became important",
+          "body": "Families needed help choosing between too many machines."
+        },
+        {
+          "title": "Arcade techniques spread by imitation",
+          "body": "Track & Field had a physical lore of tapping methods and sore fingers."
+        },
+        {
+          "title": "Machine communities formed quickly",
+          "body": "A new micro could gain a magazine, listings and identity almost at once."
+        },
+        {
+          "title": "Crash knowledge mixed with bargains",
+          "body": "Bad business news could still mean cheap games on a shelf."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "October felt like choosing carefully under bright shop lights.",
+      "items": [
+        {
+          "title": "The arcade became athletic",
+          "body": "Track & Field made competition noisy and physical."
+        },
+        {
+          "title": "Some machines were already cautionary tales",
+          "body": "TI showed how quickly a home-computer promise could turn."
+        },
+        {
+          "title": "The Electron felt hopeful and awkward",
+          "body": "A desirable British machine, but not always easy to actually get."
+        },
+        {
+          "title": "The Spectrum felt established",
+          "body": "Its games culture had become ordinary in the best sense."
+        }
+      ]
+    }
   ],
   "sources": [
-    {"label":"Track & Field context","url":"https://en.wikipedia.org/wiki/Track_%26_Field_(video_game)","note":"Used for October 1983 arcade release context."},
-    {"label":"TI-99/4A 1983 timeline","url":"https://www.ti99ers.org/timeline/time1983.htm","note":"Used for late-1983 withdrawal context."},
-    {"label":"Electron User context","url":"https://en.wikipedia.org/wiki/Electron_User","note":"Used for October 1983 first issue context."},
-    {"label":"Ant Attack context","url":"https://en.wikipedia.org/wiki/Ant_Attack","note":"Used for 1983 Spectrum release context; exact month marked uncertain."}
+    {
+      "label": "Track & Field context",
+      "url": "https://en.wikipedia.org/wiki/Track_%26_Field_(video_game)",
+      "note": "Used for October 1983 arcade release context."
+    },
+    {
+      "label": "TI-99/4A 1983 timeline",
+      "url": "https://www.ti99ers.org/timeline/time1983.htm",
+      "note": "Used for late-1983 withdrawal context."
+    },
+    {
+      "label": "Electron User context",
+      "url": "https://en.wikipedia.org/wiki/Electron_User",
+      "note": "Used for October 1983 first issue context."
+    },
+    {
+      "label": "Ant Attack context",
+      "url": "https://en.wikipedia.org/wiki/Ant_Attack",
+      "note": "Used for 1983 Spectrum release context; exact month marked uncertain."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

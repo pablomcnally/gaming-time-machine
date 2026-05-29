@@ -5,7 +5,12 @@
     "accession": "GTM-1997-04",
     "dek": "A month of settling in: the European N64 is no longer theoretical, PlayStation keeps the shelf broad, and Japan introduces force feedback with Star Fox 64.",
     "curatorNote": "April is anchored by the Rumble Pak/Star Fox 64 Japanese moment and by UK post-launch N64 ownership rather than a crowded set of British release dates.",
-    "statusChips": ["rumble begins", "post-launch N64", "PlayStation breadth", "import pages"]
+    "statusChips": [
+      "rumble begins",
+      "post-launch N64",
+      "PlayStation breadth",
+      "import pages"
+    ]
   },
   "sections": [
     {
@@ -84,14 +89,22 @@
         {
           "title": "Rumble Pak",
           "body": "Force feedback made the controller feel less like a window and more like a small machine reacting in the hands.",
-          "specs": ["N64 controller slot", "AAA batteries", "Japan launch context"],
+          "specs": [
+            "N64 controller slot",
+            "AAA batteries",
+            "Japan launch context"
+          ],
           "certainty": "verified context",
           "sourceNote": "April 1997 Japanese launch context from Guinness World Records."
         },
         {
           "title": "PlayStation memory cards",
           "body": "While Nintendo sold cartridge permanence, PlayStation owners learned to manage save blocks like a small filing cabinet.",
-          "specs": ["15 blocks", "Portable saves", "Delete-to-make-room ritual"],
+          "specs": [
+            "15 blocks",
+            "Portable saves",
+            "Delete-to-make-room ritual"
+          ],
           "certainty": "contextual",
           "sourceNote": "Included as platform context."
         }
@@ -175,5 +188,10 @@
       "url": "https://www.computinghistory.org.uk/det/71742/Nintendo-releases-the-Nintendo-64/",
       "note": "Used for post-launch UK context."
     }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

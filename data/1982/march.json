@@ -1,42 +1,332 @@
 {
-  "museum": {"name":"Gaming Time Machine","period":"March 1982","accession":"GTM-1982-03","dek":"Atari's Pac-Man reaches the 2600, Robotron debuts at the operators' show, and the gap between arcade dream and home cartridge reality becomes visible.","curatorNote":"March 1982 is anchored by Atari 2600 Pac-Man and Robotron's March AOE debut. Exact retail availability can vary by source, so dates are presented carefully.","statusChips":["Pac-Man 2600","Robotron debuts","arcade-to-home tension","UK micro waiting"]},
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "March 1982",
+    "accession": "GTM-1982-03",
+    "dek": "Atari's Pac-Man reaches the 2600, Robotron debuts at the operators' show, and the gap between arcade dream and home cartridge reality becomes visible.",
+    "curatorNote": "March 1982 is anchored by Atari 2600 Pac-Man and Robotron's March AOE debut. Exact retail availability can vary by source, so dates are presented carefully.",
+    "statusChips": [
+      "Pac-Man 2600",
+      "Robotron debuts",
+      "arcade-to-home tension",
+      "UK micro waiting"
+    ]
+  },
   "sections": [
-    {"id":"news","eyebrow":"Gallery 01","title":"News","subtitle":"March tests the home arcade promise.","items":[
-      {"date":"March 1982","title":"Pac-Man reaches Atari 2600 shelves","body":"Atari's home Pac-Man arrived amid huge expectation. It sold enormously, but also exposed the limits of translating an arcade phenomenon to a tiny cartridge.","artifact":"Yellow cartridge box","certainty":"verified month","sourceNote":"MobyGames lists March 16, 1982; other sources cite March 1982 with April 3 Pac-Man Day promotion."},
-      {"date":"March 1982","title":"Robotron: 2084 debuts at AOE","body":"Williams showed Robotron at the Amusement Operators Expo, presenting a brutally fast twin-stick vision of arcade intensity.","artifact":"Twin-stick control panel","certainty":"verified show month","sourceNote":"Robotron references state Williams debuted the game at the Amusement Operators Expo in March 1982."},
-      {"date":"March 1982","title":"Pac-Man Day approaches","body":"Atari's promotional push around home Pac-Man treated a cartridge like a public event, culminating in April's National Pac-Man Day.","artifact":"Promotion flyer","certainty":"verified promotion context","sourceNote":"AtariProtos and Pac-Man references describe April 3, 1982 Pac-Man Day after March retail availability."},
-      {"date":"March 1982","title":"UK Spectrum anticipation enters final stretch","body":"The ZX Spectrum would launch in April, but March magazines and adverts already made the cheap colour micro feel imminent.","artifact":"Sinclair advert clipping","certainty":"contextual","sourceNote":"ZX Spectrum launch followed on 23 April 1982."},
-      {"date":"March 1982","title":"Arcade controls get more specialised","body":"Robotron's dual-stick layout underlined how arcade cabinets could be custom machines, not just screens with joysticks.","artifact":"Control diagram","certainty":"contextual","sourceNote":"Robotron control scheme and March debut context."}
-    ]},
-    {"id":"releases","eyebrow":"Gallery 02","title":"Releases","subtitle":"Eight March-window items, with arcade and home-console tension at the centre.","items":[
-      {"date":"March 1982","title":"Pac-Man","platform":"Atari 2600","body":"The year's most infamous home arcade translation begins its commercial life.","signal":"Home arcade stress test","certainty":"verified month","sourceNote":"MobyGames/GameFAQs list March 1982; April 3 was promotional Pac-Man Day."},
-      {"date":"March 1982","title":"Robotron: 2084","platform":"Arcade","body":"Shown in March; a twin-stick arcade object built around panic and control separation.","signal":"Twin-stick intensity","certainty":"show debut verified","sourceNote":"AOE debut in March; wider release timing described as 1982."},
-      {"date":"March 1982","title":"Dig Dug","platform":"Arcade","body":"Fresh from February Japan, soon spreading internationally in April.","signal":"Underground character action","certainty":"contextual","sourceNote":"Japan February; North America/Europe April."},
-      {"date":"March 1982","title":"Ms. Pac-Man","platform":"Arcade","body":"Already becoming the arcade sequel that felt like a full personality rather than a quick variant.","signal":"Maze-game staying power","certainty":"contextual","sourceNote":"Early-1982 rollout ambiguity."},
-      {"date":"March 1982","title":"Zaxxon","platform":"Arcade","body":"Its visual trick remained one of early 1982's strongest cabinet memories.","signal":"Isometric flight","certainty":"post-release context","sourceNote":"January Japan listing."},
-      {"date":"March 1982","title":"BBC Micro games and listings","platform":"BBC Micro","body":"The BBC Micro's serious reputation did not prevent it from becoming a games machine in practice.","signal":"Education machine play","certainty":"contextual","sourceNote":"BBC Micro launched late 1981."},
-      {"date":"March 1982","title":"ZX81 cassette software","platform":"ZX81","body":"Before the Spectrum, low-cost Sinclair software already trained UK players in tape patience.","signal":"Cassette discipline","certainty":"contextual","sourceNote":"UK micro context."},
-      {"date":"March 1982","title":"Arcade conversions in magazines","platform":"Home systems","body":"The phrase arcade conversion carried both hope and danger in a month defined by Pac-Man.","signal":"Expectation gap","certainty":"contextual","sourceNote":"Pac-Man 2600 context."}
-    ]},
-    {"id":"hardware","eyebrow":"Gallery 03","title":"Hardware","subtitle":"March is where hardware limitations become visible.","items":[
-      {"title":"Atari 2600 memory limits","body":"Pac-Man made millions of players think about the difference between the arcade board and the home cartridge, even if they did not name the chips.","specs":["4 KB cartridge reputation","Flicker","Simplified maze"],"certainty":"contextual","sourceNote":"Pac-Man 2600 technical/reception context."},
-      {"title":"Robotron control panel","body":"Two joysticks made the cabinet feel like a machine built for one idea only.","specs":["Move stick","Fire stick","Dedicated cabinet play"],"certainty":"verified context","sourceNote":"Robotron control scheme."},
-      {"title":"UK television as monitor","body":"Home micros and consoles made the family TV part of gaming hardware.","specs":["RF connection","Shared living-room screen","Tuning ritual"],"certainty":"contextual","sourceNote":"UK home context."},
-      {"title":"Cassette deck dependence","body":"For computer games, the tape recorder was becoming as important as the keyboard.","specs":["Load tones","Volume settings","Rewind habit"],"certainty":"contextual","sourceNote":"UK micro software context."}
-    ]},
-    {"id":"magazines","eyebrow":"Gallery 04","title":"Magazine Covers","subtitle":"The March shelf explained the difference between cabinet and cartridge.","items":[
-      {"title":"Pac-Man at home","month":"March 1982","publicationName":"US and UK games press","issueDate":"March 1982","headline":"Arcade hit becomes home cartridge","coverImage":"/magazine-covers/1982/electronic-games-october.svg","coverImageAlt":"Reconstructed games magazine cover for March 1982.","curatorNote":"Pac-Man made the home conversion a mainstream magazine question.","body":"Pac-Man made the home conversion a mainstream magazine question.","certainty":"contextual reconstruction","sourceNote":"Specific March cover line not asserted."},
-      {"title":"C&VG arcade/home comparison","month":"March 1982","publicationName":"Computer and Video Games","issueDate":"March 1982","headline":"Coin-op glamour, home compromises","coverImage":"/magazine-covers/1982/cvg-october.svg","coverImageAlt":"Reconstructed C&VG cover for March 1982.","curatorNote":"The UK press had to serve arcade watchers and home-computer owners at the same time.","body":"The UK press had to serve arcade watchers and home-computer owners at the same time.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Microcomputer listings","month":"March 1982","publicationName":"Personal Computer World","issueDate":"March 1982","headline":"Keyboard machines as game platforms","coverImage":"/magazine-covers/1982/personal-computer-world-october.svg","coverImageAlt":"Reconstructed PCW cover for March 1982.","curatorNote":"Serious computing magazines were accidentally building the games audience too.","body":"Serious computing magazines were accidentally building the games audience too.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Weekly micro adverts","month":"March 1982","publicationName":"Popular Computing Weekly","issueDate":"March 1982","headline":"The near-live micro feed","coverImage":"/magazine-covers/1982/popular-computing-weekly-october.svg","coverImageAlt":"Reconstructed Popular Computing Weekly cover for March 1982.","curatorNote":"Weekly pages made machines feel like an unfolding market rather than fixed products.","body":"Weekly pages made machines feel like an unfolding market rather than fixed products.","certainty":"contextual reconstruction","sourceNote":"Specific issue line not asserted."}
-    ]},
-    {"id":"online","eyebrow":"Gallery 05","title":"Online Life","subtitle":"The network was still social and printed.","items":[{"title":"Cabinet watching was discovery","body":"Players learned Robotron by watching hands as much as screens."},{"title":"Magazine criticism mattered","body":"A printed review could make sense of why home Pac-Man felt wrong."},{"title":"Typed listings were shared labour","body":"A game could arrive as text and become software only through effort."},{"title":"BBS culture was niche","body":"Networked computing existed, but everyday game discovery was still mostly offline."}]},
-    {"id":"felt","eyebrow":"Gallery 06","title":"What It Felt Like","subtitle":"March is the month the arcade dream hit the living-room wall.","items":[{"title":"The box could disappoint","body":"Pac-Man proved that owning the name was not the same as owning the arcade."},{"title":"Control mattered","body":"Robotron showed that the feel of a cabinet could be inseparable from its hardware."},{"title":"The TV became contested space","body":"Games needed the family screen, which meant negotiation."},{"title":"The Spectrum was almost here","body":"UK players could feel the price of entry about to change."}]}
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "March tests the home arcade promise.",
+      "items": [
+        {
+          "date": "March 1982",
+          "title": "Pac-Man reaches Atari 2600 shelves",
+          "body": "Atari's home Pac-Man arrived amid huge expectation. It sold enormously, but also exposed the limits of translating an arcade phenomenon to a tiny cartridge.",
+          "artifact": "Yellow cartridge box",
+          "certainty": "verified month",
+          "sourceNote": "MobyGames lists March 16, 1982; other sources cite March 1982 with April 3 Pac-Man Day promotion."
+        },
+        {
+          "date": "March 1982",
+          "title": "Robotron: 2084 debuts at AOE",
+          "body": "Williams showed Robotron at the Amusement Operators Expo, presenting a brutally fast twin-stick vision of arcade intensity.",
+          "artifact": "Twin-stick control panel",
+          "certainty": "verified show month",
+          "sourceNote": "Robotron references state Williams debuted the game at the Amusement Operators Expo in March 1982."
+        },
+        {
+          "date": "March 1982",
+          "title": "Pac-Man Day approaches",
+          "body": "Atari's promotional push around home Pac-Man treated a cartridge like a public event, culminating in April's National Pac-Man Day.",
+          "artifact": "Promotion flyer",
+          "certainty": "verified promotion context",
+          "sourceNote": "AtariProtos and Pac-Man references describe April 3, 1982 Pac-Man Day after March retail availability."
+        },
+        {
+          "date": "March 1982",
+          "title": "UK Spectrum anticipation enters final stretch",
+          "body": "The ZX Spectrum would launch in April, but March magazines and adverts already made the cheap colour micro feel imminent.",
+          "artifact": "Sinclair advert clipping",
+          "certainty": "contextual",
+          "sourceNote": "ZX Spectrum launch followed on 23 April 1982."
+        },
+        {
+          "date": "March 1982",
+          "title": "Arcade controls get more specialised",
+          "body": "Robotron's dual-stick layout underlined how arcade cabinets could be custom machines, not just screens with joysticks.",
+          "artifact": "Control diagram",
+          "certainty": "contextual",
+          "sourceNote": "Robotron control scheme and March debut context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight March-window items, with arcade and home-console tension at the centre.",
+      "items": [
+        {
+          "date": "March 1982",
+          "title": "Pac-Man",
+          "platform": "Atari 2600",
+          "body": "The year's most infamous home arcade translation begins its commercial life.",
+          "signal": "Home arcade stress test",
+          "certainty": "verified month",
+          "sourceNote": "MobyGames/GameFAQs list March 1982; April 3 was promotional Pac-Man Day."
+        },
+        {
+          "date": "March 1982",
+          "title": "Robotron: 2084",
+          "platform": "Arcade",
+          "body": "Shown in March; a twin-stick arcade object built around panic and control separation.",
+          "signal": "Twin-stick intensity",
+          "certainty": "show debut verified",
+          "sourceNote": "AOE debut in March; wider release timing described as 1982."
+        },
+        {
+          "date": "March 1982",
+          "title": "Dig Dug",
+          "platform": "Arcade",
+          "body": "Fresh from February Japan, soon spreading internationally in April.",
+          "signal": "Underground character action",
+          "certainty": "contextual",
+          "sourceNote": "Japan February; North America/Europe April."
+        },
+        {
+          "date": "March 1982",
+          "title": "Ms. Pac-Man",
+          "platform": "Arcade",
+          "body": "Already becoming the arcade sequel that felt like a full personality rather than a quick variant.",
+          "signal": "Maze-game staying power",
+          "certainty": "contextual",
+          "sourceNote": "Early-1982 rollout ambiguity."
+        },
+        {
+          "date": "March 1982",
+          "title": "Zaxxon",
+          "platform": "Arcade",
+          "body": "Its visual trick remained one of early 1982's strongest cabinet memories.",
+          "signal": "Isometric flight",
+          "certainty": "post-release context",
+          "sourceNote": "January Japan listing."
+        },
+        {
+          "date": "March 1982",
+          "title": "BBC Micro games and listings",
+          "platform": "BBC Micro",
+          "body": "The BBC Micro's serious reputation did not prevent it from becoming a games machine in practice.",
+          "signal": "Education machine play",
+          "certainty": "contextual",
+          "sourceNote": "BBC Micro launched late 1981."
+        },
+        {
+          "date": "March 1982",
+          "title": "ZX81 cassette software",
+          "platform": "ZX81",
+          "body": "Before the Spectrum, low-cost Sinclair software already trained UK players in tape patience.",
+          "signal": "Cassette discipline",
+          "certainty": "contextual",
+          "sourceNote": "UK micro context."
+        },
+        {
+          "date": "March 1982",
+          "title": "Arcade conversions in magazines",
+          "platform": "Home systems",
+          "body": "The phrase arcade conversion carried both hope and danger in a month defined by Pac-Man.",
+          "signal": "Expectation gap",
+          "certainty": "contextual",
+          "sourceNote": "Pac-Man 2600 context."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "March is where hardware limitations become visible.",
+      "items": [
+        {
+          "title": "Atari 2600 memory limits",
+          "body": "Pac-Man made millions of players think about the difference between the arcade board and the home cartridge, even if they did not name the chips.",
+          "specs": [
+            "4 KB cartridge reputation",
+            "Flicker",
+            "Simplified maze"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Pac-Man 2600 technical/reception context."
+        },
+        {
+          "title": "Robotron control panel",
+          "body": "Two joysticks made the cabinet feel like a machine built for one idea only.",
+          "specs": [
+            "Move stick",
+            "Fire stick",
+            "Dedicated cabinet play"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "Robotron control scheme."
+        },
+        {
+          "title": "UK television as monitor",
+          "body": "Home micros and consoles made the family TV part of gaming hardware.",
+          "specs": [
+            "RF connection",
+            "Shared living-room screen",
+            "Tuning ritual"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "UK home context."
+        },
+        {
+          "title": "Cassette deck dependence",
+          "body": "For computer games, the tape recorder was becoming as important as the keyboard.",
+          "specs": [
+            "Load tones",
+            "Volume settings",
+            "Rewind habit"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "UK micro software context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "The March shelf explained the difference between cabinet and cartridge.",
+      "items": [
+        {
+          "title": "Pac-Man at home",
+          "month": "March 1982",
+          "publicationName": "US and UK games press",
+          "issueDate": "March 1982",
+          "headline": "Arcade hit becomes home cartridge",
+          "coverImage": "/magazine-covers/1982/electronic-games-october.svg",
+          "coverImageAlt": "Reconstructed games magazine cover for March 1982.",
+          "curatorNote": "Pac-Man made the home conversion a mainstream magazine question.",
+          "body": "Pac-Man made the home conversion a mainstream magazine question.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific March cover line not asserted."
+        },
+        {
+          "title": "C&VG arcade/home comparison",
+          "month": "March 1982",
+          "publicationName": "Computer and Video Games",
+          "issueDate": "March 1982",
+          "headline": "Coin-op glamour, home compromises",
+          "coverImage": "/magazine-covers/1982/cvg-october.svg",
+          "coverImageAlt": "Reconstructed C&VG cover for March 1982.",
+          "curatorNote": "The UK press had to serve arcade watchers and home-computer owners at the same time.",
+          "body": "The UK press had to serve arcade watchers and home-computer owners at the same time.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Microcomputer listings",
+          "month": "March 1982",
+          "publicationName": "Personal Computer World",
+          "issueDate": "March 1982",
+          "headline": "Keyboard machines as game platforms",
+          "coverImage": "/magazine-covers/1982/personal-computer-world-october.svg",
+          "coverImageAlt": "Reconstructed PCW cover for March 1982.",
+          "curatorNote": "Serious computing magazines were accidentally building the games audience too.",
+          "body": "Serious computing magazines were accidentally building the games audience too.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Weekly micro adverts",
+          "month": "March 1982",
+          "publicationName": "Popular Computing Weekly",
+          "issueDate": "March 1982",
+          "headline": "The near-live micro feed",
+          "coverImage": "/magazine-covers/1982/popular-computing-weekly-october.svg",
+          "coverImageAlt": "Reconstructed Popular Computing Weekly cover for March 1982.",
+          "curatorNote": "Weekly pages made machines feel like an unfolding market rather than fixed products.",
+          "body": "Weekly pages made machines feel like an unfolding market rather than fixed products.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific issue line not asserted."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "The network was still social and printed.",
+      "items": [
+        {
+          "title": "Cabinet watching was discovery",
+          "body": "Players learned Robotron by watching hands as much as screens."
+        },
+        {
+          "title": "Magazine criticism mattered",
+          "body": "A printed review could make sense of why home Pac-Man felt wrong."
+        },
+        {
+          "title": "Typed listings were shared labour",
+          "body": "A game could arrive as text and become software only through effort."
+        },
+        {
+          "title": "BBS culture was niche",
+          "body": "Networked computing existed, but everyday game discovery was still mostly offline."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "March is the month the arcade dream hit the living-room wall.",
+      "items": [
+        {
+          "title": "The box could disappoint",
+          "body": "Pac-Man proved that owning the name was not the same as owning the arcade."
+        },
+        {
+          "title": "Control mattered",
+          "body": "Robotron showed that the feel of a cabinet could be inseparable from its hardware."
+        },
+        {
+          "title": "The TV became contested space",
+          "body": "Games needed the family screen, which meant negotiation."
+        },
+        {
+          "title": "The Spectrum was almost here",
+          "body": "UK players could feel the price of entry about to change."
+        }
+      ]
+    }
   ],
   "sources": [
-    {"label":"Pac-Man Atari 2600 release context","url":"https://en.wikipedia.org/wiki/Pac-Man_(Atari_2600_video_game)","note":"Used for March 1982 release and April 3 promotion context."},
-    {"label":"Pac-Man Atari 2600 MobyGames release","url":"https://www.mobygames.com/game/138/pac-man/releases/atari-2600/","note":"Used for March 16, 1982 listing while keeping month-level phrasing."},
-    {"label":"Robotron 2084 context","url":"https://en.wikipedia.org/wiki/Robotron:_2084","note":"Used for March 1982 AOE debut and control context."},
-    {"label":"ZX Spectrum launch","url":"https://www.computinghistory.org.uk/det/43781/Sinclair%20ZX%20Spectrum%20Launched","note":"Used for April 23 launch and March build-up."}
+    {
+      "label": "Pac-Man Atari 2600 release context",
+      "url": "https://en.wikipedia.org/wiki/Pac-Man_(Atari_2600_video_game)",
+      "note": "Used for March 1982 release and April 3 promotion context."
+    },
+    {
+      "label": "Pac-Man Atari 2600 MobyGames release",
+      "url": "https://www.mobygames.com/game/138/pac-man/releases/atari-2600/",
+      "note": "Used for March 16, 1982 listing while keeping month-level phrasing."
+    },
+    {
+      "label": "Robotron 2084 context",
+      "url": "https://en.wikipedia.org/wiki/Robotron:_2084",
+      "note": "Used for March 1982 AOE debut and control context."
+    },
+    {
+      "label": "ZX Spectrum launch",
+      "url": "https://www.computinghistory.org.uk/det/43781/Sinclair%20ZX%20Spectrum%20Launched",
+      "note": "Used for April 23 launch and March build-up."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

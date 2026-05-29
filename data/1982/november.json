@@ -1,44 +1,342 @@
 {
-  "museum": {"name":"Gaming Time Machine","period":"November 1982","accession":"GTM-1982-11","dek":"The Vectrex arrives with its own glowing vector screen, Atari's 5200 becomes a clearer retail presence, Pole Position reaches North America, and Q*bert moves from paperwork into public arcade mythology.","curatorNote":"November is full of overlapping launch language. Some sources simplify the Atari 5200 to November, while October records show limited earlier appearances. This exhibit keeps both ideas visible and treats trade-show availability separately from everyday retail.","statusChips":["Vectrex","Atari 5200","Pole Position","Q*bert"]},
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "November 1982",
+    "accession": "GTM-1982-11",
+    "dek": "The Vectrex arrives with its own glowing vector screen, Atari's 5200 becomes a clearer retail presence, Pole Position reaches North America, and Q*bert moves from paperwork into public arcade mythology.",
+    "curatorNote": "November is full of overlapping launch language. Some sources simplify the Atari 5200 to November, while October records show limited earlier appearances. This exhibit keeps both ideas visible and treats trade-show availability separately from everyday retail.",
+    "statusChips": [
+      "Vectrex",
+      "Atari 5200",
+      "Pole Position",
+      "Q*bert"
+    ]
+  },
   "sections": [
-    {"id":"news","eyebrow":"Gallery 01","title":"News","subtitle":"November looks like confidence: new machines, new cabinets, and shelves preparing for Christmas.","items":[
-      {"date":"November 1982","title":"Vectrex launches in North America","body":"General Consumer Electronics' self-contained vector console looked unlike anything else in a living room: a built-in monochrome CRT, overlays, and glowing lines instead of blocky pixels.","artifact":"Built-in vector monitor","certainty":"verified month","sourceNote":"Vectrex references list North American release in November 1982."},
-      {"date":"November 1982","title":"Atari 5200 becomes a wider launch story","body":"After limited October appearances, the 5200 is often remembered as a November 1982 launch, a premium American console moment mostly observed from Britain through magazines and imports.","artifact":"5200 controller display","certainty":"verified broad window; exact rollout complicated","sourceNote":"Atari 5200 references list October limited availability and November-December 1982 broader launch language."},
-      {"date":"18-20 November 1982","title":"Pole Position appears at AMOA in Chicago","body":"Namco's racer, licensed by Atari for North America, used trade-show visibility as part of its move from Japanese release to Western arcade dominance.","artifact":"Trade-show lap timer","certainty":"verified trade-show window","sourceNote":"Pole Position sources describe the November 18-20 AMOA show before mass North American release."},
-      {"date":"November 1982","title":"Q*bert's public arcade profile grows","body":"Although its copyright publication date sits in October, Q*bert's November AMOA presence helps explain why memories and release summaries often place it in this late-1982 arcade burst.","artifact":"Orange cabinet sketch","certainty":"public availability caveat","sourceNote":"Q*bert sources note October publication and November AMOA sales/reporting."},
-      {"date":"November 1982","title":"Christmas software pressure begins early","body":"Consoles, micros and arcade licences were all competing for seasonal attention. In the UK, that meant shop windows, magazine adverts and family arguments about whether a computer was educational enough.","artifact":"Christmas buying list","certainty":"contextual","sourceNote":"Seasonal market context, not tied to one event."}
-    ]},
-    {"id":"releases","eyebrow":"Gallery 02","title":"Releases","subtitle":"Eight November-window entries, with caution around region and availability.","items":[
-      {"date":"November 1982","title":"Vectrex","platform":"Home console","body":"A self-contained vector console with Mine Storm built in and colour overlays for many games.","signal":"Living-room vector display","certainty":"verified month","sourceNote":"Computing History and Vectrex references list November 1982."},
-      {"date":"November 1982","title":"Mine Storm","platform":"Vectrex","body":"The built-in Asteroids-like shooter that made the Vectrex playable as soon as it left the box.","signal":"Built-in showcase","certainty":"launch context","sourceNote":"Mine Storm shipped built into the Vectrex."},
-      {"date":"November 30, 1982","title":"Pole Position","platform":"Arcade, North America","body":"Atari's licensed North American arcade release follows the Japanese launch and AMOA showing.","signal":"Arcade racing landmark","certainty":"verified North American date","sourceNote":"Pole Position release references list November 30, 1982 for North America."},
-      {"date":"November 1982","title":"Atari 5200 launch library","platform":"Atari 5200","body":"Super Breakout, Star Raiders, Missile Command and Space Invaders formed the system's early identity: powerful, familiar, and still anchored to arcade memory.","signal":"Premium console launch window","certainty":"broad launch-window context","sourceNote":"Atari Archive lists 5200 launch-window titles."},
-      {"date":"November 1982","title":"Q*bert","platform":"Arcade","body":"A late-1982 operator-floor arrival with an October publication trail and a November public-showing story.","signal":"Character arcade oddity","certainty":"rollout complicated","sourceNote":"October copyright publication; November AMOA context."},
-      {"date":"November 1982","title":"Time Pilot","platform":"Arcade","body":"Konami's time-jumping shooter belongs to late-1982 arcade release records, though references differ on exact timing.","signal":"Circular dogfight shooter","certainty":"late-1982 timing; exact month uncertain","sourceNote":"Some release summaries list December; included as late-1982 arcade context."},
-      {"date":"November 1982","title":"Millipede","platform":"Arcade","body":"Atari's Centipede follow-up was part of the 1982 fixed-shooter lineage, with exact public availability harder to pin to a single month.","signal":"Shooter sequel","certainty":"1982 release; exact month uncertain","sourceNote":"Millipede references list 1982; November placement is contextual."},
-      {"date":"November 1982","title":"Spectrum cassette software","platform":"ZX Spectrum","body":"The British micro scene kept expanding through tapes, listings and small adverts as Christmas approached.","signal":"UK software shelf growth","certainty":"contextual","sourceNote":"No precise November title date asserted."}
-    ]},
-    {"id":"hardware","eyebrow":"Gallery 03","title":"Hardware","subtitle":"November's cabinet contains unusually distinctive machines.","items":[
-      {"title":"Vectrex","body":"The Vectrex did not ask for the family television. It arrived as its own screen, its own glow, and its own miniature arcade promise.","specs":["Built-in monochrome CRT","Vector graphics","Screen overlays"],"certainty":"verified month","sourceNote":"Vectrex release references."},
-      {"title":"Atari 5200 SuperSystem","body":"A premium American console with a powerful base and controversial analogue controller, entering the market as Atari tried to move beyond the 2600 without leaving it behind.","specs":["Analogue controller","Atari 8-bit lineage","Large casing"],"certainty":"verified launch window","sourceNote":"Atari 5200 launch context."},
-      {"title":"Pole Position cabinet","body":"The racing cabinet turned hardware into a performance: steering, pedal, cabinet art and queue all part of the artefact.","specs":["Wheel and pedal controls","Qualifying structure","Licensed US release through Atari"],"certainty":"verified late-1982 release context","sourceNote":"Pole Position sources."},
-      {"title":"UK home micro display","body":"For British readers, the glamorous US console war sat beside a more practical question: Spectrum, BBC, Dragon, VIC-20 or Commodore, and where would the cassette deck go?","specs":["Cassette software","TV display","Magazine-led discovery"],"certainty":"contextual","sourceNote":"UK microcomputer context."}
-    ]},
-    {"id":"magazines","eyebrow":"Gallery 04","title":"Magazine Covers","subtitle":"November magazines stood at the mouth of Christmas: preview, compare, persuade.","items":[
-      {"title":"Vectrex curiosity","month":"November 1982","publicationName":"Electronic Games","issueDate":"November 1982","headline":"A console with its own screen","coverImage":"/magazine-covers/1982/electronic-games-october.svg","coverImageAlt":"Reconstructed Electronic Games cover for November 1982.","curatorNote":"Vectrex was tailor-made for print fascination: a machine that looked strange even before it was switched on.","body":"Vectrex was tailor-made for print fascination: a machine that looked strange even before it was switched on.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"C&VG Christmas comparison","month":"November 1982","publicationName":"Computer and Video Games","issueDate":"November 1982","headline":"Arcades, consoles and micros before Christmas","coverImage":"/magazine-covers/1982/cvg-october.svg","coverImageAlt":"Reconstructed C&VG cover for November 1982.","curatorNote":"For UK players, C&VG helped translate overseas console news into local desire.","body":"For UK players, C&VG helped translate overseas console news into local desire.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Popular Computing Weekly","month":"November 1982","publicationName":"Popular Computing Weekly","issueDate":"November 1982","headline":"The weekly pulse before the buying season","coverImage":"/magazine-covers/1982/popular-computing-weekly-october.svg","coverImageAlt":"Reconstructed Popular Computing Weekly cover for November 1982.","curatorNote":"Weekly computing papers made the market feel faster than the machines themselves.","body":"Weekly computing papers made the market feel faster than the machines themselves.","certainty":"contextual reconstruction","sourceNote":"Specific issue line not asserted."},
-      {"title":"Personal Computer World","month":"November 1982","publicationName":"Personal Computer World","issueDate":"November 1982","headline":"The micro as household investment","coverImage":"/magazine-covers/1982/personal-computer-world-october.svg","coverImageAlt":"Reconstructed PCW cover for November 1982.","curatorNote":"The games buyer and the serious computer buyer were often the same family conversation in different voices.","body":"The games buyer and the serious computer buyer were often the same family conversation in different voices.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."}
-    ]},
-    {"id":"online","eyebrow":"Gallery 05","title":"Online Life","subtitle":"November's information system was seasonal and physical.","items":[{"title":"Christmas lists became databases","body":"Players collected prices, adverts and rumours into mental spreadsheets long before anyone called that browsing."},{"title":"Trade shows reached homes through print","body":"AMOA and American launch news became UK knowledge only after magazines and import gossip translated it."},{"title":"Comparison shopping was slow","body":"A new console might be known from a paragraph weeks before anyone nearby had touched one."},{"title":"Computer clubs filled gaps","body":"For micro owners, local clubs and school rooms could provide the demonstrations magazines could only describe."}]},
-    {"id":"felt","eyebrow":"Gallery 06","title":"What It Felt Like","subtitle":"November was the month of wanting machines you had not yet seen in person.","items":[{"title":"Vectrex felt impossible","body":"A console with its own vector screen sounded like a small arcade cabinet that had escaped into the house."},{"title":"Atari still looked enormous","body":"Even when the 5200 was distant from UK shelves, Atari's decisions felt like news from the centre of the industry."},{"title":"The arcade had not peaked emotionally","body":"Pole Position and Q*bert made cabinets feel like they still owned the future."},{"title":"Christmas sharpened every choice","body":"A cartridge, a micro, a cassette, a joystick: every object had to justify itself under family scrutiny."}]}
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "November looks like confidence: new machines, new cabinets, and shelves preparing for Christmas.",
+      "items": [
+        {
+          "date": "November 1982",
+          "title": "Vectrex launches in North America",
+          "body": "General Consumer Electronics' self-contained vector console looked unlike anything else in a living room: a built-in monochrome CRT, overlays, and glowing lines instead of blocky pixels.",
+          "artifact": "Built-in vector monitor",
+          "certainty": "verified month",
+          "sourceNote": "Vectrex references list North American release in November 1982."
+        },
+        {
+          "date": "November 1982",
+          "title": "Atari 5200 becomes a wider launch story",
+          "body": "After limited October appearances, the 5200 is often remembered as a November 1982 launch, a premium American console moment mostly observed from Britain through magazines and imports.",
+          "artifact": "5200 controller display",
+          "certainty": "verified broad window; exact rollout complicated",
+          "sourceNote": "Atari 5200 references list October limited availability and November-December 1982 broader launch language."
+        },
+        {
+          "date": "18-20 November 1982",
+          "title": "Pole Position appears at AMOA in Chicago",
+          "body": "Namco's racer, licensed by Atari for North America, used trade-show visibility as part of its move from Japanese release to Western arcade dominance.",
+          "artifact": "Trade-show lap timer",
+          "certainty": "verified trade-show window",
+          "sourceNote": "Pole Position sources describe the November 18-20 AMOA show before mass North American release."
+        },
+        {
+          "date": "November 1982",
+          "title": "Q*bert's public arcade profile grows",
+          "body": "Although its copyright publication date sits in October, Q*bert's November AMOA presence helps explain why memories and release summaries often place it in this late-1982 arcade burst.",
+          "artifact": "Orange cabinet sketch",
+          "certainty": "public availability caveat",
+          "sourceNote": "Q*bert sources note October publication and November AMOA sales/reporting."
+        },
+        {
+          "date": "November 1982",
+          "title": "Christmas software pressure begins early",
+          "body": "Consoles, micros and arcade licences were all competing for seasonal attention. In the UK, that meant shop windows, magazine adverts and family arguments about whether a computer was educational enough.",
+          "artifact": "Christmas buying list",
+          "certainty": "contextual",
+          "sourceNote": "Seasonal market context, not tied to one event."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight November-window entries, with caution around region and availability.",
+      "items": [
+        {
+          "date": "November 1982",
+          "title": "Vectrex",
+          "platform": "Home console",
+          "body": "A self-contained vector console with Mine Storm built in and colour overlays for many games.",
+          "signal": "Living-room vector display",
+          "certainty": "verified month",
+          "sourceNote": "Computing History and Vectrex references list November 1982."
+        },
+        {
+          "date": "November 1982",
+          "title": "Mine Storm",
+          "platform": "Vectrex",
+          "body": "The built-in Asteroids-like shooter that made the Vectrex playable as soon as it left the box.",
+          "signal": "Built-in showcase",
+          "certainty": "launch context",
+          "sourceNote": "Mine Storm shipped built into the Vectrex."
+        },
+        {
+          "date": "November 30, 1982",
+          "title": "Pole Position",
+          "platform": "Arcade, North America",
+          "body": "Atari's licensed North American arcade release follows the Japanese launch and AMOA showing.",
+          "signal": "Arcade racing landmark",
+          "certainty": "verified North American date",
+          "sourceNote": "Pole Position release references list November 30, 1982 for North America."
+        },
+        {
+          "date": "November 1982",
+          "title": "Atari 5200 launch library",
+          "platform": "Atari 5200",
+          "body": "Super Breakout, Star Raiders, Missile Command and Space Invaders formed the system's early identity: powerful, familiar, and still anchored to arcade memory.",
+          "signal": "Premium console launch window",
+          "certainty": "broad launch-window context",
+          "sourceNote": "Atari Archive lists 5200 launch-window titles."
+        },
+        {
+          "date": "November 1982",
+          "title": "Q*bert",
+          "platform": "Arcade",
+          "body": "A late-1982 operator-floor arrival with an October publication trail and a November public-showing story.",
+          "signal": "Character arcade oddity",
+          "certainty": "rollout complicated",
+          "sourceNote": "October copyright publication; November AMOA context."
+        },
+        {
+          "date": "November 1982",
+          "title": "Time Pilot",
+          "platform": "Arcade",
+          "body": "Konami's time-jumping shooter belongs to late-1982 arcade release records, though references differ on exact timing.",
+          "signal": "Circular dogfight shooter",
+          "certainty": "late-1982 timing; exact month uncertain",
+          "sourceNote": "Some release summaries list December; included as late-1982 arcade context."
+        },
+        {
+          "date": "November 1982",
+          "title": "Millipede",
+          "platform": "Arcade",
+          "body": "Atari's Centipede follow-up was part of the 1982 fixed-shooter lineage, with exact public availability harder to pin to a single month.",
+          "signal": "Shooter sequel",
+          "certainty": "1982 release; exact month uncertain",
+          "sourceNote": "Millipede references list 1982; November placement is contextual."
+        },
+        {
+          "date": "November 1982",
+          "title": "Spectrum cassette software",
+          "platform": "ZX Spectrum",
+          "body": "The British micro scene kept expanding through tapes, listings and small adverts as Christmas approached.",
+          "signal": "UK software shelf growth",
+          "certainty": "contextual",
+          "sourceNote": "No precise November title date asserted."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "November's cabinet contains unusually distinctive machines.",
+      "items": [
+        {
+          "title": "Vectrex",
+          "body": "The Vectrex did not ask for the family television. It arrived as its own screen, its own glow, and its own miniature arcade promise.",
+          "specs": [
+            "Built-in monochrome CRT",
+            "Vector graphics",
+            "Screen overlays"
+          ],
+          "certainty": "verified month",
+          "sourceNote": "Vectrex release references."
+        },
+        {
+          "title": "Atari 5200 SuperSystem",
+          "body": "A premium American console with a powerful base and controversial analogue controller, entering the market as Atari tried to move beyond the 2600 without leaving it behind.",
+          "specs": [
+            "Analogue controller",
+            "Atari 8-bit lineage",
+            "Large casing"
+          ],
+          "certainty": "verified launch window",
+          "sourceNote": "Atari 5200 launch context."
+        },
+        {
+          "title": "Pole Position cabinet",
+          "body": "The racing cabinet turned hardware into a performance: steering, pedal, cabinet art and queue all part of the artefact.",
+          "specs": [
+            "Wheel and pedal controls",
+            "Qualifying structure",
+            "Licensed US release through Atari"
+          ],
+          "certainty": "verified late-1982 release context",
+          "sourceNote": "Pole Position sources."
+        },
+        {
+          "title": "UK home micro display",
+          "body": "For British readers, the glamorous US console war sat beside a more practical question: Spectrum, BBC, Dragon, VIC-20 or Commodore, and where would the cassette deck go?",
+          "specs": [
+            "Cassette software",
+            "TV display",
+            "Magazine-led discovery"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "UK microcomputer context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "November magazines stood at the mouth of Christmas: preview, compare, persuade.",
+      "items": [
+        {
+          "title": "Vectrex curiosity",
+          "month": "November 1982",
+          "publicationName": "Electronic Games",
+          "issueDate": "November 1982",
+          "headline": "A console with its own screen",
+          "coverImage": "/magazine-covers/1982/electronic-games-october.svg",
+          "coverImageAlt": "Reconstructed Electronic Games cover for November 1982.",
+          "curatorNote": "Vectrex was tailor-made for print fascination: a machine that looked strange even before it was switched on.",
+          "body": "Vectrex was tailor-made for print fascination: a machine that looked strange even before it was switched on.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "C&VG Christmas comparison",
+          "month": "November 1982",
+          "publicationName": "Computer and Video Games",
+          "issueDate": "November 1982",
+          "headline": "Arcades, consoles and micros before Christmas",
+          "coverImage": "/magazine-covers/1982/cvg-october.svg",
+          "coverImageAlt": "Reconstructed C&VG cover for November 1982.",
+          "curatorNote": "For UK players, C&VG helped translate overseas console news into local desire.",
+          "body": "For UK players, C&VG helped translate overseas console news into local desire.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Popular Computing Weekly",
+          "month": "November 1982",
+          "publicationName": "Popular Computing Weekly",
+          "issueDate": "November 1982",
+          "headline": "The weekly pulse before the buying season",
+          "coverImage": "/magazine-covers/1982/popular-computing-weekly-october.svg",
+          "coverImageAlt": "Reconstructed Popular Computing Weekly cover for November 1982.",
+          "curatorNote": "Weekly computing papers made the market feel faster than the machines themselves.",
+          "body": "Weekly computing papers made the market feel faster than the machines themselves.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific issue line not asserted."
+        },
+        {
+          "title": "Personal Computer World",
+          "month": "November 1982",
+          "publicationName": "Personal Computer World",
+          "issueDate": "November 1982",
+          "headline": "The micro as household investment",
+          "coverImage": "/magazine-covers/1982/personal-computer-world-october.svg",
+          "coverImageAlt": "Reconstructed PCW cover for November 1982.",
+          "curatorNote": "The games buyer and the serious computer buyer were often the same family conversation in different voices.",
+          "body": "The games buyer and the serious computer buyer were often the same family conversation in different voices.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "November's information system was seasonal and physical.",
+      "items": [
+        {
+          "title": "Christmas lists became databases",
+          "body": "Players collected prices, adverts and rumours into mental spreadsheets long before anyone called that browsing."
+        },
+        {
+          "title": "Trade shows reached homes through print",
+          "body": "AMOA and American launch news became UK knowledge only after magazines and import gossip translated it."
+        },
+        {
+          "title": "Comparison shopping was slow",
+          "body": "A new console might be known from a paragraph weeks before anyone nearby had touched one."
+        },
+        {
+          "title": "Computer clubs filled gaps",
+          "body": "For micro owners, local clubs and school rooms could provide the demonstrations magazines could only describe."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "November was the month of wanting machines you had not yet seen in person.",
+      "items": [
+        {
+          "title": "Vectrex felt impossible",
+          "body": "A console with its own vector screen sounded like a small arcade cabinet that had escaped into the house."
+        },
+        {
+          "title": "Atari still looked enormous",
+          "body": "Even when the 5200 was distant from UK shelves, Atari's decisions felt like news from the centre of the industry."
+        },
+        {
+          "title": "The arcade had not peaked emotionally",
+          "body": "Pole Position and Q*bert made cabinets feel like they still owned the future."
+        },
+        {
+          "title": "Christmas sharpened every choice",
+          "body": "A cartridge, a micro, a cassette, a joystick: every object had to justify itself under family scrutiny."
+        }
+      ]
+    }
   ],
   "sources": [
-    {"label":"Vectrex release context","url":"https://www.computinghistory.org.uk/sec/15376/Vectrex/","note":"Used for November 1982 Vectrex release and launch context."},
-    {"label":"Atari 5200 launch context","url":"https://en.wikipedia.org/wiki/Atari_5200","note":"Used for October limited availability and November-December broader launch caveat."},
-    {"label":"Atari Archive: Atari 5200 game release dates","url":"https://www.atariarchive.org/atari-5200-game-release-dates/","note":"Used for launch-window game context."},
-    {"label":"Pole Position release context","url":"https://en.wikipedia.org/wiki/Pole_Position","note":"Used for AMOA show window and November 30, 1982 North American release."},
-    {"label":"Time Pilot release context","url":"https://www.mobygames.com/game/12834/time-pilot/","note":"Used for late-1982 arcade context; exact month kept cautious."},
-    {"label":"Millipede release context","url":"https://en.wikipedia.org/wiki/Millipede_(video_game)","note":"Used for 1982 arcade release context; exact month marked uncertain."}
+    {
+      "label": "Vectrex release context",
+      "url": "https://www.computinghistory.org.uk/sec/15376/Vectrex/",
+      "note": "Used for November 1982 Vectrex release and launch context."
+    },
+    {
+      "label": "Atari 5200 launch context",
+      "url": "https://en.wikipedia.org/wiki/Atari_5200",
+      "note": "Used for October limited availability and November-December broader launch caveat."
+    },
+    {
+      "label": "Atari Archive: Atari 5200 game release dates",
+      "url": "https://www.atariarchive.org/atari-5200-game-release-dates/",
+      "note": "Used for launch-window game context."
+    },
+    {
+      "label": "Pole Position release context",
+      "url": "https://en.wikipedia.org/wiki/Pole_Position",
+      "note": "Used for AMOA show window and November 30, 1982 North American release."
+    },
+    {
+      "label": "Time Pilot release context",
+      "url": "https://www.mobygames.com/game/12834/time-pilot/",
+      "note": "Used for late-1982 arcade context; exact month kept cautious."
+    },
+    {
+      "label": "Millipede release context",
+      "url": "https://en.wikipedia.org/wiki/Millipede_(video_game)",
+      "note": "Used for 1982 arcade release context; exact month marked uncertain."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }

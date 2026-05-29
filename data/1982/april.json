@@ -1,41 +1,327 @@
 {
-  "museum": {"name":"Gaming Time Machine","period":"April 1982","accession":"GTM-1982-04","dek":"The ZX Spectrum launches, Dig Dug spreads internationally, Pac-Man gets a promotional day, and the UK home-computer future becomes much cheaper and much noisier.","curatorNote":"April 1982 is one of the safest UK-aware months: the Spectrum launch is well documented, and Dig Dug's international release has strong date anchors.","statusChips":["ZX Spectrum launch","Dig Dug","Pac-Man Day","cassette future"]},
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "April 1982",
+    "accession": "GTM-1982-04",
+    "dek": "The ZX Spectrum launches, Dig Dug spreads internationally, Pac-Man gets a promotional day, and the UK home-computer future becomes much cheaper and much noisier.",
+    "curatorNote": "April 1982 is one of the safest UK-aware months: the Spectrum launch is well documented, and Dig Dug's international release has strong date anchors.",
+    "statusChips": [
+      "ZX Spectrum launch",
+      "Dig Dug",
+      "Pac-Man Day",
+      "cassette future"
+    ]
+  },
   "sections": [
-    {"id":"news","eyebrow":"Gallery 01","title":"News","subtitle":"Britain's bedroom-computing story changes shape.","items":[
-      {"date":"April 23","title":"Sinclair launches the ZX Spectrum","body":"The Spectrum's low price, colour graphics and cassette ecosystem helped define the UK games industry that followed.","artifact":"Rubber-key keyboard","certainty":"verified date","sourceNote":"Centre for Computing History lists the ZX Spectrum launch on 23 April 1982."},
-      {"date":"April 19","title":"Dig Dug reaches Europe","body":"Namco's underground arcade game is listed for Europe on 19 April, with North American release also placed in April by several references.","artifact":"Tunnel map","certainty":"verified European date","sourceNote":"Dig Dug references list Europe as April 19, 1982 and North America in April."},
-      {"date":"April 3","title":"Atari promotes National Pac-Man Day","body":"Atari's home Pac-Man campaign turned a cartridge into a cultural event, even as players debated the result.","artifact":"Pac-Man Day promotion","certainty":"verified promotion date","sourceNote":"AtariProtos and Pac-Man references identify April 3, 1982 as National Pac-Man Day."},
-      {"date":"April 1982","title":"UK micro software gets a new platform","body":"The Spectrum created a market for small cassette games, bedroom coders, and mail-order software houses.","artifact":"Cassette mailer","certainty":"contextual","sourceNote":"Derived from Spectrum launch and UK software industry context."},
-      {"date":"April 1982","title":"Arcade and home computing split into two futures","body":"Arcades still had the glamour, but UK homes now had a cheaper programmable machine that could grow a games culture of its own.","artifact":"Cabinet beside cassette","certainty":"contextual","sourceNote":"Arcade/Dig Dug and Spectrum launch context."}
-    ]},
-    {"id":"releases","eyebrow":"Gallery 02","title":"Releases","subtitle":"April gives Britain one of its defining hardware releases and arcades another hit.","items":[
-      {"date":"April 23","title":"ZX Spectrum","platform":"Home computer","body":"A hardware release rather than a game, but too important to leave off the release shelf.","signal":"UK bedroom game future","certainty":"verified date","sourceNote":"Centre for Computing History."},
-      {"date":"April 19","title":"Dig Dug","platform":"Arcade","body":"European arcade release of Namco's underground classic.","signal":"Character maze action","certainty":"verified European date","sourceNote":"Dig Dug references."},
-      {"date":"April 1982","title":"Pac-Man","platform":"Atari 2600","body":"The home cartridge sat at the centre of the month after March availability and April promotion.","signal":"Home arcade controversy","certainty":"verified release/promotion window","sourceNote":"March release and April 3 Pac-Man Day."},
-      {"date":"April 1982","title":"Ms. Pac-Man","platform":"Arcade","body":"Already one of the defining arcade presences of 1982.","signal":"Maze-game refinement","certainty":"contextual","sourceNote":"Early-1982 release context."},
-      {"date":"April 1982","title":"Robotron: 2084","platform":"Arcade","body":"Moving from show debut toward operator memory as one of the year's most demanding cabinets.","signal":"Twin-stick panic","certainty":"contextual","sourceNote":"March AOE debut."},
-      {"date":"April 1982","title":"Zaxxon","platform":"Arcade","body":"Its isometric view remained a showcase for arcade visual novelty.","signal":"Pseudo-3D spectacle","certainty":"contextual","sourceNote":"January Japan listing."},
-      {"date":"April 1982","title":"Spectrum launch software","platform":"ZX Spectrum","body":"Early Spectrum programs were modest, but the platform made games feel writable and distributable.","signal":"Cassette market begins","certainty":"contextual","sourceNote":"Launch context; individual title dates not asserted."},
-      {"date":"April 1982","title":"BBC Micro listings","platform":"BBC Micro","body":"The BBC Micro remained the serious counterweight to the Spectrum's cheaper home-game promise.","signal":"Educational authority","certainty":"contextual","sourceNote":"BBC Micro context."}
-    ]},
-    {"id":"hardware","eyebrow":"Gallery 03","title":"Hardware","subtitle":"Four objects define April: Spectrum, tape, arcade cabinet and Atari cartridge.","items":[
-      {"title":"ZX Spectrum","body":"A small black machine that made UK game creation feel local and affordable.","specs":["16K/48K models","Colour graphics","Rubber keys"],"certainty":"verified launch","sourceNote":"Launched 23 April 1982."},
-      {"title":"Cassette ecosystem","body":"The Spectrum made the tape not just storage but retail packaging, distribution and ritual.","specs":["Audio cassette","Inlay art","Load errors"],"certainty":"contextual","sourceNote":"UK micro software culture."},
-      {"title":"Atari 2600 cartridge economy","body":"Pac-Man showed how cartridge licensing could become mass-market business and mass-market disappointment.","specs":["Cartridge format","Arcade licence","Huge production run"],"certainty":"contextual","sourceNote":"Pac-Man 2600 context."},
-      {"title":"Arcade cabinet power","body":"Dig Dug and Robotron reminded players that the arcade was still the premium games hardware tier.","specs":["Dedicated boards","Custom controls","Public display"],"certainty":"contextual","sourceNote":"Arcade release context."}
-    ]},
-    {"id":"magazines","eyebrow":"Gallery 04","title":"Magazine Covers","subtitle":"April's magazines had to explain a new British machine.","items":[
-      {"title":"Spectrum launch coverage","month":"April 1982","publicationName":"UK computing press","issueDate":"April 1982","headline":"Sinclair's colour micro arrives","coverImage":"/magazine-covers/1982/popular-computing-weekly-october.svg","coverImageAlt":"Reconstructed UK weekly computing cover for April 1982.","curatorNote":"The Spectrum needed adverts, specs and listings before it had a mature games shelf.","body":"The Spectrum needed adverts, specs and listings before it had a mature games shelf.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"C&VG arcade/micro balance","month":"April 1982","publicationName":"Computer and Video Games","issueDate":"April 1982","headline":"Dig Dug and the home-computer future","coverImage":"/magazine-covers/1982/cvg-october.svg","coverImageAlt":"Reconstructed C&VG cover for April 1982.","curatorNote":"C&VG's hybrid identity fit April perfectly: arcades on one page, home machines on the next.","body":"C&VG's hybrid identity fit April perfectly: arcades on one page, home machines on the next.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Personal Computer World","month":"April 1982","publicationName":"Personal Computer World","issueDate":"April 1982","headline":"Home micro choice expands","coverImage":"/magazine-covers/1982/personal-computer-world-october.svg","coverImageAlt":"Reconstructed PCW cover for April 1982.","curatorNote":"Serious computing coverage created the language games would borrow: memory, storage, graphics, price.","body":"Serious computing coverage created the language games would borrow: memory, storage, graphics, price.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."},
-      {"title":"Electronic Games","month":"April 1982","publicationName":"Electronic Games","issueDate":"April 1982","headline":"The arcade boom from across the Atlantic","coverImage":"/magazine-covers/1982/electronic-games-october.svg","coverImageAlt":"Reconstructed Electronic Games cover for April 1982.","curatorNote":"American games coverage gave UK readers another way to imagine the arcade market.","body":"American games coverage gave UK readers another way to imagine the arcade market.","certainty":"contextual reconstruction","sourceNote":"Specific cover line not asserted."}
-    ]},
-    {"id":"online","eyebrow":"Gallery 05","title":"Online Life","subtitle":"The Spectrum's network was a cassette and a magazine.","items":[{"title":"Listings became invitations","body":"A printed BASIC program could be a game if you typed with care."},{"title":"Mail order became discovery","body":"Small adverts were portals to unknown software houses."},{"title":"Arcade strategy stayed public","body":"You learned Dig Dug by watching the good player before your turn."},{"title":"There was no default online layer","body":"For most UK players, information still arrived on paper."}]},
-    {"id":"felt","eyebrow":"Gallery 06","title":"What It Felt Like","subtitle":"April sounded like a tape loading.","items":[{"title":"Games became domestic craft","body":"The Spectrum suggested that a game could come from a bedroom, not just a factory."},{"title":"Cheap mattered","body":"Price changed who could imagine owning a computer."},{"title":"The arcade still glowed brighter","body":"Dig Dug had colour and presence a home tape could only chase."},{"title":"The future had rubber keys","body":"For Britain, the 1980s games industry suddenly looked small enough to fit under a TV."}]}
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Britain's bedroom-computing story changes shape.",
+      "items": [
+        {
+          "date": "April 23",
+          "title": "Sinclair launches the ZX Spectrum",
+          "body": "The Spectrum's low price, colour graphics and cassette ecosystem helped define the UK games industry that followed.",
+          "artifact": "Rubber-key keyboard",
+          "certainty": "verified date",
+          "sourceNote": "Centre for Computing History lists the ZX Spectrum launch on 23 April 1982."
+        },
+        {
+          "date": "April 19",
+          "title": "Dig Dug reaches Europe",
+          "body": "Namco's underground arcade game is listed for Europe on 19 April, with North American release also placed in April by several references.",
+          "artifact": "Tunnel map",
+          "certainty": "verified European date",
+          "sourceNote": "Dig Dug references list Europe as April 19, 1982 and North America in April."
+        },
+        {
+          "date": "April 3",
+          "title": "Atari promotes National Pac-Man Day",
+          "body": "Atari's home Pac-Man campaign turned a cartridge into a cultural event, even as players debated the result.",
+          "artifact": "Pac-Man Day promotion",
+          "certainty": "verified promotion date",
+          "sourceNote": "AtariProtos and Pac-Man references identify April 3, 1982 as National Pac-Man Day."
+        },
+        {
+          "date": "April 1982",
+          "title": "UK micro software gets a new platform",
+          "body": "The Spectrum created a market for small cassette games, bedroom coders, and mail-order software houses.",
+          "artifact": "Cassette mailer",
+          "certainty": "contextual",
+          "sourceNote": "Derived from Spectrum launch and UK software industry context."
+        },
+        {
+          "date": "April 1982",
+          "title": "Arcade and home computing split into two futures",
+          "body": "Arcades still had the glamour, but UK homes now had a cheaper programmable machine that could grow a games culture of its own.",
+          "artifact": "Cabinet beside cassette",
+          "certainty": "contextual",
+          "sourceNote": "Arcade/Dig Dug and Spectrum launch context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "April gives Britain one of its defining hardware releases and arcades another hit.",
+      "items": [
+        {
+          "date": "April 23",
+          "title": "ZX Spectrum",
+          "platform": "Home computer",
+          "body": "A hardware release rather than a game, but too important to leave off the release shelf.",
+          "signal": "UK bedroom game future",
+          "certainty": "verified date",
+          "sourceNote": "Centre for Computing History."
+        },
+        {
+          "date": "April 19",
+          "title": "Dig Dug",
+          "platform": "Arcade",
+          "body": "European arcade release of Namco's underground classic.",
+          "signal": "Character maze action",
+          "certainty": "verified European date",
+          "sourceNote": "Dig Dug references."
+        },
+        {
+          "date": "April 1982",
+          "title": "Pac-Man",
+          "platform": "Atari 2600",
+          "body": "The home cartridge sat at the centre of the month after March availability and April promotion.",
+          "signal": "Home arcade controversy",
+          "certainty": "verified release/promotion window",
+          "sourceNote": "March release and April 3 Pac-Man Day."
+        },
+        {
+          "date": "April 1982",
+          "title": "Ms. Pac-Man",
+          "platform": "Arcade",
+          "body": "Already one of the defining arcade presences of 1982.",
+          "signal": "Maze-game refinement",
+          "certainty": "contextual",
+          "sourceNote": "Early-1982 release context."
+        },
+        {
+          "date": "April 1982",
+          "title": "Robotron: 2084",
+          "platform": "Arcade",
+          "body": "Moving from show debut toward operator memory as one of the year's most demanding cabinets.",
+          "signal": "Twin-stick panic",
+          "certainty": "contextual",
+          "sourceNote": "March AOE debut."
+        },
+        {
+          "date": "April 1982",
+          "title": "Zaxxon",
+          "platform": "Arcade",
+          "body": "Its isometric view remained a showcase for arcade visual novelty.",
+          "signal": "Pseudo-3D spectacle",
+          "certainty": "contextual",
+          "sourceNote": "January Japan listing."
+        },
+        {
+          "date": "April 1982",
+          "title": "Spectrum launch software",
+          "platform": "ZX Spectrum",
+          "body": "Early Spectrum programs were modest, but the platform made games feel writable and distributable.",
+          "signal": "Cassette market begins",
+          "certainty": "contextual",
+          "sourceNote": "Launch context; individual title dates not asserted."
+        },
+        {
+          "date": "April 1982",
+          "title": "BBC Micro listings",
+          "platform": "BBC Micro",
+          "body": "The BBC Micro remained the serious counterweight to the Spectrum's cheaper home-game promise.",
+          "signal": "Educational authority",
+          "certainty": "contextual",
+          "sourceNote": "BBC Micro context."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four objects define April: Spectrum, tape, arcade cabinet and Atari cartridge.",
+      "items": [
+        {
+          "title": "ZX Spectrum",
+          "body": "A small black machine that made UK game creation feel local and affordable.",
+          "specs": [
+            "16K/48K models",
+            "Colour graphics",
+            "Rubber keys"
+          ],
+          "certainty": "verified launch",
+          "sourceNote": "Launched 23 April 1982."
+        },
+        {
+          "title": "Cassette ecosystem",
+          "body": "The Spectrum made the tape not just storage but retail packaging, distribution and ritual.",
+          "specs": [
+            "Audio cassette",
+            "Inlay art",
+            "Load errors"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "UK micro software culture."
+        },
+        {
+          "title": "Atari 2600 cartridge economy",
+          "body": "Pac-Man showed how cartridge licensing could become mass-market business and mass-market disappointment.",
+          "specs": [
+            "Cartridge format",
+            "Arcade licence",
+            "Huge production run"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Pac-Man 2600 context."
+        },
+        {
+          "title": "Arcade cabinet power",
+          "body": "Dig Dug and Robotron reminded players that the arcade was still the premium games hardware tier.",
+          "specs": [
+            "Dedicated boards",
+            "Custom controls",
+            "Public display"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Arcade release context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "April's magazines had to explain a new British machine.",
+      "items": [
+        {
+          "title": "Spectrum launch coverage",
+          "month": "April 1982",
+          "publicationName": "UK computing press",
+          "issueDate": "April 1982",
+          "headline": "Sinclair's colour micro arrives",
+          "coverImage": "/magazine-covers/1982/popular-computing-weekly-october.svg",
+          "coverImageAlt": "Reconstructed UK weekly computing cover for April 1982.",
+          "curatorNote": "The Spectrum needed adverts, specs and listings before it had a mature games shelf.",
+          "body": "The Spectrum needed adverts, specs and listings before it had a mature games shelf.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "C&VG arcade/micro balance",
+          "month": "April 1982",
+          "publicationName": "Computer and Video Games",
+          "issueDate": "April 1982",
+          "headline": "Dig Dug and the home-computer future",
+          "coverImage": "/magazine-covers/1982/cvg-october.svg",
+          "coverImageAlt": "Reconstructed C&VG cover for April 1982.",
+          "curatorNote": "C&VG's hybrid identity fit April perfectly: arcades on one page, home machines on the next.",
+          "body": "C&VG's hybrid identity fit April perfectly: arcades on one page, home machines on the next.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Personal Computer World",
+          "month": "April 1982",
+          "publicationName": "Personal Computer World",
+          "issueDate": "April 1982",
+          "headline": "Home micro choice expands",
+          "coverImage": "/magazine-covers/1982/personal-computer-world-october.svg",
+          "coverImageAlt": "Reconstructed PCW cover for April 1982.",
+          "curatorNote": "Serious computing coverage created the language games would borrow: memory, storage, graphics, price.",
+          "body": "Serious computing coverage created the language games would borrow: memory, storage, graphics, price.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        },
+        {
+          "title": "Electronic Games",
+          "month": "April 1982",
+          "publicationName": "Electronic Games",
+          "issueDate": "April 1982",
+          "headline": "The arcade boom from across the Atlantic",
+          "coverImage": "/magazine-covers/1982/electronic-games-october.svg",
+          "coverImageAlt": "Reconstructed Electronic Games cover for April 1982.",
+          "curatorNote": "American games coverage gave UK readers another way to imagine the arcade market.",
+          "body": "American games coverage gave UK readers another way to imagine the arcade market.",
+          "certainty": "contextual reconstruction",
+          "sourceNote": "Specific cover line not asserted."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "The Spectrum's network was a cassette and a magazine.",
+      "items": [
+        {
+          "title": "Listings became invitations",
+          "body": "A printed BASIC program could be a game if you typed with care."
+        },
+        {
+          "title": "Mail order became discovery",
+          "body": "Small adverts were portals to unknown software houses."
+        },
+        {
+          "title": "Arcade strategy stayed public",
+          "body": "You learned Dig Dug by watching the good player before your turn."
+        },
+        {
+          "title": "There was no default online layer",
+          "body": "For most UK players, information still arrived on paper."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "April sounded like a tape loading.",
+      "items": [
+        {
+          "title": "Games became domestic craft",
+          "body": "The Spectrum suggested that a game could come from a bedroom, not just a factory."
+        },
+        {
+          "title": "Cheap mattered",
+          "body": "Price changed who could imagine owning a computer."
+        },
+        {
+          "title": "The arcade still glowed brighter",
+          "body": "Dig Dug had colour and presence a home tape could only chase."
+        },
+        {
+          "title": "The future had rubber keys",
+          "body": "For Britain, the 1980s games industry suddenly looked small enough to fit under a TV."
+        }
+      ]
+    }
   ],
   "sources": [
-    {"label":"ZX Spectrum launch","url":"https://www.computinghistory.org.uk/det/43781/Sinclair%20ZX%20Spectrum%20Launched","note":"Used for April 23, 1982 launch."},
-    {"label":"Dig Dug release context","url":"https://en.wikipedia.org/wiki/Dig_Dug","note":"Used for April 19 Europe and April North America context."},
-    {"label":"AtariProtos Pac-Man 2600","url":"https://www.atariprotos.com/2600/software/pacman/pacman.htm","note":"Used for April 3 National Pac-Man Day context."}
+    {
+      "label": "ZX Spectrum launch",
+      "url": "https://www.computinghistory.org.uk/det/43781/Sinclair%20ZX%20Spectrum%20Launched",
+      "note": "Used for April 23, 1982 launch."
+    },
+    {
+      "label": "Dig Dug release context",
+      "url": "https://en.wikipedia.org/wiki/Dig_Dug",
+      "note": "Used for April 19 Europe and April North America context."
+    },
+    {
+      "label": "AtariProtos Pac-Man 2600",
+      "url": "https://www.atariprotos.com/2600/software/pacman/pacman.htm",
+      "note": "Used for April 3 National Pac-Man Day context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-29",
+  "editorNotes": [
+    "Initial AI-generated research draft; needs human editorial review and source verification."
   ]
 }
