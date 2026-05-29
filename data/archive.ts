@@ -1,35 +1,10 @@
-import { readdir, readFile } from "node:fs/promises";
-import path from "node:path";
+import { EXHIBIT_MANIFEST, type Exhibit } from "../lib/exhibits";
 
 export const FIRST_TIMELINE_YEAR = 1975;
 export const LAST_TIMELINE_YEAR = 2026;
 export const DEFAULT_YEAR = 1997;
 
-export type Exhibit = {
-  museum: {
-    name: string;
-    period: string;
-    accession: string;
-    dek: string;
-    curatorNote: string;
-    statusChips: string[];
-  };
-  sections: {
-    id: string;
-    eyebrow: string;
-    title: string;
-    subtitle: string;
-    items: {
-      title: string;
-      body: string;
-      [key: string]: unknown;
-    }[];
-  }[];
-  sources: {
-    label: string;
-    url: string;
-  }[];
-};
+export type { Exhibit };
 
 export type ArchiveMonth = {
   id: string;
@@ -74,14 +49,11 @@ const monthOrder = monthsOfYear.map((month) => month.id);
 
 /*
   Future month additions:
-  - Drop JSON files into data/<year>/<month>.json, using lowercase month names.
+  - Keep JSON files in data/<year>/<month>.json, using lowercase month names.
   - Example: data/1998/november.json.
-  - Any month with a matching JSON file becomes active in the timeline month row automatically.
+  - Add the file to lib/exhibits.ts so it is statically imported at build time.
+  - Any month in the manifest becomes active in the timeline month row.
 */
-
-function getArchiveRoot() {
-  return path.join(process.cwd(), "data");
-}
 
 function getMonthLabel(monthId: string, year: number) {
   const title = monthNames.get(monthId) ?? monthId.replaceAll("-", " ");
@@ -93,28 +65,29 @@ function getMonthHref(year: number, monthId: string) {
   return `/?year=${year}&month=${monthId}`;
 }
 
-async function listYearFolders() {
-  const entries = await readdir(getArchiveRoot(), { withFileTypes: true });
-
-  return entries
-    .filter((entry) => entry.isDirectory() && /^\d{4}$/.test(entry.name))
-    .map((entry) => Number(entry.name));
+function getContentYears() {
+  return Object.keys(EXHIBIT_MANIFEST).map(Number);
 }
 
-async function readMonth(year: number, monthId: string): Promise<ArchiveMonth | null> {
-  try {
-    const filePath = path.join(getArchiveRoot(), String(year), `${monthId}.json`);
-    const exhibit = JSON.parse(await readFile(filePath, "utf8")) as Exhibit;
+function getContentMonthIds(year: number) {
+  const yearExhibits = EXHIBIT_MANIFEST[year] ?? {};
 
-    return {
-      id: monthId,
-      label: getMonthLabel(monthId, year),
-      href: getMonthHref(year, monthId),
-      exhibit
-    };
-  } catch {
+  return Object.keys(yearExhibits).sort((left, right) => monthOrder.indexOf(left) - monthOrder.indexOf(right));
+}
+
+function readMonth(year: number, monthId: string): ArchiveMonth | null {
+  const exhibit = EXHIBIT_MANIFEST[year]?.[monthId];
+
+  if (!exhibit) {
     return null;
   }
+
+  return {
+    id: monthId,
+    label: getMonthLabel(monthId, year),
+    href: getMonthHref(year, monthId),
+    exhibit
+  };
 }
 
 export function getTimelineYears(contentYears: number[], selectedYear: number) {
@@ -145,22 +118,16 @@ export function getTimelineMonths(year: number, contentMonthIds: string[], selec
 }
 
 export async function getArchiveSelection(yearParam?: string, monthParam?: string) {
-  const contentYears = await listYearFolders();
+  const contentYears = getContentYears();
   const requestedYear = Number(yearParam);
   const selectedYear =
     requestedYear >= FIRST_TIMELINE_YEAR && requestedYear <= LAST_TIMELINE_YEAR ? requestedYear : DEFAULT_YEAR;
-  const monthEntries = selectedYear && contentYears.includes(selectedYear)
-    ? await readdir(path.join(getArchiveRoot(), String(selectedYear)), { withFileTypes: true })
-    : [];
-  const monthIds = monthEntries
-    .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
-    .map((entry) => entry.name.replace(/\.json$/, ""))
-    .sort((left, right) => monthOrder.indexOf(left) - monthOrder.indexOf(right));
+  const monthIds = contentYears.includes(selectedYear) ? getContentMonthIds(selectedYear) : [];
 
   const selectedMonthId = monthParam && monthIds.includes(monthParam) ? monthParam : monthIds[0];
-  const months = (
-    await Promise.all(monthIds.map((monthId) => readMonth(selectedYear, monthId)))
-  ).filter((month): month is ArchiveMonth => Boolean(month));
+  const months = monthIds
+    .map((monthId) => readMonth(selectedYear, monthId))
+    .filter((month): month is ArchiveMonth => Boolean(month));
   const currentMonth = months.find((month) => month.id === selectedMonthId) ?? months[0] ?? null;
 
   return {
@@ -176,7 +143,8 @@ export async function getArchiveSelection(yearParam?: string, monthParam?: strin
   Future archive additions:
   - Add a folder named for the year, such as data/1998.
   - Drop one JSON file per month into that folder, such as data/1998/november.json.
+  - Register each file in lib/exhibits.ts with a static import and manifest entry.
   - Use the same schema as data/1997/october.json: museum, sections, and sources.
   - Magazine cover entries can include coverImage, coverImageAlt, publicationName, issueDate, and curatorNote.
-  - The year timeline and month selector discover those files automatically.
+  - The year timeline and month selector read from the manifest so Vercel never scans /data at runtime.
 */
