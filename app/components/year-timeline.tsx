@@ -16,7 +16,7 @@ type TimelineMonth = {
 
 export function YearTimeline({ months, selectedYear, years }: { months: TimelineMonth[]; selectedYear: number; years: TimelineYear[] }) {
   return (
-    <section className="border-y border-black/10 bg-[#e7efe7]" aria-label="Historical timeline">
+    <section id="timeline-archive" className="border-y border-black/10 bg-[#e7efe7]" aria-label="Historical timeline">
       <div className="mx-auto max-w-7xl px-5 py-8 md:px-8">
         <div className="flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
           <div>

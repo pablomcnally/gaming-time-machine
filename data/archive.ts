@@ -90,6 +90,28 @@ function readMonth(year: number, monthId: string): ArchiveMonth | null {
   };
 }
 
+export function getArchiveStats() {
+  const years = getContentYears();
+  const monthlyExhibits = years.reduce((total, year) => total + getContentMonthIds(year).length, 0);
+
+  return {
+    yearsInArchive: years.length,
+    monthlyExhibits
+  };
+}
+
+export function getRandomExhibitHref() {
+  const availableMonths = getContentYears().flatMap((year) =>
+    getContentMonthIds(year).map((monthId) => getMonthHref(year, monthId))
+  );
+
+  if (availableMonths.length === 0) {
+    return `/?year=${DEFAULT_YEAR}&month=october`;
+  }
+
+  return availableMonths[Math.floor(Math.random() * availableMonths.length)];
+}
+
 export function getTimelineYears(contentYears: number[], selectedYear: number) {
   const contentYearSet = new Set(contentYears);
 
