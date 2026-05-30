@@ -101,10 +101,12 @@ function readMonth(year: number, monthId: string): ArchiveMonth | null {
 export function getArchiveStats() {
   const years = getContentYears();
   const monthlyExhibits = years.reduce((total, year) => total + getContentMonthIds(year).length, 0);
+  const verifiedExhibits = getAllExhibitRecords().filter((record) => record.exhibit.status === "verified").length;
 
   return {
     yearsInArchive: years.length,
-    monthlyExhibits
+    monthlyExhibits,
+    verifiedExhibits
   };
 }
 
@@ -156,6 +158,35 @@ export function getArchiveWorkflowSummary() {
     statusCounts,
     byYear
   };
+}
+
+export function getFeaturedExhibits() {
+  const records = getAllExhibitRecords();
+  const preferredExhibits = new Set(["1982-october", "1983-july", "1983-september", "1997-october", "1997-november", "1997-december"]);
+  const preferredRecords = records.filter((record) => preferredExhibits.has(`${record.year}-${record.monthId}`));
+
+  return (preferredRecords.length >= 3 ? preferredRecords : records).slice(0, 6);
+}
+
+export function getLatestExhibitHref() {
+  const records = getAllExhibitRecords();
+  const latest = [...records]
+    .sort((left, right) => {
+      const dateComparison = right.exhibit.lastEdited.localeCompare(left.exhibit.lastEdited);
+
+      if (dateComparison !== 0) {
+        return dateComparison;
+      }
+
+      if (right.year !== left.year) {
+        return right.year - left.year;
+      }
+
+      return monthOrder.indexOf(right.monthId) - monthOrder.indexOf(left.monthId);
+    })
+    [0];
+
+  return latest?.href ?? `/?year=${DEFAULT_YEAR}&month=october`;
 }
 
 export function getRandomExhibitHref() {

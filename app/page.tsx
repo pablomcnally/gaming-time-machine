@@ -1,11 +1,13 @@
 import { MagazineCoverGallery, type MagazineCoverItem } from "./components/magazine-cover-gallery";
-import { MonthSelector } from "./components/month-selector";
+import { MuseumFooter } from "./components/museum-footer";
 import { YearTimeline } from "./components/year-timeline";
 import {
   DEFAULT_YEAR,
   exhibitStatusLabels,
   getArchiveSelection,
   getArchiveStats,
+  getFeaturedExhibits,
+  getLatestExhibitHref,
   getRandomExhibitHref,
   type ExhibitStatus
 } from "../data/archive";
@@ -171,6 +173,121 @@ function UnderConstruction({ year }: { year: number }) {
   );
 }
 
+function HomeLanding({
+  randomExhibitHref,
+  timelineMonths,
+  timelineYears
+}: {
+  randomExhibitHref: string;
+  timelineMonths: Parameters<typeof YearTimeline>[0]["months"];
+  timelineYears: Parameters<typeof YearTimeline>[0]["years"];
+}) {
+  const archiveStats = getArchiveStats();
+  const featuredExhibits = getFeaturedExhibits();
+  const latestExhibitHref = getLatestExhibitHref();
+
+  return (
+    <main className="min-h-screen bg-[#f3efe4] text-zinc-900">
+      <header className="relative isolate overflow-hidden bg-zinc-950 px-5 py-12 text-stone-50 md:px-8 md:py-20">
+        <div className="absolute inset-0 opacity-40 [background:radial-gradient(circle_at_30%_15%,rgba(255,215,128,.28),transparent_30%),radial-gradient(circle_at_70%_40%,rgba(56,189,248,.16),transparent_24%),linear-gradient(135deg,#09090b,#1f2937_45%,#3f1d25)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,.07)_1px,transparent_1px)] bg-[size:100%_12px] opacity-25" />
+        <div className="relative mx-auto max-w-7xl">
+          <nav className="flex items-center justify-between gap-6">
+            <a href="/" className="group inline-flex" aria-label="Gaming Time Machine home">
+              <img
+                src="/logo.svg"
+                alt="Gaming Time Machine"
+                className="h-auto w-[min(62vw,17rem)] transition duration-300 group-hover:opacity-85 sm:w-80"
+              />
+            </a>
+            <a href="/about" className="hidden font-mono text-xs uppercase tracking-[0.24em] text-amber-200 transition hover:text-amber-100 sm:inline">
+              About the archive
+            </a>
+          </nav>
+
+          <div className="grid gap-10 pb-6 pt-16 md:grid-cols-[1.1fr_0.9fr] md:items-end md:pt-24">
+            <div>
+              <p className="font-mono text-xs uppercase tracking-[0.34em] text-red-300">Entrance hall</p>
+              <h1 className="mt-6 max-w-4xl font-display text-6xl leading-none md:text-8xl">Gaming Time Machine</h1>
+              <p className="mt-6 font-mono text-xs uppercase tracking-[0.28em] text-amber-100/85 sm:text-sm">
+                Gaming History, One Month at a Time.
+              </p>
+              <p className="mt-8 max-w-2xl text-xl leading-9 text-stone-200">
+                A digital museum of video game history, built to explore the atmosphere around each month: the machines people wanted, the magazines they read, the games they saved up for, and the rumours that moved through shops, arcades, playgrounds and early online spaces.
+              </p>
+              <div className="mt-9 flex flex-wrap gap-3">
+                <a href="#timeline-archive" className="border border-amber-200 bg-amber-200 px-5 py-3 font-mono text-xs uppercase tracking-[0.18em] text-zinc-950 transition hover:bg-stone-50">
+                  Explore the Timeline
+                </a>
+                <a href={randomExhibitHref} className="border border-stone-100/30 px-5 py-3 font-mono text-xs uppercase tracking-[0.18em] text-stone-50 transition hover:border-amber-200 hover:text-amber-100">
+                  Take Me Somewhere Random
+                </a>
+                <a href={latestExhibitHref} className="border border-stone-100/30 px-5 py-3 font-mono text-xs uppercase tracking-[0.18em] text-stone-50 transition hover:border-amber-200 hover:text-amber-100">
+                  Latest Added Exhibit
+                </a>
+              </div>
+            </div>
+            <aside className="border border-stone-100/20 bg-stone-50/10 p-6 backdrop-blur">
+              <p className="font-mono text-xs uppercase tracking-[0.28em] text-amber-200">Curator note</p>
+              <p className="mt-5 text-lg leading-8 text-stone-100">
+                Gaming Time Machine is a living archive exploring not just games and hardware, but what it felt like to be a player at different moments in history.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </header>
+
+      <section className="border-b border-black/10 bg-[#e7efe7] px-5 py-8 md:px-8" aria-label="Archive statistics">
+        <div className="mx-auto grid max-w-7xl gap-4 sm:grid-cols-3">
+          <article className="border border-zinc-950/15 bg-[#fbf8ef] p-5">
+            <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-zinc-500">Years in Archive</p>
+            <p className="mt-3 font-display text-4xl text-zinc-950">{archiveStats.yearsInArchive}</p>
+          </article>
+          <article className="border border-zinc-950/15 bg-[#fbf8ef] p-5">
+            <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-zinc-500">Monthly Exhibits</p>
+            <p className="mt-3 font-display text-4xl text-zinc-950">{archiveStats.monthlyExhibits}</p>
+          </article>
+          <article className="border border-zinc-950/15 bg-[#fbf8ef] p-5">
+            <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-zinc-500">Verified Exhibits</p>
+            <p className="mt-3 font-display text-4xl text-zinc-950">{archiveStats.verifiedExhibits}</p>
+          </article>
+        </div>
+      </section>
+
+      <section className="px-5 py-14 md:px-8 md:py-20" aria-label="Featured exhibits">
+        <div className="mx-auto max-w-7xl">
+          <div className="grid gap-5 md:grid-cols-[0.85fr_2fr]">
+            <div>
+              <p className="font-mono text-xs uppercase tracking-[0.32em] text-red-700">Featured exhibits</p>
+              <h2 className="mt-4 font-display text-4xl text-zinc-950 md:text-6xl">Start with a drawer</h2>
+            </div>
+            <div className="grid gap-4 md:grid-cols-2">
+              {featuredExhibits.map((record) => (
+                <a
+                  key={`${record.year}-${record.monthId}`}
+                  href={record.href}
+                  className="group border border-black/10 bg-[#fbf8ef] p-6 shadow-exhibit transition hover:-translate-y-1 hover:border-red-700"
+                >
+                  <p className="font-mono text-xs uppercase tracking-[0.24em] text-red-700">{record.exhibit.museum.accession}</p>
+                  <h3 className="mt-4 font-display text-4xl leading-none text-zinc-950">{record.label}</h3>
+                  <p className="mt-4 text-base leading-7 text-zinc-600">{record.exhibit.museum.dek}</p>
+                  <span className="mt-6 inline-flex font-mono text-[11px] uppercase tracking-[0.2em] text-zinc-500 transition group-hover:text-red-700">
+                    Open exhibit
+                  </span>
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <YearTimeline months={timelineMonths} selectedYear={DEFAULT_YEAR} years={timelineYears} />
+
+      <MuseumFooter randomExhibitHref={randomExhibitHref} />
+    </main>
+  );
+}
+
 type SearchParams = Promise<Record<string, string | string[] | undefined>>;
 
 function getMonthId(value: string | string[] | undefined) {
@@ -183,10 +300,24 @@ function getYearId(value: string | string[] | undefined) {
 
 export default async function Home({ searchParams }: { searchParams: SearchParams }) {
   const params = await searchParams;
+  const yearParam = getYearId(params.year);
+  const monthParam = getMonthId(params.month);
   const { selectedYear, currentMonth, months, timelineMonths, timelineYears } = await getArchiveSelection(
-    getYearId(params.year),
-    getMonthId(params.month)
+    yearParam,
+    monthParam
   );
+  const randomExhibitHref = getRandomExhibitHref();
+
+  if (!yearParam && !monthParam) {
+    return (
+      <HomeLanding
+        randomExhibitHref={randomExhibitHref}
+        timelineMonths={timelineMonths}
+        timelineYears={timelineYears}
+      />
+    );
+  }
+
   const exhibit = currentMonth?.exhibit;
   const museum = exhibit?.museum ?? {
     name: "Gaming Time Machine",
@@ -205,19 +336,12 @@ export default async function Home({ searchParams }: { searchParams: SearchParam
   const magazineCovers = magazines ? getMagazineCoverItems(magazines, museum.period) : [];
   const online = sections.find((section) => section.id === "online");
   const felt = sections.find((section) => section.id === "felt");
-  const archiveStats = getArchiveStats();
-  const randomExhibitHref = getRandomExhibitHref();
 
   return (
     <main className="min-h-screen bg-[#f3efe4] text-zinc-900">
       <header className="relative isolate overflow-hidden bg-zinc-950 text-stone-50">
         <div className="absolute inset-0 opacity-40 [background:radial-gradient(circle_at_30%_15%,rgba(255,215,128,.28),transparent_30%),radial-gradient(circle_at_70%_40%,rgba(56,189,248,.2),transparent_24%),linear-gradient(135deg,#09090b,#1f2937_45%,#3f1d25)]" />
         <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,.07)_1px,transparent_1px)] bg-[size:100%_12px] opacity-25" />
-        <MonthSelector
-          currentMonthId={currentMonth?.id ?? ""}
-          months={months.map(({ id, label, href }) => ({ id, label, href }))}
-          randomHref={`/?year=${DEFAULT_YEAR}&month=october`}
-        />
         <nav className="relative mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-5 md:px-8">
           <a
             href="/"
@@ -243,19 +367,13 @@ export default async function Home({ searchParams }: { searchParams: SearchParam
         </nav>
         <div id="top" className="relative mx-auto grid max-w-7xl gap-10 px-5 pb-16 pt-14 md:grid-cols-[1.2fr_0.8fr] md:px-8 md:pb-24 md:pt-20">
           <div>
-            <p className="font-mono text-sm uppercase tracking-[0.42em] text-red-300">{museum.period}</p>
-            <h1 className="mt-6 max-w-4xl">
-              <a href="/" aria-label="Gaming Time Machine home" className="inline-block transition duration-300 hover:opacity-90">
-                <img
-                  src="/logo.svg"
-                  alt={museum.name}
-                  className="h-auto w-full max-w-[46rem]"
-                />
-              </a>
-            </h1>
-            <p className="mt-5 max-w-2xl font-mono text-xs uppercase tracking-[0.28em] text-amber-100/80 sm:text-sm">
+            <p className="font-mono text-xs uppercase tracking-[0.28em] text-amber-100/80 sm:text-sm">
               Gaming History, One Month at a Time
             </p>
+            <p className="mt-7 font-mono text-xs uppercase tracking-[0.34em] text-red-300">{museum.accession}</p>
+            <h1 className="mt-5 max-w-4xl font-display text-6xl leading-none text-stone-50 md:text-8xl">
+              {museum.period}
+            </h1>
             <p className="mt-8 max-w-2xl text-xl leading-9 text-stone-200">{museum.dek}</p>
             <div className="mt-8 flex flex-wrap gap-3">
               {museum.statusChips.map((chip) => (
@@ -343,70 +461,7 @@ export default async function Home({ searchParams }: { searchParams: SearchParam
         <UnderConstruction year={selectedYear} />
       )}
 
-      <div className="h-px bg-gradient-to-r from-transparent via-zinc-950/20 to-transparent" />
-
-      <footer className="bg-zinc-950 px-5 py-14 text-stone-200 md:px-8 md:py-16">
-        <div className="mx-auto max-w-7xl">
-          <div className="grid gap-8 border-b border-stone-100/10 pb-10 md:grid-cols-[0.8fr_2fr]">
-            <div>
-              <p className="font-mono text-xs uppercase tracking-[0.28em] text-amber-200">Source shelf</p>
-              <p className="mt-4 max-w-sm text-sm leading-6 text-stone-400">
-                Exhibit notes are condensed from contemporary release listings, magazine records, and platform context.
-              </p>
-            </div>
-            {sources.length > 0 ? (
-              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-                {sources.map((source) => (
-                  <a
-                    key={source.url}
-                    href={source.url}
-                    className="border border-stone-100/15 p-4 text-sm leading-6 text-stone-300 transition hover:border-amber-200 hover:text-white"
-                  >
-                    {source.label}
-                  </a>
-                ))}
-              </div>
-            ) : (
-              <div className="border border-stone-100/15 p-4 text-sm leading-6 text-stone-300">
-                Source links will appear when this year receives its first exhibit file.
-              </div>
-            )}
-          </div>
-
-          <div className="grid gap-10 border-b border-stone-100/10 py-10 md:grid-cols-[1.1fr_0.9fr] md:items-end">
-            <section aria-label="Museum closing panel" className="max-w-2xl">
-              <p className="font-display text-3xl text-stone-50 md:text-4xl">Gaming Time Machine</p>
-              <p className="mt-4 text-sm leading-7 text-stone-400">A digital museum of video game history.</p>
-              <p className="mt-2 font-mono text-xs uppercase tracking-[0.22em] text-amber-200/85">
-                Gaming History, One Month at a Time.
-              </p>
-              <p className="mt-7 max-w-xl border-l border-amber-200/30 pl-5 text-sm leading-7 text-stone-400">
-                This archive is an ongoing effort to preserve what it felt like to be a gamer at different moments in history.
-              </p>
-            </section>
-
-            <div className="grid gap-6 sm:grid-cols-2 md:justify-self-end">
-              <div>
-                <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-stone-500">Years in Archive</p>
-                <p className="mt-2 font-display text-4xl text-stone-50">{archiveStats.yearsInArchive}</p>
-              </div>
-              <div>
-                <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-stone-500">Monthly Exhibits</p>
-                <p className="mt-2 font-display text-4xl text-stone-50">{archiveStats.monthlyExhibits}</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-6 pt-8 text-sm text-stone-500 md:flex-row md:items-center md:justify-between">
-            <p>Built and curated by Paul McNally.</p>
-            <nav aria-label="Footer navigation" className="flex flex-wrap gap-x-6 gap-y-3 font-mono text-[11px] uppercase tracking-[0.2em]">
-              <a href="/" className="transition hover:text-amber-200">Home</a>
-              <a href={randomExhibitHref} className="transition hover:text-amber-200">Random Month</a>
-              <a href="#timeline-archive" className="transition hover:text-amber-200">Timeline Archive</a>
-            </nav>
-          </div>
-        </div>
-      </footer>
+      <MuseumFooter randomExhibitHref={randomExhibitHref} sources={sources} />
     </main>
   );
 }
