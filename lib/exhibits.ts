@@ -22,6 +22,7 @@ import september1983 from "../data/1983/september.json";
 import october1983 from "../data/1983/october.json";
 import november1983 from "../data/1983/november.json";
 import december1983 from "../data/1983/december.json";
+import december1984 from "../data/1984/december.json";
 import january1997 from "../data/1997/january.json";
 import february1997 from "../data/1997/february.json";
 import march1997 from "../data/1997/march.json";
@@ -108,6 +109,9 @@ export const EXHIBIT_MANIFEST = {
     november: november1983,
     december: december1983
   },
+  1984: {
+  december: december1984
+},
   1997: {
     january: january1997,
     february: february1997,
