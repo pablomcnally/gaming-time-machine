@@ -1,0 +1,324 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "April 1976",
+    "accession": "GTM-1976-04",
+    "dek": "April is a careful Breakout drawer: some modern summaries point here, but the exhibit keeps the release month cautious.",
+    "curatorNote": "Breakout is the anchor, but the month is marked with source caution rather than overconfidence.",
+    "statusChips": [
+      "Breakout",
+      "Atari",
+      "Jobs and Wozniak",
+      "source caution"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments from a very early videogame year, with broad context separated from confident month-level claims.",
+      "items": [
+        {
+          "date": "April 1976",
+          "title": "Breakout becomes the year's design landmark",
+          "body": "Atari's Breakout turns the Pong grammar into a single-player brick-breaking ritual.",
+          "artifact": "Brick wall",
+          "certainty": "verified year; month cautious",
+          "sourceNote": "Some sources use April 1976; The Strong and arcade histories anchor the game to 1976."
+        },
+        {
+          "date": "April 1976",
+          "title": "Jobs and Wozniak enter the arcade myth",
+          "body": "Breakout's development story links Atari, Steve Jobs and Steve Wozniak, making it part of both arcade and personal-computer lore.",
+          "artifact": "Prototype board",
+          "certainty": "verified context",
+          "sourceNote": "The Strong and Breakout histories discuss Jobs/Wozniak involvement."
+        },
+        {
+          "date": "April 1976",
+          "title": "The single-player arcade skill loop sharpens",
+          "body": "Breakout is not just Pong without a second player: it makes progression, concentration and failure feel cleanly personal.",
+          "artifact": "Paddle placard",
+          "certainty": "interpretive context",
+          "sourceNote": "Breakout design context."
+        },
+        {
+          "date": "April 1976",
+          "title": "UK players meet such games as public machines",
+          "body": "The lived British route is still the cabinet, not the software shop.",
+          "artifact": "Arcade row",
+          "certainty": "UK-aware context",
+          "sourceNote": "Period UK arcade context."
+        },
+        {
+          "date": "April 1976",
+          "title": "The home cartridge future remains just ahead",
+          "body": "Channel F has not yet changed the home category from fixed appliances to programmable cartridges.",
+          "artifact": "Empty cartridge case",
+          "certainty": "contextual",
+          "sourceNote": "Channel F release later in 1976."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "A deliberately sparse shelf: only releases supported by the sources reviewed are displayed.",
+      "items": [
+        {
+          "date": "1976",
+          "title": "Breakout",
+          "platform": "Arcade",
+          "body": "Atari's brick-breaking classic. Included here as the month's key discussion object, but exact public availability is kept cautious.",
+          "signal": "Arcade design landmark",
+          "certainty": "verified year; April appears in some sources",
+          "sourceNote": "Some summaries cite April 1976; the exhibit avoids a fake exact day."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four objects explaining the month: public cabinets, home consoles, cartridges, handheld electronics and computing culture.",
+      "items": [
+        {
+          "title": "Fairchild Channel F cartridge architecture",
+          "body": "The Channel F makes interchangeable home-console software a real retail category, even before Atari popularises the idea.",
+          "specs": [
+            "ROM cartridges",
+            "Released November 1976",
+            "Jerry Lawson / Fairchild context"
+          ],
+          "certainty": "verified year/month context",
+          "sourceNote": "Fairchild Channel F sources."
+        },
+        {
+          "title": "Dedicated Pong-style consoles",
+          "body": "Telstar and similar machines show the first home wave: cheap, fixed-function and easy to explain.",
+          "specs": [
+            "Built-in games",
+            "Paddle controls",
+            "TV connection"
+          ],
+          "certainty": "year-level context",
+          "sourceNote": "Coleco Telstar and dedicated-console context."
+        },
+        {
+          "title": "Arcade cabinets as theatre",
+          "body": "Sea Wolf's periscope and Night Driver's road illusion show that the cabinet is still part of the game design.",
+          "specs": [
+            "Physical controls",
+            "Public play",
+            "Operator purchase"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Sea Wolf and Night Driver context."
+        },
+        {
+          "title": "Handheld LED electronics",
+          "body": "Mattel Auto Race suggests a private, pocketable branch of play before cartridge handhelds.",
+          "specs": [
+            "LED display",
+            "Battery-powered",
+            "Single-purpose toy"
+          ],
+          "certainty": "verified year; month uncertain",
+          "sourceNote": "Mattel Auto Race sources."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "There is still no normal videogame magazine shelf. Electronics and computing magazines are the map.",
+      "items": [
+        {
+          "title": "POPULAR ELECTRONICS",
+          "month": "April 1976",
+          "publicationName": "POPULAR ELECTRONICS",
+          "issueDate": "April 1976",
+          "headline": "HOBBY COMPUTERS AND TV GAMES",
+          "coverImage": "/magazine-covers/1976/popular-electronics.svg",
+          "coverImageAlt": "Reconstructed placeholder for POPULAR ELECTRONICS, April 1976.",
+          "curatorNote": "POPULAR ELECTRONICS represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "body": "POPULAR ELECTRONICS represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        },
+        {
+          "title": "BYTE",
+          "month": "April 1976",
+          "publicationName": "BYTE",
+          "issueDate": "April 1976",
+          "headline": "MICROCOMPUTER SYSTEMS",
+          "coverImage": "/magazine-covers/1976/byte.svg",
+          "coverImageAlt": "Reconstructed placeholder for BYTE, April 1976.",
+          "curatorNote": "BYTE represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "body": "BYTE represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        },
+        {
+          "title": "CREATIVE COMPUTING",
+          "month": "April 1976",
+          "publicationName": "CREATIVE COMPUTING",
+          "issueDate": "April 1976",
+          "headline": "PROGRAMS, EDUCATION, PLAY",
+          "coverImage": "/magazine-covers/1976/creative-computing.svg",
+          "coverImageAlt": "Reconstructed placeholder for CREATIVE COMPUTING, April 1976.",
+          "curatorNote": "CREATIVE COMPUTING represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "body": "CREATIVE COMPUTING represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        },
+        {
+          "title": "PRACTICAL ELECTRONICS",
+          "month": "April 1976",
+          "publicationName": "PRACTICAL ELECTRONICS",
+          "issueDate": "April 1976",
+          "headline": "UK ELECTRONICS SHELF",
+          "coverImage": "/magazine-covers/1976/practical-electronics.svg",
+          "coverImageAlt": "Reconstructed placeholder for PRACTICAL ELECTRONICS, April 1976.",
+          "curatorNote": "PRACTICAL ELECTRONICS represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "body": "PRACTICAL ELECTRONICS represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Networked play exists at the edges, but ordinary players live in a world of paper, cabinets and local knowledge.",
+      "items": [
+        {
+          "title": "Online play was not a home visitor experience",
+          "body": "For most players in April 1976, game discovery happened through arcades, shops, magazines, clubs and word of mouth. Networked play existed at institutional edges, not as a normal domestic habit.",
+          "certainty": "contextual",
+          "sourceNote": "Included to avoid projecting later internet culture backward."
+        },
+        {
+          "title": "PLATO remains the hidden network",
+          "body": "PLATO's games, messaging and shared terminals belong to the background of the era, but not to everyday UK consumer play.",
+          "certainty": "verified context",
+          "sourceNote": "PLATO context from early computer-game histories."
+        },
+        {
+          "title": "Paper is still the search engine",
+          "body": "Magazines, adverts, catalogues and club newsletters are how players and hobbyists learn what exists.",
+          "certainty": "contextual",
+          "sourceNote": "BYTE, Creative Computing and electronics-magazine context."
+        },
+        {
+          "title": "The arcade is the social feed",
+          "body": "Scores, queues and overheard advice make the cabinet itself a public information system.",
+          "certainty": "contextual",
+          "sourceNote": "Period arcade culture context."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A young medium, a patchy record, and a future still split between public machines and experimental home hardware.",
+      "items": [
+        {
+          "title": "The future was still public",
+          "body": "Public play is still the centre: the cabinet has sound, controls, art, a coin slot and the authority of being out in the world."
+        },
+        {
+          "title": "The home shelf was changing shape",
+          "body": "Home play is splitting: fixed TV games feel simple and immediate, while Channel F hints that a console might become a library."
+        },
+        {
+          "title": "Britain saw the edges first",
+          "body": "From Britain, this still feels like amusements and electronics first, with the later home-computer culture not yet visible."
+        },
+        {
+          "title": "The record is patchy because the medium is young",
+          "body": "There are few clean launch days, few consumer reviews and no settled games press. The museum label often has to say: year-level, regional, uncertain."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "1976 in video games",
+      "url": "https://en.wikipedia.org/wiki/1976_in_video_games",
+      "note": "Used as broad year context; month-level entries are marked separately."
+    },
+    {
+      "label": "Breakout - Arcade History",
+      "url": "https://www.arcade-history.com/?n=breakout&page=detail&id=322",
+      "note": "Used for Breakout's 1976 arcade context; exact month remains source-dependent."
+    },
+    {
+      "label": "Breakout - The Strong",
+      "url": "https://www.museumofplay.org/games/breakout/",
+      "note": "Used for Breakout's historical significance and Steve Wozniak / Steve Jobs context."
+    },
+    {
+      "label": "Death Race - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Death_Race_(1976_video_game)",
+      "note": "Used for Death Race 1976 controversy context."
+    },
+    {
+      "label": "Death Race - Arcade History",
+      "url": "https://www.arcade-history.com/?n=death-race&page=detail&id=588",
+      "note": "Used for Exidy Death Race release context."
+    },
+    {
+      "label": "Fairchild Channel F - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fairchild_Channel_F",
+      "note": "Used for November 1976 release and programmable cartridge-console context."
+    },
+    {
+      "label": "Fairchild Channel F - CHM",
+      "url": "https://www.computerhistory.org/collections/catalog/102746651",
+      "note": "Used for Channel F hardware and cartridge context."
+    },
+    {
+      "label": "Coleco Telstar - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Coleco_Telstar_series",
+      "note": "Used for Coleco Telstar 1976 dedicated-console context."
+    },
+    {
+      "label": "Mattel Auto Race - Handheld Museum",
+      "url": "http://www.handheldmuseum.com/Mattel/AutoRace.htm",
+      "note": "Used for Mattel Auto Race as an early handheld electronic game; month not asserted."
+    },
+    {
+      "label": "Sea Wolf - Arcade History",
+      "url": "https://www.arcade-history.com/?n=sea-wolf&page=detail&id=2366",
+      "note": "Used for Midway Sea Wolf 1976 arcade context."
+    },
+    {
+      "label": "Night Driver - Atari",
+      "url": "https://atari.com/products/night-driver",
+      "note": "Used as broad Night Driver historical context; exact 1976 month is treated cautiously."
+    },
+    {
+      "label": "BYTE magazine archive",
+      "url": "https://www.trs-80.org/byte.html",
+      "note": "Used for 1976 microcomputer magazine context."
+    },
+    {
+      "label": "Creative Computing archive",
+      "url": "https://archive.org/details/creativecomputing",
+      "note": "Used for 1976 computing/play magazine context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-31",
+  "editorNotes": [
+    "Initial AI-generated research draft for 1976. Sparse months intentionally avoid invented releases.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially.",
+    "Several arcade and hardware entries are year-level or source-conflicted; sourceNote fields mark uncertainty."
+  ]
+}

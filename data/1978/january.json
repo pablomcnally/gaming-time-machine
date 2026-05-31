@@ -1,0 +1,320 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "January 1978",
+    "accession": "GTM-1978-01",
+    "dek": "The year begins before the Space Invaders shockwave is visible, with arcades still local, home consoles still uneven, and microcomputer gaming still mostly a hobbyist paper trail.",
+    "curatorNote": "January is a sparse prelude. The exhibit avoids pretending the year's landmark games were already on every floor.",
+    "statusChips": [
+      "pre-Invaders",
+      "quiet drawer",
+      "arcade rooms",
+      "home consoles"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments from an early videogame year, with broad context separated from confident month-level claims.",
+      "items": [
+        {
+          "date": "January 1978",
+          "title": "The arcade is waiting for its next gravity well",
+          "body": "Space Invaders has not yet remade the public imagination. The arcade is still varied, local and operator-led.",
+          "artifact": "Quiet arcade card",
+          "certainty": "contextual",
+          "sourceNote": "Space Invaders arrives later in 1978."
+        },
+        {
+          "date": "January 1978",
+          "title": "The Atari VCS is still early hardware",
+          "body": "The console exists, but the cartridge-library culture that Space Invaders will accelerate is not here yet.",
+          "artifact": "VCS shelf tag",
+          "certainty": "contextual",
+          "sourceNote": "Atari VCS launched in 1977; killer-app moment comes in 1980."
+        },
+        {
+          "date": "January 1978",
+          "title": "British players are still mostly public players",
+          "body": "For the UK, the exhibit remains amusement halls, pubs, cafes and electronics counters rather than a home software market.",
+          "artifact": "UK arcade label",
+          "certainty": "UK-aware context",
+          "sourceNote": "Pre-home-micro UK context."
+        },
+        {
+          "date": "January 1978",
+          "title": "Microcomputer games live in type-ins and small circles",
+          "body": "Games exist on computers, but the familiar retail software shelf has barely formed.",
+          "artifact": "Typed listing",
+          "certainty": "contextual",
+          "sourceNote": "Creative Computing and BYTE context."
+        },
+        {
+          "date": "January 1978",
+          "title": "The release record is still thin",
+          "body": "Many 1978 games are known confidently by year, but not by month.",
+          "artifact": "Archive caveat",
+          "certainty": "method note",
+          "sourceNote": "Early release-date caveat."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "A deliberately sparse shelf: only releases supported by the sources reviewed are displayed.",
+      "items": [
+        {
+          "date": "January 1978",
+          "title": "No confident month-specific release shelf",
+          "platform": "Archive note",
+          "body": "The sources reviewed do not support a full list of notable videogame releases specifically for January 1978. This drawer stays sparse rather than turning year-level facts into fake launch dates.",
+          "signal": "Intentional gap",
+          "certainty": "intentional gap",
+          "sourceNote": "Early arcade, console and microcomputer records are often year-level, regional, trade-show based, or retrospective."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four objects explaining the month: public cabinets, home consoles, microcomputers and control technology.",
+      "items": [
+        {
+          "title": "Space Invaders arcade board",
+          "body": "By January 1978, Taito's cabinet represents the new centre of arcade gravity, even where local rollout is still uneven.",
+          "specs": [
+            "Intel 8080",
+            "Monochrome display with overlays",
+            "Taito/Midway regional context"
+          ],
+          "certainty": "verified 1978 context",
+          "sourceNote": "Space Invaders hardware and release histories."
+        },
+        {
+          "title": "Atari VCS before its killer app",
+          "body": "The cartridge console exists, but it has not yet received the arcade conversion that will transform its sales.",
+          "specs": [
+            "Cartridge console",
+            "Released 1977",
+            "Space Invaders port arrives 1980"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Atari VCS and Space Invaders VCS context."
+        },
+        {
+          "title": "Trackball control",
+          "body": "Atari Football helps make the trackball a memorable public control surface.",
+          "specs": [
+            "Atari Football",
+            "Physical momentum",
+            "Sports cabinet"
+          ],
+          "certainty": "verified October 1978 context",
+          "sourceNote": "Atari Football sources."
+        },
+        {
+          "title": "Microcomputer magazine culture",
+          "body": "Home computer games still travel through listings, ads and specialist computing magazines more than through ordinary game retail.",
+          "specs": [
+            "BYTE",
+            "Creative Computing",
+            "PCW",
+            "Type-in programs"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Magazine archive context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Paper remains the map: computing, electronics and arcade context before games media fully settles.",
+      "items": [
+        {
+          "title": "BYTE",
+          "month": "January 1978",
+          "publicationName": "BYTE",
+          "issueDate": "January 1978",
+          "headline": "MICROCOMPUTERS AND SMALL SYSTEMS",
+          "coverImage": "/magazine-covers/1978/byte.svg",
+          "coverImageAlt": "Reconstructed placeholder for BYTE, January 1978.",
+          "curatorNote": "BYTE represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "body": "BYTE represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        },
+        {
+          "title": "CREATIVE COMPUTING",
+          "month": "January 1978",
+          "publicationName": "CREATIVE COMPUTING",
+          "issueDate": "January 1978",
+          "headline": "PROGRAMS, GAMES, IDEAS",
+          "coverImage": "/magazine-covers/1978/creative-computing.svg",
+          "coverImageAlt": "Reconstructed placeholder for CREATIVE COMPUTING, January 1978.",
+          "curatorNote": "CREATIVE COMPUTING represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "body": "CREATIVE COMPUTING represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        },
+        {
+          "title": "PERSONAL COMPUTER WORLD",
+          "month": "January 1978",
+          "publicationName": "PERSONAL COMPUTER WORLD",
+          "issueDate": "January 1978",
+          "headline": "UK MICROCOMPUTER SHELF",
+          "coverImage": "/magazine-covers/1978/personal-computer-world.svg",
+          "coverImageAlt": "Reconstructed placeholder for PERSONAL COMPUTER WORLD, January 1978.",
+          "curatorNote": "PERSONAL COMPUTER WORLD represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "body": "PERSONAL COMPUTER WORLD represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        },
+        {
+          "title": "PRACTICAL ELECTRONICS",
+          "month": "January 1978",
+          "publicationName": "PRACTICAL ELECTRONICS",
+          "issueDate": "January 1978",
+          "headline": "UK ELECTRONICS CULTURE",
+          "coverImage": "/magazine-covers/1978/practical-electronics.svg",
+          "coverImageAlt": "Reconstructed placeholder for PRACTICAL ELECTRONICS, January 1978.",
+          "curatorNote": "PRACTICAL ELECTRONICS represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "body": "PRACTICAL ELECTRONICS represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Networked play exists at the edges, but ordinary players live in a world of paper, cabinets and local knowledge.",
+      "items": [
+        {
+          "title": "Online life was not the ordinary visitor experience",
+          "body": "For most players in January 1978, games are discovered through arcades, shops, magazines, clubs and word of mouth rather than online services.",
+          "certainty": "contextual",
+          "sourceNote": "Included to avoid projecting later online habits backward."
+        },
+        {
+          "title": "Institutional networks remain the edge case",
+          "body": "PLATO, university systems and early networked computing matter historically, but they are not normal UK consumer gaming.",
+          "certainty": "contextual",
+          "sourceNote": "PLATO and early networked game context."
+        },
+        {
+          "title": "Paper is still the search engine",
+          "body": "Magazines, adverts, catalogues, manuals and club newsletters explain what machines and games exist.",
+          "certainty": "contextual",
+          "sourceNote": "BYTE, Creative Computing, PCW and electronics-magazine context."
+        },
+        {
+          "title": "The arcade is the live feed",
+          "body": "High scores, queues and overheard advice make the cabinet a public information system.",
+          "certainty": "contextual",
+          "sourceNote": "Period arcade culture context."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A young medium, a patchy record, and a future split between public machines and home hardware.",
+      "items": [
+        {
+          "title": "The future was still public",
+          "body": "The arcade suddenly feels invaded: one cabinet can pull a room into a shared rhythm of shots, shields and descending pressure."
+        },
+        {
+          "title": "The home shelf was changing shape",
+          "body": "Home games still feel smaller than the public machine. The VCS is promising, but the arcade owns the spectacle."
+        },
+        {
+          "title": "Britain saw the edges first",
+          "body": "In Britain, this is a public memory first: cafes, arcades, seaside amusements, coins and the sound of aliens advancing."
+        },
+        {
+          "title": "The record is still uneven",
+          "body": "Exact dates are often regional, trade-led or retrospective. The exhibit keeps month-level certainty separate from year-level context."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "1978 in video games",
+      "url": "https://en.wikipedia.org/wiki/1978_in_video_games",
+      "note": "Used as broad year context; specific dates are treated cautiously."
+    },
+    {
+      "label": "Space Invaders",
+      "url": "https://en.wikipedia.org/wiki/Space_Invaders",
+      "note": "Used for Space Invaders 1978 context and April publication / wider release caveats."
+    },
+    {
+      "label": "Space Invaders release context",
+      "url": "https://www.firstversions.com/2015/05/space-invaders.html",
+      "note": "Used for Japan June / North America limited July / October-style release caveats."
+    },
+    {
+      "label": "Space Invaders flyer",
+      "url": "https://flyers.arcade-museum.com/videogames/show/979",
+      "note": "Used for 1978 arcade-flyer context."
+    },
+    {
+      "label": "Atari Football - Arcade History",
+      "url": "https://www.arcade-history.com/game/139/atari-football-2-player-model",
+      "note": "Used for October 1978 Atari Football and trackball context."
+    },
+    {
+      "label": "Atari Football - MobyGames",
+      "url": "https://www.mobygames.com/game/121783/atari-football/",
+      "note": "Used for October 1978 release listing."
+    },
+    {
+      "label": "Gee Bee",
+      "url": "https://en.wikipedia.org/wiki/Gee_Bee_(video_game)",
+      "note": "Used for Namco's October 1978 first arcade game context."
+    },
+    {
+      "label": "Fire Truck",
+      "url": "https://en.wikipedia.org/wiki/Fire_Truck_(video_game)",
+      "note": "Used for Atari Fire Truck 1978 context."
+    },
+    {
+      "label": "Avalanche",
+      "url": "https://en.wikipedia.org/wiki/Avalanche_(video_game)",
+      "note": "Used for Atari Avalanche 1978 context."
+    },
+    {
+      "label": "Video Pinball series",
+      "url": "https://en.wikipedia.org/wiki/Video_Pinball_series",
+      "note": "Used for Atari dedicated Video Pinball and arcade/video-pinball context; exact model timing is marked cautiously."
+    },
+    {
+      "label": "BYTE magazine archive",
+      "url": "https://www.trs-80.org/byte.html",
+      "note": "Used for microcomputer magazine context."
+    },
+    {
+      "label": "Creative Computing archive",
+      "url": "https://archive.org/details/creativecomputing",
+      "note": "Used for type-in/programming culture context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-31",
+  "editorNotes": [
+    "Initial AI-generated research draft for 1978. Sparse months intentionally avoid invented releases.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially.",
+    "Several arcade, console and computer-game entries are year-level or source-conflicted; sourceNote fields mark uncertainty."
+  ]
+}

@@ -10,6 +10,42 @@ import september1975 from "../data/1975/september.json";
 import october1975 from "../data/1975/october.json";
 import november1975 from "../data/1975/november.json";
 import december1975 from "../data/1975/december.json";
+import january1976 from "../data/1976/january.json";
+import february1976 from "../data/1976/february.json";
+import march1976 from "../data/1976/march.json";
+import april1976 from "../data/1976/april.json";
+import may1976 from "../data/1976/may.json";
+import june1976 from "../data/1976/june.json";
+import july1976 from "../data/1976/july.json";
+import august1976 from "../data/1976/august.json";
+import september1976 from "../data/1976/september.json";
+import october1976 from "../data/1976/october.json";
+import november1976 from "../data/1976/november.json";
+import december1976 from "../data/1976/december.json";
+import january1977 from "../data/1977/january.json";
+import february1977 from "../data/1977/february.json";
+import march1977 from "../data/1977/march.json";
+import april1977 from "../data/1977/april.json";
+import may1977 from "../data/1977/may.json";
+import june1977 from "../data/1977/june.json";
+import july1977 from "../data/1977/july.json";
+import august1977 from "../data/1977/august.json";
+import september1977 from "../data/1977/september.json";
+import october1977 from "../data/1977/october.json";
+import november1977 from "../data/1977/november.json";
+import december1977 from "../data/1977/december.json";
+import january1978 from "../data/1978/january.json";
+import february1978 from "../data/1978/february.json";
+import march1978 from "../data/1978/march.json";
+import april1978 from "../data/1978/april.json";
+import may1978 from "../data/1978/may.json";
+import june1978 from "../data/1978/june.json";
+import july1978 from "../data/1978/july.json";
+import august1978 from "../data/1978/august.json";
+import september1978 from "../data/1978/september.json";
+import october1978 from "../data/1978/october.json";
+import november1978 from "../data/1978/november.json";
+import december1978 from "../data/1978/december.json";
 import january1979 from "../data/1979/january.json";
 import february1979 from "../data/1979/february.json";
 import march1979 from "../data/1979/march.json";
@@ -22,6 +58,18 @@ import september1979 from "../data/1979/september.json";
 import october1979 from "../data/1979/october.json";
 import november1979 from "../data/1979/november.json";
 import december1979 from "../data/1979/december.json";
+import january1980 from "../data/1980/january.json";
+import february1980 from "../data/1980/february.json";
+import march1980 from "../data/1980/march.json";
+import april1980 from "../data/1980/april.json";
+import may1980 from "../data/1980/may.json";
+import june1980 from "../data/1980/june.json";
+import july1980 from "../data/1980/july.json";
+import august1980 from "../data/1980/august.json";
+import september1980 from "../data/1980/september.json";
+import october1980 from "../data/1980/october.json";
+import november1980 from "../data/1980/november.json";
+import december1980 from "../data/1980/december.json";
 import january1982 from "../data/1982/january.json";
 import february1982 from "../data/1982/february.json";
 import march1982 from "../data/1982/march.json";
@@ -119,6 +167,48 @@ export const EXHIBIT_MANIFEST = {
     november: november1975,
     december: december1975
   },
+  1976: {
+    january: january1976,
+    february: february1976,
+    march: march1976,
+    april: april1976,
+    may: may1976,
+    june: june1976,
+    july: july1976,
+    august: august1976,
+    september: september1976,
+    october: october1976,
+    november: november1976,
+    december: december1976
+  },
+  1977: {
+    january: january1977,
+    february: february1977,
+    march: march1977,
+    april: april1977,
+    may: may1977,
+    june: june1977,
+    july: july1977,
+    august: august1977,
+    september: september1977,
+    october: october1977,
+    november: november1977,
+    december: december1977
+  },
+  1978: {
+    january: january1978,
+    february: february1978,
+    march: march1978,
+    april: april1978,
+    may: may1978,
+    june: june1978,
+    july: july1978,
+    august: august1978,
+    september: september1978,
+    october: october1978,
+    november: november1978,
+    december: december1978
+  },
   1979: {
     january: january1979,
     february: february1979,
@@ -132,6 +222,20 @@ export const EXHIBIT_MANIFEST = {
     october: october1979,
     november: november1979,
     december: december1979
+  },
+  1980: {
+    january: january1980,
+    february: february1980,
+    march: march1980,
+    april: april1980,
+    may: may1980,
+    june: june1980,
+    july: july1980,
+    august: august1980,
+    september: september1980,
+    october: october1980,
+    november: november1980,
+    december: december1980
   },
   1982: {
     january: january1982,

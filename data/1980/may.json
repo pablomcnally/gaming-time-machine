@@ -1,0 +1,343 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "May 1980",
+    "accession": "GTM-1980-05",
+    "dek": "May is one of 1980's great museum drawers: Pac-Man begins location testing, and Mystery House brings pictures to the home-computer adventure.",
+    "curatorNote": "May separates Pac-Man's location-test date from its later full release, and treats Mystery House as a confident Apple II anchor.",
+    "statusChips": [
+      "Pac-Man",
+      "Mystery House",
+      "Apple II",
+      "maze character"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments from an early videogame year, with broad context separated from confident month-level claims.",
+      "items": [
+        {
+          "date": "May 5, 1980",
+          "title": "Mystery House is released for Apple II",
+          "body": "Roberta and Ken Williams' game combines text adventure with simple graphics and helps begin Sierra's lineage.",
+          "artifact": "Apple II disk",
+          "certainty": "verified date",
+          "sourceNote": "Mystery House sources cite May 5, 1980."
+        },
+        {
+          "date": "May 22, 1980",
+          "title": "Puck Man begins location testing in Shibuya",
+          "body": "Namco's maze game appears in location testing, though full Japanese release is usually placed in July.",
+          "artifact": "Location-test card",
+          "certainty": "verified date with release caveat",
+          "sourceNote": "Pac-Man sources cite May 22 location test and July full release."
+        },
+        {
+          "date": "May 1980",
+          "title": "The arcade character arrives differently",
+          "body": "Pac-Man is not another space shooter. It has a name, a body, a maze and enemies that feel like personalities.",
+          "artifact": "Yellow character case",
+          "certainty": "interpretive context",
+          "sourceNote": "Pac-Man design context."
+        },
+        {
+          "date": "May 1980",
+          "title": "Computer adventures gain a visual room",
+          "body": "Mystery House makes the Apple II screen feel like illustrated story space.",
+          "artifact": "Line-art room",
+          "certainty": "contextual",
+          "sourceNote": "Mystery House historical context."
+        },
+        {
+          "date": "May 1980",
+          "title": "UK players glimpse two futures",
+          "body": "One future is the arcade character; the other is the home computer adventure.",
+          "artifact": "Two futures plaque",
+          "certainty": "UK-aware context",
+          "sourceNote": "Regional framing."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "A deliberately sparse shelf: only releases supported by the sources reviewed are displayed.",
+      "items": [
+        {
+          "date": "May 5, 1980",
+          "title": "Mystery House",
+          "platform": "Apple II",
+          "body": "Roberta and Ken Williams' illustrated adventure, often treated as the first graphical adventure game.",
+          "signal": "Graphic adventure beginning",
+          "certainty": "verified date in MobyGames and common references",
+          "sourceNote": "Mystery House sources list May 5, 1980."
+        },
+        {
+          "date": "May/July 1980",
+          "title": "Pac-Man / Puck Man",
+          "platform": "Arcade",
+          "body": "Namco's maze character game begins in Japan through May location testing and reaches wider Japanese release in July.",
+          "signal": "Character arcade landmark",
+          "certainty": "May location test; July full Japan release",
+          "sourceNote": "Pac-Man sources cite May 22 location test and July nationwide release."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four objects explaining the month: public cabinets, home consoles, microcomputers and control technology.",
+      "items": [
+        {
+          "title": "Atari VCS as home arcade",
+          "body": "By May 1980, Atari's console can plausibly sell itself as a way to bring a famous cabinet home.",
+          "specs": [
+            "Space Invaders cartridge",
+            "Joystick controls",
+            "Cartridge library"
+          ],
+          "certainty": "verified 1980 context",
+          "sourceNote": "Atari VCS Space Invaders and Adventure sources."
+        },
+        {
+          "title": "Namco Pac-Man arcade board",
+          "body": "Pac-Man makes a maze, character and soundscape into one of the decade's most durable objects.",
+          "specs": [
+            "Namco arcade",
+            "Maze game",
+            "Character identity"
+          ],
+          "certainty": "verified 1980 context",
+          "sourceNote": "Pac-Man release histories."
+        },
+        {
+          "title": "Apple II adventure platform",
+          "body": "Mystery House shows the Apple II as a storytelling and graphics machine, not just a hobby computer.",
+          "specs": [
+            "Apple II",
+            "Hi-res graphics",
+            "Disk software"
+          ],
+          "certainty": "verified May 1980 context",
+          "sourceNote": "Mystery House sources."
+        },
+        {
+          "title": "Vector arcade cabinets",
+          "body": "Battlezone's wireframe view points toward first-person spectacle in the arcade.",
+          "specs": [
+            "Vector display",
+            "Periscope-style cabinet",
+            "Atari arcade"
+          ],
+          "certainty": "verified 1980 context",
+          "sourceNote": "Battlezone sources."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Paper remains the map: computing, electronics and arcade context before games media fully settles.",
+      "items": [
+        {
+          "title": "BYTE",
+          "month": "May 1980",
+          "publicationName": "BYTE",
+          "issueDate": "May 1980",
+          "headline": "PERSONAL COMPUTER SOFTWARE",
+          "coverImage": "/magazine-covers/1980/byte.svg",
+          "coverImageAlt": "Reconstructed placeholder for BYTE, May 1980.",
+          "curatorNote": "BYTE represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "body": "BYTE represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        },
+        {
+          "title": "CREATIVE COMPUTING",
+          "month": "May 1980",
+          "publicationName": "CREATIVE COMPUTING",
+          "issueDate": "May 1980",
+          "headline": "GAMES, PROGRAMS, ADVENTURES",
+          "coverImage": "/magazine-covers/1980/creative-computing.svg",
+          "coverImageAlt": "Reconstructed placeholder for CREATIVE COMPUTING, May 1980.",
+          "curatorNote": "CREATIVE COMPUTING represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "body": "CREATIVE COMPUTING represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        },
+        {
+          "title": "PERSONAL COMPUTER WORLD",
+          "month": "May 1980",
+          "publicationName": "PERSONAL COMPUTER WORLD",
+          "issueDate": "May 1980",
+          "headline": "UK MICROCOMPUTER SHELF",
+          "coverImage": "/magazine-covers/1980/personal-computer-world.svg",
+          "coverImageAlt": "Reconstructed placeholder for PERSONAL COMPUTER WORLD, May 1980.",
+          "curatorNote": "PERSONAL COMPUTER WORLD represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "body": "PERSONAL COMPUTER WORLD represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        },
+        {
+          "title": "PRE-C&VG CONTEXT",
+          "month": "May 1980",
+          "publicationName": "PRE-C&VG CONTEXT",
+          "issueDate": "May 1980",
+          "headline": "ARCADES BEFORE THE UK GAMES PRESS",
+          "coverImage": "/magazine-covers/1980/computer-and-video-games-context.svg",
+          "coverImageAlt": "Reconstructed placeholder for PRE-C&VG CONTEXT, May 1980.",
+          "curatorNote": "PRE-C&VG CONTEXT represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "body": "PRE-C&VG CONTEXT represents the paper network around early games: computing, electronics, arcades and the pre- or early-specialist games press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Networked play exists at the edges, but ordinary players live in a world of paper, cabinets and local knowledge.",
+      "items": [
+        {
+          "title": "Online life was not the ordinary visitor experience",
+          "body": "For most players in May 1980, games are discovered through arcades, shops, magazines, clubs and word of mouth rather than online services.",
+          "certainty": "contextual",
+          "sourceNote": "Included to avoid projecting later online habits backward."
+        },
+        {
+          "title": "Institutional networks remain the edge case",
+          "body": "PLATO, university systems and early networked computing matter historically, but they are not normal UK consumer gaming.",
+          "certainty": "contextual",
+          "sourceNote": "PLATO and early networked game context."
+        },
+        {
+          "title": "Paper is still the search engine",
+          "body": "Magazines, adverts, catalogues, manuals and club newsletters explain what machines and games exist.",
+          "certainty": "contextual",
+          "sourceNote": "BYTE, Creative Computing, PCW and electronics-magazine context."
+        },
+        {
+          "title": "The arcade is the live feed",
+          "body": "High scores, queues and overheard advice make the cabinet a public information system.",
+          "certainty": "contextual",
+          "sourceNote": "Period arcade culture context."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A young medium, a patchy record, and a future split between public machines and home hardware.",
+      "items": [
+        {
+          "title": "The future was still public",
+          "body": "The arcade feels crowded with futures: yellow characters, missile trails, wireframe tanks, talking robots and old invaders still earning coins."
+        },
+        {
+          "title": "The home shelf was changing shape",
+          "body": "The living room is no longer just Pong. Cartridges can now promise arcade names, secret worlds and a shelf that grows."
+        },
+        {
+          "title": "Britain saw the edges first",
+          "body": "Britain is on the edge of the home-micro era, but the arcade still feels like the brightest room in gaming."
+        },
+        {
+          "title": "The record is still uneven",
+          "body": "Exact dates are often regional, trade-led or retrospective. The exhibit keeps month-level certainty separate from year-level context."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "1980 in video games",
+      "url": "https://en.wikipedia.org/wiki/1980_in_video_games",
+      "note": "Used as broad year context; month-level claims are supported separately where possible."
+    },
+    {
+      "label": "Space Invaders Atari VCS - Atari Archive",
+      "url": "https://www.atariarchive.org/blog/space-invaders-march-1980/",
+      "note": "Used for March 1980 Atari VCS Space Invaders and early-1980 advertising caveats."
+    },
+    {
+      "label": "Adventure",
+      "url": "https://en.wikipedia.org/wiki/Adventure_(1980_video_game)",
+      "note": "Used for March 1980 Adventure and Easter egg context."
+    },
+    {
+      "label": "Pac-Man",
+      "url": "https://en.wikipedia.org/wiki/Pac-Man",
+      "note": "Used for May 22 location test, June private showing and July full Japan release caveats."
+    },
+    {
+      "label": "Pac-Man - VGMdb",
+      "url": "https://vgmdb.net/product/10476",
+      "note": "Used for May 22, 1980 Puck-Man listing."
+    },
+    {
+      "label": "Mystery House",
+      "url": "https://en.wikipedia.org/wiki/Mystery_House",
+      "note": "Used for May 5, 1980 Mystery House release."
+    },
+    {
+      "label": "Mystery House - MobyGames",
+      "url": "https://www.mobygames.com/game/9312/hi-res-adventure-1-mystery-house/",
+      "note": "Used for May 5, 1980 Apple II release listing."
+    },
+    {
+      "label": "Battlezone",
+      "url": "https://en.wikipedia.org/wiki/Battlezone_(1980_video_game)",
+      "note": "Used for 1980 Atari Battlezone context; November appears in several summaries."
+    },
+    {
+      "label": "Berzerk - Arcade History",
+      "url": "https://www.arcade-history.com/game/236/berzerk",
+      "note": "Used for November 12, 1980 Berzerk release; MobyGames differs with December."
+    },
+    {
+      "label": "Berzerk - MobyGames",
+      "url": "https://www.mobygames.com/game/8847/berzerk/",
+      "note": "Used for December 1980 alternate listing caveat."
+    },
+    {
+      "label": "Zork",
+      "url": "https://en.wikipedia.org/wiki/Zork",
+      "note": "Used for December 1980 TRS-80 commercial Zork release context."
+    },
+    {
+      "label": "Zork I - CHM",
+      "url": "https://www.computerhistory.org/revolution/computer-games/16/196/824",
+      "note": "Used for Zork I historical context."
+    },
+    {
+      "label": "Rogue",
+      "url": "https://en.wikipedia.org/wiki/Rogue_(video_game)",
+      "note": "Used for 1980 Rogue context; exact month not asserted."
+    },
+    {
+      "label": "Rogue - MobyGames",
+      "url": "https://www.mobygames.com/game/1743/rogue/",
+      "note": "Used for 1980 PLATO/Unix development context."
+    },
+    {
+      "label": "BYTE December 1980",
+      "url": "https://www.worldradiohistory.com/Archive-Byte/80s/Byte-1980-12.pdf",
+      "note": "Used for period magazine/computer context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-31",
+  "editorNotes": [
+    "Initial AI-generated research draft for 1980. Sparse months intentionally avoid invented releases.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially.",
+    "Several arcade, console and computer-game entries are year-level or source-conflicted; sourceNote fields mark uncertainty."
+  ]
+}

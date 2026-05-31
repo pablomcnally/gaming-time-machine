@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">PRE-C&VG CONTEXT 1980 reconstructed magazine cover placeholder</title>
+  <desc id="desc">A museum-style reconstructed placeholder cover for PRE-C&VG CONTEXT, used until a verified scan is added.</desc>
+  <rect width="900" height="1200" fill="#f3efe4"/>
+  <rect x="52" y="52" width="796" height="1096" fill="none" stroke="#a83232" stroke-width="4"/>
+  <rect x="92" y="126" width="716" height="14" fill="#a83232" opacity="0.86"/>
+  <text x="450" y="250" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="700" fill="#a83232">PRE-C&VG CONTEXT</text>
+  <text x="450" y="318" text-anchor="middle" font-family="Courier New, monospace" font-size="22" letter-spacing="5" fill="#a83232">ARCADES BEFORE THE UK GAMES PRESS</text>
+  <line x1="160" y1="430" x2="740" y2="430" stroke="#a83232" stroke-width="3" opacity="0.65"/>
+  <circle cx="450" cy="612" r="120" fill="none" stroke="#a83232" stroke-width="10" opacity="0.84"/>
+  <path d="M330 690 H570 M380 560 H520 M450 492 V732" stroke="#a83232" stroke-width="9" opacity="0.75"/>
+  <path d="M250 830 H650 M250 885 H650 M250 940 H650" stroke="#a83232" stroke-width="5" opacity="0.45"/>
+  <text x="450" y="1060" text-anchor="middle" font-family="Courier New, monospace" font-size="28" letter-spacing="5" fill="#a83232">1980 ARCHIVE COPY</text>
+</svg>

@@ -1,0 +1,319 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "August 1977",
+    "accession": "GTM-1977-08",
+    "dek": "August is the last quiet drawer before Atari's VCS reaches the market.",
+    "curatorNote": "The exhibit keeps August as anticipation, not a launch.",
+    "statusChips": [
+      "pre-VCS",
+      "anticipation",
+      "quiet drawer",
+      "home cartridges"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments from a very early videogame year, with broad context separated from confident month-level claims.",
+      "items": [
+        {
+          "date": "August 1977",
+          "title": "The Atari VCS is almost here",
+          "body": "The cartridge console that will define the early home game market is one month away in common launch timelines.",
+          "artifact": "Launch tag",
+          "certainty": "forward context",
+          "sourceNote": "Atari VCS sources place launch in September 1977."
+        },
+        {
+          "date": "August 1977",
+          "title": "RCA and Fairchild show the category's rough edges",
+          "body": "The VCS is entering a market that already has cartridge experiments but no settled winner.",
+          "artifact": "Cartridge comparison",
+          "certainty": "contextual",
+          "sourceNote": "RCA Studio II and Channel F context."
+        },
+        {
+          "date": "August 1977",
+          "title": "Arcade driving technology is still progressing",
+          "body": "Super Bug belongs to 1977 and will help make scrolling driving more convincing.",
+          "artifact": "Road scroll label",
+          "certainty": "year-level context",
+          "sourceNote": "Super Bug sources place it in 1977."
+        },
+        {
+          "date": "August 1977",
+          "title": "The UK is still waiting for a defining home machine",
+          "body": "The living-room console story is not yet a normal British consumer rhythm.",
+          "artifact": "UK waiting label",
+          "certainty": "UK-aware context",
+          "sourceNote": "Regional framing."
+        },
+        {
+          "date": "August 1977",
+          "title": "Release dating remains uneven",
+          "body": "Some 1977 arcade machines are known by year but not a confident month.",
+          "artifact": "Date caveat",
+          "certainty": "method note",
+          "sourceNote": "Early arcade release-date caveat."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "A deliberately sparse shelf: only releases supported by the sources reviewed are displayed.",
+      "items": [
+        {
+          "date": "August 1977",
+          "title": "No confident month-specific release shelf",
+          "platform": "Archive note",
+          "body": "The sources reviewed do not support a full list of videogame releases specifically for August 1977. This drawer stays sparse rather than turning year-level facts into fake launch dates.",
+          "signal": "Intentional gap",
+          "certainty": "intentional gap",
+          "sourceNote": "Early console, arcade and computer-game records are often year-level, regional, mail-order, trade-show based, or retrospective."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four objects explaining the month: public cabinets, home consoles, cartridges, handheld electronics and computing culture.",
+      "items": [
+        {
+          "title": "Atari Video Computer System",
+          "body": "By August 1977, the VCS is the hardware object that makes cartridges feel like a home library rather than a technical curiosity.",
+          "specs": [
+            "Released September 1977",
+            "Cartridges",
+            "Joystick and paddle controls"
+          ],
+          "certainty": "verified launch context",
+          "sourceNote": "Atari VCS sources."
+        },
+        {
+          "title": "RCA Studio II",
+          "body": "Historically important because it is early; commercially vulnerable because its black-and-white keypad design is quickly outpaced.",
+          "specs": [
+            "Released January 1977",
+            "Cartridges",
+            "Black-and-white output"
+          ],
+          "certainty": "verified month",
+          "sourceNote": "RCA Studio II sources."
+        },
+        {
+          "title": "Nintendo Color TV-Game",
+          "body": "Nintendo's first home-console line is dedicated and Japan-only, but it begins a major hardware story.",
+          "specs": [
+            "Japan",
+            "Released June 1977",
+            "Dedicated TV games"
+          ],
+          "certainty": "verified month",
+          "sourceNote": "Color TV-Game sources."
+        },
+        {
+          "title": "Vector arcade hardware",
+          "body": "Space Wars shows the arcade moving toward sharp line-drawn images that will become central to later classics.",
+          "specs": [
+            "Vector display",
+            "Coin-op cabinet",
+            "Space combat"
+          ],
+          "certainty": "verified year",
+          "sourceNote": "Space Wars sources."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "There is still no normal videogame magazine shelf. Electronics and computing magazines are the map.",
+      "items": [
+        {
+          "title": "BYTE",
+          "month": "August 1977",
+          "publicationName": "BYTE",
+          "issueDate": "August 1977",
+          "headline": "MICROCOMPUTER SYSTEMS",
+          "coverImage": "/magazine-covers/1977/byte.svg",
+          "coverImageAlt": "Reconstructed placeholder for BYTE, August 1977.",
+          "curatorNote": "BYTE represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "body": "BYTE represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        },
+        {
+          "title": "CREATIVE COMPUTING",
+          "month": "August 1977",
+          "publicationName": "CREATIVE COMPUTING",
+          "issueDate": "August 1977",
+          "headline": "PROGRAMS, EDUCATION, PLAY",
+          "coverImage": "/magazine-covers/1977/creative-computing.svg",
+          "coverImageAlt": "Reconstructed placeholder for CREATIVE COMPUTING, August 1977.",
+          "curatorNote": "CREATIVE COMPUTING represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "body": "CREATIVE COMPUTING represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        },
+        {
+          "title": "POPULAR ELECTRONICS",
+          "month": "August 1977",
+          "publicationName": "POPULAR ELECTRONICS",
+          "issueDate": "August 1977",
+          "headline": "CONSOLES, KITS, CIRCUITS",
+          "coverImage": "/magazine-covers/1977/popular-electronics.svg",
+          "coverImageAlt": "Reconstructed placeholder for POPULAR ELECTRONICS, August 1977.",
+          "curatorNote": "POPULAR ELECTRONICS represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "body": "POPULAR ELECTRONICS represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        },
+        {
+          "title": "PRACTICAL ELECTRONICS",
+          "month": "August 1977",
+          "publicationName": "PRACTICAL ELECTRONICS",
+          "issueDate": "August 1977",
+          "headline": "UK ELECTRONICS SHELF",
+          "coverImage": "/magazine-covers/1977/practical-electronics.svg",
+          "coverImageAlt": "Reconstructed placeholder for PRACTICAL ELECTRONICS, August 1977.",
+          "curatorNote": "PRACTICAL ELECTRONICS represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "body": "PRACTICAL ELECTRONICS represents the paper network around early games: electronics, hobby computing, type-ins and the pre-specialist videogame press world.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Placeholder cover art should be replaced with verified/licensed scans before final publication."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Networked play exists at the edges, but ordinary players live in a world of paper, cabinets and local knowledge.",
+      "items": [
+        {
+          "title": "Online play was not a home visitor experience",
+          "body": "For most players in August 1977, game discovery happened through arcades, shops, magazines, clubs and word of mouth. Networked play existed at institutional edges, not as a normal domestic habit.",
+          "certainty": "contextual",
+          "sourceNote": "Included to avoid projecting later internet culture backward."
+        },
+        {
+          "title": "PLATO remains the hidden network",
+          "body": "PLATO's games, messaging and shared terminals belong to the background of the era, but not to everyday UK consumer play.",
+          "certainty": "verified context",
+          "sourceNote": "PLATO context from early computer-game histories."
+        },
+        {
+          "title": "Paper is still the search engine",
+          "body": "Magazines, adverts, catalogues and club newsletters are how players and hobbyists learn what exists.",
+          "certainty": "contextual",
+          "sourceNote": "BYTE, Creative Computing and electronics-magazine context."
+        },
+        {
+          "title": "The arcade is the social feed",
+          "body": "Scores, queues and overheard advice make the cabinet itself a public information system.",
+          "certainty": "contextual",
+          "sourceNote": "Period arcade culture context."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A young medium, a patchy record, and a future still split between public machines and experimental home hardware.",
+      "items": [
+        {
+          "title": "The future was still public",
+          "body": "Arcades still feel richer than home, but home hardware is becoming more serious and more legible."
+        },
+        {
+          "title": "The home shelf was changing shape",
+          "body": "The cartridge is the key change: a game can now be a separate object, a small plastic promise that the machine has a future."
+        },
+        {
+          "title": "Britain saw the edges first",
+          "body": "For a UK visitor, the story is delayed and uneven: historically important hardware appears before it becomes a normal local childhood memory."
+        },
+        {
+          "title": "The record is patchy because the medium is young",
+          "body": "There are few clean launch days, few consumer reviews and no settled games press. The museum label often has to say: year-level, regional, uncertain."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "1977 in video games",
+      "url": "https://en.wikipedia.org/wiki/1977_in_video_games",
+      "note": "Used as broad year context; month-level entries are marked separately."
+    },
+    {
+      "label": "Atari VCS - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Atari_2600",
+      "note": "Used for September 1977 Atari VCS launch and launch-library context."
+    },
+    {
+      "label": "Atari VCS - The Strong",
+      "url": "https://www.museumofplay.org/games/atari-video-computer-system/",
+      "note": "Used for Atari VCS historical significance."
+    },
+    {
+      "label": "Combat - AtariProtos",
+      "url": "https://www.atariprotos.com/2600/software/combat/combat.htm",
+      "note": "Used for Combat launch-game context."
+    },
+    {
+      "label": "RCA Studio II - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/RCA_Studio_II",
+      "note": "Used for January 1977 RCA Studio II release context."
+    },
+    {
+      "label": "Nintendo Color TV-Game - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Color_TV-Game",
+      "note": "Used for Nintendo Color TV-Game 6 and 15 June 1977 context."
+    },
+    {
+      "label": "Super Bug - Arcade History",
+      "url": "https://www.arcade-history.com/?n=super-bug&page=detail&id=2806",
+      "note": "Used for Super Bug 1977 arcade context."
+    },
+    {
+      "label": "Space Wars - Arcade History",
+      "url": "https://www.arcade-history.com/?n=space-wars&page=detail&id=2515",
+      "note": "Used for Cinematronics Space Wars and vector arcade context."
+    },
+    {
+      "label": "Bally Astrocade - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bally_Astrocade",
+      "note": "Used for 1977 mail-order/limited-availability caveat and wider 1978 context."
+    },
+    {
+      "label": "Mattel Football - Handheld Museum",
+      "url": "http://www.handheldmuseum.com/Mattel/FB.htm",
+      "note": "Used for 1977 handheld sports context; exact month kept cautious."
+    },
+    {
+      "label": "BYTE magazine archive",
+      "url": "https://www.trs-80.org/byte.html",
+      "note": "Used for 1977 microcomputer magazine context."
+    },
+    {
+      "label": "Creative Computing archive",
+      "url": "https://archive.org/details/creativecomputing",
+      "note": "Used for 1977 computing/play magazine context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-31",
+  "editorNotes": [
+    "Initial AI-generated research draft for 1977. Sparse months intentionally avoid invented releases.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially.",
+    "Several arcade and hardware entries are year-level or source-conflicted; sourceNote fields mark uncertainty."
+  ]
+}
