@@ -1,0 +1,352 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "March 1981",
+    "accession": "GTM-1981-03",
+    "dek": "Sinclair's ZX81 changes the price of entry in Britain, while arcades keep swallowing coins.",
+    "curatorNote": "March is a key UK hardware month because the ZX81 makes computing feel reachable.",
+    "statusChips": [
+      "ZX81",
+      "Scramble",
+      "UK micro",
+      "cheap computing"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments, with broad context separated from confident month-level claims.",
+      "items": [
+        {
+          "date": "March 5, 1981",
+          "title": "The Sinclair ZX81 launches in the UK",
+          "body": "A low-cost computer with 1KB of RAM puts programming within reach of many British homes.",
+          "artifact": "ZX81 launch card",
+          "certainty": "verified date",
+          "sourceNote": "Timex/Sinclair and other summaries cite 5 March 1981."
+        },
+        {
+          "date": "March 1981",
+          "title": "Scramble appears in US arcade listings",
+          "body": "Konami's side-scrolling shooter points toward longer, staged arcade journeys.",
+          "artifact": "Side-scroll strip",
+          "certainty": "source-cited date",
+          "sourceNote": "Arcade-History cites 16 March 1981 for the Stern US release."
+        },
+        {
+          "date": "March 1981",
+          "title": "The cassette becomes a games medium",
+          "body": "For ZX81 owners, storage and games increasingly mean ordinary tape recorders and patience.",
+          "artifact": "Cassette lead",
+          "certainty": "contextual",
+          "sourceNote": "ZX81 storage context."
+        },
+        {
+          "date": "March 1981",
+          "title": "A British bedroom future becomes visible",
+          "body": "The ZX81 is not a games powerhouse, but it helps create the audience that will soon make Spectrum gaming explode.",
+          "artifact": "Bedroom desk",
+          "certainty": "UK-aware interpretation",
+          "sourceNote": "UK home-computer context."
+        },
+        {
+          "date": "March 1981",
+          "title": "Arcade and home computing feel like separate worlds",
+          "body": "One lives in public noise; the other begins as a silent television and a membrane keyboard.",
+          "artifact": "Two-room exhibit",
+          "certainty": "interpretive context",
+          "sourceNote": "Period cultural framing."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "A shelf led by month-specific anchors, with year-level context clearly labelled.",
+      "items": [
+        {
+          "date": "March 1981",
+          "title": "Scramble",
+          "platform": "Arcade",
+          "body": "Konami's forced-scroll shooter helps define the language of side-scrolling arcade stages.",
+          "signal": "Scrolling shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "US date cited by Arcade-History; Japan timing is often given more broadly as 1981."
+        },
+        {
+          "date": "February 1981",
+          "title": "Gorf",
+          "platform": "Arcade",
+          "body": "Midway's multi-stage shooter shows the arcade market turning hit formulas into theatrical cabinets.",
+          "signal": "Multi-stage arcade",
+          "certainty": "year-level or adjacent context",
+          "sourceNote": "Month is widely cited for the US arcade release."
+        },
+        {
+          "date": "June 1981",
+          "title": "Ultima",
+          "platform": "Apple II",
+          "body": "Richard Garriott's fantasy computer RPG begins a series that will shape PC role-playing for decades.",
+          "signal": "Computer RPG landmark",
+          "certainty": "year-level or adjacent context",
+          "sourceNote": "Official release usually cited as June 1981."
+        },
+        {
+          "date": "June/August 1981",
+          "title": "Centipede",
+          "platform": "Arcade",
+          "body": "Atari's trackball shooter becomes one of the year's defining cabinets; exact month differs by source.",
+          "signal": "Trackball shooter",
+          "certainty": "year-level or adjacent context",
+          "sourceNote": "MobyGames cites June; other summaries cite August."
+        },
+        {
+          "date": "July 1981",
+          "title": "Donkey Kong",
+          "platform": "Arcade",
+          "body": "Nintendo's construction-site platform drama introduces Jumpman and gives character action a new shape.",
+          "signal": "Platform-game landmark",
+          "certainty": "year-level or adjacent context",
+          "sourceNote": "July 1981 is secure; regional day-level dates vary."
+        },
+        {
+          "date": "August 1981",
+          "title": "Frogger",
+          "platform": "Arcade",
+          "body": "A road-and-river crossing game with a clear little hero, instantly readable peril and a tune that stuck.",
+          "signal": "Character arcade hit",
+          "certainty": "year-level or adjacent context",
+          "sourceNote": "August appears in series summaries; use cautious month wording."
+        },
+        {
+          "date": "September 1981",
+          "title": "Wizardry: Proving Grounds of the Mad Overlord",
+          "platform": "Apple II",
+          "body": "A first-person dungeon crawl whose parties, stats and mapping rituals become computer-RPG grammar.",
+          "signal": "Dungeon RPG landmark",
+          "certainty": "year-level or adjacent context",
+          "sourceNote": "MobyGames and common references cite September 1981."
+        },
+        {
+          "date": "September 1981",
+          "title": "Castle Wolfenstein",
+          "platform": "Apple II",
+          "body": "Sneaking, disguises and procedural rooms make it an early ancestor of stealth games.",
+          "signal": "Stealth ancestor",
+          "certainty": "year-level or adjacent context",
+          "sourceNote": "Several summaries cite September 1981; MobyGames gives 1981."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four machines or contexts explaining how this month sat inside the wider technology culture.",
+      "items": [
+        {
+          "title": "Sinclair ZX81",
+          "body": "A 1KB low-cost computer that makes programming and simple games feel newly reachable in Britain.",
+          "specs": [
+            "Z80-compatible CPU",
+            "1KB RAM",
+            "Cassette storage"
+          ],
+          "certainty": "verified launch context",
+          "sourceNote": "Launched in the UK in March 1981."
+        },
+        {
+          "title": "IBM Personal Computer 5150",
+          "body": "Introduced in August, initially more office object than gaming dream, but historically enormous.",
+          "specs": [
+            "8088 CPU",
+            "Open architecture",
+            "Business-first positioning"
+          ],
+          "certainty": "year context",
+          "sourceNote": "Introduced on 12 August 1981."
+        },
+        {
+          "title": "Atari VCS / 2600",
+          "body": "The key home-console presence for many households before the market turns unstable.",
+          "specs": [
+            "Cartridges",
+            "Joystick",
+            "Television play"
+          ],
+          "certainty": "period context",
+          "sourceNote": "Used as broad home-console context."
+        },
+        {
+          "title": "Arcade cabinets",
+          "body": "Custom controls, bright marquees and operator placement still define the public videogame experience.",
+          "specs": [
+            "Coin-op routes",
+            "Dedicated controls",
+            "High-score tables"
+          ],
+          "certainty": "period context",
+          "sourceNote": "Used as broad arcade-culture context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Period magazine context, using reconstructed placeholders until verified cover scans are available.",
+      "items": [
+        {
+          "coverImage": "/magazine-covers/1981/computer-and-video-games-issue-1.svg",
+          "publication": "Computer & Video Games",
+          "issueDate": "November 1981",
+          "curatorNote": "UK launch issue context. Reconstructed placeholder, not a scan.",
+          "title": "Computer & Video Games",
+          "body": "UK launch issue context. Reconstructed placeholder, not a scan.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1981/electronic-games-winter.svg",
+          "publication": "Electronic Games",
+          "issueDate": "Winter 1981",
+          "curatorNote": "US dedicated videogame-magazine milestone. Reconstructed placeholder.",
+          "title": "Electronic Games",
+          "body": "US dedicated videogame-magazine milestone. Reconstructed placeholder.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1981/computer-gaming-world.svg",
+          "publication": "Computer Gaming World",
+          "issueDate": "November-December 1981",
+          "curatorNote": "Early computer-game criticism and wargame culture. Reconstructed placeholder.",
+          "title": "Computer Gaming World",
+          "body": "Early computer-game criticism and wargame culture. Reconstructed placeholder.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1981/creative-computing.svg",
+          "publication": "Creative Computing",
+          "issueDate": "1981",
+          "curatorNote": "Broad microcomputer culture around games, listings and reviews. Reconstructed placeholder.",
+          "title": "Creative Computing",
+          "body": "Broad microcomputer culture around games, listings and reviews. Reconstructed placeholder.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Before online gaming was ordinary, print and place carried the culture.",
+      "items": [
+        {
+          "title": "Online life is mostly absent from ordinary play",
+          "body": "For most players, discovery happens through arcades, shops, magazines, friends and mail order."
+        },
+        {
+          "title": "Bulletin boards exist, but not as mass games culture",
+          "body": "Computer enthusiasts may know modems and BBS culture, but it is not yet the everyday route into games."
+        },
+        {
+          "title": "Print is the network",
+          "body": "A new magazine can connect owners of machines that would otherwise feel isolated."
+        },
+        {
+          "title": "The UK conversation is local",
+          "body": "School friends, electronics shops and newsagents carry more practical information than any online service."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading of the month as a player might have met it.",
+      "items": [
+        {
+          "title": "The arcade was still the brightest room",
+          "body": "March 1981 still belongs to public machines: glowing marquees, cigarette-smudged cabinets, coins lined up on glass and the pressure of playing while someone watched."
+        },
+        {
+          "title": "Home computing felt like an invitation",
+          "body": "A computer at home was not just a games machine. It was a thing you typed into, misunderstood, crashed and slowly learned."
+        },
+        {
+          "title": "The future had several shapes",
+          "body": "A videogame could be a cabinet, a cartridge, a disk, a printed listing or a tiny black-and-white program saved to cassette."
+        },
+        {
+          "title": "In Britain, the door was opening",
+          "body": "The ZX81 made the idea of owning a computer feel less impossible, even if the games were still austere and the keyboard unforgiving."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Sinclair ZX81 - Timex/Sinclair",
+      "url": "https://www.timexsinclair.com/computers/sinclair-zx81/",
+      "note": "Used for the 5 March 1981 UK ZX81 launch and the 7 October 1981 US launch."
+    },
+    {
+      "label": "IBM PC - Computer History Museum",
+      "url": "https://www.computerhistory.org/tdih/august/12/",
+      "note": "Used for IBM introducing the Personal Computer on 12 August 1981."
+    },
+    {
+      "label": "Donkey Kong",
+      "url": "https://en.wikipedia.org/wiki/Donkey_Kong_(1981_video_game)",
+      "note": "Used for July 1981 release context; regional timing varies in sources."
+    },
+    {
+      "label": "Galaga - MobyGames",
+      "url": "https://www.mobygames.com/game/atari-7800/galaga",
+      "note": "Used for September 1981 arcade release context."
+    },
+    {
+      "label": "Frogger",
+      "url": "https://en.wikipedia.org/wiki/Frogger",
+      "note": "Used for 1981 arcade context; month differs across secondary references."
+    },
+    {
+      "label": "Wizardry - MobyGames",
+      "url": "https://www.mobygames.com/game/1209/wizardry-proving-grounds-of-the-mad-overlord/",
+      "note": "Used for September 1981 Apple II release."
+    },
+    {
+      "label": "Ultima I",
+      "url": "https://en.wikipedia.org/wiki/Ultima_I:_The_First_Age_of_Darkness",
+      "note": "Used for June 1981 official release context."
+    },
+    {
+      "label": "Castle Wolfenstein",
+      "url": "https://www.mobygames.com/game/apple2/castle-wolfenstein",
+      "note": "Used for 1981 Apple II release; September appears in several summaries."
+    },
+    {
+      "label": "Computer & Video Games",
+      "url": "https://en.wikipedia.org/wiki/Computer_and_Video_Games",
+      "note": "Used for November 1981 launch and UK games-magazine context."
+    },
+    {
+      "label": "Electronic Games",
+      "url": "https://library.gamehistory.org/repositories/2/resources/70",
+      "note": "Used for Winter 1981 dedicated videogame-magazine context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-31",
+  "editorNotes": [
+    "Initial AI-generated research draft for March 1981.",
+    "Sparse or context-led months intentionally avoid invented exact release dates.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

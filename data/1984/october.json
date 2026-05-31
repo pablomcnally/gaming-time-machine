@@ -1,0 +1,352 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "October 1984",
+    "accession": "GTM-1984-10",
+    "dek": "Yie Ar Kung-Fu appears in Japan as fighting games begin to take clearer shape.",
+    "curatorNote": "October is a genre-history drawer; wider Yie Ar Kung-Fu release comes in 1985.",
+    "statusChips": [
+      "Yie Ar Kung-Fu",
+      "fighting games",
+      "Your Commodore",
+      "autumn"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments, with broad context separated from confident month-level claims.",
+      "items": [
+        {
+          "date": "October 25, 1984",
+          "title": "Yie Ar Kung-Fu receives a limited Japanese arcade release",
+          "body": "Konami's one-on-one martial-arts game helps establish fighting-game structure.",
+          "artifact": "Opponent ladder",
+          "certainty": "source-cited date",
+          "sourceNote": "VGMdb cites 25 October 1984; wider release follows in 1985."
+        },
+        {
+          "date": "October 1984",
+          "title": "Fighting games begin to clarify their grammar",
+          "body": "Named opponents, health bars and move timing become more important arcade ideas.",
+          "artifact": "Combat diagram",
+          "certainty": "interpretive context",
+          "sourceNote": "Yie Ar Kung-Fu and Karate Champ context."
+        },
+        {
+          "date": "October 1984",
+          "title": "Your Commodore enters the UK magazine shelf",
+          "body": "Commodore owners gain another dedicated paper home in a crowded newsagent market.",
+          "artifact": "Commodore issue card",
+          "certainty": "period context",
+          "sourceNote": "Your Commodore sources cite October 1984 cover date."
+        },
+        {
+          "date": "October 1984",
+          "title": "Computer magazines become identity badges",
+          "body": "Which magazine you bought could say almost as much as which machine you owned.",
+          "artifact": "Newsagent badge",
+          "certainty": "UK-aware context",
+          "sourceNote": "UK print culture context."
+        },
+        {
+          "date": "October 1984",
+          "title": "Christmas software planning begins early",
+          "body": "Publishers and shops are already shaping the lists that children will stare at in December.",
+          "artifact": "Catalogue proof",
+          "certainty": "contextual",
+          "sourceNote": "Retail season context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "A shelf led by month-specific anchors, with year-level context clearly labelled.",
+      "items": [
+        {
+          "date": "October 25, 1984",
+          "title": "Yie Ar Kung-Fu",
+          "platform": "Arcade",
+          "body": "Konami's one-on-one fighter begins as a limited Japanese arcade release before wider 1985 success.",
+          "signal": "Fighting-game ancestor",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "VGMdb cites 25 October 1984; wider release is 1985."
+        },
+        {
+          "date": "February 1984",
+          "title": "Punch-Out!!",
+          "platform": "Arcade",
+          "body": "Nintendo's twin-screen boxing cabinet makes scale and personality part of the arcade draw.",
+          "signal": "Arcade spectacle",
+          "certainty": "year-level or adjacent context",
+          "sourceNote": "Release commonly cited as 17 February 1984."
+        },
+        {
+          "date": "March 1984",
+          "title": "Jet Set Willy",
+          "platform": "ZX Spectrum",
+          "body": "Matthew Smith's sprawling mansion becomes a British bedroom-gaming landmark.",
+          "signal": "Spectrum phenomenon",
+          "certainty": "year-level or adjacent context",
+          "sourceNote": "March 1984 is widely cited; exact day varies by source."
+        },
+        {
+          "date": "May 10, 1984",
+          "title": "King's Quest",
+          "platform": "IBM PCjr",
+          "body": "Sierra's animated adventure signals a new direction for graphical storytelling on home computers.",
+          "signal": "Animated adventure",
+          "certainty": "year-level or adjacent context",
+          "sourceNote": "IBM PCjr release date cited as 10 May 1984."
+        },
+        {
+          "date": "June 1984",
+          "title": "Tetris",
+          "platform": "Electronika 60",
+          "body": "Alexey Pajitnov's falling-block idea begins in Moscow, far from UK shop shelves but central to future games history.",
+          "signal": "Puzzle origin",
+          "certainty": "year-level or adjacent context",
+          "sourceNote": "June 6 is widely used as the origin date; commercial release comes later."
+        },
+        {
+          "date": "1984",
+          "title": "Boulder Dash",
+          "platform": "Atari 8-bit",
+          "body": "Dirt, diamonds and falling rocks create a tactile puzzle-action language for home computers.",
+          "signal": "Puzzle-action classic",
+          "certainty": "year-level or adjacent context",
+          "sourceNote": "Year is secure; month varies across sources."
+        },
+        {
+          "date": "September 20, 1984",
+          "title": "Elite",
+          "platform": "BBC Micro",
+          "body": "A wireframe universe fits into a school-friendly British micro and makes space feel enormous.",
+          "signal": "Open-world landmark",
+          "certainty": "year-level or adjacent context",
+          "sourceNote": "MobyGames cites 20 September 1984."
+        },
+        {
+          "date": "November 24, 1984",
+          "title": "Kung-Fu Master / Spartan X",
+          "platform": "Arcade",
+          "body": "Irem's side-scrolling martial-arts game points toward the beat-'em-up future.",
+          "signal": "Beat-'em-up ancestor",
+          "certainty": "year-level or adjacent context",
+          "sourceNote": "Japanese arcade release is commonly cited as November 1984."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four machines or contexts explaining how this month sat inside the wider technology culture.",
+      "items": [
+        {
+          "title": "ZX Spectrum 48K",
+          "body": "The rubber-keyed machine at the centre of much British home-gaming conversation.",
+          "specs": [
+            "48K RAM",
+            "Cassette loading",
+            "Huge UK software culture"
+          ],
+          "certainty": "period context",
+          "sourceNote": "Used for UK home-computer context."
+        },
+        {
+          "title": "Commodore 64",
+          "body": "More expensive than the Spectrum in the UK, but admired for sound, colour and arcade-like potential.",
+          "specs": [
+            "SID sound",
+            "64K RAM",
+            "Sprite hardware"
+          ],
+          "certainty": "period context",
+          "sourceNote": "Used for UK format-rivalry context."
+        },
+        {
+          "title": "Amstrad CPC 464",
+          "body": "The newcomer of 1984, sold as a complete computer package with built-in cassette deck and monitor options.",
+          "specs": [
+            "Z80 CPU",
+            "64K RAM",
+            "Integrated tape deck"
+          ],
+          "certainty": "period context",
+          "sourceNote": "Launched April 1984 and went on sale in June 1984."
+        },
+        {
+          "title": "BBC Micro",
+          "body": "The education machine whose prestige and technical clarity made Elite feel especially startling.",
+          "specs": [
+            "Acorn platform",
+            "Schools presence",
+            "Elite"
+          ],
+          "certainty": "period context",
+          "sourceNote": "Used for Elite and UK school-computing context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Period magazine context, using reconstructed placeholders until verified cover scans are available.",
+      "items": [
+        {
+          "coverImage": "/magazine-covers/1984/crash-issue-1.svg",
+          "publication": "Crash",
+          "issueDate": "February 1984",
+          "curatorNote": "A dedicated ZX Spectrum games voice arrives. Reconstructed placeholder.",
+          "title": "Crash",
+          "body": "A dedicated ZX Spectrum games voice arrives. Reconstructed placeholder.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1984/your-spectrum.svg",
+          "publication": "Your Spectrum",
+          "issueDate": "January-February 1984",
+          "curatorNote": "A new Spectrum magazine helps define the UK micro scene. Reconstructed placeholder.",
+          "title": "Your Spectrum",
+          "body": "A new Spectrum magazine helps define the UK micro scene. Reconstructed placeholder.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1984/personal-computer-games.svg",
+          "publication": "Personal Computer Games",
+          "issueDate": "February 1984 onward",
+          "curatorNote": "Multi-format games coverage becomes part of the monthly shelf. Reconstructed placeholder.",
+          "title": "Personal Computer Games",
+          "body": "Multi-format games coverage becomes part of the monthly shelf. Reconstructed placeholder.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1984/computer-and-video-games.svg",
+          "publication": "Computer & Video Games",
+          "issueDate": "1984",
+          "curatorNote": "C&VG is now a regular UK games-magazine institution. Reconstructed placeholder.",
+          "title": "Computer & Video Games",
+          "body": "C&VG is now a regular UK games-magazine institution. Reconstructed placeholder.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "A few online services exist, but most play culture is still offline.",
+      "items": [
+        {
+          "title": "Micronet and Prestel hint at online culture",
+          "body": "A small number of UK home-computer users can glimpse networked information, but most players still live offline."
+        },
+        {
+          "title": "Compunet begins as a specialist world",
+          "body": "For Commodore users with the right kit, online services suggest a future community, though it remains niche."
+        },
+        {
+          "title": "Magazine letters are social media in slow motion",
+          "body": "Arguments about machines, cheats, bugs and best games travel by post and appear weeks later."
+        },
+        {
+          "title": "The playground is still faster",
+          "body": "Rumours about secret rooms, loading tricks and unbeatable games move fastest by voice."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading of the month as a player might have met it.",
+      "items": [
+        {
+          "title": "The cassette shelf felt alive",
+          "body": "October 1984 in Britain meant choosing tapes by cover art, review scores, machine format and whatever your friends were already talking about."
+        },
+        {
+          "title": "Loading was part of the ritual",
+          "body": "A game began before the first screen: cables checked, volume adjusted, PLAY pressed, then several minutes of hope."
+        },
+        {
+          "title": "Machines had tribes",
+          "body": "Spectrum, Commodore, BBC and Amstrad owners did not just own hardware. They belonged to arguments."
+        },
+        {
+          "title": "The future was in the bedroom",
+          "body": "Arcades still dazzled, but British gaming increasingly felt domestic: a small television, a tape recorder and a stack of magazines."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Amstrad CPC464",
+      "url": "https://amstrad.com/product/cpc464/",
+      "note": "Used for 11 April 1984 launch event and 21 June 1984 UK on-sale date."
+    },
+    {
+      "label": "Elite - MobyGames",
+      "url": "https://www.mobygames.com/game/1324/elite/",
+      "note": "Used for 20 September 1984 BBC Micro release."
+    },
+    {
+      "label": "Jet Set Willy",
+      "url": "https://en.wikipedia.org/wiki/Jet_Set_Willy",
+      "note": "Used for March 1984 ZX Spectrum release and UK sales context."
+    },
+    {
+      "label": "Tetris",
+      "url": "https://time.com/2837390/tetris-at-30-pajitnov-interview/",
+      "note": "Used for June 1984 Tetris origin context; early versions were not commercial UK releases."
+    },
+    {
+      "label": "King's Quest",
+      "url": "https://en.wikipedia.org/wiki/King%27s_Quest_I",
+      "note": "Used for 10 May 1984 IBM PCjr release context."
+    },
+    {
+      "label": "Punch-Out!!",
+      "url": "https://www.timeextension.com/news/2024/02/anniversary-nintendos-punch-out-is-40-years-old",
+      "note": "Used for 17 February 1984 arcade release."
+    },
+    {
+      "label": "Yie Ar Kung-Fu - VGMdb",
+      "url": "https://vgmdb.net/product/12123",
+      "note": "Used for 25 October 1984 limited Japanese arcade release."
+    },
+    {
+      "label": "Kung-Fu Master",
+      "url": "https://en.wikipedia.org/wiki/Kung-Fu_Master_(video_game)",
+      "note": "Used for November 1984 Japanese arcade release."
+    },
+    {
+      "label": "Crash magazine",
+      "url": "https://en.wikipedia.org/wiki/Crash_(magazine)",
+      "note": "Used for February 1984 first issue context."
+    },
+    {
+      "label": "Your Spectrum",
+      "url": "https://en.wikipedia.org/wiki/Your_Sinclair",
+      "note": "Used for January 1984 launch as Your Spectrum."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-31",
+  "editorNotes": [
+    "Initial AI-generated research draft for October 1984.",
+    "Sparse or context-led months intentionally avoid invented exact release dates.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

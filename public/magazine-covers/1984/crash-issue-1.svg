@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Crash February 1984 reconstructed magazine cover placeholder">
+  <rect width="900" height="1200" fill="#191714"/>
+  <rect x="46" y="46" width="808" height="1108" fill="#f3efe4" stroke="#9a7b3f" stroke-width="6"/>
+  <rect x="82" y="92" width="736" height="210" fill="#26221d"/>
+  <text x="450" y="178" text-anchor="middle" font-family="Georgia, serif" font-size="58" fill="#f3efe4" letter-spacing="3">Crash</text>
+  <text x="450" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#d4a84f" letter-spacing="5">February 1984</text>
+  <line x1="150" y1="405" x2="750" y2="405" stroke="#9a7b3f" stroke-width="3"/>
+  <circle cx="450" cy="590" r="150" fill="none" stroke="#9a7b3f" stroke-width="10"/>
+  <path d="M450 450v140l92 72" fill="none" stroke="#7f1d1d" stroke-width="14" stroke-linecap="round"/>
+  <rect x="220" y="825" width="460" height="120" fill="#26221d"/>
+  <text x="450" y="875" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#f3efe4" letter-spacing="4">RECONSTRUCTED</text>
+  <text x="450" y="918" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#d4a84f">Archive placeholder for 1984</text>
+  <text x="450" y="1052" text-anchor="middle" font-family="Georgia, serif" font-size="30" fill="#26221d">Gaming Time Machine</text>
+</svg>

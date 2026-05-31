@@ -70,6 +70,18 @@ import september1980 from "../data/1980/september.json";
 import october1980 from "../data/1980/october.json";
 import november1980 from "../data/1980/november.json";
 import december1980 from "../data/1980/december.json";
+import january1981 from "../data/1981/january.json";
+import february1981 from "../data/1981/february.json";
+import march1981 from "../data/1981/march.json";
+import april1981 from "../data/1981/april.json";
+import may1981 from "../data/1981/may.json";
+import june1981 from "../data/1981/june.json";
+import july1981 from "../data/1981/july.json";
+import august1981 from "../data/1981/august.json";
+import september1981 from "../data/1981/september.json";
+import october1981 from "../data/1981/october.json";
+import november1981 from "../data/1981/november.json";
+import december1981 from "../data/1981/december.json";
 import january1982 from "../data/1982/january.json";
 import february1982 from "../data/1982/february.json";
 import march1982 from "../data/1982/march.json";
@@ -94,6 +106,17 @@ import september1983 from "../data/1983/september.json";
 import october1983 from "../data/1983/october.json";
 import november1983 from "../data/1983/november.json";
 import december1983 from "../data/1983/december.json";
+import january1984 from "../data/1984/january.json";
+import february1984 from "../data/1984/february.json";
+import march1984 from "../data/1984/march.json";
+import april1984 from "../data/1984/april.json";
+import may1984 from "../data/1984/may.json";
+import june1984 from "../data/1984/june.json";
+import july1984 from "../data/1984/july.json";
+import august1984 from "../data/1984/august.json";
+import september1984 from "../data/1984/september.json";
+import october1984 from "../data/1984/october.json";
+import november1984 from "../data/1984/november.json";
 import december1984 from "../data/1984/december.json";
 import january1997 from "../data/1997/january.json";
 import february1997 from "../data/1997/february.json";
@@ -237,6 +260,20 @@ export const EXHIBIT_MANIFEST = {
     november: november1980,
     december: december1980
   },
+  1981: {
+    january: january1981,
+    february: february1981,
+    march: march1981,
+    april: april1981,
+    may: may1981,
+    june: june1981,
+    july: july1981,
+    august: august1981,
+    september: september1981,
+    october: october1981,
+    november: november1981,
+    december: december1981
+  },
   1982: {
     january: january1982,
     february: february1982,
@@ -266,8 +303,19 @@ export const EXHIBIT_MANIFEST = {
     december: december1983
   },
   1984: {
-  december: december1984
-},
+    january: january1984,
+    february: february1984,
+    march: march1984,
+    april: april1984,
+    may: may1984,
+    june: june1984,
+    july: july1984,
+    august: august1984,
+    september: september1984,
+    october: october1984,
+    november: november1984,
+    december: december1984
+  },
   1997: {
     january: january1997,
     february: february1997,
