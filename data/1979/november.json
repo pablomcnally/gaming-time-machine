@@ -1,0 +1,417 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "November 1979",
+    "accession": "GTM-1979-11",
+    "dek": "The busiest drawer of 1979: Asteroids, Microvision, Atari's 400/800 computers, Video Chess, Heiankyo Alien and late-year Space Invaders/Galaxian trade movement crowd the case.",
+    "curatorNote": "November has enough anchors for a fuller release shelf. Some items are regional debuts or shipping windows, so the wording stays careful.",
+    "statusChips": [
+      "Asteroids",
+      "Microvision",
+      "Atari 400/800",
+      "Video Chess"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments from a year where arcade, home-computer and magazine evidence rarely lines up like a modern launch calendar.",
+      "items": [
+        {
+          "date": "November 1979",
+          "title": "Asteroids reaches arcades",
+          "body": "Atari's Asteroids is released in November, turning vector minimalism into one of the defining arcade experiences of the coming year.",
+          "artifact": "Asteroids vector field",
+          "certainty": "verified month",
+          "sourceNote": "The Strong lists Asteroids as released in November 1979."
+        },
+        {
+          "date": "November 1979",
+          "title": "Atari 400 and 800 begin shipping",
+          "body": "After their January showing, Atari's home computers ship in November, bringing custom graphics and sound into the domestic computer conversation.",
+          "artifact": "Atari shipping label",
+          "certainty": "verified month",
+          "sourceNote": "Atari 8-bit sources cite November 1979 shipping."
+        },
+        {
+          "date": "November 1979",
+          "title": "Microvision launches the cartridge handheld idea",
+          "body": "Milton Bradley's Microvision arrives as the first cartridge-based handheld system, a fragile but fascinating branch of portable gaming history.",
+          "artifact": "Handheld cartridge",
+          "certainty": "verified month",
+          "sourceNote": "Microvision sources cite November 1979; Guinness recognises it as first cartridge-based handheld."
+        },
+        {
+          "date": "November 1979",
+          "title": "Intellivision begins limited test-market life",
+          "body": "Mattel's Intellivision appears in limited US test markets, still far from ordinary UK awareness.",
+          "artifact": "Test-market price card",
+          "certainty": "verified context",
+          "sourceNote": "Atari Archive describes November 1979 Intellivision test launch."
+        },
+        {
+          "date": "November 1979",
+          "title": "Atari Video Chess finally appears",
+          "body": "Atari's long-delayed Video Chess reaches the VCS, a prestige cartridge that makes the tiny console perform a difficult board-game trick.",
+          "artifact": "Chess cartridge",
+          "certainty": "verified month",
+          "sourceNote": "Atari Archive cites November 1979 release evidence."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight November-window releases and launch items, with regional caveats kept visible.",
+      "items": [
+        {
+          "date": "November 1979",
+          "title": "Asteroids",
+          "platform": "Arcade",
+          "body": "Atari's vector asteroid field, a minimalist cabinet that became a giant arcade presence.",
+          "signal": "Vector arcade landmark",
+          "certainty": "verified month",
+          "sourceNote": "The Strong and MobyGames list November 1979."
+        },
+        {
+          "date": "November 1979",
+          "title": "Video Chess",
+          "platform": "Atari VCS",
+          "body": "A delayed but technically impressive Atari chess cartridge, sold as a premium home-console release.",
+          "signal": "Prestige cartridge",
+          "certainty": "verified month",
+          "sourceNote": "Atari Archive cites November 1979 period evidence."
+        },
+        {
+          "date": "November 1979",
+          "title": "Block Buster",
+          "platform": "Microvision",
+          "body": "The Microvision pack-in/launch game, turning a handheld LCD unit into a cartridge platform rather than a single fixed toy.",
+          "signal": "Handheld launch game",
+          "certainty": "launch-window item",
+          "sourceNote": "Microvision sources cite November 1979 release; launch-game specifics should be verified before final publication."
+        },
+        {
+          "date": "November 1979",
+          "title": "Super Invader",
+          "platform": "Apple II",
+          "body": "A Space Invaders-inspired Apple II game from Creative Computing Software, later remembered as a home-arcade bridge.",
+          "signal": "Apple II invader clone",
+          "certainty": "verified month",
+          "sourceNote": "Super Invader references cite November 1979 publication."
+        },
+        {
+          "date": "November 1979",
+          "title": "Lunar Rescue",
+          "platform": "Arcade",
+          "body": "Taito's lunar-themed arcade game, arriving in the same year that Lunar Lander made descent and fuel part of arcade play.",
+          "signal": "Taito lunar action",
+          "certainty": "verified month in secondary sources",
+          "sourceNote": "Lunar Rescue sources list November 1979."
+        },
+        {
+          "date": "November 1979",
+          "title": "Heiankyo Alien",
+          "platform": "Arcade",
+          "body": "A Japanese maze game whose trap-and-bury play stands apart from simple shooting, with roots in university computer culture.",
+          "signal": "Maze trap design",
+          "certainty": "verified arcade month",
+          "sourceNote": "Heiankyo Alien sources cite November 1979 arcade release after earlier computer origin."
+        },
+        {
+          "date": "November 1979",
+          "title": "Basketball",
+          "platform": "Atari 400/800",
+          "body": "A launch-window Atari 8-bit cartridge, showing how Atari brought sports and console thinking into its new computer line.",
+          "signal": "Atari computer launch shelf",
+          "certainty": "launch-window month supported",
+          "sourceNote": "Atari computer museum references list Basketball publication in November 1979."
+        },
+        {
+          "date": "November 1979",
+          "title": "Space Invaders Deluxe / Part II",
+          "platform": "Arcade",
+          "body": "Midway debuted the North American version around November before mass production in January 1980.",
+          "signal": "North American debut caveat",
+          "certainty": "debut month; mass production later",
+          "sourceNote": "Space Invaders Part II sources cite November 1979 North American debut and January 1980 mass production."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four hardware/context objects explaining the month without pretending Britain had a mature games retail shelf yet.",
+      "items": [
+        {
+          "title": "Milton Bradley Microvision",
+          "body": "The first cartridge-based handheld console: primitive, expensive, and historically startling because it makes portable interchangeable games visible a decade before Game Boy.",
+          "specs": [
+            "Released November 1979",
+            "Interchangeable cartridges",
+            "LCD handheld"
+          ],
+          "certainty": "verified month",
+          "sourceNote": "Microvision sources cite November 1979; Guinness recognises first cartridge-based handheld."
+        },
+        {
+          "title": "Atari VCS as the home reference point",
+          "body": "In November 1979 the Atari VCS was not yet the renamed 2600, but it was becoming shorthand for home videogames in North America. In Britain it remained aspirational, expensive, and less ordinary than the arcade.",
+          "specs": [
+            "Cartridge console",
+            "Woodgrain-era identity",
+            "Pre-2600 name"
+          ],
+          "certainty": "year-level context",
+          "sourceNote": "Atari Archive late-1979 context notes Atari sold roughly 600,000 VCS units over 1979 and passed one million installed."
+        },
+        {
+          "title": "Arcade cabinets as the premium display",
+          "body": "The most advanced game experiences were still cabinets: dedicated controls, loud sound, glowing marquees and operators choosing what deserved floor space.",
+          "specs": [
+            "Coin-op culture",
+            "Dedicated hardware",
+            "Location-based play"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Used as period arcade context around Space Invaders, Lunar Lander, Galaxian and Asteroids."
+        },
+        {
+          "title": "Home computers before the UK bedroom boom",
+          "body": "The Apple II, PET, TRS-80, Nascom and other early machines made games programmable, but they were not yet the cheap British home-micro explosion of 1982.",
+          "specs": [
+            "BASIC",
+            "Cassette or disk",
+            "Magazine listings"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Supported by Practical Computing, PCW, BYTE and Creative Computing context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "In 1979, the magazine was often the map: part catalogue, part classroom, part rumour network.",
+      "items": [
+        {
+          "title": "Practical Computing",
+          "month": "November 1979",
+          "publicationName": "Practical Computing",
+          "issueDate": "November 1979",
+          "headline": "British microcomputer shelf culture",
+          "coverImage": "/magazine-covers/1979/practical-computing.svg",
+          "coverImageAlt": "Reconstructed placeholder for Practical Computing, November 1979.",
+          "curatorNote": "Practical Computing belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "body": "Practical Computing belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "certainty": "publication context verified; cover image reconstructed placeholder",
+          "sourceNote": "Computing History and cover archives verify Practical Computing issues from 1979; image is a reconstructed placeholder."
+        },
+        {
+          "title": "Personal Computer World",
+          "month": "November 1979",
+          "publicationName": "Personal Computer World",
+          "issueDate": "November 1979",
+          "headline": "The personal computer as a new domestic object",
+          "coverImage": "/magazine-covers/1979/personal-computer-world.svg",
+          "coverImageAlt": "Reconstructed placeholder for Personal Computer World, November 1979.",
+          "curatorNote": "Personal Computer World belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "body": "Personal Computer World belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "certainty": "publication context verified; cover image reconstructed placeholder",
+          "sourceNote": "PCW began in 1978 and documented the early UK personal-computer market; image is a reconstructed placeholder."
+        },
+        {
+          "title": "BYTE",
+          "month": "November 1979",
+          "publicationName": "BYTE",
+          "issueDate": "November 1979",
+          "headline": "Small systems, deep technical culture",
+          "coverImage": "/magazine-covers/1979/byte.svg",
+          "coverImageAlt": "Reconstructed placeholder for BYTE, November 1979.",
+          "curatorNote": "BYTE belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "body": "BYTE belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "certainty": "publication context verified; cover image reconstructed placeholder",
+          "sourceNote": "WorldRadioHistory and other archives document BYTE's 1979 run; image is a reconstructed placeholder."
+        },
+        {
+          "title": "Creative Computing",
+          "month": "November 1979",
+          "publicationName": "Creative Computing",
+          "issueDate": "November 1979",
+          "headline": "Programs, games and playful programming",
+          "coverImage": "/magazine-covers/1979/creative-computing.svg",
+          "coverImageAlt": "Reconstructed placeholder for Creative Computing, November 1979.",
+          "curatorNote": "Creative Computing belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "body": "Creative Computing belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "certainty": "publication context verified; cover image reconstructed placeholder",
+          "sourceNote": "VGHF library records Creative Computing 1979 holdings; image is a reconstructed placeholder."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Online play existed at the edge of institutions and networks, but most players lived in an offline culture of paper, coins and local knowledge.",
+      "items": [
+        {
+          "title": "Online life was mostly not a visitor experience yet",
+          "body": "For most players in November 1979, games were discovered through arcades, shops, magazines, clubs and word of mouth. The web did not exist, and domestic online play was not part of ordinary gaming life.",
+          "certainty": "contextual",
+          "sourceNote": "Included to prevent projecting later online habits back onto 1979."
+        },
+        {
+          "title": "MUD1 existed, but behind institutional doors",
+          "body": "Roy Trubshaw and Richard Bartle's MUD work at the University of Essex belongs to this era, but it was a university/mainframe culture, not something a high-street player would casually log into at home.",
+          "certainty": "verified context; not month-specific",
+          "sourceNote": "MUD1 sources place creation in 1978 and later network significance through Essex connections."
+        },
+        {
+          "title": "Printed listings were the practical network",
+          "body": "For home-computer owners, the closest thing to downloading a game was often typing a listing from a magazine, saving it to cassette, and hoping the checksum of human patience held.",
+          "certainty": "contextual",
+          "sourceNote": "Based on Creative Computing, BYTE, Practical Computing and similar magazine culture."
+        },
+        {
+          "title": "The arcade was a live feed",
+          "body": "Scores, tricks and rumours updated by watching other people play. A good cabinet in a cafe, arcade or seaside amusement hall could teach faster than any printed manual.",
+          "certainty": "contextual",
+          "sourceNote": "Period arcade culture context rather than a single dated claim."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A month from the pre-specialist-games-magazine world: public cabinets, expensive machines and a future still forming.",
+      "items": [
+        {
+          "title": "The future was in public",
+          "body": "The arcade future was suddenly a field of white vector rocks, spinning ships and pure panic."
+        },
+        {
+          "title": "The home version was still an idea",
+          "body": "Home play split three ways: a VCS cartridge, a serious Atari computer, and a strange handheld that felt more like a sci-fi toy than a platform."
+        },
+        {
+          "title": "Britain felt it through arcades and magazines",
+          "body": "For Britain, much of this was glimpsed through import news and magazines while the local arcade remained the place where the future actually took your coins."
+        },
+        {
+          "title": "Dates were not launch-day culture yet",
+          "body": "The modern habit of exact worldwide release dates does not fit 1979 neatly. Games appeared through trade shows, operator routes, regional shipments, adverts and later memory."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "1979 in video games",
+      "url": "https://en.wikipedia.org/wiki/1979_in_video_games",
+      "note": "Used only as broad year context; month-specific claims are marked with stronger anchors where possible."
+    },
+    {
+      "label": "Atari Lunar Lander arcade history",
+      "url": "https://www.arcade-history.com/?id=1417&n=lunar-lander&page=detail",
+      "note": "Used for the August 1979 Lunar Lander arcade release anchor."
+    },
+    {
+      "label": "Asteroids at The Strong",
+      "url": "https://www.museumofplay.org/games/asteroids/",
+      "note": "Used for the November 1979 Asteroids release anchor."
+    },
+    {
+      "label": "Galaxian MobyGames release listing",
+      "url": "https://www.mobygames.com/game/137/galaxian/releases/arcade/",
+      "note": "Used for the October 1979 Galaxian arcade listing."
+    },
+    {
+      "label": "Head-On MobyGames release listing",
+      "url": "https://www.mobygames.com/game/63347/head-on/releases/arcade/",
+      "note": "Used for the April 1979 Head On arcade listing."
+    },
+    {
+      "label": "Video Chess - Atari Archive",
+      "url": "https://www.atariarchive.org/blog/video-chess-november-1979/",
+      "note": "Used for Video Chess and late-1979 Atari VCS / Intellivision context."
+    },
+    {
+      "label": "Atari 8-bit computers",
+      "url": "https://en.wikipedia.org/wiki/Atari_8-bit_computers",
+      "note": "Used for January CES presentation and November shipping context for the Atari 400 and 800."
+    },
+    {
+      "label": "Microvision Guinness record",
+      "url": "https://www.guinnessworldrecords.com/world-records/88943-first-cartridge-based-handheld-videogame-console",
+      "note": "Used for first cartridge-based handheld context."
+    },
+    {
+      "label": "Microvision release context",
+      "url": "https://en.wikipedia.org/wiki/Microvision",
+      "note": "Used for November 1979 Microvision release context."
+    },
+    {
+      "label": "VisiCalc shipping note",
+      "url": "https://www.trs-80.org/visicalc.html",
+      "note": "Used for June demonstration and October 17, 1979 shipping context."
+    },
+    {
+      "label": "TI-99/4 introduction context",
+      "url": "https://www.hardwarebook.info/TI-99-4",
+      "note": "Used for June 1979 introduction and November 1979 release caveat."
+    },
+    {
+      "label": "Microsoft Adventure TRS-80 history",
+      "url": "https://www.trs-80.org/microsoft-adventure.html",
+      "note": "Used for December 1979 Microsoft Adventure context."
+    },
+    {
+      "label": "Space Invaders Part II context",
+      "url": "https://en.wikipedia.org/wiki/Space_Invaders_Part_II",
+      "note": "Used cautiously because regional timing differs across sources."
+    },
+    {
+      "label": "Sheriff MobyGames listing",
+      "url": "https://www.mobygames.com/game/64019/sheriff/",
+      "note": "Used for October 1979 Sheriff arcade listing."
+    },
+    {
+      "label": "Heiankyo Alien context",
+      "url": "https://en.wikipedia.org/wiki/Heiankyo_Alien",
+      "note": "Used for November 1979 arcade context."
+    },
+    {
+      "label": "Practical Computing January 1979",
+      "url": "https://www.computinghistory.org.uk/det/2207/Practical-Computing-January-1979/",
+      "note": "Used for verified UK microcomputer magazine context."
+    },
+    {
+      "label": "BYTE magazine archive",
+      "url": "https://www.worldradiohistory.com/Byte_Magazine.htm",
+      "note": "Used for BYTE as a 1979 computing magazine context source."
+    },
+    {
+      "label": "Creative Computing April 1979 VGHF listing",
+      "url": "https://library.gamehistory.org/repositories/2/archival_objects/13318",
+      "note": "Used for Creative Computing 1979 issue context."
+    },
+    {
+      "label": "MUD1 history",
+      "url": "https://en.wikipedia.org/wiki/MUD1",
+      "note": "Used for UK online/multi-user context; not presented as ordinary consumer online life."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-30",
+  "editorNotes": [
+    "Initial AI-generated research draft for 1979. Sparse months intentionally avoid invented release lists.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially.",
+    "Several arcade release months are regional or disputed; sourceNote fields mark uncertainty."
+  ]
+}

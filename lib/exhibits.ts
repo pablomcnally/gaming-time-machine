@@ -1,3 +1,15 @@
+import january1979 from "../data/1979/january.json";
+import february1979 from "../data/1979/february.json";
+import march1979 from "../data/1979/march.json";
+import april1979 from "../data/1979/april.json";
+import may1979 from "../data/1979/may.json";
+import june1979 from "../data/1979/june.json";
+import july1979 from "../data/1979/july.json";
+import august1979 from "../data/1979/august.json";
+import september1979 from "../data/1979/september.json";
+import october1979 from "../data/1979/october.json";
+import november1979 from "../data/1979/november.json";
+import december1979 from "../data/1979/december.json";
 import january1982 from "../data/1982/january.json";
 import february1982 from "../data/1982/february.json";
 import march1982 from "../data/1982/march.json";
@@ -81,6 +93,20 @@ export type ExhibitManifest = Record<number, Partial<Record<string, Exhibit>>>;
   attempt to read /var/task/data.
 */
 export const EXHIBIT_MANIFEST = {
+  1979: {
+    january: january1979,
+    february: february1979,
+    march: march1979,
+    april: april1979,
+    may: may1979,
+    june: june1979,
+    july: july1979,
+    august: august1979,
+    september: september1979,
+    october: october1979,
+    november: november1979,
+    december: december1979
+  },
   1982: {
     january: january1982,
     february: february1982,

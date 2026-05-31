@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">PRACTICAL COMPUTING 1979 reconstructed magazine cover placeholder</title>
+  <desc id="desc">A museum-style reconstructed placeholder cover for PRACTICAL COMPUTING, used until a verified scan is added.</desc>
+  <rect width="900" height="1200" fill="#f3efe4"/>
+  <rect x="52" y="52" width="796" height="1096" fill="none" stroke="#a83232" stroke-width="4"/>
+  <rect x="92" y="130" width="716" height="16" fill="#a83232" opacity="0.88"/>
+  <text x="450" y="260" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" fill="#a83232">PRACTICAL COMPUTING</text>
+  <text x="450" y="326" text-anchor="middle" font-family="Courier New, monospace" font-size="24" letter-spacing="5" fill="#a83232">UK MICROCOMPUTER MONTHLY</text>
+  <line x1="160" y1="450" x2="740" y2="450" stroke="#a83232" stroke-width="3" opacity="0.7"/>
+  <circle cx="450" cy="620" r="138" fill="none" stroke="#a83232" stroke-width="10" opacity="0.82"/>
+  <path d="M450 475 L482 620 L450 765 L418 620 Z" fill="#a83232" opacity="0.9"/>
+  <path d="M260 840 H640 M260 895 H640 M260 950 H640" stroke="#a83232" stroke-width="5" opacity="0.45"/>
+  <text x="450" y="1060" text-anchor="middle" font-family="Courier New, monospace" font-size="28" letter-spacing="5" fill="#a83232">1979 ARCHIVE COPY</text>
+</svg>

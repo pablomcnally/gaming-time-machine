@@ -1,0 +1,354 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "June 1979",
+    "accession": "GTM-1979-06",
+    "dek": "June brings major computer context: the Apple II Plus goes on sale, Texas Instruments introduces the TI-99/4, and VisiCalc is demonstrated before its October shipment.",
+    "curatorNote": "June is stronger for home-computer infrastructure than for videogame releases.",
+    "statusChips": [
+      "Apple II Plus",
+      "TI-99/4",
+      "VisiCalc demo",
+      "home computers"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments from a year where arcade, home-computer and magazine evidence rarely lines up like a modern launch calendar.",
+      "items": [
+        {
+          "date": "June 1979",
+          "title": "Apple II Plus begins its run",
+          "body": "The Apple II Plus was sold from June 1979, strengthening the Apple II family that would host games, tools and the newly serious software market.",
+          "artifact": "Apple dealer tag",
+          "certainty": "verified month",
+          "sourceNote": "Apple II Plus sources list sales beginning in June 1979."
+        },
+        {
+          "date": "June 1979",
+          "title": "TI introduces the TI-99/4",
+          "body": "Texas Instruments' 16-bit home computer was introduced in June, though release timing is often described as late 1979 or November.",
+          "artifact": "TI spec card",
+          "certainty": "verified introduction; release caveat",
+          "sourceNote": "Hardwarebook lists introduced June 1979 and released November 1979."
+        },
+        {
+          "date": "June 1979",
+          "title": "VisiCalc is demonstrated before shipping",
+          "body": "VisiCalc was demonstrated at the National Computer Conference in June, then shipped for Apple II in October.",
+          "artifact": "Spreadsheet demo sheet",
+          "certainty": "verified demo context",
+          "sourceNote": "TRS-80.org notes June demonstration and October 17 shipping."
+        },
+        {
+          "date": "June 1979",
+          "title": "Head On has a regional trail",
+          "body": "Some sources frame Head On's Gremlin/Sega release in June after the April listing, a reminder that arcade distribution can be staggered.",
+          "artifact": "Regional release tag",
+          "certainty": "source conflict/caveat",
+          "sourceNote": "MobyGames lists April; other summaries cite June Gremlin/Sega context."
+        },
+        {
+          "date": "June 1979",
+          "title": "Summer begins with computers becoming less abstract",
+          "body": "For hobbyists, machines were moving from show reports to purchase decisions. Games would follow the installed base.",
+          "artifact": "Dealer counter",
+          "certainty": "contextual",
+          "sourceNote": "Home-computer launch context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "A deliberately sparse shelf: only month-specific releases supported by the sources reviewed are displayed.",
+      "items": [
+        {
+          "date": "June 1979",
+          "title": "Head On",
+          "platform": "Arcade",
+          "body": "Included only as a regional/distribution caveat: some sources place Gremlin/Sega availability around June, while MobyGames lists April.",
+          "signal": "Regional dating caveat",
+          "certainty": "uncertain regional month",
+          "sourceNote": "MobyGames lists April; secondary summaries cite June Gremlin/Sega context."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four hardware/context objects explaining the month without pretending Britain had a mature games retail shelf yet.",
+      "items": [
+        {
+          "title": "Apple II Plus",
+          "body": "A key Apple II revision that helped normalise disk-based personal computing. Its importance to games is indirect but real: more Apples meant more software shelves.",
+          "specs": [
+            "Sold from June 1979",
+            "Applesoft BASIC in ROM",
+            "Apple II software base"
+          ],
+          "certainty": "verified month",
+          "sourceNote": "Apple II Plus sources list June 1979 sales start."
+        },
+        {
+          "title": "Atari VCS as the home reference point",
+          "body": "In June 1979 the Atari VCS was not yet the renamed 2600, but it was becoming shorthand for home videogames in North America. In Britain it remained aspirational, expensive, and less ordinary than the arcade.",
+          "specs": [
+            "Cartridge console",
+            "Woodgrain-era identity",
+            "Pre-2600 name"
+          ],
+          "certainty": "year-level context",
+          "sourceNote": "Atari Archive late-1979 context notes Atari sold roughly 600,000 VCS units over 1979 and passed one million installed."
+        },
+        {
+          "title": "Arcade cabinets as the premium display",
+          "body": "The most advanced game experiences were still cabinets: dedicated controls, loud sound, glowing marquees and operators choosing what deserved floor space.",
+          "specs": [
+            "Coin-op culture",
+            "Dedicated hardware",
+            "Location-based play"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Used as period arcade context around Space Invaders, Lunar Lander, Galaxian and Asteroids."
+        },
+        {
+          "title": "Home computers before the UK bedroom boom",
+          "body": "The Apple II, PET, TRS-80, Nascom and other early machines made games programmable, but they were not yet the cheap British home-micro explosion of 1982.",
+          "specs": [
+            "BASIC",
+            "Cassette or disk",
+            "Magazine listings"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Supported by Practical Computing, PCW, BYTE and Creative Computing context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "In 1979, the magazine was often the map: part catalogue, part classroom, part rumour network.",
+      "items": [
+        {
+          "title": "Practical Computing",
+          "month": "June 1979",
+          "publicationName": "Practical Computing",
+          "issueDate": "June 1979",
+          "headline": "British microcomputer shelf culture",
+          "coverImage": "/magazine-covers/1979/practical-computing.svg",
+          "coverImageAlt": "Reconstructed placeholder for Practical Computing, June 1979.",
+          "curatorNote": "Practical Computing belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "body": "Practical Computing belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "certainty": "publication context verified; cover image reconstructed placeholder",
+          "sourceNote": "Computing History and cover archives verify Practical Computing issues from 1979; image is a reconstructed placeholder."
+        },
+        {
+          "title": "Personal Computer World",
+          "month": "June 1979",
+          "publicationName": "Personal Computer World",
+          "issueDate": "June 1979",
+          "headline": "The personal computer as a new domestic object",
+          "coverImage": "/magazine-covers/1979/personal-computer-world.svg",
+          "coverImageAlt": "Reconstructed placeholder for Personal Computer World, June 1979.",
+          "curatorNote": "Personal Computer World belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "body": "Personal Computer World belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "certainty": "publication context verified; cover image reconstructed placeholder",
+          "sourceNote": "PCW began in 1978 and documented the early UK personal-computer market; image is a reconstructed placeholder."
+        },
+        {
+          "title": "BYTE",
+          "month": "June 1979",
+          "publicationName": "BYTE",
+          "issueDate": "June 1979",
+          "headline": "Small systems, deep technical culture",
+          "coverImage": "/magazine-covers/1979/byte.svg",
+          "coverImageAlt": "Reconstructed placeholder for BYTE, June 1979.",
+          "curatorNote": "BYTE belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "body": "BYTE belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "certainty": "publication context verified; cover image reconstructed placeholder",
+          "sourceNote": "WorldRadioHistory and other archives document BYTE's 1979 run; image is a reconstructed placeholder."
+        },
+        {
+          "title": "Creative Computing",
+          "month": "June 1979",
+          "publicationName": "Creative Computing",
+          "issueDate": "June 1979",
+          "headline": "Programs, games and playful programming",
+          "coverImage": "/magazine-covers/1979/creative-computing.svg",
+          "coverImageAlt": "Reconstructed placeholder for Creative Computing, June 1979.",
+          "curatorNote": "Creative Computing belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "body": "Creative Computing belongs to the 1979 map of play: not always a games magazine, but part of the paper network that taught people what small computers and arcade culture meant.",
+          "certainty": "publication context verified; cover image reconstructed placeholder",
+          "sourceNote": "VGHF library records Creative Computing 1979 holdings; image is a reconstructed placeholder."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Online play existed at the edge of institutions and networks, but most players lived in an offline culture of paper, coins and local knowledge.",
+      "items": [
+        {
+          "title": "Online life was mostly not a visitor experience yet",
+          "body": "For most players in June 1979, games were discovered through arcades, shops, magazines, clubs and word of mouth. The web did not exist, and domestic online play was not part of ordinary gaming life.",
+          "certainty": "contextual",
+          "sourceNote": "Included to prevent projecting later online habits back onto 1979."
+        },
+        {
+          "title": "MUD1 existed, but behind institutional doors",
+          "body": "Roy Trubshaw and Richard Bartle's MUD work at the University of Essex belongs to this era, but it was a university/mainframe culture, not something a high-street player would casually log into at home.",
+          "certainty": "verified context; not month-specific",
+          "sourceNote": "MUD1 sources place creation in 1978 and later network significance through Essex connections."
+        },
+        {
+          "title": "Printed listings were the practical network",
+          "body": "For home-computer owners, the closest thing to downloading a game was often typing a listing from a magazine, saving it to cassette, and hoping the checksum of human patience held.",
+          "certainty": "contextual",
+          "sourceNote": "Based on Creative Computing, BYTE, Practical Computing and similar magazine culture."
+        },
+        {
+          "title": "The arcade was a live feed",
+          "body": "Scores, tricks and rumours updated by watching other people play. A good cabinet in a cafe, arcade or seaside amusement hall could teach faster than any printed manual.",
+          "certainty": "contextual",
+          "sourceNote": "Period arcade culture context rather than a single dated claim."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A month from the pre-specialist-games-magazine world: public cabinets, expensive machines and a future still forming.",
+      "items": [
+        {
+          "title": "The future was in public",
+          "body": "The future was still public: a glowing cabinet, someone waiting behind you, and a score that mattered because other people could see it."
+        },
+        {
+          "title": "The home version was still an idea",
+          "body": "At home, games were mixed with education, programming and the awkward argument that an expensive computer was not only a toy."
+        },
+        {
+          "title": "Britain felt it through arcades and magazines",
+          "body": "In Britain the texture was arcades, computing magazines, shop-window machines and rumours rather than a mature boxed-games retail culture."
+        },
+        {
+          "title": "Dates were not launch-day culture yet",
+          "body": "The modern habit of exact worldwide release dates does not fit 1979 neatly. Games appeared through trade shows, operator routes, regional shipments, adverts and later memory."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "1979 in video games",
+      "url": "https://en.wikipedia.org/wiki/1979_in_video_games",
+      "note": "Used only as broad year context; month-specific claims are marked with stronger anchors where possible."
+    },
+    {
+      "label": "Atari Lunar Lander arcade history",
+      "url": "https://www.arcade-history.com/?id=1417&n=lunar-lander&page=detail",
+      "note": "Used for the August 1979 Lunar Lander arcade release anchor."
+    },
+    {
+      "label": "Asteroids at The Strong",
+      "url": "https://www.museumofplay.org/games/asteroids/",
+      "note": "Used for the November 1979 Asteroids release anchor."
+    },
+    {
+      "label": "Galaxian MobyGames release listing",
+      "url": "https://www.mobygames.com/game/137/galaxian/releases/arcade/",
+      "note": "Used for the October 1979 Galaxian arcade listing."
+    },
+    {
+      "label": "Head-On MobyGames release listing",
+      "url": "https://www.mobygames.com/game/63347/head-on/releases/arcade/",
+      "note": "Used for the April 1979 Head On arcade listing."
+    },
+    {
+      "label": "Video Chess - Atari Archive",
+      "url": "https://www.atariarchive.org/blog/video-chess-november-1979/",
+      "note": "Used for Video Chess and late-1979 Atari VCS / Intellivision context."
+    },
+    {
+      "label": "Atari 8-bit computers",
+      "url": "https://en.wikipedia.org/wiki/Atari_8-bit_computers",
+      "note": "Used for January CES presentation and November shipping context for the Atari 400 and 800."
+    },
+    {
+      "label": "Microvision Guinness record",
+      "url": "https://www.guinnessworldrecords.com/world-records/88943-first-cartridge-based-handheld-videogame-console",
+      "note": "Used for first cartridge-based handheld context."
+    },
+    {
+      "label": "Microvision release context",
+      "url": "https://en.wikipedia.org/wiki/Microvision",
+      "note": "Used for November 1979 Microvision release context."
+    },
+    {
+      "label": "VisiCalc shipping note",
+      "url": "https://www.trs-80.org/visicalc.html",
+      "note": "Used for June demonstration and October 17, 1979 shipping context."
+    },
+    {
+      "label": "TI-99/4 introduction context",
+      "url": "https://www.hardwarebook.info/TI-99-4",
+      "note": "Used for June 1979 introduction and November 1979 release caveat."
+    },
+    {
+      "label": "Microsoft Adventure TRS-80 history",
+      "url": "https://www.trs-80.org/microsoft-adventure.html",
+      "note": "Used for December 1979 Microsoft Adventure context."
+    },
+    {
+      "label": "Space Invaders Part II context",
+      "url": "https://en.wikipedia.org/wiki/Space_Invaders_Part_II",
+      "note": "Used cautiously because regional timing differs across sources."
+    },
+    {
+      "label": "Sheriff MobyGames listing",
+      "url": "https://www.mobygames.com/game/64019/sheriff/",
+      "note": "Used for October 1979 Sheriff arcade listing."
+    },
+    {
+      "label": "Heiankyo Alien context",
+      "url": "https://en.wikipedia.org/wiki/Heiankyo_Alien",
+      "note": "Used for November 1979 arcade context."
+    },
+    {
+      "label": "Practical Computing January 1979",
+      "url": "https://www.computinghistory.org.uk/det/2207/Practical-Computing-January-1979/",
+      "note": "Used for verified UK microcomputer magazine context."
+    },
+    {
+      "label": "BYTE magazine archive",
+      "url": "https://www.worldradiohistory.com/Byte_Magazine.htm",
+      "note": "Used for BYTE as a 1979 computing magazine context source."
+    },
+    {
+      "label": "Creative Computing April 1979 VGHF listing",
+      "url": "https://library.gamehistory.org/repositories/2/archival_objects/13318",
+      "note": "Used for Creative Computing 1979 issue context."
+    },
+    {
+      "label": "MUD1 history",
+      "url": "https://en.wikipedia.org/wiki/MUD1",
+      "note": "Used for UK online/multi-user context; not presented as ordinary consumer online life."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-30",
+  "editorNotes": [
+    "Initial AI-generated research draft for 1979. Sparse months intentionally avoid invented release lists.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially.",
+    "Several arcade release months are regional or disputed; sourceNote fields mark uncertainty."
+  ]
+}
