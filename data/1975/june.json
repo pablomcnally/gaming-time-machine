@@ -1,0 +1,354 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "June 1975",
+    "accession": "GTM-1975-06",
+    "dek": "Jaws arrives in cinemas and quickly becomes part of the cultural air around Atari's Shark Jaws, while videogames remain a small public medium borrowing from larger entertainment.",
+    "curatorNote": "June has cultural context, not a precise game release. Shark Jaws is included carefully as a 1975 response to Jaws, not claimed as a June launch.",
+    "statusChips": [
+      "Jaws culture",
+      "Shark Jaws context",
+      "arcades",
+      "licensed-adjacent play"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments from a year where videogames are still cabinets, circuits, terminals and distant home experiments.",
+      "items": [
+        {
+          "date": "June 20, 1975",
+          "title": "Jaws opens in the United States",
+          "body": "The film becomes a cultural event, and Atari's 1975 Shark Jaws shows how quickly arcade games could borrow from a wider entertainment moment.",
+          "artifact": "Cinema poster echo",
+          "certainty": "verified film date; game month not asserted",
+          "sourceNote": "Shark Jaws sources place the game in 1975; the film date is used as cultural context."
+        },
+        {
+          "date": "June 1975",
+          "title": "Shark Jaws belongs to the opportunistic arcade shelf",
+          "body": "Atari released Shark Jaws under the Horror Games name, with the title design famously playing near the Jaws phenomenon.",
+          "artifact": "Shark cabinet card",
+          "certainty": "year-level game context",
+          "sourceNote": "Arcade-History lists Shark Jaws as a 1975 Atari game."
+        },
+        {
+          "date": "June 1975",
+          "title": "Arcades borrow from cinema",
+          "body": "This month shows a pattern that will become familiar: games responding to film, TV and popular imagery before official licensing becomes normal.",
+          "artifact": "Cross-media label",
+          "certainty": "interpretive context",
+          "sourceNote": "Shark Jaws context."
+        },
+        {
+          "date": "June 1975",
+          "title": "Home videogames are still waiting for Christmas",
+          "body": "The living-room breakthrough is coming, but summer 1975 is still mostly a public-play moment.",
+          "artifact": "Television shelf tag",
+          "certainty": "contextual",
+          "sourceNote": "Home Pong sources place the major retail push late in 1975."
+        },
+        {
+          "date": "June 1975",
+          "title": "UK seaside amusements make sense of the medium",
+          "body": "A British player is most likely to read the new medium through amusement halls and coin-operated novelty rather than Silicon Valley mythology.",
+          "artifact": "Seaside amusements label",
+          "certainty": "UK-aware context",
+          "sourceNote": "Interpretive regional framing."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "A deliberately sparse shelf: only releases supported by the sources reviewed are displayed.",
+      "items": [
+        {
+          "date": "1975",
+          "title": "Shark Jaws",
+          "platform": "Arcade",
+          "body": "Atari's shark-themed arcade game, released under the Horror Games label and clearly orbiting the Jaws moment. No exact June release date is asserted.",
+          "signal": "Film-culture echo",
+          "certainty": "verified year; month uncertain",
+          "sourceNote": "Arcade-History lists Shark Jaws as a 1975 Atari arcade game."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four objects explain the month: cabinets, terminals, dedicated TV games and hobby computers.",
+      "items": [
+        {
+          "title": "Arcade cabinet as the main videogame form",
+          "body": "In June 1975, most ordinary videogame play still means encountering a cabinet or table machine in public.",
+          "specs": [
+            "Coin-operated",
+            "Public play",
+            "Dedicated circuitry"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Period arcade context."
+        },
+        {
+          "title": "PLATO terminals",
+          "body": "PLATO is the hidden high-end exhibit: networked terminals, institutional access, dungeon games and simulations years before ordinary online play.",
+          "specs": [
+            "University network",
+            "TUTOR language",
+            "Shared terminals"
+          ],
+          "certainty": "verified year context",
+          "sourceNote": "PLATO, pedit5, dnd and Panther sources."
+        },
+        {
+          "title": "Dedicated Pong-style circuitry",
+          "body": "Early home videogames are appliances: fixed circuits for a small set of TV games rather than software platforms.",
+          "specs": [
+            "No cartridges",
+            "TV output",
+            "Paddle controls"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Home Pong and Odyssey 100/200 context."
+        },
+        {
+          "title": "Hobby computer kits",
+          "body": "The hobby computer is still intimidating, expensive and technical, but it is becoming imaginable as a personal object.",
+          "specs": [
+            "Kit culture",
+            "BASIC",
+            "Magazine-led learning"
+          ],
+          "certainty": "contextual",
+          "sourceNote": "Altair, Homebrew, BYTE and Popular Electronics context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "In 1975 there is no normal videogame magazine shelf yet. Electronics and computing magazines are the map.",
+      "items": [
+        {
+          "title": "Popular Electronics",
+          "month": "June 1975",
+          "publicationName": "Popular Electronics",
+          "issueDate": "June 1975",
+          "headline": "The Altair issue that made a computer feel orderable",
+          "coverImage": "/magazine-covers/1975/popular-electronics.svg",
+          "coverImageAlt": "Reconstructed placeholder for Popular Electronics, June 1975.",
+          "curatorNote": "Popular Electronics is shown as part of the paper network around early games: electronics, hobby computing, type-ins and ideas before specialist videogame magazines existed.",
+          "body": "Popular Electronics is shown as part of the paper network around early games: electronics, hobby computing, type-ins and ideas before specialist videogame magazines existed.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Popular Electronics January 1975 is verified by Smithsonian and CHM records; placeholder art is reconstructed."
+        },
+        {
+          "title": "BYTE",
+          "month": "June 1975",
+          "publicationName": "BYTE",
+          "issueDate": "June 1975",
+          "headline": "A new technical magazine for the microcomputer age",
+          "coverImage": "/magazine-covers/1975/byte.svg",
+          "coverImageAlt": "Reconstructed placeholder for BYTE, June 1975.",
+          "curatorNote": "BYTE is shown as part of the paper network around early games: electronics, hobby computing, type-ins and ideas before specialist videogame magazines existed.",
+          "body": "BYTE is shown as part of the paper network around early games: electronics, hobby computing, type-ins and ideas before specialist videogame magazines existed.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "BYTE first appears with the September 1975 issue; placeholder art is reconstructed."
+        },
+        {
+          "title": "Creative Computing",
+          "month": "June 1975",
+          "publicationName": "Creative Computing",
+          "issueDate": "June 1975",
+          "headline": "Games, education and accessible computing culture",
+          "coverImage": "/magazine-covers/1975/creative-computing.svg",
+          "coverImageAlt": "Reconstructed placeholder for Creative Computing, June 1975.",
+          "curatorNote": "Creative Computing is shown as part of the paper network around early games: electronics, hobby computing, type-ins and ideas before specialist videogame magazines existed.",
+          "body": "Creative Computing is shown as part of the paper network around early games: electronics, hobby computing, type-ins and ideas before specialist videogame magazines existed.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Creative Computing was published from October 1974; 1975 use here is period context."
+        },
+        {
+          "title": "Practical Electronics",
+          "month": "June 1975",
+          "publicationName": "Practical Electronics",
+          "issueDate": "June 1975",
+          "headline": "A UK electronics shelf before the games-magazine era",
+          "coverImage": "/magazine-covers/1975/practical-electronics.svg",
+          "coverImageAlt": "Reconstructed placeholder for Practical Electronics, June 1975.",
+          "curatorNote": "Practical Electronics is shown as part of the paper network around early games: electronics, hobby computing, type-ins and ideas before specialist videogame magazines existed.",
+          "body": "Practical Electronics is shown as part of the paper network around early games: electronics, hobby computing, type-ins and ideas before specialist videogame magazines existed.",
+          "certainty": "publication context verified where noted; cover image reconstructed placeholder",
+          "sourceNote": "Used as UK electronics-culture context; individual cover art is reconstructed until a verified scan is added."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Networked play exists at the edges, but ordinary players live in a world of paper, arcades and local knowledge.",
+      "items": [
+        {
+          "title": "Online life was institutional, not domestic",
+          "body": "For an ordinary player in June 1975, there is no online gaming life in the modern sense. Networked play belongs to systems such as PLATO, not the home.",
+          "certainty": "contextual",
+          "sourceNote": "PLATO sources support networked/institutional game culture; consumer online play is not asserted."
+        },
+        {
+          "title": "PLATO is the hidden online gallery",
+          "body": "The most advanced social computer-game activity is behind institutional access: terminals, shared systems, lessons, chat and games.",
+          "certainty": "verified context",
+          "sourceNote": "PLATO, pedit5, dnd and Panther context."
+        },
+        {
+          "title": "Paper is the discoverability layer",
+          "body": "Magazines, adverts, club newsletters and manuals are how people find out what is possible.",
+          "certainty": "contextual",
+          "sourceNote": "Popular Electronics, BYTE, Homebrew and Creative Computing context."
+        },
+        {
+          "title": "Arcades are the social feed",
+          "body": "The live update is still a public machine: who is playing, who is watching, and whose initials sit on the score table.",
+          "certainty": "contextual",
+          "sourceNote": "Period arcade context."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A very early exhibit: young medium, patchy record, public machines, expensive hardware and a future only partly visible.",
+      "items": [
+        {
+          "title": "The future was still public",
+          "body": "Videogames feel like public machines first: coin slots, knobs, cabinets and the surprise that a screen can be played."
+        },
+        {
+          "title": "The home version was only beginning",
+          "body": "The home future is visible but not settled. A television game is still a novelty, and a computer still feels like a kit or an institution."
+        },
+        {
+          "title": "Britain saw the edges first",
+          "body": "From Britain, the year feels early and slightly distant: amusements, electronics counters, imported American stories and almost no dedicated games retail."
+        },
+        {
+          "title": "The record is patchy because the medium is young",
+          "body": "There are few clean launch days, few consumer reviews and no settled games press. The museum label often has to say: year-level, regional, uncertain."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "1975 in video games",
+      "url": "https://en.wikipedia.org/wiki/1975_in_video_games",
+      "note": "Used as broad year context; month-level claims are treated cautiously."
+    },
+    {
+      "label": "Popular Electronics January 1975 - Smithsonian",
+      "url": "https://www.si.edu/object/popular-electronics-january-1975%3Anmah_1279689",
+      "note": "Used for the Altair 8800 Popular Electronics anchor."
+    },
+    {
+      "label": "Popular Electronics January 1975 - Computer History Museum",
+      "url": "https://www.computerhistory.org/revolution/personal-computers/17/312/1141",
+      "note": "Used for Popular Electronics / Altair cover context."
+    },
+    {
+      "label": "Homebrew Computer Club newsletters - CHM",
+      "url": "https://www.computerhistory.org/collections/catalog/102740021",
+      "note": "Used for the first Homebrew Computer Club meeting date."
+    },
+    {
+      "label": "Homebrew Computer Club event - Computing History",
+      "url": "https://www.computinghistory.org.uk/det/3720/First-meeting-of-the-Homebrew-Club/",
+      "note": "Used as a second source for the March 1975 Homebrew context; note date variants in sources."
+    },
+    {
+      "label": "Microsoft founded - History",
+      "url": "https://www.history.com/this-day-in-history/april-4/microsoft-founded/",
+      "note": "Used for April 4, 1975 Microsoft founding."
+    },
+    {
+      "label": "Microsoft 1975 timeline",
+      "url": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1975",
+      "note": "Used for Altair BASIC and early Microsoft context."
+    },
+    {
+      "label": "MOS 6502 introduction",
+      "url": "https://commons.wikimedia.org/wiki/File%3AMOS_6501_6502_Ad_Sept_1975.jpg",
+      "note": "Used for September 1975 WESCON introductory advertisement context."
+    },
+    {
+      "label": "BYTE magazine history",
+      "url": "https://www.trs-80.org/byte.html",
+      "note": "Used for BYTE's September 1975 first issue."
+    },
+    {
+      "label": "Home Pong - Henry Ford",
+      "url": "https://www.thehenryford.org/collections-and-research/digital-collections/artifact/293415",
+      "note": "Used for Atari releasing a home Pong version through Sears in 1975."
+    },
+    {
+      "label": "Atari Home Pong - Computing History",
+      "url": "https://www.computinghistory.org.uk/det/4007/atari-pong/",
+      "note": "Used for the limited 1975 Sears release and 150,000 holiday-sales context."
+    },
+    {
+      "label": "Home Pong - IT History Society",
+      "url": "https://www.ithistory.org/db/hardware/atari-corporation/atari-home-pong",
+      "note": "Used for Sears ordering 150,000 Pong systems for Christmas 1975."
+    },
+    {
+      "label": "Magnavox Odyssey history",
+      "url": "https://en.wikipedia.org/wiki/Magnavox_Odyssey",
+      "note": "Used for November 1975 Odyssey 100 and Odyssey 200 context."
+    },
+    {
+      "label": "Gun Fight - Arcade History",
+      "url": "https://www.arcade-history.com/game/1040/gun-fight-model-597",
+      "note": "Used for November 1975 Midway Gun Fight and microprocessor significance."
+    },
+    {
+      "label": "Gun Fight - MobyGames",
+      "url": "https://www.mobygames.com/game/63990/gun-fight/",
+      "note": "Used for the alternate September 1975 listing; this conflict is marked in the exhibit."
+    },
+    {
+      "label": "pedit5",
+      "url": "https://en.wikipedia.org/wiki/Pedit5",
+      "note": "Used for 1975 PLATO dungeon-crawl/RPG context."
+    },
+    {
+      "label": "dnd",
+      "url": "https://en.wikipedia.org/wiki/Dnd_(1975_video_game)",
+      "note": "Used for 1975 PLATO RPG context; exact dating varies by source."
+    },
+    {
+      "label": "Panther",
+      "url": "https://en.wikipedia.org/wiki/Panther_(1975_video_game)",
+      "note": "Used for 1975 PLATO vehicle simulation context."
+    },
+    {
+      "label": "Shark Jaws",
+      "url": "https://www.arcade-history.com/?id=3395&n=shark-jaws&page=detail",
+      "note": "Used for 1975 Shark Jaws arcade context; exact month not asserted."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-31",
+  "editorNotes": [
+    "Initial AI-generated research draft for 1975. Sparse months intentionally avoid invented releases.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially.",
+    "Several arcade and PLATO entries are year-level or source-conflicted; sourceNote fields mark uncertainty."
+  ]
+}
