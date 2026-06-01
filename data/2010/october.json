@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "October 2010",
+    "accession": "GTM-2010-10",
+    "dek": "October 2010: Fallout: New Vegas arrives rough, funny and political.",
+    "curatorNote": "Initial researched draft for October 2010. Regional timing and UK retail context should be checked before verification.",
+    "statusChips": [
+      "Kinect",
+      "Move",
+      "Red Dead",
+      "Minecraft"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "October 2010",
+          "title": "Fallout: New Vegas arrives rough, funny and political.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "October 2010",
+          "title": "Medal of Honor returns in modern military form.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "October 2010",
+          "title": "The autumn shooter/RPG stack begins to thicken.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2010",
+          "title": "Kinect and PlayStation Move show how strongly Wii's success still shapes hardware strategy.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2010",
+          "title": "Downloadable games keep gaining prestige through XBLA, PSN, Steam and mobile stores.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "October 2010",
+          "title": "Fallout: New Vegas",
+          "platform": "PC / PS3 / Xbox 360",
+          "body": "Obsidian makes the wasteland more political, stranger and more breakable.",
+          "signal": "RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for October 2010."
+        },
+        {
+          "date": "January 2010",
+          "title": "Mass Effect 2",
+          "platform": "PC / Xbox 360",
+          "body": "BioWare turns the squad loyalty mission into a generation-defining rhythm.",
+          "signal": "RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for January 2010."
+        },
+        {
+          "date": "February 2010",
+          "title": "BioShock 2",
+          "platform": "PC / PS3 / Xbox 360",
+          "body": "Rapture returns as franchise space rather than one-off miracle.",
+          "signal": "immersive shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for February 2010."
+        },
+        {
+          "date": "March 2010",
+          "title": "Battlefield: Bad Company 2",
+          "platform": "PC / PS3 / Xbox 360",
+          "body": "Destruction and squad chatter make the shooter feel muddy and loud.",
+          "signal": "first-person shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 2010."
+        },
+        {
+          "date": "March 2010",
+          "title": "God of War III",
+          "platform": "PlayStation 3",
+          "body": "Kratos gives PS3 a huge mythological showpiece.",
+          "signal": "action adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 2010."
+        },
+        {
+          "date": "May 2010",
+          "title": "Alan Wake",
+          "platform": "Xbox 360",
+          "body": "Remedy turns episodic TV, torches and manuscript pages into a cult mood.",
+          "signal": "action thriller",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for May 2010."
+        },
+        {
+          "date": "May 2010",
+          "title": "Red Dead Redemption",
+          "platform": "PS3 / Xbox 360",
+          "body": "Rockstar's western turns emptiness, travel and endings into blockbuster language.",
+          "signal": "open-world action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for May 2010."
+        },
+        {
+          "date": "July 2010",
+          "title": "Limbo",
+          "platform": "Xbox Live Arcade",
+          "body": "A monochrome downloadable game becomes a quiet prestige object.",
+          "signal": "puzzle platformer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for July 2010."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "PlayStation Move launches",
+          "body": "Sony answers Wii with a glowing wand, camera tracking and a more precise motion-control pitch.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "PlayStation Blog dates Move's worldwide launch from September 2010."
+        },
+        {
+          "title": "Kinect launches",
+          "body": "Microsoft removes the controller entirely and sells the body as interface.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Xbox Wire dates Kinect for November 2010."
+        },
+        {
+          "title": "Nintendo 3DS is announced",
+          "body": "Nintendo points beyond DS with glasses-free stereoscopic 3D.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2010 hardware references support the March 2010 announcement context."
+        },
+        {
+          "title": "Download stores mature",
+          "body": "XBLA, PSN, Steam and mobile stores make smaller games part of routine browsing.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Year-level platform context; verify individual store milestones before final copy."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, digital covers and late magazine culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2010",
+          "headline": "Edge on the 2010 shelf",
+          "coverImage": "/magazine-covers/2010/edge-2010.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2010.",
+          "curatorNote": "A reconstructed marker for 2010's changing console and digital culture.",
+          "body": "A reconstructed marker for 2010's changing console and digital culture.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2010",
+          "headline": "PC Gamer UK on the 2010 shelf",
+          "coverImage": "/magazine-covers/2010/pc-gamer-uk-2010.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2010.",
+          "curatorNote": "A UK PC marker for 2010's downloads, mods, strategy and online habits.",
+          "body": "A UK PC marker for 2010's downloads, mods, strategy and online habits.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation Magazine UK",
+          "publication": "Official PlayStation Magazine UK",
+          "issueDate": "2010",
+          "headline": "Official PlayStation Magazine UK on the 2010 shelf",
+          "coverImage": "/magazine-covers/2010/official-playstation-magazine-uk-2010.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation Magazine UK, 2010.",
+          "curatorNote": "A PlayStation shelf marker for 2010's Sony hardware, exclusives and PSN context.",
+          "body": "A PlayStation shelf marker for 2010's Sony hardware, exclusives and PSN context.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Xbox Magazine UK",
+          "publication": "Official Xbox Magazine UK",
+          "issueDate": "2010",
+          "headline": "Official Xbox Magazine UK on the 2010 shelf",
+          "coverImage": "/magazine-covers/2010/official-xbox-magazine-uk-2010.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Xbox Magazine UK, 2010.",
+          "curatorNote": "An Xbox shelf marker for 2010's Live, shooters, services and hardware arguments.",
+          "body": "An Xbox shelf marker for 2010's Live, shooters, services and hardware arguments.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Services and servers",
+          "body": "Online life is Xbox Live parties, PSN friends, Steam sales, YouTube trailers, forums and mobile games quietly filling spare minutes.",
+          "artifact": "profile card",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Downloads and stores",
+          "body": "Minecraft spreads through videos, forums and word of mouth rather than traditional retail.",
+          "artifact": "download queue",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Forums and feeds",
+          "body": "DLC and map packs feel normal enough to be complained about as normal things.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "XBLA and PSN make the console dashboard feel like a shop, not just a launcher.",
+          "artifact": "chat log",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like the living room had become a testing ground. Wands, cameras, balance boards and controllers all competed for hands and bodies.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "At the same time, some of the year's most lasting futures were quiet: Minecraft builds, Limbo silhouettes, Steam habits.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "The boxed blockbuster still ruled the shop wall, but the dashboard was starting to matter just as much.",
+          "artifact": "forum memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "For UK players, 2010 was motion-control adverts, Red Dead sunsets, Halo nights and the strange feeling that small downloads could be important.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2010 in video games",
+      "url": "https://en.wikipedia.org/wiki/2010_in_video_games",
+      "note": "Broad release and hardware cross-check for 2010."
+    },
+    {
+      "label": "PlayStation Move launch",
+      "url": "https://blog.playstation.com/2010/06/15/playstation-move-motion-controller-to-launch-worldwide-starting-this-september/",
+      "note": "Used for September 2010 PlayStation Move launch context."
+    },
+    {
+      "label": "Kinect launch",
+      "url": "https://news.xbox.com/en-us/2010/06/14/kinect-sensor-for-xbox-360-launching-november-4/",
+      "note": "Used for Kinect's November 2010 launch context."
+    },
+    {
+      "label": "Red Dead Redemption reference",
+      "url": "https://en.wikipedia.org/wiki/Red_Dead_Redemption",
+      "note": "Used for May 2010 release timing."
+    },
+    {
+      "label": "Mass Effect 2 reference",
+      "url": "https://en.wikipedia.org/wiki/Mass_Effect_2",
+      "note": "Used for January 2010 release timing."
+    },
+    {
+      "label": "Minecraft reference",
+      "url": "https://en.wikipedia.org/wiki/Minecraft",
+      "note": "Used for 2010 alpha/beta context."
+    },
+    {
+      "label": "2010 release calendar reference",
+      "url": "https://en.wikipedia.org/wiki/2010_in_video_games",
+      "note": "Used to cross-check major releases; verify PAL dates during human edit."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Regional UK/PAL release dates should be verified carefully before moving beyond ai-draft.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}

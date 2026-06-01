@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "May 2013",
+    "accession": "GTM-2013-05",
+    "dek": "May 2013: Microsoft unveils Xbox One on May 21.",
+    "curatorNote": "Initial researched draft for May 2013. Regional timing and UK retail context should be checked before verification.",
+    "statusChips": [
+      "PS4",
+      "Xbox One",
+      "GTA V",
+      "The Last of Us"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "May 2013",
+          "title": "Microsoft unveils Xbox One on May 21.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "May 2013",
+          "title": "The reveal's TV, Kinect and online messaging immediately becomes controversial.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "May 2013",
+          "title": "Console identity is suddenly about policies as much as games.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2013",
+          "title": "PS4 and Xbox One turn console policy, price and messaging into mainstream arguments.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2013",
+          "title": "GTA V and The Last of Us make the old generation feel anything but finished.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "March 2013",
+          "title": "Tomb Raider",
+          "platform": "PC / PS3 / Xbox 360",
+          "body": "Lara Croft is rebooted as survival spectacle.",
+          "signal": "action adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 2013."
+        },
+        {
+          "date": "March 2013",
+          "title": "BioShock Infinite",
+          "platform": "PC / PS3 / Xbox 360",
+          "body": "Irrational trades Rapture for Columbia and fills the year with argument.",
+          "signal": "first-person shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 2013."
+        },
+        {
+          "date": "June 2013",
+          "title": "The Last of Us",
+          "platform": "PlayStation 3",
+          "body": "Naughty Dog makes late-generation prestige feel bleak, intimate and technical.",
+          "signal": "action adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for June 2013."
+        },
+        {
+          "date": "August 2013",
+          "title": "Papers, Please",
+          "platform": "PC",
+          "body": "A border booth becomes one of indie gaming's sharpest moral machines.",
+          "signal": "simulation",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for August 2013."
+        },
+        {
+          "date": "September 2013",
+          "title": "Grand Theft Auto V",
+          "platform": "PS3 / Xbox 360",
+          "body": "Rockstar makes Los Santos into a late-generation cultural event.",
+          "signal": "open-world action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for September 17, 2013."
+        },
+        {
+          "date": "October 2013",
+          "title": "Pokemon X and Y",
+          "platform": "Nintendo 3DS",
+          "body": "Pokemon moves into full 3D worldwide and all at once.",
+          "signal": "RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for October 2013."
+        },
+        {
+          "date": "November 2013",
+          "title": "Call of Duty: Ghosts",
+          "platform": "PC / PS3 / PS4 / Xbox 360 / Xbox One",
+          "body": "The annual shooter straddles old and new hardware.",
+          "signal": "first-person shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for November 2013."
+        },
+        {
+          "date": "November 2013",
+          "title": "The Legend of Zelda: A Link Between Worlds",
+          "platform": "Nintendo 3DS",
+          "body": "Nintendo revisits a classic map with unusual lightness.",
+          "signal": "adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for November 2013."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "PlayStation 4 launches in Europe",
+          "body": "Sony's console reaches Europe and the UK on November 29 with a strong price-and-power message.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Sony Interactive release confirms November 29, 2013."
+        },
+        {
+          "title": "Xbox One launches in the UK",
+          "body": "Microsoft's console reaches the UK on November 22 after a difficult messaging year.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Xbox Wire confirms November 22, 2013 in initial markets including the UK."
+        },
+        {
+          "title": "Wii U struggles for attention",
+          "body": "Nintendo's home console receives excellent games but remains commercially awkward.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2013 Wii U context; verify specific sales claims separately."
+        },
+        {
+          "title": "Sharing becomes platform design",
+          "body": "PS4's share button and Xbox recording features make broadcasting part of the console pitch.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2013 platform context; verify feature details before final copy."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, digital covers and late magazine culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2013",
+          "headline": "Edge on the 2013 shelf",
+          "coverImage": "/magazine-covers/2013/edge-2013.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2013.",
+          "curatorNote": "A reconstructed marker for 2013's changing console and digital culture.",
+          "body": "A reconstructed marker for 2013's changing console and digital culture.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2013",
+          "headline": "PC Gamer UK on the 2013 shelf",
+          "coverImage": "/magazine-covers/2013/pc-gamer-uk-2013.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2013.",
+          "curatorNote": "A UK PC marker for 2013's downloads, mods, strategy and online habits.",
+          "body": "A UK PC marker for 2013's downloads, mods, strategy and online habits.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation Magazine UK",
+          "publication": "Official PlayStation Magazine UK",
+          "issueDate": "2013",
+          "headline": "Official PlayStation Magazine UK on the 2013 shelf",
+          "coverImage": "/magazine-covers/2013/official-playstation-magazine-uk-2013.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation Magazine UK, 2013.",
+          "curatorNote": "A PlayStation shelf marker for 2013's Sony hardware, exclusives and PSN context.",
+          "body": "A PlayStation shelf marker for 2013's Sony hardware, exclusives and PSN context.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Xbox Magazine UK",
+          "publication": "Official Xbox Magazine UK",
+          "issueDate": "2013",
+          "headline": "Official Xbox Magazine UK on the 2013 shelf",
+          "coverImage": "/magazine-covers/2013/official-xbox-magazine-uk-2013.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Xbox Magazine UK, 2013.",
+          "curatorNote": "An Xbox shelf marker for 2013's Live, shooters, services and hardware arguments.",
+          "body": "An Xbox shelf marker for 2013's Live, shooters, services and hardware arguments.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Services and servers",
+          "body": "GTA Online turns a boxed blockbuster into a service that stumbles, recovers and persists.",
+          "artifact": "profile card",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Downloads and stores",
+          "body": "Console reveals are watched, clipped and argued about instantly across Twitter, forums and YouTube.",
+          "artifact": "download queue",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Forums and feeds",
+          "body": "PS4 and Xbox One build sharing and recording into their identity.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "Indie PC games such as Papers, Please prove small games can carry huge cultural weight online.",
+          "artifact": "chat log",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like the end of one generation and the messy birth of another, with both happening in public.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "The Last of Us and GTA V made PS3 and Xbox 360 seem almost defiant, as if they refused to leave quietly.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "PS4 and Xbox One arrived as arguments first and machines second: price, DRM, Kinect, sharing, used games, power.",
+          "artifact": "forum memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "In the UK, November had proper launch-night electricity again, even if many players spent it refreshing stock pages.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2013 in video games",
+      "url": "https://en.wikipedia.org/wiki/2013_in_video_games",
+      "note": "Broad release and hardware cross-check for 2013."
+    },
+    {
+      "label": "Microsoft unveils Xbox One",
+      "url": "https://blogs.microsoft.com/blog/2013/05/21/microsoft-unveils-xbox-one/",
+      "note": "Used for May 21, 2013 Xbox One reveal context."
+    },
+    {
+      "label": "Xbox One launch date",
+      "url": "https://news.xbox.com/en-us/2013/09/04/xbox-one-to-launch-on-november-22-2013-in-13-markets/",
+      "note": "Used for November 22, 2013 UK Xbox One launch context."
+    },
+    {
+      "label": "PlayStation 4 launch dates",
+      "url": "https://sonyinteractive.com/corporate/release/2013/130821a.html",
+      "note": "Used for November 29, 2013 Europe/UK PS4 launch context."
+    },
+    {
+      "label": "PS4 UK launch report",
+      "url": "https://www.theguardian.com/technology/2013/dec/02/ps4-xbox-one-uk-fastest-selling-console",
+      "note": "Used for UK launch momentum context."
+    },
+    {
+      "label": "GTA V turns 10",
+      "url": "https://www.axios.com/2023/09/16/grand-theft-auto-v-turns-10",
+      "note": "Used for GTA V release and scale cross-checking."
+    },
+    {
+      "label": "The Last of Us reference",
+      "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_%28video_game%29",
+      "note": "Used for June 2013 release context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Regional UK/PAL release dates should be verified carefully before moving beyond ai-draft.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}

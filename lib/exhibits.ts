@@ -418,6 +418,66 @@ import september2009 from "../data/2009/september.json";
 import october2009 from "../data/2009/october.json";
 import november2009 from "../data/2009/november.json";
 import december2009 from "../data/2009/december.json";
+import january2010 from "../data/2010/january.json";
+import february2010 from "../data/2010/february.json";
+import march2010 from "../data/2010/march.json";
+import april2010 from "../data/2010/april.json";
+import may2010 from "../data/2010/may.json";
+import june2010 from "../data/2010/june.json";
+import july2010 from "../data/2010/july.json";
+import august2010 from "../data/2010/august.json";
+import september2010 from "../data/2010/september.json";
+import october2010 from "../data/2010/october.json";
+import november2010 from "../data/2010/november.json";
+import december2010 from "../data/2010/december.json";
+import january2011 from "../data/2011/january.json";
+import february2011 from "../data/2011/february.json";
+import march2011 from "../data/2011/march.json";
+import april2011 from "../data/2011/april.json";
+import may2011 from "../data/2011/may.json";
+import june2011 from "../data/2011/june.json";
+import july2011 from "../data/2011/july.json";
+import august2011 from "../data/2011/august.json";
+import september2011 from "../data/2011/september.json";
+import october2011 from "../data/2011/october.json";
+import november2011 from "../data/2011/november.json";
+import december2011 from "../data/2011/december.json";
+import january2012 from "../data/2012/january.json";
+import february2012 from "../data/2012/february.json";
+import march2012 from "../data/2012/march.json";
+import april2012 from "../data/2012/april.json";
+import may2012 from "../data/2012/may.json";
+import june2012 from "../data/2012/june.json";
+import july2012 from "../data/2012/july.json";
+import august2012 from "../data/2012/august.json";
+import september2012 from "../data/2012/september.json";
+import october2012 from "../data/2012/october.json";
+import november2012 from "../data/2012/november.json";
+import december2012 from "../data/2012/december.json";
+import january2013 from "../data/2013/january.json";
+import february2013 from "../data/2013/february.json";
+import march2013 from "../data/2013/march.json";
+import april2013 from "../data/2013/april.json";
+import may2013 from "../data/2013/may.json";
+import june2013 from "../data/2013/june.json";
+import july2013 from "../data/2013/july.json";
+import august2013 from "../data/2013/august.json";
+import september2013 from "../data/2013/september.json";
+import october2013 from "../data/2013/october.json";
+import november2013 from "../data/2013/november.json";
+import december2013 from "../data/2013/december.json";
+import january2014 from "../data/2014/january.json";
+import february2014 from "../data/2014/february.json";
+import march2014 from "../data/2014/march.json";
+import april2014 from "../data/2014/april.json";
+import may2014 from "../data/2014/may.json";
+import june2014 from "../data/2014/june.json";
+import july2014 from "../data/2014/july.json";
+import august2014 from "../data/2014/august.json";
+import september2014 from "../data/2014/september.json";
+import october2014 from "../data/2014/october.json";
+import november2014 from "../data/2014/november.json";
+import december2014 from "../data/2014/december.json";
 import january2015 from "../data/2015/january.json";
 import february2015 from "../data/2015/february.json";
 import march2015 from "../data/2015/march.json";
@@ -1090,6 +1150,76 @@ export const EXHIBIT_MANIFEST = {
     october: october2009,
     november: november2009,
     december: december2009
+  },
+  2010: {
+    january: january2010,
+    february: february2010,
+    march: march2010,
+    april: april2010,
+    may: may2010,
+    june: june2010,
+    july: july2010,
+    august: august2010,
+    september: september2010,
+    october: october2010,
+    november: november2010,
+    december: december2010
+  },
+  2011: {
+    january: january2011,
+    february: february2011,
+    march: march2011,
+    april: april2011,
+    may: may2011,
+    june: june2011,
+    july: july2011,
+    august: august2011,
+    september: september2011,
+    october: october2011,
+    november: november2011,
+    december: december2011
+  },
+  2012: {
+    january: january2012,
+    february: february2012,
+    march: march2012,
+    april: april2012,
+    may: may2012,
+    june: june2012,
+    july: july2012,
+    august: august2012,
+    september: september2012,
+    october: october2012,
+    november: november2012,
+    december: december2012
+  },
+  2013: {
+    january: january2013,
+    february: february2013,
+    march: march2013,
+    april: april2013,
+    may: may2013,
+    june: june2013,
+    july: july2013,
+    august: august2013,
+    september: september2013,
+    october: october2013,
+    november: november2013,
+    december: december2013
+  },
+  2014: {
+    january: january2014,
+    february: february2014,
+    march: march2014,
+    april: april2014,
+    may: may2014,
+    june: june2014,
+    july: july2014,
+    august: august2014,
+    september: september2014,
+    october: october2014,
+    november: november2014,
+    december: december2014
   },
   2015: {
     january: january2015,

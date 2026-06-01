@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "January 2011",
+    "accession": "GTM-2011-01",
+    "dek": "January 2011: Dead Space 2 opens the year with polished horror.",
+    "curatorNote": "Initial researched draft for January 2011. Regional timing and UK retail context should be checked before verification.",
+    "statusChips": [
+      "3DS",
+      "Vita",
+      "Skyrim",
+      "PSN outage"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "January 2011",
+          "title": "Dead Space 2 opens the year with polished horror.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "January 2011",
+          "title": "3DS launch details dominate handheld anticipation.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "January 2011",
+          "title": "The old home consoles remain strong, but a new portable cycle is beginning.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2011",
+          "title": "Nintendo 3DS begins shakily before recovering through price cuts and first-party games.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2011",
+          "title": "PlayStation Vita appears in Japan as Sony's next handheld answer.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "February 2011",
+          "title": "Marvel vs. Capcom 3",
+          "platform": "PS3 / Xbox 360",
+          "body": "A loud crossover fighter becomes a stream-era spectacle.",
+          "signal": "fighting",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for February 2011."
+        },
+        {
+          "date": "March 2011",
+          "title": "Dragon Age II",
+          "platform": "PC / PS3 / Xbox 360",
+          "body": "BioWare's sequel becomes a debate about speed, scope and reuse.",
+          "signal": "RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 2011."
+        },
+        {
+          "date": "April 2011",
+          "title": "Portal 2",
+          "platform": "PC / PS3 / Xbox 360",
+          "body": "Valve turns a clever joke into a full theatrical machine.",
+          "signal": "puzzle",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for April 2011."
+        },
+        {
+          "date": "May 2011",
+          "title": "L.A. Noire",
+          "platform": "PS3 / Xbox 360",
+          "body": "Facial capture and detective work make the generation feel strangely cinematic.",
+          "signal": "detective adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for May 2011."
+        },
+        {
+          "date": "June 2011",
+          "title": "The Legend of Zelda: Ocarina of Time 3D",
+          "platform": "Nintendo 3DS",
+          "body": "Nintendo uses nostalgia to steady a shaky new handheld.",
+          "signal": "adventure remake",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for June 2011."
+        },
+        {
+          "date": "September 2011",
+          "title": "Gears of War 3",
+          "platform": "Xbox 360",
+          "body": "Epic closes its trilogy with co-op bombast and Xbox Live routine.",
+          "signal": "cover shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for September 2011."
+        },
+        {
+          "date": "September 2011",
+          "title": "Dark Souls",
+          "platform": "PS3 / Xbox 360",
+          "body": "FromSoftware turns difficulty, messages and dread into a cult mainstream language.",
+          "signal": "action RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Regional timing varies around September/October 2011."
+        },
+        {
+          "date": "October 2011",
+          "title": "Batman: Arkham City",
+          "platform": "PC / PS3 / Xbox 360",
+          "body": "Rocksteady expands superhero design into a dense urban toybox.",
+          "signal": "action adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for October 2011."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "Nintendo 3DS launches in Europe",
+          "body": "Nintendo's new handheld arrives on March 25 with a high price and a library still proving itself.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "TechSpot/GameSpot sources list March 25, 2011 for Europe."
+        },
+        {
+          "title": "3DS price cut changes the story",
+          "body": "Nintendo's aggressive price reduction helps reset the system's troubled start.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2011 handheld coverage supports this context."
+        },
+        {
+          "title": "PlayStation Vita launches in Japan",
+          "body": "Sony's powerful handheld arrives with dual sticks and a premium hardware pitch.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Vita references list December 17, 2011 for Japan."
+        },
+        {
+          "title": "PSN outage exposes online dependence",
+          "body": "The PlayStation Network incident makes digital trust a mainstream console concern.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2011 online-service context; use Sony/security primary sources before verification."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, digital covers and late magazine culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2011",
+          "headline": "Edge on the 2011 shelf",
+          "coverImage": "/magazine-covers/2011/edge-2011.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2011.",
+          "curatorNote": "A reconstructed marker for 2011's changing console and digital culture.",
+          "body": "A reconstructed marker for 2011's changing console and digital culture.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2011",
+          "headline": "PC Gamer UK on the 2011 shelf",
+          "coverImage": "/magazine-covers/2011/pc-gamer-uk-2011.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2011.",
+          "curatorNote": "A UK PC marker for 2011's downloads, mods, strategy and online habits.",
+          "body": "A UK PC marker for 2011's downloads, mods, strategy and online habits.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation Magazine UK",
+          "publication": "Official PlayStation Magazine UK",
+          "issueDate": "2011",
+          "headline": "Official PlayStation Magazine UK on the 2011 shelf",
+          "coverImage": "/magazine-covers/2011/official-playstation-magazine-uk-2011.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation Magazine UK, 2011.",
+          "curatorNote": "A PlayStation shelf marker for 2011's Sony hardware, exclusives and PSN context.",
+          "body": "A PlayStation shelf marker for 2011's Sony hardware, exclusives and PSN context.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Xbox Magazine UK",
+          "publication": "Official Xbox Magazine UK",
+          "issueDate": "2011",
+          "headline": "Official Xbox Magazine UK on the 2011 shelf",
+          "coverImage": "/magazine-covers/2011/official-xbox-magazine-uk-2011.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Xbox Magazine UK, 2011.",
+          "curatorNote": "An Xbox shelf marker for 2011's Live, shooters, services and hardware arguments.",
+          "body": "An Xbox shelf marker for 2011's Live, shooters, services and hardware arguments.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Services and servers",
+          "body": "Skyrim becomes a meme engine as much as a boxed RPG, with clips, mods and jokes travelling fast.",
+          "artifact": "profile card",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Downloads and stores",
+          "body": "Dark Souls uses messages, ghosts and invasions to make online presence feel eerie and authored.",
+          "artifact": "download queue",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Forums and feeds",
+          "body": "The PSN outage reminds console players that online accounts are now part of ownership.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "3DS StreetPass turns carrying a handheld through real places into a small social ritual.",
+          "artifact": "chat log",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like the old consoles were peaking while new handhelds tried to justify themselves.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "The 3DS was exciting, then worrying, then slowly reassuring as Nintendo moved fast to save it.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "Skyrim made everyone sound like they had visited the same cold country and returned with different stories.",
+          "artifact": "forum memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "Online life was now embedded deeply enough that when PSN went dark, it felt like part of the machine had gone missing.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2011 in video games",
+      "url": "https://en.wikipedia.org/wiki/2011_in_video_games",
+      "note": "Broad release and hardware cross-check for 2011."
+    },
+    {
+      "label": "Nintendo 3DS dated and priced",
+      "url": "https://www.gamespot.com/articles/nintendo-3ds-dated-priced/1100-6280013/",
+      "note": "Used for February/March 2011 3DS launch context."
+    },
+    {
+      "label": "Nintendo 3DS launch titles",
+      "url": "https://www.techspot.com/news/42340-nintendo-reveals-3ds-launch-game-titles.html",
+      "note": "Used for March 25, 2011 European 3DS launch context."
+    },
+    {
+      "label": "PlayStation Vita Japan launch",
+      "url": "https://en.wikipedia.org/wiki/PlayStation_Vita",
+      "note": "Used for December 17, 2011 Japan Vita launch cross-check."
+    },
+    {
+      "label": "Portal 2 reference",
+      "url": "https://en.wikipedia.org/wiki/Portal_2",
+      "note": "Used for April 2011 release timing."
+    },
+    {
+      "label": "Skyrim reference",
+      "url": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_V%3A_Skyrim",
+      "note": "Used for November 11, 2011 release timing."
+    },
+    {
+      "label": "2011 handheld year review",
+      "url": "https://www.pocketgamer.com/features/2011-the-year-in-review-3ds-and-ps-vita/",
+      "note": "Used for handheld-market context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Regional UK/PAL release dates should be verified carefully before moving beyond ai-draft.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}

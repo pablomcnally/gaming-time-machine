@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "October 2014",
+    "accession": "GTM-2014-10",
+    "dek": "October 2014: Alien: Isolation, Bayonetta 2 and Shadow of Mordor make October varied.",
+    "curatorNote": "Initial researched draft for October 2014. Regional timing and UK retail context should be checked before verification.",
+    "statusChips": [
+      "early new-gen",
+      "Destiny",
+      "Wii U gems",
+      "YouTube horror"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "October 2014",
+          "title": "Alien: Isolation, Bayonetta 2 and Shadow of Mordor make October varied.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "October 2014",
+          "title": "Driveclub struggles at launch on PS4.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "October 2014",
+          "title": "The new generation's online features can still break the mood.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2014",
+          "title": "PS4 and Xbox One spend their first full year proving what the new generation is for.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2014",
+          "title": "Cross-gen releases, remasters and delays define the early new-console shelf.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "October 2014",
+          "title": "Alien: Isolation",
+          "platform": "PC / consoles",
+          "body": "Creative Assembly makes licensed horror slow, tense and faithful.",
+          "signal": "survival horror",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for October 2014."
+        },
+        {
+          "date": "October 2014",
+          "title": "Bayonetta 2",
+          "platform": "Wii U",
+          "body": "Platinum gives Wii U one of its finest exclusives.",
+          "signal": "action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for October 2014."
+        },
+        {
+          "date": "March 2014",
+          "title": "Dark Souls II",
+          "platform": "PC / PS3 / Xbox 360",
+          "body": "FromSoftware's formula becomes a recognised event.",
+          "signal": "action RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 2014."
+        },
+        {
+          "date": "March 2014",
+          "title": "Titanfall",
+          "platform": "PC / Xbox One / Xbox 360",
+          "body": "Respawn sells Xbox One momentum through wall-running mechs.",
+          "signal": "first-person shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 2014."
+        },
+        {
+          "date": "May 2014",
+          "title": "Mario Kart 8",
+          "platform": "Wii U",
+          "body": "Nintendo gives Wii U a beautiful, badly needed system-seller.",
+          "signal": "racing",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for May 2014."
+        },
+        {
+          "date": "May 2014",
+          "title": "Watch Dogs",
+          "platform": "PC / consoles",
+          "body": "Ubisoft's long-hyped open world becomes a test of next-gen expectation.",
+          "signal": "open-world action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for May 2014."
+        },
+        {
+          "date": "June 2014",
+          "title": "Shovel Knight",
+          "platform": "PC / Nintendo platforms",
+          "body": "Yacht Club makes retro craft feel contemporary rather than merely nostalgic.",
+          "signal": "platformer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for June 2014."
+        },
+        {
+          "date": "August 2014",
+          "title": "Five Nights at Freddy's",
+          "platform": "PC",
+          "body": "A small horror game becomes a YouTube and lore phenomenon.",
+          "signal": "horror",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for August 2014."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "PS4 and Xbox One settle in",
+          "body": "The first full year is about proving value after launch hype.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2014 platform context; verify sales claims before final copy."
+        },
+        {
+          "title": "Kinect is unbundled from Xbox One",
+          "body": "Microsoft changes the Xbox One value argument by selling a cheaper Kinect-free model.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2014 Xbox One context; verify exact regional dates before final copy."
+        },
+        {
+          "title": "Wii U gets key first-party support",
+          "body": "Mario Kart 8, Bayonetta 2 and Smash give Nintendo loyalists a strong software year.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2014 Wii U release context supports this reading."
+        },
+        {
+          "title": "Streaming becomes normalised",
+          "body": "Twitch and console sharing make watching and broadcasting part of everyday game culture.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2014 online/platform context; verify service milestones before verification."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, digital covers and late magazine culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2014",
+          "headline": "Edge on the 2014 shelf",
+          "coverImage": "/magazine-covers/2014/edge-2014.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2014.",
+          "curatorNote": "A reconstructed marker for 2014's changing console and digital culture.",
+          "body": "A reconstructed marker for 2014's changing console and digital culture.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2014",
+          "headline": "PC Gamer UK on the 2014 shelf",
+          "coverImage": "/magazine-covers/2014/pc-gamer-uk-2014.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2014.",
+          "curatorNote": "A UK PC marker for 2014's downloads, mods, strategy and online habits.",
+          "body": "A UK PC marker for 2014's downloads, mods, strategy and online habits.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation Magazine UK",
+          "publication": "Official PlayStation Magazine UK",
+          "issueDate": "2014",
+          "headline": "Official PlayStation Magazine UK on the 2014 shelf",
+          "coverImage": "/magazine-covers/2014/official-playstation-magazine-uk-2014.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation Magazine UK, 2014.",
+          "curatorNote": "A PlayStation shelf marker for 2014's Sony hardware, exclusives and PSN context.",
+          "body": "A PlayStation shelf marker for 2014's Sony hardware, exclusives and PSN context.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Xbox Magazine UK",
+          "publication": "Official Xbox Magazine UK",
+          "issueDate": "2014",
+          "headline": "Official Xbox Magazine UK on the 2014 shelf",
+          "coverImage": "/magazine-covers/2014/official-xbox-magazine-uk-2014.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Xbox Magazine UK, 2014.",
+          "curatorNote": "An Xbox shelf marker for 2014's Live, shooters, services and hardware arguments.",
+          "body": "An Xbox shelf marker for 2014's Live, shooters, services and hardware arguments.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Services and servers",
+          "body": "Destiny makes weekly resets, raids and loot chatter part of the console routine.",
+          "artifact": "profile card",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Downloads and stores",
+          "body": "Five Nights at Freddy's spreads through YouTube reactions and lore speculation.",
+          "artifact": "download queue",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Forums and feeds",
+          "body": "Share buttons and Twitch make ordinary play more visible than before.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "Patches, delays, betas and server issues become part of the public life of a game.",
+          "artifact": "chat log",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like owning new hardware before the new era had fully arrived.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "There were brilliant games, but many of them were cross-gen, remastered, delayed or still finding their shape.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "Destiny made the future feel social and repetitive at once; Five Nights showed how fast YouTube could turn fear into folklore.",
+          "artifact": "forum memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "By Christmas, the PS4 and Xbox One felt established, but their identities were still being negotiated in public.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2014 in video games",
+      "url": "https://en.wikipedia.org/wiki/2014_in_video_games",
+      "note": "Broad release and awards cross-check for 2014."
+    },
+    {
+      "label": "Dragon Age: Inquisition reference",
+      "url": "https://en.wikipedia.org/wiki/Dragon_Age%3A_Inquisition",
+      "note": "Used for November 2014 release and awards context."
+    },
+    {
+      "label": "Destiny reference",
+      "url": "https://en.wikipedia.org/wiki/Destiny_%28video_game%29",
+      "note": "Used for September 2014 release timing."
+    },
+    {
+      "label": "GTA V remaster timing",
+      "url": "https://time.com/3338922/grand-theft-auto-v-remastered-release-date/",
+      "note": "Used for November 2014 PS4/Xbox One GTA V context."
+    },
+    {
+      "label": "Titanfall reference",
+      "url": "https://en.wikipedia.org/wiki/Titanfall_%28video_game%29",
+      "note": "Used for March 2014 release timing."
+    },
+    {
+      "label": "Watch Dogs reference",
+      "url": "https://en.wikipedia.org/wiki/Watch_Dogs_%28video_game%29",
+      "note": "Used for May 2014 release timing."
+    },
+    {
+      "label": "PlayStation Now beta context",
+      "url": "https://en.wikipedia.org/wiki/PlayStation_Now",
+      "note": "Used for 2014 streaming-service context; verify with Sony primary source before final edit."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Regional UK/PAL release dates should be verified carefully before moving beyond ai-draft.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}
