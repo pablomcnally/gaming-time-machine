@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="960" viewBox="0 0 720 960" role="img" aria-labelledby="title desc">
+  <title id="title">Official PlayStation Magazine UK 2019</title>
+  <desc id="desc">Reconstructed placeholder magazine cover for Gaming Time Machine.</desc>
+  <rect width="720" height="960" fill="#171513"/>
+  <rect x="44" y="44" width="632" height="872" fill="#f3ead8" stroke="#b99a56" stroke-width="4"/>
+  <rect x="78" y="92" width="564" height="112" fill="#171513"/>
+  <text x="360" y="156" text-anchor="middle" font-family="Georgia, serif" font-size="38" font-weight="700" fill="#f3ead8">Official PlayStation Magazine UK</text>
+  <line x1="118" y1="252" x2="602" y2="252" stroke="#b99a56" stroke-width="4"/>
+  <path d="M220 464h280M260 384h200M300 304h120M300 544h120" stroke="#b99a56" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="360" cy="424" r="154" fill="none" stroke="#6e6250" stroke-width="3" stroke-dasharray="10 12"/>
+  <text x="360" y="634" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#171513">2019</text>
+  <text x="360" y="700" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" letter-spacing="4" fill="#6e6250">ARCHIVE PLACEHOLDER</text>
+  <text x="360" y="776" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#6e6250">Replace with licensed scan after verification</text>
+</svg>

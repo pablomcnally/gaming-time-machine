@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "September 2018",
+    "accession": "GTM-2018-09",
+    "dek": "September 2018: Marvel's Spider-Man becomes a PS4 showcase.",
+    "curatorNote": "Initial researched draft for September 2018. Recent enough for careful source review before verification.",
+    "statusChips": [
+      "Switch year two",
+      "PS4 prestige",
+      "Fortnite",
+      "subscriptions"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "September 2018",
+          "title": "Marvel's Spider-Man becomes a PS4 showcase.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "September 2018",
+          "title": "Nintendo Switch Online launches as a paid service.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "September 2018",
+          "title": "The autumn release corridor opens with superhero scale and subscription friction.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2018",
+          "title": "Fortnite, Twitch and Discord keep reshaping how games are watched and discussed.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2018",
+          "title": "PS4 feels near its late-generation peak while Switch proves it is not a one-year miracle.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "museum interpretation",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "September 7, 2018",
+          "title": "Marvel's Spider-Man",
+          "platform": "PS4",
+          "body": "Insomniac makes web-swinging feel like a late-generation PS4 victory lap.",
+          "signal": "superhero action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for September 7, 2018."
+        },
+        {
+          "date": "January 25, 2018",
+          "title": "Celeste",
+          "platform": "PC / consoles",
+          "body": "A tiny mountain becomes one of the year's clearest emotional objects.",
+          "signal": "indie platformer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for January 25, 2018."
+        },
+        {
+          "date": "January 26, 2018",
+          "title": "Monster Hunter: World",
+          "platform": "PS4 / Xbox One",
+          "body": "Capcom makes Monster Hunter feel global, social and suddenly mainstream.",
+          "signal": "action RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "2018 release lists place the console launch on January 26."
+        },
+        {
+          "date": "February 27, 2018",
+          "title": "Into the Breach",
+          "platform": "PC",
+          "body": "Subset Games turns tactics into a clean little museum case of consequences.",
+          "signal": "strategy",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for February 27, 2018 on PC."
+        },
+        {
+          "date": "March 27, 2018",
+          "title": "Far Cry 5",
+          "platform": "PC / PS4 / Xbox One",
+          "body": "Ubisoft turns rural America into a loud open-world argument.",
+          "signal": "open-world shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Commonly listed for March 27, 2018."
+        },
+        {
+          "date": "April 20, 2018",
+          "title": "God of War",
+          "platform": "PS4",
+          "body": "Sony's old icon returns older, quieter and unexpectedly tender.",
+          "signal": "action adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for April 20, 2018."
+        },
+        {
+          "date": "April 2018",
+          "title": "Nintendo Labo",
+          "platform": "Switch",
+          "body": "Cardboard becomes both toy and software, making Switch feel like a strange craft-table console.",
+          "signal": "hardware/software toy",
+          "certainty": "regional timing varies",
+          "sourceNote": "Nintendo lists April 2018 regional launches; exact territory dates vary."
+        },
+        {
+          "date": "May 25, 2018",
+          "title": "Detroit: Become Human",
+          "platform": "PS4",
+          "body": "Quantic Dream brings branching cinematic drama into another round of argument.",
+          "signal": "interactive drama",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for May 25, 2018."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "Nintendo Switch Online becomes paid",
+          "body": "Nintendo's free online grace period ends, turning Switch multiplayer into a subscription conversation.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Ars Technica/TechCrunch report the September 18, 2018 launch."
+        },
+        {
+          "title": "PS4 reaches a confident late generation",
+          "body": "God of War and Spider-Man show Sony's first-party pipeline at full public strength.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2018 release and awards context supports this year-level reading."
+        },
+        {
+          "title": "Microsoft invests in studios",
+          "body": "The E3 2018 acquisitions signal Xbox rebuilding for a future beyond the current console cycle.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Microsoft Source confirms Playground, The Initiative and acquisition plans."
+        },
+        {
+          "title": "Epic Games Store appears",
+          "body": "A new PC storefront challenges Steam with a developer-friendly revenue split and the start of an exclusivity argument.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Gematsu/TechCrunch report the December 2018 announcement/launch."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, digital covers and late magazine culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2018",
+          "headline": "Edge on the 2018 shelf",
+          "coverImage": "/magazine-covers/2018/edge-2018.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2018.",
+          "curatorNote": "A reconstructed shelf marker for the year God of War, Red Dead and Smash made the late generation feel expensive and grand.",
+          "body": "A reconstructed shelf marker for the year God of War, Red Dead and Smash made the late generation feel expensive and grand.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2018",
+          "headline": "PC Gamer UK on the 2018 shelf",
+          "coverImage": "/magazine-covers/2018/pc-gamer-uk-2018.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2018.",
+          "curatorNote": "A UK PC marker for Into the Breach, Fortnite argument, early Epic Store tension and the long tail of live games.",
+          "body": "A UK PC marker for Into the Breach, Fortnite argument, early Epic Store tension and the long tail of live games.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation Magazine UK",
+          "publication": "Official PlayStation Magazine UK",
+          "issueDate": "2018",
+          "headline": "Official PlayStation Magazine UK on the 2018 shelf",
+          "coverImage": "/magazine-covers/2018/official-playstation-magazine-uk-2018.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation Magazine UK, 2018.",
+          "curatorNote": "A PlayStation shelf marker for God of War, Spider-Man and a PS4 generation in full confidence.",
+          "body": "A PlayStation shelf marker for God of War, Spider-Man and a PS4 generation in full confidence.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Switch Player",
+          "publication": "Switch Player",
+          "issueDate": "2018",
+          "headline": "Switch Player on the 2018 shelf",
+          "coverImage": "/magazine-covers/2018/switch-player-2018.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Switch Player, 2018.",
+          "curatorNote": "A Switch-era marker for Labo, Octopath, Pokemon and the first full year after Nintendo's comeback.",
+          "body": "A Switch-era marker for Labo, Octopath, Pokemon and the first full year after Nintendo's comeback.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Streams and servers",
+          "body": "Online life feels like Fortnite seasons, Twitch drops, Discord servers, Reddit arguments and YouTube explainers racing ahead of print.",
+          "artifact": "stream clip",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Services and stores",
+          "body": "Cross-play becomes a public expectation rather than a technical curiosity, especially around Fortnite.",
+          "artifact": "storefront page",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Forums and feeds",
+          "body": "Nintendo Switch Online brings NES games, cloud saves and paid multiplayer into Nintendo's modern vocabulary.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "PC players begin arguing about launchers and storefront loyalty as Epic prepares a direct challenge to Steam.",
+          "artifact": "chat log",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like the current generation had stopped apologising for itself. PS4, Xbox One, Switch and PC all knew what they were.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "The year had two kinds of scale: Red Dead's impossible detail and Celeste's tiny, devastating precision.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "For UK players, Forza Horizon 4 made local roads look glossy and strange, while Spider-Man and God of War made PS4 feel like the prestige box.",
+          "artifact": "group chat",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "Underneath the big games, the future was already shifting toward subscriptions, storefronts and watching games as much as playing them.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2018 in video games",
+      "url": "https://en.wikipedia.org/wiki/2018_in_video_games",
+      "note": "Broad release and awards cross-check for 2018."
+    },
+    {
+      "label": "Nintendo Switch Online launch",
+      "url": "https://arstechnica.com/gaming/2018/09/nintendos-first-ever-paid-online-service-launches-on-switch-sept-18/",
+      "note": "Used for September 18, 2018 paid Switch Online launch context."
+    },
+    {
+      "label": "Red Dead Redemption 2 now available",
+      "url": "https://www.rockstargames.com/newswire/article/4k412883895ka4/Red-Dead-Redemption-2-Now-Available",
+      "note": "Used for October 26, 2018 Red Dead Redemption 2 release context."
+    },
+    {
+      "label": "Microsoft E3 2018 studio investments",
+      "url": "https://news.microsoft.com/source/2018/06/10/microsoft-doubles-its-game-development-studios-and-showcases-more-than-50-games-on-e3-stage-including-18-console-launch-exclusives-and-15-world-premieres/",
+      "note": "Used for Microsoft's 2018 studio acquisition context."
+    },
+    {
+      "label": "Epic Games Store announcement",
+      "url": "https://www.gematsu.com/2018/12/epic-games-announces-epic-games-store",
+      "note": "Used for December 2018 Epic Games Store announcement/store context."
+    },
+    {
+      "label": "The Game Awards 2018 winners",
+      "url": "https://www.gematsu.com/2018/12/the-game-awards-2018-winners-announced",
+      "note": "Used for God of War Game of the Year context."
+    },
+    {
+      "label": "Nintendo 2018 software release list",
+      "url": "https://www.nintendo.co.jp/ir/pdf/2018/181030_3e.pdf",
+      "note": "Used to cross-check Switch software timing such as Octopath Traveler and Labo."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Recent enough for release dates and service dates to be verified against primary sources.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}

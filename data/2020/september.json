@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "September 2020",
+    "accession": "GTM-2020-09",
+    "dek": "September 2020: Hades reaches 1.0 and Switch.",
+    "curatorNote": "Initial researched draft for September 2020. Recent enough for careful source review before verification.",
+    "statusChips": [
+      "lockdown play",
+      "PS5",
+      "Xbox Series",
+      "digital queues"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "September 2020",
+          "title": "Hades reaches 1.0 and Switch.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "September 2020",
+          "title": "Tony Hawk's Pro Skater 1 + 2 makes nostalgia feel clean and playable.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "September 2020",
+          "title": "Sony and Microsoft finally put prices and dates on the new consoles.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2020",
+          "title": "COVID-19 changes development, events, retail and the emotional role of games.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "museum interpretation",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2020",
+          "title": "PS5 and Xbox Series X/S stock pressure turns hardware into an online queue.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "September 17, 2020",
+          "title": "Hades",
+          "platform": "PC / Switch",
+          "body": "Supergiant's early-access gem arrives fully formed and endlessly replayed.",
+          "signal": "roguelike action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for September 17, 2020 1.0/Switch release."
+        },
+        {
+          "date": "February 14, 2020",
+          "title": "Dreams",
+          "platform": "PS4",
+          "body": "Media Molecule releases a creation suite that feels like a gallery, a toy box and a workshop.",
+          "signal": "creation platform",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for February 14, 2020."
+        },
+        {
+          "date": "March 11, 2020",
+          "title": "Ori and the Will of the Wisps",
+          "platform": "PC / Xbox One",
+          "body": "Moon Studios makes the late Xbox One era glow with craft.",
+          "signal": "platform adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 11, 2020."
+        },
+        {
+          "date": "March 20, 2020",
+          "title": "Animal Crossing: New Horizons",
+          "platform": "Switch",
+          "body": "Nintendo's island arrives exactly as real movement disappears.",
+          "signal": "life simulation",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 20, 2020; Axios covers its pandemic-era resonance."
+        },
+        {
+          "date": "March 20, 2020",
+          "title": "Doom Eternal",
+          "platform": "PC / PS4 / Xbox One",
+          "body": "Doom becomes the aggressive twin of Animal Crossing's lockdown weekend.",
+          "signal": "first-person shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Gematsu/Bethesda delay context lists March 20, 2020."
+        },
+        {
+          "date": "March 23, 2020",
+          "title": "Half-Life: Alyx",
+          "platform": "PC VR",
+          "body": "Valve makes VR feel, briefly, like the future PC players were promised.",
+          "signal": "VR shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 23, 2020."
+        },
+        {
+          "date": "April 10, 2020",
+          "title": "Final Fantasy VII Remake",
+          "platform": "PS4",
+          "body": "Square Enix turns a memory into a lavish, contested modern text.",
+          "signal": "action RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for April 10, 2020."
+        },
+        {
+          "date": "June 19, 2020",
+          "title": "The Last of Us Part II",
+          "platform": "PS4",
+          "body": "Naughty Dog's sequel becomes a technical landmark and a bruising online argument.",
+          "signal": "action adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for June 19, 2020."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "PlayStation 5 launches",
+          "body": "Sony's new console reaches the UK and Europe on November 19 amid online-only launch-day ordering and stock pressure.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "PlayStation Blog confirms the November rollout."
+        },
+        {
+          "title": "Xbox Series X/S launches",
+          "body": "Microsoft launches two next-gen boxes on November 10, with Game Pass central to the pitch.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Xbox Wire confirms November 10, 2020."
+        },
+        {
+          "title": "COVID-19 reshapes events and retail",
+          "body": "E3 is cancelled, showcases go online and physical shopping becomes unreliable or impossible for long stretches.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "E3 2020 and COVID industry sources support this context."
+        },
+        {
+          "title": "Switch becomes a lockdown object",
+          "body": "Animal Crossing, portability and family access make Switch hardware feel newly domestic.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Animal Crossing pandemic reporting and 2020 retail context support this reading."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, digital covers and late magazine culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2020",
+          "headline": "Edge on the 2020 shelf",
+          "coverImage": "/magazine-covers/2020/edge-2020.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2020.",
+          "curatorNote": "A reconstructed marker for the lockdown year and the awkward birth of a new console generation.",
+          "body": "A reconstructed marker for the lockdown year and the awkward birth of a new console generation.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2020",
+          "headline": "PC Gamer UK on the 2020 shelf",
+          "coverImage": "/magazine-covers/2020/pc-gamer-uk-2020.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2020.",
+          "curatorNote": "A PC marker for Half-Life: Alyx, Flight Simulator, Hades, Crusader Kings and a year spent indoors.",
+          "body": "A PC marker for Half-Life: Alyx, Flight Simulator, Hades, Crusader Kings and a year spent indoors.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation Magazine UK",
+          "publication": "Official PlayStation Magazine UK",
+          "issueDate": "2020",
+          "headline": "Official PlayStation Magazine UK on the 2020 shelf",
+          "coverImage": "/magazine-covers/2020/official-playstation-magazine-uk-2020.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation Magazine UK, 2020.",
+          "curatorNote": "A PlayStation marker for The Last of Us Part II, Ghost of Tsushima and the PS5 queue.",
+          "body": "A PlayStation marker for The Last of Us Part II, Ghost of Tsushima and the PS5 queue.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Xbox Magazine UK",
+          "publication": "Official Xbox Magazine UK",
+          "issueDate": "2020",
+          "headline": "Official Xbox Magazine UK on the 2020 shelf",
+          "coverImage": "/magazine-covers/2020/official-xbox-magazine-uk-2020.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Xbox Magazine UK, 2020.",
+          "curatorNote": "An Xbox marker for Series X/S, Game Pass and a launch defined as much by services as boxes.",
+          "body": "An Xbox marker for Series X/S, Game Pass and a launch defined as much by services as boxes.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Streams and servers",
+          "body": "Online life becomes life: Discord calls, island visits, Zoom-adjacent hangouts and multiplayer routines fill spaces left by closed doors.",
+          "artifact": "stream clip",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Services and stores",
+          "body": "Digital showcases replace stage shows, making the industry feel both more accessible and more disembodied.",
+          "artifact": "storefront page",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Forums and feeds",
+          "body": "Stock-alert Twitter accounts, preorder queues and retailer crashes become part of buying a console.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "Patches, delays and remote development become visible to ordinary players in a way they rarely had before.",
+          "artifact": "chat log",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like games moved from hobby to infrastructure. They were where birthdays, friendships, arguments and boredom went during lockdown.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "Animal Crossing was not just a release; it was a place to stand when real places were unavailable.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "The new consoles arrived without the usual shop-floor theatre. For many people they were browser tabs, failed baskets and delivery windows.",
+          "artifact": "group chat",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "The year ended with wonder and fatigue sitting together: Hades, Flight Simulator and new hardware on one side, Cyberpunk, scarcity and exhaustion on the other.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2020 in video games",
+      "url": "https://en.wikipedia.org/wiki/2020_in_video_games",
+      "note": "Broad release and hardware cross-check for 2020."
+    },
+    {
+      "label": "PlayStation 5 launch announcement",
+      "url": "https://blog.playstation.com/2020/09/16/playstation-5-launches-in-november-starting-at-399-for-ps5-digital-edition-and-499-for-ps5-with-ultra-hd-blu-ray-disc-drive/",
+      "note": "Used for November 2020 PS5 rollout and Europe/UK launch context."
+    },
+    {
+      "label": "Xbox Series X/S launch announcement",
+      "url": "https://news.xbox.com/en-us/2020/09/09/xbox-series-x-and-xbox-series-s-launching-november-10/amp/",
+      "note": "Used for November 10, 2020 Xbox Series X/S launch context."
+    },
+    {
+      "label": "E3 2020 cancellation context",
+      "url": "https://en.wikipedia.org/wiki/E3_2020",
+      "note": "Used for COVID-19 cancellation context; replace with ESA primary note if desired."
+    },
+    {
+      "label": "Animal Crossing pandemic context",
+      "url": "https://www.axios.com/2020/03/26/animal-crossing-coronavirus-era",
+      "note": "Used for Animal Crossing's March 2020 lockdown context."
+    },
+    {
+      "label": "2020 release calendar",
+      "url": "https://www.shacknews.com/article/115060/2020-video-game-release-dates-calendar",
+      "note": "Used for 2020 release-date cross-checking."
+    },
+    {
+      "label": "DOOM Eternal delay/release context",
+      "url": "https://www.gematsu.com/2019/10/doom-eternal-delayed-to-march-20-2020-for-ps4-xbox-one-and-pc-later-for-switch-doom-64-added-as-pre-order-bonus",
+      "note": "Used for March 20, 2020 Doom Eternal timing."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Recent enough for release dates and service dates to be verified against primary sources.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}

@@ -334,6 +334,42 @@ import september2002 from "../data/2002/september.json";
 import october2002 from "../data/2002/october.json";
 import november2002 from "../data/2002/november.json";
 import december2002 from "../data/2002/december.json";
+import january2018 from "../data/2018/january.json";
+import february2018 from "../data/2018/february.json";
+import march2018 from "../data/2018/march.json";
+import april2018 from "../data/2018/april.json";
+import may2018 from "../data/2018/may.json";
+import june2018 from "../data/2018/june.json";
+import july2018 from "../data/2018/july.json";
+import august2018 from "../data/2018/august.json";
+import september2018 from "../data/2018/september.json";
+import october2018 from "../data/2018/october.json";
+import november2018 from "../data/2018/november.json";
+import december2018 from "../data/2018/december.json";
+import january2019 from "../data/2019/january.json";
+import february2019 from "../data/2019/february.json";
+import march2019 from "../data/2019/march.json";
+import april2019 from "../data/2019/april.json";
+import may2019 from "../data/2019/may.json";
+import june2019 from "../data/2019/june.json";
+import july2019 from "../data/2019/july.json";
+import august2019 from "../data/2019/august.json";
+import september2019 from "../data/2019/september.json";
+import october2019 from "../data/2019/october.json";
+import november2019 from "../data/2019/november.json";
+import december2019 from "../data/2019/december.json";
+import january2020 from "../data/2020/january.json";
+import february2020 from "../data/2020/february.json";
+import march2020 from "../data/2020/march.json";
+import april2020 from "../data/2020/april.json";
+import may2020 from "../data/2020/may.json";
+import june2020 from "../data/2020/june.json";
+import july2020 from "../data/2020/july.json";
+import august2020 from "../data/2020/august.json";
+import september2020 from "../data/2020/september.json";
+import october2020 from "../data/2020/october.json";
+import november2020 from "../data/2020/november.json";
+import december2020 from "../data/2020/december.json";
 import january2021 from "../data/2021/january.json";
 import february2021 from "../data/2021/february.json";
 import march2021 from "../data/2021/march.json";
@@ -836,6 +872,48 @@ export const EXHIBIT_MANIFEST = {
     october: october2002,
     november: november2002,
     december: december2002
+  },
+  2018: {
+    january: january2018,
+    february: february2018,
+    march: march2018,
+    april: april2018,
+    may: may2018,
+    june: june2018,
+    july: july2018,
+    august: august2018,
+    september: september2018,
+    october: october2018,
+    november: november2018,
+    december: december2018
+  },
+  2019: {
+    january: january2019,
+    february: february2019,
+    march: march2019,
+    april: april2019,
+    may: may2019,
+    june: june2019,
+    july: july2019,
+    august: august2019,
+    september: september2019,
+    october: october2019,
+    november: november2019,
+    december: december2019
+  },
+  2020: {
+    january: january2020,
+    february: february2020,
+    march: march2020,
+    april: april2020,
+    may: may2020,
+    june: june2020,
+    july: july2020,
+    august: august2020,
+    september: september2020,
+    october: october2020,
+    november: november2020,
+    december: december2020
   },
   2021: {
     january: january2021,
