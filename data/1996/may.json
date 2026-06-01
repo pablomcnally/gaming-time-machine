@@ -1,0 +1,342 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "May 1996",
+    "accession": "GTM-1996-05",
+    "dek": "May is pre-E3 anticipation.",
+    "curatorNote": "Initial researched draft for May 1996. Dates are deliberately conservative where regional timing is uncertain.",
+    "statusChips": [
+      "N64",
+      "Quake",
+      "Resident Evil",
+      "Tomb Raider"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "May 1996",
+          "title": "Mario 64 and N64 coverage builds before Japan's launch.",
+          "body": "A month marker with regional timing kept visible rather than smoothed into a single global date.",
+          "artifact": "release card",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; exact dates are used only when the reviewed sources support them."
+        },
+        {
+          "date": "May 1996",
+          "title": "Quake is nearly ready to redraw PC expectations.",
+          "body": "The network is becoming part of the exhibit, not just a footnote to boxed software.",
+          "artifact": "magazine clipping",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; exact dates are used only when the reviewed sources support them."
+        },
+        {
+          "date": "May 1996",
+          "title": "PlayStation owners look toward Tomb Raider, Crash and Resident Evil.",
+          "body": "A researched period marker, written cautiously where sources disagree or the month is more atmosphere than hard date.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; exact dates are used only when the reviewed sources support them."
+        },
+        {
+          "date": "May 1996",
+          "title": "Saturn owners still follow arcade conversions and imports.",
+          "body": "A researched period marker, written cautiously where sources disagree or the month is more atmosphere than hard date.",
+          "artifact": "demo-disc note",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; exact dates are used only when the reviewed sources support them."
+        },
+        {
+          "date": "May 1996",
+          "title": "The month is mainly a preview-room exhibit.",
+          "body": "A researched period marker, written cautiously where sources disagree or the month is more atmosphere than hard date.",
+          "artifact": "context plaque",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; exact dates are used only when the reviewed sources support them."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "January/February 1996",
+          "title": "Duke Nukem 3D",
+          "platform": "DOS",
+          "body": "3D Realms gives the post-Doom FPS a louder, cruder, more recognisable cityscape.",
+          "signal": "Build Engine FPS",
+          "certainty": "source-noted context",
+          "sourceNote": "Late January/shareware and February references vary; month is treated cautiously."
+        },
+        {
+          "date": "February 27, 1996",
+          "title": "Pokemon Red and Green",
+          "platform": "Game Boy",
+          "body": "Game Freak begins a Japanese handheld phenomenon that will not reach Europe until 1999.",
+          "signal": "handheld RPG origin",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese Red/Green date is widely cited."
+        },
+        {
+          "date": "February 1996",
+          "title": "Civilization II",
+          "platform": "PC",
+          "body": "MicroProse refines the empire spreadsheet into one-more-turn ritual.",
+          "signal": "strategy landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "February 1996 is commonly cited."
+        },
+        {
+          "date": "March 22, 1996",
+          "title": "Resident Evil",
+          "platform": "PlayStation",
+          "body": "Capcom gives PlayStation a mansion full of fixed cameras, awkward doors and survival dread.",
+          "signal": "survival horror",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese date is source-cited; Europe follows in August."
+        },
+        {
+          "date": "June 22, 1996",
+          "title": "Quake",
+          "platform": "DOS",
+          "body": "id Software makes true 3D, mouselook and network play feel like the new PC frontier.",
+          "signal": "true-3D FPS",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Steam lists June 22, 1996."
+        },
+        {
+          "date": "June 23, 1996",
+          "title": "Super Mario 64",
+          "platform": "Nintendo 64",
+          "body": "Nintendo teaches a generation how to move in 3D space.",
+          "signal": "3D platform landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "MobyGames lists June 23, 1996."
+        },
+        {
+          "date": "September/November 1996",
+          "title": "Crash Bandicoot",
+          "platform": "PlayStation",
+          "body": "Naughty Dog gives Sony a corridor-platform mascot with UK retail reach in November.",
+          "signal": "PlayStation mascot",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "North America September 9; Europe November 8."
+        },
+        {
+          "date": "November 22, 1996",
+          "title": "Tomb Raider",
+          "platform": "PlayStation / DOS",
+          "body": "Core Design turns exploration, acrobatics and Lara Croft into a British export story.",
+          "signal": "UK-made 3D adventure",
+          "certainty": "source-noted context",
+          "sourceNote": "UK/Europe date is source-noted; some sources conflict for earlier European timing."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Machines, media and platform context around the month.",
+      "items": [
+        {
+          "title": "Nintendo 64 launches in Japan and North America",
+          "body": "The N64 makes 3D movement feel tactile, though UK players wait until 1997.",
+          "tags": [
+            "Hardware"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Japan June 23 and North America September 29 are widely cited; PAL follows in 1997."
+        },
+        {
+          "title": "PlayStation becomes the UK default future",
+          "body": "Sony's machine benefits from CD pricing, demo discs and a growing identity beyond children's toys.",
+          "tags": [
+            "Retail"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "UK retail and magazine context."
+        },
+        {
+          "title": "Saturn fights with arcade credibility",
+          "body": "Sega still has Virtua Fighter, Sega Rally and import mystique, but the platform story is harder to explain.",
+          "tags": [
+            "UK context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Saturn/UK magazine context."
+        },
+        {
+          "title": "PC 3D acceleration starts to matter",
+          "body": "Quake, 3D cards and network play make hardware knowledge part of PC gaming status.",
+          "tags": [
+            "Future-facing"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "1996 PC hardware context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for the magazine culture of the year.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "1996",
+          "headline": "Edge on the 1996 shelf",
+          "coverImage": "/magazine-covers/1996/edge-1996.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 1996.",
+          "curatorNote": "The premium UK multi-format voice for a year when 3D stopped feeling theoretical.",
+          "body": "The premium UK multi-format voice for a year when 3D stopped feeling theoretical.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation Magazine UK",
+          "publication": "Official PlayStation Magazine UK",
+          "issueDate": "1996",
+          "headline": "Official PlayStation Magazine UK on the 1996 shelf",
+          "coverImage": "/magazine-covers/1996/official-playstation-magazine-uk-1996.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation Magazine UK, 1996.",
+          "curatorNote": "Monthly demo discs help make PlayStation feel playable before purchase.",
+          "body": "Monthly demo discs help make PlayStation feel playable before purchase.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Sega Saturn Magazine",
+          "publication": "Sega Saturn Magazine",
+          "issueDate": "1996",
+          "headline": "Sega Saturn Magazine on the 1996 shelf",
+          "coverImage": "/magazine-covers/1996/sega-saturn-magazine-1996.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Sega Saturn Magazine, 1996.",
+          "curatorNote": "A UK Saturn shelf marker for arcade conversions, imports and Sega Flash demo culture.",
+          "body": "A UK Saturn shelf marker for arcade conversions, imports and Sega Flash demo culture.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "1996",
+          "headline": "PC Gamer UK on the 1996 shelf",
+          "coverImage": "/magazine-covers/1996/pc-gamer-uk-1996.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 1996.",
+          "curatorNote": "The PC shelf speaks in Quake, CD-ROM, sound cards and shareware memory.",
+          "body": "The PC shelf speaks in Quake, CD-ROM, sound cards and shareware memory.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How network play, downloads, fan pages and demo culture felt at the time.",
+      "items": [
+        {
+          "title": "Quake makes servers feel like places",
+          "body": "For PC players, multiplayer begins to mean IP addresses, server lists and low-ping envy."
+        },
+        {
+          "title": "Shareware memory still matters",
+          "body": "Duke Nukem 3D and Quake live partly through episodes, patches and files passed around outside shops."
+        },
+        {
+          "title": "Magazine discs remain the everyday internet",
+          "body": "For many UK players, a cover disc is still the most reliable download."
+        },
+        {
+          "title": "Early web pages feel handmade",
+          "body": "Game information online exists, but it sits beside BBS habits, FTP folders and print."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading from the player side of history.",
+      "items": [
+        {
+          "title": "3D stopped being a promise",
+          "body": "Mario, Lara and Quake made space feel like the new medium."
+        },
+        {
+          "title": "The PlayStation looked adult",
+          "body": "CD cases, demo discs and black plastic made games feel closer to music retail."
+        },
+        {
+          "title": "Britain watched the N64 through glass",
+          "body": "The N64 existed elsewhere, but UK players mostly met it as screenshots and import prices."
+        },
+        {
+          "title": "The PC became a machine you tuned",
+          "body": "Getting the future meant drivers, memory, sound cards and eventually 3D hardware."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "1996 in video games",
+      "url": "https://en.wikipedia.org/wiki/1996_in_video_games",
+      "note": "Used as a cross-check for N64 launch, Super Mario 64, Quake, Tomb Raider, Resident Evil and the broad 3D shift."
+    },
+    {
+      "label": "Super Mario 64 - MobyGames",
+      "url": "https://www.mobygames.com/game/3533/super-mario-64/",
+      "note": "Used for June 23, 1996 Super Mario 64 release."
+    },
+    {
+      "label": "Quake - Steam",
+      "url": "https://store.steampowered.com/app/2310/QUAKE/",
+      "note": "Used for June 22, 1996 Quake release."
+    },
+    {
+      "label": "Resident Evil",
+      "url": "https://en.wikipedia.org/wiki/Resident_Evil_%281996_video_game%29",
+      "note": "Used for Japan, North America and Europe release timing."
+    },
+    {
+      "label": "Crash Bandicoot",
+      "url": "https://en.wikipedia.org/wiki/Crash_Bandicoot_%28video_game%29",
+      "note": "Used for September/November 1996 regional release context."
+    },
+    {
+      "label": "Tomb Raider",
+      "url": "https://en.wikipedia.org/wiki/Tomb_Raider_%281996_video_game%29",
+      "note": "Used for 1996 Tomb Raider context and European PlayStation/DOS timing."
+    },
+    {
+      "label": "Tomb Raider release dates",
+      "url": "https://tombraiderwiki.org/index.php/Tomb_Raider_Release_Dates",
+      "note": "Used for UK/Europe 22 November 1996 date; treated as source-noted."
+    },
+    {
+      "label": "Sega Saturn Magazine",
+      "url": "https://segaretro.org/Sega_Saturn_Magazine_%28UK%29",
+      "note": "Used for UK Saturn demo-disc magazine context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "Initial AI-generated research draft for May 1996.",
+    "Month-specific dates are used only where reviewed sources support them; broad market context is marked in certainty/sourceNote fields.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

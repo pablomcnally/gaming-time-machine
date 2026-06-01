@@ -250,6 +250,18 @@ import september1995 from "../data/1995/september.json";
 import october1995 from "../data/1995/october.json";
 import november1995 from "../data/1995/november.json";
 import december1995 from "../data/1995/december.json";
+import january1996 from "../data/1996/january.json";
+import february1996 from "../data/1996/february.json";
+import march1996 from "../data/1996/march.json";
+import april1996 from "../data/1996/april.json";
+import may1996 from "../data/1996/may.json";
+import june1996 from "../data/1996/june.json";
+import july1996 from "../data/1996/july.json";
+import august1996 from "../data/1996/august.json";
+import september1996 from "../data/1996/september.json";
+import october1996 from "../data/1996/october.json";
+import november1996 from "../data/1996/november.json";
+import december1996 from "../data/1996/december.json";
 import january1997 from "../data/1997/january.json";
 import february1997 from "../data/1997/february.json";
 import march1997 from "../data/1997/march.json";
@@ -262,6 +274,30 @@ import september1997 from "../data/1997/september.json";
 import october1997 from "../data/1997/october.json";
 import november1997 from "../data/1997/november.json";
 import december1997 from "../data/1997/december.json";
+import january1998 from "../data/1998/january.json";
+import february1998 from "../data/1998/february.json";
+import march1998 from "../data/1998/march.json";
+import april1998 from "../data/1998/april.json";
+import may1998 from "../data/1998/may.json";
+import june1998 from "../data/1998/june.json";
+import july1998 from "../data/1998/july.json";
+import august1998 from "../data/1998/august.json";
+import september1998 from "../data/1998/september.json";
+import october1998 from "../data/1998/october.json";
+import november1998 from "../data/1998/november.json";
+import december1998 from "../data/1998/december.json";
+import january1999 from "../data/1999/january.json";
+import february1999 from "../data/1999/february.json";
+import march1999 from "../data/1999/march.json";
+import april1999 from "../data/1999/april.json";
+import may1999 from "../data/1999/may.json";
+import june1999 from "../data/1999/june.json";
+import july1999 from "../data/1999/july.json";
+import august1999 from "../data/1999/august.json";
+import september1999 from "../data/1999/september.json";
+import october1999 from "../data/1999/october.json";
+import november1999 from "../data/1999/november.json";
+import december1999 from "../data/1999/december.json";
 
 export type ExhibitStatus = "ai-draft" | "human-edited" | "verified";
 
@@ -602,6 +638,20 @@ export const EXHIBIT_MANIFEST = {
     november: november1995,
     december: december1995
   },
+  1996: {
+    january: january1996,
+    february: february1996,
+    march: march1996,
+    april: april1996,
+    may: may1996,
+    june: june1996,
+    july: july1996,
+    august: august1996,
+    september: september1996,
+    october: october1996,
+    november: november1996,
+    december: december1996
+  },
   1997: {
     january: january1997,
     february: february1997,
@@ -615,5 +665,33 @@ export const EXHIBIT_MANIFEST = {
     october: october1997,
     november: november1997,
     december: december1997
+  },
+  1998: {
+    january: january1998,
+    february: february1998,
+    march: march1998,
+    april: april1998,
+    may: may1998,
+    june: june1998,
+    july: july1998,
+    august: august1998,
+    september: september1998,
+    october: october1998,
+    november: november1998,
+    december: december1998
+  },
+  1999: {
+    january: january1999,
+    february: february1999,
+    march: march1999,
+    april: april1999,
+    may: may1999,
+    june: june1999,
+    july: july1999,
+    august: august1999,
+    september: september1999,
+    october: october1999,
+    november: november1999,
+    december: december1999
   }
 } as unknown as ExhibitManifest;

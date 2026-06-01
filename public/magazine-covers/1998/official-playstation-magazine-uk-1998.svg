@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="960" viewBox="0 0 720 960" role="img" aria-label="Official PlayStation Magazine UK 1998 reconstructed cover">
+  <rect width="720" height="960" fill="#151412"/>
+  <rect x="46" y="46" width="628" height="868" fill="#efe7d5" stroke="#b99a58" stroke-width="3"/>
+  <rect x="82" y="82" width="556" height="104" fill="#26221c"/>
+  <text x="360" y="142" text-anchor="middle" font-family="Georgia, serif" font-size="34" font-weight="700" fill="#efe7d5">Official PlayStation Magazine UK</text>
+  <text x="360" y="222" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" letter-spacing="3" fill="#8a6d35">1998</text>
+  <line x1="120" y1="268" x2="600" y2="268" stroke="#b99a58" stroke-width="2"/>
+  <path d="M180 432 H540" stroke="#8a6d35" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="240" cy="432" r="38" fill="#26221c"/>
+  <circle cx="360" cy="432" r="38" fill="#8a6d35"/>
+  <circle cx="480" cy="432" r="38" fill="#26221c"/>
+  <rect x="120" y="604" width="480" height="128" fill="#26221c"/>
+  <text x="360" y="654" text-anchor="middle" font-family="Georgia, serif" font-size="25" fill="#efe7d5">GAMING TIME MACHINE</text>
+  <text x="360" y="693" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#c9b98b">ARCHIVE COVER MARKER</text>
+  <text x="360" y="802" text-anchor="middle" font-family="Georgia, serif" font-size="21" fill="#26221c">Demo discs and glossy covers place Metal Gear, Gran Turism</text>
+  <text x="360" y="846" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6f654f">Placeholder for curator review</text>
+</svg>

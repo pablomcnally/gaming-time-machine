@@ -1,0 +1,342 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "January 1999",
+    "accession": "GTM-1999-01",
+    "dek": "January starts Nintendo's party fight and PlayStation unease.",
+    "curatorNote": "Initial researched draft for January 1999. Dates are deliberately conservative where regional timing is uncertain.",
+    "statusChips": [
+      "Dreamcast Europe",
+      "PS2 revealed",
+      "Pokemon Europe",
+      "Online worlds"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "January 1999",
+          "title": "Super Smash Bros. launches in Japan in January.",
+          "body": "A month marker with regional timing kept visible rather than smoothed into a single global date.",
+          "artifact": "release card",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; exact dates are used only when the reviewed sources support them."
+        },
+        {
+          "date": "January 1999",
+          "title": "Dreamcast is already out in Japan but not yet Western.",
+          "body": "A researched period marker, written cautiously where sources disagree or the month is more atmosphere than hard date.",
+          "artifact": "magazine clipping",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; exact dates are used only when the reviewed sources support them."
+        },
+        {
+          "date": "January 1999",
+          "title": "PlayStation still dominates UK shelves.",
+          "body": "From a UK-aware angle, this mattered through delayed releases, import pages, demo discs and high-street availability.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; exact dates are used only when the reviewed sources support them."
+        },
+        {
+          "date": "January 1999",
+          "title": "Pokemon is approaching Europe officially later in the year.",
+          "body": "From a UK-aware angle, this mattered through delayed releases, import pages, demo discs and high-street availability.",
+          "artifact": "demo-disc note",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; exact dates are used only when the reviewed sources support them."
+        },
+        {
+          "date": "January 1999",
+          "title": "The PS2 shadow has not yet fully fallen.",
+          "body": "A researched period marker, written cautiously where sources disagree or the month is more atmosphere than hard date.",
+          "artifact": "context plaque",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; exact dates are used only when the reviewed sources support them."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "January 21, 1999",
+          "title": "Super Smash Bros.",
+          "platform": "Nintendo 64",
+          "body": "Nintendo turns mascots into a party-fighting grammar in Japan.",
+          "signal": "party fighter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese release date is widely cited."
+        },
+        {
+          "date": "March 16, 1999",
+          "title": "EverQuest",
+          "platform": "Windows",
+          "body": "Sony Online Entertainment makes a persistent fantasy world feel like an address.",
+          "signal": "MMORPG landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "1999 in video games lists March 16, 1999."
+        },
+        {
+          "date": "June/July 1999",
+          "title": "Driver",
+          "platform": "PlayStation",
+          "body": "Reflections turns 1970s car-chase cinema into a mission-based city drive.",
+          "signal": "UK-made driving",
+          "certainty": "source-noted context",
+          "sourceNote": "1999 timing is secure; exact regional dates vary."
+        },
+        {
+          "date": "August 1999",
+          "title": "System Shock 2",
+          "platform": "Windows",
+          "body": "Irrational and Looking Glass make a haunted spaceship out of RPG systems and fear.",
+          "signal": "immersive sim horror",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "August 1999 release is widely cited."
+        },
+        {
+          "date": "September 9, 1999",
+          "title": "Final Fantasy VIII",
+          "platform": "PlayStation",
+          "body": "Square's cinematic RPG reaches North America on the same date Dreamcast arrives there.",
+          "signal": "cinematic RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "North American date is widely cited; Europe follows later."
+        },
+        {
+          "date": "September 29/30, 1999",
+          "title": "Tony Hawk's Pro Skater",
+          "platform": "PlayStation",
+          "body": "Neversoft makes skateboarding, punk licensing and score-chasing feel effortless.",
+          "signal": "skateboarding landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Giant Bomb cites September 30, 1999; other lists cite September 29."
+        },
+        {
+          "date": "September 30, 1999",
+          "title": "Age of Empires II: The Age of Kings",
+          "platform": "Windows",
+          "body": "Ensemble turns medieval RTS into a LAN and skirmish staple.",
+          "signal": "historical RTS",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "September 1999 release is widely cited."
+        },
+        {
+          "date": "October 14, 1999",
+          "title": "Sonic Adventure",
+          "platform": "Dreamcast",
+          "body": "Sega's mascot becomes a European Dreamcast launch symbol.",
+          "signal": "Dreamcast launch aura",
+          "certainty": "source-noted context",
+          "sourceNote": "European Dreamcast launch context."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Machines, media and platform context around the month.",
+      "items": [
+        {
+          "title": "Sony reveals PlayStation 2 details",
+          "body": "The PS2 announcement changes the weather around every console discussion.",
+          "tags": [
+            "Hardware"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Dreamcast sources cite March 2, 1999 PS2 reveal context."
+        },
+        {
+          "title": "Dreamcast reaches Europe",
+          "body": "Sega's white console, VMU and modem arrive in the UK at £200.",
+          "tags": [
+            "Retail"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Dreamcast sources cite October 14, 1999 Europe and £200 context."
+        },
+        {
+          "title": "Game Boy Color and Pokemon revive handheld shelves",
+          "body": "In Britain, Pokemon makes old Game Boy habits feel suddenly current again.",
+          "tags": [
+            "UK context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "European Pokemon Red/Blue October 1999 context."
+        },
+        {
+          "title": "PC online play becomes ordinary for enthusiasts",
+          "body": "EverQuest, Battle.net, Unreal Tournament and Quake III make the internet feel like a gaming venue.",
+          "tags": [
+            "Future-facing"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "1999 PC online context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for the magazine culture of the year.",
+      "items": [
+        {
+          "title": "DC-UK",
+          "publication": "DC-UK",
+          "issueDate": "August 1999",
+          "headline": "DC-UK on the 1999 shelf",
+          "coverImage": "/magazine-covers/1999/dc-uk-issue-1.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for DC-UK, August 1999.",
+          "curatorNote": "Future Publishing's Dreamcast voice arrives before Sega's European launch.",
+          "body": "Future Publishing's Dreamcast voice arrives before Sega's European launch.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Dreamcast Magazine UK",
+          "publication": "Official Dreamcast Magazine UK",
+          "issueDate": "September/October 1999 context",
+          "headline": "Official Dreamcast Magazine UK on the 1999 shelf",
+          "coverImage": "/magazine-covers/1999/official-dreamcast-magazine-uk-1999.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Dreamcast Magazine UK, September/October 1999 context.",
+          "curatorNote": "The official UK Dreamcast shelf marker, tied to DreamOn demo-disc culture.",
+          "body": "The official UK Dreamcast shelf marker, tied to DreamOn demo-disc culture.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "N64 Magazine",
+          "publication": "N64 Magazine",
+          "issueDate": "1999",
+          "headline": "N64 Magazine on the 1999 shelf",
+          "coverImage": "/magazine-covers/1999/n64-magazine-1999.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for N64 Magazine, 1999.",
+          "curatorNote": "Nintendo's UK shelf holds Donkey Kong 64, Pokemon Stadium anticipation and late N64 loyalty.",
+          "body": "Nintendo's UK shelf holds Donkey Kong 64, Pokemon Stadium anticipation and late N64 loyalty.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "1999",
+          "headline": "PC Gamer UK on the 1999 shelf",
+          "coverImage": "/magazine-covers/1999/pc-gamer-uk-1999.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 1999.",
+          "curatorNote": "The PC shelf is heavy with EverQuest, System Shock 2, Unreal Tournament and Quake III.",
+          "body": "The PC shelf is heavy with EverQuest, System Shock 2, Unreal Tournament and Quake III.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How network play, downloads, fan pages and demo culture felt at the time.",
+      "items": [
+        {
+          "title": "EverQuest gives players a persistent address",
+          "body": "Logging in can now mean returning to a world that kept moving without you."
+        },
+        {
+          "title": "Dreamcast ships with online intent",
+          "body": "The modem turns console packaging into a promise about multiplayer, email and web access."
+        },
+        {
+          "title": "Fan sites and forums gather around secrets",
+          "body": "Pokemon, Final Fantasy and Dreamcast coverage all grow in handmade online spaces."
+        },
+        {
+          "title": "LAN and modem culture divide PC players",
+          "body": "Some games belong to bedrooms and phone lines; others to networked rooms and late nights."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading from the player side of history.",
+      "items": [
+        {
+          "title": "The century ended with a launch swirl",
+          "body": "Dreamcast made Sega feel briefly new again, especially in the UK autumn."
+        },
+        {
+          "title": "Pokemon arrived as a social weather system",
+          "body": "Trading, versions and rumours made Game Boy feel communal rather than obsolete."
+        },
+        {
+          "title": "PC games became places",
+          "body": "EverQuest and arena shooters made online presence part of identity."
+        },
+        {
+          "title": "The PS2 shadow changed everything",
+          "body": "Even before it launched, Sony's next machine made the future feel decided and contested at once."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "1999 in video games",
+      "url": "https://en.wikipedia.org/wiki/1999_in_video_games",
+      "note": "Used as a cross-check for major 1999 releases."
+    },
+    {
+      "label": "Dreamcast",
+      "url": "https://en.wikipedia.org/wiki/Dreamcast",
+      "note": "Used for March 2 PS2 reveal context and October 14, 1999 European Dreamcast launch."
+    },
+    {
+      "label": "Dreamcast - Computing History",
+      "url": "https://www.computinghistory.org.uk/det/71800/Sega%20releases%20the%20Dreamcast%20console",
+      "note": "Used for Japan/North America/Europe Dreamcast dates."
+    },
+    {
+      "label": "Official Dreamcast Magazine UK",
+      "url": "https://segaretro.org/Official_Dreamcast_Magazine_%28UK%29",
+      "note": "Used for UK Dreamcast magazine and DreamOn demo disc context."
+    },
+    {
+      "label": "DC-UK",
+      "url": "https://en.wikipedia.org/wiki/DC-UK",
+      "note": "Used for August 1999 first issue context."
+    },
+    {
+      "label": "Official Dreamcast Magazine US",
+      "url": "https://en.wikipedia.org/wiki/Official_Dreamcast_Magazine_%28US_magazine%29",
+      "note": "Used for August 24, 1999 debut issue context."
+    },
+    {
+      "label": "Tony Hawk's Pro Skater - Giant Bomb",
+      "url": "https://www.giantbomb.com/tony-hawks-pro-skater/3030-7236/",
+      "note": "Used for September 1999 PlayStation release context."
+    },
+    {
+      "label": "Quake III Arena - MobyGames",
+      "url": "https://www.mobygames.com/game/dreamcast/quake-iii-arena",
+      "note": "Used for December 1999 Windows release context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "Initial AI-generated research draft for January 1999.",
+    "Month-specific dates are used only where reviewed sources support them; broad market context is marked in certainty/sourceNote fields.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}
