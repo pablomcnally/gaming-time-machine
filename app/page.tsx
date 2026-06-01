@@ -364,7 +364,10 @@ function HomeLanding({
           <div className="grid gap-10 pb-6 pt-16 md:grid-cols-[1.1fr_0.9fr] md:items-end md:pt-24">
             <div>
               <p className="font-mono text-xs uppercase tracking-[0.34em] text-red-300">Entrance hall</p>
-              <h1 className="mt-6 max-w-4xl font-display text-6xl leading-none md:text-8xl">Gaming Time Machine</h1>
+              <h1 className="mt-6 max-w-4xl font-display text-6xl leading-none md:text-8xl">
+                <span className="block">Gaming</span>
+                <span className="mt-1 block text-[0.88em] text-amber-100 md:mt-2">Time Machine</span>
+              </h1>
               <p className="mt-6 font-mono text-xs uppercase tracking-[0.28em] text-amber-100/85 sm:text-sm">
                 Gaming History, One Month at a Time.
               </p>

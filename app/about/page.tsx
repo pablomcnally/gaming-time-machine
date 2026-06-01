@@ -10,24 +10,60 @@ export const metadata: Metadata = {
 
 const sections = [
   {
+    title: "Curator's note",
+    featured: true,
+    paragraphs: [
+      "I grew up during the home-computer boom of the 1980s. Like many British gamers, I spent countless hours loading cassette tapes, reading magazines cover to cover, saving pocket money for new releases and discovering games through playground rumours long before the internet existed.",
+      "Over the years I became a games journalist and editor, but I never lost my fascination with the atmosphere surrounding games as much as the games themselves.",
+      "Gaming Time Machine began as an attempt to preserve that atmosphere. Not just release dates and hardware specifications, but what it actually felt like to be there."
+    ]
+  },
+  {
     title: "Why it exists",
-    body: "Gaming history is often remembered through big releases and famous machines, but the texture around those moments matters too. Gaming Time Machine is about the shelves, the shop windows, the magazine covers, the loading screens, the demo discs, the cassette tapes, the cartridges and the small cultural details that made each era feel alive."
+    paragraphs: [
+      "Gaming history is often remembered through landmark releases and famous machines, but the texture around those moments matters too.",
+      "Gaming Time Machine is about the shelves, the shop windows, the magazine covers, the loading screens, the demo discs, the cassette tapes, the cartridges and the small cultural details that made each era feel alive.",
+      "It is an attempt to capture the mood of gaming history, not just its timeline."
+    ]
   },
   {
     title: "How exhibits work",
-    body: "Each exhibit focuses on a single month. Some entries cover confirmed releases and hardware milestones. Others are period context: the games still being talked about, the machines gaining momentum, and the culture surrounding them. Where dates are uncertain, the site avoids false precision and marks context clearly."
+    paragraphs: [
+      "Each exhibit focuses on a single month in gaming history.",
+      "Some entries cover confirmed releases, hardware launches and industry events. Others provide period context: the games people were still talking about, the machines gaining momentum, the magazines on the shelves and the rumours spreading through playgrounds, arcades and early online communities.",
+      "Where dates are uncertain, the archive avoids false precision and clearly identifies context and interpretation."
+    ]
+  },
+  {
+    title: "What you'll find here",
+    paragraphs: [
+      "The archive combines games, hardware, magazines, advertisements, arcade culture, online communities, technology trends and contemporary memories.",
+      "Some exhibits focus on major industry milestones. Others celebrate smaller moments that help explain what it felt like to be a player during a particular month.",
+      "Together they form a museum of gaming culture rather than simply a catalogue of releases."
+    ]
   },
   {
     title: "A UK perspective",
-    body: "The archive has a strong UK perspective because British gaming history has its own texture: home micros, budget tapes, high-street computer shops, magazine cover tapes, bedroom coders, seaside arcades and playground rumours."
+    paragraphs: [
+      "Gaming Time Machine has a strong UK perspective because British gaming history has its own unique texture.",
+      "Home micros, budget cassette games, bedroom coders, magazine cover tapes, high-street computer shops, seaside arcades and playground rumours created an experience that differed from many other parts of the world.",
+      "While the archive covers global gaming history, it proudly reflects the culture that shaped a generation of British players."
+    ]
   },
   {
     title: "Curated by",
-    body: "Gaming Time Machine is built and curated by Paul McNally, a games journalist and editor."
+    paragraphs: [
+      "Gaming Time Machine is built and curated by Paul McNally, a games journalist and editor who has spent decades writing about games, technology and digital culture.",
+      "The project combines historical research, contemporary sources, magazine archives and personal experience to build a month-by-month museum of gaming history."
+    ]
   },
   {
-    title: "Ongoing archive",
-    body: "This is a living project. Exhibits will be expanded, corrected and polished over time."
+    title: "An ongoing archive",
+    paragraphs: [
+      "This is a living project.",
+      "Exhibits will be expanded, corrected and refined over time as new information is discovered and additional material is added to the collection.",
+      "Like any museum, the archive is never truly finished."
+    ]
   }
 ];
 
@@ -60,10 +96,10 @@ export default function AboutPage() {
                 About Gaming Time Machine
               </h1>
             </div>
-            <div className="border border-stone-100/20 bg-stone-50/10 p-6 backdrop-blur">
-              <p className="text-xl leading-9 text-stone-100">
-                Gaming Time Machine is a digital museum of video game history, built to explore what it felt like to be
-                a player at different moments in time.
+          <div className="border border-stone-100/20 bg-stone-50/10 p-6 backdrop-blur">
+            <p className="text-xl leading-9 text-stone-100">
+              Gaming Time Machine is a digital museum of video game history, built to explore what it felt like to be
+              a player at different moments in time.
               </p>
             </div>
           </div>
@@ -73,9 +109,11 @@ export default function AboutPage() {
       <section className="border-b border-black/10 bg-[#e7efe7] px-5 py-10 md:px-8">
         <div className="mx-auto max-w-7xl">
           <p className="max-w-4xl text-xl leading-9 text-zinc-700">
-            Rather than trying to document every game ever released, it looks at the atmosphere around each month: the
-            machines people wanted, the magazines they read, the games they saved up for, the adverts they stared at,
-            and the rumours that travelled through playgrounds, arcades, shops and early online spaces.
+            Rather than trying to document every game ever released, Gaming Time Machine explores the atmosphere
+            surrounding each moment in gaming history. The machines people wanted, the magazines they read, the games
+            they saved up for, the adverts they stared at, and the rumours that travelled through playgrounds, arcades,
+            shops and early online spaces. The goal is not simply to record history, but to recreate what it felt like
+            to live through it.
           </p>
         </div>
       </section>
@@ -83,16 +121,37 @@ export default function AboutPage() {
       <section className="px-5 py-14 md:px-8 md:py-20" aria-label="About sections">
         <div className="mx-auto grid max-w-7xl gap-7">
           {sections.map((section, index) => (
-            <article key={section.title} className="grid gap-5 border-t border-black/10 py-8 md:grid-cols-[12rem_1fr]">
+            <article
+              key={section.title}
+              className={`grid gap-5 border-t border-black/10 py-8 md:grid-cols-[12rem_1fr] ${
+                section.featured ? "bg-[#fbf8ef] px-5 shadow-exhibit md:px-7" : ""
+              }`}
+            >
               <div>
                 <p className="font-display text-4xl text-red-700">{String(index + 1).padStart(2, "0")}</p>
               </div>
               <div className="max-w-3xl">
                 <h2 className="font-display text-4xl leading-none text-zinc-950">{section.title}</h2>
-                <p className="mt-5 text-lg leading-8 text-zinc-600">{section.body}</p>
+                <div className="mt-5 grid gap-4">
+                  {section.paragraphs.map((paragraph) => (
+                    <p key={paragraph} className="text-lg leading-8 text-zinc-600">
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
               </div>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="border-y border-black/10 bg-zinc-950 px-5 py-14 text-stone-50 md:px-8 md:py-20">
+        <div className="mx-auto max-w-7xl">
+          <p className="font-mono text-xs uppercase tracking-[0.34em] text-amber-200">The mission</p>
+          <p className="mt-6 max-w-4xl font-display text-5xl leading-none md:text-7xl">
+            Gaming history deserves more than a database.
+          </p>
+          <p className="mt-6 font-display text-5xl leading-none text-amber-100 md:text-7xl">It deserves a museum.</p>
         </div>
       </section>
 
