@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "March 2007",
+    "accession": "GTM-2007-03",
+    "dek": "March 2007: PlayStation 3 launches in Europe on March 23.",
+    "curatorNote": "Initial researched draft for March 2007. Regional timing and UK retail context should be checked before verification.",
+    "statusChips": [
+      "PS3 UK",
+      "Halo 3",
+      "BioShock",
+      "Mario Galaxy"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "March 2007",
+          "title": "PlayStation 3 launches in Europe on March 23.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "March 2007",
+          "title": "God of War II gives PS2 one last huge roar.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "March 2007",
+          "title": "STALKER finally reaches PC after years of waiting.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2007",
+          "title": "The seventh generation becomes unavoidable through PS3 Europe, Wii shortages and Xbox Live momentum.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2007",
+          "title": "Online multiplayer turns from feature into expectation.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "March 2007",
+          "title": "God of War II",
+          "platform": "PlayStation 2",
+          "body": "Sony's old console gets one more thunderous spectacle.",
+          "signal": "action adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Regional timing varies; North America March 2007, Europe later."
+        },
+        {
+          "date": "March 2007",
+          "title": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+          "platform": "Windows",
+          "body": "A long-awaited PC shooter turns bleak atmosphere into a whole ecology.",
+          "signal": "first-person shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 2007."
+        },
+        {
+          "date": "February 2007",
+          "title": "Crackdown",
+          "platform": "Xbox 360",
+          "body": "A superhero sandbox becomes both its own pleasure and a Halo 3 beta ticket.",
+          "signal": "open-world action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for February 2007."
+        },
+        {
+          "date": "August 2007",
+          "title": "BioShock",
+          "platform": "PC / Xbox 360",
+          "body": "Rapture makes objectivism, audio diaries and wrench combat mainstream conversation.",
+          "signal": "immersive shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for August 2007."
+        },
+        {
+          "date": "September 2007",
+          "title": "Halo 3",
+          "platform": "Xbox 360",
+          "body": "Master Chief turns launch-night retail and Xbox Live parties into a global event.",
+          "signal": "console FPS",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for September 25, 2007."
+        },
+        {
+          "date": "October 2007",
+          "title": "The Orange Box",
+          "platform": "PC / Xbox 360",
+          "body": "Valve packages Half-Life, Portal and Team Fortress 2 as a small museum of design.",
+          "signal": "compilation",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for October 2007."
+        },
+        {
+          "date": "November 2007",
+          "title": "Call of Duty 4: Modern Warfare",
+          "platform": "PC / consoles",
+          "body": "Infinity Ward drags the military shooter into the present tense.",
+          "signal": "first-person shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for November 2007."
+        },
+        {
+          "date": "November 2007",
+          "title": "Super Mario Galaxy",
+          "platform": "Wii",
+          "body": "Nintendo makes gravity feel like wonder.",
+          "signal": "platformer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for November 2007."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "PS3 launches in Europe",
+          "body": "Sony's delayed console finally reaches UK shelves with a high price and a Blu-ray pitch.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "GamesIndustry.biz reports March 23, 2007."
+        },
+        {
+          "title": "Wii shortages continue",
+          "body": "Nintendo's machine remains difficult to find in many markets, making scarcity part of its appeal.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Year-level retail context; verify UK stock claims with period sources."
+        },
+        {
+          "title": "Xbox Live defines Xbox 360",
+          "body": "Halo 3, demos and party-like habits turn Live into a central platform feature.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Halo 3/Xbox Live context supports this reading."
+        },
+        {
+          "title": "DS becomes a mass-market object",
+          "body": "Brain training, Pokemon and touch-screen software keep Nintendo handhelds visible beyond traditional players.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2007 DS release context; verify sales claims before final copy."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, demo discs and late high-street culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2007",
+          "headline": "Edge on the 2007 shelf",
+          "coverImage": "/magazine-covers/2007/edge-2007.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2007.",
+          "curatorNote": "A reconstructed marker for BioShock, Halo 3, Mario Galaxy and the year the generation caught fire.",
+          "body": "A reconstructed marker for BioShock, Halo 3, Mario Galaxy and the year the generation caught fire.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2007",
+          "headline": "PC Gamer UK on the 2007 shelf",
+          "coverImage": "/magazine-covers/2007/pc-gamer-uk-2007.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2007.",
+          "curatorNote": "A PC marker for Crysis, The Orange Box, STALKER, World in Conflict and hardware longing.",
+          "body": "A PC marker for Crysis, The Orange Box, STALKER, World in Conflict and hardware longing.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Xbox Magazine UK",
+          "publication": "Official Xbox Magazine UK",
+          "issueDate": "2007",
+          "headline": "Official Xbox Magazine UK on the 2007 shelf",
+          "coverImage": "/magazine-covers/2007/official-xbox-magazine-uk-2007.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Xbox Magazine UK, 2007.",
+          "curatorNote": "An Xbox marker for Halo 3, Mass Effect and Call of Duty 4 on Xbox Live.",
+          "body": "An Xbox marker for Halo 3, Mass Effect and Call of Duty 4 on Xbox Live.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation Magazine UK",
+          "publication": "Official PlayStation Magazine UK",
+          "issueDate": "2007",
+          "headline": "Official PlayStation Magazine UK on the 2007 shelf",
+          "coverImage": "/magazine-covers/2007/official-playstation-magazine-uk-2007.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation Magazine UK, 2007.",
+          "curatorNote": "A PlayStation marker for PS3's UK arrival, Resistance, MotorStorm and Uncharted.",
+          "body": "A PlayStation marker for PS3's UK arrival, Resistance, MotorStorm and Uncharted.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Services and servers",
+          "body": "Halo 3, Call of Duty 4 and Xbox Live make voice chat, matchmaking and stats part of everyday console identity.",
+          "artifact": "profile card",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Friends and parties",
+          "body": "The Orange Box makes Steam feel less optional for PC players, especially around Team Fortress 2.",
+          "artifact": "headset note",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Downloads and stores",
+          "body": "Wii friend codes remain clumsy, but the console's living-room social life is enormous offline.",
+          "artifact": "download queue",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "Forums, YouTube and emerging social media turn launch weeks into communal events.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like the generation suddenly arrived all at once. Every month seemed to add another game people would still mention years later.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "Halo 3 was not just played; it was queued for, partied around and discussed through headsets.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "BioShock, Portal, Mario Galaxy and Modern Warfare made design feel newly confident in completely different directions.",
+          "artifact": "forum memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "In the UK, PS3's high price, Wii scarcity and Xbox Live's strength made choosing a console feel like choosing a culture.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2007 in video games",
+      "url": "https://en.wikipedia.org/wiki/2007_in_video_games",
+      "note": "Broad release and awards cross-check for 2007."
+    },
+    {
+      "label": "PlayStation 3 Europe launch",
+      "url": "https://www.gamesindustry.biz/playstation-3-launches-in-europe",
+      "note": "Used for March 23, 2007 PS3 Europe/UK launch context."
+    },
+    {
+      "label": "Halo 3 release reference",
+      "url": "https://en.wikipedia.org/wiki/Halo_3",
+      "note": "Used for September 25, 2007 release timing."
+    },
+    {
+      "label": "Call of Duty 4 reference",
+      "url": "https://en.wikipedia.org/wiki/Call_of_Duty_4%3A_Modern_Warfare",
+      "note": "Used for November 2007 release timing."
+    },
+    {
+      "label": "Super Mario Galaxy reference",
+      "url": "https://en.wikipedia.org/wiki/Super_Mario_Galaxy",
+      "note": "Used for November 2007 release timing and awards context."
+    },
+    {
+      "label": "BioShock reference",
+      "url": "https://en.wikipedia.org/wiki/BioShock",
+      "note": "Used for August 2007 release timing."
+    },
+    {
+      "label": "Rock Band reference",
+      "url": "https://en.wikipedia.org/wiki/Rock_Band_%28video_game%29",
+      "note": "Used for November 2007 North American release and 2008 European timing note."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Regional UK/PAL release dates should be verified carefully before moving beyond ai-draft.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "November 2006",
+    "accession": "GTM-2006-11",
+    "dek": "November 2006: Gears of War launches and gives Xbox 360 a defining identity.",
+    "curatorNote": "Initial researched draft for November 2006. Regional timing and UK retail context should be checked before verification.",
+    "statusChips": [
+      "Wii",
+      "PS3 delayed",
+      "Xbox 360",
+      "DS Lite"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "November 2006",
+          "title": "Gears of War launches and gives Xbox 360 a defining identity.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "November 2006",
+          "title": "Wii launches in North America and Japan begins PS3's public life.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "November 2006",
+          "title": "The Christmas console argument finally stops being theoretical.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2006",
+          "title": "Xbox 360 spends its first full year proving what HD console gaming might mean.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2006",
+          "title": "Wii reframes hardware around gesture, spectators and family-room demonstrations.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "November 2006",
+          "title": "Gears of War",
+          "platform": "Xbox 360",
+          "body": "Epic gives the 360 its first defining cover-shooter monster.",
+          "signal": "cover shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for November 2006."
+        },
+        {
+          "date": "November/December 2006",
+          "title": "The Legend of Zelda: Twilight Princess",
+          "platform": "Wii / GameCube",
+          "body": "Nintendo bridges GameCube twilight and Wii dawn with one Hyrule.",
+          "signal": "adventure",
+          "certainty": "regional timing varies",
+          "sourceNote": "Regional timing varies; Europe receives Wii version at launch in December."
+        },
+        {
+          "date": "November/December 2006",
+          "title": "Wii Sports",
+          "platform": "Wii",
+          "body": "A pack-in turns motion control into a family-room demonstration.",
+          "signal": "sports party",
+          "certainty": "regional timing varies",
+          "sourceNote": "Wii launch timing varies by region; Europe launches December 8."
+        },
+        {
+          "date": "November 2006",
+          "title": "Guitar Hero II",
+          "platform": "PlayStation 2",
+          "body": "The plastic guitar becomes less novelty and more ritual.",
+          "signal": "rhythm",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "North American PS2 timing is November 2006; UK timing should be checked."
+        },
+        {
+          "date": "March 2006",
+          "title": "The Elder Scrolls IV: Oblivion",
+          "platform": "PC / Xbox 360",
+          "body": "Bethesda makes the new generation feel like a landscape you can walk into.",
+          "signal": "open-world RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 2006."
+        },
+        {
+          "date": "March/September 2006",
+          "title": "Kingdom Hearts II",
+          "platform": "PlayStation 2",
+          "body": "Square and Disney's sequel carries PS2 players through the new-console noise.",
+          "signal": "action RPG",
+          "certainty": "regional timing varies",
+          "sourceNote": "Regional timing varies; Europe follows later in 2006."
+        },
+        {
+          "date": "April 2006",
+          "title": "Tomb Raider: Legend",
+          "platform": "Multi-platform",
+          "body": "Lara Croft returns in a cleaner, more cinematic form.",
+          "signal": "action adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for April 2006."
+        },
+        {
+          "date": "May 2006",
+          "title": "New Super Mario Bros.",
+          "platform": "Nintendo DS",
+          "body": "A side-scrolling Mario returns as handheld comfort food.",
+          "signal": "platformer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Regional timing varies around May/June 2006."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "Wii launches in Europe",
+          "body": "Nintendo's motion-control console reaches Europe on December 8 and immediately turns spectators into players.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Wii references list December 8, 2006 for Europe."
+        },
+        {
+          "title": "PS3 misses Europe in 2006",
+          "body": "Sony's console launches in Japan and North America, but Europe waits until March 2007.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "GamesIndustry.biz covers the European PS3 delay."
+        },
+        {
+          "title": "Xbox 360 finds its identity",
+          "body": "Gears of War, Xbox Live and high-definition marketing help Microsoft's console feel established.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2006 platform context; verify individual UK sales claims separately."
+        },
+        {
+          "title": "DS Lite strengthens Nintendo handheld momentum",
+          "body": "The lighter, brighter DS redesign helps make touch-screen play fashionable.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "DS Lite references list 2006 regional launches."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, demo discs and late high-street culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2006",
+          "headline": "Edge on the 2006 shelf",
+          "coverImage": "/magazine-covers/2006/edge-2006.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2006.",
+          "curatorNote": "A reconstructed marker for Wii disruption, PS3 delay and Xbox 360's first full year.",
+          "body": "A reconstructed marker for Wii disruption, PS3 delay and Xbox 360's first full year.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Xbox Magazine UK",
+          "publication": "Official Xbox Magazine UK",
+          "issueDate": "2006",
+          "headline": "Official Xbox Magazine UK on the 2006 shelf",
+          "coverImage": "/magazine-covers/2006/official-xbox-magazine-uk-2006.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Xbox Magazine UK, 2006.",
+          "curatorNote": "An Xbox marker for Gears of War, Live and the 360 proving itself before Sony reached Europe.",
+          "body": "An Xbox marker for Gears of War, Live and the 360 proving itself before Sony reached Europe.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation 2 Magazine UK",
+          "publication": "Official PlayStation 2 Magazine UK",
+          "issueDate": "2006",
+          "headline": "Official PlayStation 2 Magazine UK on the 2006 shelf",
+          "coverImage": "/magazine-covers/2006/official-playstation-2-magazine-uk-2006.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation 2 Magazine UK, 2006.",
+          "curatorNote": "A PS2 marker for a machine still packed with games while PS3 waited offstage.",
+          "body": "A PS2 marker for a machine still packed with games while PS3 waited offstage.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "GamesMaster",
+          "publication": "GamesMaster",
+          "issueDate": "2006",
+          "headline": "GamesMaster on the 2006 shelf",
+          "coverImage": "/magazine-covers/2006/gamesmaster-2006.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for GamesMaster, 2006.",
+          "curatorNote": "A UK multi-format marker for Wii queues, DS Lite envy and Christmas hardware arguments.",
+          "body": "A UK multi-format marker for Wii queues, DS Lite envy and Christmas hardware arguments.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Services and servers",
+          "body": "Online life means Xbox Live friends lists, PSN's beginning, Wii friend codes, forums, GameFAQs and videos that load just slowly enough to feel precious.",
+          "artifact": "profile card",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Friends and parties",
+          "body": "Gears of War makes Xbox Live co-op and competitive play feel like a reason to own the box.",
+          "artifact": "headset note",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Downloads and stores",
+          "body": "DS Wi-Fi and Animal Crossing/Mario Kart habits keep handheld online slightly awkward but charming.",
+          "artifact": "download queue",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "Broadband is increasingly normal in UK gaming households, but downloads are still planned rather than invisible.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like the future had three personalities: Xbox 360's expensive gloss, Wii's living-room magic trick and PS3's delayed promise.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "The Wii was less a normal console than something you demonstrated to relatives.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "For UK players, Sony's absence in Christmas 2006 gave the season a strange shape: Nintendo had surprise, Microsoft had momentum, PS2 still had comfort.",
+          "artifact": "forum memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "Games were becoming more social in the room and more connected through the wire, but neither change felt settled yet.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2006 in video games",
+      "url": "https://en.wikipedia.org/wiki/2006_in_video_games",
+      "note": "Broad release and hardware cross-check for 2006."
+    },
+    {
+      "label": "Nintendo Wii Europe launch reference",
+      "url": "https://en.wikipedia.org/wiki/Wii",
+      "note": "Used for December 8, 2006 European Wii launch context; replace with Nintendo UK archive if available."
+    },
+    {
+      "label": "PlayStation 3 Europe delay",
+      "url": "https://www.gamesindustry.biz/ps3-delayed-in-europe-until-march-2007",
+      "note": "Used for PS3 missing Europe in 2006 and slipping to March 2007."
+    },
+    {
+      "label": "Gears of War release reference",
+      "url": "https://en.wikipedia.org/wiki/Gears_of_War_%28video_game%29",
+      "note": "Used for November 2006 Xbox 360 release timing."
+    },
+    {
+      "label": "The Legend of Zelda: Twilight Princess",
+      "url": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Twilight_Princess",
+      "note": "Used for Wii launch-window and December 2006 European context."
+    },
+    {
+      "label": "Nintendo DS Lite reference",
+      "url": "https://en.wikipedia.org/wiki/Nintendo_DS_Lite",
+      "note": "Used for 2006 DS Lite launch timing cross-check."
+    },
+    {
+      "label": "2006 release calendar reference",
+      "url": "https://en.wikipedia.org/wiki/2006_in_video_games",
+      "note": "Used as a release-date cross-check; verify key PAL dates before final edit."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Regional UK/PAL release dates should be verified carefully before moving beyond ai-draft.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}

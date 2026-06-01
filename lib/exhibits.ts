@@ -370,6 +370,54 @@ import september2005 from "../data/2005/september.json";
 import october2005 from "../data/2005/october.json";
 import november2005 from "../data/2005/november.json";
 import december2005 from "../data/2005/december.json";
+import january2006 from "../data/2006/january.json";
+import february2006 from "../data/2006/february.json";
+import march2006 from "../data/2006/march.json";
+import april2006 from "../data/2006/april.json";
+import may2006 from "../data/2006/may.json";
+import june2006 from "../data/2006/june.json";
+import july2006 from "../data/2006/july.json";
+import august2006 from "../data/2006/august.json";
+import september2006 from "../data/2006/september.json";
+import october2006 from "../data/2006/october.json";
+import november2006 from "../data/2006/november.json";
+import december2006 from "../data/2006/december.json";
+import january2007 from "../data/2007/january.json";
+import february2007 from "../data/2007/february.json";
+import march2007 from "../data/2007/march.json";
+import april2007 from "../data/2007/april.json";
+import may2007 from "../data/2007/may.json";
+import june2007 from "../data/2007/june.json";
+import july2007 from "../data/2007/july.json";
+import august2007 from "../data/2007/august.json";
+import september2007 from "../data/2007/september.json";
+import october2007 from "../data/2007/october.json";
+import november2007 from "../data/2007/november.json";
+import december2007 from "../data/2007/december.json";
+import january2008 from "../data/2008/january.json";
+import february2008 from "../data/2008/february.json";
+import march2008 from "../data/2008/march.json";
+import april2008 from "../data/2008/april.json";
+import may2008 from "../data/2008/may.json";
+import june2008 from "../data/2008/june.json";
+import july2008 from "../data/2008/july.json";
+import august2008 from "../data/2008/august.json";
+import september2008 from "../data/2008/september.json";
+import october2008 from "../data/2008/october.json";
+import november2008 from "../data/2008/november.json";
+import december2008 from "../data/2008/december.json";
+import january2009 from "../data/2009/january.json";
+import february2009 from "../data/2009/february.json";
+import march2009 from "../data/2009/march.json";
+import april2009 from "../data/2009/april.json";
+import may2009 from "../data/2009/may.json";
+import june2009 from "../data/2009/june.json";
+import july2009 from "../data/2009/july.json";
+import august2009 from "../data/2009/august.json";
+import september2009 from "../data/2009/september.json";
+import october2009 from "../data/2009/october.json";
+import november2009 from "../data/2009/november.json";
+import december2009 from "../data/2009/december.json";
 import january2015 from "../data/2015/january.json";
 import february2015 from "../data/2015/february.json";
 import march2015 from "../data/2015/march.json";
@@ -986,6 +1034,62 @@ export const EXHIBIT_MANIFEST = {
     october: october2005,
     november: november2005,
     december: december2005
+  },
+  2006: {
+    january: january2006,
+    february: february2006,
+    march: march2006,
+    april: april2006,
+    may: may2006,
+    june: june2006,
+    july: july2006,
+    august: august2006,
+    september: september2006,
+    october: october2006,
+    november: november2006,
+    december: december2006
+  },
+  2007: {
+    january: january2007,
+    february: february2007,
+    march: march2007,
+    april: april2007,
+    may: may2007,
+    june: june2007,
+    july: july2007,
+    august: august2007,
+    september: september2007,
+    october: october2007,
+    november: november2007,
+    december: december2007
+  },
+  2008: {
+    january: january2008,
+    february: february2008,
+    march: march2008,
+    april: april2008,
+    may: may2008,
+    june: june2008,
+    july: july2008,
+    august: august2008,
+    september: september2008,
+    october: october2008,
+    november: november2008,
+    december: december2008
+  },
+  2009: {
+    january: january2009,
+    february: february2009,
+    march: march2009,
+    april: april2009,
+    may: may2009,
+    june: june2009,
+    july: july2009,
+    august: august2009,
+    september: september2009,
+    october: october2009,
+    november: november2009,
+    december: december2009
   },
   2015: {
     january: january2015,

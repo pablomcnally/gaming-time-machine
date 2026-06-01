@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "May 2009",
+    "accession": "GTM-2009-05",
+    "dek": "May 2009: Minecraft's first public development release appears on May 17.",
+    "curatorNote": "Initial researched draft for May 2009. Regional timing and UK retail context should be checked before verification.",
+    "statusChips": [
+      "Minecraft",
+      "PS3 Slim",
+      "MW2",
+      "Demon's Souls"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "May 2009",
+          "title": "Minecraft's first public development release appears on May 17.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "May 2009",
+          "title": "Plants vs. Zombies and inFamous make May surprisingly rich.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "May 2009",
+          "title": "One of gaming's largest future worlds begins almost invisibly.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "museum interpretation",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2009",
+          "title": "PS3 Slim and a price cut improve Sony's position late in the generation.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2009",
+          "title": "Minecraft begins quietly before becoming one of the defining games of the next decade.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "May 2009",
+          "title": "Plants vs. Zombies",
+          "platform": "Windows / Mac",
+          "body": "PopCap turns lane defence into a desktop comfort object.",
+          "signal": "tower defence",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for May 2009."
+        },
+        {
+          "date": "May 17, 2009",
+          "title": "Minecraft public development release",
+          "platform": "PC",
+          "body": "A rough building toy quietly begins one of gaming's largest cultural stories.",
+          "signal": "sandbox",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Minecraft references list May 17, 2009."
+        },
+        {
+          "date": "May 2009",
+          "title": "inFamous",
+          "platform": "PlayStation 3",
+          "body": "Sucker Punch gives PS3 a comic-book city and a morality meter.",
+          "signal": "open-world action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for May 2009."
+        },
+        {
+          "date": "February 2009",
+          "title": "Street Fighter IV",
+          "platform": "Arcade / consoles",
+          "body": "Capcom brings fighting games back to the front of the shop.",
+          "signal": "fighting",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Console release widely listed for February 2009."
+        },
+        {
+          "date": "February 2009",
+          "title": "Demon's Souls",
+          "platform": "PlayStation 3",
+          "body": "FromSoftware's bleak RPG begins in Japan before word of mouth travels west.",
+          "signal": "action RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japan release February 2009; North America October, Europe 2010."
+        },
+        {
+          "date": "March 2009",
+          "title": "Resident Evil 5",
+          "platform": "PC / PS3 / Xbox 360",
+          "body": "Co-op action moves Resident Evil further from horror and closer to spectacle.",
+          "signal": "action horror",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 2009."
+        },
+        {
+          "date": "June/July 2009",
+          "title": "Wii Sports Resort",
+          "platform": "Wii",
+          "body": "MotionPlus sells a more precise version of the Wii dream.",
+          "signal": "sports party",
+          "certainty": "regional timing varies",
+          "sourceNote": "Regional timing varies between June and July 2009."
+        },
+        {
+          "date": "August 2009",
+          "title": "Batman: Arkham Asylum",
+          "platform": "PC / PS3 / Xbox 360",
+          "body": "Rocksteady makes licensed superhero games respectable overnight.",
+          "signal": "action adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for August 2009."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "PS3 Slim launches",
+          "body": "Sony's smaller, cheaper PS3 helps the machine feel less forbidding.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "PlayStation Blog confirms September 2009 slim model and price."
+        },
+        {
+          "title": "Motion control's next wave is previewed",
+          "body": "Microsoft's Project Natal and Sony's motion prototype show every platform chasing Wii's audience.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "E3 2009 context; verify exact stage details before final copy."
+        },
+        {
+          "title": "Wii MotionPlus arrives",
+          "body": "Nintendo sells a more precise version of Wii control through Wii Sports Resort.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Wii Sports Resort/MotionPlus 2009 context supports this reading."
+        },
+        {
+          "title": "Digital PC culture keeps growing",
+          "body": "Steam, mods, indie games and early Minecraft communities make PC feel increasingly account-and-community based.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Minecraft/Steam context supports this year-level reading."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, demo discs and late high-street culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2009",
+          "headline": "Edge on the 2009 shelf",
+          "coverImage": "/magazine-covers/2009/edge-2009.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2009.",
+          "curatorNote": "A reconstructed marker for Arkham, Uncharted 2, Demon's Souls and the first public Minecraft spark.",
+          "body": "A reconstructed marker for Arkham, Uncharted 2, Demon's Souls and the first public Minecraft spark.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2009",
+          "headline": "PC Gamer UK on the 2009 shelf",
+          "coverImage": "/magazine-covers/2009/pc-gamer-uk-2009.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2009.",
+          "curatorNote": "A PC marker for Minecraft's beginning, Dragon Age, Borderlands and digital communities.",
+          "body": "A PC marker for Minecraft's beginning, Dragon Age, Borderlands and digital communities.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation Magazine UK",
+          "publication": "Official PlayStation Magazine UK",
+          "issueDate": "2009",
+          "headline": "Official PlayStation Magazine UK on the 2009 shelf",
+          "coverImage": "/magazine-covers/2009/official-playstation-magazine-uk-2009.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation Magazine UK, 2009.",
+          "curatorNote": "A PlayStation marker for PS3 Slim, Uncharted 2, Killzone 2 and Demon's Souls import fascination.",
+          "body": "A PlayStation marker for PS3 Slim, Uncharted 2, Killzone 2 and Demon's Souls import fascination.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Xbox Magazine UK",
+          "publication": "Official Xbox Magazine UK",
+          "issueDate": "2009",
+          "headline": "Official Xbox Magazine UK on the 2009 shelf",
+          "coverImage": "/magazine-covers/2009/official-xbox-magazine-uk-2009.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Xbox Magazine UK, 2009.",
+          "curatorNote": "An Xbox marker for Modern Warfare 2, Forza 3, Left 4 Dead 2 and Xbox Live routine.",
+          "body": "An Xbox marker for Modern Warfare 2, Forza 3, Left 4 Dead 2 and Xbox Live routine.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Services and servers",
+          "body": "Modern Warfare 2 makes party chat, prestige, killstreaks and online identity ordinary language.",
+          "artifact": "profile card",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Friends and parties",
+          "body": "Minecraft starts as a small public build shared through forums and word of mouth.",
+          "artifact": "headset note",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Downloads and stores",
+          "body": "Demon's Souls uses messages, ghosts and invasions to make online play feel mysterious rather than merely social.",
+          "artifact": "download queue",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "Digital stores, DLC and patches are now part of the purchase, not the aftercare.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like online identity had become ordinary. Friends lists, parties, ranks, patches and downloadable extras were no longer surprising.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "Modern Warfare 2 owned the noise, but Minecraft and Demon's Souls were quieter signals from the future.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "PS3 Slim changed the mood around Sony's console: less luxury object, more plausible purchase.",
+          "artifact": "forum memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "The decade ended with three different futures visible at once: blockbuster online shooters, strange connected cult games and worlds players would build themselves.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2009 in video games",
+      "url": "https://en.wikipedia.org/wiki/2009_in_video_games",
+      "note": "Broad release and industry cross-check for 2009."
+    },
+    {
+      "label": "Minecraft public release",
+      "url": "https://en.wikipedia.org/wiki/Minecraft",
+      "note": "Used for May 17, 2009 public development release context."
+    },
+    {
+      "label": "PlayStation 3 Slim and price cut",
+      "url": "https://blog.playstation.com/2009/08/18/playstation-3-available-for-299-slimmer-more-energy-efficient-model-in-stores-september-1st/",
+      "note": "Used for September 2009 PS3 Slim and price context."
+    },
+    {
+      "label": "Demon's Souls reference",
+      "url": "https://en.wikipedia.org/wiki/Demon%27s_Souls",
+      "note": "Used for 2009 Japan/North America timing; Europe follows in 2010."
+    },
+    {
+      "label": "Batman: Arkham Asylum reference",
+      "url": "https://en.wikipedia.org/wiki/Batman%3A_Arkham_Asylum",
+      "note": "Used for August 2009 release timing."
+    },
+    {
+      "label": "Call of Duty: Modern Warfare 2 reference",
+      "url": "https://en.wikipedia.org/wiki/Call_of_Duty%3A_Modern_Warfare_2",
+      "note": "Used for November 10, 2009 release timing."
+    },
+    {
+      "label": "Wii Sports Resort reference",
+      "url": "https://en.wikipedia.org/wiki/Wii_Sports_Resort",
+      "note": "Used for June/July 2009 regional release context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Regional UK/PAL release dates should be verified carefully before moving beyond ai-draft.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}

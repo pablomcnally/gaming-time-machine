@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "October 2008",
+    "accession": "GTM-2008-10",
+    "dek": "October 2008: Fallout 3, LittleBigPlanet, Fable II and Dead Space crowd October.",
+    "curatorNote": "Initial researched draft for October 2008. Regional timing and UK retail context should be checked before verification.",
+    "statusChips": [
+      "GTA IV",
+      "WiiWare",
+      "App Store",
+      "LBP"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "October 2008",
+          "title": "Fallout 3, LittleBigPlanet, Fable II and Dead Space crowd October.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "October 2008",
+          "title": "User-generated content becomes a headline PlayStation idea.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "October 2008",
+          "title": "The month feels almost unreasonably varied.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "museum interpretation",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2008",
+          "title": "Digital stores, WiiWare, XBLA, PSN and the App Store make small downloadable games more visible.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2008",
+          "title": "Wii Fit and Mario Kart keep Nintendo broad while HD consoles chase prestige blockbusters.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "October 2008",
+          "title": "LittleBigPlanet",
+          "platform": "PlayStation 3",
+          "body": "Sony turns user creation into sackcloth charm and platform identity.",
+          "signal": "creation platformer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Regional timing varies in late October/early November 2008."
+        },
+        {
+          "date": "October 2008",
+          "title": "Fallout 3",
+          "platform": "PC / PS3 / Xbox 360",
+          "body": "Bethesda turns the wasteland into a first-person pilgrimage.",
+          "signal": "open-world RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for October 2008."
+        },
+        {
+          "date": "October 2008",
+          "title": "Dead Space",
+          "platform": "PC / consoles",
+          "body": "Visceral makes sci-fi horror tactile, loud and horribly elegant.",
+          "signal": "survival horror",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for October 2008."
+        },
+        {
+          "date": "March/June 2008",
+          "title": "Super Smash Bros. Brawl",
+          "platform": "Wii",
+          "body": "Nintendo's mascot archive becomes a disc full of arguments, unlocks and music.",
+          "signal": "fighting party",
+          "certainty": "regional timing varies",
+          "sourceNote": "Regional timing varies; Europe follows in June 2008."
+        },
+        {
+          "date": "April 2008",
+          "title": "Mario Kart Wii",
+          "platform": "Wii",
+          "body": "Plastic wheels and online races turn the Wii into a louder family object.",
+          "signal": "racing",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for April 2008."
+        },
+        {
+          "date": "April 29, 2008",
+          "title": "Grand Theft Auto IV",
+          "platform": "PS3 / Xbox 360",
+          "body": "Liberty City becomes denser, darker and impossible to ignore.",
+          "signal": "open-world action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for April 29, 2008."
+        },
+        {
+          "date": "April/May 2008",
+          "title": "Wii Fit",
+          "platform": "Wii",
+          "body": "Nintendo turns a bathroom-scale peripheral into a mainstream living-room ritual.",
+          "signal": "fitness",
+          "certainty": "regional timing varies",
+          "sourceNote": "Regional timing varies; Europe launches in April 2008."
+        },
+        {
+          "date": "June 12, 2008",
+          "title": "Metal Gear Solid 4: Guns of the Patriots",
+          "platform": "PlayStation 3",
+          "body": "Kojima gives PS3 a technical showcase and a long goodbye.",
+          "signal": "stealth action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for June 12, 2008."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "WiiWare launches in Europe",
+          "body": "Nintendo adds a download shelf to Wii, making small games part of the console's public face.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Nintendo Life reports May 20, 2008."
+        },
+        {
+          "title": "Apple App Store opens",
+          "body": "The iPhone App Store changes the future of mobile games, even if the full effect is not immediate.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Apple's July 2008 release confirms App Store availability."
+        },
+        {
+          "title": "PSN and XBLA mature",
+          "body": "Downloadable games such as Braid and PSN/XBLA releases make digital storefronts feel culturally important.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Year-level digital store context; verify individual storefront dates as needed."
+        },
+        {
+          "title": "Wii Balance Board becomes mainstream hardware",
+          "body": "Wii Fit turns a peripheral into a household object discussed beyond games media.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Wii Fit 2008 regional launch context supports this reading."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, demo discs and late high-street culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2008",
+          "headline": "Edge on the 2008 shelf",
+          "coverImage": "/magazine-covers/2008/edge-2008.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2008.",
+          "curatorNote": "A reconstructed marker for GTA IV, MGS4, Fallout 3 and the rise of creator culture.",
+          "body": "A reconstructed marker for GTA IV, MGS4, Fallout 3 and the rise of creator culture.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2008",
+          "headline": "PC Gamer UK on the 2008 shelf",
+          "coverImage": "/magazine-covers/2008/pc-gamer-uk-2008.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2008.",
+          "curatorNote": "A PC marker for Spore, Left 4 Dead, World of Goo, digital stores and mod life.",
+          "body": "A PC marker for Spore, Left 4 Dead, World of Goo, digital stores and mod life.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation Magazine UK",
+          "publication": "Official PlayStation Magazine UK",
+          "issueDate": "2008",
+          "headline": "Official PlayStation Magazine UK on the 2008 shelf",
+          "coverImage": "/magazine-covers/2008/official-playstation-magazine-uk-2008.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation Magazine UK, 2008.",
+          "curatorNote": "A PS3 marker for Metal Gear Solid 4, LittleBigPlanet and PSN maturing.",
+          "body": "A PS3 marker for Metal Gear Solid 4, LittleBigPlanet and PSN maturing.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Nintendo Magazine",
+          "publication": "Official Nintendo Magazine",
+          "issueDate": "2008",
+          "headline": "Official Nintendo Magazine on the 2008 shelf",
+          "coverImage": "/magazine-covers/2008/official-nintendo-magazine-2008.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Nintendo Magazine, 2008.",
+          "curatorNote": "A Nintendo marker for Wii Fit, Mario Kart Wii, Smash Bros. and WiiWare.",
+          "body": "A Nintendo marker for Wii Fit, Mario Kart Wii, Smash Bros. and WiiWare.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Services and servers",
+          "body": "Braid, World of Goo, WiiWare, XBLA and PSN make downloadable games feel like real releases rather than extras.",
+          "artifact": "profile card",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Friends and parties",
+          "body": "GTA IV's online modes, Left 4 Dead and Gears 2 show co-op and multiplayer becoming routine expectations.",
+          "artifact": "headset note",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Downloads and stores",
+          "body": "The App Store opens a new mobile game frontier that few traditional players fully understand yet.",
+          "artifact": "download queue",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "Achievements, trophies, profiles and patches become part of how games are remembered.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like the disc was still king, but the menu was becoming a museum corridor of its own.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "GTA IV and Fallout 3 offered huge worlds, while Braid and World of Goo suggested smaller downloads could matter just as much.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "Wii Fit made games visible in newspapers, living rooms and conversations that did not sound like gaming conversations.",
+          "artifact": "forum memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "The App Store was easy to underestimate in the moment; it looked like phone software, not a future earthquake.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2008 in video games",
+      "url": "https://en.wikipedia.org/wiki/2008_in_video_games",
+      "note": "Broad release and industry cross-check for 2008."
+    },
+    {
+      "label": "Apple App Store opening",
+      "url": "https://www.apple.com/newsroom/2008/07/10iPhone-3G-on-Sale-Tomorrow/",
+      "note": "Used for July 2008 App Store launch context."
+    },
+    {
+      "label": "WiiWare Europe launch",
+      "url": "https://www.nintendolife.com/news/2008/05/wiiware_launches_in_europe",
+      "note": "Used for May 20, 2008 WiiWare Europe launch context."
+    },
+    {
+      "label": "Grand Theft Auto IV",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_IV",
+      "note": "Used for April 29, 2008 release timing."
+    },
+    {
+      "label": "Metal Gear Solid 4",
+      "url": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_4%3A_Guns_of_the_Patriots",
+      "note": "Used for June 12, 2008 release timing."
+    },
+    {
+      "label": "Fallout 3",
+      "url": "https://en.wikipedia.org/wiki/Fallout_3",
+      "note": "Used for October 2008 release timing."
+    },
+    {
+      "label": "LittleBigPlanet",
+      "url": "https://en.wikipedia.org/wiki/LittleBigPlanet_%282008_video_game%29",
+      "note": "Used for October/November 2008 regional release context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Regional UK/PAL release dates should be verified carefully before moving beyond ai-draft.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}
