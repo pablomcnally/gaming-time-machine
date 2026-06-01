@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Zero 1990 reconstructed cover placeholder">
+  <rect width="900" height="1200" fill="#17140f"/>
+  <rect x="48" y="48" width="804" height="1104" fill="#f4efe2" stroke="#a78346" stroke-width="6"/>
+  <text x="450" y="170" text-anchor="middle" font-family="Georgia, serif" font-size="62" fill="#17140f" letter-spacing="2">Zero</text>
+  <text x="450" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" fill="#7f1d1d" letter-spacing="5">1990</text>
+  <line x1="130" y1="310" x2="770" y2="310" stroke="#a78346" stroke-width="4"/>
+  <rect x="180" y="405" width="540" height="360" fill="#24211c"/>
+  <circle cx="450" cy="585" r="150" fill="none" stroke="#d4a84f" stroke-width="10"/>
+  <path d="M300 620h300M350 560h200M400 500h100" stroke="#7f1d1d" stroke-width="18" stroke-linecap="round"/>
+  <text x="450" y="880" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#17140f" letter-spacing="4">RECONSTRUCTED ARCHIVE COVER</text>
+  <text x="450" y="990" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#17140f">Gaming Time Machine 1990</text>
+</svg>
