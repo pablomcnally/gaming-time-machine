@@ -26,6 +26,14 @@ export default function ArchiveStatusPage() {
           <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-300">
             Editorial tracking for exhibit drafts, human-edited entries, and verified monthly archive panels.
           </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <a
+              href="/logo-gallery"
+              className="border border-amber-200/40 px-4 py-3 font-mono text-xs uppercase tracking-[0.2em] text-amber-200 transition hover:border-amber-100 hover:text-amber-100"
+            >
+              Logo Gallery
+            </a>
+          </div>
         </div>
       </header>
 
