@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "December 2015",
+    "accession": "GTM-2015-12",
+    "dek": "December 2015: The Game Awards crowns The Witcher 3.",
+    "curatorNote": "Initial researched draft for December 2015. Regional timing and UK retail context should be checked before verification.",
+    "statusChips": [
+      "open worlds",
+      "Nintendo transition",
+      "PS4 momentum",
+      "Twitch era"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "December 2015",
+          "title": "The Game Awards crowns The Witcher 3.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "December 2015",
+          "title": "Steam Machines and living-room PC ideas remain visible but uncertain.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "December 2015",
+          "title": "Christmas 2015 belongs to big open worlds, boxed bundles and digital sales.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2015",
+          "title": "Open-world games, streaming and digital stores make the backlog feel newly permanent.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2015",
+          "title": "PS4 grows into its role while Xbox One searches for momentum and Wii U becomes a beloved side room.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "February 10, 2015",
+          "title": "Evolve",
+          "platform": "PC / PS4 / Xbox One",
+          "body": "A co-op monster hunt arrives carrying the early live-service vocabulary of the generation.",
+          "signal": "asymmetric multiplayer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for February 10, 2015."
+        },
+        {
+          "date": "March 10, 2015",
+          "title": "Cities: Skylines",
+          "platform": "PC",
+          "body": "A city-builder becomes the PC comfort object SimCity had failed to be.",
+          "signal": "city builder",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 10, 2015."
+        },
+        {
+          "date": "March 24/27, 2015",
+          "title": "Bloodborne",
+          "platform": "PS4",
+          "body": "FromSoftware makes PS4 feel dangerous, elegant and essential.",
+          "signal": "action RPG",
+          "certainty": "regional timing varies",
+          "sourceNote": "Regional timing varies between March 24 and March 27; UK/PAL exact date should be checked."
+        },
+        {
+          "date": "April 14, 2015",
+          "title": "Mortal Kombat X",
+          "platform": "PC / PS4 / Xbox One",
+          "body": "NetherRealm brings fighting-game spectacle into the share-button era.",
+          "signal": "fighting",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for April 14, 2015."
+        },
+        {
+          "date": "May 19, 2015",
+          "title": "The Witcher 3: Wild Hunt",
+          "platform": "PC / PS4 / Xbox One",
+          "body": "CD Projekt Red turns a huge RPG into a cultural reference point.",
+          "signal": "open-world RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "CD Projekt and release references list May 19, 2015."
+        },
+        {
+          "date": "May 29, 2015",
+          "title": "Splatoon",
+          "platform": "Wii U",
+          "body": "Nintendo invents a colourful online shooter with its own grammar.",
+          "signal": "online shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for May 2015; regional exact date should be checked."
+        },
+        {
+          "date": "June 23, 2015",
+          "title": "Batman: Arkham Knight",
+          "platform": "PC / PS4 / Xbox One",
+          "body": "Rocksteady closes its Batman trilogy while the PC version becomes a cautionary tale.",
+          "signal": "action adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for June 23, 2015."
+        },
+        {
+          "date": "July 7, 2015",
+          "title": "Rocket League",
+          "platform": "PC / PS4",
+          "body": "Car football becomes a PS Plus and Twitch word-of-mouth miracle.",
+          "signal": "sports arcade",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for July 7, 2015."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "Nintendo announces DeNA partnership and NX",
+          "body": "Nintendo signals both mobile plans and a future dedicated-games platform during a difficult Wii U period.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "DeNA/Nintendo announcement is dated March 17, 2015."
+        },
+        {
+          "title": "PS4 gains generation momentum",
+          "body": "Bloodborne, The Witcher 3, Batman, Metal Gear and Fallout make PS4 feel increasingly central on UK shelves.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Year-level release context; verify market-share claims before final copy."
+        },
+        {
+          "title": "Xbox One leans on bundles and services",
+          "body": "Microsoft's console fights through exclusives, backwards compatibility talk and pricing rather than clear cultural dominance.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2015 platform context; exact UK retail bundle claims need further period sources."
+        },
+        {
+          "title": "Steam living-room ambitions remain uncertain",
+          "body": "Steam Machines and controller talk make PC-in-the-living-room feel possible but not settled.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Late-2015 Steam Machine context should be verified against Valve/OEM sources."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, digital covers and late magazine culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2015",
+          "headline": "Edge on the 2015 shelf",
+          "coverImage": "/magazine-covers/2015/edge-2015.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2015.",
+          "curatorNote": "A reconstructed marker for a year of open worlds, uneasy Nintendo transition and late-generation confidence.",
+          "body": "A reconstructed marker for a year of open worlds, uneasy Nintendo transition and late-generation confidence.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2015",
+          "headline": "PC Gamer UK on the 2015 shelf",
+          "coverImage": "/magazine-covers/2015/pc-gamer-uk-2015.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2015.",
+          "curatorNote": "A UK PC marker for The Witcher 3, Cities: Skylines, Undertale, Early Access and Steam habits.",
+          "body": "A UK PC marker for The Witcher 3, Cities: Skylines, Undertale, Early Access and Steam habits.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation Magazine UK",
+          "publication": "Official PlayStation Magazine UK",
+          "issueDate": "2015",
+          "headline": "Official PlayStation Magazine UK on the 2015 shelf",
+          "coverImage": "/magazine-covers/2015/official-playstation-magazine-uk-2015.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation Magazine UK, 2015.",
+          "curatorNote": "A PlayStation shelf marker for Bloodborne, The Witcher 3, Metal Gear and Fallout.",
+          "body": "A PlayStation shelf marker for Bloodborne, The Witcher 3, Metal Gear and Fallout.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "GamesMaster",
+          "publication": "GamesMaster",
+          "issueDate": "2015",
+          "headline": "GamesMaster on the 2015 shelf",
+          "coverImage": "/magazine-covers/2015/gamesmaster-2015.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for GamesMaster, 2015.",
+          "curatorNote": "A UK high-street marker for an era when print still sat beside YouTube, Twitch and supermarket chart walls.",
+          "body": "A UK high-street marker for an era when print still sat beside YouTube, Twitch and supermarket chart walls.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Streams and servers",
+          "body": "Online life is Twitch clips, YouTube criticism, Steam reviews, Reddit theories and PSN/Xbox Live parties becoming routine.",
+          "artifact": "stream clip",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Services and stores",
+          "body": "Rocket League shows how a PS Plus launch and streaming word of mouth can make a game feel instantly communal.",
+          "artifact": "storefront page",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Forums and feeds",
+          "body": "Undertale proves that Tumblr, YouTube, fan art and music sharing can turn a small PC RPG into a cultural weather system.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "Patches, DLC plans and server issues are now part of how players judge a game, not afterthoughts.",
+          "artifact": "chat log",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like the modern backlog hardened into place. Every month seemed to bring another game too large to finish cleanly.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "The Witcher 3, Fallout 4 and Metal Gear made scale feel seductive and exhausting at the same time.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "Nintendo's year had grief in it. Splatoon and Mario Maker showed invention, while Iwata's passing changed the emotional tone around the company.",
+          "artifact": "group chat",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "In the UK, the ritual was split between boxed preorders, supermarket deals, PS Plus downloads, Steam sales and YouTube tabs left open after midnight.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2015 in video games",
+      "url": "https://en.wikipedia.org/wiki/2015_in_video_games",
+      "note": "Broad release and industry cross-check for 2015."
+    },
+    {
+      "label": "Nintendo and DeNA alliance",
+      "url": "https://dena.com/intl/news/002242/",
+      "note": "Used for March 17, 2015 Nintendo mobile partnership and NX mention context."
+    },
+    {
+      "label": "Nintendo Iwata notice",
+      "url": "https://www.nintendo.co.jp/ir/pdf/2015/150713e.pdf",
+      "note": "Used for Satoru Iwata's July 11, 2015 passing."
+    },
+    {
+      "label": "The Witcher 3 reference",
+      "url": "https://en.wikipedia.org/wiki/The_Witcher_3%3A_Wild_Hunt",
+      "note": "Used for May 19, 2015 release cross-checking."
+    },
+    {
+      "label": "CD Projekt 2015 management report",
+      "url": "https://www.cdprojekt.com/en/wp-content/uploads-en/2016/03/2015Q2_Management_Board_Report_on_Group_Activities.pdf",
+      "note": "Used for Witcher 3 launch and sales-context cross-checking."
+    },
+    {
+      "label": "Fallout 4 launch shipment",
+      "url": "https://www.gematsu.com/2015/11/fallout-4-ships-12-million-launch-day",
+      "note": "Used for November 10, 2015 Fallout 4 launch context."
+    },
+    {
+      "label": "The Game Awards 2015",
+      "url": "https://en.wikipedia.org/wiki/The_Game_Awards_2015",
+      "note": "Used for late-2015 awards context; replace with primary source if desired."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Recent enough for release dates and service dates to be verified against primary sources.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}

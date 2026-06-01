@@ -334,6 +334,42 @@ import september2002 from "../data/2002/september.json";
 import october2002 from "../data/2002/october.json";
 import november2002 from "../data/2002/november.json";
 import december2002 from "../data/2002/december.json";
+import january2015 from "../data/2015/january.json";
+import february2015 from "../data/2015/february.json";
+import march2015 from "../data/2015/march.json";
+import april2015 from "../data/2015/april.json";
+import may2015 from "../data/2015/may.json";
+import june2015 from "../data/2015/june.json";
+import july2015 from "../data/2015/july.json";
+import august2015 from "../data/2015/august.json";
+import september2015 from "../data/2015/september.json";
+import october2015 from "../data/2015/october.json";
+import november2015 from "../data/2015/november.json";
+import december2015 from "../data/2015/december.json";
+import january2016 from "../data/2016/january.json";
+import february2016 from "../data/2016/february.json";
+import march2016 from "../data/2016/march.json";
+import april2016 from "../data/2016/april.json";
+import may2016 from "../data/2016/may.json";
+import june2016 from "../data/2016/june.json";
+import july2016 from "../data/2016/july.json";
+import august2016 from "../data/2016/august.json";
+import september2016 from "../data/2016/september.json";
+import october2016 from "../data/2016/october.json";
+import november2016 from "../data/2016/november.json";
+import december2016 from "../data/2016/december.json";
+import january2017 from "../data/2017/january.json";
+import february2017 from "../data/2017/february.json";
+import march2017 from "../data/2017/march.json";
+import april2017 from "../data/2017/april.json";
+import may2017 from "../data/2017/may.json";
+import june2017 from "../data/2017/june.json";
+import july2017 from "../data/2017/july.json";
+import august2017 from "../data/2017/august.json";
+import september2017 from "../data/2017/september.json";
+import october2017 from "../data/2017/october.json";
+import november2017 from "../data/2017/november.json";
+import december2017 from "../data/2017/december.json";
 import january2018 from "../data/2018/january.json";
 import february2018 from "../data/2018/february.json";
 import march2018 from "../data/2018/march.json";
@@ -872,6 +908,48 @@ export const EXHIBIT_MANIFEST = {
     october: october2002,
     november: november2002,
     december: december2002
+  },
+  2015: {
+    january: january2015,
+    february: february2015,
+    march: march2015,
+    april: april2015,
+    may: may2015,
+    june: june2015,
+    july: july2015,
+    august: august2015,
+    september: september2015,
+    october: october2015,
+    november: november2015,
+    december: december2015
+  },
+  2016: {
+    january: january2016,
+    february: february2016,
+    march: march2016,
+    april: april2016,
+    may: may2016,
+    june: june2016,
+    july: july2016,
+    august: august2016,
+    september: september2016,
+    october: october2016,
+    november: november2016,
+    december: december2016
+  },
+  2017: {
+    january: january2017,
+    february: february2017,
+    march: march2017,
+    april: april2017,
+    may: may2017,
+    june: june2017,
+    july: july2017,
+    august: august2017,
+    september: september2017,
+    october: october2017,
+    november: november2017,
+    december: december2017
   },
   2018: {
     january: january2018,

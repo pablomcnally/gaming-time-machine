@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "March 2017",
+    "accession": "GTM-2017-03",
+    "dek": "March 2017: Nintendo Switch launches on March 3.",
+    "curatorNote": "Initial researched draft for March 2017. Regional timing and UK retail context should be checked before verification.",
+    "statusChips": [
+      "Switch launch",
+      "PUBG",
+      "Xbox One X",
+      "loot boxes"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "March 2017",
+          "title": "Nintendo Switch launches on March 3.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "March 2017",
+          "title": "Breath of the Wild launches with it and dominates the month.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "March 2017",
+          "title": "PUBG enters PC early access and starts another future in parallel.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2017",
+          "title": "Switch changes the mood around Nintendo almost overnight.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2017",
+          "title": "Battle royale moves from niche lineage to mainstream future through PUBG.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "March 3, 2017",
+          "title": "The Legend of Zelda: Breath of the Wild",
+          "platform": "Switch / Wii U",
+          "body": "Nintendo launches Switch with a world that rewrites what open air can mean.",
+          "signal": "open-world adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Switch launch references list March 3, 2017."
+        },
+        {
+          "date": "March 7/10, 2017",
+          "title": "Nier: Automata",
+          "platform": "PS4 / PC",
+          "body": "Yoko Taro's android tragedy becomes a cult object with mainstream reach.",
+          "signal": "action RPG",
+          "certainty": "regional timing varies",
+          "sourceNote": "Regional timing varies; March 2017 is safe."
+        },
+        {
+          "date": "March 23, 2017",
+          "title": "PlayerUnknown's Battlegrounds",
+          "platform": "PC early access",
+          "body": "Battle royale stops being a mod lineage and becomes the next gravity well.",
+          "signal": "battle royale",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 23, 2017 early access."
+        },
+        {
+          "date": "January 24, 2017",
+          "title": "Resident Evil 7: Biohazard",
+          "platform": "PC / PS4 / Xbox One",
+          "body": "Capcom makes horror first-person, grimy and intimate again.",
+          "signal": "survival horror",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2017 calendar lists January 24."
+        },
+        {
+          "date": "January 24, 2017",
+          "title": "Yakuza 0",
+          "platform": "PS4",
+          "body": "A prequel turns karaoke, crime and side-stories into a wider western breakthrough.",
+          "signal": "action adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2017 calendar lists January 24 for western PS4 release."
+        },
+        {
+          "date": "February 28/March 1, 2017",
+          "title": "Horizon Zero Dawn",
+          "platform": "PS4",
+          "body": "Guerrilla's robot wilderness gives PS4 a bright new exclusive world.",
+          "signal": "open-world action",
+          "certainty": "regional timing varies",
+          "sourceNote": "Regional timing varies around late February/early March."
+        },
+        {
+          "date": "April 4, 2017",
+          "title": "Persona 5",
+          "platform": "PS4 / PS3",
+          "body": "Atlus's stylish school-year RPG finally reaches the West.",
+          "signal": "JRPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2017 calendar lists April 4."
+        },
+        {
+          "date": "April 28, 2017",
+          "title": "Mario Kart 8 Deluxe",
+          "platform": "Switch",
+          "body": "A Wii U rescue mission becomes an evergreen Switch system-seller.",
+          "signal": "racing",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2017 calendar lists April 28."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "Nintendo Switch launches",
+          "body": "The hybrid console arrives with a tiny launch shelf and one era-defining Zelda.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Switch launch references list March 3, 2017."
+        },
+        {
+          "title": "Xbox One X launches",
+          "body": "Microsoft sells power, 4K and premium hardware into a market already reshaped by PS4 Pro.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Microsoft E3 and launch references support November 2017 context."
+        },
+        {
+          "title": "Nintendo Classic Mini: SNES arrives",
+          "body": "Mini-console nostalgia becomes another retail scarcity ritual.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2017 release references list late September 2017; verify UK stock context before final copy."
+        },
+        {
+          "title": "Game Pass begins",
+          "body": "Xbox Game Pass launches in 2017 and quietly points toward Microsoft's future identity.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2017 Xbox service context; exact public launch dates should be verified against Microsoft sources."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, digital covers and late magazine culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2017",
+          "headline": "Edge on the 2017 shelf",
+          "coverImage": "/magazine-covers/2017/edge-2017.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2017.",
+          "curatorNote": "A reconstructed marker for the Switch year: Zelda, Mario, Nier, Persona and the return of Nintendo confidence.",
+          "body": "A reconstructed marker for the Switch year: Zelda, Mario, Nier, Persona and the return of Nintendo confidence.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2017",
+          "headline": "PC Gamer UK on the 2017 shelf",
+          "coverImage": "/magazine-covers/2017/pc-gamer-uk-2017.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2017.",
+          "curatorNote": "A PC marker for PUBG, Divinity: Original Sin 2, Prey and the survival-shooter future.",
+          "body": "A PC marker for PUBG, Divinity: Original Sin 2, Prey and the survival-shooter future.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation Magazine UK",
+          "publication": "Official PlayStation Magazine UK",
+          "issueDate": "2017",
+          "headline": "Official PlayStation Magazine UK on the 2017 shelf",
+          "coverImage": "/magazine-covers/2017/official-playstation-magazine-uk-2017.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation Magazine UK, 2017.",
+          "curatorNote": "A PlayStation marker for Horizon, Persona 5, Nier, Hellblade and late-PS4 range.",
+          "body": "A PlayStation marker for Horizon, Persona 5, Nier, Hellblade and late-PS4 range.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Xbox Magazine UK",
+          "publication": "Official Xbox Magazine UK",
+          "issueDate": "2017",
+          "headline": "Official Xbox Magazine UK on the 2017 shelf",
+          "coverImage": "/magazine-covers/2017/official-xbox-magazine-uk-2017.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Xbox Magazine UK, 2017.",
+          "curatorNote": "An Xbox marker for Xbox One X, Game Pass beginnings and a year spent arguing value.",
+          "body": "An Xbox marker for Xbox One X, Game Pass beginnings and a year spent arguing value.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Streams and servers",
+          "body": "PUBG makes streaming feel like a spectator sport of panic, inventory management and sudden silence.",
+          "artifact": "stream clip",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Services and stores",
+          "body": "Switch social life is screenshots, friend codes, local multiplayer and the novelty of taking a console anywhere.",
+          "artifact": "storefront page",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Forums and feeds",
+          "body": "Battlefront II turns loot boxes into a mainstream argument about fairness, gambling and full-price games.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "Discord and Twitch are now ordinary gaming infrastructure, while YouTube criticism moves faster than print ever could.",
+          "artifact": "chat log",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like Nintendo had stepped through a door and found the lights back on. Switch made old arguments feel suddenly out of date.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "Breath of the Wild made discovery feel communal even when played alone; everyone had a different mountain, trick or disaster to report.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "PUBG made PC gaming look messy, funny and thrilling again, while loot-box anger made the business model part of ordinary player conversation.",
+          "artifact": "group chat",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "By Christmas, the year felt absurdly full: Zelda, Mario, Persona, Nier, Horizon, Cuphead, PUBG and a console you could play on the train.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2017 in video games",
+      "url": "https://en.wikipedia.org/wiki/2017_in_video_games",
+      "note": "Broad release and awards cross-check for 2017."
+    },
+    {
+      "label": "GameSpot 2017 release calendar",
+      "url": "https://www.gamespot.com/articles/every-game-release-date-in-2017/1100-6446643/",
+      "note": "Used for release-date cross-checking."
+    },
+    {
+      "label": "Nintendo Switch launch guide",
+      "url": "https://www.nintendolife.com/news/2017/02/guide_nintendo_switch_launch_games_the_complete_list",
+      "note": "Used for March 3, 2017 Switch launch software context."
+    },
+    {
+      "label": "Xbox One X announcement and launch context",
+      "url": "https://news.xbox.com/en-us/2017/06/11/xbox-e3-2017-briefing-recap/",
+      "note": "Used for Xbox One X E3 2017 context; launch date should be verified against Microsoft store/archive pages."
+    },
+    {
+      "label": "PUBG Xbox timing",
+      "url": "https://news.xbox.com/en-us/2017/10/31/pubg-coming-to-xbox-one-on-december-12-2017-4/",
+      "note": "Used for PUBG Xbox Game Preview and late-2017 phenomenon context."
+    },
+    {
+      "label": "Star Wars Battlefront II release date",
+      "url": "https://news.xbox.com/en-us/2017/04/15/star-wars-battlefront-ii-is-now-available-for-digital-pre-order-and-pre-download-on-xbox-one/",
+      "note": "Used for November 17, 2017 Battlefront II timing."
+    },
+    {
+      "label": "Battlefront II loot box context",
+      "url": "https://arstechnica.com/gaming/2017/10/star-wars-battlefront-ii-changes-its-loot-box-plans-but-is-it-enough/",
+      "note": "Used for October/November 2017 loot-box controversy context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Recent enough for release dates and service dates to be verified against primary sources.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}

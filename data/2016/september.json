@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "September 2016",
+    "accession": "GTM-2016-09",
+    "dek": "September 2016: Sony announces PS4 Pro and the slimmer PS4 at PlayStation Meeting 2016.",
+    "curatorNote": "Initial researched draft for September 2016. Regional timing and UK retail context should be checked before verification.",
+    "statusChips": [
+      "VR",
+      "PS4 Pro",
+      "Pokemon Go",
+      "Switch reveal"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "September 2016",
+          "title": "Sony announces PS4 Pro and the slimmer PS4 at PlayStation Meeting 2016.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "September 2016",
+          "title": "Persona 5 launches in Japan while western fans wait.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "September 2016",
+          "title": "4K and HDR become console words, even for players without the televisions.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2016",
+          "title": "VR, slim consoles and Pro hardware make the generation feel less fixed than before.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2016",
+          "title": "Pokemon Go briefly makes games visible in streets, parks and town centres.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "September 15, 2016",
+          "title": "Persona 5",
+          "platform": "PS3 / PS4",
+          "body": "In Japan, Atlus releases a stylish RPG that the West will wait for until 2017.",
+          "signal": "JRPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japan release widely listed for September 15, 2016."
+        },
+        {
+          "date": "January 26, 2016",
+          "title": "The Witness",
+          "platform": "PC / PS4",
+          "body": "A puzzle island becomes a notebook, a headache and a quiet obsession.",
+          "signal": "puzzle",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for January 26, 2016."
+        },
+        {
+          "date": "February 9, 2016",
+          "title": "Firewatch",
+          "platform": "PC / PS4",
+          "body": "A walking-sim mystery turns solitude and radio chatter into a shared mood.",
+          "signal": "narrative adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for February 9, 2016."
+        },
+        {
+          "date": "February 26, 2016",
+          "title": "Stardew Valley",
+          "platform": "PC",
+          "body": "A solo-made farming game becomes a comfort ritual for years.",
+          "signal": "life sim",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for February 26, 2016."
+        },
+        {
+          "date": "April 12, 2016",
+          "title": "Dark Souls III",
+          "platform": "PC / PS4 / Xbox One",
+          "body": "FromSoftware closes a cycle of ash, punishment and community archaeology.",
+          "signal": "action RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for April 12, 2016 internationally."
+        },
+        {
+          "date": "May 10, 2016",
+          "title": "Uncharted 4: A Thief's End",
+          "platform": "PS4",
+          "body": "Naughty Dog gives PS4 one of its defining cinematic showcases.",
+          "signal": "action adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for May 10, 2016."
+        },
+        {
+          "date": "May 13, 2016",
+          "title": "Doom",
+          "platform": "PC / PS4 / Xbox One",
+          "body": "id Software turns an old name into speed, metal and forward momentum.",
+          "signal": "first-person shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for May 13, 2016."
+        },
+        {
+          "date": "May 24, 2016",
+          "title": "Overwatch",
+          "platform": "PC / PS4 / Xbox One",
+          "body": "Blizzard makes hero composition, counters and payload chatter mainstream.",
+          "signal": "hero shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "PlayStation Blog lists May 24, 2016."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "Xbox One S launches",
+          "body": "Microsoft's slimmer console adds 4K video and HDR into a mid-generation refresh conversation.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Xbox Wire lists August 2, 2016."
+        },
+        {
+          "title": "PlayStation VR launches",
+          "body": "Sony brings console VR to the high street, complete with demo pods, cables and cautious wonder.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "PlayStation Blog lists October 13, 2016."
+        },
+        {
+          "title": "PS4 Pro launches",
+          "body": "Sony introduces a more powerful PS4 and makes 4K/HDR part of console marketing.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "PlayStation Blog lists November 10, 2016."
+        },
+        {
+          "title": "Nintendo reveals Switch",
+          "body": "Nintendo's hybrid-console trailer changes NX from mystery codename to visible object.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Nintendo Switch references list October 20, 2016 reveal."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, digital covers and late magazine culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2016",
+          "headline": "Edge on the 2016 shelf",
+          "coverImage": "/magazine-covers/2016/edge-2016.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2016.",
+          "curatorNote": "A reconstructed marker for VR, mid-generation hardware and a year of surprisingly varied software.",
+          "body": "A reconstructed marker for VR, mid-generation hardware and a year of surprisingly varied software.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2016",
+          "headline": "PC Gamer UK on the 2016 shelf",
+          "coverImage": "/magazine-covers/2016/pc-gamer-uk-2016.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2016.",
+          "curatorNote": "A PC marker for Overwatch, Doom, Stardew Valley, Civilization VI and No Man's Sky debate.",
+          "body": "A PC marker for Overwatch, Doom, Stardew Valley, Civilization VI and No Man's Sky debate.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation Magazine UK",
+          "publication": "Official PlayStation Magazine UK",
+          "issueDate": "2016",
+          "headline": "Official PlayStation Magazine UK on the 2016 shelf",
+          "coverImage": "/magazine-covers/2016/official-playstation-magazine-uk-2016.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation Magazine UK, 2016.",
+          "curatorNote": "A PlayStation marker for PS VR, PS4 Pro, Uncharted 4 and The Last Guardian.",
+          "body": "A PlayStation marker for PS VR, PS4 Pro, Uncharted 4 and The Last Guardian.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Xbox Magazine UK",
+          "publication": "Official Xbox Magazine UK",
+          "issueDate": "2016",
+          "headline": "Official Xbox Magazine UK on the 2016 shelf",
+          "coverImage": "/magazine-covers/2016/official-xbox-magazine-uk-2016.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Xbox Magazine UK, 2016.",
+          "curatorNote": "An Xbox marker for One S, Forza Horizon 3, Gears 4 and Project Scorpio anticipation.",
+          "body": "An Xbox marker for One S, Forza Horizon 3, Gears 4 and Project Scorpio anticipation.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Streams and servers",
+          "body": "Pokemon Go briefly turns online maps into outdoor gatherings, town-centre loops and battery-pack rituals.",
+          "artifact": "stream clip",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Services and stores",
+          "body": "Overwatch makes hero picks, counters, Play of the Game clips and seasonal events part of everyday online speech.",
+          "artifact": "storefront page",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Forums and feeds",
+          "body": "No Man's Sky becomes a case study in hype, refunds, forums and the long life of post-launch repair.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "Discord, Twitch and Reddit increasingly define the first public draft of a game's reputation.",
+          "artifact": "chat log",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like the generation was being stretched. Not replaced, exactly, but upgraded, accessorised and questioned.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "VR was both magical and faintly awkward: shop demos, headset hair, cables, motion sickness stories and one person playing while everyone else watched.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "Pokemon Go made gaming public in a way that felt almost surreal, especially in parks and high streets where players recognised each other without speaking.",
+          "artifact": "group chat",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "By October, the Switch trailer gave Nintendo fans something they had badly needed: not proof yet, but a shape for hope.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2016 in video games",
+      "url": "https://en.wikipedia.org/wiki/2016_in_video_games",
+      "note": "Broad release and hardware cross-check for 2016."
+    },
+    {
+      "label": "Overwatch launch",
+      "url": "https://blog.playstation.com/2016/03/07/overwatch-launches-may-24th-on-ps4-early-access-starts-may-3rd/",
+      "note": "Used for May 24, 2016 Overwatch release context."
+    },
+    {
+      "label": "Xbox One S launch",
+      "url": "https://news.xbox.com/en-us/2016/07/18/xbox-one-s-arrives-august-2/amp/",
+      "note": "Used for August 2, 2016 Xbox One S launch context."
+    },
+    {
+      "label": "PlayStation Meeting 2016",
+      "url": "https://blog.playstation.com/2016/09/07/playstation-meeting-2016-introducing-ps4-pro-and-the-slimmer-lighter-ps4/comment-page-3/?emcid=em-pl-5-91405",
+      "note": "Used for PS4 Pro announcement and November 10 launch date."
+    },
+    {
+      "label": "PlayStation VR launch line-up",
+      "url": "https://blog.playstation.com/2016/10/05/playstation-vr-launch-lineup-and-beyond/",
+      "note": "Used for October 13, 2016 PS VR launch context."
+    },
+    {
+      "label": "Nintendo Switch reveal",
+      "url": "https://en.wikipedia.org/wiki/Nintendo_Switch",
+      "note": "Used for October 20, 2016 Switch reveal cross-check; replace with Nintendo archive if desired."
+    },
+    {
+      "label": "The Game Awards 2016",
+      "url": "https://en.wikipedia.org/wiki/The_Game_Awards_2016",
+      "note": "Used for Overwatch awards context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Recent enough for release dates and service dates to be verified against primary sources.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}
