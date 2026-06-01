@@ -4,8 +4,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Gaming Time Machine | October 1997",
-  description: "A digital museum exhibit prototype for gaming culture in October 1997."
+  title: "Gaming Time Machine",
+  description: "A digital museum of video game history, one month at a time."
 };
 
 export default function RootLayout({

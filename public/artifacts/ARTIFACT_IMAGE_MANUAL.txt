@@ -1,0 +1,230 @@
+GAMING TIME MACHINE
+Artifact Image Manual
+
+Place this file in:
+public/artifacts/
+
+This folder is for optional exhibit images such as:
+- museum artifacts
+- screenshots
+- magazine scans
+- hardware photography
+- adverts
+- box art
+- shop or catalogue ephemera
+
+These are different from magazine cover images, which live in:
+public/magazine-covers/
+
+
+WHERE TO PUT IMAGES
+
+Recommended folder pattern:
+
+public/artifacts/1997/october/filename.jpg
+public/artifacts/1982/january/filename.png
+public/artifacts/2026/may/filename.webp
+
+Example:
+
+public/artifacts/1997/october/tomb-raider-ii-pc-box.jpg
+
+In the JSON, reference it as:
+
+"artifactImage": "1997/october/tomb-raider-ii-pc-box.jpg"
+
+The site automatically adds /artifacts/ at the front.
+
+This also works:
+
+"artifactImage": "/artifacts/1997/october/tomb-raider-ii-pc-box.jpg"
+
+
+WHERE IMAGES CAN BE USED
+
+Artifact images can be added to individual items inside exhibit sections, including:
+- news items
+- release items
+- hardware/context items
+- online life/context items
+- what it felt like items, where supported by the existing JSON shape
+
+Add the image fields to the item you want the image to appear beside.
+
+
+SINGLE IMAGE EXAMPLE
+
+{
+  "title": "Tomb Raider II gathers retail momentum",
+  "date": "November 1997",
+  "description": "Lara Croft's sequel became one of the defining Christmas-season PlayStation releases.",
+  "artifactImage": "1997/november/tomb-raider-ii-display.jpg",
+  "artifactImageAlt": "A retail display for Tomb Raider II",
+  "artifactImageCaption": "PlayStation and PC shelves made Lara Croft feel unavoidable by late 1997.",
+  "artifactImageCredit": "Curator collection / source note here",
+  "artifactImageType": "Retail artifact"
+}
+
+
+MULTIPLE IMAGE EXAMPLE
+
+Use artifactImages when one item needs more than one image.
+
+{
+  "title": "PC CD-ROM gaming becomes normal",
+  "date": "Late 1997",
+  "description": "Bigger installs, glossy boxes and demo discs made the PC feel like its own high-street platform.",
+  "artifactImages": [
+    {
+      "src": "1997/november/pc-cd-rom-boxes.jpg",
+      "alt": "A row of boxed PC CD-ROM games",
+      "caption": "Big-box PC games were still part of the physical retail ritual.",
+      "credit": "Curator collection / source note here",
+      "kind": "Hardware context"
+    },
+    {
+      "src": "1997/november/demo-disc.jpg",
+      "alt": "A late 1990s PC magazine demo disc",
+      "caption": "Demo discs helped turn magazines into playable samplers.",
+      "credit": "Curator collection / source note here",
+      "kind": "Demo disc"
+    }
+  ]
+}
+
+
+SUPPORTED FIELD NAMES
+
+Preferred single-image fields:
+
+artifactImage
+artifactImageAlt
+artifactImageCaption
+artifactImageCredit
+artifactImageType
+
+Also supported as aliases:
+
+artifactImageSrc
+image
+imageSrc
+imageAlt
+imageCaption
+imageCredit
+imageType
+
+Preferred multi-image field:
+
+artifactImages
+
+Also supported as an alias:
+
+images
+
+
+IMAGE FORMATS
+
+Recommended:
+- .jpg for photos, scans and screenshots
+- .png for images needing sharp detail or transparency
+- .webp for smaller modern image files
+- .svg only for simple generated/illustrative archive graphics
+
+Try to keep images web-friendly:
+- width around 1200-1800px is usually plenty
+- avoid huge uncompressed files
+- use clear filenames with lowercase words and hyphens
+
+Good:
+tomb-raider-ii-shop-display.jpg
+
+Avoid:
+IMG_0048 FINAL final final.jpg
+
+
+ALT TEXT
+
+Always add useful alt text when possible.
+
+Good:
+"A boxed UK PlayStation copy of Tomb Raider II on a shop shelf"
+
+Less useful:
+"Tomb Raider image"
+
+
+CAPTIONS
+
+Captions should feel like a museum label:
+- short
+- specific
+- atmospheric where useful
+- clear about uncertainty
+
+Example:
+"A typical late-1990s PC big-box display; exact shop and date unconfirmed."
+
+
+CREDITS AND SOURCE NOTES
+
+Use artifactImageCredit or credit to note where an image came from.
+
+Examples:
+"Curator collection"
+"Magazine scan, source to verify"
+"Publisher press image, archived source needed"
+"Photograph by Paul McNally"
+
+Do not use images unless you have the right to use them or they are placeholders you intend to replace.
+
+
+UNCERTAIN IMAGES
+
+If an image is representative rather than exact, say so in the caption or credit.
+
+Example:
+"Representative 1982 arcade cabinet photograph; not tied to this exact month."
+
+This keeps the archive honest and avoids false precision.
+
+
+MAGAZINE COVERS
+
+Magazine cover images are handled separately by the Magazine Covers section.
+
+Those files should live in:
+
+public/magazine-covers/YEAR/filename.jpg
+
+The cover entries in JSON usually include publication name, issue date, curator note and image path.
+
+Use public/artifacts/ for supporting images inside exhibit items.
+Use public/magazine-covers/ for actual magazine cover cards.
+
+
+CURATOR STATUS REMINDER
+
+Each exhibit JSON can include:
+
+"status": "ai-draft"
+"lastEdited": "2026-06-01"
+"editorNotes": "Initial AI draft. Needs human review."
+
+Allowed status values:
+- ai-draft
+- human-edited
+- verified
+
+These badges only show in development mode.
+
+
+QUICK CHECKLIST
+
+1. Put image in public/artifacts/YEAR/month/
+2. Add artifactImage or artifactImages to the relevant JSON item.
+3. Add alt text.
+4. Add a caption.
+5. Add a credit or source note.
+6. Be clear if the image is representative or uncertain.
+7. Run npm run build before deploying.
+

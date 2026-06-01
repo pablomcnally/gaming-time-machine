@@ -98,12 +98,22 @@ export function YearTimeline({ months, selectedYear, years }: { months: Timeline
                 ) : (
                   <span
                     key={month.id}
-                    className="cursor-not-allowed border border-dashed border-zinc-950/20 px-3 py-3 text-center font-mono text-xs uppercase tracking-[0.16em] text-zinc-400"
+                    className={[
+                      "cursor-not-allowed border border-dashed px-3 py-3 text-center font-mono text-xs uppercase tracking-[0.16em]",
+                      month.isSelected
+                        ? "border-red-700 bg-[#fbf8ef] text-red-700 shadow-exhibit"
+                        : "border-zinc-950/20 text-zinc-400"
+                    ].join(" ")}
                     aria-disabled="true"
                     title={`${month.label} ${selectedYear} exhibit under construction`}
                   >
                     <span className="block">{month.shortLabel}</span>
-                    <span className="mx-auto mt-2 block h-1.5 w-1.5 rotate-45 bg-zinc-950/20" />
+                    <span
+                      className={[
+                        "mx-auto mt-2 block h-1.5 w-1.5 rotate-45",
+                        month.isSelected ? "bg-red-700" : "bg-zinc-950/20"
+                      ].join(" ")}
+                    />
                   </span>
                 )
               )}

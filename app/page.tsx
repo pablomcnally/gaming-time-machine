@@ -1,3 +1,4 @@
+import { redirect } from "next/navigation";
 import { MagazineCoverGallery, type MagazineCoverItem } from "./components/magazine-cover-gallery";
 import { MuseumFooter } from "./components/museum-footer";
 import { YearTimeline } from "./components/year-timeline";
@@ -300,7 +301,7 @@ function CuratorStatusBadge({ status }: { status: ExhibitStatus }) {
   );
 }
 
-function UnderConstruction({ year }: { year: number }) {
+function UnderConstruction({ monthLabel, year }: { monthLabel?: string; year: number }) {
   return (
     <section className="border-t border-black/10 py-20 md:py-28">
       <div className="mx-auto grid max-w-7xl gap-8 px-5 md:grid-cols-[0.85fr_2fr] md:px-8">
@@ -311,14 +312,15 @@ function UnderConstruction({ year }: { year: number }) {
         <article className="border border-black/10 bg-[#fbf8ef] p-8 shadow-exhibit md:p-10">
           <p className="font-mono text-xs uppercase tracking-[0.24em] text-zinc-500">Exhibit under construction</p>
           <h3 className="mt-5 max-w-2xl font-display text-4xl leading-none text-zinc-950">
-            This year has a reserved drawer in the archive.
+            {monthLabel ? `${monthLabel} has a reserved drawer in the archive.` : "This year has a reserved drawer in the archive."}
           </h3>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-600">
-            No exhibit files are installed for {year} yet. The timeline keeps the year visible so the collection
-            feels like a living museum catalog rather than a broken route.
+            {monthLabel
+              ? `No exhibit file is installed for ${monthLabel} yet. The timeline keeps the month visible so the collection feels like a living museum catalog rather than a broken route.`
+              : `No exhibit files are installed for ${year} yet. The timeline keeps the year visible so the collection feels like a living museum catalog rather than a broken route.`}
           </p>
           <a
-            href={`/?year=${DEFAULT_YEAR}&month=october`}
+            href={`/${DEFAULT_YEAR}/october`}
             className="mt-8 inline-flex border border-zinc-950 bg-zinc-950 px-5 py-3 font-mono text-xs uppercase tracking-[0.18em] text-stone-50 transition hover:bg-red-700"
           >
             Return to October 1997
@@ -466,25 +468,12 @@ function getYearId(value: string | string[] | undefined) {
   return Array.isArray(value) ? value[0] : value;
 }
 
-export default async function Home({ searchParams }: { searchParams: SearchParams }) {
-  const params = await searchParams;
-  const yearParam = getYearId(params.year);
-  const monthParam = getMonthId(params.month);
-  const { selectedYear, currentMonth, months, timelineMonths, timelineYears } = await getArchiveSelection(
+export async function ExhibitPage({ yearParam, monthParam }: { yearParam?: string; monthParam?: string }) {
+  const { selectedYear, currentMonth, timelineMonths, timelineYears } = await getArchiveSelection(
     yearParam,
     monthParam
   );
   const randomExhibitHref = getRandomExhibitHref();
-
-  if (!yearParam && !monthParam) {
-    return (
-      <HomeLanding
-        randomExhibitHref={randomExhibitHref}
-        timelineMonths={timelineMonths}
-        timelineYears={timelineYears}
-      />
-    );
-  }
 
   const exhibit = currentMonth?.exhibit;
   const museum = exhibit?.museum ?? {
@@ -504,6 +493,7 @@ export default async function Home({ searchParams }: { searchParams: SearchParam
   const magazineCovers = magazines ? getMagazineCoverItems(magazines, museum.period) : [];
   const online = sections.find((section) => section.id === "online");
   const felt = sections.find((section) => section.id === "felt");
+  const selectedTimelineMonth = timelineMonths.find((month) => month.isSelected);
 
   return (
     <main className="min-h-screen bg-[#f3efe4] text-zinc-900">
@@ -627,10 +617,33 @@ export default async function Home({ searchParams }: { searchParams: SearchParam
           ) : null}
         </>
       ) : (
-        <UnderConstruction year={selectedYear} />
+        <UnderConstruction monthLabel={selectedTimelineMonth ? `${selectedTimelineMonth.label} ${selectedYear}` : undefined} year={selectedYear} />
       )}
 
       <MuseumFooter randomExhibitHref={randomExhibitHref} sources={sources} />
     </main>
+  );
+}
+
+export default async function Home({ searchParams }: { searchParams: SearchParams }) {
+  const params = await searchParams;
+  const yearParam = getYearId(params.year);
+  const monthParam = getMonthId(params.month);
+
+  if (yearParam || monthParam) {
+    const selection = await getArchiveSelection(yearParam, monthParam);
+    const monthPath = monthParam ?? selection.currentMonth?.id ?? "january";
+
+    redirect(`/${selection.selectedYear}/${monthPath}`);
+  }
+
+  const { timelineMonths, timelineYears } = await getArchiveSelection();
+
+  return (
+    <HomeLanding
+      randomExhibitHref={getRandomExhibitHref()}
+      timelineMonths={timelineMonths}
+      timelineYears={timelineYears}
+    />
   );
 }

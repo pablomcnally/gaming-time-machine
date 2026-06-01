@@ -70,7 +70,13 @@ function getMonthLabel(monthId: string, year: number) {
 }
 
 function getMonthHref(year: number, monthId: string) {
-  return `/?year=${year}&month=${monthId}`;
+  return `/${year}/${monthId}`;
+}
+
+function getYearHref(year: number) {
+  const [firstMonthId] = getContentMonthIds(year);
+
+  return getMonthHref(year, firstMonthId ?? "january");
 }
 
 function getContentYears() {
@@ -186,7 +192,7 @@ export function getLatestExhibitHref() {
     })
     [0];
 
-  return latest?.href ?? `/?year=${DEFAULT_YEAR}&month=october`;
+  return latest?.href ?? getMonthHref(DEFAULT_YEAR, "october");
 }
 
 export function getRandomExhibitHref() {
@@ -195,7 +201,7 @@ export function getRandomExhibitHref() {
   );
 
   if (availableMonths.length === 0) {
-    return `/?year=${DEFAULT_YEAR}&month=october`;
+    return getMonthHref(DEFAULT_YEAR, "october");
   }
 
   return availableMonths[Math.floor(Math.random() * availableMonths.length)];
@@ -211,7 +217,7 @@ export function getTimelineYears(contentYears: number[], selectedYear: number) {
     return {
       year,
       hasContent,
-      href: hasContent ? `/?year=${year}` : `/?year=${year}`,
+      href: getYearHref(year),
       isSelected: year === selectedYear
     };
   });
@@ -235,18 +241,18 @@ export async function getArchiveSelection(yearParam?: string, monthParam?: strin
     requestedYear >= FIRST_TIMELINE_YEAR && requestedYear <= LAST_TIMELINE_YEAR ? requestedYear : DEFAULT_YEAR;
   const monthIds = contentYears.includes(selectedYear) ? getContentMonthIds(selectedYear) : [];
 
-  const selectedMonthId = monthParam && monthIds.includes(monthParam) ? monthParam : monthIds[0];
+  const selectedMonthId = monthParam ?? monthIds[0];
   const months = monthIds
     .map((monthId) => readMonth(selectedYear, monthId))
     .filter((month): month is ArchiveMonth => Boolean(month));
-  const currentMonth = months.find((month) => month.id === selectedMonthId) ?? months[0] ?? null;
+  const currentMonth = selectedMonthId ? (months.find((month) => month.id === selectedMonthId) ?? null) : null;
 
   return {
     selectedYear,
     currentMonth,
     months,
     timelineYears: getTimelineYears(contentYears, selectedYear),
-    timelineMonths: getTimelineMonths(selectedYear, monthIds, currentMonth?.id)
+    timelineMonths: getTimelineMonths(selectedYear, monthIds, selectedMonthId)
   };
 }
 
