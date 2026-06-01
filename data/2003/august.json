@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "August 2003",
+    "accession": "GTM-2003-08",
+    "dek": "August 2003: Soulcalibur II becomes a console-comparison object.",
+    "curatorNote": "Initial researched draft for August 2003. Regional timing and UK retail context should be checked before verification.",
+    "statusChips": [
+      "GBA SP",
+      "Steam",
+      "N-Gage",
+      "Xbox Live"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "August 2003",
+          "title": "Soulcalibur II becomes a console-comparison object.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "August 2003",
+          "title": "F-Zero GX and other GameCube releases keep Nintendo's machine technically interesting.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "August 2003",
+          "title": "The late-summer shelf is smaller than autumn but full of arguments.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2003",
+          "title": "PS2 remains dominant in UK high-street space, but Xbox Live gives Microsoft a clear identity.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2003",
+          "title": "GBA SP makes handheld hardware feel fashionable as well as practical.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "August 2003",
+          "title": "Soulcalibur II",
+          "platform": "PS2 / Xbox / GameCube",
+          "body": "A fighting game becomes a multi-console comparison object through guest characters.",
+          "signal": "fighting",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Late summer 2003 timing varies by region and platform."
+        },
+        {
+          "date": "March/May 2003",
+          "title": "The Legend of Zelda: The Wind Waker",
+          "platform": "GameCube",
+          "body": "Nintendo's cel-shaded sea becomes an argument first and a classic later.",
+          "signal": "adventure",
+          "certainty": "regional timing varies",
+          "sourceNote": "Regional dates vary; Europe received the game in May 2003."
+        },
+        {
+          "date": "July 2003",
+          "title": "Star Wars: Knights of the Old Republic",
+          "platform": "Xbox / Windows",
+          "body": "BioWare makes a Star Wars RPG that feels authored, moral and enormous.",
+          "signal": "RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Xbox timing is widely placed in July 2003; PC follows later."
+        },
+        {
+          "date": "July 2003",
+          "title": "EyeToy: Play",
+          "platform": "PlayStation 2",
+          "body": "A camera turns the living room into a party interface, especially visible in UK retail.",
+          "signal": "camera party game",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "European launch timing is commonly placed in July 2003; verify exact UK date before final copy."
+        },
+        {
+          "date": "September 2003",
+          "title": "Viewtiful Joe",
+          "platform": "GameCube",
+          "body": "Capcom's comic-book action gives GameCube one of its sharp cult objects.",
+          "signal": "action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "2003 timing varies by region; September/October is commonly cited."
+        },
+        {
+          "date": "October 2003",
+          "title": "Call of Duty",
+          "platform": "Windows",
+          "body": "Infinity Ward turns PC war shooters into a scripted ensemble spectacle.",
+          "signal": "WWII shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for October 2003."
+        },
+        {
+          "date": "October 2003",
+          "title": "Max Payne 2: The Fall of Max Payne",
+          "platform": "Windows / consoles",
+          "body": "Remedy makes noir, physics and melodrama feel beautifully over-serious.",
+          "signal": "action shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Initial PC release is widely placed in October 2003."
+        },
+        {
+          "date": "November 2003",
+          "title": "Prince of Persia: The Sands of Time",
+          "platform": "PS2 / Xbox / GameCube / Windows",
+          "body": "Ubisoft rewinds the platformer into something graceful and tactile.",
+          "signal": "action adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Sources place release in November 2003."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "Game Boy Advance SP launches in Europe",
+          "body": "Nintendo's lit clamshell handheld becomes a desirable object as much as a revision.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "SPOnG/Nintendo Europe material lists March 28, 2003."
+        },
+        {
+          "title": "Steam launches",
+          "body": "Valve's client arrives as an update mechanism before it becomes the centre of PC ownership.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "PC Gamer and Steam references list September 12, 2003."
+        },
+        {
+          "title": "Nokia N-Gage launches",
+          "body": "A phone-console hybrid reaches shops before mobile hardware and habits are ready for it.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Nokia's Q3 2003 release notes sales beginning October 7."
+        },
+        {
+          "title": "Xbox Live matures",
+          "body": "Voice chat, friends lists and online shooters give Xbox an identity beyond power.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Year-level Xbox Live context; verify individual service milestones before final copy."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, demo discs and late high-street culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2003",
+          "headline": "Edge on the 2003 shelf",
+          "coverImage": "/magazine-covers/2003/edge-2003.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2003.",
+          "curatorNote": "A reconstructed marker for a year of Xbox Live confidence, Steam's first steps and late PS2/GameCube abundance.",
+          "body": "A reconstructed marker for a year of Xbox Live confidence, Steam's first steps and late PS2/GameCube abundance.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Zone",
+          "publication": "PC Zone",
+          "issueDate": "2003",
+          "headline": "PC Zone on the 2003 shelf",
+          "coverImage": "/magazine-covers/2003/pc-zone-2003.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Zone, 2003.",
+          "curatorNote": "A UK PC marker for Call of Duty, Max Payne 2, Steam, KOTOR on PC and patches becoming normal.",
+          "body": "A UK PC marker for Call of Duty, Max Payne 2, Steam, KOTOR on PC and patches becoming normal.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation 2 Magazine UK",
+          "publication": "Official PlayStation 2 Magazine UK",
+          "issueDate": "2003",
+          "headline": "Official PlayStation 2 Magazine UK on the 2003 shelf",
+          "coverImage": "/magazine-covers/2003/official-playstation-2-magazine-uk-2003.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation 2 Magazine UK, 2003.",
+          "curatorNote": "A PS2 demo-disc marker for EyeToy, Tony Hawk, Prince of Persia and the console's imperial middle years.",
+          "body": "A PS2 demo-disc marker for EyeToy, Tony Hawk, Prince of Persia and the console's imperial middle years.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "GamesMaster",
+          "publication": "GamesMaster",
+          "issueDate": "2003",
+          "headline": "GamesMaster on the 2003 shelf",
+          "coverImage": "/magazine-covers/2003/gamesmaster-2003.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for GamesMaster, 2003.",
+          "curatorNote": "A UK high-street marker for GBA SP, GameCube loyalty, N-Gage curiosity and school-bag hardware envy.",
+          "body": "A UK high-street marker for GBA SP, GameCube loyalty, N-Gage curiosity and school-bag hardware envy.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Forums and files",
+          "body": "Online life is forums, GameFAQs, IRC, MSN Messenger, fan sites, clan pages and demo downloads that take planning.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Services and servers",
+          "body": "Steam appears first as a nuisance to some PC players, especially around updates and account ownership.",
+          "artifact": "server browser",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Voice and identity",
+          "body": "Xbox Live turns the headset into a new living-room object, making voice both thrilling and annoying.",
+          "artifact": "headset note",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "Broadband is spreading, but UK households still understand downloads, patches and online play through patience.",
+          "artifact": "download queue",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like gaming was becoming connected in several incompatible ways at once: Xbox headsets, Steam accounts, phone games and handheld revisions.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "The PS2 was still the safe centre of the room, but the interesting edges were multiplying.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "GBA SP made handheld play feel sleek; N-Gage made it feel awkwardly futuristic; Steam made PC gaming feel like it had acquired a front door.",
+          "artifact": "forum memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "For UK players, the experience was still filtered through demo discs, Friday high-street visits, import screenshots and whatever the home broadband could manage.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2003 in video games",
+      "url": "https://en.wikipedia.org/wiki/2003_in_video_games",
+      "note": "Broad release and platform cross-check for 2003."
+    },
+    {
+      "label": "Game Boy Advance SP Europe",
+      "url": "https://spong.com/press_release/4188/Nintendo-announces-the-launch-of-Game-Boy-Advance-SP",
+      "note": "Used for March 28, 2003 European GBA SP launch context."
+    },
+    {
+      "label": "Steam launch anniversary",
+      "url": "https://www.pcgamer.com/steam-20th-anniversary/",
+      "note": "Used for September 12, 2003 Steam launch context."
+    },
+    {
+      "label": "Steam service reference",
+      "url": "https://en.wikipedia.org/wiki/Steam_%28service%29",
+      "note": "Cross-check for Steam leaving beta on September 12, 2003."
+    },
+    {
+      "label": "Nokia N-Gage Q3 report",
+      "url": "https://www.nokia.com/system/files/files/q3-2003-earnings-release-pdf.pdf",
+      "note": "Used for N-Gage sales start on October 7, 2003."
+    },
+    {
+      "label": "N-Gage reference",
+      "url": "https://en.wikipedia.org/wiki/N-Gage",
+      "note": "Cross-check for October 7, 2003 N-Gage launch."
+    },
+    {
+      "label": "Prince of Persia: The Sands of Time",
+      "url": "https://en.wikipedia.org/wiki/Prince_of_Persia%3A_The_Sands_of_Time",
+      "note": "Used for November 2003 release-window context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Regional UK/PAL release dates should be verified carefully before moving beyond ai-draft.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}

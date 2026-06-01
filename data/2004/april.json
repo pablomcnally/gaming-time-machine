@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "April 2004",
+    "accession": "GTM-2004-04",
+    "dek": "April 2004: E3 approaches with Nintendo DS, PSP and next-generation rumours in the air.",
+    "curatorNote": "Initial researched draft for April 2004. Regional timing and UK retail context should be checked before verification.",
+    "statusChips": [
+      "DS",
+      "PSP",
+      "Halo 2",
+      "WoW"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "April 2004",
+          "title": "E3 approaches with Nintendo DS, PSP and next-generation rumours in the air.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "April 2004",
+          "title": "City, war and action previews crowd PC magazine pages.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "April 2004",
+          "title": "The current generation still has too much momentum to feel old.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2004",
+          "title": "The existing console generation reaches one of its richest software peaks.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2004",
+          "title": "Nintendo DS and PSP make handheld gaming feel like a new battleground.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "March 2004",
+          "title": "Unreal Tournament 2004",
+          "platform": "Windows / Linux / Mac",
+          "body": "Arena shooters reach one of their last grand PC retail forms.",
+          "signal": "arena FPS",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 2004."
+        },
+        {
+          "date": "March 2004",
+          "title": "Far Cry",
+          "platform": "Windows",
+          "body": "Crytek makes PC islands look impossibly bright and expensive.",
+          "signal": "first-person shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 2004."
+        },
+        {
+          "date": "March 2004",
+          "title": "Ninja Gaiden",
+          "platform": "Xbox",
+          "body": "Team Ninja gives Xbox a hard, glossy action showcase.",
+          "signal": "action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 2004."
+        },
+        {
+          "date": "August 2004",
+          "title": "Doom 3",
+          "platform": "Windows",
+          "body": "id's horror-lit corridor shooter becomes a graphics-card trial.",
+          "signal": "first-person shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for August 2004."
+        },
+        {
+          "date": "September 2004",
+          "title": "Burnout 3: Takedown",
+          "platform": "PS2 / Xbox",
+          "body": "Criterion turns crashing into a design philosophy.",
+          "signal": "racing",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for September 2004."
+        },
+        {
+          "date": "September 2004",
+          "title": "Fable",
+          "platform": "Xbox",
+          "body": "Lionhead's long-promised RPG arrives smaller than myth, but memorable all the same.",
+          "signal": "action RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for September 2004."
+        },
+        {
+          "date": "September 2004",
+          "title": "Rome: Total War",
+          "platform": "Windows",
+          "body": "Creative Assembly makes strategy feel cinematic on the family PC.",
+          "signal": "strategy",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for September 2004."
+        },
+        {
+          "date": "October 2004",
+          "title": "Grand Theft Auto: San Andreas",
+          "platform": "PlayStation 2",
+          "body": "Rockstar makes a state-sized PS2 landmark full of radio, myth and playground quotation.",
+          "signal": "open-world action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for late October 2004."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "Nintendo DS launches in North America and Japan",
+          "body": "Dual screens and a stylus offer an odd answer to Sony's coming PSP.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Nintendo DS references list November 21 and December 2, 2004."
+        },
+        {
+          "title": "PSP launches in Japan",
+          "body": "Sony's handheld arrives as a glossy media device and a serious challenge to Nintendo's portable monopoly.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "PSP references list December 12, 2004 in Japan."
+        },
+        {
+          "title": "PS2 Slim arrives",
+          "body": "Sony makes the market leader smaller and cheaper-looking at the moment competitors need it to seem old.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2004 PS2 Slim context should be verified against regional launch sources."
+        },
+        {
+          "title": "Steam becomes unavoidable for Half-Life 2",
+          "body": "Valve ties a major PC release to online activation, making the client impossible to ignore.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Half-Life 2 and Steam launch context support this reading."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, demo discs and late high-street culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2004",
+          "headline": "Edge on the 2004 shelf",
+          "coverImage": "/magazine-covers/2004/edge-2004.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2004.",
+          "curatorNote": "A reconstructed marker for one of the most crowded years in modern game memory.",
+          "body": "A reconstructed marker for one of the most crowded years in modern game memory.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2004",
+          "headline": "PC Gamer UK on the 2004 shelf",
+          "coverImage": "/magazine-covers/2004/pc-gamer-uk-2004.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2004.",
+          "curatorNote": "A PC marker for Far Cry, Doom 3, Rome, Half-Life 2 and the first steps toward WoW routine.",
+          "body": "A PC marker for Far Cry, Doom 3, Rome, Half-Life 2 and the first steps toward WoW routine.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Xbox Magazine UK",
+          "publication": "Official Xbox Magazine UK",
+          "issueDate": "2004",
+          "headline": "Official Xbox Magazine UK on the 2004 shelf",
+          "coverImage": "/magazine-covers/2004/official-xbox-magazine-uk-2004.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Xbox Magazine UK, 2004.",
+          "curatorNote": "An Xbox marker for Halo 2, Live headset culture and the console's strongest identity.",
+          "body": "An Xbox marker for Halo 2, Live headset culture and the console's strongest identity.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation 2 Magazine UK",
+          "publication": "Official PlayStation 2 Magazine UK",
+          "issueDate": "2004",
+          "headline": "Official PlayStation 2 Magazine UK on the 2004 shelf",
+          "coverImage": "/magazine-covers/2004/official-playstation-2-magazine-uk-2004.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation 2 Magazine UK, 2004.",
+          "curatorNote": "A PS2 marker for San Andreas, Burnout 3 and Sony's continuing high-street dominance.",
+          "body": "A PS2 marker for San Andreas, Burnout 3 and Sony's continuing high-street dominance.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Forums and files",
+          "body": "Halo 2 makes console online play feel social, competitive and immediate through matchmaking and voice.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Services and servers",
+          "body": "World of Warcraft starts turning guilds, subscriptions and online schedules into ordinary gaming language.",
+          "artifact": "server browser",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Voice and identity",
+          "body": "Steam activation around Half-Life 2 makes PC ownership feel newly account-based.",
+          "artifact": "headset note",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "Forums and magazine cover discs still sit beside the network; the old and new delivery systems overlap.",
+          "artifact": "download queue",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like too much arrived at once. San Andreas, Halo 2, Half-Life 2, WoW, Metal Gear, Burnout and handheld news all seemed to compete for the same oxygen.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "The old console generation did not feel old; it felt overpowered with possibility.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "The DS and PSP made the future portable before the living-room next generation had even begun.",
+          "artifact": "forum memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "By Christmas, online play had changed tone: not a novelty, not universal, but clearly part of where games were going.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2004 in video games",
+      "url": "https://en.wikipedia.org/wiki/2004_in_video_games",
+      "note": "Broad release and awards cross-check for 2004."
+    },
+    {
+      "label": "Nintendo DS launch reference",
+      "url": "https://en.wikipedia.org/wiki/Nintendo_DS",
+      "note": "Used for North American and Japanese DS launch timing."
+    },
+    {
+      "label": "Nintendo DS Japanese launch",
+      "url": "https://www.nintendoworldreport.com/news/10162/nintendo-ds-japanese-launch",
+      "note": "Used for December 2, 2004 Japan launch context."
+    },
+    {
+      "label": "Nintendo DS launch date release",
+      "url": "https://www.nintendo.co.jp/corporate/release/2004/040921a.html",
+      "note": "Primary Nintendo Japan release for December 2, 2004 DS date."
+    },
+    {
+      "label": "PSP reference",
+      "url": "https://www.videogameconsolelibrary.com/console/sony-psp/",
+      "note": "Used for December 12, 2004 PSP Japan launch context."
+    },
+    {
+      "label": "Game Rant 2004 release calendar",
+      "url": "https://gamerant.com/video-game/release-dates/2004/08/",
+      "note": "Release-date cross-check where available; verify important dates with primary sources."
+    },
+    {
+      "label": "2004 industry influence overview",
+      "url": "https://en.wikipedia.org/wiki/2004_in_video_games",
+      "note": "Used to frame Halo 2, Half-Life 2, San Andreas and World of Warcraft as the year's major objects."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Regional UK/PAL release dates should be verified carefully before moving beyond ai-draft.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}

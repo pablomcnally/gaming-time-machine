@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "June 2005",
+    "accession": "GTM-2005-06",
+    "dek": "June 2005: Battlefield 2 makes PC multiplayer feel large and modern.",
+    "curatorNote": "Initial researched draft for June 2005. Regional timing and UK retail context should be checked before verification.",
+    "statusChips": [
+      "Xbox 360",
+      "DS Europe",
+      "PSP Europe",
+      "late PS2"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "June 2005",
+          "title": "Battlefield 2 makes PC multiplayer feel large and modern.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "June 2005",
+          "title": "PSP anticipation grows in Europe while importers and early adopters talk about screens and films.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "June 2005",
+          "title": "Online shooters and handheld multimedia define two different futures.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "museum interpretation",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2005",
+          "title": "The old generation remains creatively alive while Xbox 360 starts the next one.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2005",
+          "title": "DS and PSP turn handheld choice into a real UK high-street argument.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "January/March 2005",
+          "title": "Resident Evil 4",
+          "platform": "GameCube",
+          "body": "Capcom changes the grammar of action horror, with Europe receiving it in March.",
+          "signal": "action horror",
+          "certainty": "regional timing varies",
+          "sourceNote": "Nintendo UK lists March 18, 2005 for Europe; North America launched in January."
+        },
+        {
+          "date": "February/March 2005",
+          "title": "Gran Turismo 4",
+          "platform": "PlayStation 2",
+          "body": "Polyphony turns car collecting and licence tests into another PS2 ritual.",
+          "signal": "racing sim",
+          "certainty": "regional timing varies",
+          "sourceNote": "Regional dates vary across February and March 2005."
+        },
+        {
+          "date": "March 2005",
+          "title": "God of War",
+          "platform": "PlayStation 2",
+          "body": "Sony Santa Monica turns mythic violence into a new PlayStation icon.",
+          "signal": "action adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 2005 in North America; PAL timing should be checked."
+        },
+        {
+          "date": "March 2005",
+          "title": "Tom Clancy's Splinter Cell: Chaos Theory",
+          "platform": "Multi-platform",
+          "body": "Ubisoft's stealth series reaches one of its sharpest forms.",
+          "signal": "stealth action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for March 2005."
+        },
+        {
+          "date": "April 2005",
+          "title": "Jade Empire",
+          "platform": "Xbox",
+          "body": "BioWare builds a martial-arts RPG with old Xbox warmth.",
+          "signal": "RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for April 2005."
+        },
+        {
+          "date": "April 2005",
+          "title": "Guild Wars",
+          "platform": "Windows",
+          "body": "ArenaNet offers online RPG structure without a monthly subscription.",
+          "signal": "online RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for April 2005."
+        },
+        {
+          "date": "April 2005",
+          "title": "Psychonauts",
+          "platform": "Xbox / Windows / PS2",
+          "body": "Double Fine's psychic summer camp becomes a cult object almost immediately.",
+          "signal": "platform adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed for April 2005."
+        },
+        {
+          "date": "August 2005",
+          "title": "Nintendogs",
+          "platform": "Nintendo DS",
+          "body": "A puppy simulator turns the DS microphone and touchscreen into a mainstream sales pitch.",
+          "signal": "pet simulation",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japan launched in April; western timing varies through summer/autumn 2005."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "Nintendo DS launches in Europe",
+          "body": "The DS reaches UK shops with touch screens, a stylus and a launch line-up that needs explaining at the counter.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "GameSpot reports March 11, 2005 and UK pricing."
+        },
+        {
+          "title": "PSP launches in Europe",
+          "body": "Sony's handheld reaches Europe as a premium media object with a sharp screen and UMD film dreams.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "GameSpot reports September 1, 2005."
+        },
+        {
+          "title": "Xbox 360 launches",
+          "body": "Microsoft starts the HD console generation in North America, Europe and Japan before Sony or Nintendo respond.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Microsoft lists November 22 North America and December 2 Europe."
+        },
+        {
+          "title": "Xbox Live Marketplace points forward",
+          "body": "Downloads, demos and profiles make the console feel more like a connected platform.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Xbox 360 launch context; verify feature-level dates before final copy."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print, demo discs and late high-street culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2005",
+          "headline": "Edge on the 2005 shelf",
+          "coverImage": "/magazine-covers/2005/edge-2005.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2005.",
+          "curatorNote": "A reconstructed marker for the year handhelds split, Resident Evil changed shape and Xbox 360 arrived.",
+          "body": "A reconstructed marker for the year handhelds split, Resident Evil changed shape and Xbox 360 arrived.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2005",
+          "headline": "PC Gamer UK on the 2005 shelf",
+          "coverImage": "/magazine-covers/2005/pc-gamer-uk-2005.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2005.",
+          "curatorNote": "A PC marker for Guild Wars, F.E.A.R., Civilization IV, Battlefield 2 and early digital distribution.",
+          "body": "A PC marker for Guild Wars, F.E.A.R., Civilization IV, Battlefield 2 and early digital distribution.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Xbox Magazine UK",
+          "publication": "Official Xbox Magazine UK",
+          "issueDate": "2005",
+          "headline": "Official Xbox Magazine UK on the 2005 shelf",
+          "coverImage": "/magazine-covers/2005/official-xbox-magazine-uk-2005.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Xbox Magazine UK, 2005.",
+          "curatorNote": "An Xbox marker for the move from Halo 2-era Live to Xbox 360 launch-night queues.",
+          "body": "An Xbox marker for the move from Halo 2-era Live to Xbox 360 launch-night queues.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official UK PlayStation 2 Magazine",
+          "publication": "Official UK PlayStation 2 Magazine",
+          "issueDate": "2005",
+          "headline": "Official UK PlayStation 2 Magazine on the 2005 shelf",
+          "coverImage": "/magazine-covers/2005/official-uk-playstation-2-magazine-2005.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official UK PlayStation 2 Magazine, 2005.",
+          "curatorNote": "A PS2 marker for God of War, Shadow of the Colossus and a machine still vital at the edge of a new generation.",
+          "body": "A PS2 marker for God of War, Shadow of the Colossus and a machine still vital at the edge of a new generation.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Forums and files",
+          "body": "Guild Wars and World of Warcraft make online RPGs visible to players who had never used the word MMO before.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Services and servers",
+          "body": "Mario Kart DS makes handheld online play feel approachable, even if router setup can be a ritual of its own.",
+          "artifact": "server browser",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Voice and identity",
+          "body": "Xbox 360 launches with a more coherent online identity, where profiles, demos and friends feel built in.",
+          "artifact": "headset note",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        },
+        {
+          "title": "Everyday connection",
+          "body": "UK players increasingly live between physical shops and online infrastructure: patches, demos, forums, preorders and account names.",
+          "artifact": "download queue",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period reporting and UK access patterns; verify with period web/magazine sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like standing between eras. Resident Evil 4 and Shadow of the Colossus suggested the old machines still had magic left, while Xbox 360 promised expensive new weather.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "The DS and PSP argument was wonderfully physical: stylus versus screen, oddness versus gloss, Nintendo toybox versus Sony gadget.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "Guitar Hero made spectators matter again, turning embarrassment into performance.",
+          "artifact": "forum memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "In the UK, December 2005 had the charge of a hardware launch without quite the certainty of a revolution; the future was there, but it came bundled, scarce and pricey.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2005 in video games",
+      "url": "https://en.wikipedia.org/wiki/2005_in_video_games",
+      "note": "Broad release and platform cross-check for 2005."
+    },
+    {
+      "label": "Nintendo DS Europe launch",
+      "url": "https://www.gamespot.com/articles/ds-gets-euro-launch-date/1100-6117258/",
+      "note": "Used for March 11, 2005 UK/European DS launch and price context."
+    },
+    {
+      "label": "PSP Europe launch",
+      "url": "https://www.gamespot.com/articles/psp-invades-europe-september-1/1100-6122965/",
+      "note": "Used for September 1, 2005 PSP Europe launch context."
+    },
+    {
+      "label": "Xbox 360 launch line-up",
+      "url": "https://news.microsoft.com/source/2005/10/04/xbox-360-launch-lineup-announced/",
+      "note": "Used for Xbox 360 North America, Europe and Japan launch dates."
+    },
+    {
+      "label": "Xbox 360 Europe launch line-up",
+      "url": "https://cespage.com/xbox/15-11-2005-europe_xbox_360_lineup.html",
+      "note": "Used for December 2, 2005 Europe/UK launch-line-up context."
+    },
+    {
+      "label": "Resident Evil 4 Nintendo UK",
+      "url": "https://www.nintendo.com/en-gb/Games/Nintendo-GameCube/Resident-Evil-4-268665.html",
+      "note": "Used for March 18, 2005 European Resident Evil 4 release context."
+    },
+    {
+      "label": "Guitar Hero reference",
+      "url": "https://en.wikipedia.org/wiki/Guitar_Hero_%28video_game%29",
+      "note": "Used for November 2005 North American Guitar Hero context; Europe follows in 2006."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Regional UK/PAL release dates should be verified carefully before moving beyond ai-draft.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}
