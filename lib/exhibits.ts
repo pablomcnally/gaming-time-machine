@@ -652,6 +652,11 @@ export type ExhibitManifest = Record<number, Partial<Record<string, Exhibit>>>;
 /*
   Future archive additions for Vercel-safe builds:
   - Keep exhibit files in data/<year>/<month>.json, using lowercase month names.
+  - Optional exhibit item images should live in public/artifacts/ and can be
+    referenced from JSON as:
+    "artifactImage": "year/month/file.jpg"
+    or
+    "artifactImages": [{ "src": "year/month/file.jpg", "alt": "...", "caption": "...", "credit": "...", "kind": "Screenshot" }]
   - Add one static import above, such as:
     import november1998 from "../data/1998/november.json";
   - Add that import to EXHIBIT_MANIFEST below:

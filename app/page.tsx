@@ -25,6 +25,15 @@ type Section = {
   items: Item[];
 };
 
+type ArtifactImageItem = {
+  id: string;
+  src: string;
+  alt: string;
+  caption?: string;
+  credit?: string;
+  kind?: string;
+};
+
 function getString(item: Item, key: string) {
   return typeof item[key] === "string" ? item[key] : undefined;
 }
@@ -33,6 +42,149 @@ function getStringList(item: Item, key: string) {
   return Array.isArray(item[key])
     ? (item[key] as unknown[]).filter((value): value is string => typeof value === "string")
     : [];
+}
+
+function normalizeArtifactImageSrc(src: string) {
+  if (src.startsWith("/artifacts/")) {
+    return src;
+  }
+
+  if (src.startsWith("artifacts/")) {
+    return `/${src}`;
+  }
+
+  if (src.startsWith("/")) {
+    return undefined;
+  }
+
+  return `/artifacts/${src}`;
+}
+
+function getArtifactImageFromValue(value: unknown, fallbackId: string, fallbackAlt: string): ArtifactImageItem | null {
+  if (typeof value === "string") {
+    const src = normalizeArtifactImageSrc(value);
+
+    return src
+      ? {
+          id: `${fallbackId}-image`,
+          src,
+          alt: fallbackAlt
+        }
+      : null;
+  }
+
+  if (!value || typeof value !== "object") {
+    return null;
+  }
+
+  const image = value as Record<string, unknown>;
+  const rawSrc =
+    typeof image.src === "string"
+      ? image.src
+      : typeof image.image === "string"
+        ? image.image
+        : typeof image.artifactImage === "string"
+          ? image.artifactImage
+          : undefined;
+
+  if (!rawSrc) {
+    return null;
+  }
+
+  const src = normalizeArtifactImageSrc(rawSrc);
+
+  if (!src) {
+    return null;
+  }
+
+  const caption = typeof image.caption === "string" ? image.caption : undefined;
+  const credit = typeof image.credit === "string" ? image.credit : undefined;
+  const kind = typeof image.kind === "string" ? image.kind : typeof image.type === "string" ? image.type : undefined;
+  const alt =
+    typeof image.alt === "string"
+      ? image.alt
+      : typeof image.artifactImageAlt === "string"
+        ? image.artifactImageAlt
+        : caption ?? fallbackAlt;
+
+  return {
+    id: typeof image.id === "string" ? image.id : `${fallbackId}-${src}`,
+    src,
+    alt,
+    caption,
+    credit,
+    kind
+  };
+}
+
+function getArtifactImages(item: Item): ArtifactImageItem[] {
+  const fallbackAlt = `${item.title} artifact image.`;
+  const images: ArtifactImageItem[] = [];
+  const multiImageValue = item.artifactImages ?? item.images;
+
+  if (Array.isArray(multiImageValue)) {
+    multiImageValue.forEach((value, index) => {
+      const image = getArtifactImageFromValue(value, `${item.title}-${index}`, fallbackAlt);
+
+      if (image) {
+        images.push(image);
+      }
+    });
+  }
+
+  const singleImageSrc =
+    getString(item, "artifactImage") ?? getString(item, "artifactImageSrc") ?? getString(item, "image") ?? getString(item, "imageSrc");
+
+  if (singleImageSrc) {
+    const image = getArtifactImageFromValue(
+      {
+        src: singleImageSrc,
+        alt: getString(item, "artifactImageAlt") ?? getString(item, "imageAlt"),
+        caption: getString(item, "artifactImageCaption") ?? getString(item, "imageCaption"),
+        credit: getString(item, "artifactImageCredit") ?? getString(item, "imageCredit"),
+        kind: getString(item, "artifactImageType") ?? getString(item, "imageType")
+      },
+      `${item.title}-primary`,
+      fallbackAlt
+    );
+
+    if (image && !images.some((existingImage) => existingImage.src === image.src)) {
+      images.push(image);
+    }
+  }
+
+  return images;
+}
+
+function ArtifactImageGallery({ images }: { images: ArtifactImageItem[] }) {
+  if (images.length === 0) {
+    return null;
+  }
+
+  return (
+    <div className={`mt-6 grid gap-4 ${images.length > 1 ? "sm:grid-cols-2" : ""}`}>
+      {images.map((image) => (
+        <figure key={image.id} className="overflow-hidden border border-black/10 bg-[#f3efe4]">
+          <div className="relative aspect-[4/3] bg-zinc-950">
+            <img src={image.src} alt={image.alt} className="h-full w-full object-cover" loading="lazy" />
+            {image.kind ? (
+              <span className="absolute left-3 top-3 bg-zinc-950/85 px-3 py-2 font-mono text-[10px] uppercase tracking-[0.18em] text-amber-100">
+                {image.kind}
+              </span>
+            ) : null}
+          </div>
+          {image.caption || image.credit ? (
+            <figcaption className="border-t border-black/10 px-4 py-3">
+              {image.caption ? <p className="text-sm leading-6 text-zinc-700">{image.caption}</p> : null}
+              {image.credit ? (
+                <p className="mt-2 font-mono text-[10px] uppercase tracking-[0.18em] text-zinc-500">{image.credit}</p>
+              ) : null}
+            </figcaption>
+          ) : null}
+        </figure>
+      ))}
+    </div>
+  );
 }
 
 function getMagazineCoverItems(section: Section, fallbackIssueDate: string): MagazineCoverItem[] {
@@ -81,6 +233,7 @@ function NewsCard({ item, index }: { item: Item; index: number }) {
       <p className="font-mono text-xs uppercase tracking-[0.22em] text-zinc-500">{getString(item, "date")}</p>
       <h3 className="mt-5 max-w-lg font-display text-3xl leading-none text-zinc-950">{item.title}</h3>
       <p className="mt-5 text-base leading-7 text-zinc-600">{item.body}</p>
+      <ArtifactImageGallery images={getArtifactImages(item)} />
       {getString(item, "artifact") ? (
         <p className="mt-8 inline-flex border border-zinc-950 px-3 py-2 font-mono text-[11px] uppercase tracking-[0.2em] text-zinc-950">
           {getString(item, "artifact")}
@@ -101,6 +254,7 @@ function ReleaseCard({ item }: { item: Item }) {
         <p className="font-mono text-xs uppercase tracking-[0.24em] text-red-700">{getString(item, "signal")}</p>
         <h3 className="mt-3 font-display text-3xl text-zinc-950">{item.title}</h3>
         <p className="mt-3 leading-7 text-zinc-600">{item.body}</p>
+        <ArtifactImageGallery images={getArtifactImages(item)} />
       </div>
     </article>
   );
@@ -112,6 +266,7 @@ function HardwareCard({ item }: { item: Item }) {
       <div className="h-2 w-24 bg-red-600" />
       <h3 className="mt-6 font-display text-3xl text-zinc-950">{item.title}</h3>
       <p className="mt-4 leading-7 text-zinc-700">{item.body}</p>
+      <ArtifactImageGallery images={getArtifactImages(item)} />
       <div className="mt-7 flex flex-wrap gap-2">
         {getStringList(item, "specs").map((spec) => (
           <span key={spec} className="border border-zinc-950 bg-[#fbf8ef] px-3 py-2 font-mono text-xs uppercase">
@@ -128,6 +283,7 @@ function PlainArtifact({ item }: { item: Item }) {
     <article className="border-l-4 border-red-700 bg-white/70 p-6">
       <h3 className="font-display text-3xl text-zinc-950">{item.title}</h3>
       <p className="mt-4 leading-7 text-zinc-600">{item.body}</p>
+      <ArtifactImageGallery images={getArtifactImages(item)} />
     </article>
   );
 }
@@ -450,6 +606,7 @@ export default async function Home({ searchParams }: { searchParams: SearchParam
                     <div>
                       <h3 className="font-display text-3xl text-zinc-950">{item.title}</h3>
                       <p className="mt-3 max-w-3xl text-lg leading-8 text-zinc-600">{item.body}</p>
+                      <ArtifactImageGallery images={getArtifactImages(item)} />
                     </div>
                   </article>
                 ))}
