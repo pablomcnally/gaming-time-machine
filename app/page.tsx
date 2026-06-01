@@ -383,12 +383,21 @@ function HomeLanding({
                 </a>
               </div>
             </div>
-            <aside className="border border-stone-100/20 bg-stone-50/10 p-6 backdrop-blur">
-              <p className="font-mono text-xs uppercase tracking-[0.28em] text-amber-200">Curator note</p>
-              <p className="mt-5 text-lg leading-8 text-stone-100">
-                Gaming Time Machine is a living archive exploring not just games and hardware, but what it felt like to be a player at different moments in history.
-              </p>
-            </aside>
+            <div className="grid gap-5 md:self-end">
+              <figure className="overflow-hidden border border-stone-100/20 bg-stone-50/10 p-2 shadow-exhibit backdrop-blur">
+                <img
+                  src="/entrance-portal.png"
+                  alt="Two players leaping into the glowing Gaming Time Machine archive entrance."
+                  className="aspect-[4/3] w-full object-cover"
+                />
+              </figure>
+              <aside className="border border-stone-100/20 bg-stone-50/10 p-6 backdrop-blur">
+                <p className="font-mono text-xs uppercase tracking-[0.28em] text-amber-200">Curator note</p>
+                <p className="mt-5 text-lg leading-8 text-stone-100">
+                  Gaming Time Machine is a living archive exploring not just games and hardware, but what it felt like to be a player at different moments in history.
+                </p>
+              </aside>
+            </div>
           </div>
         </div>
       </header>
