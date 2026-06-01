@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="960" viewBox="0 0 720 960" role="img" aria-label="Edge October 1993 reconstructed cover">
+  <rect width="720" height="960" fill="#171613"/>
+  <rect x="42" y="42" width="636" height="876" fill="#ede4d0" stroke="#b99a58" stroke-width="3"/>
+  <rect x="78" y="78" width="564" height="96" fill="#27231d"/>
+  <text x="360" y="137" text-anchor="middle" font-family="Georgia, serif" font-size="38" font-weight="700" fill="#ede4d0">Edge</text>
+  <text x="360" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" letter-spacing="3" fill="#8a6d35">OCTOBER 1993</text>
+  <line x1="120" y1="252" x2="600" y2="252" stroke="#b99a58" stroke-width="2"/>
+  <circle cx="360" cy="430" r="112" fill="none" stroke="#8a6d35" stroke-width="10"/>
+  <circle cx="360" cy="430" r="18" fill="#8a6d35"/>
+  <line x1="360" y1="430" x2="360" y2="336" stroke="#8a6d35" stroke-width="8" stroke-linecap="round"/>
+  <line x1="360" y1="430" x2="442" y2="430" stroke="#8a6d35" stroke-width="8" stroke-linecap="round"/>
+  <rect x="122" y="608" width="476" height="120" fill="#27231d"/>
+  <text x="360" y="657" text-anchor="middle" font-family="Georgia, serif" font-size="25" fill="#ede4d0">GAMING TIME MACHINE</text>
+  <text x="360" y="694" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#c9b98b">RECONSTRUCTED COVER MARKER</text>
+  <text x="360" y="792" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#27231d">Future Publishing's premium multi-format voice arrives wit</text>
+  <text x="360" y="838" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6f654f">Placeholder for curator review</text>
+</svg>

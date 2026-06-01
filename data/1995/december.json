@@ -1,0 +1,332 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "December 1995",
+    "accession": "GTM-1995-12",
+    "dek": "December closes with Warcraft II and a new retail order.",
+    "curatorNote": "Initial researched draft for December 1995. Treat precise dates as source-noted; broad market atmosphere is marked as context.",
+    "statusChips": [
+      "PlayStation",
+      "Saturn",
+      "E3",
+      "Command & Conquer"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments or context markers, with cautious wording where the month is a quiet drawer.",
+      "items": [
+        {
+          "date": "December 1995",
+          "title": "Warcraft II launches in December context.",
+          "body": "The launch is treated as a historical marker, with regional timing noted where the evidence is uneven.",
+          "artifact": "shop-window card",
+          "certainty": "contextual caveat",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "December 1995",
+          "title": "PlayStation becomes a Christmas object in Europe.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "magazine clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "December 1995",
+          "title": "Saturn fights for attention with arcade credibility.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "demo station label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "December 1995",
+          "title": "PC CD-ROM strategy remains a serious alternative to consoles.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "import shelf note",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "December 1995",
+          "title": "The year ends with the future no longer theoretical.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable games from the year, led by month-specific anchors when the evidence supports them.",
+      "items": [
+        {
+          "date": "December 1995",
+          "title": "Warcraft II: Tides of Darkness",
+          "platform": "DOS",
+          "body": "Blizzard's RTS sequel sharpens the PC strategy war.",
+          "signal": "RTS sequel",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "December 1995 release is widely cited."
+        },
+        {
+          "date": "March 11, 1995",
+          "title": "Chrono Trigger",
+          "platform": "Super Famicom",
+          "body": "Square's dream-team RPG becomes one of the late 16-bit era's defining objects.",
+          "signal": "RPG landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese release date is widely cited."
+        },
+        {
+          "date": "March 1995",
+          "title": "Descent",
+          "platform": "DOS",
+          "body": "Parallax's six-degrees shooter makes PC movement feel newly disorienting.",
+          "signal": "six-degree shooter",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "1995 release is secure; exact month varies by source."
+        },
+        {
+          "date": "April 1995",
+          "title": "Full Throttle",
+          "platform": "DOS / Mac",
+          "body": "LucasArts turns biker pulp into a compact, cinematic adventure.",
+          "signal": "graphic adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "April 1995 release is commonly cited."
+        },
+        {
+          "date": "August 1995",
+          "title": "Super Mario World 2: Yoshi's Island",
+          "platform": "Super Famicom",
+          "body": "Nintendo gives the SNES a hand-drawn late-era flourish.",
+          "signal": "SNES showcase",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese August 1995 release is widely cited."
+        },
+        {
+          "date": "September 26, 1995",
+          "title": "Command & Conquer",
+          "platform": "DOS",
+          "body": "Westwood gives RTS a louder, more cinematic command structure.",
+          "signal": "RTS landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "September 1995 release is widely cited."
+        },
+        {
+          "date": "September 29, 1995",
+          "title": "Wipeout",
+          "platform": "PlayStation",
+          "body": "Psygnosis ties PlayStation racing to UK club culture and design.",
+          "signal": "PlayStation launch aura",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "European launch-title context is widely cited."
+        },
+        {
+          "date": "November 1995",
+          "title": "Donkey Kong Country 2: Diddy's Kong Quest",
+          "platform": "Super NES",
+          "body": "Rare keeps the SNES visually alive in the PlayStation year.",
+          "signal": "late SNES showcase",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "November 1995 release context is widely cited."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Machines, formats and buying context around the exhibit month.",
+      "items": [
+        {
+          "title": "Sega Saturn reaches Europe",
+          "body": "Sega's 32-bit machine arrives first, but with a complicated price, timing and software story.",
+          "tags": [
+            "Hardware"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "European Saturn launch is commonly cited as July 1995."
+        },
+        {
+          "title": "PlayStation reaches Europe",
+          "body": "Sony enters UK high streets with a clearer brand, CD cases and launch games that feel club-adjacent.",
+          "tags": [
+            "Retail"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "Computing History cites September 29, 1995 for Europe."
+        },
+        {
+          "title": "Virtual Boy is shown at E3",
+          "body": "Nintendo's red tabletop experiment becomes a warning sign that not every future is comfortable.",
+          "tags": [
+            "UK context"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "E3 1995 source context."
+        },
+        {
+          "title": "Pentium PCs and CD-ROM drives become desirable",
+          "body": "Command & Conquer, Descent and multimedia titles make PC upgrades feel less optional.",
+          "tags": [
+            "Future-facing"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "1995 PC context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for the magazine culture surrounding the year.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "1995",
+          "headline": "Edge on the 1995 shelf",
+          "coverImage": "/magazine-covers/1995/edge-1995.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 1995.",
+          "curatorNote": "The 32-bit transition gets the glossy, serious treatment.",
+          "body": "The 32-bit transition gets the glossy, serious treatment.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official PlayStation Magazine",
+          "publication": "Official PlayStation Magazine",
+          "issueDate": "1995 launch-era context",
+          "headline": "Official PlayStation Magazine on the 1995 shelf",
+          "coverImage": "/magazine-covers/1995/official-playstation-magazine-context.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official PlayStation Magazine, 1995 launch-era context.",
+          "curatorNote": "A PlayStation shelf marker; issue chronology should be checked against scans before final publication.",
+          "body": "A PlayStation shelf marker; issue chronology should be checked against scans before final publication.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Sega Saturn Magazine",
+          "publication": "Sega Saturn Magazine",
+          "issueDate": "1995 launch-era context",
+          "headline": "Sega Saturn Magazine on the 1995 shelf",
+          "coverImage": "/magazine-covers/1995/sega-saturn-magazine-context.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Sega Saturn Magazine, 1995 launch-era context.",
+          "curatorNote": "A Sega 32-bit shelf marker; replace with verified issue art later.",
+          "body": "A Sega 32-bit shelf marker; replace with verified issue art later.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "1995",
+          "headline": "PC Gamer UK on the 1995 shelf",
+          "coverImage": "/magazine-covers/1995/pc-gamer-uk-1995.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 1995.",
+          "curatorNote": "The PC shelf is heavy with RTS, CD-ROM, Pentium talk and big boxes.",
+          "body": "The PC shelf is heavy with RTS, CD-ROM, Pentium talk and big boxes.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How players found information before search, streams and social feeds.",
+      "items": [
+        {
+          "title": "The web starts appearing in magazine margins",
+          "body": "URLs begin to feel like little doorways, though most players still rely on print."
+        },
+        {
+          "title": "RTS players talk tactics by modem and LAN",
+          "body": "Command & Conquer helps make multiplayer strategy part of PC social life."
+        },
+        {
+          "title": "Demo culture remains physical",
+          "body": "PlayStation demo discs and PC cover discs are still the main way many UK players sample the future."
+        },
+        {
+          "title": "Early fan pages feel handmade",
+          "body": "The games web is present but scattered, closer to a noticeboard than a polished archive."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading of the month from the player side of history.",
+      "items": [
+        {
+          "title": "The future came in a jewel case",
+          "body": "PlayStation made games feel closer to music, club culture and electronics retail than toy shelves."
+        },
+        {
+          "title": "Sega arrived first but noisier",
+          "body": "Saturn had arcade credibility, but the story around it was harder for ordinary buyers to parse."
+        },
+        {
+          "title": "PC strategy had a new command voice",
+          "body": "Command & Conquer turned base-building into a language of barks, clicks and green video briefings."
+        },
+        {
+          "title": "Christmas felt expensive",
+          "body": "A new console, a CD-ROM drive or one more SNES cartridge could all plausibly be the right answer."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "E3 1995",
+      "url": "https://en.wikipedia.org/wiki/E3_1995",
+      "note": "Used for May 11-13, 1995 first E3, Sega Saturn surprise launch, Sony pricing and Nintendo Virtual Boy showcase."
+    },
+    {
+      "label": "Sony launches PlayStation in Europe",
+      "url": "https://www.computinghistory.org.uk/det/57273/Sony-launches-PlayStation-in-Europe/",
+      "note": "Used for September 29, 1995 European PlayStation launch and UK launch software context."
+    },
+    {
+      "label": "Command & Conquer",
+      "url": "https://en.wikipedia.org/wiki/Command_%26_Conquer_(1995_video_game)",
+      "note": "Used for 1995 Westwood real-time strategy context."
+    },
+    {
+      "label": "Wipeout",
+      "url": "https://en.wikipedia.org/wiki/Wipeout_(video_game)",
+      "note": "Used for 1995 PlayStation launch and UK/Psygnosis context."
+    },
+    {
+      "label": "Sega Saturn",
+      "url": "https://en.wikipedia.org/wiki/Sega_Saturn",
+      "note": "Used for 1995 Western Saturn context."
+    },
+    {
+      "label": "E3 1995 featured games",
+      "url": "https://en.wikipedia.org/wiki/E3_1995",
+      "note": "Used for E3 software line-up and trade-show context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "Initial AI-generated research draft for December 1995.",
+    "Month-specific dates are used only where the reviewed sources support them; broader context is marked in certainty and sourceNote fields.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

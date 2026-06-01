@@ -1,0 +1,332 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "March 1992",
+    "accession": "GTM-1992-03",
+    "dek": "March updates the fighting-game cabinet.",
+    "curatorNote": "Initial researched draft for March 1992. Treat precise dates as source-noted; broad market atmosphere is marked as context.",
+    "statusChips": [
+      "Wolfenstein 3D",
+      "Mortal Kombat",
+      "Sonic 2",
+      "SNES Europe"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments or context markers, with cautious wording where the month is a quiet drawer.",
+      "items": [
+        {
+          "date": "March 1992",
+          "title": "Street Fighter II: Champion Edition reaches arcades.",
+          "body": "The launch is treated as a historical marker, with regional timing noted where the evidence is uneven.",
+          "artifact": "shop-window card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "March 1992",
+          "title": "Playable bosses and balance changes feed repeat arcade visits.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "magazine clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "March 1992",
+          "title": "The home-console question becomes more urgent.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "demo station label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "March 1992",
+          "title": "UK players follow the arcade story through coin-op pages.",
+          "body": "From a UK perspective, this mattered through retail timing, import pages, playground talk and the monthly magazine cycle.",
+          "artifact": "import shelf note",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "March 1992",
+          "title": "Fighting games become a genre with versions, not just sequels.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable games from the year, led by month-specific anchors when the evidence supports them.",
+      "items": [
+        {
+          "date": "March 1992",
+          "title": "Street Fighter II: Champion Edition",
+          "platform": "Arcade",
+          "body": "Capcom updates the cabinet everyone is already crowding around.",
+          "signal": "fighting-game update",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "March 1992 arcade release is commonly cited."
+        },
+        {
+          "date": "April 1992",
+          "title": "Kirby's Dream Land",
+          "platform": "Game Boy",
+          "body": "HAL's soft, readable handheld platformer introduces Kirby.",
+          "signal": "handheld platformer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "April 1992 Japanese release is commonly cited."
+        },
+        {
+          "date": "May 5, 1992",
+          "title": "Wolfenstein 3D",
+          "platform": "DOS",
+          "body": "id Software makes the PC corridor fast, violent and shareable.",
+          "signal": "shareware FPS",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "May 5, 1992 release date is widely cited."
+        },
+        {
+          "date": "August 27, 1992",
+          "title": "Super Mario Kart",
+          "platform": "Super Famicom",
+          "body": "Nintendo turns Mode 7 racing into a living-room multiplayer ritual.",
+          "signal": "kart-racing origin",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese release date is widely cited."
+        },
+        {
+          "date": "October 1992",
+          "title": "Mortal Kombat",
+          "platform": "Arcade",
+          "body": "Midway's digitised fighters add gore, secrets and controversy to the arcade.",
+          "signal": "fighting-game controversy",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "October 1992 arcade timing is commonly cited."
+        },
+        {
+          "date": "October 21, 1992",
+          "title": "Super Mario Land 2: 6 Golden Coins",
+          "platform": "Game Boy",
+          "body": "Mario's handheld world grows stranger and introduces Wario.",
+          "signal": "handheld platformer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "October 1992 Japanese date is commonly cited."
+        },
+        {
+          "date": "November 1992",
+          "title": "Sonic the Hedgehog 2",
+          "platform": "Mega Drive / Genesis",
+          "body": "Sega turns a sequel into a global retail event.",
+          "signal": "Sonic sequel",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "November 1992 release context is secure; exact regional date varies."
+        },
+        {
+          "date": "December 1992",
+          "title": "Dune II",
+          "platform": "DOS",
+          "body": "Westwood codifies much of the real-time strategy grammar.",
+          "signal": "RTS template",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "December 1992 DOS release is commonly cited."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Machines, formats and buying context around the exhibit month.",
+      "items": [
+        {
+          "title": "SNES arrives in Europe",
+          "body": "Nintendo's 16-bit machine finally becomes a European retail reality, with price and cartridge costs part of the conversation.",
+          "tags": [
+            "Hardware"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "1992 European launch is secure; exact local dates varied by market."
+        },
+        {
+          "title": "Mega Drive has momentum in Britain",
+          "body": "Sonic 2 and aggressive Sega marketing make the Mega Drive feel like the sharper teenage choice.",
+          "tags": [
+            "Retail"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "Sonic 2 and UK retail context."
+        },
+        {
+          "title": "PC sound cards and hard drives matter more",
+          "body": "Wolfenstein 3D makes the family PC feel more like a game machine if it has the right parts.",
+          "tags": [
+            "UK context"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "PC hardware context."
+        },
+        {
+          "title": "CD-ROM remains aspirational",
+          "body": "Mega-CD previews and PC multimedia talk suggest a future that is not yet ordinary in most bedrooms.",
+          "tags": [
+            "Future-facing"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "Early 1990s CD-ROM context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for the magazine culture surrounding the year.",
+      "items": [
+        {
+          "title": "Mean Machines Sega",
+          "publication": "Mean Machines Sega",
+          "issueDate": "October 1992",
+          "headline": "Mean Machines Sega on the 1992 shelf",
+          "coverImage": "/magazine-covers/1992/mean-machines-sega-issue-1.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Mean Machines Sega, October 1992.",
+          "curatorNote": "The UK console press splits into more dedicated Sega and Nintendo tribes.",
+          "body": "The UK console press splits into more dedicated Sega and Nintendo tribes.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Nintendo Magazine System",
+          "publication": "Nintendo Magazine System",
+          "issueDate": "1992",
+          "headline": "Nintendo Magazine System on the 1992 shelf",
+          "coverImage": "/magazine-covers/1992/nintendo-magazine-system-1992.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Nintendo Magazine System, 1992.",
+          "curatorNote": "A sign of Nintendo-specific magazine culture around SNES and Game Boy.",
+          "body": "A sign of Nintendo-specific magazine culture around SNES and Game Boy.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Sega Force",
+          "publication": "Sega Force",
+          "issueDate": "1992",
+          "headline": "Sega Force on the 1992 shelf",
+          "coverImage": "/magazine-covers/1992/sega-force-1992.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Sega Force, 1992.",
+          "curatorNote": "Sega-only coverage expands as Mega Drive ownership grows in Britain.",
+          "body": "Sega-only coverage expands as Mega Drive ownership grows in Britain.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Mega",
+          "publication": "Mega",
+          "issueDate": "1992",
+          "headline": "Mega on the 1992 shelf",
+          "coverImage": "/magazine-covers/1992/mega-issue-1.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Mega, 1992.",
+          "curatorNote": "Mega Drive culture becomes confident enough for another dedicated UK shelf voice.",
+          "body": "Mega Drive culture becomes confident enough for another dedicated UK shelf voice.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How players found information before search, streams and social feeds.",
+      "items": [
+        {
+          "title": "Shareware spreads by disk and dial-up",
+          "body": "Wolfenstein 3D demonstrates how a PC game can circulate before a boxed copy is bought."
+        },
+        {
+          "title": "Magazine coverdisks gain importance",
+          "body": "For UK players, a disk taped to a magazine can be the cheapest route to the future."
+        },
+        {
+          "title": "Cheat culture gets louder",
+          "body": "Mortal Kombat moves secrets, fatalities and rumours into playground performance."
+        },
+        {
+          "title": "Forums are not yet everyday",
+          "body": "Most players still meet the wider game world through print, shops and local friends, not a browser."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading of the month from the player side of history.",
+      "items": [
+        {
+          "title": "Arcades felt dangerous again",
+          "body": "Mortal Kombat made cabinets feel like forbidden theatre."
+        },
+        {
+          "title": "PC corridors changed perspective",
+          "body": "Wolfenstein 3D made a monitor feel like it had depth and threat."
+        },
+        {
+          "title": "Sonic became appointment retail",
+          "body": "Sonic 2 turned a sequel into an event rather than just another cartridge."
+        },
+        {
+          "title": "The SNES felt expensive and beautiful",
+          "body": "Mode 7, Mario and Nintendo polish carried a premium aura on UK shelves."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wolfenstein 3D",
+      "url": "https://en.wikipedia.org/wiki/Wolfenstein_3D",
+      "note": "Used for May 1992 PC shareware/FPS context."
+    },
+    {
+      "label": "Mortal Kombat",
+      "url": "https://en.wikipedia.org/wiki/Mortal_Kombat_(1992_video_game)",
+      "note": "Used for 1992 arcade release and violence-rating context."
+    },
+    {
+      "label": "Super Mario Kart",
+      "url": "https://en.wikipedia.org/wiki/Super_Mario_Kart",
+      "note": "Used for August 1992 Japanese release and kart-racing context."
+    },
+    {
+      "label": "Sonic the Hedgehog 2",
+      "url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2",
+      "note": "Used for November 1992 Sonic 2 launch context."
+    },
+    {
+      "label": "Dune II",
+      "url": "https://en.wikipedia.org/wiki/Dune_II",
+      "note": "Used for December 1992 real-time strategy template context."
+    },
+    {
+      "label": "Mean Machines Sega",
+      "url": "https://segaretro.org/Mean_Machines_Sega",
+      "note": "Used for UK console-magazine context around 1992."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "Initial AI-generated research draft for March 1992.",
+    "Month-specific dates are used only where the reviewed sources support them; broader context is marked in certainty and sourceNote fields.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

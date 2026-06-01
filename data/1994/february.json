@@ -1,0 +1,327 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "February 1994",
+    "accession": "GTM-1994-02",
+    "dek": "February gives Sega another mascot sequel.",
+    "curatorNote": "Initial researched draft for February 1994. Treat precise dates as source-noted; broad market atmosphere is marked as context.",
+    "statusChips": [
+      "Saturn",
+      "PlayStation",
+      "Donkey Kong Country",
+      "Doom II"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments or context markers, with cautious wording where the month is a quiet drawer.",
+      "items": [
+        {
+          "date": "February 1994",
+          "title": "Sonic the Hedgehog 3 launches in February context.",
+          "body": "The launch is treated as a historical marker, with regional timing noted where the evidence is uneven.",
+          "artifact": "shop-window card",
+          "certainty": "contextual caveat",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "February 1994",
+          "title": "Mega Drive still has major first-party energy.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "magazine clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "February 1994",
+          "title": "SNES owners look toward Super Metroid and DKC.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "demo station label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "February 1994",
+          "title": "UK console loyalty remains intense.",
+          "body": "From a UK perspective, this mattered through retail timing, import pages, playground talk and the monthly magazine cycle.",
+          "artifact": "import shelf note",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "February 1994",
+          "title": "The 16-bit generation is not fading quietly.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable games from the year, led by month-specific anchors when the evidence supports them.",
+      "items": [
+        {
+          "date": "February 1994",
+          "title": "Sonic the Hedgehog 3",
+          "platform": "Mega Drive / Genesis",
+          "body": "Sega's mascot returns with richer zones and a locked-on future ahead.",
+          "signal": "Sonic sequel",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "February 1994 release context is widely cited."
+        },
+        {
+          "date": "March/April 1994",
+          "title": "Super Metroid",
+          "platform": "Super NES",
+          "body": "Nintendo builds a dense, lonely action map that feels designed for memory.",
+          "signal": "SNES landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese March and North American April timing is commonly cited."
+        },
+        {
+          "date": "April 2, 1994",
+          "title": "Final Fantasy VI",
+          "platform": "Super Famicom",
+          "body": "Square delivers a sweeping late-16-bit RPG ensemble.",
+          "signal": "RPG landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese release date is widely cited."
+        },
+        {
+          "date": "September 1994",
+          "title": "Doom II",
+          "platform": "DOS",
+          "body": "id's sequel turns Doom into a boxed retail event as well as a PC obsession.",
+          "signal": "PC FPS sequel",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "September 1994 release is widely cited."
+        },
+        {
+          "date": "October 1994",
+          "title": "Sonic & Knuckles",
+          "platform": "Mega Drive / Genesis",
+          "body": "Sega's lock-on cartridge turns hardware packaging into part of the trick.",
+          "signal": "lock-on cartridge",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "October 1994 release context is widely cited."
+        },
+        {
+          "date": "November 1994",
+          "title": "Donkey Kong Country",
+          "platform": "Super NES",
+          "body": "Rare and Nintendo make pre-rendered graphics into a Christmas retail weapon.",
+          "signal": "SNES showcase",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "November 1994 release is widely cited."
+        },
+        {
+          "date": "November 1994",
+          "title": "Warcraft: Orcs & Humans",
+          "platform": "DOS",
+          "body": "Blizzard begins a fantasy RTS language of workers, barracks and fog of war.",
+          "signal": "RTS foundation",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "November 1994 release is commonly cited."
+        },
+        {
+          "date": "December 3, 1994",
+          "title": "Ridge Racer",
+          "platform": "PlayStation",
+          "body": "Namco brings arcade-style 3D racing to Sony's Japanese launch moment.",
+          "signal": "PlayStation launch racer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese PlayStation launch context."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Machines, formats and buying context around the exhibit month.",
+      "items": [
+        {
+          "title": "Sega Saturn launches in Japan",
+          "body": "Sega enters the 32-bit generation with Virtua Fighter as its prestige argument.",
+          "tags": [
+            "Hardware"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "November 22, 1994 Japanese launch is widely cited."
+        },
+        {
+          "title": "PlayStation launches in Japan",
+          "body": "Sony moves from electronics giant to console platform holder.",
+          "tags": [
+            "Retail"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "December 3, 1994 Japanese launch is widely cited."
+        },
+        {
+          "title": "32X complicates Sega's message",
+          "body": "The add-on promises an upgrade path just as Saturn is arriving elsewhere.",
+          "tags": [
+            "UK context"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "Late 1994/early 1995 regional context."
+        },
+        {
+          "title": "SNES still has visual theatre left",
+          "body": "Donkey Kong Country proves the old cartridge machine can still surprise the shop window.",
+          "tags": [
+            "Future-facing"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "November 1994 release and UK sales context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for the magazine culture surrounding the year.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "1994",
+          "headline": "Edge on the 1994 shelf",
+          "coverImage": "/magazine-covers/1994/edge-1994.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 1994.",
+          "curatorNote": "The magazine shelf starts treating the next generation as an industry story, not just a preview box.",
+          "body": "The magazine shelf starts treating the next generation as an industry story, not just a preview box.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "1994",
+          "headline": "PC Gamer UK on the 1994 shelf",
+          "coverImage": "/magazine-covers/1994/pc-gamer-uk-1994.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 1994.",
+          "curatorNote": "Big-box PC games, sound cards and strategy titles become their own culture.",
+          "body": "Big-box PC games, sound cards and strategy titles become their own culture.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "GamesMaster",
+          "publication": "GamesMaster",
+          "issueDate": "1994",
+          "headline": "GamesMaster on the 1994 shelf",
+          "coverImage": "/magazine-covers/1994/gamesmaster-1994.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for GamesMaster, 1994.",
+          "curatorNote": "A mainstream UK games magazine where cheats, TV personality and console rivalry sit together.",
+          "body": "A mainstream UK games magazine where cheats, TV personality and console rivalry sit together.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Sega Magazine",
+          "publication": "Sega Magazine",
+          "issueDate": "1994",
+          "headline": "Sega Magazine on the 1994 shelf",
+          "coverImage": "/magazine-covers/1994/sega-magazine-1994.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Sega Magazine, 1994.",
+          "curatorNote": "Official Sega coverage tries to explain Mega Drive, Mega-CD, 32X and Saturn all at once.",
+          "body": "Official Sega coverage tries to explain Mega Drive, Mega-CD, 32X and Saturn all at once.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How players found information before search, streams and social feeds.",
+      "items": [
+        {
+          "title": "Doom II keeps PC networks busy",
+          "body": "The sequel gives shareware-era players another reason to connect machines and trade WAD talk."
+        },
+        {
+          "title": "Usenet and FTP feel like back rooms",
+          "body": "The public web exists, but most game knowledge is still gathered through rougher online spaces."
+        },
+        {
+          "title": "Patch culture becomes normal on PC",
+          "body": "Big PC games make updates, drivers and troubleshooting feel like part of ownership."
+        },
+        {
+          "title": "Magazine discs bridge offline and online",
+          "body": "A UK coverdisc can still do what a download would later do instantly."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading of the month from the player side of history.",
+      "items": [
+        {
+          "title": "The next generation was visible but remote",
+          "body": "Saturn and PlayStation existed in Japan first, glowing through import news and magazine previews."
+        },
+        {
+          "title": "Cartridges fought back",
+          "body": "Donkey Kong Country made the SNES look impossible for a moment."
+        },
+        {
+          "title": "PC games felt bigger and fussier",
+          "body": "Warcraft, X-COM and Doom II rewarded patience, manuals and hardware confidence."
+        },
+        {
+          "title": "Buying felt like choosing a future",
+          "body": "32X, Mega-CD, Saturn, PlayStation and old consoles made every shop-window decision feel risky."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "1994 in video games",
+      "url": "https://en.wikipedia.org/wiki/1994_in_video_games",
+      "note": "Used as a cross-check for major games and hardware launches."
+    },
+    {
+      "label": "Sega Saturn",
+      "url": "https://en.wikipedia.org/wiki/Sega_Saturn",
+      "note": "Used for November 22, 1994 Japanese Saturn launch and 32X context."
+    },
+    {
+      "label": "PlayStation",
+      "url": "https://en.wikipedia.org/wiki/PlayStation_(console)",
+      "note": "Used for December 3, 1994 Japanese PlayStation launch context."
+    },
+    {
+      "label": "Donkey Kong Country",
+      "url": "https://en.wikipedia.org/wiki/Donkey_Kong_Country",
+      "note": "Used for November 1994 SNES release and UK sales context."
+    },
+    {
+      "label": "Warcraft: Orcs & Humans",
+      "url": "https://en.wikipedia.org/wiki/Warcraft:_Orcs_%26_Humans",
+      "note": "Used for November 1994 PC real-time strategy context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "Initial AI-generated research draft for February 1994.",
+    "Month-specific dates are used only where the reviewed sources support them; broader context is marked in certainty and sourceNote fields.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "January 1993",
+    "accession": "GTM-1993-01",
+    "dek": "January opens a year that will make PC games feel different.",
+    "curatorNote": "Initial researched draft for January 1993. Treat precise dates as source-noted; broad market atmosphere is marked as context.",
+    "statusChips": [
+      "Doom",
+      "Myst",
+      "Edge",
+      "CD-ROM"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments or context markers, with cautious wording where the month is a quiet drawer.",
+      "items": [
+        {
+          "date": "January 1993",
+          "title": "CD-ROM talk grows louder.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "shop-window card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "January 1993",
+          "title": "Mega-CD Europe is close in the console press.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "magazine clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "January 1993",
+          "title": "Doom is not out yet, but shareware distribution is ready for it.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "demo station label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "January 1993",
+          "title": "SNES and Mega Drive remain the UK mainstream.",
+          "body": "From a UK perspective, this mattered through retail timing, import pages, playground talk and the monthly magazine cycle.",
+          "artifact": "import shelf note",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "January 1993",
+          "title": "This month is contextual rather than date-heavy.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "context plaque",
+          "certainty": "contextual caveat",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable games from the year, led by month-specific anchors when the evidence supports them.",
+      "items": [
+        {
+          "date": "February 1993",
+          "title": "Star Wars: X-Wing",
+          "platform": "DOS",
+          "body": "LucasArts gives PC players cockpit drama and mission structure.",
+          "signal": "PC space combat",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "February 1993 release is commonly cited."
+        },
+        {
+          "date": "February/March 1993",
+          "title": "Star Fox / Starwing",
+          "platform": "Super NES",
+          "body": "Nintendo and Argonaut put polygon spectacle inside a cartridge.",
+          "signal": "Super FX showcase",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese/North American dates are early 1993; PAL title is Starwing."
+        },
+        {
+          "date": "June 1993",
+          "title": "Day of the Tentacle",
+          "platform": "DOS / Mac",
+          "body": "LucasArts makes cartoon adventure timing feel effortless.",
+          "signal": "graphic adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "June 1993 release is commonly cited."
+        },
+        {
+          "date": "August/October 1993",
+          "title": "Secret of Mana",
+          "platform": "Super Famicom / SNES",
+          "body": "Square's action RPG becomes a multiplayer memory for many SNES owners.",
+          "signal": "action RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese and North American dates are 1993; exact PAL context differs."
+        },
+        {
+          "date": "September 24, 1993",
+          "title": "Myst",
+          "platform": "Macintosh",
+          "body": "Cyan turns CD-ROM into a quiet island of images, puzzles and atmosphere.",
+          "signal": "CD-ROM landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Myst source cites September 24, 1993."
+        },
+        {
+          "date": "October 1993",
+          "title": "FIFA International Soccer",
+          "platform": "Mega Drive / Genesis",
+          "body": "EA begins a football series that will become part of annual sports culture.",
+          "signal": "football series origin",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "1993 release is secure; exact regional timing should be checked."
+        },
+        {
+          "date": "December 10, 1993",
+          "title": "Doom",
+          "platform": "DOS",
+          "body": "id Software releases the shareware episode that turns the PC into a social shockwave.",
+          "signal": "FPS landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "December 10, 1993 is widely cited."
+        },
+        {
+          "date": "1993",
+          "title": "Virtua Fighter",
+          "platform": "Arcade",
+          "body": "Sega's polygon fighters make 3D bodies feel like the next arcade language.",
+          "signal": "3D fighting",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "1993 arcade release is secure; exact month depends on source."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Machines, formats and buying context around the exhibit month.",
+      "items": [
+        {
+          "title": "Mega-CD reaches Europe",
+          "body": "Sega's CD add-on brings FMV, music and big promises into UK console magazines.",
+          "tags": [
+            "Hardware"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "European Mega-CD release is cited in 1993 summaries; exact local retail timing should be checked."
+        },
+        {
+          "title": "3DO launches in North America",
+          "body": "The first expensive 32-bit living-room object makes the future look glossy but financially distant.",
+          "tags": [
+            "Retail"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "October 1993 North American launch context."
+        },
+        {
+          "title": "Atari Jaguar appears in the US",
+          "body": "Atari's 64-bit claim adds another number to a market already drowning in hardware promises.",
+          "tags": [
+            "UK context"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "November 1993 US launch context."
+        },
+        {
+          "title": "PC CD-ROM begins to feel inevitable",
+          "body": "Myst turns the CD drive into a cultural symbol rather than a luxury footnote.",
+          "tags": [
+            "Future-facing"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "Myst and multimedia PC context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for the magazine culture surrounding the year.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "October 1993",
+          "headline": "Edge on the 1993 shelf",
+          "coverImage": "/magazine-covers/1993/edge-issue-1.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, October 1993.",
+          "curatorNote": "Future Publishing's premium multi-format voice arrives with a cooler, more adult register.",
+          "body": "Future Publishing's premium multi-format voice arrives with a cooler, more adult register.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "1993",
+          "headline": "PC Gamer UK on the 1993 shelf",
+          "coverImage": "/magazine-covers/1993/pc-gamer-uk-issue-1.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 1993.",
+          "curatorNote": "PC gaming gets a dedicated UK magazine identity as CD-ROM and sound cards matter more.",
+          "body": "PC gaming gets a dedicated UK magazine identity as CD-ROM and sound cards matter more.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "GamesMaster",
+          "publication": "GamesMaster",
+          "issueDate": "1993",
+          "headline": "GamesMaster on the 1993 shelf",
+          "coverImage": "/magazine-covers/1993/gamesmaster-1993.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for GamesMaster, 1993.",
+          "curatorNote": "Television and magazine culture bring tips, cheats and challenge-room drama together.",
+          "body": "Television and magazine culture bring tips, cheats and challenge-room drama together.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Mean Machines Sega",
+          "publication": "Mean Machines Sega",
+          "issueDate": "1993",
+          "headline": "Mean Machines Sega on the 1993 shelf",
+          "coverImage": "/magazine-covers/1993/mean-machines-sega-1993.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Mean Machines Sega, 1993.",
+          "curatorNote": "The Sega shelf remains loud, confident and deeply Mega Drive-shaped.",
+          "body": "The Sega shelf remains loud, confident and deeply Mega Drive-shaped.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How players found information before search, streams and social feeds.",
+      "items": [
+        {
+          "title": "Doom travels through shareware channels",
+          "body": "The first episode spreads by upload, copied disk and office/school whisper network."
+        },
+        {
+          "title": "LAN play becomes a myth people can touch",
+          "body": "Doom's multiplayer gives local networks a new social purpose."
+        },
+        {
+          "title": "The web is not yet the main games shelf",
+          "body": "Online discovery is still FTP, BBS, Usenet and magazine addresses rather than search."
+        },
+        {
+          "title": "PC players start swapping config lore",
+          "body": "Sound cards, memory managers and drivers become part of the ritual around playing."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading of the month from the player side of history.",
+      "items": [
+        {
+          "title": "A corridor could be a revolution",
+          "body": "Doom made movement, sound and violence feel immediate in a way screenshots could barely explain."
+        },
+        {
+          "title": "CD-ROM looked adult",
+          "body": "Myst's quiet images made games look like gallery objects as much as toys."
+        },
+        {
+          "title": "The future was fragmented",
+          "body": "Mega-CD, 3DO, Jaguar and PC upgrades all claimed tomorrow, but none made choosing easy."
+        },
+        {
+          "title": "UK print got more serious",
+          "body": "Edge made games feel like an industry, an art form and a consumer obsession at once."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Doom",
+      "url": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)",
+      "note": "Used for December 10, 1993 shareware release context."
+    },
+    {
+      "label": "Myst",
+      "url": "https://en.wikipedia.org/wiki/Myst",
+      "note": "Used for September 24, 1993 Macintosh/CD-ROM context."
+    },
+    {
+      "label": "Edge magazine",
+      "url": "https://en.wikipedia.org/wiki/Edge_(magazine)",
+      "note": "Used for October 1993 UK magazine launch context."
+    },
+    {
+      "label": "FIFA International Soccer",
+      "url": "https://en.wikipedia.org/wiki/FIFA_International_Soccer",
+      "note": "Used for 1993 EA Sports football series origin context."
+    },
+    {
+      "label": "1993 in video games",
+      "url": "https://en.wikipedia.org/wiki/1993_in_video_games",
+      "note": "Used as a cross-check for major releases and hardware context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "Initial AI-generated research draft for January 1993.",
+    "Month-specific dates are used only where the reviewed sources support them; broader context is marked in certainty and sourceNote fields.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

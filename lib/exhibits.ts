@@ -190,6 +190,66 @@ import september1990 from "../data/1990/september.json";
 import october1990 from "../data/1990/october.json";
 import november1990 from "../data/1990/november.json";
 import december1990 from "../data/1990/december.json";
+import january1991 from "../data/1991/january.json";
+import february1991 from "../data/1991/february.json";
+import march1991 from "../data/1991/march.json";
+import april1991 from "../data/1991/april.json";
+import may1991 from "../data/1991/may.json";
+import june1991 from "../data/1991/june.json";
+import july1991 from "../data/1991/july.json";
+import august1991 from "../data/1991/august.json";
+import september1991 from "../data/1991/september.json";
+import october1991 from "../data/1991/october.json";
+import november1991 from "../data/1991/november.json";
+import december1991 from "../data/1991/december.json";
+import january1992 from "../data/1992/january.json";
+import february1992 from "../data/1992/february.json";
+import march1992 from "../data/1992/march.json";
+import april1992 from "../data/1992/april.json";
+import may1992 from "../data/1992/may.json";
+import june1992 from "../data/1992/june.json";
+import july1992 from "../data/1992/july.json";
+import august1992 from "../data/1992/august.json";
+import september1992 from "../data/1992/september.json";
+import october1992 from "../data/1992/october.json";
+import november1992 from "../data/1992/november.json";
+import december1992 from "../data/1992/december.json";
+import january1993 from "../data/1993/january.json";
+import february1993 from "../data/1993/february.json";
+import march1993 from "../data/1993/march.json";
+import april1993 from "../data/1993/april.json";
+import may1993 from "../data/1993/may.json";
+import june1993 from "../data/1993/june.json";
+import july1993 from "../data/1993/july.json";
+import august1993 from "../data/1993/august.json";
+import september1993 from "../data/1993/september.json";
+import october1993 from "../data/1993/october.json";
+import november1993 from "../data/1993/november.json";
+import december1993 from "../data/1993/december.json";
+import january1994 from "../data/1994/january.json";
+import february1994 from "../data/1994/february.json";
+import march1994 from "../data/1994/march.json";
+import april1994 from "../data/1994/april.json";
+import may1994 from "../data/1994/may.json";
+import june1994 from "../data/1994/june.json";
+import july1994 from "../data/1994/july.json";
+import august1994 from "../data/1994/august.json";
+import september1994 from "../data/1994/september.json";
+import october1994 from "../data/1994/october.json";
+import november1994 from "../data/1994/november.json";
+import december1994 from "../data/1994/december.json";
+import january1995 from "../data/1995/january.json";
+import february1995 from "../data/1995/february.json";
+import march1995 from "../data/1995/march.json";
+import april1995 from "../data/1995/april.json";
+import may1995 from "../data/1995/may.json";
+import june1995 from "../data/1995/june.json";
+import july1995 from "../data/1995/july.json";
+import august1995 from "../data/1995/august.json";
+import september1995 from "../data/1995/september.json";
+import october1995 from "../data/1995/october.json";
+import november1995 from "../data/1995/november.json";
+import december1995 from "../data/1995/december.json";
 import january1997 from "../data/1997/january.json";
 import february1997 from "../data/1997/february.json";
 import march1997 from "../data/1997/march.json";
@@ -471,6 +531,76 @@ export const EXHIBIT_MANIFEST = {
     october: october1990,
     november: november1990,
     december: december1990
+  },
+  1991: {
+    january: january1991,
+    february: february1991,
+    march: march1991,
+    april: april1991,
+    may: may1991,
+    june: june1991,
+    july: july1991,
+    august: august1991,
+    september: september1991,
+    october: october1991,
+    november: november1991,
+    december: december1991
+  },
+  1992: {
+    january: january1992,
+    february: february1992,
+    march: march1992,
+    april: april1992,
+    may: may1992,
+    june: june1992,
+    july: july1992,
+    august: august1992,
+    september: september1992,
+    october: october1992,
+    november: november1992,
+    december: december1992
+  },
+  1993: {
+    january: january1993,
+    february: february1993,
+    march: march1993,
+    april: april1993,
+    may: may1993,
+    june: june1993,
+    july: july1993,
+    august: august1993,
+    september: september1993,
+    october: october1993,
+    november: november1993,
+    december: december1993
+  },
+  1994: {
+    january: january1994,
+    february: february1994,
+    march: march1994,
+    april: april1994,
+    may: may1994,
+    june: june1994,
+    july: july1994,
+    august: august1994,
+    september: september1994,
+    october: october1994,
+    november: november1994,
+    december: december1994
+  },
+  1995: {
+    january: january1995,
+    february: february1995,
+    march: march1995,
+    april: april1995,
+    may: may1995,
+    june: june1995,
+    july: july1995,
+    august: august1995,
+    september: september1995,
+    october: october1995,
+    november: november1995,
+    december: december1995
   },
   1997: {
     january: january1997,

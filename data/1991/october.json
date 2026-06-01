@@ -1,0 +1,327 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "October 1991",
+    "accession": "GTM-1991-10",
+    "dek": "October keeps 1991 in the arcade and magazine aisle.",
+    "curatorNote": "Initial researched draft for October 1991. Treat precise dates as source-noted; broad market atmosphere is marked as context.",
+    "statusChips": [
+      "Sonic",
+      "SNES",
+      "Street Fighter II",
+      "Lemmings"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments or context markers, with cautious wording where the month is a quiet drawer.",
+      "items": [
+        {
+          "date": "October 1991",
+          "title": "Street Fighter II remains the cabinet to discuss.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "shop-window card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "October 1991",
+          "title": "Sonic has become a shop-window personality.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "magazine clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "October 1991",
+          "title": "Lemmings stays visible through conversions and word-of-mouth.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "demo station label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "October 1991",
+          "title": "UK magazines compare machines with increasing confidence.",
+          "body": "From a UK perspective, this mattered through retail timing, import pages, playground talk and the monthly magazine cycle.",
+          "artifact": "import shelf note",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        },
+        {
+          "date": "October 1991",
+          "title": "This month is treated as cultural context rather than a forced release list.",
+          "body": "A period marker for the month, included with cautious language where exact dates vary by region or source.",
+          "artifact": "context plaque",
+          "certainty": "contextual caveat",
+          "sourceNote": "See source notes for this exhibit; month-specific claims are separated from broader period context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable games from the year, led by month-specific anchors when the evidence supports them.",
+      "items": [
+        {
+          "date": "February 1991",
+          "title": "Lemmings",
+          "platform": "Amiga",
+          "body": "DMA Design and Psygnosis turn tiny walkers into a national puzzle obsession.",
+          "signal": "UK-made puzzle landmark",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "1991 Amiga release is secure; exact regional retail dates should be checked."
+        },
+        {
+          "date": "March 1991",
+          "title": "Street Fighter II: The World Warrior",
+          "platform": "Arcade",
+          "body": "Capcom reshapes the fighting game around characters, queues and mastery.",
+          "signal": "arcade fighting landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "March 1991 Japanese arcade release is commonly cited."
+        },
+        {
+          "date": "June 21/23, 1991",
+          "title": "Sonic the Hedgehog",
+          "platform": "Mega Drive / Genesis",
+          "body": "Sega's mascot arrives in PAL regions and North America within days.",
+          "signal": "Mega Drive identity",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Wikipedia cites PAL June 21 and North America June 23."
+        },
+        {
+          "date": "July 19, 1991",
+          "title": "Final Fantasy IV",
+          "platform": "Super Famicom",
+          "body": "Square uses Nintendo's 16-bit machine for a more dramatic RPG language.",
+          "signal": "16-bit RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese release date is commonly cited."
+        },
+        {
+          "date": "1991",
+          "title": "Another World",
+          "platform": "Amiga / Atari ST",
+          "body": "Eric Chahi's cinematic platformer makes silence, animation and danger feel authored.",
+          "signal": "cinematic platformer",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "1991 is secure; exact month varies by platform/source."
+        },
+        {
+          "date": "1991",
+          "title": "Streets of Rage",
+          "platform": "Mega Drive",
+          "body": "Sega gives home players a stylish brawler for the Mega Drive era.",
+          "signal": "home beat-'em-up",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "1991 is secure; exact regional dates vary."
+        },
+        {
+          "date": "November 21, 1991",
+          "title": "The Legend of Zelda: A Link to the Past",
+          "platform": "Super Famicom",
+          "body": "Nintendo returns Zelda to a top-down world with greater scale and polish.",
+          "signal": "adventure landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Nintendo Life cites November 21, 1991 in Japan."
+        },
+        {
+          "date": "December 1991",
+          "title": "Mega Man 4",
+          "platform": "Famicom",
+          "body": "Capcom extends its late-8-bit action craft in Japan.",
+          "signal": "late 8-bit action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "December 1991 Japanese release is commonly cited."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Machines, formats and buying context around the exhibit month.",
+      "items": [
+        {
+          "title": "Game Gear arrives in the West",
+          "body": "Sega's colour handheld becomes part of the British handheld comparison, even as battery life remains part of the bargain.",
+          "tags": [
+            "Hardware"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "April 1991 is commonly cited for North America/Europe; regional retail timing should be checked for exact UK claims."
+        },
+        {
+          "title": "Super NES reaches North America",
+          "body": "Nintendo's 16-bit machine changes the US conversation, while UK players are still mainly watching previews and import pages.",
+          "tags": [
+            "Retail"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "North American 1991 launch is secure; UK/EU release follows in 1992."
+        },
+        {
+          "title": "Mega Drive becomes Sega's personality machine",
+          "body": "Sonic's arrival makes the Mega Drive feel less like imported arcade muscle and more like a full identity.",
+          "tags": [
+            "UK context"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "Sonic release context."
+        },
+        {
+          "title": "PC Engine Duo appears in Japan",
+          "body": "NEC's CD/cartridge hybrid points toward a future where storage formats are becoming part of the story.",
+          "tags": [
+            "Future-facing"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "September 1991 Japanese launch is commonly cited."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for the magazine culture surrounding the year.",
+      "items": [
+        {
+          "title": "Mean Machines",
+          "publication": "Mean Machines",
+          "issueDate": "1991",
+          "headline": "Mean Machines on the 1991 shelf",
+          "coverImage": "/magazine-covers/1991/mean-machines-1991.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Mean Machines, 1991.",
+          "curatorNote": "A UK console magazine shelf object for the Sonic and SNES year.",
+          "body": "A UK console magazine shelf object for the Sonic and SNES year.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Computer and Video Games",
+          "publication": "Computer and Video Games",
+          "issueDate": "1991",
+          "headline": "Computer and Video Games on the 1991 shelf",
+          "coverImage": "/magazine-covers/1991/computer-and-video-games-1991.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Computer and Video Games, 1991.",
+          "curatorNote": "The broad UK monthly still connects arcades, consoles and computers.",
+          "body": "The broad UK monthly still connects arcades, consoles and computers.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Sega Power",
+          "publication": "Sega Power",
+          "issueDate": "1991",
+          "headline": "Sega Power on the 1991 shelf",
+          "coverImage": "/magazine-covers/1991/sega-power-1991.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Sega Power, 1991.",
+          "curatorNote": "Sega coverage becomes part of the high-street language around Mega Drive and Game Gear.",
+          "body": "Sega coverage becomes part of the high-street language around Mega Drive and Game Gear.",
+          "certainty": "source-noted magazine context",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Nintendo Magazine System",
+          "publication": "Nintendo Magazine System",
+          "issueDate": "1991 context",
+          "headline": "Nintendo Magazine System on the 1991 shelf",
+          "coverImage": "/magazine-covers/1991/nintendo-magazine-system-context.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Nintendo Magazine System, 1991 context.",
+          "curatorNote": "A Nintendo-focused shelf marker; exact early issue dating should be checked before scan replacement.",
+          "body": "A Nintendo-focused shelf marker; exact early issue dating should be checked before scan replacement.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How players found information before search, streams and social feeds.",
+      "items": [
+        {
+          "title": "BBS life is still specialist",
+          "body": "Gaming discussion mostly travels through dial-up bulletin boards, school friends and magazine letters pages."
+        },
+        {
+          "title": "Shareware is becoming a PC habit",
+          "body": "Before the web becomes ordinary, disks, BBS uploads and copied archives give PC games a different route into homes."
+        },
+        {
+          "title": "Cheats arrive slowly",
+          "body": "Codes and maps still feel like information smuggled through magazines or friends rather than instantly searchable knowledge."
+        },
+        {
+          "title": "Import knowledge is social capital",
+          "body": "Knowing what Japan or America already has can make a UK reader feel months ahead and months behind at the same time."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading of the month from the player side of history.",
+      "items": [
+        {
+          "title": "The future had a mascot",
+          "body": "Sonic made the 16-bit argument feel fast, blue and designed for television adverts."
+        },
+        {
+          "title": "The arcade came home unevenly",
+          "body": "Street Fighter II was the cabinet everyone talked about, but its home future still had to be imagined."
+        },
+        {
+          "title": "A puzzle game could own a room",
+          "body": "Lemmings made one Amiga screen feel like a tiny society in crisis."
+        },
+        {
+          "title": "Britain was between generations",
+          "body": "Mega Drive was visible, SNES was desirable, and many players still lived with 8-bit machines at home."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Sonic the Hedgehog",
+      "url": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_(1991_video_game)",
+      "note": "Used for June 1991 PAL/North American release context."
+    },
+    {
+      "label": "Street Fighter II",
+      "url": "https://en.wikipedia.org/wiki/Street_Fighter_II",
+      "note": "Used for 1991 arcade release context and fighting-game momentum."
+    },
+    {
+      "label": "Lemmings",
+      "url": "https://en.wikipedia.org/wiki/Lemmings_(video_game)",
+      "note": "Used for 1991 DMA Design/Psygnosis Amiga context."
+    },
+    {
+      "label": "Super Nintendo Entertainment System",
+      "url": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System",
+      "note": "Used for 1991 North American launch context; UK/EU timing is treated separately."
+    },
+    {
+      "label": "The Legend of Zelda: A Link to the Past",
+      "url": "https://www.nintendolife.com/games/snes/legend_of_zelda_a_link_to_the_past",
+      "note": "Used for November 21, 1991 Japanese release and later European date context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "Initial AI-generated research draft for October 1991.",
+    "Month-specific dates are used only where the reviewed sources support them; broader context is marked in certainty and sourceNote fields.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}
