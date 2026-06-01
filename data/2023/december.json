@@ -1,0 +1,327 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "December 2023",
+    "accession": "GTM-2023-12",
+    "dek": "December 2023: The Game Awards crowns Baldur's Gate 3.",
+    "curatorNote": "Initial researched draft for December 2023. Recent enough to need careful human review before verification.",
+    "statusChips": [
+      "Tears of the Kingdom",
+      "Baldur's Gate 3",
+      "PS VR2",
+      "Microsoft/Activision"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five source-noted moments or context markers.",
+      "items": [
+        {
+          "date": "December 2023",
+          "title": "The Game Awards crowns Baldur's Gate 3.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "December 2023",
+          "title": "The Finals launches out of awards-show momentum.",
+          "body": "A source-noted month marker; regional timing is kept visible where it matters.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "December 2023",
+          "title": "Late-year Xbox and PC releases keep the calendar moving.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "storefront label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2023",
+          "title": "Microsoft's Activision Blizzard deal remains a business story until its October completion.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2023",
+          "title": "PS5 supply feels easier than during the first two years, changing the mood around upgrades.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, with month-specific anchors first where possible.",
+      "items": [
+        {
+          "date": "December 7, 2023",
+          "title": "The Finals",
+          "platform": "PC / consoles",
+          "body": "Embark's destruction-heavy shooter arrives as a late live-service swing.",
+          "signal": "online shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2023 calendar lists December 7."
+        },
+        {
+          "date": "January 25, 2023",
+          "title": "Hi-Fi Rush",
+          "platform": "PC / Xbox",
+          "body": "Tango Gameworks shadow-drops rhythm-action colour into a dark industry winter.",
+          "signal": "shadow-drop",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2023 calendar lists January 25."
+        },
+        {
+          "date": "January 27, 2023",
+          "title": "Dead Space",
+          "platform": "PC / PS5 / Xbox Series X|S",
+          "body": "A 2008 horror object is restored for a new hardware generation.",
+          "signal": "horror remake",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2023 calendar lists January 27."
+        },
+        {
+          "date": "February 10, 2023",
+          "title": "Hogwarts Legacy",
+          "platform": "PC / consoles",
+          "body": "A huge licensed RPG becomes impossible to separate from online argument.",
+          "signal": "licensed RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2023 calendar lists February 10."
+        },
+        {
+          "date": "March 24, 2023",
+          "title": "Resident Evil 4",
+          "platform": "PC / PS5 / Xbox Series X|S",
+          "body": "Capcom remakes a canon object without treating it like glass.",
+          "signal": "horror remake",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2023 calendar lists March 24."
+        },
+        {
+          "date": "March 30, 2023",
+          "title": "Dredge",
+          "platform": "PC / consoles / Switch",
+          "body": "Fishing, inventory grids and cosmic dread become the year's quiet sea story.",
+          "signal": "indie horror",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2023 calendar lists March 30."
+        },
+        {
+          "date": "May 12, 2023",
+          "title": "The Legend of Zelda: Tears of the Kingdom",
+          "platform": "Switch",
+          "body": "Nintendo makes player invention feel like the headline feature.",
+          "signal": "Switch landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2023 calendar lists May 12."
+        },
+        {
+          "date": "June 6, 2023",
+          "title": "Diablo IV",
+          "platform": "PC / consoles",
+          "body": "Blizzard's action RPG becomes a live-service ritual again.",
+          "signal": "action RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2023 calendar lists June 6."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "PlayStation VR2 launches",
+          "body": "Sony's second VR headset arrives into a market that is curious but cautious.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Sony Interactive Entertainment confirms February 22, 2023 launch."
+        },
+        {
+          "title": "Microsoft completes the Activision Blizzard acquisition",
+          "body": "The largest games acquisition story closes in October after regulatory drama.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Microsoft confirms October 13, 2023 completion."
+        },
+        {
+          "title": "Game Pass becomes a flagship release venue",
+          "body": "Hi-Fi Rush, Starfield and The Finals show how storefront, subscription and surprise release can overlap.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2023 release/platform context."
+        },
+        {
+          "title": "Switch reaches a late-generation peak",
+          "body": "Tears of the Kingdom shows Nintendo's aging hardware can still command the calendar.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2023 release and sales context; verify specific figures before final copy."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print and digital cover culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2023",
+          "headline": "Edge on the 2023 shelf",
+          "coverImage": "/magazine-covers/2023/edge-2023.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2023.",
+          "curatorNote": "The museum label for a year that seemed to produce a landmark every few weeks.",
+          "body": "The museum label for a year that seemed to produce a landmark every few weeks.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2023",
+          "headline": "PC Gamer UK on the 2023 shelf",
+          "coverImage": "/magazine-covers/2023/pc-gamer-uk-2023.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2023.",
+          "curatorNote": "PC culture moves from Baldur's Gate 3 to Starfield, Dredge, Dave the Diver and The Finals.",
+          "body": "PC culture moves from Baldur's Gate 3 to Starfield, Dredge, Dave the Diver and The Finals.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Retro Gamer",
+          "publication": "Retro Gamer",
+          "issueDate": "2023",
+          "headline": "Retro Gamer on the 2023 shelf",
+          "coverImage": "/magazine-covers/2023/retro-gamer-2023.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Retro Gamer, 2023.",
+          "curatorNote": "Dead Space, Resident Evil 4 and Mario RPG show old names becoming current objects again.",
+          "body": "Dead Space, Resident Evil 4 and Mario RPG show old names becoming current objects again.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PLAY Magazine",
+          "publication": "PLAY Magazine",
+          "issueDate": "2023",
+          "headline": "PLAY Magazine on the 2023 shelf",
+          "coverImage": "/magazine-covers/2023/play-magazine-2023.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PLAY Magazine, 2023.",
+          "curatorNote": "A PlayStation-facing shelf for Spider-Man 2, Final Fantasy XVI, PS VR2 and Alan Wake 2.",
+          "body": "A PlayStation-facing shelf for Spider-Man 2, Final Fantasy XVI, PS VR2 and Alan Wake 2.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How players discovered, argued about and shared the month.",
+      "items": [
+        {
+          "title": "Spoiler etiquette becomes survival",
+          "body": "Tears of the Kingdom builds, Baldur's Gate choices and Alan Wake twists make muting keywords a habit."
+        },
+        {
+          "title": "Shadow-drops feel magical",
+          "body": "Hi-Fi Rush reminds players that surprise can still cut through a choreographed calendar."
+        },
+        {
+          "title": "CRPG discourse goes mainstream",
+          "body": "Baldur's Gate 3 turns dice rolls, romances and character builds into social media weather."
+        },
+        {
+          "title": "Platform arguments get corporate",
+          "body": "The Microsoft/Activision close makes business news feel inseparable from player identity."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading from the player side of recent history.",
+      "items": [
+        {
+          "title": "The year felt absurdly abundant",
+          "body": "Zelda, Baldur's Gate, Starfield, Spider-Man and Alan Wake seemed too many for one calendar."
+        },
+        {
+          "title": "Old forms came back stronger",
+          "body": "CRPGs, survival horror and 2D Mario all returned without feeling antique."
+        },
+        {
+          "title": "Players became inventors",
+          "body": "Tears of the Kingdom and Baldur's Gate 3 made emergent stories feel like screenshots from friends."
+        },
+        {
+          "title": "Awards season felt obvious and impossible",
+          "body": "Baldur's Gate 3 was the favourite, but the shelf behind it was unusually deep."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "GameSpot 2023 release calendar",
+      "url": "https://www.gamespot.com/articles/2023-upcoming-games-release-schedule/1100-6508202/",
+      "note": "Used for 2023 release dates and month-by-month checks."
+    },
+    {
+      "label": "PlayStation VR2 launch",
+      "url": "https://sonyinteractive.com/en/press-releases/2023/playstation-vr2-launches-globally-with-dozens-of-stunning-virtual-reality-games-available/",
+      "note": "Used for February 22, 2023 PS VR2 global launch."
+    },
+    {
+      "label": "Microsoft completes Activision Blizzard acquisition",
+      "url": "https://blogs.microsoft.com/blog/2023/10/13/welcoming-the-legendary-teams-at-activision-blizzard-king-to-team-xbox/",
+      "note": "Used for October 13, 2023 completion."
+    },
+    {
+      "label": "2023 in video games",
+      "url": "https://en.wikipedia.org/wiki/2023_in_video_games",
+      "note": "Used for awards and release cross-checking."
+    },
+    {
+      "label": "Time best games of 2023",
+      "url": "https://time.com/6340124/best-video-games-2023/",
+      "note": "Used for critical context around Alan Wake 2, Spider-Man 2 and the year's density."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "Initial AI-generated research draft for December 2023.",
+    "Recent-history exhibits should be checked carefully before being marked human-edited or verified.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

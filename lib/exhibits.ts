@@ -298,6 +298,54 @@ import september1999 from "../data/1999/september.json";
 import october1999 from "../data/1999/october.json";
 import november1999 from "../data/1999/november.json";
 import december1999 from "../data/1999/december.json";
+import january2021 from "../data/2021/january.json";
+import february2021 from "../data/2021/february.json";
+import march2021 from "../data/2021/march.json";
+import april2021 from "../data/2021/april.json";
+import may2021 from "../data/2021/may.json";
+import june2021 from "../data/2021/june.json";
+import july2021 from "../data/2021/july.json";
+import august2021 from "../data/2021/august.json";
+import september2021 from "../data/2021/september.json";
+import october2021 from "../data/2021/october.json";
+import november2021 from "../data/2021/november.json";
+import december2021 from "../data/2021/december.json";
+import january2022 from "../data/2022/january.json";
+import february2022 from "../data/2022/february.json";
+import march2022 from "../data/2022/march.json";
+import april2022 from "../data/2022/april.json";
+import may2022 from "../data/2022/may.json";
+import june2022 from "../data/2022/june.json";
+import july2022 from "../data/2022/july.json";
+import august2022 from "../data/2022/august.json";
+import september2022 from "../data/2022/september.json";
+import october2022 from "../data/2022/october.json";
+import november2022 from "../data/2022/november.json";
+import december2022 from "../data/2022/december.json";
+import january2023 from "../data/2023/january.json";
+import february2023 from "../data/2023/february.json";
+import march2023 from "../data/2023/march.json";
+import april2023 from "../data/2023/april.json";
+import may2023 from "../data/2023/may.json";
+import june2023 from "../data/2023/june.json";
+import july2023 from "../data/2023/july.json";
+import august2023 from "../data/2023/august.json";
+import september2023 from "../data/2023/september.json";
+import october2023 from "../data/2023/october.json";
+import november2023 from "../data/2023/november.json";
+import december2023 from "../data/2023/december.json";
+import january2024 from "../data/2024/january.json";
+import february2024 from "../data/2024/february.json";
+import march2024 from "../data/2024/march.json";
+import april2024 from "../data/2024/april.json";
+import may2024 from "../data/2024/may.json";
+import june2024 from "../data/2024/june.json";
+import july2024 from "../data/2024/july.json";
+import august2024 from "../data/2024/august.json";
+import september2024 from "../data/2024/september.json";
+import october2024 from "../data/2024/october.json";
+import november2024 from "../data/2024/november.json";
+import december2024 from "../data/2024/december.json";
 import january2025 from "../data/2025/january.json";
 import february2025 from "../data/2025/february.json";
 import march2025 from "../data/2025/march.json";
@@ -710,6 +758,62 @@ export const EXHIBIT_MANIFEST = {
     october: october1999,
     november: november1999,
     december: december1999
+  },
+  2021: {
+    january: january2021,
+    february: february2021,
+    march: march2021,
+    april: april2021,
+    may: may2021,
+    june: june2021,
+    july: july2021,
+    august: august2021,
+    september: september2021,
+    october: october2021,
+    november: november2021,
+    december: december2021
+  },
+  2022: {
+    january: january2022,
+    february: february2022,
+    march: march2022,
+    april: april2022,
+    may: may2022,
+    june: june2022,
+    july: july2022,
+    august: august2022,
+    september: september2022,
+    october: october2022,
+    november: november2022,
+    december: december2022
+  },
+  2023: {
+    january: january2023,
+    february: february2023,
+    march: march2023,
+    april: april2023,
+    may: may2023,
+    june: june2023,
+    july: july2023,
+    august: august2023,
+    september: september2023,
+    october: october2023,
+    november: november2023,
+    december: december2023
+  },
+  2024: {
+    january: january2024,
+    february: february2024,
+    march: march2024,
+    april: april2024,
+    may: may2024,
+    june: june2024,
+    july: july2024,
+    august: august2024,
+    september: september2024,
+    october: october2024,
+    november: november2024,
+    december: december2024
   },
   2025: {
     january: january2025,

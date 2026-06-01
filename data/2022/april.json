@@ -1,0 +1,332 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "April 2022",
+    "accession": "GTM-2022-04",
+    "dek": "April 2022: Lego Star Wars turns legacy franchise play into family spectacle.",
+    "curatorNote": "Initial researched draft for April 2022. Recent enough to need careful human review before verification.",
+    "statusChips": [
+      "Steam Deck",
+      "Elden Ring",
+      "acquisitions",
+      "subscriptions"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five source-noted moments or context markers.",
+      "items": [
+        {
+          "date": "April 2022",
+          "title": "Lego Star Wars turns legacy franchise play into family spectacle.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "April 2022",
+          "title": "Nintendo Switch Sports revives Wii-era living-room memory.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "April 2022",
+          "title": "April is lighter but nostalgia-heavy.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "storefront label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2022",
+          "title": "The Microsoft/Activision announcement keeps consolidation in the background of the whole year.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2022",
+          "title": "Steam Deck turns PC libraries into handheld objects, even before most players can buy one easily.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, with month-specific anchors first where possible.",
+      "items": [
+        {
+          "date": "January 28, 2022",
+          "title": "Pokemon Legends: Arceus",
+          "platform": "Switch",
+          "body": "Pokemon becomes stranger, older and more open.",
+          "signal": "Switch RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2022 calendar lists January 28."
+        },
+        {
+          "date": "February 18, 2022",
+          "title": "Horizon Forbidden West",
+          "platform": "PS4 / PS5",
+          "body": "Guerrilla's sequel shows Sony's cross-generation strategy at blockbuster scale.",
+          "signal": "PlayStation adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot and Horizon sources list February 18."
+        },
+        {
+          "date": "February 25, 2022",
+          "title": "Elden Ring",
+          "platform": "PC / consoles",
+          "body": "FromSoftware turns opaque challenge into open-world folklore.",
+          "signal": "open-world RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2022 calendar lists February 25."
+        },
+        {
+          "date": "March 4, 2022",
+          "title": "Gran Turismo 7",
+          "platform": "PS4 / PS5",
+          "body": "Sony's racing museum returns with old-school collecting and modern service friction.",
+          "signal": "racing sim",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2022 calendar lists March 4."
+        },
+        {
+          "date": "March 25, 2022",
+          "title": "Kirby and the Forgotten Land",
+          "platform": "Switch",
+          "body": "Kirby steps into 3D ruins and becomes quietly monumental.",
+          "signal": "3D platformer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2022 calendar lists March 25."
+        },
+        {
+          "date": "June 10, 2022",
+          "title": "The Quarry",
+          "platform": "PC / consoles",
+          "body": "Supermassive turns summer horror into a sofa-decision machine.",
+          "signal": "cinematic horror",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2022 calendar lists June 10."
+        },
+        {
+          "date": "July 19, 2022",
+          "title": "Stray",
+          "platform": "PC / PlayStation",
+          "body": "A cat, a backpack drone and a decaying city become a mid-year indie image.",
+          "signal": "indie adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2022 calendar lists July 19."
+        },
+        {
+          "date": "July 29, 2022",
+          "title": "Xenoblade Chronicles 3",
+          "platform": "Switch",
+          "body": "Monolith Soft closes a grand Switch RPG arc.",
+          "signal": "JRPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2022 calendar lists July 29."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "Steam Deck begins shipping",
+          "body": "Valve makes PC libraries portable and turns compatibility into a living database.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "GameSpot lists February 25, 2022 launch plans."
+        },
+        {
+          "title": "Microsoft announces the Activision Blizzard deal",
+          "body": "The year opens with a platform-scale acquisition story rather than just a release story.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Microsoft announced the deal January 18, 2022."
+        },
+        {
+          "title": "Subscriptions become a buying lens",
+          "body": "Game Pass, PlayStation Plus tiers and day-one PC releases shape how players discuss value.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Platform context; check service specifics during human edit."
+        },
+        {
+          "title": "Cross-gen releases remain normal",
+          "body": "PS4/Xbox One versions continue beside PS5/Series editions, stretching the console transition.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2022 release calendar context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print and digital cover culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2022",
+          "headline": "Edge on the 2022 shelf",
+          "coverImage": "/magazine-covers/2022/edge-2022.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2022.",
+          "curatorNote": "The critical shelf where Elden Ring towers over the year's conversation.",
+          "body": "The critical shelf where Elden Ring towers over the year's conversation.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2022",
+          "headline": "PC Gamer UK on the 2022 shelf",
+          "coverImage": "/magazine-covers/2022/pc-gamer-uk-2022.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2022.",
+          "curatorNote": "Steam Deck, Vampire Survivors and strategy releases make PC culture feel portable and strange.",
+          "body": "Steam Deck, Vampire Survivors and strategy releases make PC culture feel portable and strange.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Retro Gamer",
+          "publication": "Retro Gamer",
+          "issueDate": "2022",
+          "headline": "Retro Gamer on the 2022 shelf",
+          "coverImage": "/magazine-covers/2022/retro-gamer-2022.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Retro Gamer, 2022.",
+          "curatorNote": "A nostalgia shelf beside Sonic, Monkey Island, TMNT and old forms returning.",
+          "body": "A nostalgia shelf beside Sonic, Monkey Island, TMNT and old forms returning.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Nintendo magazine context",
+          "publication": "Nintendo magazine context",
+          "issueDate": "2022",
+          "headline": "Nintendo magazine context on the 2022 shelf",
+          "coverImage": "/magazine-covers/2022/nintendo-magazine-context-2022.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Nintendo magazine context, 2022.",
+          "curatorNote": "A Switch-facing marker for Pokemon, Kirby, Splatoon and Xenoblade.",
+          "body": "A Switch-facing marker for Pokemon, Kirby, Splatoon and Xenoblade.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How players discovered, argued about and shared the month.",
+      "items": [
+        {
+          "title": "Elden Ring becomes a shared map",
+          "body": "Messages, build videos and boss clips turn the Lands Between into an online commons."
+        },
+        {
+          "title": "Steam Deck makes compatibility social",
+          "body": "Players trade settings, Proton notes and battery compromises as part of ownership."
+        },
+        {
+          "title": "The acquisition discourse never leaves",
+          "body": "Microsoft/Activision turns regulatory language into everyday console-war vocabulary."
+        },
+        {
+          "title": "Indie virality can be tiny and huge",
+          "body": "Vampire Survivors shows how a small PC game can take over timelines without cinematic marketing."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading from the player side of recent history.",
+      "items": [
+        {
+          "title": "One game swallowed the spring",
+          "body": "Elden Ring made discovery feel communal, punishing and weirdly generous."
+        },
+        {
+          "title": "Handheld PC play became plausible",
+          "body": "Steam Deck made libraries feel physical again without becoming cartridges."
+        },
+        {
+          "title": "The industry felt enormous and fragile",
+          "body": "Acquisitions, subscriptions and layoffs made the business visible behind the games."
+        },
+        {
+          "title": "Small games could still change behaviour",
+          "body": "Vampire Survivors made minimal interaction feel like a whole new evening ritual."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "GameSpot 2022 release calendar",
+      "url": "https://www.gamespot.com/articles/every-game-released-in-2022/1100-6499287/",
+      "note": "Used for 2022 release dates and month-by-month checks."
+    },
+    {
+      "label": "Steam Deck launch",
+      "url": "https://www.gamespot.com/articles/valve-announces-launch-plans-for-steam-deck/1100-6499993/",
+      "note": "Used for February 25, 2022 Steam Deck launch."
+    },
+    {
+      "label": "Microsoft Activision announcement",
+      "url": "https://news.microsoft.com/source/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/?msockid=10c5e58293296dc731f7f31292166ca1",
+      "note": "Used for January 18, 2022 acquisition announcement and Game Pass context."
+    },
+    {
+      "label": "God of War Ragnarok",
+      "url": "https://en.wikipedia.org/wiki/God_of_War_Ragnar%C3%B6k",
+      "note": "Used for November 9, 2022 release context."
+    },
+    {
+      "label": "Vampire Survivors 1.0",
+      "url": "https://www.gamespot.com/articles/vampire-survivors-1-0-launches-on-october-20/1100-6507918/",
+      "note": "Used for October 20, 2022 1.0 release."
+    },
+    {
+      "label": "The Game Awards 2022 winners",
+      "url": "https://www.gematsu.com/2022/12/the-game-awards-2022-winners-announced",
+      "note": "Used for Elden Ring Game of the Year context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "Initial AI-generated research draft for April 2022.",
+    "Recent-history exhibits should be checked carefully before being marked human-edited or verified.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

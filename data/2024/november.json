@@ -1,0 +1,337 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "November 2024",
+    "accession": "GTM-2024-11",
+    "dek": "November 2024: PS5 Pro launches on November 7.",
+    "curatorNote": "Initial researched draft for November 2024. Recent enough to need careful human review before verification.",
+    "statusChips": [
+      "PS5 Pro",
+      "Switch successor",
+      "Balatro",
+      "industry layoffs"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five source-noted moments or context markers.",
+      "items": [
+        {
+          "date": "November 2024",
+          "title": "PS5 Pro launches on November 7.",
+          "body": "A source-noted month marker; regional timing is kept visible where it matters.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "November 2024",
+          "title": "S.T.A.L.K.E.R. 2 finally releases.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "November 2024",
+          "title": "Mario & Luigi returns on Switch.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "storefront label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2024",
+          "title": "Layoffs and studio closures give the year's successes a darker industry frame.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "May 2024 onward",
+          "title": "Nintendo acknowledges a Switch successor announcement is due within the fiscal year.",
+          "body": "A source-noted 2024 context marker; the console itself was not fully revealed during these exhibits.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, with month-specific anchors first where possible.",
+      "items": [
+        {
+          "date": "November 20, 2024",
+          "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "platform": "PC / Xbox Series X|S",
+          "body": "GSC Game World ships a long, difficult Ukrainian development story into the public world.",
+          "signal": "PC/Xbox shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2024 calendar lists November 20."
+        },
+        {
+          "date": "January 18, 2024",
+          "title": "Prince of Persia: The Lost Crown",
+          "platform": "PC / consoles / Switch",
+          "body": "Ubisoft gives an old name a sharp side-scrolling form.",
+          "signal": "action platformer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2024 calendar lists January 18."
+        },
+        {
+          "date": "January 19, 2024",
+          "title": "Palworld",
+          "platform": "PC / Xbox early access",
+          "body": "A survival-crafting monster game becomes an enormous online argument.",
+          "signal": "early access phenomenon",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2024 calendar lists January 19."
+        },
+        {
+          "date": "January 26, 2024",
+          "title": "Like a Dragon: Infinite Wealth",
+          "platform": "PC / consoles",
+          "body": "Ryu Ga Gotoku turns a massive RPG into a holiday suitcase.",
+          "signal": "RPG sequel",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2024 calendar lists January 26."
+        },
+        {
+          "date": "February 8, 2024",
+          "title": "Helldivers 2",
+          "platform": "PC / PS5",
+          "body": "Arrowhead accidentally makes one of the year's defining co-op rituals.",
+          "signal": "co-op shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot/Helldivers sources list February 8."
+        },
+        {
+          "date": "February 20, 2024",
+          "title": "Balatro",
+          "platform": "PC / consoles / Switch",
+          "body": "A poker roguelike becomes the year's most dangerous little machine.",
+          "signal": "indie phenomenon",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2024 calendar lists February 20."
+        },
+        {
+          "date": "February 29, 2024",
+          "title": "Final Fantasy VII Rebirth",
+          "platform": "PS5",
+          "body": "Square's remake trilogy opens into a road trip of memory and spectacle.",
+          "signal": "RPG sequel",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "FFVII Rebirth sources list February 29."
+        },
+        {
+          "date": "March 22, 2024",
+          "title": "Dragon's Dogma 2",
+          "platform": "PC / PS5 / Xbox Series X|S",
+          "body": "Capcom returns with emergent fantasy friction and pawn chatter.",
+          "signal": "open-world RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Dragon's Dogma 2 sources list March 22."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "PS5 Pro is announced and launched",
+          "body": "Sony sells a premium mid-generation machine into a market newly sensitive to price.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "PlayStation Blog lists September 10 announcement and November 7 launch."
+        },
+        {
+          "title": "Nintendo acknowledges a Switch successor",
+          "body": "The next Nintendo machine becomes official enough to shape 2024 without being shown.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Gematsu reports Furukawa's May 2024 statement."
+        },
+        {
+          "title": "Xbox loosens the exclusivity map",
+          "body": "Microsoft confirms selected Xbox games will go to rival consoles.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "AP reports the February 2024 Xbox business update."
+        },
+        {
+          "title": "Industry layoffs become part of the archive",
+          "body": "The year's excellent games sit beside studio closures, cuts and a sense of instability.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Industry-layoff context should be source-checked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print and digital cover culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2024",
+          "headline": "Edge on the 2024 shelf",
+          "coverImage": "/magazine-covers/2024/edge-2024.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2024.",
+          "curatorNote": "The serious shelf for a year split between indies, remakes, layoffs and premium hardware.",
+          "body": "The serious shelf for a year split between indies, remakes, layoffs and premium hardware.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2024",
+          "headline": "PC Gamer UK on the 2024 shelf",
+          "coverImage": "/magazine-covers/2024/pc-gamer-uk-2024.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2024.",
+          "curatorNote": "The PC drawer holds Palworld, Balatro, Manor Lords, Satisfactory and live-service argument.",
+          "body": "The PC drawer holds Palworld, Balatro, Manor Lords, Satisfactory and live-service argument.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Retro Gamer",
+          "publication": "Retro Gamer",
+          "issueDate": "2024",
+          "headline": "Retro Gamer on the 2024 shelf",
+          "coverImage": "/magazine-covers/2024/retro-gamer-2024.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Retro Gamer, 2024.",
+          "curatorNote": "A year of remakes and returns: FFVII, Silent Hill 2, Paper Mario and Indiana Jones.",
+          "body": "A year of remakes and returns: FFVII, Silent Hill 2, Paper Mario and Indiana Jones.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PLAY Magazine",
+          "publication": "PLAY Magazine",
+          "issueDate": "2024",
+          "headline": "PLAY Magazine on the 2024 shelf",
+          "coverImage": "/magazine-covers/2024/play-magazine-2024.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PLAY Magazine, 2024.",
+          "curatorNote": "A PlayStation-facing marker for Helldivers 2, Rebirth, Astro Bot and PS5 Pro.",
+          "body": "A PlayStation-facing marker for Helldivers 2, Rebirth, Astro Bot and PS5 Pro.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How players discovered, argued about and shared the month.",
+      "items": [
+        {
+          "title": "Co-op becomes propaganda comedy",
+          "body": "Helldivers 2 turns community goals and satire into daily online performance."
+        },
+        {
+          "title": "Small games become huge rooms",
+          "body": "Balatro and Animal Well show how mystery, systems and streamer discovery can carry a year."
+        },
+        {
+          "title": "Hardware discourse gets expensive",
+          "body": "PS5 Pro turns frame rates, upscaling and price into autumn's recurring argument."
+        },
+        {
+          "title": "Layoffs sit under the celebration",
+          "body": "Every showcase and awards night is shadowed by workers and studios disappearing."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading from the player side of recent history.",
+      "items": [
+        {
+          "title": "Joy and exhaustion shared the room",
+          "body": "Astro Bot and Balatro sparkled while layoffs made the industry feel bruised."
+        },
+        {
+          "title": "Premium hardware felt harder to justify",
+          "body": "PS5 Pro made fidelity feel desirable and financially awkward."
+        },
+        {
+          "title": "The past kept returning",
+          "body": "Rebirth, Silent Hill 2, Paper Mario and Indiana Jones all made memory feel current."
+        },
+        {
+          "title": "Indies felt like the bloodstream",
+          "body": "Balatro, Animal Well and UFO 50 showed that small teams could define the year's mood."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "GameSpot 2024 release calendar",
+      "url": "https://www.gamespot.com/articles/2024-upcoming-games-release-schedule/1100-6518504/gamespotdoesagreatlistofeverymajorpublishedtitleeveryyear/",
+      "note": "Used for 2024 release dates and month-by-month checks."
+    },
+    {
+      "label": "2024 in video games",
+      "url": "https://en.wikipedia.org/wiki/2024_in_video_games",
+      "note": "Used for release and awards cross-checking."
+    },
+    {
+      "label": "PS5 Pro announcement",
+      "url": "https://blog.playstation.com/2024/09/10/welcome-playstation-5-pro-the-most-visually-impressive-way-to-play-games-on-playstation/",
+      "note": "Used for September 10 announcement and November 7 launch."
+    },
+    {
+      "label": "Nintendo Switch successor acknowledgement",
+      "url": "https://www.gematsu.com/2024/05/switch-successor-to-be-announced-by-march-31-2025-switch-software-focused-nintendo-direct-set-for-june",
+      "note": "Used for May 2024 Switch successor acknowledgement."
+    },
+    {
+      "label": "Xbox multiplatform update",
+      "url": "https://apnews.com/article/d3ad09af1c1c0c7e0a757330ee2c9dac",
+      "note": "Used for February 2024 Xbox multiplatform strategy context."
+    },
+    {
+      "label": "Game Awards 2024 winners",
+      "url": "https://www.gematsu.com/2024/12/the-game-awards-2024-winners-announced",
+      "note": "Used for Astro Bot Game of the Year context."
+    },
+    {
+      "label": "2022-2026 industry layoffs",
+      "url": "https://en.wikipedia.org/wiki/2022%E2%80%932026_video_game_industry_layoffs",
+      "note": "Used for broad 2024 layoffs/studio closure context; should be verified against primary sources during human edit."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "Initial AI-generated research draft for November 2024.",
+    "Recent-history exhibits should be checked carefully before being marked human-edited or verified.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "November 2021",
+    "accession": "GTM-2021-11",
+    "dek": "November 2021: Forza Horizon 5 shows Xbox at its most confident.",
+    "curatorNote": "Initial researched draft for November 2021. Recent enough to need careful human review before verification.",
+    "statusChips": [
+      "new-gen scarcity",
+      "Game Pass",
+      "pandemic play",
+      "UK-aware"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five source-noted moments or context markers.",
+      "items": [
+        {
+          "date": "November 2021",
+          "title": "Forza Horizon 5 shows Xbox at its most confident.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "November 2021",
+          "title": "Pokemon remakes and Battlefield arrive into a crowded month.",
+          "body": "A source-noted month marker; regional timing is kept visible where it matters.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "November 2021",
+          "title": "Steam Deck is delayed into 2022.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "storefront label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2021",
+          "title": "PS5 and Xbox Series stock remains difficult to find on UK high streets and online queues.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "community clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2021",
+          "title": "Game Pass, PlayStation Plus and free-to-play seasons keep changing how players judge value.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, with month-specific anchors first where possible.",
+      "items": [
+        {
+          "date": "November 9, 2021",
+          "title": "Forza Horizon 5",
+          "platform": "PC / Xbox",
+          "body": "Playground's UK-made racer turns Mexico into a showcase for cross-gen Xbox.",
+          "signal": "UK-made racing",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2021 calendar lists November 9."
+        },
+        {
+          "date": "January 20, 2021",
+          "title": "Hitman 3",
+          "platform": "PC / consoles",
+          "body": "IO Interactive closes the World of Assassination trilogy with elegant murder-box design.",
+          "signal": "stealth sandbox",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2021 calendar lists January 20."
+        },
+        {
+          "date": "February 12, 2021",
+          "title": "Super Mario 3D World + Bowser's Fury",
+          "platform": "Switch",
+          "body": "Nintendo turns a Wii U rescue mission into a Switch-era co-op object.",
+          "signal": "Switch reissue",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2021 calendar lists February 12."
+        },
+        {
+          "date": "February 26, 2021",
+          "title": "Bravely Default II",
+          "platform": "Switch",
+          "body": "Square Enix keeps old-school job systems alive on a modern handheld.",
+          "signal": "JRPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2021 calendar lists February 26."
+        },
+        {
+          "date": "March 26, 2021",
+          "title": "It Takes Two",
+          "platform": "PC / consoles",
+          "body": "Hazelight makes co-op mandatory, theatrical and oddly intimate.",
+          "signal": "co-op adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2021 calendar lists March 26."
+        },
+        {
+          "date": "March 26, 2021",
+          "title": "Monster Hunter Rise",
+          "platform": "Switch",
+          "body": "Capcom makes hunting feel nimble, portable and lockdown-social.",
+          "signal": "Switch action RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2021 calendar lists March 26."
+        },
+        {
+          "date": "April 30, 2021",
+          "title": "Returnal",
+          "platform": "PS5",
+          "body": "Housemarque gives PS5 a punishing loop of alien rain and haptic dread.",
+          "signal": "PS5 showcase",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Returnal sources list April 30, 2021."
+        },
+        {
+          "date": "May 7, 2021",
+          "title": "Resident Evil Village",
+          "platform": "PC / consoles",
+          "body": "Capcom turns horror tourism into one of the year's loudest shared images.",
+          "signal": "survival horror",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot 2021 calendar lists May 7."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "PS5 and Xbox Series stock scarcity defines the year",
+          "body": "The first full new-generation year is also a year of queues, stock alerts and disappointment.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Axios and Ars Technica document demand and semiconductor shortage context."
+        },
+        {
+          "title": "Nintendo Switch OLED is announced and launched",
+          "body": "Nintendo refreshes the Switch with a better screen rather than a power jump.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "GameSpot/Gematsu list July announcement and October 8 launch."
+        },
+        {
+          "title": "Microsoft completes the Bethesda/ZeniMax acquisition",
+          "body": "Xbox's platform identity shifts toward Game Pass and first-party library scale.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Xbox Wire confirms March 9, 2021 completion."
+        },
+        {
+          "title": "Steam Deck is announced, then delayed",
+          "body": "Valve's handheld PC future is visible in 2021 but slips into 2022.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Ars Technica and Steam Deck sources note the delay to February 2022."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print and digital cover culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2021",
+          "headline": "Edge on the 2021 shelf",
+          "coverImage": "/magazine-covers/2021/edge-2021.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2021.",
+          "curatorNote": "A premium shelf marker for the first full PS5/Series year under stock scarcity.",
+          "body": "A premium shelf marker for the first full PS5/Series year under stock scarcity.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2021",
+          "headline": "PC Gamer UK on the 2021 shelf",
+          "coverImage": "/magazine-covers/2021/pc-gamer-uk-2021.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2021.",
+          "curatorNote": "The PC shelf follows loops, Game Pass, Steam Deck anticipation and pandemic-era online play.",
+          "body": "The PC shelf follows loops, Game Pass, Steam Deck anticipation and pandemic-era online play.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Retro Gamer",
+          "publication": "Retro Gamer",
+          "issueDate": "2021",
+          "headline": "Retro Gamer on the 2021 shelf",
+          "coverImage": "/magazine-covers/2021/retro-gamer-2021.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Retro Gamer, 2021.",
+          "curatorNote": "Modern nostalgia sits beside Metroid Dread, Mario reissues and pandemic collecting.",
+          "body": "Modern nostalgia sits beside Metroid Dread, Mario reissues and pandemic collecting.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PLAY Magazine",
+          "publication": "PLAY Magazine",
+          "issueDate": "2021 context",
+          "headline": "PLAY Magazine on the 2021 shelf",
+          "coverImage": "/magazine-covers/2021/play-magazine-2021.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PLAY Magazine, 2021 context.",
+          "curatorNote": "A PlayStation-facing shelf marker for Returnal, Ratchet, Deathloop and PS5 scarcity.",
+          "body": "A PlayStation-facing shelf marker for Returnal, Ratchet, Deathloop and PS5 scarcity.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How players discovered, argued about and shared the month.",
+      "items": [
+        {
+          "title": "Stock alerts become a ritual",
+          "body": "For UK players chasing PS5 or Series X, Discord pings and retailer trackers can feel like part of the console."
+        },
+        {
+          "title": "Lockdown habits linger",
+          "body": "Online co-op, Game Pass queues and backlog talk still carry the texture of pandemic-era play."
+        },
+        {
+          "title": "Live-service expectation keeps growing",
+          "body": "Halo Infinite's multiplayer, seasonal structures and progression arguments show the new normal."
+        },
+        {
+          "title": "Digital showcases replace crowds",
+          "body": "Directs, State of Plays and online events keep acting as the museum entrance hall."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading from the player side of recent history.",
+      "items": [
+        {
+          "title": "The new generation existed but was hard to touch",
+          "body": "PS5 and Series X felt real in screenshots and friends' photos, less so in shops."
+        },
+        {
+          "title": "The home was still the arcade",
+          "body": "Co-op, loops and online seasons suited a world still half inside."
+        },
+        {
+          "title": "Nintendo made patience feel rewarded",
+          "body": "Metroid Dread and Switch OLED gave October a rare old/new harmony."
+        },
+        {
+          "title": "The future came through subscriptions",
+          "body": "Game Pass made buying feel less like ownership and more like access."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "GameSpot 2021 release calendar",
+      "url": "https://www.gamespot.com/articles/video-game-releases-2021/1100-6485645/",
+      "note": "Used for 2021 release dates and month-by-month checks."
+    },
+    {
+      "label": "2021 in video games",
+      "url": "https://en.wikipedia.org/wiki/2021_in_video_games",
+      "note": "Used as a broad cross-check for releases and award context."
+    },
+    {
+      "label": "Nintendo Switch OLED announcement",
+      "url": "https://www.gamespot.com/articles/nintendo-switch-oled-announced-coming-october-8/1100-6493578/",
+      "note": "Used for July 6 announcement and October 8 launch context."
+    },
+    {
+      "label": "Xbox welcomes Bethesda",
+      "url": "https://news.xbox.com/en-us/2021/03/09/officially-welcoming-bethesda-to-the-xbox-family/",
+      "note": "Used for March 9, 2021 ZeniMax/Bethesda acquisition completion."
+    },
+    {
+      "label": "PS5 shortage context",
+      "url": "https://www.axios.com/2021/04/28/playstation-5-sales-surge",
+      "note": "Used for 2021 supply shortage and demand context."
+    },
+    {
+      "label": "Steam Deck announcement/delay context",
+      "url": "https://arstechnica.com/gaming/2021/11/valve-delays-steam-deck-launch-two-months-to-february-2022/",
+      "note": "Used for Steam Deck delay and supply-chain context."
+    },
+    {
+      "label": "GameSpot best games 2021",
+      "url": "https://www.gamespot.com/articles/gamespots-10-best-games-of-2021/1100-6498815/",
+      "note": "Used for 2021 critical/awards context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "Initial AI-generated research draft for November 2021.",
+    "Recent-history exhibits should be checked carefully before being marked human-edited or verified.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}
