@@ -1,0 +1,366 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "January 2001",
+    "accession": "GTM-2001-01",
+    "dek": "January 2001: Sega's Dreamcast future collapses into restructuring reports.",
+    "curatorNote": "Initial researched draft for January 2001. Regional release dates are deliberately conservative and should be checked before verification.",
+    "statusChips": [
+      "Sega exits hardware",
+      "GBA",
+      "GTA III",
+      "Xbox/GameCube"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "January 2001",
+          "title": "Sega's Dreamcast future collapses into restructuring reports.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "January 2001",
+          "title": "Phantasy Star Online makes the console feel ahead of its fate.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "January 2001",
+          "title": "The year begins with platform loyalties suddenly unstable.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2001",
+          "title": "Sega leaving hardware changes the emotional map of console loyalty.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "magazine clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2001",
+          "title": "PS2 moves from expensive launch object to obvious market leader.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "January 2001",
+          "title": "Phantasy Star Online",
+          "platform": "Dreamcast",
+          "body": "Sega makes online console RPG play feel briefly futuristic and communal.",
+          "signal": "online RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Early 2001 western Dreamcast timing is source-noted; verify PAL date before final copy."
+        },
+        {
+          "date": "March 2001",
+          "title": "Black & White",
+          "platform": "Windows",
+          "body": "Lionhead turns god-game promise into a creature you could discuss as if it were alive.",
+          "signal": "god game",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "2001 release lists place Black & White in March."
+        },
+        {
+          "date": "March/April 2001",
+          "title": "Conker's Bad Fur Day",
+          "platform": "Nintendo 64",
+          "body": "Rare closes the N64's adult-comedy argument with technical polish and bad taste.",
+          "signal": "platform adventure",
+          "certainty": "regional timing varies",
+          "sourceNote": "Regional timing varies; March/April 2001 is cautious."
+        },
+        {
+          "date": "April/July 2001",
+          "title": "Gran Turismo 3: A-Spec",
+          "platform": "PlayStation 2",
+          "body": "Polyphony makes PS2 screenshots look like a sales pitch for the future.",
+          "signal": "racing sim",
+          "certainty": "regional timing varies",
+          "sourceNote": "Japan/US/Europe timing varies across spring and summer 2001."
+        },
+        {
+          "date": "June 2001",
+          "title": "Game Boy Advance launch line-up",
+          "platform": "Game Boy Advance",
+          "body": "Nintendo's handheld future begins with familiar names under a wider, brighter label.",
+          "signal": "handheld launch",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "European GBA launch was June 22, 2001; individual software timing needs title-by-title checking."
+        },
+        {
+          "date": "July 2001",
+          "title": "Max Payne",
+          "platform": "Windows",
+          "body": "Bullet time leaves cinema and becomes a PC mechanic with a grim little snowstorm around it.",
+          "signal": "action shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Commonly listed as July 2001 on PC."
+        },
+        {
+          "date": "September 2001",
+          "title": "Silent Hill 2",
+          "platform": "PlayStation 2",
+          "body": "Konami turns PS2 horror inward, quieter and more adult.",
+          "signal": "psychological horror",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Initial release timing is September 2001; regional dates vary."
+        },
+        {
+          "date": "October 2001",
+          "title": "Grand Theft Auto III",
+          "platform": "PlayStation 2",
+          "body": "Liberty City becomes a new grammar for open-world games.",
+          "signal": "open-world action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GTA III sources list October 2001; note the post-September delay context."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "Sega exits console hardware",
+          "body": "The Dreamcast's production end turns Sega from platform-holder into third-party publisher.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "GameSpot and contemporary reports cover Sega's January 2001 restructuring."
+        },
+        {
+          "title": "Game Boy Advance launches in Europe",
+          "body": "Nintendo's handheld line becomes 32-bit, brighter in ambition and immediately familiar in the hand.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "ZDNet reports the European launch date of June 22, 2001."
+        },
+        {
+          "title": "Xbox launches in North America",
+          "body": "Microsoft enters console hardware with PC-like power and Halo as proof of life.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2001 hardware references list November 15, 2001 for North America."
+        },
+        {
+          "title": "GameCube launches outside Europe",
+          "body": "Nintendo's small-disc console arrives in Japan and North America while UK readers wait until 2002.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "GameSpot E3 and 2001 references support the pre-European launch context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print and demo-disc culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2001",
+          "headline": "Edge on the 2001 shelf",
+          "coverImage": "/magazine-covers/2001/edge-2001.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2001.",
+          "curatorNote": "A reconstructed marker for the year Sega left hardware and three new platforms crowded the glass case.",
+          "body": "A reconstructed marker for the year Sega left hardware and three new platforms crowded the glass case.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2001",
+          "headline": "PC Gamer UK on the 2001 shelf",
+          "coverImage": "/magazine-covers/2001/pc-gamer-uk-2001.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2001.",
+          "curatorNote": "A UK PC marker for Black & White, Max Payne, Counter-Strike servers and graphics-card longing.",
+          "body": "A UK PC marker for Black & White, Max Payne, Counter-Strike servers and graphics-card longing.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official UK PlayStation 2 Magazine",
+          "publication": "Official UK PlayStation 2 Magazine",
+          "issueDate": "2001",
+          "headline": "Official UK PlayStation 2 Magazine on the 2001 shelf",
+          "coverImage": "/magazine-covers/2001/official-uk-playstation-2-2001.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official UK PlayStation 2 Magazine, 2001.",
+          "curatorNote": "A PS2 demo-disc marker for a year when Sony's black box started to feel less like a promise and more like the default.",
+          "body": "A PS2 demo-disc marker for a year when Sony's black box started to feel less like a promise and more like the default.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Nintendo Official Magazine",
+          "publication": "Nintendo Official Magazine",
+          "issueDate": "2001",
+          "headline": "Nintendo Official Magazine on the 2001 shelf",
+          "coverImage": "/magazine-covers/2001/nintendo-official-magazine-2001.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Nintendo Official Magazine, 2001.",
+          "curatorNote": "A Nintendo shelf marker for GBA excitement and GameCube anticipation before Europe got the cube itself.",
+          "body": "A Nintendo shelf marker for GBA excitement and GameCube anticipation before Europe got the cube itself.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Dial-up culture",
+          "body": "Phantasy Star Online makes console online play feel intimate and strange, even as Sega's hardware future collapses.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period release context and UK access patterns; verify with period magazine/web sources before final publication."
+        },
+        {
+          "title": "Servers and services",
+          "body": "PC players increasingly organise around servers, patches, clan pages, forums and downloaded maps.",
+          "artifact": "server browser",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period release context and UK access patterns; verify with period magazine/web sources before final publication."
+        },
+        {
+          "title": "Forums and files",
+          "body": "Broadband is a rumour for many households; dial-up still shapes when and how long people can play online.",
+          "artifact": "walkthrough printout",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period release context and UK access patterns; verify with period magazine/web sources before final publication."
+        },
+        {
+          "title": "Console online experiments",
+          "body": "GTA III discourse travels through school, shops, magazines and early web forums with unusual speed.",
+          "artifact": "modem note",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period release context and UK access patterns; verify with period magazine/web sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like a handover year. Sega's dream ended, Sony's PS2 settled in, Nintendo went handheld first, and Microsoft waited just offstage.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "You could love the Dreamcast and still know the shop window had moved on. That was the ache of 2001.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "The Game Boy Advance made old habits new again: link cables, batteries, playground comparisons and a screen you tried to angle toward the light.",
+          "artifact": "playground rumour",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "By Christmas, European players were living in previews of Xbox and GameCube while PS2 did the actual work under the television.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2001 in video games",
+      "url": "https://en.wikipedia.org/wiki/2001_in_video_games",
+      "note": "Broad release and hardware cross-check for 2001."
+    },
+    {
+      "label": "Sega restructuring announcement",
+      "url": "https://www.gamespot.com/articles/sega-announces-drastic-restructuring/1100-2680518/",
+      "note": "Used for Sega's January 2001 shift away from Dreamcast hardware."
+    },
+    {
+      "label": "Sega Dreamcast production ends",
+      "url": "https://www.japantimes.co.jp/news/2001/02/01/business/sega-corp-shuts-down-dreamcast-production/",
+      "note": "Used as a contemporary source for Dreamcast production context."
+    },
+    {
+      "label": "Game Boy Advance Europe launch",
+      "url": "https://www.zdnet.fr/actualites/lancement-europeen-de-la-game-boy-advance-2089817.htm",
+      "note": "Used for June 22, 2001 European GBA launch context."
+    },
+    {
+      "label": "Game Boy Advance reference",
+      "url": "https://en.wikipedia.org/wiki/Game_Boy_Advance",
+      "note": "Used for GBA launch and early sales context; exact sales figures need primary-source review."
+    },
+    {
+      "label": "E3 2001 GameCube report",
+      "url": "https://www.gamespot.com/articles/e3-2001-nintendo-unleashes-gamecube-software-a-new-miyamoto-game-and-more/1100-2761390/",
+      "note": "Used for GameCube pre-launch software context."
+    },
+    {
+      "label": "Grand Theft Auto III",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_III",
+      "note": "Used for GTA III timing and September-delay context."
+    },
+    {
+      "label": "ESA 2002 Essential Facts",
+      "url": "https://www.theesa.com/wp-content/uploads/2024/02/2002-EF-FINAL.pdf",
+      "note": "Used for 2001 US sales-chart context, including GTA III and Halo."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Recent enough for many dates to be checkable, but regional UK/PAL timing needs human verification.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}

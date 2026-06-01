@@ -1,0 +1,361 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "April 2000",
+    "accession": "GTM-2000-04",
+    "dek": "April 2000: PS2 import fascination grows while UK buyers still live with PlayStation, Dreamcast, N64 and PC.",
+    "curatorNote": "Initial researched draft for April 2000. Regional release dates are deliberately conservative and should be checked before verification.",
+    "statusChips": [
+      "PS2 arrives",
+      "Dreamcast pressure",
+      "PC golden age",
+      "UK shelves"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "April 2000",
+          "title": "PS2 import fascination grows while UK buyers still live with PlayStation, Dreamcast, N64 and PC.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "April 2000",
+          "title": "Dreamcast remains strong in enthusiast coverage, even as Sony owns the future tense.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "April 2000",
+          "title": "PC previews make the summer look unusually serious.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2000",
+          "title": "PS2 anticipation changes how Dreamcast, N64 and PlayStation shelves are read.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "magazine clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2000",
+          "title": "PC gaming feels unusually strong through sims, RPGs, mods and online play.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "museum interpretation",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "February 2000",
+          "title": "The Sims",
+          "platform": "Windows",
+          "body": "Maxis turns the domestic routine into one of PC gaming's strangest mass obsessions.",
+          "signal": "life simulation",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed as a February 2000 PC release; verify regional retail timing during human edit."
+        },
+        {
+          "date": "February/March 2000",
+          "title": "Resident Evil Code: Veronica",
+          "platform": "Dreamcast",
+          "body": "Capcom gives Dreamcast one of its showcase survival-horror objects.",
+          "signal": "survival horror",
+          "certainty": "regional timing varies",
+          "sourceNote": "Early 2000 Dreamcast timing is source-noted; exact UK shelf date needs verification."
+        },
+        {
+          "date": "March 4, 2000",
+          "title": "PlayStation 2 launch line-up",
+          "platform": "PlayStation 2",
+          "body": "In Japan, the console itself is the exhibit: DVD playback, black plastic and next-generation gravity.",
+          "signal": "hardware launch",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "PlayStation sources list March 4, 2000 for Japan."
+        },
+        {
+          "date": "May 2000",
+          "title": "Perfect Dark",
+          "platform": "Nintendo 64",
+          "body": "Rare's spy shooter arrives late in the N64 life, dense with modes and memory-expansion ambition.",
+          "signal": "console FPS",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "2000 release lists place Perfect Dark in May; regional dates should be checked."
+        },
+        {
+          "date": "June 2000",
+          "title": "Deus Ex",
+          "platform": "Windows",
+          "body": "Ion Storm makes the PC feel conspiratorial, systemic and full of locked doors with multiple answers.",
+          "signal": "immersive sim",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GDC narrative review and other references list late June 2000."
+        },
+        {
+          "date": "June 2000",
+          "title": "Diablo II",
+          "platform": "Windows / Mac",
+          "body": "Blizzard turns clicking, loot and Battle.net into a long-term habit.",
+          "signal": "action RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Commonly listed for late June 2000; use month-level timing unless a final source is selected."
+        },
+        {
+          "date": "September 2000",
+          "title": "Tony Hawk's Pro Skater 2",
+          "platform": "PlayStation / others",
+          "body": "Skate culture, licensed music and score-chasing become a shared language.",
+          "signal": "sports action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Release timing varies by platform and region; September 2000 is safe for the original wave."
+        },
+        {
+          "date": "September 2000",
+          "title": "Baldur's Gate II: Shadows of Amn",
+          "platform": "Windows",
+          "body": "BioWare makes the Infinity Engine feel vast, literate and intimidatingly generous.",
+          "signal": "computer RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot reports September 2000 shipping plans."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "PlayStation 2 reaches Europe",
+          "body": "Sony's black console arrives with DVD playback, backwards compatibility and a sense of cultural inevitability.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "PlayStation sources list the European launch as November 24, 2000."
+        },
+        {
+          "title": "Dreamcast fights on",
+          "body": "Sega's machine remains beloved for arcade conversions, online experiments and a library with personality.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Dreamcast context is drawn from period coverage and later platform histories."
+        },
+        {
+          "title": "N64 enters its late period",
+          "body": "Perfect Dark and Majora's Mask show how much was still possible on aging cartridge hardware.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Release calendars place both as late-generation N64 highlights."
+        },
+        {
+          "title": "PC gaming looks wonderfully untidy",
+          "body": "The year's PC shelf mixes The Sims, Deus Ex, Diablo II, Baldur's Gate II, Counter-Strike and hardware upgrade anxiety.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "PC release lists and magazine context support this year-level reading."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print and demo-disc culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2000",
+          "headline": "Edge on the 2000 shelf",
+          "coverImage": "/magazine-covers/2000/edge-2000.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2000.",
+          "curatorNote": "A reconstructed shelf marker for the magazine that made the new console generation feel clinical, expensive and inevitable.",
+          "body": "A reconstructed shelf marker for the magazine that made the new console generation feel clinical, expensive and inevitable.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Zone",
+          "publication": "PC Zone",
+          "issueDate": "2000",
+          "headline": "PC Zone on the 2000 shelf",
+          "coverImage": "/magazine-covers/2000/pc-zone-2000.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Zone, 2000.",
+          "curatorNote": "A UK PC shelf marker for Deus Ex, Diablo II, Counter-Strike, mods and the last loud years of beige-box culture.",
+          "body": "A UK PC shelf marker for Deus Ex, Diablo II, Counter-Strike, mods and the last loud years of beige-box culture.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official UK PlayStation 2 Magazine",
+          "publication": "Official UK PlayStation 2 Magazine",
+          "issueDate": "Late 2000",
+          "headline": "Official UK PlayStation 2 Magazine on the 2000 shelf",
+          "coverImage": "/magazine-covers/2000/official-uk-playstation-2-2000.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official UK PlayStation 2 Magazine, Late 2000.",
+          "curatorNote": "A reconstructed marker for the PS2 demo-disc era beginning beside the European console launch.",
+          "body": "A reconstructed marker for the PS2 demo-disc era beginning beside the European console launch.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Dreamcast Magazine UK",
+          "publication": "Official Dreamcast Magazine UK",
+          "issueDate": "2000",
+          "headline": "Official Dreamcast Magazine UK on the 2000 shelf",
+          "coverImage": "/magazine-covers/2000/dreamcast-magazine-2000.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Dreamcast Magazine UK, 2000.",
+          "curatorNote": "A Dreamcast-era marker for a machine still loved on the page while PS2 pressure gathered outside the frame.",
+          "body": "A Dreamcast-era marker for a machine still loved on the page while PS2 pressure gathered outside the frame.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Dial-up culture",
+          "body": "Online life still sounds like dial-up tones, message boards, IRC, GameFAQs, fan sites and magazine URLs typed carefully from print.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period release context and UK access patterns; verify with period magazine/web sources before final publication."
+        },
+        {
+          "title": "Servers and services",
+          "body": "Counter-Strike makes the mod scene feel less like a side corridor and more like the main entrance for PC shooters.",
+          "artifact": "server browser",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period release context and UK access patterns; verify with period magazine/web sources before final publication."
+        },
+        {
+          "title": "Forums and files",
+          "body": "Battle.net turns Diablo II into a nightly ritual of characters, loot and fragile connections.",
+          "artifact": "walkthrough printout",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period release context and UK access patterns; verify with period magazine/web sources before final publication."
+        },
+        {
+          "title": "Console online experiments",
+          "body": "Dreamcast online remains a glimpse of a future that most UK living rooms are not quite ready to live in.",
+          "artifact": "modem note",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period release context and UK access patterns; verify with period magazine/web sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like standing in two shops at once: one full of Dreamcast games, N64 cartridges and PC boxes, the other glowing with a PS2 you might not be able to buy.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "The future was black plastic, blue cases, DVD playback and screenshots that looked almost too polished for a bedroom television.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "On PC, the future was messier and more personal: installs, patches, graphics settings, Battle.net accounts and games that could swallow whole evenings.",
+          "artifact": "playground rumour",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "For UK players, the month often depended on what had actually reached the shelf, what the magazines had already reviewed, and what an import advert claimed was possible.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2000 in video games",
+      "url": "https://en.wikipedia.org/wiki/2000_in_video_games",
+      "note": "Broad release and hardware cross-check for 2000."
+    },
+    {
+      "label": "PlayStation history: PS2",
+      "url": "https://www.playstation.com/en-us/playstation-history/2000-ps2-psp/",
+      "note": "Used for PlayStation 2 launch-era context, including the European launch date."
+    },
+    {
+      "label": "PlayStation 2 release context",
+      "url": "https://en.wikipedia.org/wiki/PlayStation_2",
+      "note": "Cross-check for PS2 regional launch context; verify exact territory dates during human edit."
+    },
+    {
+      "label": "Deus Ex release documentation",
+      "url": "https://media.gdcvault.com/gdc2011/GNR/Phillip%20Riley_2011.pdf",
+      "note": "Used for Deus Ex release-date cross-checking."
+    },
+    {
+      "label": "Baldur's Gate II shipping note",
+      "url": "https://www.gamespot.com/articles/baldurs-gate-ii-shipping-early/1100-2630695/",
+      "note": "Used for September 2000 Baldur's Gate II timing."
+    },
+    {
+      "label": "Diablo II reference",
+      "url": "https://en.wikipedia.org/wiki/Diablo_II",
+      "note": "Used for Diablo II 2000 PC RPG context; exact day should be checked against Blizzard/retail sources."
+    },
+    {
+      "label": "Official UK PlayStation 2 Magazine",
+      "url": "https://en.wikipedia.org/wiki/PlayStation_Official_Magazine_%E2%80%93_UK",
+      "note": "Used for UK PS2 magazine/demo-disc context from late 2000."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Recent enough for many dates to be checkable, but regional UK/PAL timing needs human verification.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}

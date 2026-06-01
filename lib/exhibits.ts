@@ -298,6 +298,42 @@ import september1999 from "../data/1999/september.json";
 import october1999 from "../data/1999/october.json";
 import november1999 from "../data/1999/november.json";
 import december1999 from "../data/1999/december.json";
+import january2000 from "../data/2000/january.json";
+import february2000 from "../data/2000/february.json";
+import march2000 from "../data/2000/march.json";
+import april2000 from "../data/2000/april.json";
+import may2000 from "../data/2000/may.json";
+import june2000 from "../data/2000/june.json";
+import july2000 from "../data/2000/july.json";
+import august2000 from "../data/2000/august.json";
+import september2000 from "../data/2000/september.json";
+import october2000 from "../data/2000/october.json";
+import november2000 from "../data/2000/november.json";
+import december2000 from "../data/2000/december.json";
+import january2001 from "../data/2001/january.json";
+import february2001 from "../data/2001/february.json";
+import march2001 from "../data/2001/march.json";
+import april2001 from "../data/2001/april.json";
+import may2001 from "../data/2001/may.json";
+import june2001 from "../data/2001/june.json";
+import july2001 from "../data/2001/july.json";
+import august2001 from "../data/2001/august.json";
+import september2001 from "../data/2001/september.json";
+import october2001 from "../data/2001/october.json";
+import november2001 from "../data/2001/november.json";
+import december2001 from "../data/2001/december.json";
+import january2002 from "../data/2002/january.json";
+import february2002 from "../data/2002/february.json";
+import march2002 from "../data/2002/march.json";
+import april2002 from "../data/2002/april.json";
+import may2002 from "../data/2002/may.json";
+import june2002 from "../data/2002/june.json";
+import july2002 from "../data/2002/july.json";
+import august2002 from "../data/2002/august.json";
+import september2002 from "../data/2002/september.json";
+import october2002 from "../data/2002/october.json";
+import november2002 from "../data/2002/november.json";
+import december2002 from "../data/2002/december.json";
 import january2021 from "../data/2021/january.json";
 import february2021 from "../data/2021/february.json";
 import march2021 from "../data/2021/march.json";
@@ -758,6 +794,48 @@ export const EXHIBIT_MANIFEST = {
     october: october1999,
     november: november1999,
     december: december1999
+  },
+  2000: {
+    january: january2000,
+    february: february2000,
+    march: march2000,
+    april: april2000,
+    may: may2000,
+    june: june2000,
+    july: july2000,
+    august: august2000,
+    september: september2000,
+    october: october2000,
+    november: november2000,
+    december: december2000
+  },
+  2001: {
+    january: january2001,
+    february: february2001,
+    march: march2001,
+    april: april2001,
+    may: may2001,
+    june: june2001,
+    july: july2001,
+    august: august2001,
+    september: september2001,
+    october: october2001,
+    november: november2001,
+    december: december2001
+  },
+  2002: {
+    january: january2002,
+    february: february2002,
+    march: march2002,
+    april: april2002,
+    may: may2002,
+    june: june2002,
+    july: july2002,
+    august: august2002,
+    september: september2002,
+    october: october2002,
+    november: november2002,
+    december: december2002
   },
   2021: {
     january: january2021,

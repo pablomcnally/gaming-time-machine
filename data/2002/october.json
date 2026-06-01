@@ -1,0 +1,366 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "October 2002",
+    "accession": "GTM-2002-10",
+    "dek": "October 2002: Vice City and Super Mario Sunshine crowd the autumn shelf.",
+    "curatorNote": "Initial researched draft for October 2002. Regional release dates are deliberately conservative and should be checked before verification.",
+    "statusChips": [
+      "Xbox UK",
+      "GameCube UK",
+      "Vice City",
+      "online PC"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched month markers or context notes.",
+      "items": [
+        {
+          "date": "October 2002",
+          "title": "Vice City and Super Mario Sunshine crowd the autumn shelf.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "October 2002",
+          "title": "TimeSplitters 2 gives split-screen players a generous local multiplayer object.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "platform notice",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "October 2002",
+          "title": "UK high streets become a three-console comparison table.",
+          "body": "A period-context note for the month, written cautiously where the evidence is broader than one exact day.",
+          "artifact": "shop-window label",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2002",
+          "title": "The UK console shelf becomes PS2 versus Xbox versus GameCube in plain sight.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "magazine clipping",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        },
+        {
+          "date": "Across 2002",
+          "title": "Price cuts, bundles and demo discs matter almost as much as specifications.",
+          "body": "A year-level context marker included to frame the month without claiming a new event happened on a specific day.",
+          "artifact": "context plaque",
+          "certainty": "source-noted context",
+          "sourceNote": "See source notes for this exhibit; exact dates should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where evidence supports them.",
+      "items": [
+        {
+          "date": "October 2002",
+          "title": "Super Mario Sunshine",
+          "platform": "GameCube",
+          "body": "Mario's holiday island sells GameCube colour, water and oddness.",
+          "signal": "platformer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "European timing is autumn 2002; Japan/US dates precede it."
+        },
+        {
+          "date": "October/November 2002",
+          "title": "TimeSplitters 2",
+          "platform": "PlayStation 2 / Xbox / GameCube",
+          "body": "Free Radical makes the split-screen shooter feel British, fast and generous.",
+          "signal": "console FPS",
+          "certainty": "regional timing varies",
+          "sourceNote": "Autumn 2002 timing varies by platform and region."
+        },
+        {
+          "date": "October/November 2002",
+          "title": "Grand Theft Auto: Vice City",
+          "platform": "PlayStation 2",
+          "body": "Rockstar turns a boxed game into a radio station, wardrobe and schoolyard quote machine.",
+          "signal": "open-world action",
+          "certainty": "regional timing varies",
+          "sourceNote": "Vice City sources list late October 2002 in the US and autumn 2002 elsewhere."
+        },
+        {
+          "date": "January 2002",
+          "title": "Medal of Honor: Allied Assault",
+          "platform": "Windows",
+          "body": "PC war shooters become cinematic, scripted and increasingly mainstream.",
+          "signal": "WWII shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Widely listed as a January 2002 PC release."
+        },
+        {
+          "date": "March 2002",
+          "title": "Xbox European launch line-up",
+          "platform": "Xbox",
+          "body": "Halo reaches UK shelves as the new console's strongest argument.",
+          "signal": "hardware launch",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Microsoft sources list March 14, 2002 for Europe."
+        },
+        {
+          "date": "March/May 2002",
+          "title": "Final Fantasy X",
+          "platform": "PlayStation 2",
+          "body": "For many UK players, this is the first PS2 Final Fantasy that makes the new machine feel necessary.",
+          "signal": "JRPG",
+          "certainty": "regional timing varies",
+          "sourceNote": "PAL timing is spring 2002; verify exact UK release date before final copy."
+        },
+        {
+          "date": "May 2002",
+          "title": "The Elder Scrolls III: Morrowind",
+          "platform": "Windows / Xbox",
+          "body": "Bethesda makes a vast, alien RPG that feels like a world found inside a manual.",
+          "signal": "open-world RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Initial PC release is widely placed in May 2002; Xbox timing follows soon after."
+        },
+        {
+          "date": "July 2002",
+          "title": "Warcraft III: Reign of Chaos",
+          "platform": "Windows / Mac",
+          "body": "Blizzard turns RTS campaigns into character drama and Battle.net routine.",
+          "signal": "RTS",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Commonly listed as July 2002."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, buying and industry context for the month and its wider year.",
+      "items": [
+        {
+          "title": "Xbox launches in Europe",
+          "body": "The UK gets Microsoft's heavy black console in March, followed quickly by a painful price cut.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Microsoft and Guardian sources cover launch and price-cut context."
+        },
+        {
+          "title": "GameCube launches in Europe",
+          "body": "Nintendo arrives with a lower UK price, tiny discs and a design that looks almost defiantly unlike Xbox.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "WorthPlaying reports the May 3 European launch and UK price context."
+        },
+        {
+          "title": "PlayStation 2 dominates the shelf",
+          "body": "By 2002, PS2 feels less like new hardware and more like the centre of gravity.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Guardian UK market context notes PS2 strength in Britain."
+        },
+        {
+          "title": "Console online begins to formalise",
+          "body": "Xbox Live's North American launch points toward the next shape of console play, while Europe mostly reads about it from the side.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "2002 platform references support the cautious regional framing."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print and demo-disc culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2002",
+          "headline": "Edge on the 2002 shelf",
+          "coverImage": "/magazine-covers/2002/edge-2002.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2002.",
+          "curatorNote": "A reconstructed marker for a year of Xbox bulk, GameCube charm and PS2 dominance.",
+          "body": "A reconstructed marker for a year of Xbox bulk, GameCube charm and PS2 dominance.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official Xbox Magazine UK",
+          "publication": "Official Xbox Magazine UK",
+          "issueDate": "2002",
+          "headline": "Official Xbox Magazine UK on the 2002 shelf",
+          "coverImage": "/magazine-covers/2002/official-xbox-magazine-uk-2002.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official Xbox Magazine UK, 2002.",
+          "curatorNote": "A UK Xbox marker for Halo, demo discs and the feeling of Microsoft forcing its way onto the shelf.",
+          "body": "A UK Xbox marker for Halo, demo discs and the feeling of Microsoft forcing its way onto the shelf.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Nintendo Official Magazine",
+          "publication": "Nintendo Official Magazine",
+          "issueDate": "2002",
+          "headline": "Nintendo Official Magazine on the 2002 shelf",
+          "coverImage": "/magazine-covers/2002/nintendo-official-magazine-2002.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Nintendo Official Magazine, 2002.",
+          "curatorNote": "A GameCube launch marker for purple lunchboxes, tiny discs and a surprisingly sharp UK price.",
+          "body": "A GameCube launch marker for purple lunchboxes, tiny discs and a surprisingly sharp UK price.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Official UK PlayStation 2 Magazine",
+          "publication": "Official UK PlayStation 2 Magazine",
+          "issueDate": "2002",
+          "headline": "Official UK PlayStation 2 Magazine on the 2002 shelf",
+          "coverImage": "/magazine-covers/2002/official-uk-playstation-2-2002.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Official UK PlayStation 2 Magazine, 2002.",
+          "curatorNote": "A PS2 marker for the year Vice City made the console feel culturally unavoidable.",
+          "body": "A PS2 marker for the year Vice City made the console feel culturally unavoidable.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How the network felt around the edges of play.",
+      "items": [
+        {
+          "title": "Dial-up culture",
+          "body": "Battlefield 1942 makes online PC play feel bigger, louder and more vehicle-shaped.",
+          "artifact": "forum thread",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period release context and UK access patterns; verify with period magazine/web sources before final publication."
+        },
+        {
+          "title": "Servers and services",
+          "body": "Xbox Live launches in North America, making console online play feel like a service rather than an experiment.",
+          "artifact": "server browser",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period release context and UK access patterns; verify with period magazine/web sources before final publication."
+        },
+        {
+          "title": "Forums and files",
+          "body": "UK players still live between dial-up reality, university broadband envy and LAN-party practicality.",
+          "artifact": "walkthrough printout",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period release context and UK access patterns; verify with period magazine/web sources before final publication."
+        },
+        {
+          "title": "Console online experiments",
+          "body": "Cheat sites, walkthroughs and forums become part of how players survive Morrowind, Vice City, Kingdom Hearts and Metroid rumours.",
+          "artifact": "modem note",
+          "certainty": "period context",
+          "sourceNote": "Online-life context is synthesised from platform history, period release context and UK access patterns; verify with period magazine/web sources before final publication."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A curator's narrative sketch of the month as lived culture.",
+      "items": [
+        {
+          "title": "The room",
+          "body": "It felt like the console war had become physical: PS2 slim cases, Xbox bulk, GameCube handles and different demo discs competing for the same Saturday.",
+          "artifact": "curator note",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The shelf",
+          "body": "Vice City made games feel louder outside gaming spaces, as if radio stations, clothes, cars and quotes had escaped the disc.",
+          "artifact": "shop memory",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The conversation",
+          "body": "The Xbox was impressive but had to explain itself. The GameCube was charming but had to prove it. The PS2 simply kept receiving games.",
+          "artifact": "playground rumour",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        },
+        {
+          "title": "The afterimage",
+          "body": "PC players lived in another weather system: Morrowind maps, Warcraft III ladders, Battlefield servers and the sense that online play was becoming ordinary very slowly.",
+          "artifact": "living-room fragment",
+          "certainty": "interpretive narrative",
+          "sourceNote": "Interpretive narrative based on researched anchors; keep labelled as atmosphere rather than fact."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "2002 in video games",
+      "url": "https://en.wikipedia.org/wiki/2002_in_video_games",
+      "note": "Broad release and hardware cross-check for 2002."
+    },
+    {
+      "label": "Xbox European price reduction",
+      "url": "https://news.microsoft.com/2002/04/18/xbox-reduces-european-price-to-e299199/",
+      "note": "Used for Xbox Europe/UK price-cut and early attach-rate context."
+    },
+    {
+      "label": "Xbox UK and Europe launch context",
+      "url": "https://www.theguardian.com/technology/2002/nov/15/microsoftxbox.games",
+      "note": "Used for UK-aware Xbox launch and market-position context."
+    },
+    {
+      "label": "Microsoft Europe Xbox launch",
+      "url": "https://news.microsoft.com/de-de/europischer-xbox-verkaufsstart-am-14-mrz-2002/",
+      "note": "Used for March 14, 2002 European Xbox launch context."
+    },
+    {
+      "label": "GameCube European launch price",
+      "url": "https://www.worthplaying.com/article/2002/4/22/news/3347-nintendo-sets-new-price-for-launch-of-gamecube/",
+      "note": "Used for May 3, 2002 European GameCube launch and UK price context."
+    },
+    {
+      "label": "Grand Theft Auto: Vice City",
+      "url": "https://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_Vice_City",
+      "note": "Used for Vice City release timing and UK sales award context."
+    },
+    {
+      "label": "GameCube reference",
+      "url": "https://www.uvlist.net/platforms/detail/104-gamecube",
+      "note": "Used for general GameCube platform context."
+    },
+    {
+      "label": "Original Xbox reference",
+      "url": "https://en.wikipedia.org/wiki/Xbox",
+      "note": "Used for broad Xbox launch-region cross-checking."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "AI draft for editorial review.",
+    "Recent enough for many dates to be checkable, but regional UK/PAL timing needs human verification.",
+    "Magazine cover images are reconstructed placeholders, not scans."
+  ]
+}
