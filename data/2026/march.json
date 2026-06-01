@@ -1,0 +1,342 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "March 2026",
+    "accession": "GTM-2026-03",
+    "dek": "March is live-service testing and Switch 2 Pokemon.",
+    "curatorNote": "Initial researched draft for March 2026. This is recent history, so dates and interpretation should be rechecked during human edit.",
+    "statusChips": [
+      "GTA VI waiting",
+      "Switch 2 year two",
+      "live-service",
+      "current-history"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five source-noted moments or context markers.",
+      "items": [
+        {
+          "date": "March 2026",
+          "title": "Marathon launches on March 5.",
+          "body": "A source-noted month marker; regional timing is left visible where it matters.",
+          "artifact": "platform notice",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+        },
+        {
+          "date": "March 2026",
+          "title": "Pokemon Pokopia also lands on March 5.",
+          "body": "A source-noted month marker; regional timing is left visible where it matters.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+        },
+        {
+          "date": "March 2026",
+          "title": "Slay the Spire 2 begins early access on March 5.",
+          "body": "A current-history context note, written cautiously because recent events can still shift in interpretation.",
+          "artifact": "digital storefront label",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+        },
+        {
+          "date": "March 2026",
+          "title": "Monster Hunter Stories 3 arrives on March 13.",
+          "body": "A source-noted month marker; regional timing is left visible where it matters.",
+          "artifact": "showcase clipping",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+        },
+        {
+          "date": "March 2026",
+          "title": "Crimson Desert lands on March 19.",
+          "body": "A source-noted month marker; regional timing is left visible where it matters.",
+          "artifact": "context plaque",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where possible.",
+      "items": [
+        {
+          "date": "March 5, 2026",
+          "title": "Marathon",
+          "platform": "PC / PS5 / Xbox Series X|S",
+          "body": "Bungie's extraction-shooter revival becomes March's live-service test case.",
+          "signal": "online shooter",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GamesRadar lists March 5, 2026."
+        },
+        {
+          "date": "March 5, 2026",
+          "title": "Pokemon Pokopia",
+          "platform": "Nintendo Switch 2",
+          "body": "Pokemon becomes a Switch 2 life-sim object.",
+          "signal": "Pokemon spin-off",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GamesRadar lists March 5, 2026."
+        },
+        {
+          "date": "March 5, 2026",
+          "title": "Slay the Spire 2",
+          "platform": "PC early access",
+          "body": "The deckbuilding sequel begins in public, early-access form.",
+          "signal": "early access",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GamesRadar lists March 5, 2026."
+        },
+        {
+          "date": "March 19, 2026",
+          "title": "Crimson Desert",
+          "platform": "PC / PS5 / Xbox Series X|S",
+          "body": "A long-previewed open-world action game lands in the spring calendar.",
+          "signal": "open-world action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GamesRadar lists March 19, 2026."
+        },
+        {
+          "date": "January 15, 2026",
+          "title": "Animal Crossing: New Horizons Switch 2 Edition",
+          "platform": "Nintendo Switch 2",
+          "body": "A 2020 lockdown object is re-shelved for Switch 2.",
+          "signal": "platform refresh",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GamesRadar lists January 15, 2026."
+        },
+        {
+          "date": "January 20, 2026",
+          "title": "2XKO",
+          "platform": "PC / PS5 / Xbox Series X|S",
+          "body": "Riot's fighter enters the early-year release calendar.",
+          "signal": "fighting game",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GamesRadar lists January 20, 2026."
+        },
+        {
+          "date": "January 22, 2026",
+          "title": "Final Fantasy VII Remake Intergrade",
+          "platform": "Nintendo Switch 2",
+          "body": "Square's remake project continues spreading across platforms.",
+          "signal": "Switch 2 port",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GamesRadar lists January 22, 2026."
+        },
+        {
+          "date": "January 30, 2026",
+          "title": "Code Vein 2",
+          "platform": "PC / PS5 / Xbox Series X|S",
+          "body": "Bandai Namco gives January a dark action-RPG shelf marker.",
+          "signal": "action RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GamesRadar lists January 30, 2026."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, subscription and buying context around the month.",
+      "items": [
+        {
+          "title": "Switch 2 enters its second calendar year",
+          "body": "Ports, editions and Nintendo-first releases now test whether the new machine has become ordinary.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "January-May 2026 release schedule context."
+        },
+        {
+          "title": "GTA VI controls the industry's weather without launching",
+          "body": "The moved May date leaves a visible gap in May 2026 and shapes how other games are discussed.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Rockstar and GameSpot delay reporting."
+        },
+        {
+          "title": "Xbox widens its platform map",
+          "body": "Forza Horizon 6 launches on Xbox/PC with PS5 noted for later, underlining a less exclusive console landscape.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Gematsu and PC Gamer Forza reporting."
+        },
+        {
+          "title": "Online-first design remains a default assumption",
+          "body": "Marathon, 2XKO, early access and live-service updates make network presence part of the monthly archive.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "January-May 2026 release context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print and digital cover culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2026 January-May",
+          "headline": "Edge on the 2026 shelf",
+          "coverImage": "/magazine-covers/2026/edge-2026.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2026 January-May.",
+          "curatorNote": "A current-generation shelf marker for GTA VI waiting, Switch 2 year two, and the early 2026 slate.",
+          "body": "A current-generation shelf marker for GTA VI waiting, Switch 2 year two, and the early 2026 slate.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2026 January-May",
+          "headline": "PC Gamer UK on the 2026 shelf",
+          "coverImage": "/magazine-covers/2026/pc-gamer-uk-2026.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2026 January-May.",
+          "curatorNote": "The PC-facing drawer for Marathon, Slay the Spire 2 early access, Forza Horizon 6, and the online calendar.",
+          "body": "The PC-facing drawer for Marathon, Slay the Spire 2 early access, Forza Horizon 6, and the online calendar.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Retro Gamer",
+          "publication": "Retro Gamer",
+          "issueDate": "2026 January-May",
+          "headline": "Retro Gamer on the 2026 shelf",
+          "coverImage": "/magazine-covers/2026/retro-gamer-2026.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Retro Gamer, 2026 January-May.",
+          "curatorNote": "Modern games keep recycling older names, remakes and archives; the past is still on the same shelf.",
+          "body": "Modern games keep recycling older names, remakes and archives; the past is still on the same shelf.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Nintendo Switch 2 press context",
+          "publication": "Nintendo Switch 2 press context",
+          "issueDate": "2026 January-May",
+          "headline": "Nintendo Switch 2 press context on the 2026 shelf",
+          "coverImage": "/magazine-covers/2026/nintendo-switch-2-archive-2026.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Nintendo Switch 2 press context, 2026 January-May.",
+          "curatorNote": "A placeholder for Switch 2's second-year software coverage; replace with verified issue art later.",
+          "body": "A placeholder for Switch 2's second-year software coverage; replace with verified issue art later.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How players discovered, argued about and shared the month.",
+      "items": [
+        {
+          "title": "Delay culture is communal",
+          "body": "GTA VI's missing May date becomes memes, mourning and calendar archaeology."
+        },
+        {
+          "title": "Early access is part of the main shelf",
+          "body": "Slay the Spire 2 and Subnautica 2 show how unfinished-but-public games can still feel like major dates."
+        },
+        {
+          "title": "Platform identity is blurrier",
+          "body": "Ports and cross-platform releases make the old console-war map harder to read."
+        },
+        {
+          "title": "The archive is live while it is happening",
+          "body": "For recent months, source notes matter because facts are still settling into history."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading from the player side of recent history.",
+      "items": [
+        {
+          "title": "The year began under a shadow",
+          "body": "Even before release, GTA VI shaped conversation like a planet just offstage."
+        },
+        {
+          "title": "Switch 2 became normal very quickly",
+          "body": "Ports and editions made the new console feel less like spectacle and more like furniture."
+        },
+        {
+          "title": "Online games felt provisional",
+          "body": "Early access, live-service bets and post-launch roadmaps made finishedness harder to pin down."
+        },
+        {
+          "title": "The present already feels archival",
+          "body": "Because these months are so recent, the exhibit feels less nostalgic and more like preserving wet paint."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "GamesRadar 2026 release schedule",
+      "url": "https://www.gamesradar.com/video-game-release-dates/",
+      "note": "Used for January-May 2026 release listings."
+    },
+    {
+      "label": "GamesRadar best games of 2026 so far",
+      "url": "https://www.gamesradar.com/best-games-of-2026/",
+      "note": "Used for Forza Horizon 6 and early-2026 reception context."
+    },
+    {
+      "label": "Gematsu Forza Horizon 6 release",
+      "url": "https://www.gematsu.com/2026/01/forza-horizon-6-launches-may-19-for-xbox-series-and-pc-later-in-2026-for-ps5",
+      "note": "Used for May 19, 2026 Forza Horizon 6 date."
+    },
+    {
+      "label": "Rockstar GTA VI delay",
+      "url": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+      "note": "Used for GTA VI delay to November 19, 2026."
+    },
+    {
+      "label": "GameSpot GTA VI delay report",
+      "url": "https://www.gamespot.com/articles/gta-6-delayed-to-november-2026/1100-6536012/",
+      "note": "Used for May 26, 2026 previous date and delay context."
+    },
+    {
+      "label": "2026 in video games",
+      "url": "https://en.wikipedia.org/wiki/2026_in_video_games",
+      "note": "Used as a broad cross-check for early-2026 releases and industry context."
+    },
+    {
+      "label": "List of video games released in 2026",
+      "url": "https://en.wikipedia.org/wiki/List_of_video_games_released_in_2026",
+      "note": "Used as a release-list cross-check for May 2026."
+    },
+    {
+      "label": "PC Gamer Forza Horizon 6 launch times",
+      "url": "https://www.pcgamer.com/games/racing/forza-horizon-6-release-date-launch-times/",
+      "note": "Used for May 2026 Forza launch timing context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "Initial AI-generated research draft for March 2026.",
+    "Recent-history exhibits should be checked carefully before being marked human-edited or verified.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

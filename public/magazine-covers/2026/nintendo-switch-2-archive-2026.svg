@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="960" viewBox="0 0 720 960" role="img" aria-label="Nintendo Switch 2 press context 2026 January-May reconstructed cover">
+  <rect width="720" height="960" fill="#151412"/>
+  <rect x="48" y="48" width="624" height="864" fill="#efe7d5" stroke="#b99a58" stroke-width="3"/>
+  <rect x="82" y="82" width="556" height="112" fill="#26221c"/>
+  <text x="360" y="145" text-anchor="middle" font-family="Georgia, serif" font-size="33" font-weight="700" fill="#efe7d5">Nintendo Switch 2 press context</text>
+  <text x="360" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" letter-spacing="3" fill="#8a6d35">2026 JANUARY-MAY</text>
+  <line x1="118" y1="274" x2="602" y2="274" stroke="#b99a58" stroke-width="2"/>
+  <rect x="158" y="346" width="404" height="170" rx="10" fill="none" stroke="#8a6d35" stroke-width="8"/>
+  <circle cx="250" cy="431" r="30" fill="#26221c"/>
+  <circle cx="360" cy="431" r="30" fill="#8a6d35"/>
+  <circle cx="470" cy="431" r="30" fill="#26221c"/>
+  <rect x="116" y="612" width="488" height="128" fill="#26221c"/>
+  <text x="360" y="663" text-anchor="middle" font-family="Georgia, serif" font-size="25" fill="#efe7d5">GAMING TIME MACHINE</text>
+  <text x="360" y="701" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#c9b98b">RECENT HISTORY COVER MARKER</text>
+  <text x="360" y="810" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#26221c">A placeholder for Switch 2's second-year software coverage</text>
+  <text x="360" y="852" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6f654f">Placeholder for curator review</text>
+</svg>

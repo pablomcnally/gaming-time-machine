@@ -298,6 +298,23 @@ import september1999 from "../data/1999/september.json";
 import october1999 from "../data/1999/october.json";
 import november1999 from "../data/1999/november.json";
 import december1999 from "../data/1999/december.json";
+import january2025 from "../data/2025/january.json";
+import february2025 from "../data/2025/february.json";
+import march2025 from "../data/2025/march.json";
+import april2025 from "../data/2025/april.json";
+import may2025 from "../data/2025/may.json";
+import june2025 from "../data/2025/june.json";
+import july2025 from "../data/2025/july.json";
+import august2025 from "../data/2025/august.json";
+import september2025 from "../data/2025/september.json";
+import october2025 from "../data/2025/october.json";
+import november2025 from "../data/2025/november.json";
+import december2025 from "../data/2025/december.json";
+import january2026 from "../data/2026/january.json";
+import february2026 from "../data/2026/february.json";
+import march2026 from "../data/2026/march.json";
+import april2026 from "../data/2026/april.json";
+import may2026 from "../data/2026/may.json";
 
 export type ExhibitStatus = "ai-draft" | "human-edited" | "verified";
 
@@ -693,5 +710,26 @@ export const EXHIBIT_MANIFEST = {
     october: october1999,
     november: november1999,
     december: december1999
+  },
+  2025: {
+    january: january2025,
+    february: february2025,
+    march: march2025,
+    april: april2025,
+    may: may2025,
+    june: june2025,
+    july: july2025,
+    august: august2025,
+    september: september2025,
+    october: october2025,
+    november: november2025,
+    december: december2025
+  },
+  2026: {
+    january: january2026,
+    february: february2026,
+    march: march2026,
+    april: april2026,
+    may: may2026
   }
 } as unknown as ExhibitManifest;

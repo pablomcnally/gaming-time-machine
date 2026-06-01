@@ -1,0 +1,342 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "November 2025",
+    "accession": "GTM-2025-11",
+    "dek": "November is Switch 2's first holiday test.",
+    "curatorNote": "Initial researched draft for November 2025. This is recent history, so dates and interpretation should be rechecked during human edit.",
+    "statusChips": [
+      "Switch 2",
+      "Game Pass",
+      "modern launch culture",
+      "UK-aware"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five source-noted moments or context markers.",
+      "items": [
+        {
+          "date": "November 2025",
+          "title": "Hyrule Warriors: Age of Imprisonment launches on November 6.",
+          "body": "A source-noted month marker; regional timing is left visible where it matters.",
+          "artifact": "platform notice",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+        },
+        {
+          "date": "November 2025",
+          "title": "Call of Duty: Black Ops 7 arrives on November 14.",
+          "body": "A source-noted month marker; regional timing is left visible where it matters.",
+          "artifact": "release calendar card",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+        },
+        {
+          "date": "November 2025",
+          "title": "Kirby Air Riders lands on November 20.",
+          "body": "A source-noted month marker; regional timing is left visible where it matters.",
+          "artifact": "digital storefront label",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+        },
+        {
+          "date": "November 2025",
+          "title": "S.T.A.L.K.E.R. 2 reaches PS5 on November 20.",
+          "body": "A source-noted month marker; regional timing is left visible where it matters.",
+          "artifact": "showcase clipping",
+          "certainty": "source-noted",
+          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+        },
+        {
+          "date": "November 2025",
+          "title": "The month feels like platform holders setting up Christmas shelves.",
+          "body": "A current-history context note, written cautiously because recent events can still shift in interpretation.",
+          "artifact": "context plaque",
+          "certainty": "museum interpretation",
+          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable releases, led by month-specific anchors where possible.",
+      "items": [
+        {
+          "date": "November 6, 2025",
+          "title": "Hyrule Warriors: Age of Imprisonment",
+          "platform": "Nintendo Switch 2",
+          "body": "A Zelda-adjacent action game becomes part of Switch 2's first holiday.",
+          "signal": "Nintendo holiday",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Shacknews lists November 6, 2025."
+        },
+        {
+          "date": "November 14, 2025",
+          "title": "Call of Duty: Black Ops 7",
+          "platform": "PC / PS5 / Xbox Series X|S",
+          "body": "The annual shooter ritual returns to a year already full of live-service noise.",
+          "signal": "annual FPS",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Shacknews lists November 14, 2025."
+        },
+        {
+          "date": "November 20, 2025",
+          "title": "Kirby Air Riders",
+          "platform": "Nintendo Switch 2",
+          "body": "Nintendo revisits a GameCube-era cult object for Switch 2.",
+          "signal": "Nintendo racer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Shacknews lists November 20, 2025."
+        },
+        {
+          "date": "January 17, 2025",
+          "title": "Dynasty Warriors: Origins",
+          "platform": "PC / PS5 / Xbox Series X|S",
+          "body": "Omega Force reintroduces the crowd-battle spectacle at the start of a packed year.",
+          "signal": "action revival",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Shacknews lists January 17, 2025."
+        },
+        {
+          "date": "January 23, 2025",
+          "title": "Final Fantasy VII Rebirth",
+          "platform": "PC",
+          "body": "Square's second remake chapter reaches PC players.",
+          "signal": "PC port",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Shacknews lists January 23, 2025."
+        },
+        {
+          "date": "January 30, 2025",
+          "title": "Sniper Elite: Resistance",
+          "platform": "PC / consoles",
+          "body": "Rebellion gives January a familiar British stealth-action presence.",
+          "signal": "UK-made context",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Shacknews lists January 30, 2025."
+        },
+        {
+          "date": "January 31, 2025",
+          "title": "Citizen Sleeper 2: Starward Vector",
+          "platform": "PC / consoles",
+          "body": "A narrative RPG about debt, bodies and survival makes the month feel more intimate.",
+          "signal": "narrative RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Shacknews lists January 31, 2025."
+        },
+        {
+          "date": "February 4, 2025",
+          "title": "Kingdom Come: Deliverance II",
+          "platform": "PC / PS5 / Xbox Series X|S",
+          "body": "Warhorse returns to medieval mud, systems and argument.",
+          "signal": "historical RPG",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Shacknews lists February 4, 2025."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Platform, subscription and buying context around the month.",
+      "items": [
+        {
+          "title": "Nintendo Switch 2 becomes the year's hardware spine",
+          "body": "From January reveal to April Direct to June launch, the year is organised around Nintendo's successor machine.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Nintendo sources confirm January reveal, April Direct and June 5 launch."
+        },
+        {
+          "title": "UK pricing turns hardware into household arithmetic",
+          "body": "Switch 2's UK price and launch software make the console feel like a considered family purchase rather than impulse tech.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "UK-facing Nintendo Direct and retailer coverage."
+        },
+        {
+          "title": "Game Pass remains a release-window lens",
+          "body": "Avowed, Doom, Clair Obscur and other releases keep subscription access central to how players talk about value.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Broad 2025 platform context."
+        },
+        {
+          "title": "PC handhelds and portable play keep pressure on consoles",
+          "body": "The Steam Deck/Switch 2 comparison makes handheld performance a routine part of launch conversation.",
+          "tags": [
+            "Context"
+          ],
+          "certainty": "source-noted context",
+          "sourceNote": "Hardware context; not tied to a single date."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Reconstructed shelf markers for print and digital cover culture.",
+      "items": [
+        {
+          "title": "Edge",
+          "publication": "Edge",
+          "issueDate": "2025",
+          "headline": "Edge on the 2025 shelf",
+          "coverImage": "/magazine-covers/2025/edge-2025.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2025.",
+          "curatorNote": "The serious UK-facing magazine shelf trying to frame Switch 2, Clair Obscur and the year of delayed giants.",
+          "body": "The serious UK-facing magazine shelf trying to frame Switch 2, Clair Obscur and the year of delayed giants.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "PC Gamer UK",
+          "publication": "PC Gamer UK",
+          "issueDate": "2025",
+          "headline": "PC Gamer UK on the 2025 shelf",
+          "coverImage": "/magazine-covers/2025/pc-gamer-uk-2025.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2025.",
+          "curatorNote": "A PC cover marker for Monster Hunter Wilds, Expedition 33, Silksong, Hades II and the live-service atmosphere.",
+          "body": "A PC cover marker for Monster Hunter Wilds, Expedition 33, Silksong, Hades II and the live-service atmosphere.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Retro Gamer",
+          "publication": "Retro Gamer",
+          "issueDate": "2025",
+          "headline": "Retro Gamer on the 2025 shelf",
+          "coverImage": "/magazine-covers/2025/retro-gamer-2025.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Retro Gamer, 2025.",
+          "curatorNote": "A reminder that modern launch culture sits beside an active nostalgia industry.",
+          "body": "A reminder that modern launch culture sits beside an active nostalgia industry.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        },
+        {
+          "title": "Nintendo/Switch press context",
+          "publication": "Nintendo/Switch press context",
+          "issueDate": "2025 context",
+          "headline": "Nintendo/Switch press context on the 2025 shelf",
+          "coverImage": "/magazine-covers/2025/switch-player-archive-2025.svg",
+          "coverImageAlt": "Reconstructed placeholder cover for Nintendo/Switch press context, 2025 context.",
+          "curatorNote": "A placeholder for Nintendo-focused print/digital cover culture around Switch 2; verify exact issue art before replacement.",
+          "body": "A placeholder for Nintendo-focused print/digital cover culture around Switch 2; verify exact issue art before replacement.",
+          "certainty": "contextual placeholder",
+          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "How players discovered, argued about and shared the month.",
+      "items": [
+        {
+          "title": "The algorithm is the newsagent",
+          "body": "Trailers, Directs, showcases and short-form clips now do the work that magazine covers once did."
+        },
+        {
+          "title": "Discord is the playground",
+          "body": "Release-day talk gathers in servers, group chats, voice calls and spoiler-muted channels."
+        },
+        {
+          "title": "Wishlist culture becomes anticipation",
+          "body": "Steam wishlists, Game Pass queues and eShop preloads turn wanting a game into a visible ritual."
+        },
+        {
+          "title": "Launches are patched events",
+          "body": "A game rarely arrives as a fixed object; day-one updates, roadmaps and hotfixes sit beside the release date."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading from the player side of recent history.",
+      "items": [
+        {
+          "title": "The year felt like a handover",
+          "body": "Switch 2 made the old Switch feel historical almost overnight, even while its library still mattered."
+        },
+        {
+          "title": "Everything was both new and remembered",
+          "body": "Oblivion, Metal Gear, Tony Hawk, Shinobi and Metroid sat beside Clair Obscur and Silksong."
+        },
+        {
+          "title": "UK players watched value closely",
+          "body": "Hardware price, subscriptions, physical editions and digital libraries all became part of the emotional texture."
+        },
+        {
+          "title": "The release calendar felt unusually dense",
+          "body": "By autumn, choosing what not to play became part of being a player."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Nintendo Switch 2 announcement",
+      "url": "https://www.nintendo.co.jp/corporate/release/en/2025/250116.html?slide=modal",
+      "note": "Used for January 16, 2025 Switch 2 announcement and April Direct pointer."
+    },
+    {
+      "label": "Nintendo Switch 2 launch details",
+      "url": "https://www.nintendo.com/us/whatsnew/nintendo-switch-2-launches-june-5-bringing-new-forms-of-game-communication-to-life/",
+      "note": "Used for June 5, 2025 Switch 2 and Mario Kart World launch context."
+    },
+    {
+      "label": "Nintendo UK Switch 2 Direct",
+      "url": "https://www.nintendo.com/en-gb/News/Nintendo-Direct/2025/Nintendo-Direct-Nintendo-Switch-2-April-2nd-2025/Nintendo-Direct-Nintendo-Switch-2-April-2nd-2025-2804654.html",
+      "note": "Used for April 2, 2025 Direct context and UK-facing Switch 2 messaging."
+    },
+    {
+      "label": "Shacknews 2025 release calendar",
+      "url": "https://www.shacknews.com/article/141463/2025-video-games",
+      "note": "Used for month-by-month 2025 release dates."
+    },
+    {
+      "label": "Monster Hunter Wilds",
+      "url": "https://en.wikipedia.org/wiki/Monster_Hunter_Wilds",
+      "note": "Used for February 28, 2025 worldwide release context."
+    },
+    {
+      "label": "Assassin's Creed Shadows",
+      "url": "https://en.wikipedia.org/wiki/Assassin%27s_Creed_Shadows",
+      "note": "Used for March 20, 2025 release context."
+    },
+    {
+      "label": "Hollow Knight: Silksong",
+      "url": "https://en.wikipedia.org/wiki/Hollow_Knight%3A_Silksong",
+      "note": "Used for September 4, 2025 release context."
+    },
+    {
+      "label": "The Game Awards 2025 winners",
+      "url": "https://www.videogameschronicle.com/news/the-game-awards-2025-complete-list-of-winners-as-clair-obscur-wins-game-of-the-year-and-sets-a-new-record-for-awards-won/",
+      "note": "Used for December 2025 award context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-06-01",
+  "editorNotes": [
+    "Initial AI-generated research draft for November 2025.",
+    "Recent-history exhibits should be checked carefully before being marked human-edited or verified.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}
