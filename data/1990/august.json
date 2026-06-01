@@ -1,0 +1,367 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "August 1990",
+    "accession": "GTM-1990-08",
+    "dek": "August is the breath before September's European handheld and PC-game rush.",
+    "curatorNote": "No confident August-only release anchor is forced.",
+    "statusChips": [
+      "quiet drawer",
+      "Game Boy soon",
+      "Wing Commander soon",
+      "UK retail"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments, with broad context separated from confident month-level claims.",
+      "items": [
+        {
+          "date": "August 1990",
+          "title": "Game Boy is almost on the European shelf",
+          "body": "The handheld is close enough for adverts, previews and wish lists.",
+          "artifact": "Game Boy preview",
+          "certainty": "UK-aware context",
+          "sourceNote": "European launch follows September 28."
+        },
+        {
+          "date": "August 1990",
+          "title": "Wing Commander is close",
+          "body": "PC players are about to see space combat sold with unusual cinematic confidence.",
+          "artifact": "space cockpit",
+          "certainty": "contextual",
+          "sourceNote": "Wing Commander follows in September."
+        },
+        {
+          "date": "August 1990",
+          "title": "Super Famicom anticipation continues",
+          "body": "Nintendo's 16-bit machine is not yet public, but its shape is forming in magazines.",
+          "artifact": "future Nintendo card",
+          "certainty": "contextual",
+          "sourceNote": "Super Famicom launches in November."
+        },
+        {
+          "date": "August 1990",
+          "title": "UK players face a crowded Christmas ahead",
+          "body": "Game Boy, Mega Drive, GX4000, Amiga, ST and old 8-bit machines all compete for attention.",
+          "artifact": "Christmas preview",
+          "certainty": "UK-aware context",
+          "sourceNote": "UK retail context."
+        },
+        {
+          "date": "August 1990",
+          "title": "No confident August-only release anchor",
+          "body": "The month stays as a prelude drawer.",
+          "artifact": "quiet accession",
+          "certainty": "intentional gap",
+          "sourceNote": "No strong August-specific release anchor found."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable games from the year, led by month-specific anchors where the evidence supports them.",
+      "items": [
+        {
+          "date": "September 26, 1990",
+          "title": "Wing Commander",
+          "platform": "MS-DOS",
+          "body": "Origin makes PC space combat feel cinematic and character-led.",
+          "signal": "PC space combat",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Sources cite September 26, 1990."
+        },
+        {
+          "date": "January 1990",
+          "title": "Loom",
+          "platform": "DOS / computer",
+          "body": "Lucasfilm's musical fantasy adventure uses drafts instead of inventory clutter.",
+          "signal": "graphic adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Giant Bomb and other summaries cite January 1990."
+        },
+        {
+          "date": "April 1990",
+          "title": "Smash TV",
+          "platform": "Arcade",
+          "body": "Williams turns twin-stick shooting into a violent game-show satire.",
+          "signal": "twin-stick arcade",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Arcade-History and other sources cite April 1990."
+        },
+        {
+          "date": "April 20, 1990",
+          "title": "Fire Emblem: Shadow Dragon and the Blade of Light",
+          "platform": "Famicom",
+          "body": "Intelligent Systems begins Nintendo's tactical RPG lineage.",
+          "signal": "tactical RPG origin",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Nintendo's Fire Emblem history cites April 20, 1990."
+        },
+        {
+          "date": "July 20, 1990",
+          "title": "Metal Gear 2: Solid Snake",
+          "platform": "MSX2",
+          "body": "Kojima's stealth sequel deepens systems, story and surveillance.",
+          "signal": "stealth sequel",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Sources cite July 20, 1990 Japanese MSX2 release."
+        },
+        {
+          "date": "July 27, 1990",
+          "title": "Dr. Mario",
+          "platform": "Famicom / Game Boy",
+          "body": "Nintendo gives Mario a puzzle coat in a post-Tetris handheld world.",
+          "signal": "puzzle game",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Nintendo Life and other references cite July 27, 1990."
+        },
+        {
+          "date": "September 28, 1990",
+          "title": "Mega Man 3",
+          "platform": "Famicom",
+          "body": "Capcom continues its NES/Famicom action formula as the old machine peaks.",
+          "signal": "action platformer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Common references cite September 28, 1990."
+        },
+        {
+          "date": "October 1990",
+          "title": "The Secret of Monkey Island",
+          "platform": "DOS / Amiga / Atari ST",
+          "body": "Lucasfilm's pirate comedy turns point-and-click adventure into a warm social memory.",
+          "signal": "comic adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "GameSpot and other summaries cite October 1990."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four machines or technology contexts that explain the month's place in gaming history.",
+      "items": [
+        {
+          "title": "Super Famicom",
+          "body": "Nintendo launches its 16-bit console in Japan with Super Mario World and F-Zero.",
+          "specs": [
+            "Mode 7",
+            "16-bit console",
+            "Japan launch November 21"
+          ],
+          "certainty": "verified 1990 context",
+          "sourceNote": "Japanese launch date widely cited."
+        },
+        {
+          "title": "Game Boy in Europe",
+          "body": "Nintendo's handheld finally reaches European shops in September.",
+          "specs": [
+            "monochrome screen",
+            "Tetris",
+            "AA batteries"
+          ],
+          "certainty": "verified European context",
+          "sourceNote": "Europe launch date cited as September 28, 1990."
+        },
+        {
+          "title": "Game Gear",
+          "body": "Sega launches a colour handheld in Japan, trading battery life for screen spectacle.",
+          "specs": [
+            "colour screen",
+            "backlight",
+            "Sega handheld"
+          ],
+          "certainty": "verified Japan context",
+          "sourceNote": "Sega Retro cites October 6, 1990."
+        },
+        {
+          "title": "Amstrad GX4000 and Mega Drive Europe",
+          "body": "Britain's console shelf gets crowded, with Sega's 16-bit machine and Amstrad's late 8-bit cartridge gamble.",
+          "specs": [
+            "Mega Drive Europe",
+            "GX4000 cartridges",
+            "Christmas retail pressure"
+          ],
+          "certainty": "UK-aware context",
+          "sourceNote": "Mega Drive Europe and GX4000 both arrive in 1990."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Period magazine context, using reconstructed placeholders until verified cover scans are available.",
+      "items": [
+        {
+          "coverImage": "/magazine-covers/1990/mean-machines-issue-1.svg",
+          "publication": "Mean Machines",
+          "issueDate": "October 1990",
+          "curatorNote": "EMAP gives UK console readers a sharper multi-format voice. Reconstructed placeholder, not a verified scan.",
+          "title": "Mean Machines",
+          "body": "EMAP gives UK console readers a sharper multi-format voice.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1990/zero-1990.svg",
+          "publication": "Zero",
+          "issueDate": "1990",
+          "curatorNote": "The 16-bit computer shelf has a confident UK magazine identity. Reconstructed placeholder, not a verified scan.",
+          "title": "Zero",
+          "body": "The 16-bit computer shelf has a confident UK magazine identity.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1990/ace-1990.svg",
+          "publication": "ACE",
+          "issueDate": "1990",
+          "curatorNote": "A bridge between micros, consoles and the new hardware race. Reconstructed placeholder, not a verified scan.",
+          "title": "ACE",
+          "body": "A bridge between micros, consoles and the new hardware race.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1990/the-games-machine-1990.svg",
+          "publication": "The Games Machine",
+          "issueDate": "1990",
+          "curatorNote": "A broad UK monthly for a market that no longer fits one machine tribe. Reconstructed placeholder, not a verified scan.",
+          "title": "The Games Machine",
+          "body": "A broad UK monthly for a market that no longer fits one machine tribe.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Before online gaming was ordinary, paper, shops and local conversations carried the culture.",
+      "items": [
+        {
+          "title": "Shareware and BBSs become more important",
+          "body": "Commander Keen shows how PC games can spread through uploads, mail order and word of mouth."
+        },
+        {
+          "title": "Print still dominates ordinary discovery",
+          "body": "Mean Machines, Zero, ACE and The Games Machine remain the practical browsing interface."
+        },
+        {
+          "title": "Regional gaps are social knowledge",
+          "body": "Friends know which machines are out in Japan, America or Britain even when nobody nearby owns them."
+        },
+        {
+          "title": "PC gaming has a different route",
+          "body": "DOS games, shareware and hardware requirements make PC culture feel separate from console and microcomputer play."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading of the month as a player might have met it.",
+      "items": [
+        {
+          "title": "Everything arrived at once",
+          "body": "August 1990 could mean a Game Boy in a UK shop, a Mega Drive advert, a PC adventure, and a Japanese Super Famicom screenshot in the same mental drawer."
+        },
+        {
+          "title": "The bedroom was crowded",
+          "body": "Old 8-bit machines, 16-bit computers, handhelds and new consoles all fought for money and attention."
+        },
+        {
+          "title": "PC games gained confidence",
+          "body": "Wing Commander, Monkey Island and Commander Keen made DOS feel less like an office machine and more like a platform."
+        },
+        {
+          "title": "Britain stood between generations",
+          "body": "The Mega Drive and Game Boy were real; the Super Famicom was a glowing promise from Japan."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Super Mario World",
+      "url": "https://en.wikipedia.org/wiki/Super_Mario_World",
+      "note": "Used for November 21, 1990 Japanese Super Famicom launch release."
+    },
+    {
+      "label": "F-Zero",
+      "url": "https://en.wikipedia.org/wiki/F-Zero_%28video_game%29",
+      "note": "Used for November 21, 1990 Japanese Super Famicom launch release."
+    },
+    {
+      "label": "Pilotwings",
+      "url": "https://en.wikipedia.org/wiki/Pilotwings_%28video_game%29",
+      "note": "Used for December 21, 1990 Japanese Super Famicom release."
+    },
+    {
+      "label": "Game Gear - Sega Retro",
+      "url": "https://segaretro.org/History_of_the_Sega_Game_Gear",
+      "note": "Used for October 6, 1990 Japanese Game Gear launch."
+    },
+    {
+      "label": "Game Boy",
+      "url": "https://en.wikipedia.org/wiki/Game_Boy",
+      "note": "Used for September 28, 1990 European Game Boy launch."
+    },
+    {
+      "label": "Amstrad GX4000",
+      "url": "https://en.wikipedia.org/wiki/GX4000",
+      "note": "Used for September 1990 European GX4000 launch context."
+    },
+    {
+      "label": "Mega Drive Europe context",
+      "url": "https://www.tweakers.net/geek/106566/sega-mega-drive-viert-25e-verjaardag.html",
+      "note": "Used for November 30, 1990 European Mega Drive launch context."
+    },
+    {
+      "label": "Fire Emblem World",
+      "url": "https://www.nintendo.com/jp/fe/en/history/index.html",
+      "note": "Used for April 20, 1990 Fire Emblem release."
+    },
+    {
+      "label": "Metal Gear 2",
+      "url": "https://en.wikipedia.org/wiki/Metal_Gear_2%3A_Solid_Snake",
+      "note": "Used for July 20, 1990 MSX2 release."
+    },
+    {
+      "label": "Wing Commander",
+      "url": "https://en.wikipedia.org/wiki/Wing_Commander_%28video_game%29",
+      "note": "Used for September 26, 1990 MS-DOS release."
+    },
+    {
+      "label": "Secret of Monkey Island",
+      "url": "https://www.gamespot.com/games/the-secret-of-monkey-island/",
+      "note": "Used for October 1990 release context."
+    },
+    {
+      "label": "Commander Keen - MobyGames",
+      "url": "https://www.mobygames.com/game/216/commander-keen-1-marooned-on-mars/",
+      "note": "Used for December 14, 1990 DOS release."
+    },
+    {
+      "label": "Mean Machines",
+      "url": "https://en.wikipedia.org/wiki/Mean_Machines",
+      "note": "Used for October 1990 first issue context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-31",
+  "editorNotes": [
+    "Initial AI-generated research draft for August 1990.",
+    "Month-specific dates are used only where the reviewed sources support them; uncertain items are marked in sourceNote/certainty fields.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

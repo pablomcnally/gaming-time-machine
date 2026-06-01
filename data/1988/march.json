@@ -1,0 +1,357 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "March 1988",
+    "accession": "GTM-1988-03",
+    "dek": "March gives Konami's Gradius II a confident arcade date.",
+    "curatorNote": "March has a strong shooter anchor.",
+    "statusChips": [
+      "Gradius II",
+      "Konami",
+      "arcade shooter",
+      "Vulcan Venture"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments, with broad context separated from confident month-level claims.",
+      "items": [
+        {
+          "date": "March 24, 1988",
+          "title": "Gradius II reaches arcades",
+          "body": "Konami's sequel expands the power-up shooter with more spectacle and confidence.",
+          "artifact": "Vic Viper II case",
+          "certainty": "verified date in common summaries",
+          "sourceNote": "Giant Bomb cites March 24, 1988."
+        },
+        {
+          "date": "March 1988",
+          "title": "Shooters become a test of memory and nerve",
+          "body": "The genre is less about improvising and more about learning hostile systems.",
+          "artifact": "route map",
+          "certainty": "interpretive context",
+          "sourceNote": "Gradius II context."
+        },
+        {
+          "date": "March 1988",
+          "title": "European names and releases complicate the shelf",
+          "body": "Gradius II becomes Vulcan Venture in some Western arcade contexts.",
+          "artifact": "title caveat",
+          "certainty": "regional caveat",
+          "sourceNote": "Regional title context."
+        },
+        {
+          "date": "March 1988",
+          "title": "UK readers follow arcade names through magazines",
+          "body": "A coin-op can become familiar before it appears nearby.",
+          "artifact": "preview page",
+          "certainty": "UK-aware context",
+          "sourceNote": "UK magazine context."
+        },
+        {
+          "date": "March 1988",
+          "title": "Computer games still sit beside arcade spectacle",
+          "body": "The same month can mean RPG mapping at home and bullet patterns in public.",
+          "artifact": "split exhibit",
+          "certainty": "museum interpretation",
+          "sourceNote": "Broader 1988 context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable games from the year, led by month-specific anchors where the evidence supports them.",
+      "items": [
+        {
+          "date": "March 24, 1988",
+          "title": "Gradius II",
+          "platform": "Arcade",
+          "body": "Konami revisits the power-up-bar shooter with more spectacle and confidence.",
+          "signal": "shooter sequel",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Giant Bomb cites March 24, 1988."
+        },
+        {
+          "date": "January 1988",
+          "title": "Super Contra",
+          "platform": "Arcade",
+          "body": "Konami's sequel pushes run-and-gun action harder, though exact early arcade timing varies.",
+          "signal": "run-and-gun sequel",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "1988 is secure; month varies across sources."
+        },
+        {
+          "date": "1988",
+          "title": "Wasteland",
+          "platform": "Commodore 64 / Apple II",
+          "body": "Interplay's post-apocalyptic RPG becomes a long shadow over later computer RPGs.",
+          "signal": "post-apocalyptic RPG",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "MobyGames gives 1988; exact first date remains source-variable."
+        },
+        {
+          "date": "1988",
+          "title": "Pool of Radiance",
+          "platform": "DOS / C64",
+          "body": "SSI's first Gold Box AD&D game brings Forgotten Realms tactics to home computers.",
+          "signal": "Gold Box RPG",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "MobyGames gives 1988; month not asserted."
+        },
+        {
+          "date": "June 1988",
+          "title": "Altered Beast",
+          "platform": "Arcade",
+          "body": "Sega's mythic transformation brawler becomes closely tied to the Mega Drive's launch image.",
+          "signal": "Sega arcade brawler",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "June 1988 is widely cited for the arcade version."
+        },
+        {
+          "date": "1988",
+          "title": "Carrier Command",
+          "platform": "Amiga / Atari ST",
+          "body": "Realtime Games mixes strategy, vehicles and islands into a 16-bit technical showcase.",
+          "signal": "16-bit simulation",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "MobyGames gives 1988; month not asserted."
+        },
+        {
+          "date": "1988",
+          "title": "Last Ninja 2",
+          "platform": "Commodore 64",
+          "body": "System 3 sends the ninja into a bigger, more confident sequel.",
+          "signal": "UK micro hit",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "1988 is secure; exact month not asserted."
+        },
+        {
+          "date": "October 23, 1988",
+          "title": "Super Mario Bros. 3",
+          "platform": "Famicom",
+          "body": "Nintendo's platform sequel makes the Famicom feel impossibly polished.",
+          "signal": "platform landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese release date is widely cited as October 23, 1988."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four machines or technology contexts that explain the month's place in gaming history.",
+      "items": [
+        {
+          "title": "Sega Mega Drive",
+          "body": "Launched in Japan on October 29, Sega's 16-bit console marks a new phase even before Britain feels it.",
+          "specs": [
+            "68000 CPU",
+            "cartridge console",
+            "Japan-first launch"
+          ],
+          "certainty": "verified 1988 context",
+          "sourceNote": "Sega cites October 29, 1988."
+        },
+        {
+          "title": "Famicom / NES",
+          "body": "Super Mario Bros. 3 and late-year action games show Nintendo's 8-bit machine at a peak.",
+          "specs": [
+            "Famicom/NES cartridges",
+            "PlayChoice context",
+            "regional release gaps"
+          ],
+          "certainty": "period context",
+          "sourceNote": "Used for SMB3, Ninja Gaiden and Mega Man 2."
+        },
+        {
+          "title": "Amiga and Atari ST",
+          "body": "16-bit home computers make screenshots, music and simulation ambition central to the UK magazine experience.",
+          "specs": [
+            "3.5-inch disks",
+            "mouse interfaces",
+            "premium pricing"
+          ],
+          "certainty": "UK-aware context",
+          "sourceNote": "Used for Carrier Command and UK aspiration context."
+        },
+        {
+          "title": "UK 8-bit micros",
+          "body": "Spectrum, C64 and CPC remain everyday machines even as 16-bit hardware and Japanese consoles dominate headlines.",
+          "specs": [
+            "cassette loading",
+            "budget tapes",
+            "format-specific reviews"
+          ],
+          "certainty": "UK-aware context",
+          "sourceNote": "Used for UK lived-experience framing."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Period magazine context, using reconstructed placeholders until verified cover scans are available.",
+      "items": [
+        {
+          "coverImage": "/magazine-covers/1988/ace-1988.svg",
+          "publication": "ACE",
+          "issueDate": "1988",
+          "curatorNote": "A polished multi-format guide to the 8-bit, 16-bit and console worlds. Reconstructed placeholder, not a verified scan.",
+          "title": "ACE",
+          "body": "A polished multi-format guide to the 8-bit, 16-bit and console worlds.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1988/the-games-machine-1988.svg",
+          "publication": "The Games Machine",
+          "issueDate": "1988",
+          "curatorNote": "Newsfield's multi-format monthly follows the widening games market. Reconstructed placeholder, not a verified scan.",
+          "title": "The Games Machine",
+          "body": "Newsfield's multi-format monthly follows the widening games market.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1988/crash-1988.svg",
+          "publication": "Crash",
+          "issueDate": "1988",
+          "curatorNote": "The Spectrum scene remains a practical centre of British games culture. Reconstructed placeholder, not a verified scan.",
+          "title": "Crash",
+          "body": "The Spectrum scene remains a practical centre of British games culture.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1988/zzap-64-1988.svg",
+          "publication": "Zzap!64",
+          "issueDate": "1988",
+          "curatorNote": "Commodore 64 coverage keeps the UK 8-bit shelf loud and opinionated. Reconstructed placeholder, not a verified scan.",
+          "title": "Zzap!64",
+          "body": "Commodore 64 coverage keeps the UK 8-bit shelf loud and opinionated.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Before online gaming was ordinary, paper, shops and local conversations carried the culture.",
+      "items": [
+        {
+          "title": "Online life is still a side-room",
+          "body": "Compunet, Micronet, BBSs and modem culture exist, but most players remain offline."
+        },
+        {
+          "title": "Magazine previews are the browser window",
+          "body": "A reader can travel from Mega Drive to Amiga to Spectrum without leaving the newsagent."
+        },
+        {
+          "title": "Regional release gaps create mythology",
+          "body": "Games can be famous before they are locally available."
+        },
+        {
+          "title": "Letters pages create slow communities",
+          "body": "Machine loyalty, review arguments and high-score claims move through print over weeks."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading of the month as a player might have met it.",
+      "items": [
+        {
+          "title": "The next generation was visible but distant",
+          "body": "March 1988 could show you the Mega Drive and Super Mario Bros. 3 in print while your own evening still belonged to a cassette or floppy disk."
+        },
+        {
+          "title": "Screenshots carried desire",
+          "body": "Amiga, ST, arcade and Japanese console images made the future feel glossy and expensive."
+        },
+        {
+          "title": "The UK bedroom remained stubbornly practical",
+          "body": "For all the hardware drama elsewhere, British players still loaded games, swapped tapes and read reviews by format."
+        },
+        {
+          "title": "Arcades became mood pieces",
+          "body": "Splatterhouse, Chase H.Q. and Altered Beast made cabinets feel darker, faster and stranger."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Super Mario Bros. 3",
+      "url": "https://en.wikipedia.org/wiki/Super_Mario_Bros._3",
+      "note": "Used for October 23, 1988 Japanese Famicom release."
+    },
+    {
+      "label": "Mega Drive - Sega",
+      "url": "https://www.sega.jp/history/hard/megadrive/",
+      "note": "Used for October 29, 1988 Japanese Mega Drive launch."
+    },
+    {
+      "label": "Mega Drive launch context",
+      "url": "https://www.nintendolife.com/news/2018/10/the_sega_mega_drive_turns_30_today",
+      "note": "Used for launch titles and the Super Mario Bros. 3 overshadowing context."
+    },
+    {
+      "label": "Gradius II",
+      "url": "https://www.giantbomb.com/gradius-ii/3030-3623/",
+      "note": "Used for March 24, 1988 arcade release context."
+    },
+    {
+      "label": "Altered Beast",
+      "url": "https://en.wikipedia.org/wiki/Altered_Beast",
+      "note": "Used for June 1988 Sega arcade release context."
+    },
+    {
+      "label": "Splatterhouse - MobyGames",
+      "url": "https://www.mobygames.com/game/16377/splatterhouse/",
+      "note": "Used for November 1988 arcade release and horror/parental-warning context."
+    },
+    {
+      "label": "Chase H.Q.",
+      "url": "https://en.wikipedia.org/wiki/Chase_H.Q.",
+      "note": "Used for November 1988 arcade context and later Ocean home-computer conversions."
+    },
+    {
+      "label": "Ninja Gaiden - MobyGames",
+      "url": "https://www.mobygames.com/game/7356/ninja-gaiden/",
+      "note": "Used for December 9, 1988 Japanese Famicom release."
+    },
+    {
+      "label": "Mega Man 2",
+      "url": "https://www.megamanwiki.com/wiki/Mega_Man_2",
+      "note": "Used for December 24, 1988 Japanese Famicom release."
+    },
+    {
+      "label": "Wasteland - MobyGames",
+      "url": "https://www.mobygames.com/game/287/wasteland/",
+      "note": "Used for 1988 computer RPG context; exact initial date remains source-variable."
+    },
+    {
+      "label": "Pool of Radiance - MobyGames",
+      "url": "https://www.mobygames.com/game/502/pool-of-radiance/",
+      "note": "Used for 1988 Gold Box RPG context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-31",
+  "editorNotes": [
+    "Initial AI-generated research draft for March 1988.",
+    "Month-specific dates are used only where the reviewed sources support them; uncertain items are marked in sourceNote/certainty fields.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

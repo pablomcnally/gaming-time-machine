@@ -1,0 +1,367 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "May 1987",
+    "accession": "GTM-1987-05",
+    "dek": "May is a watchful month: print, conversions and 16-bit machines carry more evidence than fixed launch dates.",
+    "curatorNote": "No confident May-only release anchor is forced.",
+    "statusChips": [
+      "quiet drawer",
+      "conversions",
+      "Amiga/ST",
+      "UK shelf"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments, with broad context separated from confident month-level claims.",
+      "items": [
+        {
+          "date": "May 1987",
+          "title": "The UK magazine shelf is widening",
+          "body": "Readers are starting to need multi-format coverage as machines multiply.",
+          "artifact": "newsagent shelf",
+          "certainty": "UK-aware context",
+          "sourceNote": "ACE and The Games Machine launch later in 1987."
+        },
+        {
+          "date": "May 1987",
+          "title": "8-bit machines still do most of the work",
+          "body": "The impressive 16-bit future does not yet displace the cassette economy.",
+          "artifact": "cassette rack",
+          "certainty": "UK-aware context",
+          "sourceNote": "UK retail context."
+        },
+        {
+          "date": "May 1987",
+          "title": "Arcade conversion anxiety continues",
+          "body": "The question is not just whether a game will convert, but whether your machine will get the good version.",
+          "artifact": "format sticker",
+          "certainty": "UK-aware context",
+          "sourceNote": "Conversion culture context."
+        },
+        {
+          "date": "May 1987",
+          "title": "PC adventures are becoming more adult and experimental",
+          "body": "Sierra and Lucasfilm are pushing computer adventures in very different directions.",
+          "artifact": "adventure shelf",
+          "certainty": "contextual",
+          "sourceNote": "Leisure Suit Larry and Maniac Mansion context."
+        },
+        {
+          "date": "May 1987",
+          "title": "No confident May-only release anchor",
+          "body": "The month remains deliberately context-led.",
+          "artifact": "quiet card",
+          "certainty": "intentional gap",
+          "sourceNote": "No strong May-specific release anchor found."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable games from the year, led by month-specific anchors where the evidence supports them.",
+      "items": [
+        {
+          "date": "January 14, 1987",
+          "title": "Zelda II: The Adventure of Link",
+          "platform": "Famicom Disk System",
+          "body": "Nintendo's sequel moves Link into side-scrolling action and RPG-like progression.",
+          "signal": "Zelda sequel",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese FDS date is widely cited as January 14, 1987."
+        },
+        {
+          "date": "January 26, 1987",
+          "title": "Dragon Quest II",
+          "platform": "Famicom",
+          "body": "Enix expands console RPG structure into a larger party and broader quest.",
+          "signal": "console RPG landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "MobyGames cites January 26, 1987."
+        },
+        {
+          "date": "February 20, 1987",
+          "title": "Contra",
+          "platform": "Arcade",
+          "body": "Konami's run-and-gun action begins in arcades before becoming a home-console memory.",
+          "signal": "run-and-gun",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "MobyGames cites February 20, 1987 Japan arcade release."
+        },
+        {
+          "date": "April 1987",
+          "title": "Double Dragon",
+          "platform": "Arcade",
+          "body": "Technos turns street fighting into a two-player scrolling beat-'em-up template.",
+          "signal": "beat-'em-up landmark",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "1987 is secure; April timing appears in several summaries but is marked cautiously."
+        },
+        {
+          "date": "June 4, 1987",
+          "title": "Leisure Suit Larry",
+          "platform": "DOS",
+          "body": "Sierra's adult comedy adventure becomes a strange, talk-about-it computer-shop object.",
+          "signal": "adult adventure",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "MobyGames cites June 4, 1987."
+        },
+        {
+          "date": "July 1, 1987",
+          "title": "R-Type",
+          "platform": "Arcade",
+          "body": "Irem's shooter makes memorisation, the Force pod and body-horror staging feel inseparable.",
+          "signal": "shooter landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Giant Bomb cites July 1, 1987; MobyGames gives year-level arcade release."
+        },
+        {
+          "date": "July 13, 1987",
+          "title": "Metal Gear",
+          "platform": "MSX2",
+          "body": "Hideo Kojima's stealth-action experiment starts on Japanese MSX2 hardware.",
+          "signal": "stealth origin",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Sources cite July 13, 1987 Japanese MSX2 release."
+        },
+        {
+          "date": "July 1987",
+          "title": "After Burner",
+          "platform": "Arcade",
+          "body": "Sega's jet cabinet sells speed, motion and spectacle.",
+          "signal": "Sega super-scaler",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "MobyGames and Sega histories cite July 1987 Japan arcade release; other regions follow."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four machines or technology contexts that explain the month's place in gaming history.",
+      "items": [
+        {
+          "title": "PC Engine",
+          "body": "NEC and Hudson's tiny HuCard console launches in Japan on October 30, opening a new hardware front.",
+          "specs": [
+            "HuCard media",
+            "compact console",
+            "Japan-first launch"
+          ],
+          "certainty": "verified 1987 context",
+          "sourceNote": "NEC Retro cites October 30, 1987."
+        },
+        {
+          "title": "NES / Famicom",
+          "body": "The Japanese Famicom and Western NES histories are no longer moving in sync.",
+          "specs": [
+            "cartridge console",
+            "Famicom Disk System",
+            "regional libraries"
+          ],
+          "certainty": "period context",
+          "sourceNote": "Used for Zelda II, Mega Man and regional caveats."
+        },
+        {
+          "title": "Sega Master System / Mark III",
+          "body": "Sega's 8-bit console hosts Phantasy Star in Japan and remains a different proposition by region.",
+          "specs": [
+            "cartridges/cards",
+            "Master System",
+            "Japanese Mark III context"
+          ],
+          "certainty": "period context",
+          "sourceNote": "Used for Phantasy Star context."
+        },
+        {
+          "title": "UK 8/16-bit computers",
+          "body": "Spectrum, C64, CPC, Amiga and ST define much of the British lived experience.",
+          "specs": [
+            "cassette and disk software",
+            "multi-format magazines",
+            "joysticks"
+          ],
+          "certainty": "UK-aware context",
+          "sourceNote": "Used for UK regional framing."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Period magazine context, using reconstructed placeholders until verified cover scans are available.",
+      "items": [
+        {
+          "coverImage": "/magazine-covers/1987/ace-issue-1.svg",
+          "publication": "ACE",
+          "issueDate": "October 1987",
+          "curatorNote": "Future's multi-format magazine arrives with a more technical, score-led voice. Reconstructed placeholder, not a verified scan.",
+          "title": "ACE",
+          "body": "Future's multi-format magazine arrives with a more technical, score-led voice.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1987/the-games-machine-issue-1.svg",
+          "publication": "The Games Machine",
+          "issueDate": "October-November 1987",
+          "curatorNote": "Newsfield brings its Crash/Zzap energy to a broader multi-format audience. Reconstructed placeholder, not a verified scan.",
+          "title": "The Games Machine",
+          "body": "Newsfield brings its Crash/Zzap energy to a broader multi-format audience.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1987/crash-1987.svg",
+          "publication": "Crash",
+          "issueDate": "1987",
+          "curatorNote": "The Spectrum shelf remains central to UK games culture. Reconstructed placeholder, not a verified scan.",
+          "title": "Crash",
+          "body": "The Spectrum shelf remains central to UK games culture.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1987/zzap-64-1987.svg",
+          "publication": "Zzap!64",
+          "issueDate": "1987",
+          "curatorNote": "The Commodore 64 scene keeps its own loud monthly identity. Reconstructed placeholder, not a verified scan.",
+          "title": "Zzap!64",
+          "body": "The Commodore 64 scene keeps its own loud monthly identity.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Before online gaming was ordinary, paper, shops and local conversations carried the culture.",
+      "items": [
+        {
+          "title": "Print is the real network",
+          "body": "ACE, The Games Machine, Crash and Zzap!64 move information faster than most players' modems."
+        },
+        {
+          "title": "BBS and online services remain specialist",
+          "body": "A small enthusiast world exists, but ordinary gaming culture is still local and paper-led."
+        },
+        {
+          "title": "Import knowledge travels slowly",
+          "body": "Japanese console releases become rumours, screenshots and tiny news items before they become playable."
+        },
+        {
+          "title": "The playground is still the feed",
+          "body": "Cheats, arcade sightings and which conversion is terrible move by voice first."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading of the month as a player might have met it.",
+      "items": [
+        {
+          "title": "The map was widening",
+          "body": "May 1987 could mean a Japanese console RPG, a Sega arcade cabinet, a UK Spectrum review and a PC adventure all at once."
+        },
+        {
+          "title": "Britain felt format-first",
+          "body": "The question was not just what game mattered, but which machine, which conversion and which magazine said so."
+        },
+        {
+          "title": "Arcades still had physical authority",
+          "body": "R-Type, After Burner, Street Fighter and Shinobi felt like objects as much as software."
+        },
+        {
+          "title": "The future arrived out of order",
+          "body": "Japanese consoles, American PCs and British micros made history in overlapping but unsynchronised timelines."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Zelda II",
+      "url": "https://zeldawiki.wiki/wiki/Zelda_II%3A_The_Adventure_of_Link",
+      "note": "Used for January 14, 1987 Japanese Famicom Disk System release."
+    },
+    {
+      "label": "Dragon Quest II - MobyGames",
+      "url": "https://www.mobygames.com/game/8075/dragon-warrior-ii/",
+      "note": "Used for January 26, 1987 Japanese Famicom release."
+    },
+    {
+      "label": "Contra - MobyGames",
+      "url": "https://www.mobygames.com/game/4863/contra/releases/arcade/",
+      "note": "Used for February 20, 1987 Japanese arcade release."
+    },
+    {
+      "label": "Leisure Suit Larry - MobyGames",
+      "url": "https://www.mobygames.com/game/leisure-suit-larry-in-the-land-of-the-lounge-lizards",
+      "note": "Used for June 4, 1987 DOS release."
+    },
+    {
+      "label": "R-Type - Giant Bomb",
+      "url": "https://www.giantbomb.com/wd/3030-13745/",
+      "note": "Used for July 1, 1987 Japanese arcade release; MobyGames gives year-level arcade release."
+    },
+    {
+      "label": "Metal Gear",
+      "url": "https://en.wikipedia.org/wiki/Metal_Gear_%28video_game%29",
+      "note": "Used for July 13, 1987 MSX2 Japan release and European 1987 context."
+    },
+    {
+      "label": "Street Fighter - MobyGames",
+      "url": "https://www.mobygames.com/game/9465/street-fighter/",
+      "note": "Used for August 30, 1987 arcade release."
+    },
+    {
+      "label": "Maniac Mansion",
+      "url": "https://en.wikipedia.org/wiki/Maniac_Mansion",
+      "note": "Used for October 1987 Commodore 64/Apple II release and SCUMM context; MobyGames also cites September Apple II."
+    },
+    {
+      "label": "PC Engine",
+      "url": "https://necretro.org/PC_Engine",
+      "note": "Used for October 30, 1987 Japanese PC Engine launch."
+    },
+    {
+      "label": "Mega Man",
+      "url": "https://en.wikipedia.org/wiki/Mega_Man",
+      "note": "Used for December 17, 1987 NES/Famicom release context."
+    },
+    {
+      "label": "Final Fantasy",
+      "url": "https://famicomdo.com/2021/08/08/final-fantasy/",
+      "note": "Used for December 18, 1987 Japanese Famicom release."
+    },
+    {
+      "label": "Phantasy Star - MobyGames",
+      "url": "https://www.mobygames.com/game/8194/phantasy-star/",
+      "note": "Used for December 20, 1987 Japanese Master System release."
+    },
+    {
+      "label": "ACE magazine",
+      "url": "https://en.wikipedia.org/wiki/ACE_%28magazine%29",
+      "note": "Used for October 1987 UK launch context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-31",
+  "editorNotes": [
+    "Initial AI-generated research draft for May 1987.",
+    "Month-specific dates are used only where the reviewed sources support them; uncertain items are marked in sourceNote/certainty fields.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "February 1986",
+    "accession": "GTM-1986-02",
+    "dek": "Nintendo launches the Famicom Disk System and The Legend of Zelda begins as a disk adventure.",
+    "curatorNote": "February has a major Japanese console-history anchor.",
+    "statusChips": [
+      "Zelda",
+      "FDS",
+      "Nintendo",
+      "disk games"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments, with broad context separated from confident month-level claims.",
+      "items": [
+        {
+          "date": "February 21, 1986",
+          "title": "Nintendo launches the Famicom Disk System",
+          "body": "The disk add-on promises rewritable storage and larger-feeling games for Japanese Famicom owners.",
+          "artifact": "yellow disk card",
+          "certainty": "verified date",
+          "sourceNote": "FDS launch is widely cited as 21 February 1986."
+        },
+        {
+          "date": "February 21, 1986",
+          "title": "The Legend of Zelda is released in Japan",
+          "body": "Nintendo's adventure turns secrets, maps and open-ended exploration into a new console ritual.",
+          "artifact": "Hyrule map",
+          "certainty": "verified date",
+          "sourceNote": "Japanese FDS release is widely cited as 21 February 1986."
+        },
+        {
+          "date": "February 1986",
+          "title": "The US NES rollout expands beyond New York",
+          "body": "Nintendo's North American recovery is becoming more plausible, though still regionally staged.",
+          "artifact": "NES rollout label",
+          "certainty": "contextual",
+          "sourceNote": "US launch was staged across 1985-1986."
+        },
+        {
+          "date": "February 1986",
+          "title": "UK players see another parallel timeline",
+          "body": "Zelda matters enormously, but not yet as an ordinary British shop purchase.",
+          "artifact": "regional caveat",
+          "certainty": "UK-aware caveat",
+          "sourceNote": "UK release context differs."
+        },
+        {
+          "date": "February 1986",
+          "title": "The Spectrum 128 reaches UK attention",
+          "body": "Improved sound and memory promise a more capable Sinclair machine.",
+          "artifact": "128K badge",
+          "certainty": "UK-aware context",
+          "sourceNote": "UK Spectrum 128 launch context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable games from the year, led by month-specific anchors where the evidence supports them.",
+      "items": [
+        {
+          "date": "February 21, 1986",
+          "title": "The Legend of Zelda",
+          "platform": "Famicom Disk System",
+          "body": "Nintendo turns exploration, secrets and item discovery into a new console ritual.",
+          "signal": "adventure landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese FDS release date is widely cited as 21 February 1986."
+        },
+        {
+          "date": "March 1986",
+          "title": "Fantasy Zone",
+          "platform": "Arcade",
+          "body": "Sega's pastel shooter makes arcade space feel bright, strange and toy-like.",
+          "signal": "cute-'em-up",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "March 1986 is commonly cited."
+        },
+        {
+          "date": "April 1986",
+          "title": "Wonder Boy",
+          "platform": "Arcade",
+          "body": "Sega and Westone's running platformer adds momentum, fruit and skateboard charm.",
+          "signal": "arcade platformer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "April 1986 is cited in several summaries."
+        },
+        {
+          "date": "May 27, 1986",
+          "title": "Dragon Quest",
+          "platform": "Famicom",
+          "body": "Enix's console RPG becomes a Japanese phenomenon and helps define Famicom role-playing.",
+          "signal": "console RPG landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese release date is widely cited as 27 May 1986."
+        },
+        {
+          "date": "1986",
+          "title": "Bubble Bobble",
+          "platform": "Arcade",
+          "body": "Taito's bubble-trapping co-op game becomes one of the year's most enduring arcade designs.",
+          "signal": "co-op arcade",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "1986 is secure; exact month varies by region/source."
+        },
+        {
+          "date": "July 1986",
+          "title": "Arkanoid",
+          "platform": "Arcade",
+          "body": "Taito rebuilds Breakout for the power-up age.",
+          "signal": "block-breaking revival",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "July 1986 is common in arcade summaries."
+        },
+        {
+          "date": "August 6, 1986",
+          "title": "Metroid",
+          "platform": "Famicom Disk System",
+          "body": "Exploration, isolation and backtracking make Nintendo's sci-fi world feel unusually lonely.",
+          "signal": "exploration action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese FDS date is widely cited as 6 August 1986."
+        },
+        {
+          "date": "September 1986",
+          "title": "Out Run",
+          "platform": "Arcade",
+          "body": "Sega turns driving into a blue-sky, music-selecting holiday fantasy.",
+          "signal": "driving spectacle",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Sega histories cite September 1986."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four machines or technology contexts that explain the month's place in gaming history.",
+      "items": [
+        {
+          "title": "Famicom Disk System",
+          "body": "Nintendo's disk add-on hosts Zelda, Metroid and Kid Icarus in its first year.",
+          "specs": [
+            "disk cards",
+            "save support",
+            "Famicom add-on"
+          ],
+          "certainty": "verified 1986 context",
+          "sourceNote": "Launched 21 February 1986."
+        },
+        {
+          "title": "ZX Spectrum +2",
+          "body": "Amstrad's cassette-deck Spectrum changes the look of Sinclair gaming in British shops.",
+          "specs": [
+            "128K RAM",
+            "integrated cassette",
+            "Amstrad case"
+          ],
+          "certainty": "UK-aware 1986 context",
+          "sourceNote": "Used for late-1986 UK retail context."
+        },
+        {
+          "title": "Sega Master System / Mark III",
+          "body": "Sega's home-console line grows through 1986, even if its UK impact blooms later.",
+          "specs": [
+            "cartridges/cards",
+            "arcade conversions",
+            "Alex Kidd"
+          ],
+          "certainty": "regional context",
+          "sourceNote": "Release timing varies by region."
+        },
+        {
+          "title": "Amiga and Atari ST",
+          "body": "16-bit home computers are becoming a dream tier above most children's tape machines.",
+          "specs": [
+            "Motorola 68000",
+            "premium pricing",
+            "magazine screenshots"
+          ],
+          "certainty": "period context",
+          "sourceNote": "Used for UK aspiration context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Period magazine context, using reconstructed placeholders until verified cover scans are available.",
+      "items": [
+        {
+          "coverImage": "/magazine-covers/1986/your-sinclair-issue-1.svg",
+          "publication": "Your Sinclair",
+          "issueDate": "January 1986",
+          "curatorNote": "Your Spectrum becomes Your Sinclair as the Sinclair audience matures. Reconstructed placeholder, not a verified scan.",
+          "title": "Your Sinclair",
+          "body": "Your Spectrum becomes Your Sinclair as the Sinclair audience matures.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1986/crash-1986.svg",
+          "publication": "Crash",
+          "issueDate": "1986",
+          "curatorNote": "Still central to the Spectrum newsagent ritual. Reconstructed placeholder, not a verified scan.",
+          "title": "Crash",
+          "body": "Still central to the Spectrum newsagent ritual.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1986/zzap-64-1986.svg",
+          "publication": "Zzap!64",
+          "issueDate": "1986",
+          "curatorNote": "Commodore owners get reviews, maps, arguments and attitude. Reconstructed placeholder, not a verified scan.",
+          "title": "Zzap!64",
+          "body": "Commodore owners get reviews, maps, arguments and attitude.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1986/amstrad-action-1986.svg",
+          "publication": "Amstrad Action",
+          "issueDate": "1986",
+          "curatorNote": "The CPC has a proper monthly home as the machine's library grows. Reconstructed placeholder, not a verified scan.",
+          "title": "Amstrad Action",
+          "body": "The CPC has a proper monthly home as the machine's library grows.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Before online gaming was ordinary, paper, shops and local conversations carried the culture.",
+      "items": [
+        {
+          "title": "Compunet and Micronet hint at a future",
+          "body": "A small slice of UK users can see networked services, but most players still learn through paper and people."
+        },
+        {
+          "title": "Letters pages are slow communities",
+          "body": "Arguments about machines, scores and broken games appear weeks after they are posted."
+        },
+        {
+          "title": "BBS culture is specialist",
+          "body": "Modems exist, but they are not the normal doorway into games for British children."
+        },
+        {
+          "title": "The schoolyard remains the feed",
+          "body": "Rumours about Zelda, imports, arcade conversions and Spectrum secrets travel by voice."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading of the month as a player might have met it.",
+      "items": [
+        {
+          "title": "The world was splitting into timelines",
+          "body": "February 1986 could hold Zelda in Japan, NES momentum in America and cassette games in a British bedroom."
+        },
+        {
+          "title": "Screenshots sold dreams",
+          "body": "Magazine pages made Amiga, arcade and Japanese console games feel close even when they were not."
+        },
+        {
+          "title": "The microcomputer argument continued",
+          "body": "Spectrum +2, CPC, C64, BBC, ST and Amiga all carried different budgets and identities."
+        },
+        {
+          "title": "Arcades felt like holidays",
+          "body": "Out Run and Bubble Bobble belonged to bright public spaces before they became home-conversion expectations."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Famicom Disk System",
+      "url": "https://en.wikipedia.org/wiki/Famicom_Disk_System",
+      "note": "Used for 21 February 1986 launch and Zelda context."
+    },
+    {
+      "label": "The Legend of Zelda",
+      "url": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-nes/",
+      "note": "Used for 21 February 1986 Japanese release context."
+    },
+    {
+      "label": "Metroid",
+      "url": "https://www.nintendo.com/us/store/products/metroid-nes/",
+      "note": "Used for 6 August 1986 Japanese release context."
+    },
+    {
+      "label": "Dragon Quest",
+      "url": "https://www.mobygames.com/game/17110/dragon-warrior/",
+      "note": "Used for 27 May 1986 Japanese Famicom release context."
+    },
+    {
+      "label": "Out Run",
+      "url": "https://segaretro.org/OutRun",
+      "note": "Used for September 1986 arcade release context."
+    },
+    {
+      "label": "Castlevania",
+      "url": "https://www.mobygames.com/game/7162/castlevania/",
+      "note": "Used for September 1986 Famicom Disk System release context."
+    },
+    {
+      "label": "Amstrad and Sinclair",
+      "url": "https://www.computinghistory.org.uk/det/5845/Amstrad-buys-Sinclair-Research/",
+      "note": "Used for April 1986 Amstrad buying Sinclair Research computer assets."
+    },
+    {
+      "label": "Bubble Bobble",
+      "url": "https://www.mobygames.com/game/1347/bubble-bobble/",
+      "note": "Used for 1986 arcade release context; month varies by region/source."
+    },
+    {
+      "label": "Defender of the Crown",
+      "url": "https://www.mobygames.com/game/147/defender-of-the-crown/",
+      "note": "Used for 1986 Amiga release context."
+    },
+    {
+      "label": "Your Sinclair",
+      "url": "https://en.wikipedia.org/wiki/Your_Sinclair",
+      "note": "Used for January 1986 magazine relaunch context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-31",
+  "editorNotes": [
+    "Initial AI-generated research draft for February 1986.",
+    "Month-specific dates are used only where the reviewed sources support them; uncertain items are marked in sourceNote/certainty fields.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

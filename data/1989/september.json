@@ -1,0 +1,362 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "September 1989",
+    "accession": "GTM-1989-09",
+    "dek": "September gives colour handhelds a rival future with Atari Lynx.",
+    "curatorNote": "September has a strong handheld hardware anchor, but regional context matters.",
+    "statusChips": [
+      "Atari Lynx",
+      "handhelds",
+      "Game Boy rival",
+      "UK caveat"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments, with broad context separated from confident month-level claims.",
+      "items": [
+        {
+          "date": "September 1989",
+          "title": "Atari releases the Lynx in North America",
+          "body": "The colour handheld offers technical glamour against Nintendo's cheaper monochrome Game Boy.",
+          "artifact": "Lynx screen",
+          "certainty": "verified month",
+          "sourceNote": "Atari Lynx sources cite September 1989 North America."
+        },
+        {
+          "date": "September 1989",
+          "title": "Portable gaming becomes competitive",
+          "body": "The question is no longer whether a handheld can matter, but what kind of handheld should win.",
+          "artifact": "portable comparison",
+          "certainty": "museum interpretation",
+          "sourceNote": "Handheld market context."
+        },
+        {
+          "date": "September 1989",
+          "title": "Battery life becomes part of design history",
+          "body": "Power, screen quality, size and price all shape portable memory.",
+          "artifact": "battery card",
+          "certainty": "contextual",
+          "sourceNote": "Handheld comparison context."
+        },
+        {
+          "date": "September 1989",
+          "title": "UK players still wait for both major handheld stories",
+          "body": "Game Boy and Lynx are future shop-window objects for Britain.",
+          "artifact": "regional marker",
+          "certainty": "UK-aware caveat",
+          "sourceNote": "European launch timing differs."
+        },
+        {
+          "date": "September 1989",
+          "title": "The 16-bit computer shelf remains vivid",
+          "body": "Amiga and ST screenshots still dominate much UK future-gazing.",
+          "artifact": "16-bit spread",
+          "certainty": "UK-aware context",
+          "sourceNote": "UK magazine context."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable games from the year, led by month-specific anchors where the evidence supports them.",
+      "items": [
+        {
+          "date": "February 1989",
+          "title": "SimCity",
+          "platform": "DOS / Amiga / Macintosh",
+          "body": "Will Wright and Maxis make the city itself the toy.",
+          "signal": "city simulation",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "1989 is secure; exact first platform/month varies by source, so February is used cautiously."
+        },
+        {
+          "date": "March 1989",
+          "title": "Populous",
+          "platform": "Amiga",
+          "body": "Bullfrog's god game lets players shape land and people rather than simply move an avatar.",
+          "signal": "god-game landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Common references cite March 1989 Amiga release."
+        },
+        {
+          "date": "April 21, 1989",
+          "title": "Super Mario Land",
+          "platform": "Game Boy",
+          "body": "Mario shrinks into a strange monochrome launch adventure for Nintendo's new handheld.",
+          "signal": "handheld platformer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "MobyGames cites April 21, 1989."
+        },
+        {
+          "date": "April 21, 1989",
+          "title": "Alleyway",
+          "platform": "Game Boy",
+          "body": "A clean block-breaking launch title that shows the handheld's simple pick-up logic.",
+          "signal": "Game Boy launch title",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese Game Boy launch context."
+        },
+        {
+          "date": "June 14, 1989",
+          "title": "Tetris",
+          "platform": "Game Boy",
+          "body": "Nintendo's handheld finds the puzzle game that will define its public identity.",
+          "signal": "handheld puzzle landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "MobyGames cites June 14, 1989."
+        },
+        {
+          "date": "May 1989",
+          "title": "Golden Axe",
+          "platform": "Arcade",
+          "body": "Sega's fantasy brawler gives the side-scrolling beat-'em-up a swords-and-magic form.",
+          "signal": "fantasy arcade brawler",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "May 1989 appears in several summaries; mark regional timing cautiously."
+        },
+        {
+          "date": "1989",
+          "title": "Teenage Mutant Ninja Turtles",
+          "platform": "Arcade/NES context",
+          "body": "The turtles become part of the year's licensing and arcade conversation.",
+          "signal": "licensed action",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "1989 is secure; platform and regional dates vary."
+        },
+        {
+          "date": "October 3, 1989",
+          "title": "Prince of Persia",
+          "platform": "Apple II",
+          "body": "Jordan Mechner's rotoscoped animation makes platform movement look alive.",
+          "signal": "cinematic platformer",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "MobyGames cites October 3, 1989."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four machines or technology contexts that explain the month's place in gaming history.",
+      "items": [
+        {
+          "title": "Game Boy",
+          "body": "Nintendo's monochrome handheld launches in Japan and North America, pairing portability with cartridge play.",
+          "specs": [
+            "2.6-inch LCD",
+            "cartridges",
+            "Link Cable"
+          ],
+          "certainty": "verified 1989 context",
+          "sourceNote": "Japan April 21, North America July 31, Europe follows in 1990."
+        },
+        {
+          "title": "Sega Genesis / Mega Drive",
+          "body": "Sega's 16-bit console enters North America in August, while Britain mostly watches from a distance.",
+          "specs": [
+            "Motorola 68000",
+            "Altered Beast pack-in",
+            "16-bit marketing"
+          ],
+          "certainty": "verified North American context",
+          "sourceNote": "European launch follows in 1990."
+        },
+        {
+          "title": "TurboGrafx-16",
+          "body": "NEC and Hudson's PC Engine becomes a North American console challenger.",
+          "specs": [
+            "HuCard media",
+            "US launch August 1989",
+            "Keith Courage pack-in"
+          ],
+          "certainty": "verified context",
+          "sourceNote": "NEC Retro cites August 29, 1989."
+        },
+        {
+          "title": "UK 8/16-bit computers",
+          "body": "Spectrum, C64, CPC, Amiga and ST remain the machines many British players actually own.",
+          "specs": [
+            "cassette and disk software",
+            "joysticks",
+            "format-specific magazines"
+          ],
+          "certainty": "UK-aware context",
+          "sourceNote": "Used for British lived-experience framing."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Period magazine context, using reconstructed placeholders until verified cover scans are available.",
+      "items": [
+        {
+          "coverImage": "/magazine-covers/1989/gamepro-issue-1.svg",
+          "publication": "GamePro",
+          "issueDate": "May-June 1989",
+          "curatorNote": "A US multi-format magazine enters the console conversation. Reconstructed placeholder, not a verified scan.",
+          "title": "GamePro",
+          "body": "A US multi-format magazine enters the console conversation.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1989/amiga-format-issue-1.svg",
+          "publication": "Amiga Format",
+          "issueDate": "August 1989",
+          "curatorNote": "The Amiga gets a dedicated Future Publishing monthly after the ST/Amiga split. Reconstructed placeholder, not a verified scan.",
+          "title": "Amiga Format",
+          "body": "The Amiga gets a dedicated Future Publishing monthly after the ST/Amiga split.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1989/zero-issue-1.svg",
+          "publication": "Zero",
+          "issueDate": "October 1989",
+          "curatorNote": "Dennis Publishing launches a UK 16-bit computer magazine with coverdisk culture. Reconstructed placeholder, not a verified scan.",
+          "title": "Zero",
+          "body": "Dennis Publishing launches a UK 16-bit computer magazine with coverdisk culture.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1989/ace-1989.svg",
+          "publication": "ACE",
+          "issueDate": "1989",
+          "curatorNote": "ACE keeps comparing computers, consoles and arcade conversions with a technical eye. Reconstructed placeholder, not a verified scan.",
+          "title": "ACE",
+          "body": "ACE keeps comparing computers, consoles and arcade conversions with a technical eye.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Before online gaming was ordinary, paper, shops and local conversations carried the culture.",
+      "items": [
+        {
+          "title": "Magazine shelves are still the network",
+          "body": "ACE, Zero, Amiga Format, Crash and Zzap move information faster than most players' modems."
+        },
+        {
+          "title": "BBS culture remains specialist",
+          "body": "Some PC and enthusiast users know bulletin boards, but most gaming discovery is still local and printed."
+        },
+        {
+          "title": "Import knowledge travels as rumour",
+          "body": "Game Boy, Genesis and TurboGrafx stories can be famous before they are locally available."
+        },
+        {
+          "title": "The shop window matters",
+          "body": "Screenshots looping on an Amiga or ST can sell a machine as surely as a review."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading of the month as a player might have met it.",
+      "items": [
+        {
+          "title": "The future became portable",
+          "body": "September 1989 could make games feel smaller, not weaker: a grey handheld, a few batteries, and a cartridge in a pocket."
+        },
+        {
+          "title": "Britain was slightly out of phase",
+          "body": "Many of the year's defining hardware moments happened elsewhere first, while UK players lived through micros and magazines."
+        },
+        {
+          "title": "16-bit screenshots had gravity",
+          "body": "Amiga, ST, Genesis and TurboGrafx images made the next decade feel glossy before it was affordable."
+        },
+        {
+          "title": "The arcade was still physical theatre",
+          "body": "Golden Axe and Final Fight belonged to cabinets, friends and noise before they became home conversions."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Game Boy - Computing History",
+      "url": "https://www.computinghistory.org.uk/det/71708/",
+      "note": "Used for April 21, 1989 Japanese Game Boy launch and broad Game Boy/Tetris context."
+    },
+    {
+      "label": "Game Boy",
+      "url": "https://en.wikipedia.org/wiki/Game_Boy",
+      "note": "Used for Japan, North America and Europe launch timing, and Tetris pack-in context."
+    },
+    {
+      "label": "Super Mario Land - MobyGames",
+      "url": "https://www.mobygames.com/game/4275/super-mario-land/",
+      "note": "Used for April 21, 1989 Game Boy release."
+    },
+    {
+      "label": "Tetris Game Boy - MobyGames",
+      "url": "https://www.mobygames.com/game/42121/tetris/",
+      "note": "Used for June 14, 1989 Game Boy Tetris release."
+    },
+    {
+      "label": "Populous",
+      "url": "https://en.wikipedia.org/wiki/Populous_%28video_game%29",
+      "note": "Used for March 1989 Amiga release and Bullfrog god-game context."
+    },
+    {
+      "label": "Prince of Persia - MobyGames",
+      "url": "https://www.mobygames.com/game/dos/prince-of-persia",
+      "note": "Used for October 3, 1989 Apple II release."
+    },
+    {
+      "label": "Final Fight - MobyGames",
+      "url": "https://www.mobygames.com/game/5088/final-fight/",
+      "note": "Used for December 1989 arcade release."
+    },
+    {
+      "label": "TurboGrafx-16 - NEC Retro",
+      "url": "https://necretro.org/TurboGrafx-16",
+      "note": "Used for August 29, 1989 North American TurboGrafx-16 launch context."
+    },
+    {
+      "label": "Atari Lynx",
+      "url": "https://en.wikipedia.org/wiki/Atari_Lynx",
+      "note": "Used for September 1989 North American Lynx launch context."
+    },
+    {
+      "label": "GamePro issue 1",
+      "url": "https://www.retromags.com/files/file/2900-gamepro-issue-001-may-1989/",
+      "note": "Used for May-June 1989 first issue context."
+    },
+    {
+      "label": "Zero magazine",
+      "url": "https://en.wikipedia.org/wiki/Zero_%28video_game_magazine%29",
+      "note": "Used for October/November 1989 UK magazine launch context."
+    },
+    {
+      "label": "Amiga Format",
+      "url": "https://en.wikipedia.org/wiki/Amiga_Format",
+      "note": "Used for August 1989 first issue context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-31",
+  "editorNotes": [
+    "Initial AI-generated research draft for September 1989.",
+    "Month-specific dates are used only where the reviewed sources support them; uncertain items are marked in sourceNote/certainty fields.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}

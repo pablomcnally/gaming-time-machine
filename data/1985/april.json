@@ -1,0 +1,352 @@
+{
+  "museum": {
+    "name": "Gaming Time Machine",
+    "period": "April 1985",
+    "accession": "GTM-1985-04",
+    "dek": "April brings Capcom's Commando into the arcade conversation and the UK magazine shelf starts to sharpen.",
+    "curatorNote": "April has arcade context, with some exact timing remaining source-dependent.",
+    "statusChips": [
+      "Commando",
+      "Zzap incoming",
+      "arcade action",
+      "C64"
+    ]
+  },
+  "sections": [
+    {
+      "id": "news",
+      "eyebrow": "Gallery 01",
+      "title": "News",
+      "subtitle": "Five researched moments, with broad context separated from confident month-level claims.",
+      "items": [
+        {
+          "date": "April 1985",
+          "title": "Commando appears in arcade release summaries",
+          "body": "Capcom's top-down run-and-gun action becomes a cabinet hit and later a home-computer conversion prize.",
+          "artifact": "Commando flyer",
+          "certainty": "source-cited month",
+          "sourceNote": "Some summaries cite April 1985; regional timing varies."
+        },
+        {
+          "date": "April 1985",
+          "title": "Zzap!64 is about to land",
+          "body": "Newsfield's Commodore magazine is poised to give C64 owners a distinctive critical voice.",
+          "artifact": "C64 issue proof",
+          "certainty": "UK-aware context",
+          "sourceNote": "Zzap!64 first issue cover dated May 1985."
+        },
+        {
+          "date": "April 1985",
+          "title": "UK players read across formats",
+          "body": "Even loyal machine owners study rivals through reviews and screenshots.",
+          "artifact": "review grid",
+          "certainty": "contextual",
+          "sourceNote": "UK magazine context."
+        },
+        {
+          "date": "April 1985",
+          "title": "Arcade action becomes a conversion economy",
+          "body": "Publishers know that a cabinet name can sell tapes.",
+          "artifact": "licence card",
+          "certainty": "contextual",
+          "sourceNote": "Arcade-to-micro conversion context."
+        },
+        {
+          "date": "April 1985",
+          "title": "Computer RPGs grow in the background",
+          "body": "The year's role-playing releases are coming, but not every month leaves a clean trail.",
+          "artifact": "RPG shelf",
+          "certainty": "contextual",
+          "sourceNote": "Ultima IV and Bard's Tale arrive later in 1985."
+        }
+      ]
+    },
+    {
+      "id": "releases",
+      "eyebrow": "Gallery 02",
+      "title": "Releases",
+      "subtitle": "Eight notable games from the year, led by month-specific anchors where the evidence supports them.",
+      "items": [
+        {
+          "date": "April 1985",
+          "title": "Commando",
+          "platform": "Arcade",
+          "body": "Capcom's run-and-gun war game becomes a conversion target for home micros.",
+          "signal": "arcade action",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Month is cited in some arcade summaries; keep regional timing cautious."
+        },
+        {
+          "date": "May 1985",
+          "title": "Gradius",
+          "platform": "Arcade",
+          "body": "Konami's side-scrolling shooter gives the power-up bar a lasting place in arcade memory.",
+          "signal": "shooter landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "MobyGames and other summaries place the arcade release in May 1985."
+        },
+        {
+          "date": "July 1985",
+          "title": "Hang-On",
+          "platform": "Arcade",
+          "body": "Sega turns the cabinet itself into a motorbike-shaped attraction.",
+          "signal": "ride-on arcade",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Release timing varies by region; 1985 is secure."
+        },
+        {
+          "date": "September 13, 1985",
+          "title": "Super Mario Bros.",
+          "platform": "Famicom",
+          "body": "Nintendo's platform game gives the Famicom a language of momentum, secrets and worlds.",
+          "signal": "platform landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "Japanese release date is widely cited as 13 September 1985."
+        },
+        {
+          "date": "September 1985",
+          "title": "Ultima IV: Quest of the Avatar",
+          "platform": "Apple II / computer",
+          "body": "A role-playing game concerned with virtue as much as victory.",
+          "signal": "computer RPG landmark",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "MobyGames cites September 1985."
+        },
+        {
+          "date": "1985",
+          "title": "The Bard's Tale",
+          "platform": "Apple II / computer",
+          "body": "A party RPG whose taverns, streets and dungeons make the computer feel like a boxed campaign.",
+          "signal": "computer RPG",
+          "certainty": "year-level or source-conflicted context",
+          "sourceNote": "Year is secure; month is not asserted here."
+        },
+        {
+          "date": "October 1985",
+          "title": "Gauntlet",
+          "platform": "Arcade",
+          "body": "Four-player fantasy action turns cooperation, shouting and hunger for food into arcade theatre.",
+          "signal": "co-op arcade",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "MobyGames cites October 1985."
+        },
+        {
+          "date": "October 1985",
+          "title": "Little Computer People",
+          "platform": "Commodore 64 / computer",
+          "body": "A tiny resident in a digital house makes the computer feel oddly domestic.",
+          "signal": "software toy",
+          "certainty": "month-specific or source-cited",
+          "sourceNote": "October appears in several release summaries."
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "eyebrow": "Gallery 03",
+      "title": "Hardware",
+      "subtitle": "Four machines or technology contexts that explain the month's place in gaming history.",
+      "items": [
+        {
+          "title": "Commodore Amiga",
+          "body": "Launched in July as a multimedia machine that immediately changes what screenshots can promise.",
+          "specs": [
+            "Motorola 68000",
+            "custom chips",
+            "advanced audio/graphics"
+          ],
+          "certainty": "verified 1985 launch context",
+          "sourceNote": "Computer History Museum cites 23 July 1985."
+        },
+        {
+          "title": "Atari ST",
+          "body": "The other affordable 16-bit dream, shown early in the year and entering a staggered market.",
+          "specs": [
+            "Motorola 68000",
+            "GEM desktop",
+            "MIDI ports"
+          ],
+          "certainty": "period context",
+          "sourceNote": "Retail timing varies by region."
+        },
+        {
+          "title": "NES / Famicom",
+          "body": "In Japan, Mario defines the Famicom; in the US, Nintendo cautiously tests the NES.",
+          "specs": [
+            "cartridge console",
+            "Famicom library",
+            "US test launch"
+          ],
+          "certainty": "verified 1985 context",
+          "sourceNote": "NES test launch and SMB sources."
+        },
+        {
+          "title": "UK 8-bit micros",
+          "body": "Spectrum, C64, CPC and BBC remain the machines most British players actually use.",
+          "specs": [
+            "cassette loading",
+            "format-specific magazines",
+            "high-street software"
+          ],
+          "certainty": "UK-aware context",
+          "sourceNote": "UK magazine and retail context."
+        }
+      ]
+    },
+    {
+      "id": "magazines",
+      "eyebrow": "Gallery 04",
+      "title": "Magazine Covers",
+      "subtitle": "Period magazine context, using reconstructed placeholders until verified cover scans are available.",
+      "items": [
+        {
+          "coverImage": "/magazine-covers/1985/zzap-64-issue-1.svg",
+          "publication": "Zzap!64",
+          "issueDate": "May 1985",
+          "curatorNote": "A loud, confident Commodore voice arrives on the UK shelf. Reconstructed placeholder, not a verified scan.",
+          "title": "Zzap!64",
+          "body": "A loud, confident Commodore voice arrives on the UK shelf.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1985/amstrad-action-issue-1.svg",
+          "publication": "Amstrad Action",
+          "issueDate": "October 1985",
+          "curatorNote": "The CPC scene receives its defining dedicated magazine. Reconstructed placeholder, not a verified scan.",
+          "title": "Amstrad Action",
+          "body": "The CPC scene receives its defining dedicated magazine.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1985/amtix-issue-1.svg",
+          "publication": "Amtix!",
+          "issueDate": "November 1985",
+          "curatorNote": "Newsfield gives Amstrad owners a sharper games-first identity. Reconstructed placeholder, not a verified scan.",
+          "title": "Amtix!",
+          "body": "Newsfield gives Amstrad owners a sharper games-first identity.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        },
+        {
+          "coverImage": "/magazine-covers/1985/crash-1985.svg",
+          "publication": "Crash",
+          "issueDate": "1985",
+          "curatorNote": "The Spectrum magazine remains a fixture of British games culture. Reconstructed placeholder, not a verified scan.",
+          "title": "Crash",
+          "body": "The Spectrum magazine remains a fixture of British games culture.",
+          "certainty": "reconstructed placeholder",
+          "sourceNote": "Replace with verified/licensed cover scan when available."
+        }
+      ]
+    },
+    {
+      "id": "online",
+      "eyebrow": "Gallery 05",
+      "title": "Online Life",
+      "subtitle": "Before online gaming was ordinary, paper, shops and local conversations carried the culture.",
+      "items": [
+        {
+          "title": "Print is still the main network",
+          "body": "Magazines, mail-order adverts and reader letters carry more practical games knowledge than online services."
+        },
+        {
+          "title": "Prestel and specialist services remain niche",
+          "body": "Some UK computer users can imagine online information, but ordinary gaming culture is still mostly offline."
+        },
+        {
+          "title": "The playground is fast",
+          "body": "Cheats, loading tips and rumours move through school faster than magazines can print corrections."
+        },
+        {
+          "title": "Demo and cover-tape culture is still forming",
+          "body": "The magazine shelf is becoming a way to experience games before buying them, even before later cover tapes dominate."
+        }
+      ]
+    },
+    {
+      "id": "felt",
+      "eyebrow": "Gallery 06",
+      "title": "What It Felt Like",
+      "subtitle": "A short atmospheric reading of the month as a player might have met it.",
+      "items": [
+        {
+          "title": "The future was unevenly distributed",
+          "body": "April 1985 could mean reading about 16-bit marvels while still loading a tape on a rubber-key Spectrum."
+        },
+        {
+          "title": "Machine identity mattered",
+          "body": "C64, Spectrum, CPC and BBC owners all read the same year differently."
+        },
+        {
+          "title": "Arcades still had the big magic",
+          "body": "Hang-On, Gauntlet and Space Harrier made public play feel physically larger than home gaming."
+        },
+        {
+          "title": "Nintendo was not yet everywhere in Britain",
+          "body": "Mario and the NES were historically seismic, but many UK players met them first as distant names."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Commodore Amiga launch",
+      "url": "https://www.computerhistory.org/tdih/july/23/",
+      "note": "Used for the 23 July 1985 Amiga launch."
+    },
+    {
+      "label": "Nintendo Entertainment System",
+      "url": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+      "note": "Used for the October 1985 New York test launch and wider NES context."
+    },
+    {
+      "label": "Super Mario Bros.",
+      "url": "https://www.nintendo.com/en-gb/Games/NES/Super-Mario-Bros--803853.html",
+      "note": "Used for 13 September 1985 Japanese release context."
+    },
+    {
+      "label": "Gauntlet - MobyGames",
+      "url": "https://www.mobygames.com/game/660/gauntlet/",
+      "note": "Used for October 1985 arcade release context."
+    },
+    {
+      "label": "Gradius",
+      "url": "https://www.mobygames.com/game/5434/gradius/",
+      "note": "Used for May 1985 arcade release context."
+    },
+    {
+      "label": "Hang-On",
+      "url": "https://segaretro.org/Hang-On",
+      "note": "Used for 1985 arcade release and ride-on cabinet context."
+    },
+    {
+      "label": "Space Harrier",
+      "url": "https://segaretro.org/Space_Harrier",
+      "note": "Used for December 1985 arcade release context."
+    },
+    {
+      "label": "Ultima IV",
+      "url": "https://www.mobygames.com/game/880/ultima-iv-quest-of-the-avatar/",
+      "note": "Used for September 1985 computer RPG context."
+    },
+    {
+      "label": "Zzap!64",
+      "url": "https://en.wikipedia.org/wiki/Zzap!64",
+      "note": "Used for May 1985 launch issue context."
+    },
+    {
+      "label": "Amstrad Action",
+      "url": "https://en.wikipedia.org/wiki/Amstrad_Action",
+      "note": "Used for October 1985 launch context."
+    }
+  ],
+  "status": "ai-draft",
+  "lastEdited": "2026-05-31",
+  "editorNotes": [
+    "Initial AI-generated research draft for April 1985.",
+    "Month-specific dates are used only where the reviewed sources support them; uncertain items are marked in sourceNote/certainty fields.",
+    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+  ]
+}
