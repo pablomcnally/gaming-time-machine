@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleAnalytics } from "./components/google-analytics";
 import { TimeTravelTransition } from "./components/time-travel-transition";
 import "./globals.css";
 
@@ -35,6 +36,7 @@ export default function RootLayout({
       <body>
         {children}
         <TimeTravelTransition />
+        <GoogleAnalytics measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
         <Analytics />
         <SpeedInsights />
       </body>
