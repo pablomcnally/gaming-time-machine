@@ -1,0 +1,25 @@
+﻿{
+    "theme_color":  "#141414",
+    "name":  "Gaming Time Machine",
+    "background_color":  "#f3efe4",
+    "description":  "A digital museum of video game history, one month at a time.",
+    "short_name":  "GTM",
+    "icons":  [
+                  {
+                      "type":  "image/png",
+                      "sizes":  "16x16",
+                      "src":  "/favicon-16x16.png"
+                  },
+                  {
+                      "type":  "image/png",
+                      "sizes":  "32x32",
+                      "src":  "/favicon-32x32.png"
+                  },
+                  {
+                      "type":  "image/png",
+                      "sizes":  "180x180",
+                      "src":  "/apple-touch-icon.png"
+                  }
+              ],
+    "display":  "standalone"
+}

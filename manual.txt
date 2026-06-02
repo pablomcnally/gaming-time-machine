@@ -1,0 +1,40 @@
+GAMING TIME MACHINE DEPLOYMENT WORKFLOW
+
+main = live production site
+develop = staging / testing branch
+
+START WORKING
+git checkout develop
+git pull
+
+SAVE WORK TO STAGING
+git status
+git add .
+git commit -m "Describe the change"
+git push
+
+Then check the Vercel Preview Deployment for develop.
+
+IF STAGING LOOKS GOOD
+git checkout main
+git pull
+git merge develop
+git push
+
+This sends the approved version live.
+
+THEN RETURN TO STAGING
+git checkout develop
+
+IF SOMETHING GOES WRONG ON DEVELOP
+git status
+git restore .
+or
+git checkout main
+git branch -D develop
+git checkout -b develop
+git push -u origin develop --force
+
+DAILY RULE
+Never work directly on main unless fixing an emergency.
+Always work on develop first.
