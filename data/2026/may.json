@@ -3,7 +3,7 @@
     "name": "Gaming Time Machine",
     "period": "May 2026",
     "accession": "GTM-2026-05",
-    "dek": "May is the month where GTA VI is felt as an absence.",
+    "dek": "What's this enormous GTA VI size whole we have this month?",
     "curatorNote": "Initial researched draft for May 2026. This is recent history, so dates and interpretation should be rechecked during human edit.",
     "statusChips": [
       "GTA VI waiting",
@@ -30,10 +30,15 @@
         {
           "date": "May 2026",
           "title": "Subnautica 2 enters early access on May 14.",
-          "body": "A current-history context note, written cautiously because recent events can still shift in interpretation.",
-          "artifact": "release calendar card",
+          "body": "After court cases and arguments the world finally got it's hands on Sub 2 - and it instantly sold four million copies.",
+          "artifact": "PC Early Access",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit.",
+          "artifactImage": "2026/may/subnautica2.jpg",
+          "artifactImageAlt": "An underwater image from Subnautica 2",
+          "artifactImageCaption": "After all the drama, Subnautica 2 finally arrived in Early Access.",
+          "artifactImageCredit": "Unknown Worlds",
+          "artifactImageType": "PC screenshot"
         },
         {
           "date": "May 2026",
@@ -74,7 +79,8 @@
           "body": "Supermassive's Dark Pictures series goes into space.",
           "signal": "cinematic horror",
           "certainty": "month-specific or source-cited",
-          "sourceNote": "GamesRadar and Gematsu list May 12, 2026."
+          "sourceNote": "GamesRadar and Gematsu list May 12, 2026.",
+          "coverImage": ""
         },
         {
           "date": "May 12, 2026",
@@ -277,11 +283,11 @@
         },
         {
           "title": "Switch 2 became normal very quickly",
-          "body": "Ports and editions made the new console feel less like spectacle and more like furniture."
+          "body": "While gaming journalism began to forgot about the OG Switch, players will still asking where the big games for the newbie console were"
         },
         {
-          "title": "Online games felt provisional",
-          "body": "Early access, live-service bets and post-launch roadmaps made finishedness harder to pin down."
+          "title": "Hardware prices started to scare gamers",
+          "body": "Huge hikes due due to 'global conditions' began to scare gamers who didn't want to pay an extra £200 for a Steam Deck"
         },
         {
           "title": "The present already feels archival",

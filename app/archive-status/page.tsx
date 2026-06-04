@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 export default function ArchiveStatusPage() {
   const summary = getArchiveWorkflowSummary();
   const years = Object.keys(summary.byYear).map(Number).sort((left, right) => left - right);
+  const showLocalCuratorTools = process.env.NODE_ENV === "development";
 
   return (
     <main className="min-h-screen bg-[#f3efe4] text-zinc-900">
@@ -27,6 +28,14 @@ export default function ArchiveStatusPage() {
             Editorial tracking for exhibit drafts, human-edited entries, and verified monthly archive panels.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
+            {showLocalCuratorTools ? (
+              <a
+                href="/curator/exhibits"
+                className="border border-amber-200/40 px-4 py-3 font-mono text-xs uppercase tracking-[0.2em] text-amber-200 transition hover:border-amber-100 hover:text-amber-100"
+              >
+                Exhibit Editor
+              </a>
+            ) : null}
             <a
               href="/logo-gallery"
               className="border border-amber-200/40 px-4 py-3 font-mono text-xs uppercase tracking-[0.2em] text-amber-200 transition hover:border-amber-100 hover:text-amber-100"
