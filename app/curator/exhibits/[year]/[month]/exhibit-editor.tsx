@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { Exhibit, ExhibitStatus } from "../../../../../data/archive";
 
 type EditableValue = string | number | boolean | string[] | Record<string, unknown> | unknown[] | null | undefined;
@@ -24,6 +24,14 @@ type EditableSource = {
 type EditableExhibit = Omit<Exhibit, "sections" | "sources"> & {
   sections: EditableSection[];
   sources: EditableSource[];
+};
+type ImageKind = "artifacts" | "magazine-covers";
+type CuratorImage = {
+  directory: string;
+  filename: string;
+  kind: ImageKind;
+  label: string;
+  src: string;
 };
 
 const statusOptions: { value: ExhibitStatus; label: string }[] = [
@@ -60,18 +68,135 @@ function toLines(values: string[]) {
 }
 
 function fromLines(value: string) {
-  return value
-    .split("\n")
-    .map((line) => line.trim())
-    .filter(Boolean);
+  return value.split("\n");
 }
 
 function isStringList(value: unknown): value is string[] {
   return Array.isArray(value) && value.every((entry) => typeof entry === "string");
 }
 
+function normalizeStringList(values: string[]) {
+  return values.map((line) => line.trim()).filter(Boolean);
+}
+
+function normalizeEditableValue(value: unknown): unknown {
+  if (isStringList(value)) {
+    return normalizeStringList(value);
+  }
+
+  if (Array.isArray(value)) {
+    return value.map((entry) => normalizeEditableValue(entry));
+  }
+
+  if (value && typeof value === "object") {
+    return normalizeEditableObject(value as Record<string, unknown>);
+  }
+
+  return value;
+}
+
+function normalizeEditableObject<T extends Record<string, unknown>>(value: T) {
+  return Object.fromEntries(Object.entries(value).map(([key, entry]) => [key, normalizeEditableValue(entry)])) as T;
+}
+
+function normalizeExhibitForSave(exhibit: EditableExhibit) {
+  return normalizeEditableObject(cloneExhibit(exhibit as Exhibit) as unknown as Record<string, unknown>) as unknown as EditableExhibit;
+}
+
 function titleFromKey(key: string) {
   return key.replace(/([A-Z])/g, " $1").replace(/^./, (letter) => letter.toUpperCase());
+}
+
+function moveArrayItem<T>(items: T[], fromIndex: number, toIndex: number) {
+  if (toIndex < 0 || toIndex >= items.length || fromIndex === toIndex) {
+    return items;
+  }
+
+  const nextItems = [...items];
+  const [movedItem] = nextItems.splice(fromIndex, 1);
+  nextItems.splice(toIndex, 0, movedItem);
+
+  return nextItems;
+}
+
+function getDateSortValue(item: EditableItem, fallbackIndex: number) {
+  if (typeof item.date !== "string") {
+    return 1000 + fallbackIndex;
+  }
+
+  const date = item.date.toLowerCase();
+  const monthDayMatch = date.match(
+    /\b(?:january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{1,2})(?:st|nd|rd|th)?\b/
+  );
+  const leadingDayMatch = date.match(/^\s*(\d{1,2})(?:st|nd|rd|th)?\b/);
+  const day = Number(monthDayMatch?.[1] ?? leadingDayMatch?.[1]);
+
+  if (!Number.isFinite(day) || day < 1 || day > 31) {
+    return 1000 + fallbackIndex;
+  }
+
+  return day + fallbackIndex / 1000;
+}
+
+function sortItemsByDate(items: EditableItem[]) {
+  return [...items]
+    .map((item, index) => ({ item, index, sortValue: getDateSortValue(item, index) }))
+    .sort((first, second) => first.sortValue - second.sortValue || first.index - second.index)
+    .map(({ item }) => item);
+}
+
+function getSectionJumpLabel(section: EditableSection, index: number) {
+  return section.title || section.eyebrow || section.id || `Section ${index + 1}`;
+}
+
+function getImageFieldKind(fieldKey: string) {
+  const key = fieldKey.toLowerCase();
+
+  if (key === "coverimage") {
+    return "magazine-covers" as const;
+  }
+
+  if (key === "artifactimage" || key === "artifactimagesrc" || key === "image" || key === "imagesrc") {
+    return "artifacts" as const;
+  }
+
+  return null;
+}
+
+function getImagePreviewSrc(fieldKey: string, value: string) {
+  if (!value || value.startsWith("http://") || value.startsWith("https://")) {
+    return null;
+  }
+
+  if (value.startsWith("/artifacts/") || value.startsWith("/magazine-covers/")) {
+    return value;
+  }
+
+  if (value.startsWith("artifacts/") || value.startsWith("magazine-covers/")) {
+    return `/${value}`;
+  }
+
+  const kind = getImageFieldKind(fieldKey);
+
+  if (kind === "artifacts") {
+    return `/artifacts/${value}`;
+  }
+
+  if (kind === "magazine-covers") {
+    return `/magazine-covers/${value}`;
+  }
+
+  return null;
+}
+
+function getSelectedImageValue(fieldKey: string, image: CuratorImage) {
+  const kind = getImageFieldKind(fieldKey);
+
+  if (kind === "artifacts" && image.src.startsWith("/artifacts/")) {
+    return image.src.replace("/artifacts/", "");
+  }
+
+  return image.src;
 }
 
 function validateExhibit(exhibit: EditableExhibit) {
@@ -185,6 +310,127 @@ function TextArea({
   );
 }
 
+function ImagePickerModal({
+  defaultKind,
+  fieldKey,
+  onClose,
+  onSelect
+}: {
+  defaultKind: ImageKind;
+  fieldKey: string;
+  onClose: () => void;
+  onSelect: (value: string) => void;
+}) {
+  const [activeKind, setActiveKind] = useState<ImageKind>(defaultKind);
+  const [images, setImages] = useState<CuratorImage[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const [query, setQuery] = useState("");
+  const [message, setMessage] = useState("");
+
+  async function loadImages(kind: ImageKind) {
+    setActiveKind(kind);
+    setIsLoading(true);
+    setMessage("");
+
+    const response = await fetch(`/curator/api/images?kind=${kind}`);
+    const result = (await response.json()) as { images?: CuratorImage[]; message?: string; ok?: boolean };
+
+    if (!response.ok || !result.ok) {
+      setImages([]);
+      setMessage(result.message ?? "Could not load images.");
+      setIsLoading(false);
+      return;
+    }
+
+    setImages(result.images ?? []);
+    setIsLoading(false);
+  }
+
+  useEffect(() => {
+    void loadImages(defaultKind);
+  }, [defaultKind]);
+
+  const filteredImages = images.filter((image) => image.label.toLowerCase().includes(query.toLowerCase()));
+
+  return (
+    <div className="fixed inset-0 z-50 grid place-items-center bg-zinc-950/80 p-4 backdrop-blur-sm">
+      <div className="max-h-[88vh] w-full max-w-6xl overflow-hidden border border-amber-200/20 bg-[#f3efe4] shadow-exhibit">
+        <div className="border-b border-black/10 bg-zinc-950 p-5 text-stone-50">
+          <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+            <div>
+              <p className="font-mono text-xs uppercase tracking-[0.28em] text-amber-200">Image drawer</p>
+              <h3 className="mt-2 font-display text-4xl">Choose image</h3>
+              <p className="mt-3 text-sm leading-6 text-stone-300">
+                Selecting an image will fill <code>{fieldKey}</code> with the expected path format.
+              </p>
+            </div>
+            <button type="button" onClick={onClose} className="font-mono text-xs uppercase tracking-[0.22em] text-stone-300 transition hover:text-amber-100">
+              Close
+            </button>
+          </div>
+        </div>
+
+        <div className="grid gap-4 border-b border-black/10 p-4 md:grid-cols-[auto_1fr] md:items-center">
+          <div className="flex flex-wrap gap-2">
+            {(["artifacts", "magazine-covers"] as ImageKind[]).map((kind) => (
+              <button
+                key={kind}
+                type="button"
+                onClick={() => void loadImages(kind)}
+                className={[
+                  "border px-3 py-2 font-mono text-[10px] uppercase tracking-[0.18em] transition",
+                  activeKind === kind
+                    ? "border-red-700 bg-red-700 text-stone-50"
+                    : "border-zinc-950/20 bg-white text-zinc-700 hover:border-red-700 hover:text-red-700"
+                ].join(" ")}
+              >
+                {kind === "artifacts" ? "Artifacts" : "Magazine Covers"}
+              </button>
+            ))}
+          </div>
+          <input
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder="Filter by year, month, filename..."
+            className="w-full border border-zinc-950/15 bg-white px-3 py-2 text-sm outline-none transition focus:border-red-700"
+          />
+        </div>
+
+        <div className="max-h-[52vh] overflow-y-auto p-4">
+          {isLoading ? <p className="text-sm text-zinc-600">Opening image drawer...</p> : null}
+          {message ? <p className="border border-red-700/20 bg-red-50 p-4 text-sm text-red-900">{message}</p> : null}
+          {!isLoading && filteredImages.length === 0 && !message ? (
+            <p className="border border-dashed border-zinc-950/20 p-4 text-sm text-zinc-600">No images found in this drawer.</p>
+          ) : null}
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {filteredImages.map((image) => (
+              <button
+                key={image.src}
+                type="button"
+                onClick={() => {
+                  onSelect(getSelectedImageValue(fieldKey, image));
+                  onClose();
+                }}
+                className="group overflow-hidden border border-black/10 bg-[#fbf8ef] text-left shadow-exhibit transition hover:-translate-y-0.5 hover:border-red-700"
+              >
+                <div className="aspect-[4/3] bg-zinc-950">
+                  <img src={image.src} alt="" className="h-full w-full object-cover" loading="lazy" />
+                </div>
+                <div className="p-3">
+                  <p className="break-all font-mono text-[10px] uppercase tracking-[0.16em] text-zinc-500 group-hover:text-red-700">
+                    {image.kind === "artifacts" ? "Artifact" : "Magazine"}
+                  </p>
+                  <p className="mt-2 break-all text-xs leading-5 text-zinc-700">{image.label}</p>
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function EditableValueField({
   fieldKey,
   onChange,
@@ -196,18 +442,33 @@ function EditableValueField({
   onRemove?: () => void;
   value: EditableValue;
 }) {
+  const imageKind = getImageFieldKind(fieldKey);
+  const [isImagePickerOpen, setIsImagePickerOpen] = useState(false);
+
   if (typeof value === "string") {
     const isLong = value.length > 80 || /body|note|description|caption|dek/i.test(fieldKey);
+    const previewSrc = imageKind ? getImagePreviewSrc(fieldKey, value) : null;
 
     return (
       <div className="grid gap-2">
         <div className="flex items-center justify-between gap-3">
           <FieldLabel>{titleFromKey(fieldKey)}</FieldLabel>
-          {onRemove ? (
-            <button type="button" onClick={onRemove} className="font-mono text-[10px] uppercase tracking-[0.18em] text-red-700">
-              Remove
-            </button>
-          ) : null}
+          <div className="flex flex-wrap items-center gap-3">
+            {imageKind ? (
+              <button
+                type="button"
+                onClick={() => setIsImagePickerOpen(true)}
+                className="font-mono text-[10px] uppercase tracking-[0.18em] text-red-700"
+              >
+                Choose image
+              </button>
+            ) : null}
+            {onRemove ? (
+              <button type="button" onClick={onRemove} className="font-mono text-[10px] uppercase tracking-[0.18em] text-red-700">
+                Remove
+              </button>
+            ) : null}
+          </div>
         </div>
         {isLong ? (
           <textarea
@@ -223,6 +484,25 @@ function EditableValueField({
             className="w-full border border-zinc-950/15 bg-white px-3 py-2 text-sm outline-none transition focus:border-red-700"
           />
         )}
+        {previewSrc ? (
+          <figure className="grid gap-3 border border-zinc-950/10 bg-[#fbf8ef] p-3 sm:grid-cols-[8rem_1fr] sm:items-center">
+            <div className="aspect-[4/3] overflow-hidden bg-zinc-950">
+              <img src={previewSrc} alt="" className="h-full w-full object-cover" loading="lazy" />
+            </div>
+            <figcaption>
+              <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-zinc-500">Current image</p>
+              <p className="mt-2 break-all text-xs leading-5 text-zinc-700">{previewSrc}</p>
+            </figcaption>
+          </figure>
+        ) : null}
+        {imageKind && isImagePickerOpen ? (
+          <ImagePickerModal
+            defaultKind={imageKind}
+            fieldKey={fieldKey}
+            onClose={() => setIsImagePickerOpen(false)}
+            onSelect={(nextValue) => onChange(nextValue)}
+          />
+        ) : null}
       </div>
     );
   }
@@ -278,7 +558,8 @@ export function ExhibitEditor({
   }
 
   async function save() {
-    const errors = validateExhibit(draft);
+    const exhibitForSave = normalizeExhibitForSave(draft);
+    const errors = validateExhibit(exhibitForSave);
 
     if (errors.length > 0) {
       setSaveState("error");
@@ -294,7 +575,7 @@ export function ExhibitEditor({
       headers: {
         "Content-Type": "application/json"
       },
-      body: JSON.stringify(draft)
+      body: JSON.stringify(exhibitForSave)
     });
     const result = (await response.json()) as { ok?: boolean; message?: string };
 
@@ -305,6 +586,7 @@ export function ExhibitEditor({
     }
 
     setSaveState("saved");
+    setDraft(exhibitForSave);
     setMessage(result.message ?? "Saved.");
   }
 
@@ -373,7 +655,37 @@ export function ExhibitEditor({
         ) : null}
       </section>
 
-      <section className="border border-black/10 bg-[#fbf8ef] p-5 shadow-exhibit md:p-7">
+      <nav
+        aria-label="Editor section navigation"
+        className="sticky top-0 z-20 border border-black/10 bg-[#fbf8ef]/95 p-4 shadow-exhibit backdrop-blur md:p-5"
+      >
+        <p className="font-mono text-[10px] uppercase tracking-[0.28em] text-red-700">Section index</p>
+        <div className="mt-3 flex gap-2 overflow-x-auto pb-1">
+          <a
+            href="#editor-intro"
+            className="shrink-0 border border-zinc-950/15 bg-white px-3 py-2 font-mono text-[10px] uppercase tracking-[0.16em] text-zinc-700 transition hover:border-red-700 hover:text-red-700"
+          >
+            Exhibit Intro
+          </a>
+          {draft.sections.map((section, sectionIndex) => (
+            <a
+              key={`jump-${sectionIndex}`}
+              href={`#editor-section-${sectionIndex}`}
+              className="shrink-0 border border-zinc-950/15 bg-white px-3 py-2 font-mono text-[10px] uppercase tracking-[0.16em] text-zinc-700 transition hover:border-red-700 hover:text-red-700"
+            >
+              {getSectionJumpLabel(section, sectionIndex)}
+            </a>
+          ))}
+          <a
+            href="#editor-sources"
+            className="shrink-0 border border-zinc-950/15 bg-white px-3 py-2 font-mono text-[10px] uppercase tracking-[0.16em] text-zinc-700 transition hover:border-red-700 hover:text-red-700"
+          >
+            Sources
+          </a>
+        </div>
+      </nav>
+
+      <section id="editor-intro" className="scroll-mt-28 border border-black/10 bg-[#fbf8ef] p-5 shadow-exhibit md:p-7">
         <p className="font-mono text-xs uppercase tracking-[0.28em] text-red-700">Museum label</p>
         <h2 className="mt-3 font-display text-4xl text-zinc-950">Exhibit Intro</h2>
         <div className="mt-6 grid gap-4 md:grid-cols-2">
@@ -391,24 +703,44 @@ export function ExhibitEditor({
       </section>
 
       {draft.sections.map((section, sectionIndex) => (
-        <section key={`${section.id}-${sectionIndex}`} className="border border-black/10 bg-[#fbf8ef] p-5 shadow-exhibit md:p-7">
+        <section
+          key={`section-${sectionIndex}`}
+          id={`editor-section-${sectionIndex}`}
+          className="scroll-mt-28 border border-black/10 bg-[#fbf8ef] p-5 shadow-exhibit md:p-7"
+        >
           <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
             <div>
               <p className="font-mono text-xs uppercase tracking-[0.28em] text-red-700">{section.eyebrow || `Section ${sectionIndex + 1}`}</p>
               <h2 className="mt-3 font-display text-4xl text-zinc-950">{section.title || "Untitled section"}</h2>
             </div>
-            <button
-              type="button"
-              onClick={() =>
-                updateDraft((current) => ({
-                  ...current,
-                  sections: current.sections.filter((_, index) => index !== sectionIndex)
-                }))
-              }
-              className="font-mono text-[11px] uppercase tracking-[0.18em] text-red-700"
-            >
-              Remove section
-            </button>
+            <div className="flex flex-wrap gap-3">
+              <button
+                type="button"
+                onClick={() =>
+                  updateDraft((current) => ({
+                    ...current,
+                    sections: current.sections.map((candidate, index) =>
+                      index === sectionIndex ? { ...candidate, items: sortItemsByDate(candidate.items) } : candidate
+                    )
+                  }))
+                }
+                className="border border-zinc-950/20 px-3 py-2 font-mono text-[10px] uppercase tracking-[0.16em] text-zinc-600 transition hover:border-red-700 hover:text-red-700"
+              >
+                Sort items by date
+              </button>
+              <button
+                type="button"
+                onClick={() =>
+                  updateDraft((current) => ({
+                    ...current,
+                    sections: current.sections.filter((_, index) => index !== sectionIndex)
+                  }))
+                }
+                className="font-mono text-[11px] uppercase tracking-[0.18em] text-red-700"
+              >
+                Remove section
+              </button>
+            </div>
           </div>
 
           <div className="mt-6 grid gap-4 md:grid-cols-2">
@@ -432,27 +764,59 @@ export function ExhibitEditor({
               const extraKeys = Object.keys(item).filter((key) => key !== "title" && key !== "body");
 
               return (
-                <article key={`${item.title}-${itemIndex}`} className="border border-zinc-950/10 bg-[#f3efe4] p-4">
+                <article key={`item-${sectionIndex}-${itemIndex}`} className="border border-zinc-950/10 bg-[#f3efe4] p-4">
                   <div className="flex items-start justify-between gap-4">
                     <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-zinc-500">
                       Item {String(itemIndex + 1).padStart(2, "0")}
                     </p>
-                    <button
-                      type="button"
-                      onClick={() =>
-                        updateDraft((current) => ({
-                          ...current,
-                          sections: current.sections.map((candidate, index) =>
-                            index === sectionIndex
-                              ? { ...candidate, items: candidate.items.filter((_, candidateItemIndex) => candidateItemIndex !== itemIndex) }
-                              : candidate
-                          )
-                        }))
-                      }
-                      className="font-mono text-[10px] uppercase tracking-[0.18em] text-red-700"
-                    >
-                      Remove item
-                    </button>
+                    <div className="flex flex-wrap justify-end gap-3">
+                      <button
+                        type="button"
+                        disabled={itemIndex === 0}
+                        onClick={() =>
+                          updateDraft((current) => ({
+                            ...current,
+                            sections: current.sections.map((candidate, index) =>
+                              index === sectionIndex ? { ...candidate, items: moveArrayItem(candidate.items, itemIndex, itemIndex - 1) } : candidate
+                            )
+                          }))
+                        }
+                        className="font-mono text-[10px] uppercase tracking-[0.18em] text-zinc-500 transition hover:text-red-700 disabled:cursor-not-allowed disabled:opacity-35 disabled:hover:text-zinc-500"
+                      >
+                        Move up
+                      </button>
+                      <button
+                        type="button"
+                        disabled={itemIndex === section.items.length - 1}
+                        onClick={() =>
+                          updateDraft((current) => ({
+                            ...current,
+                            sections: current.sections.map((candidate, index) =>
+                              index === sectionIndex ? { ...candidate, items: moveArrayItem(candidate.items, itemIndex, itemIndex + 1) } : candidate
+                            )
+                          }))
+                        }
+                        className="font-mono text-[10px] uppercase tracking-[0.18em] text-zinc-500 transition hover:text-red-700 disabled:cursor-not-allowed disabled:opacity-35 disabled:hover:text-zinc-500"
+                      >
+                        Move down
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() =>
+                          updateDraft((current) => ({
+                            ...current,
+                            sections: current.sections.map((candidate, index) =>
+                              index === sectionIndex
+                                ? { ...candidate, items: candidate.items.filter((_, candidateItemIndex) => candidateItemIndex !== itemIndex) }
+                                : candidate
+                            )
+                          }))
+                        }
+                        className="font-mono text-[10px] uppercase tracking-[0.18em] text-red-700"
+                      >
+                        Remove item
+                      </button>
+                    </div>
                   </div>
 
                   <div className="mt-4 grid gap-4">
@@ -596,12 +960,12 @@ export function ExhibitEditor({
         </section>
       ))}
 
-      <section className="border border-black/10 bg-[#fbf8ef] p-5 shadow-exhibit md:p-7">
+      <section id="editor-sources" className="scroll-mt-28 border border-black/10 bg-[#fbf8ef] p-5 shadow-exhibit md:p-7">
         <p className="font-mono text-xs uppercase tracking-[0.28em] text-red-700">Reference shelf</p>
         <h2 className="mt-3 font-display text-4xl text-zinc-950">Sources</h2>
         <div className="mt-6 grid gap-4">
           {draft.sources.map((source, sourceIndex) => (
-            <article key={`${source.label}-${sourceIndex}`} className="grid gap-4 border border-zinc-950/10 bg-[#f3efe4] p-4 md:grid-cols-[1fr_1fr]">
+            <article key={`source-${sourceIndex}`} className="grid gap-4 border border-zinc-950/10 bg-[#f3efe4] p-4 md:grid-cols-[1fr_1fr]">
               <TextInput
                 label="Label"
                 value={source.label}

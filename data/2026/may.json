@@ -17,23 +17,27 @@
       "id": "news",
       "eyebrow": "Gallery 01",
       "title": "News",
-      "subtitle": "Five source-noted moments or context markers.",
+      "subtitle": "May 2026 felt like a month defined as much by absence as by arrival. The delay of Grand Theft Auto VI continued to cast a long shadow over the industry, with publishers, players and commentators all trying to work out what a 2026 release calendar looked like without gaming's biggest event at its centre. At the same time, Forza Horizon 6 raced onto the scene as one of the year's most significant launches, while Nintendo's Switch 2 settled into its second year as a mainstream platform rather than a novelty. Across social media, gaming forums and streaming platforms, discussion increasingly centred on live-service updates, early-access roadmaps and long-term support plans, reflecting an industry where launch day was no longer the end of a game's story, but often just the beginning.",
       "items": [
         {
           "date": "May 2026",
-          "title": "Directive 8020 and Indiana Jones on Switch 2 arrive on May 12.",
-          "body": "A current-history context note, written cautiously because recent events can still shift in interpretation.",
-          "artifact": "platform notice",
+          "title": "Directive 8020 and Indiana Jones on Switch 2 arrive",
+          "body": "May 12th is a good day with the highly-anticipated Directive 8020 turning up, and Indy finally makes a crusade to the Switch 2. It wasn't all rosy for D8020, though, as it was leaked as a torrent 24 hours earlier.",
+          "artifact": "Release",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+          "sourceNote": "Release dates confirmed",
+          "artifactImage": "2026/may/directive8020.jpg",
+          "coverImageAlt": "An astronaut approaches a building",
+          "artifactImageCaption": "The game was caught up in a spate of high-profile leaks before launch.",
+          "artifactImageCredit": "Supermassive Games"
         },
         {
           "date": "May 2026",
           "title": "Subnautica 2 enters early access on May 14.",
-          "body": "After court cases and arguments the world finally got it's hands on Sub 2 - and it instantly sold four million copies.",
+          "body": "After court cases and arguments, the world finally got its hands on Sub 2 - and it instantly sold four million copies and triggered the much-talked-about bonus payment to the one beleaguered devs.",
           "artifact": "PC Early Access",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit.",
+          "sourceNote": "Checked",
           "artifactImage": "2026/may/subnautica2.jpg",
           "artifactImageAlt": "An underwater image from Subnautica 2",
           "artifactImageCaption": "After all the drama, Subnautica 2 finally arrived in Early Access.",
@@ -43,26 +47,39 @@
         {
           "date": "May 2026",
           "title": "Forza Horizon 6 launches in May for Xbox and PC.",
-          "body": "A source-noted month marker; regional timing is left visible where it matters.",
-          "artifact": "digital storefront label",
+          "body": "The long-awaited Forza Horizon 6 launched, bringing Eastern charm with its racing around Tokyo and suburban Japan. It looked beautiful, but at 150mph the cherry blossom could have been anywhere.",
+          "artifact": "Release",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+          "sourceNote": "Checked",
+          "platform": "PC, Xbox",
+          "artifactImage": "2026/may/forza_horizon4.jpg",
+          "coverImageAlt": "A Ferrari in Forza Horizon 6",
+          "artifactImageCaption": "Forza Horizon 6 was another game that got leaked early, with devs blaming an early review copy. Bans were handed out to those playing early.",
+          "artifactImageCredit": "Playground / Microsoft"
         },
         {
           "date": "May 2026",
           "title": "007 First Light arrives on May 27.",
-          "body": "A source-noted month marker; regional timing is left visible where it matters.",
-          "artifact": "showcase clipping",
+          "body": "The world wanted a bond game, and IO delivered in bucket loads. While not the longest game ever 007: First Light turned out to be fabulous, and not just a woke \"British Hitman.\" with all the womanising removed so as not to upset people.",
+          "artifact": "Release",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit.",
+          "artifactImage": "2026/may/bond.jpg",
+          "coverImageAlt": "An image of Bond from 007 First Light",
+          "artifactImageCaption": "The least likely looking James Bond of all time. 007 First Light gave us a younger super spy guy.",
+          "artifactImageCredit": "IO Interactive"
         },
         {
           "date": "May 2026",
           "title": "GTA VI's former May 26 date becomes a visible delay marker, not a release.",
-          "body": "A current-history context note, written cautiously because recent events can still shift in interpretation.",
+          "body": "With a new date of mid-November seemingly locked in, there was a lot of pondering to be done as to whether the game would see the light in 2026. Just one more small slip and another year will have passed us all by.",
           "artifact": "context plaque",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit.",
+          "artifactImage": "2026/may/gta6.webp",
+          "platform": "PS5, Xbox",
+          "artifactImageCaption": "Where fore art thou Grand Theft Auto VI?",
+          "artifactImageCredit": "Rockstar Games"
         }
       ]
     },
@@ -70,8 +87,15 @@
       "id": "releases",
       "eyebrow": "Gallery 02",
       "title": "Releases",
-      "subtitle": "Eight notable releases, led by month-specific anchors where possible.",
+      "subtitle": "May's notable releases - a month packed full of action and great games - just no GTA VI.",
       "items": [
+        {
+          "title": "Mixtape",
+          "body": "On their last night together, three friends embark on one final adventure. Play through a mixtape of memories, set to the soundtrack of a generation. ",
+          "platform": "PC / PS5 / Xbox Series X|S / Switch 2",
+          "date": "May 7th, 2026",
+          "signal": "retro reminiscence "
+        },
         {
           "date": "May 12, 2026",
           "title": "Directive 8020",
@@ -117,33 +141,6 @@
           "signal": "licensed action",
           "certainty": "month-specific or source-cited",
           "sourceNote": "GamesRadar lists May 27, 2026."
-        },
-        {
-          "date": "May 2026",
-          "title": "Grand Theft Auto VI delay context",
-          "platform": "Industry context",
-          "body": "The old May 26 release date becomes an absence rather than a launch.",
-          "signal": "delay context",
-          "certainty": "month-specific or source-cited",
-          "sourceNote": "Rockstar moved GTA VI to November 19, 2026; GameSpot notes May 26 was the previous date."
-        },
-        {
-          "date": "January 15, 2026",
-          "title": "Animal Crossing: New Horizons Switch 2 Edition",
-          "platform": "Nintendo Switch 2",
-          "body": "A 2020 lockdown object is re-shelved for Switch 2.",
-          "signal": "platform refresh",
-          "certainty": "month-specific or source-cited",
-          "sourceNote": "GamesRadar lists January 15, 2026."
-        },
-        {
-          "date": "January 20, 2026",
-          "title": "2XKO",
-          "platform": "PC / PS5 / Xbox Series X|S",
-          "body": "Riot's fighter enters the early-year release calendar.",
-          "signal": "fighting game",
-          "certainty": "month-specific or source-cited",
-          "sourceNote": "GamesRadar lists January 20, 2026."
         }
       ]
     },
@@ -155,7 +152,7 @@
       "items": [
         {
           "title": "Switch 2 enters its second calendar year",
-          "body": "Ports, editions and Nintendo-first releases now test whether the new machine has become ordinary.",
+          "body": "Ports, editions and Nintendo-first releases now test whether the new machine has become the main Switch console out there. May 8th saw the company announce a big price hike though with Nintendo apologising \"for the impact these price revisions may have on our customers.\"",
           "tags": [
             "Context"
           ],
@@ -163,8 +160,8 @@
           "sourceNote": "January-May 2026 release schedule context."
         },
         {
-          "title": "GTA VI controls the industry's weather without launching",
-          "body": "The moved May date leaves a visible gap in May 2026 and shapes how other games are discussed.",
+          "title": "Hardware hikes",
+          "body": "The demand for storage and RAM for AI data centres globally starts to put the squeeze on console prices with Sony, Nintendo and Valve ratcheting up huge hikes on the RRP. Don't anybody mention the word \"profiteering.2",
           "tags": [
             "Context"
           ],
@@ -181,8 +178,8 @@
           "sourceNote": "Gematsu and PC Gamer Forza reporting."
         },
         {
-          "title": "Online-first design remains a default assumption",
-          "body": "Marathon, 2XKO, early access and live-service updates make network presence part of the monthly archive.",
+          "title": "Xbox tries to get back in the fight",
+          "body": "After getting beaten up recently, the new Xbox Gaming CEO starts punching back. The first baby steps, a new logo (XBOX) and a cut to the price of Game Pass - at the expense of losing Call of Duty games.",
           "tags": [
             "Context"
           ],
@@ -212,38 +209,26 @@
         {
           "title": "PC Gamer UK",
           "publication": "PC Gamer UK",
-          "issueDate": "2026 January-May",
+          "issueDate": "May 2026",
           "headline": "PC Gamer UK on the 2026 shelf",
           "coverImage": "/magazine-covers/2026/pc-gamer-uk-2026.jpg",
-          "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2026 January-May.",
-          "curatorNote": "The PC-facing drawer for Marathon, Slay the Spire 2 early access, Forza Horizon 6, and the online calendar.",
+          "coverImageAlt": "May 2026 edition of PC Gamer",
+          "curatorNote": "Witchfire hit the cover and there was coverage inside of Vampire Crawlers and Windrose. Both huge games.",
           "body": "The PC-facing drawer for Marathon, Slay the Spire 2 early access, Forza Horizon 6, and the online calendar.",
-          "certainty": "contextual placeholder",
-          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+          "certainty": "Verified",
+          "sourceNote": "Verified cover"
         },
         {
           "title": "Retro Gamer",
           "publication": "Retro Gamer",
-          "issueDate": "2026 January-May",
+          "issueDate": "May 2026",
           "headline": "Retro Gamer on the 2026 shelf",
           "coverImage": "/magazine-covers/2026/retro-gamer-2026.jpg",
-          "coverImageAlt": "Reconstructed placeholder cover for Retro Gamer, 2026 January-May.",
-          "curatorNote": "Modern games keep recycling older names, remakes and archives; the past is still on the same shelf.",
+          "coverImageAlt": "May 2026 edition of Retro Gamer",
+          "curatorNote": "A very cool Death Star cover for a feature on Rogue Leader and Lego: The OG Trilogy. Plus a feature on the iconic ZX81/",
           "body": "Modern games keep recycling older names, remakes and archives; the past is still on the same shelf.",
-          "certainty": "contextual placeholder",
-          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
-        },
-        {
-          "title": "Nintendo Switch 2 press context",
-          "publication": "Nintendo Switch 2 press context",
-          "issueDate": "2026 January-May",
-          "headline": "Nintendo Switch 2 press context on the 2026 shelf",
-          "coverImage": "/magazine-covers/2026/nintendo-switch-2-archive-2026.svg",
-          "coverImageAlt": "Reconstructed placeholder cover for Nintendo Switch 2 press context, 2026 January-May.",
-          "curatorNote": "A placeholder for Switch 2's second-year software coverage; replace with verified issue art later.",
-          "body": "A placeholder for Switch 2's second-year software coverage; replace with verified issue art later.",
-          "certainty": "contextual placeholder",
-          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+          "certainty": "verified",
+          "sourceNote": "verified"
         }
       ]
     },
@@ -264,10 +249,6 @@
         {
           "title": "Platform identity is blurrier",
           "body": "Ports and cross-platform releases make the old console-war map harder to read."
-        },
-        {
-          "title": "The archive is live while it is happening",
-          "body": "For recent months, source notes matter because facts are still settling into history."
         }
       ]
     },
@@ -279,19 +260,19 @@
       "items": [
         {
           "title": "The year began under a shadow",
-          "body": "Even before release, GTA VI shaped conversation like a planet just offstage."
+          "body": "Even before release, GTA VI shaped conversation like a planet just offstage. Any GTA VI story leapt upon by a desperate gaming media"
         },
         {
           "title": "Switch 2 became normal very quickly",
-          "body": "While gaming journalism began to forgot about the OG Switch, players will still asking where the big games for the newbie console were"
+          "body": "While gaming journalism began to forgot about the OG Switch, players will still asking where the big games for the newbie console were. In truth, the only available answer... \"not yet\"."
         },
         {
           "title": "Hardware prices started to scare gamers",
-          "body": "Huge hikes due due to 'global conditions' began to scare gamers who didn't want to pay an extra £200 for a Steam Deck"
+          "body": "Huge hikes due due to 'global conditions' began to scare gamers who didn't want to pay an extra £200 for a Steam Deck."
         },
         {
-          "title": "The present already feels archival",
-          "body": "Because these months are so recent, the exhibit feels less nostalgic and more like preserving wet paint."
+          "title": "May seems busy",
+          "body": "With releases like Forza Horizon, 007 and Subnautica 2, May seemed much more active than normal for good games releases."
         }
       ]
     }
@@ -338,11 +319,9 @@
       "note": "Used for May 2026 Forza launch timing context."
     }
   ],
-  "status": "ai-draft",
+  "status": "verified",
   "lastEdited": "2026-06-01",
   "editorNotes": [
-    "Initial AI-generated research draft for May 2026.",
-    "Recent-history exhibits should be checked carefully before being marked human-edited or verified.",
-    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+    "Will add more releases and magazines going forward."
   ]
 }
