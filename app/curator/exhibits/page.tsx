@@ -59,10 +59,34 @@ export default function CuratorExhibitsPage() {
         </div>
       </section>
 
+      <nav
+        aria-label="Editor year navigation"
+        className="sticky top-0 z-20 border-b border-black/10 bg-[#fbf8ef]/95 px-5 py-4 shadow-exhibit backdrop-blur md:px-8"
+      >
+        <div className="mx-auto max-w-7xl">
+          <p className="font-mono text-[10px] uppercase tracking-[0.28em] text-red-700">Year index</p>
+          <div className="mt-3 flex gap-2 overflow-x-auto pb-1">
+            {years.map((year) => (
+              <a
+                key={year}
+                href={`#year-${year}`}
+                className="shrink-0 border border-zinc-950/15 bg-white px-3 py-2 font-mono text-[10px] uppercase tracking-[0.16em] text-zinc-700 transition hover:border-red-700 hover:text-red-700"
+              >
+                {year}
+              </a>
+            ))}
+          </div>
+        </div>
+      </nav>
+
       <section className="px-5 py-12 md:px-8 md:py-16" aria-label="Editable exhibits">
         <div className="mx-auto grid max-w-7xl gap-10">
           {years.map((year) => (
-            <section key={year} className="grid gap-5 border-t border-black/10 pt-8 md:grid-cols-[12rem_1fr]">
+            <section
+              key={year}
+              id={`year-${year}`}
+              className="grid scroll-mt-28 gap-5 border-t border-black/10 pt-8 md:grid-cols-[12rem_1fr]"
+            >
               <div>
                 <p className="font-mono text-xs uppercase tracking-[0.28em] text-red-700">Year drawer</p>
                 <h2 className="mt-3 font-display text-4xl text-zinc-950">{year}</h2>

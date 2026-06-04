@@ -4,12 +4,12 @@
     "period": "May 2026",
     "accession": "GTM-2026-05",
     "dek": "What's this enormous GTA VI size whole we have this month?",
-    "curatorNote": "Initial researched draft for May 2026. This is recent history, so dates and interpretation should be rechecked during human edit.",
+    "curatorNote": "Edited and verified all exhibits, added further major releases.",
     "statusChips": [
-      "GTA VI waiting",
-      "Switch 2 year two",
-      "live-service",
-      "current-history"
+      "Subnautica 2 surfaces",
+      "Bond is back",
+      "Big games leak early",
+      "Forza heads to Japan"
     ]
   },
   "sections": [
@@ -97,10 +97,17 @@
           "signal": "retro reminiscence "
         },
         {
+          "title": "Battlestar Galactica: Scattered Hopes",
+          "body": "In Battlestar Galactica: Scattered Hopes, take command of a fleet escaping the annihilation of the Twelve Colonies.",
+          "date": "May 11, 2026",
+          "platform": "PC",
+          "signal": "Old-school sci-fi roguelite"
+        },
+        {
           "date": "May 12, 2026",
           "title": "Directive 8020",
           "platform": "PC / PS5 / Xbox Series X|S",
-          "body": "Supermassive's Dark Pictures series goes into space.",
+          "body": "Earth is dying and humanity is running out of time. 12 light years from home, Tau Ceti f offers a small sliver of hope. When the colony ship Cassiopeia crash lands on the planet, its crew soon realize they are far from being alone. In space, death takes many forms.",
           "signal": "cinematic horror",
           "certainty": "month-specific or source-cited",
           "sourceNote": "GamesRadar and Gematsu list May 12, 2026.",
@@ -110,7 +117,7 @@
           "date": "May 12, 2026",
           "title": "Indiana Jones and the Great Circle",
           "platform": "Nintendo Switch 2",
-          "body": "MachineGames' adventure reaches Nintendo's new hardware.",
+          "body": "Uncover one of history’s greatest mysteries in a first-person, single-player adventure. The year is 1937, sinister forces are scouring the globe for the secret to an ancient power connected to the Great Circle, and only one person can stop them - Indiana Jones™.",
           "signal": "Switch 2 port",
           "certainty": "month-specific or source-cited",
           "sourceNote": "GamesRadar and Gematsu list May 12, 2026."
@@ -119,7 +126,7 @@
           "date": "May 14, 2026",
           "title": "Subnautica 2",
           "platform": "PC / Xbox Series X|S early access",
-          "body": "Underwater survival returns in a messy but closely watched early-access moment.",
+          "body": "Subnautica 2 is an underwater survival adventure set on an all-new alien world, developed by Unknown Worlds. Play alone or with friends in 4-player co-op. Adapt to survive by building custom bases and crafting tools. Explore the unknown to uncover the mysteries hidden within the depths.",
           "signal": "early access survival",
           "certainty": "month-specific or source-cited",
           "sourceNote": "GamesRadar and Polygon/Gematsu references list May 14, 2026."
@@ -128,16 +135,34 @@
           "date": "May 19, 2026",
           "title": "Forza Horizon 6",
           "platform": "PC / Xbox Series X|S",
-          "body": "Playground's open-world racing series heads to Japan.",
+          "body": "Discover the breathtaking landscapes of Japan in over 550 real-world cars and become a racing Legend in Forza Horizon's biggest open world driving adventure yet.",
           "signal": "racing event",
           "certainty": "source-noted context",
           "sourceNote": "Gematsu and PC Gamer list May 19, 2026; GamesRadar reception page lists May 22."
         },
         {
+          "title": "Zero Parades: For Dead Spies",
+          "body": "From the creators of Disco Elysium comes ZERO PARADES – an espionage RPG. You're a brilliant but tormented operant on one final desperate assignment. Gather your broken network, untangle a web of lies, and prove yourself on the world stage - or blow it all up again.",
+          "platform": "PC",
+          "date": "May 21, 2026"
+        },
+        {
+          "title": "LEGO Batman: Legacy of the Dark Knight",
+          "body": "Rise as the Dark Knight and experience the essential Batman story in a bold, action-packed adventure with hard-hitting combat, an open-world Gotham City, and the signature LEGO charm that fans know and love.",
+          "date": "May 22, 2026",
+          "platform": "PC, PS5, Switch 2 / Xbox Series X|S"
+        },
+        {
+          "title": "Paralives",
+          "body": "Paralives is a life simulation game about building homes, lives and bonds. Through both hardship and success, where will your story take you?",
+          "platform": "PC",
+          "date": "May 25, 2026"
+        },
+        {
           "date": "May 27, 2026",
           "title": "007 First Light",
           "platform": "PC / PS5 / Xbox Series X|S",
-          "body": "IO Interactive's Bond game arrives where GTA VI once sat on the calendar.",
+          "body": "Earn the Number. 007 First Light is a thrilling espionage action-adventure game from IO Interactive. Follow James Bond as a young, resourceful and sometimes reckless recruit in MI6's training programme, and discover an origin story of the world’s most famous spy.",
           "signal": "licensed action",
           "certainty": "month-specific or source-cited",
           "sourceNote": "GamesRadar lists May 27, 2026."
@@ -166,7 +191,7 @@
             "Context"
           ],
           "certainty": "source-noted context",
-          "sourceNote": "Rockstar and GameSpot delay reporting."
+          "sourceNote": ""
         },
         {
           "title": "Xbox widens its platform map",
@@ -239,16 +264,20 @@
       "subtitle": "How players discovered, argued about and shared the month.",
       "items": [
         {
-          "title": "Delay culture is communal",
-          "body": "GTA VI's missing May date becomes memes, mourning and calendar archaeology."
+          "title": "Discord becomes another front door for Game Pass",
+          "body": "Discord Nitro adding access to a starter edition of Xbox Game Pass was a small-but-telling moment: the place people already used to talk about games was becoming another place to get them. The subscription, the friends list, and the storefront kept merging."
         },
         {
-          "title": "Early access is part of the main shelf",
-          "body": "Slay the Spire 2 and Subnautica 2 show how unfinished-but-public games can still feel like major dates."
+          "title": "Age checks collide with game preservation",
+          "body": "Stop Killing Games warned that blunt age-verification laws could make private servers, modding, fan projects, and preservation work harder to keep alive. Good card because it shows the tension between safety law and the messy, volunteer-run internet that keeps old games breathing."
         },
         {
-          "title": "Platform identity is blurrier",
-          "body": "Ports and cross-platform releases make the old console-war map harder to read."
+          "title": "Roblox becomes the safety battleground again",
+          "body": "Roblox explained its new Kids and Select account structure, while campaigners also called for a US FTC investigation into the platform’s design, chat, and monetisation. It makes May feel very much like the month gaming platforms stopped being treated as “just games” and became full online spaces under scrutiny."
+        },
+        {
+          "title": "California’s Protect Our Games Act clears its first big hurdle",
+          "body": "AB 1921, backed by the Stop Killing Games movement, passed the California Assembly and pushed the idea that online games should not simply vanish when publishers switch off services. The bill would require advance notice and some route to continued use, a patch, alternate version, or refund for covered future games."
         }
       ]
     },
@@ -259,20 +288,20 @@
       "subtitle": "A short atmospheric reading from the player side of recent history.",
       "items": [
         {
-          "title": "The year began under a shadow",
-          "body": "Even before release, GTA VI shaped conversation like a planet just offstage. Any GTA VI story leapt upon by a desperate gaming media"
+          "title": "The friend list became a storefront",
+          "body": "Discord adding Xbox Game Pass to Nitro made the social layer feel even more like part of the platform, not just the place you talked after playing."
         },
         {
-          "title": "Switch 2 became normal very quickly",
-          "body": "While gaming journalism began to forgot about the OG Switch, players will still asking where the big games for the newbie console were. In truth, the only available answer... \"not yet\"."
+          "title": "Online childhood got more managed",
+          "body": "Roblox’s Kids and Select accounts made May feel like another step away from the wild playground internet and toward approved, age-banded digital spaces."
         },
         {
           "title": "Hardware prices started to scare gamers",
           "body": "Huge hikes due due to 'global conditions' began to scare gamers who didn't want to pay an extra £200 for a Steam Deck."
         },
         {
-          "title": "May seems busy",
-          "body": "With releases like Forza Horizon, 007 and Subnautica 2, May seemed much more active than normal for good games releases."
+          "title": "Game preservation found a louder voice",
+          "body": "Stop Killing Games and California’s Protect Our Games Act turned server shutdowns from forum anger into a serious ownership argument."
         }
       ]
     }
@@ -322,6 +351,6 @@
   "status": "verified",
   "lastEdited": "2026-06-01",
   "editorNotes": [
-    "Will add more releases and magazines going forward."
+    "Major releases complete. Will add more magazines going forward."
   ]
 }

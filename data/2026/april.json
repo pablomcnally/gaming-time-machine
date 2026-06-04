@@ -4,12 +4,12 @@
     "period": "April 2026",
     "accession": "GTM-2026-04",
     "dek": "April is ports, delayed projects and late-month PlayStation weight.",
-    "curatorNote": "Initial researched draft for April 2026. This is recent history, so dates and interpretation should be rechecked during human edit.",
+    "curatorNote": "Verified and edited. April complete my friends.",
     "statusChips": [
-      "GTA VI waiting",
-      "Switch 2 year two",
-      "live-service",
-      "current-history"
+      "Starfield finally crosses divide",
+      "Pragmata captured the imagination",
+      "New Diablo IV DLC",
+      "Molyneux returns"
     ]
   },
   "sections": [
@@ -17,47 +17,62 @@
       "id": "news",
       "eyebrow": "Gallery 01",
       "title": "News",
-      "subtitle": "Five source-noted moments or context markers.",
+      "subtitle": "April 2026 was a month of long-awaited arrivals. After years of delays, trailers and speculation, Pragmata finally reached players, while Bethesda's Starfield made its debut on PlayStation 5, continuing the industry's shift away from traditional platform boundaries. Nintendo's calendar remained busy with Pokémon Champions and Tomodachi Life: Living the Dream helping to reinforce the Switch 2's growing software library. Yet beneath the releases, much of the conversation still revolved around the months ahead. Grand Theft Auto VI remained the industry's gravitational centre despite its absence, with players and publishers alike measuring the rest of the year against the looming arrival of Rockstar's blockbuster. April felt like a month spent crossing items off long-running wishlists while simultaneously looking towards a future that seemed to dominate every discussion.",
       "items": [
         {
           "date": "April 2026",
           "title": "Starfield reaches PS5 on April 7.",
-          "body": "A source-noted month marker; regional timing is left visible where it matters.",
-          "artifact": "platform notice",
+          "body": "It was once one of Xbox's biggest exclusives, but no Bethesda's Starfield finally crosses the divide to the old enemy. It's been so very long, though, would the PlayStation kids actually care?",
+          "artifact": "New platform release",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+          "sourceNote": "Verified",
+          "artifactImage": "2026/april/VascoThumbsUp_Starfield.jpg",
+          "platform": "PlayStation 5, Xbox Series X|S, Nintendo Switch 2, and PC ",
+          "artifactImageCaption": "Capcom"
         },
         {
           "date": "April 2026",
           "title": "Pokemon Champions launches on April 8.",
-          "body": "A source-noted month marker; regional timing is left visible where it matters.",
-          "artifact": "release calendar card",
+          "body": "The Pokémon spin-off bringing multiplayer battling to the masses - well, the masses that have a Switch 2 at any rate. It was a welcome arrival for a console that needs big games.",
+          "artifact": "Release",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+          "sourceNote": "verified",
+          "artifactImage": "2026/april/pokemon-champions-169.png",
+          "platform": "Switch 2",
+          "artifactImageCaption": "Nintendo / Pokemon Company"
         },
         {
           "date": "April 2026",
-          "title": "Tomodachi Life: Living the Dream arrives on April 16.",
-          "body": "A source-noted month marker; regional timing is left visible where it matters.",
-          "artifact": "digital storefront label",
+          "title": "Diablo IV: Lord of Hatred arrives",
+          "body": "The long-awaited second expansion for Diablo IV brings the conclusion of one of Sanctuary's longest-running battles. It's time to make your final stand against Mephisto.",
+          "artifact": "DLC Expansion",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+          "sourceNote": "Verified",
+          "artifactImage": "2026/april/lord0ofhatred.jpg",
+          "platform": "PC",
+          "artifactImageCaption": "Blizzard"
         },
         {
           "date": "April 2026",
           "title": "Pragmata launches on April 17.",
-          "body": "A source-noted month marker; regional timing is left visible where it matters.",
+          "body": "Capcom's new IP, featuring a young AI girl raised eyebrows but actually turned out to be pretty good and sold well as people tried to get Diana and Hugh back to Earth.",
           "artifact": "showcase clipping",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+          "sourceNote": "Verified",
+          "artifactImage": "2026/april/diana_pragmata.jpg",
+          "platform": "PlayStation 5, Xbox Series X|S, Nintendo Switch 2, and PC",
+          "artifactImageCaption": "Capcom"
         },
         {
           "date": "April 2026",
-          "title": "Saros closes the month on April 30.",
-          "body": "A current-history context note, written cautiously because recent events can still shift in interpretation.",
-          "artifact": "context plaque",
+          "title": "Windrose finally sails the High Seas",
+          "body": "A mighty pivot on genre at the last minute proved the correct chose as the pirate-'em-up sold an absolute ton, and proved to be hugely fun to play too. Those f$%k$ng boars though. Please",
+          "artifact": "Early Access Release",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+          "sourceNote": "Verified",
+          "artifactImage": "2026/april/windrose1.jpg",
+          "platform": "PC",
+          "artifactImageCaption": "Kraken Express"
         }
       ]
     },
@@ -65,13 +80,13 @@
       "id": "releases",
       "eyebrow": "Gallery 02",
       "title": "Releases",
-      "subtitle": "Eight notable releases, led by month-specific anchors where possible.",
+      "subtitle": "The biggest releases in a traditionally quiet month",
       "items": [
         {
           "date": "April 7, 2026",
           "title": "Starfield",
           "platform": "PS5",
-          "body": "Bethesda's space RPG crosses into PlayStation territory.",
+          "body": "Starfield is the first new universe in 25 years from Bethesda Game Studios, the award-winning creators of The Elder Scrolls V: Skyrim and Fallout 4. ",
           "signal": "platform move",
           "certainty": "month-specific or source-cited",
           "sourceNote": "GamesRadar lists April 7, 2026."
@@ -80,64 +95,76 @@
           "date": "April 8, 2026",
           "title": "Pokemon Champions",
           "platform": "Switch / Switch 2",
-          "body": "Pokemon's competitive side gets a current-platform date.",
+          "body": "Pokémon Champions is a strategy video game developed by The Pokémon Works and published by Nintendo and The Pokémon Company for the Nintendo Switch, Android and iOS. It is a spin-off of the Pokémon video game series focused on multiplayer gameplay",
           "signal": "Pokemon",
           "certainty": "month-specific or source-cited",
           "sourceNote": "GamesRadar lists April 8, 2026."
         },
         {
+          "title": "Windrose",
+          "body": "Embark on a PvE survival adventure in the Age of Piracy. Fight on land and sea, solo or with friends. Build, craft and explore vast open world filled with dark secrets. Master soulslite combat and take on challenging bosses, command your ship and plunder unspoken treasures! ",
+          "date": "April 14, 2026",
+          "platform": "PC",
+          "signal": "Yo ho ho and a bottle of rum"
+        },
+        {
+          "title": "Hades II",
+          "body": "Battle beyond the Underworld using dark sorcery to take on the Titan of Time in this bewitching sequel to the award-winning rogue-like dungeon crawler. ",
+          "date": "April 14, 2006",
+          "platform": "PS5, Xbox Series X/S"
+        },
+        {
+          "title": "Mouse: P.I. For Hire",
+          "body": "Join private investigator Jack Pepper on a guns blazing, jazz-fueled adventure in MOUSE: P.I. For Hire. MOUSE combines the charm of hand-drawn rubber hose animation inspired by the classic cartoons of the 1930’s with the adrenaline and action of an explosive first person shooter. ",
+          "date": "April 16, 2026",
+          "platform": "PS5, Xbox Series X/S, Switch 2, Switch, PC",
+          "signal": "Steamboat Willie vibes"
+        },
+        {
+          "title": "Tomodachi Life: Living the Dream",
+          "body": "Tomodachi Life: Living the Dream is the life and social simulation game for the Nintendo Switch that puts you in charge of a bustling, quirky island filled with custom Mii characters. It builds heavily on the classic 3DS original, adding deep Mii customization, island-building tools, and the creative Pallet House.",
+          "platform": "Switch 2",
+          "date": "April 16th, 2026",
+          "signal": "3DS in 2026?"
+        },
+        {
           "date": "April 17, 2026",
           "title": "Pragmata",
           "platform": "PC / PS5 / Xbox Series X|S / Switch 2",
-          "body": "Capcom's delayed sci-fi project finally becomes a release object.",
+          "body": "Pragmata is a unique, sci-fi action-adventure game from Capcom. Follow Hugh, a member of an ill-fated investigation team, and Diana, a young android, as they navigate a lunar facility taken over by rogue AI in search of a way to Earth. ",
           "signal": "sci-fi action",
           "certainty": "month-specific or source-cited",
           "sourceNote": "GamesRadar lists April 17, 2026."
         },
         {
+          "title": "Masters of Albion",
+          "body": " A bold reimagining of the God Game genre from the creator who defined it. Shape a living world as a god - or step into it and experience it through your people. Build, guide and defend your town by day, then survive the night when everything is under threat. There is no single solution. Only yours. ",
+          "platform": "PC",
+          "date": "April 22, 2026",
+          "signal": "Peter Molyneux's return"
+        },
+        {
+          "title": "Sudden Strike 5",
+          "body": "Sudden Strike 5 delivers real-time tactics in epic WWII battles. A host of tactical options and more than 300 playable units open-up multiple approaches to reach your objectives in a 25 mission campaign on historical battlefields in Europe and North Africa. ",
+          "date": "April 23rd, 2026",
+          "platform": "PS5, Xbox Series X/S, PC",
+          "signal": "War? What is it good for?"
+        },
+        {
           "date": "April 30, 2026",
           "title": "Saros",
           "platform": "PS5",
-          "body": "Housemarque's post-Returnal project gives April a prestige PlayStation endpoint.",
+          "body": "Beneath the shadow of an ominous eclipse, Arjun Devraj (Rahul Kohli, star of The Haunting of Bly Manor and Midnight Mass) is a Soltari enforcer who will stop at nothing to pursue answers on the shape-shifting world of Carcosa, a planet filled with dark secrets and hostile inhabitants.",
           "signal": "PS5 exclusive",
           "certainty": "month-specific or source-cited",
           "sourceNote": "GamesRadar lists April 30, 2026."
         },
         {
-          "date": "January 15, 2026",
-          "title": "Animal Crossing: New Horizons Switch 2 Edition",
-          "platform": "Nintendo Switch 2",
-          "body": "A 2020 lockdown object is re-shelved for Switch 2.",
-          "signal": "platform refresh",
-          "certainty": "month-specific or source-cited",
-          "sourceNote": "GamesRadar lists January 15, 2026."
-        },
-        {
-          "date": "January 20, 2026",
-          "title": "2XKO",
-          "platform": "PC / PS5 / Xbox Series X|S",
-          "body": "Riot's fighter enters the early-year release calendar.",
-          "signal": "fighting game",
-          "certainty": "month-specific or source-cited",
-          "sourceNote": "GamesRadar lists January 20, 2026."
-        },
-        {
-          "date": "January 22, 2026",
-          "title": "Final Fantasy VII Remake Intergrade",
-          "platform": "Nintendo Switch 2",
-          "body": "Square's remake project continues spreading across platforms.",
-          "signal": "Switch 2 port",
-          "certainty": "month-specific or source-cited",
-          "sourceNote": "GamesRadar lists January 22, 2026."
-        },
-        {
-          "date": "January 30, 2026",
-          "title": "Code Vein 2",
-          "platform": "PC / PS5 / Xbox Series X|S",
-          "body": "Bandai Namco gives January a dark action-RPG shelf marker.",
-          "signal": "action RPG",
-          "certainty": "month-specific or source-cited",
-          "sourceNote": "GamesRadar lists January 30, 2026."
+          "title": "Heroes of Might & Magic: Olden Era",
+          "body": "Heroes of Might and Magic: Olden Era is the official prequel hailing back to the origins of the genre-defining, critically acclaimed series of turn-based strategy games. Raise grand armies and wield devastating spells to overcome your foes in both solo and multiplayer. ",
+          "date": "April 30th, 2026",
+          "platform": "PC",
+          "signal": "Back to the old school"
         }
       ]
     },
@@ -148,40 +175,54 @@
       "subtitle": "Platform, subscription and buying context around the month.",
       "items": [
         {
-          "title": "Switch 2 enters its second calendar year",
-          "body": "Ports, editions and Nintendo-first releases now test whether the new machine has become ordinary.",
+          "title": "PS5 gets more expensive instead of cheaper",
+          "body": "Sony’s global price rise took effect on April 2, with PS5 moving to $649.99 in the US, £569.99 in the UK, and €649.99 in Europe. PS5 Pro rose to $899.99 / £789.99 / €899.99. It’s a useful “generation upside down” moment: the longer the console cycle went on, the less affordable the hardware became.",
           "tags": [
-            "Context"
+            "Price rise"
           ],
           "certainty": "source-noted context",
-          "sourceNote": "January-May 2026 release schedule context."
+          "sourceNote": "January-May 2026 release schedule context.",
+          "date": "April 2nd, 2006"
         },
         {
-          "title": "GTA VI controls the industry's weather without launching",
-          "body": "The moved May date leaves a visible gap in May 2026 and shapes how other games are discussed.",
+          "title": "ROG Xbox Ally drops into Steam Deck territory",
+          "body": "The base ROG Xbox Ally with Ryzen Z2A dropped to $499.99 on Amazon US, undercutting its listed $599.99 price and putting it below the 512GB Steam Deck OLED’s $549 starting point. Nice exhibit angle: Windows handhelds were starting to fight on price, not just specs.",
           "tags": [
-            "Context"
+            "Release"
           ],
           "certainty": "source-noted context",
-          "sourceNote": "Rockstar and GameSpot delay reporting."
+          "sourceNote": "",
+          "date": "April 6th, 2026"
         },
         {
-          "title": "Xbox widens its platform map",
-          "body": "Forza Horizon 6 launches on Xbox/PC with PS5 noted for later, underlining a less exclusive console landscape.",
+          "title": "OnePlus handheld leak points to phone brands chasing Steam Deck",
+          "body": "A leaked render suggested OnePlus could be preparing a dedicated Android gaming handheld with an 8-inch display, integrated grips, shoulder buttons, and a flagship MediaTek Dimensity chip. Mark this one as lower-certainty, but historically interesting because it shows the handheld boom pulling in smartphone makers too",
           "tags": [
-            "Context"
+            "Rumour"
           ],
           "certainty": "source-noted context",
-          "sourceNote": "Gematsu and PC Gamer Forza reporting."
+          "sourceNote": "",
+          "date": "April 8th, 2026"
         },
         {
-          "title": "Online-first design remains a default assumption",
-          "body": "Marathon, 2XKO, early access and live-service updates make network presence part of the monthly archive.",
+          "title": "Xbox Mode and Auto SR push PC handhelds closer to consoles",
+          "body": "Microsoft rolled out Xbox Mode for Windows 11 PCs and brought Auto Super Resolution preview to Xbox Insiders on ROG Xbox Ally X for docked play. The big signal here is the console-ification of PC handhelds: controller-first UI, docked TV behaviour, library aggregation, and AI upscaling trying to hide the messiness of Windows gaming.",
           "tags": [
-            "Context"
+            "Updates"
           ],
           "certainty": "source-noted context",
-          "sourceNote": "January-May 2026 release context."
+          "sourceNote": "",
+          "date": "April 30th, 2026"
+        },
+        {
+          "title": "Xbox Helix keeps blurring the line between console and PC",
+          "body": "Notebookcheck covered Project Helix as Microsoft’s reported next-gen Xbox direction, with the machine looking more like a fixed-spec gaming PC than a traditional closed console. Nice future-history angle: April 2026 was when “what even is an Xbox now?” became a hardware question, not just a brand question.",
+          "date": "April 9th, 2026"
+        },
+        {
+          "title": "Switch 2 dominates April hardware estimates",
+          "body": "VGChartz estimates put Switch 2 well ahead in the Americas for April 2026, with 332,796 units versus 152,845 for PS5 and 66,250 for Xbox Series X/S. I’d mark this as “estimated” rather than official, but it makes a strong data-card for the month.",
+          "date": ""
         }
       ]
     },
@@ -189,55 +230,43 @@
       "id": "magazines",
       "eyebrow": "Gallery 04",
       "title": "Magazine Covers",
-      "subtitle": "Reconstructed shelf markers for print and digital cover culture.",
+      "subtitle": "What was on the shelves in April",
       "items": [
         {
           "title": "Edge",
           "publication": "Edge",
-          "issueDate": "2026 January-May",
+          "issueDate": "April 2026",
           "headline": "Edge on the 2026 shelf",
-          "coverImage": "/magazine-covers/2026/edge-2026.jpg",
-          "coverImageAlt": "Reconstructed placeholder cover for Edge, 2026 January-May.",
-          "curatorNote": "A current-generation shelf marker for GTA VI waiting, Switch 2 year two, and the early 2026 slate.",
-          "body": "A current-generation shelf marker for GTA VI waiting, Switch 2 year two, and the early 2026 slate.",
+          "coverImage": "/magazine-covers/2026/april/edge0426.jpg",
+          "coverImageAlt": "Edge 04 26",
+          "curatorNote": "An in-depth look at Krafton's upcoming cyberpunk romp No Law adorned the cover of Edge in April.",
+          "body": "What was on the shelves in April",
           "certainty": "contextual placeholder",
-          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+          "sourceNote": "Verified"
         },
         {
           "title": "PC Gamer UK",
-          "publication": "PC Gamer UK",
-          "issueDate": "2026 January-May",
-          "headline": "PC Gamer UK on the 2026 shelf",
-          "coverImage": "/magazine-covers/2026/pc-gamer-uk-2026.jpg",
+          "publication": "PC Gamer",
+          "issueDate": "April 2026",
+          "headline": "Dawn of War makes the cover",
+          "coverImage": "/magazine-covers/2026/april/pcgamer_0426.jpg",
           "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2026 January-May.",
-          "curatorNote": "The PC-facing drawer for Marathon, Slay the Spire 2 early access, Forza Horizon 6, and the online calendar.",
+          "curatorNote": "Warhammer 40k's Dawn of War 4 gets the cover treatment. Inside is coverage of Mewgenics, Solasta II and Megabonk",
           "body": "The PC-facing drawer for Marathon, Slay the Spire 2 early access, Forza Horizon 6, and the online calendar.",
           "certainty": "contextual placeholder",
-          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+          "sourceNote": "verified"
         },
         {
           "title": "Retro Gamer",
           "publication": "Retro Gamer",
-          "issueDate": "2026 January-May",
+          "issueDate": "April, 2026",
           "headline": "Retro Gamer on the 2026 shelf",
-          "coverImage": "/magazine-covers/2026/retro-gamer-2026.jpg",
+          "coverImage": "/magazine-covers/2026/april/retrogamer0426.jpg",
           "coverImageAlt": "Reconstructed placeholder cover for Retro Gamer, 2026 January-May.",
-          "curatorNote": "Modern games keep recycling older names, remakes and archives; the past is still on the same shelf.",
+          "curatorNote": "40 years of Zelda was the reason to buy April's Retro Gamer, with a cover featuring images from all the games over four decades.",
           "body": "Modern games keep recycling older names, remakes and archives; the past is still on the same shelf.",
           "certainty": "contextual placeholder",
-          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
-        },
-        {
-          "title": "Nintendo Switch 2 press context",
-          "publication": "Nintendo Switch 2 press context",
-          "issueDate": "2026 January-May",
-          "headline": "Nintendo Switch 2 press context on the 2026 shelf",
-          "coverImage": "/magazine-covers/2026/nintendo-switch-2-archive-2026.svg",
-          "coverImageAlt": "Reconstructed placeholder cover for Nintendo Switch 2 press context, 2026 January-May.",
-          "curatorNote": "A placeholder for Switch 2's second-year software coverage; replace with verified issue art later.",
-          "body": "A placeholder for Switch 2's second-year software coverage; replace with verified issue art later.",
-          "certainty": "contextual placeholder",
-          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+          "sourceNote": "Verified"
         }
       ]
     },
@@ -248,20 +277,20 @@
       "subtitle": "How players discovered, argued about and shared the month.",
       "items": [
         {
-          "title": "Delay culture is communal",
-          "body": "GTA VI's missing May date becomes memes, mourning and calendar archaeology."
+          "title": "Xbox Social Clubs quietly disappear",
+          "body": "Microsoft removed community-created Xbox Social Clubs in April, pushing players toward messages, Discord, party chat, and Looking for Group instead. Nice “end of an era” card: console makers once tried to own the whole social layer; by 2026, even Xbox was admitting most of that life had moved elsewhere."
         },
         {
-          "title": "Early access is part of the main shelf",
-          "body": "Slay the Spire 2 and Subnautica 2 show how unfinished-but-public games can still feel like major dates."
+          "title": "Roblox introduces Kids and Select accounts",
+          "body": "Roblox announced age-based account types, with tighter controls around game access, chat, parental approvals, and developer requirements. This is a very 2026 online-life moment: the metaverse as playground, but also paperwork, verification, and compliance."
         },
         {
-          "title": "Platform identity is blurrier",
-          "body": "Ports and cross-platform releases make the old console-war map harder to read."
+          "title": "Stop Destroying Videogames gets its EU Parliament hearing",
+          "body": "The European Parliament held a public hearing on the Stop Destroying Videogames initiative, which argues publishers should not be able to make sold games unplayable when servers close. Great exhibit angle: players were no longer just complaining about shutdowns online — they were dragging the issue into lawmaking rooms."
         },
         {
-          "title": "The archive is live while it is happening",
-          "body": "For recent months, source notes matter because facts are still settling into history."
+          "title": "PlayStation players panic over reported 30-day digital licence checks",
+          "body": "Reports claimed some PS4 and PS5 digital purchases were showing a 30-day online check-in requirement, sparking comparisons with Xbox One’s old DRM disaster. I’d mark this one as “reported/controversial” rather than fully settled, but it absolutely fits the month’s theme: the internet connection becoming part of the receipt."
         }
       ]
     },
@@ -272,20 +301,20 @@
       "subtitle": "A short atmospheric reading from the player side of recent history.",
       "items": [
         {
-          "title": "The year began under a shadow",
-          "body": "Even before release, GTA VI shaped conversation like a planet just offstage."
+          "title": "Owning games felt weirdly conditional",
+          "body": "Digital libraries, licence worries, server closures and the Stop Destroying Videogames campaign made permanence feel like the month’s quiet anxiety."
         },
         {
-          "title": "Switch 2 became normal very quickly",
-          "body": "Ports and editions made the new console feel less like spectacle and more like furniture."
+          "title": "Handhelds became the new console war",
+          "body": "Handhelds became the new console war\nSwitch 2 was settling in, Windows handhelds were getting cheaper, and Xbox was trying to make PC gaming feel more like the sofa."
         },
         {
-          "title": "Online games felt provisional",
-          "body": "Early access, live-service bets and post-launch roadmaps made finishedness harder to pin down."
+          "title": "Prices went the wrong way",
+          "body": "The PS5 price rise made the generation feel upside down: hardware was ageing, but the cost of entry was still climbing."
         },
         {
-          "title": "The present already feels archival",
-          "body": "Because these months are so recent, the exhibit feels less nostalgic and more like preserving wet paint."
+          "title": "Everything lived behind a login",
+          "body": "From Roblox’s new child accounts to Xbox retiring old social spaces, April 2026 felt like gaming was being reorganised around identity, access, and control."
         }
       ]
     }
@@ -332,7 +361,7 @@
       "note": "Used for May 2026 Forza launch timing context."
     }
   ],
-  "status": "ai-draft",
+  "status": "verified",
   "lastEdited": "2026-06-01",
   "editorNotes": [
     "Initial AI-generated research draft for April 2026.",
