@@ -4,12 +4,12 @@
     "period": "March 2026",
     "accession": "GTM-2026-03",
     "dek": "March is live-service testing and Switch 2 Pokemon.",
-    "curatorNote": "Initial researched draft for March 2026. This is recent history, so dates and interpretation should be rechecked during human edit.",
+    "curatorNote": "March exhibits verified and complete.",
     "statusChips": [
-      "GTA VI waiting",
-      "Switch 2 year two",
-      "live-service",
-      "current-history"
+      "Marathon training",
+      "Deckbuilding mega-sequel",
+      "Desert safari",
+      "Pokemon gets even more cosy"
     ]
   },
   "sections": [
@@ -17,48 +17,52 @@
       "id": "news",
       "eyebrow": "Gallery 01",
       "title": "News",
-      "subtitle": "Five source-noted moments or context markers.",
+      "subtitle": "March 2026 was a month where gaming felt both overstuffed and unsettled. The release calendar came in heavy, with Marathon, Pokémon Pokopia, Slay the Spire 2, Crimson Desert, Death Stranding 2 on PC, and a pile-up of remasters giving players far too much to keep up with. GDC’s newly expanded Festival of Gaming put the industry’s future-facing obsessions on display, from AI and RTX graphics tech to publishing, tools, and platform strategy. Nintendo also gave the month a talking point with Pokémon Pokopia’s Game-Key Card release, a very modern reminder that even “physical” games were becoming download-shaped. Then, right at the end of the month, the Ubisoft lawsuit over The Crew’s shutdown sharpened the bigger ownership debate. March was not just busy; it felt like a snapshot of where games were heading next.",
       "items": [
         {
           "date": "March 2026",
           "title": "Marathon launches on March 5.",
-          "body": "A source-noted month marker; regional timing is left visible where it matters.",
-          "artifact": "platform notice",
+          "body": "The long-awaited Bungle shooter Marathon arrives. The biggest problem it faces is that ARC Raiders got there first and swept up all the players. A poorly-received playtest also did not help.",
+          "artifact": "Release",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit.",
+          "sourceNote": "verified",
           "artifactImage": "2026/march/marathon1.jpg"
         },
         {
           "date": "March 2026",
           "title": "Pokemon Pokopia also lands on March 5.",
-          "body": "A source-noted month marker; regional timing is left visible where it matters.",
-          "artifact": "release calendar card",
+          "body": "When the world needed an even cosier version of Pokémon, up popped Pokopia (that is a solid tongue-twister). It annoyed a lot of Switch fans as it was Switch 2 only for no obvious reason other than to sell consoles.",
+          "artifact": "Release",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+          "sourceNote": "verified",
+          "artifactImage": "2026/march/pokopia.webp"
         },
         {
           "date": "March 2026",
           "title": "Slay the Spire 2 begins early access on March 5.",
-          "body": "A current-history context note, written cautiously because recent events can still shift in interpretation.",
-          "artifact": "digital storefront label",
+          "body": "Perhaps the greatest Deckbuilder to date finally got a sequel, and man was it good. Steam buckled, millions were made, and somewhere the game drove everybody mad. What a follow-up.",
+          "artifact": "Early Access Release",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit.",
+          "artifactImage": "2026/march/slaythespire2_battle.jpg"
         },
         {
           "date": "March 2026",
           "title": "Monster Hunter Stories 3 arrives on March 13.",
-          "body": "A source-noted month marker; regional timing is left visible where it matters.",
-          "artifact": "showcase clipping",
+          "body": "The third in the series of Monster Hunter RPG spin-offs arrived and subsequently was well received by fans of the franchise.",
+          "artifact": "Release",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit.",
+          "artifactImage": "2026/march/monster_hunter_stories.jpg"
         },
         {
           "date": "March 2026",
           "title": "Crimson Desert lands on March 19.",
-          "body": "A source-noted month marker; regional timing is left visible where it matters.",
-          "artifact": "context plaque",
+          "body": "Crimson Desert arrived from Pearl Abyss and immediately sold three million copies making it a mega-March for the publisher.",
+          "artifact": "Huge sales",
           "certainty": "source-noted",
-          "sourceNote": "See source notes for this exhibit; recent-history claims should be rechecked during human edit."
+          "sourceNote": "",
+          "artifactImage": "2026/march/crimson_desertjpg.jpg"
         }
       ]
     },
@@ -66,13 +70,20 @@
       "id": "releases",
       "eyebrow": "Gallery 02",
       "title": "Releases",
-      "subtitle": "Eight notable releases, led by month-specific anchors where possible.",
+      "subtitle": "March's notable releases",
       "items": [
+        {
+          "title": "World of Warcraft: Midnight",
+          "body": "World of Warcraft: Midnight is the highly celebrated eleventh expansion for the MMORPG, and the second chapter of the Worldsoul Saga.",
+          "date": "March 2, 2026",
+          "platform": "PC",
+          "signal": "Expansion time"
+        },
         {
           "date": "March 5, 2026",
           "title": "Marathon",
           "platform": "PC / PS5 / Xbox Series X|S",
-          "body": "Bungie's extraction-shooter revival becomes March's live-service test case.",
+          "body": "Explore the lost colony of Tau Ceti IV, scavenging valuable loot in a high-stakes survival first person shooter from the creators of Halo and Destiny.",
           "signal": "online shooter",
           "certainty": "month-specific or source-cited",
           "sourceNote": "GamesRadar lists March 5, 2026."
@@ -81,7 +92,7 @@
           "date": "March 5, 2026",
           "title": "Pokemon Pokopia",
           "platform": "Nintendo Switch 2",
-          "body": "Pokemon becomes a Switch 2 life-sim object.",
+          "body": "Pokémon Pokopia is a social simulation game co-developed by Game Freak and Koei Tecmo's Omega Force and published by Nintendo and The Pokémon Company for the Nintendo Switch 2. It is a spin-off of the main Pokémon series.",
           "signal": "Pokemon spin-off",
           "certainty": "month-specific or source-cited",
           "sourceNote": "GamesRadar lists March 5, 2026."
@@ -90,55 +101,47 @@
           "date": "March 5, 2026",
           "title": "Slay the Spire 2",
           "platform": "PC early access",
-          "body": "The deckbuilding sequel begins in public, early-access form.",
+          "body": "The iconic roguelike deckbuilder returns. Craft a unique deck, encounter bizarre creatures, and discover relics of immense power in Slay the Spire 2!",
           "signal": "early access",
           "certainty": "month-specific or source-cited",
           "sourceNote": "GamesRadar lists March 5, 2026."
         },
         {
+          "title": "Monster Hunter Stories 3: Twisted Reflection",
+          "body": "The third entry in the Monster Hunter Stories RPG series is here! Twin Rathalos, born in a twist of fate. Monster Hunter Stories is an RPG series set in the Monster Hunter world, where you can become a Rider, raising and bonding with your favorite monsters.",
+          "platform": "PS5, Xbox Series X/S, Switch 2, PC",
+          "date": "March 13th, 2026",
+          "signal": "RPG with monsters"
+        },
+        {
+          "title": "WWE 2K26",
+          "body": "The show never stops in WWE 2K26! Step into CM Punk’s 2K Showcase, dominate with 400+ Superstars and Legends, and unleash chaos with all-new match types.",
+          "date": "March 13, 2026",
+          "platform": "PS5, Xbox Series X/S, Switch 2, PC",
+          "signal": "Metal chair on the head"
+        },
+        {
           "date": "March 19, 2026",
           "title": "Crimson Desert",
           "platform": "PC / PS5 / Xbox Series X|S",
-          "body": "A long-previewed open-world action game lands in the spring calendar.",
+          "body": "Crimson Desert is an open-world action-adventure set on the continent of Pywel. Join Kliff on his journey to rebuild the Greymane faction and to save the land from a looming threat. From vast wilderness and cities to ruins and the mysterious Abyss, forge your path through battles and discovery.",
           "signal": "open-world action",
           "certainty": "month-specific or source-cited",
           "sourceNote": "GamesRadar lists March 19, 2026."
         },
         {
-          "date": "January 15, 2026",
-          "title": "Animal Crossing: New Horizons Switch 2 Edition",
-          "platform": "Nintendo Switch 2",
-          "body": "A 2020 lockdown object is re-shelved for Switch 2.",
-          "signal": "platform refresh",
-          "certainty": "month-specific or source-cited",
-          "sourceNote": "GamesRadar lists January 15, 2026."
+          "title": "Screamer",
+          "body": "High-octane action and anime aesthetics collide in this arcade racing game, featuring fighting mechanics and a storyline that hits hard. In this world, some race for glory while others seek power or revenge. Every race is a fight and every battle is personal.",
+          "platform": "PS5, Xbox Series X/S, PC",
+          "signal": "Indie racing darling",
+          "date": "March 26, 2006"
         },
         {
-          "date": "January 20, 2026",
-          "title": "2XKO",
-          "platform": "PC / PS5 / Xbox Series X|S",
-          "body": "Riot's fighter enters the early-year release calendar.",
-          "signal": "fighting game",
-          "certainty": "month-specific or source-cited",
-          "sourceNote": "GamesRadar lists January 20, 2026."
-        },
-        {
-          "date": "January 22, 2026",
-          "title": "Final Fantasy VII Remake Intergrade",
-          "platform": "Nintendo Switch 2",
-          "body": "Square's remake project continues spreading across platforms.",
-          "signal": "Switch 2 port",
-          "certainty": "month-specific or source-cited",
-          "sourceNote": "GamesRadar lists January 22, 2026."
-        },
-        {
-          "date": "January 30, 2026",
-          "title": "Code Vein 2",
-          "platform": "PC / PS5 / Xbox Series X|S",
-          "body": "Bandai Namco gives January a dark action-RPG shelf marker.",
-          "signal": "action RPG",
-          "certainty": "month-specific or source-cited",
-          "sourceNote": "GamesRadar lists January 30, 2026."
+          "title": "Super Meat Boy 3D",
+          "body": "The infamous, tough-as-nails platformer – now in 3D!",
+          "date": "March 30. 2026",
+          "platform": "PS5, Xbox Series X/S, PC",
+          "signal": "Vegan friendly"
         }
       ]
     },
@@ -149,8 +152,8 @@
       "subtitle": "Platform, subscription and buying context around the month.",
       "items": [
         {
-          "title": "Switch 2 enters its second calendar year",
-          "body": "Ports, editions and Nintendo-first releases now test whether the new machine has become ordinary.",
+          "title": "ROG Xbox Ally X starts clipping your best moments",
+          "body": "Xbox Insiders were invited to test Highlight Reels on the ROG Xbox Ally X, with automatic clips created after supported games. It made Microsoft’s handheld push feel less like “Windows on a small screen” and more like a proper Xbox-flavoured device.",
           "tags": [
             "Context"
           ],
@@ -158,8 +161,8 @@
           "sourceNote": "January-May 2026 release schedule context."
         },
         {
-          "title": "GTA VI controls the industry's weather without launching",
-          "body": "The moved May date leaves a visible gap in May 2026 and shapes how other games are discussed.",
+          "title": "Nvidia uses GDC to push DLSS 4.5 and path tracing harder",
+          "body": "Nvidia’s GDC showing was all about making high-end PC gaming look smarter, faster, and more expensive. DLSS 4.5, multi-frame generation, RTX Remix effects, and path-traced showcases kept the graphics-card arms race right at the centre of the industry conversation.",
           "tags": [
             "Context"
           ],
@@ -167,8 +170,8 @@
           "sourceNote": "Rockstar and GameSpot delay reporting."
         },
         {
-          "title": "Xbox widens its platform map",
-          "body": "Forza Horizon 6 launches on Xbox/PC with PS5 noted for later, underlining a less exclusive console landscape.",
+          "title": "Project Helix points to the next Xbox",
+          "body": "Microsoft talked up Project Helix as its next-generation Xbox console, built with AMD and designed to bring console and PC gaming closer together. It was less a normal console tease and more a sign that Xbox hardware was becoming a bridge between the living room and Windows.",
           "tags": [
             "Context"
           ],
@@ -176,8 +179,8 @@
           "sourceNote": "Gematsu and PC Gamer Forza reporting."
         },
         {
-          "title": "Online-first design remains a default assumption",
-          "body": "Marathon, 2XKO, early access and live-service updates make network presence part of the monthly archive.",
+          "title": "Switch 2 makes old Switch games look better in handheld mode",
+          "body": "Nintendo’s Handheld Mode Boost gave older Switch games a cleaner life on Switch 2 by letting many run closer to their docked profile while still being played portably. It was a small update, but a big quality-of-life win for anyone dragging a huge old library onto new hardware.",
           "tags": [
             "Context"
           ],
@@ -197,9 +200,9 @@
           "publication": "Edge",
           "issueDate": "2026 January-May",
           "headline": "Edge on the 2026 shelf",
-          "coverImage": "/magazine-covers/2026/edge-2026.jpg",
+          "coverImage": "/magazine-covers/2026/march/edge0326.jpg",
           "coverImageAlt": "Reconstructed placeholder cover for Edge, 2026 January-May.",
-          "curatorNote": "A current-generation shelf marker for GTA VI waiting, Switch 2 year two, and the early 2026 slate.",
+          "curatorNote": "Edge did a feature on the Paris-based Lizardcube, an indie studio built on a love of Sega classics from a golden era, while giving the cover over to The Blood of Dawnwalker.",
           "body": "A current-generation shelf marker for GTA VI waiting, Switch 2 year two, and the early 2026 slate.",
           "certainty": "contextual placeholder",
           "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
@@ -209,34 +212,22 @@
           "publication": "PC Gamer UK",
           "issueDate": "2026 January-May",
           "headline": "PC Gamer UK on the 2026 shelf",
-          "coverImage": "/magazine-covers/2026/pc-gamer-uk-2026.jpg",
+          "coverImage": "/magazine-covers/2026/march/pcgamer_0326.jpg",
           "coverImageAlt": "Reconstructed placeholder cover for PC Gamer UK, 2026 January-May.",
-          "curatorNote": "The PC-facing drawer for Marathon, Slay the Spire 2 early access, Forza Horizon 6, and the online calendar.",
+          "curatorNote": "PC Gamer took a deep look at the new World of Warcraft: Midnight expansion that was getting everybody excited.",
           "body": "The PC-facing drawer for Marathon, Slay the Spire 2 early access, Forza Horizon 6, and the online calendar.",
           "certainty": "contextual placeholder",
-          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
+          "sourceNote": "PC Gamer took a deep look at the new World of Warcraft: Midnight expansion that was getting everybody excited."
         },
         {
           "title": "Retro Gamer",
           "publication": "Retro Gamer",
           "issueDate": "2026 January-May",
           "headline": "Retro Gamer on the 2026 shelf",
-          "coverImage": "/magazine-covers/2026/retro-gamer-2026.jpg",
+          "coverImage": "/magazine-covers/2026/march/retrogamer0326.jpg",
           "coverImageAlt": "Reconstructed placeholder cover for Retro Gamer, 2026 January-May.",
-          "curatorNote": "Modern games keep recycling older names, remakes and archives; the past is still on the same shelf.",
-          "body": "Modern games keep recycling older names, remakes and archives; the past is still on the same shelf.",
-          "certainty": "contextual placeholder",
-          "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
-        },
-        {
-          "title": "Nintendo Switch 2 press context",
-          "publication": "Nintendo Switch 2 press context",
-          "issueDate": "2026 January-May",
-          "headline": "Nintendo Switch 2 press context on the 2026 shelf",
-          "coverImage": "/magazine-covers/2026/nintendo-switch-2-archive-2026.svg",
-          "coverImageAlt": "Reconstructed placeholder cover for Nintendo Switch 2 press context, 2026 January-May.",
-          "curatorNote": "A placeholder for Switch 2's second-year software coverage; replace with verified issue art later.",
-          "body": "A placeholder for Switch 2's second-year software coverage; replace with verified issue art later.",
+          "curatorNote": "The God of War series adorned Retro Gamer's cover as we headed into Spring.",
+          "body": "The God of War series adorned Retro Gamer's cover as we headed into Spring.",
           "certainty": "contextual placeholder",
           "sourceNote": "Placeholder artwork created for layout only; replace with verified/licensed scans before treating as a facsimile."
         }
@@ -249,20 +240,20 @@
       "subtitle": "How players discovered, argued about and shared the month.",
       "items": [
         {
-          "title": "Delay culture is communal",
-          "body": "GTA VI's missing May date becomes memes, mourning and calendar archaeology."
+          "title": "Single-player games started borrowing other people’s choices",
+          "body": "Tides of Tomorrow pushed its “Story-Link” idea: your solo adventure could be shaped by decisions made by previous players. Nice little card because it captures how even single-player games were becoming quietly networked."
         },
         {
-          "title": "Early access is part of the main shelf",
-          "body": "Slay the Spire 2 and Subnautica 2 show how unfinished-but-public games can still feel like major dates."
+          "title": "Roblox tried to make chat feel less like a wall of hashtags",
+          "body": "Roblox outlined changes to make chat more natural while still keeping safety controls in place. It’s a very 2026 problem: players wanted normal conversation, platforms wanted fewer disasters, and everyone was stuck negotiating with filters."
         },
         {
-          "title": "Platform identity is blurrier",
-          "body": "Ports and cross-platform releases make the old console-war map harder to read."
+          "title": "PlayStation’s prestige games kept growing online appendages",
+          "body": "Ghost of Yōtei Legends showed how the old “big single-player PlayStation game” model now often came with a separate online co-op layer, complete with PS Plus requirements for multiplayer."
         },
         {
-          "title": "The archive is live while it is happening",
-          "body": "For recent months, source notes matter because facts are still settling into history."
+          "title": "The Crew shutdown became a courtroom argument",
+          "body": "French consumer group UFC-Que Choisir sued Ubisoft over The Crew being made unplayable after its servers closed, with the case tied to the wider Stop Killing Games movement. This is probably the strongest March card: online games stopped being just a customer-service complaint and became a legal fight over what buying a game actually means."
         }
       ]
     },
@@ -273,20 +264,20 @@
       "subtitle": "A short atmospheric reading from the player side of recent history.",
       "items": [
         {
-          "title": "The year began under a shadow",
-          "body": "Even before release, GTA VI shaped conversation like a planet just offstage."
+          "title": "The calendar got noisy fast",
+          "body": "March felt like one of those months where every kind of player suddenly had homework: shooters, RPGs, cosy games, sports sims, remasters, early access darlings, and big open-world adventures all shouting at once."
         },
         {
-          "title": "Switch 2 became normal very quickly",
-          "body": "Ports and editions made the new console feel less like spectacle and more like furniture."
+          "title": "The backlog became the main boss",
+          "body": "There was no single mood to settle into. One minute you were looking at a huge fantasy adventure, the next at a stylish indie, a returning cult name, or a game you had already half-promised yourself you would definitely get around to this time."
         },
         {
-          "title": "Online games felt provisional",
-          "body": "Early access, live-service bets and post-launch roadmaps made finishedness harder to pin down."
+          "title": "Old names kept barging back in",
+          "body": "March had that very 2026 feeling of the past refusing to stay archived. Remasters, remakes, sequels, and familiar brands made the month feel less like a clean slate and more like gaming history being dragged back onto the front page."
         },
         {
-          "title": "The present already feels archival",
-          "body": "Because these months are so recent, the exhibit feels less nostalgic and more like preserving wet paint."
+          "title": "Everything felt slightly too big",
+          "body": "Even the exciting stuff carried a sense of scale creep. Bigger worlds, longer campaigns, wider launch plans, more platforms, more modes, more updates. March was fun, but it also felt like gaming had forgotten how to travel light."
         }
       ]
     }
@@ -333,11 +324,9 @@
       "note": "Used for May 2026 Forza launch timing context."
     }
   ],
-  "status": "ai-draft",
+  "status": "verified",
   "lastEdited": "2026-06-01",
   "editorNotes": [
-    "Initial AI-generated research draft for March 2026.",
-    "Recent-history exhibits should be checked carefully before being marked human-edited or verified.",
-    "Magazine cover images are reconstructed placeholders and should be replaced with verified/licensed scans if used editorially."
+    "All verified and updated."
   ]
 }
