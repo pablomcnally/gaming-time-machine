@@ -23,9 +23,6 @@ export function YearTimeline({ months, selectedYear, years }: { months: Timeline
             <p className="font-mono text-xs uppercase tracking-[0.28em] text-red-700">Timeline archive</p>
             <h2 className="mt-2 font-display text-3xl text-zinc-950 md:text-4xl">Select a year</h2>
           </div>
-          <p className="max-w-xl text-sm leading-6 text-zinc-600">
-            Years without installed exhibits remain visible as preserved archive slots.
-          </p>
         </div>
 
         <div className="mt-7 overflow-x-auto pb-3 [scrollbar-color:#18181b_transparent]">

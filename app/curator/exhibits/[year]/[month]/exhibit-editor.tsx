@@ -659,7 +659,17 @@ export function ExhibitEditor({
         aria-label="Editor section navigation"
         className="sticky top-0 z-20 border border-black/10 bg-[#fbf8ef]/95 p-4 shadow-exhibit backdrop-blur md:p-5"
       >
-        <p className="font-mono text-[10px] uppercase tracking-[0.28em] text-red-700">Section index</p>
+        <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+          <p className="font-mono text-[10px] uppercase tracking-[0.28em] text-red-700">Section index</p>
+          <button
+            type="button"
+            onClick={save}
+            disabled={saveState === "saving"}
+            className="w-full border border-zinc-950 bg-zinc-950 px-4 py-2.5 font-mono text-[10px] uppercase tracking-[0.18em] text-stone-50 transition hover:bg-red-700 disabled:cursor-wait disabled:opacity-60 md:w-auto"
+          >
+            {saveState === "saving" ? "Saving" : "Save JSON"}
+          </button>
+        </div>
         <div className="mt-3 flex gap-2 overflow-x-auto pb-1">
           <a
             href="#editor-intro"
