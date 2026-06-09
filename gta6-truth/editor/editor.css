@@ -1,0 +1,235 @@
+.editor-page {
+  background:
+    linear-gradient(rgba(23, 17, 15, 0.045) 1px, transparent 1px),
+    var(--paper);
+  background-size: 100% 18px;
+}
+
+.editor-shell {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 34px 0 60px;
+}
+
+.editor-login h1,
+.editor-toolbar h1 {
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: clamp(2.6rem, 7vw, 6rem);
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+
+.editor-login {
+  max-width: 720px;
+}
+
+.editor-login p:not(.label) {
+  max-width: 620px;
+  font-size: 1.1rem;
+  line-height: 1.55;
+}
+
+.editor-card,
+.story-list-panel,
+.story-editor-form {
+  border: 2px solid var(--ink);
+  background: #fffdf7;
+  box-shadow: var(--shadow);
+  padding: 18px;
+}
+
+.editor-toolbar {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+  border-bottom: 5px solid var(--ink);
+  padding-bottom: 18px;
+}
+
+.editor-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.editor-actions button,
+.editor-card button,
+.story-editor-form button {
+  border: 2px solid var(--ink);
+  background: #ffffff;
+  color: var(--ink);
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+  min-height: 42px;
+  padding: 8px 12px;
+  text-transform: uppercase;
+}
+
+.editor-actions button:hover,
+.editor-actions button:focus-visible,
+.editor-card button:hover,
+.editor-card button:focus-visible {
+  background: var(--yellow);
+  outline: none;
+}
+
+.editor-actions .primary-button {
+  background: var(--red);
+  color: #ffffff;
+}
+
+.editor-actions .danger-button {
+  border-color: var(--red);
+  color: var(--red);
+}
+
+.editor-status {
+  min-height: 1.4em;
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+}
+
+.editor-layout {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: 20px;
+}
+
+.story-list-panel {
+  align-self: start;
+  position: sticky;
+  top: 180px;
+}
+
+.story-list-panel h2 {
+  margin: 0 0 12px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+
+.story-list {
+  display: grid;
+  gap: 8px;
+}
+
+.story-list button {
+  border: 2px solid var(--ink);
+  background: var(--paper);
+  color: var(--ink);
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+  line-height: 1.25;
+  min-height: 48px;
+  padding: 10px;
+  text-align: left;
+}
+
+.story-list button.active {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.story-editor-form {
+  display: grid;
+  gap: 14px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.editor-card label,
+.story-editor-form label {
+  display: grid;
+  gap: 6px;
+  font-family: Arial, sans-serif;
+  font-size: 0.84rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.editor-card input,
+.story-editor-form input,
+.story-editor-form select,
+.story-editor-form textarea {
+  width: 100%;
+  border: 2px solid var(--ink);
+  background: #fffdf7;
+  color: var(--ink);
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  padding: 10px;
+  text-transform: none;
+}
+
+.story-editor-form textarea {
+  resize: vertical;
+}
+
+.advanced-panel {
+  border-top: 2px solid rgba(23, 17, 15, 0.18);
+  padding-top: 10px;
+}
+
+.advanced-panel summary {
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.advanced-panel[open] {
+  display: grid;
+  gap: 14px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 880px) {
+  .editor-shell {
+    width: min(100% - 24px, 680px);
+  }
+
+  .editor-toolbar,
+  .editor-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .editor-toolbar {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .editor-actions {
+    justify-content: flex-start;
+  }
+
+  .story-list-panel {
+    position: static;
+  }
+}
+
+@media (max-width: 560px) {
+  .editor-shell {
+    width: min(100% - 20px, 460px);
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .editor-actions button {
+    width: 100%;
+  }
+}

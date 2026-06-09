@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Story Editor | GTA 6 - Nothing but the truth</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="editor.css" />
+  </head>
+  <body class="editor-page">
+    <header class="site-header">
+      <div class="topline">
+        <span>Unofficial parody edition</span>
+        <span>Editor</span>
+        <span>Shared password required</span>
+      </div>
+      <nav class="masthead" aria-label="Primary">
+        <a class="brand" href="../index.html" aria-label="GTA 6 - Nothing but the truth home">
+          <span class="brand-kicker">GTA 6</span>
+          <span class="brand-name">Nothing but the truth</span>
+        </a>
+        <div class="nav-links">
+          <a href="../index.html">Site</a>
+          <a href="../WRITERS-GUIDE.md">Guide</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="editor-shell">
+      <section class="editor-login" id="loginPanel">
+        <p class="label">Writer access</p>
+        <h1>Story editor</h1>
+        <p>
+          Enter the shared editor password. Saves commit to GitHub, then Vercel publishes the rebuilt site.
+        </p>
+        <form id="loginForm" class="editor-card">
+          <label>
+            Password
+            <input id="passwordInput" type="password" autocomplete="current-password" required />
+          </label>
+          <button type="submit">Unlock editor</button>
+        </form>
+        <p class="editor-status" id="loginStatusText" role="status" aria-live="polite"></p>
+      </section>
+
+      <section class="editor-app hidden" id="editorApp" aria-live="polite">
+        <div class="editor-toolbar">
+          <div>
+            <p class="label">Story desk</p>
+            <h1>Edit stories</h1>
+          </div>
+          <div class="editor-actions">
+            <button type="button" id="addStoryButton">Add story</button>
+            <button type="button" id="duplicateStoryButton">Duplicate</button>
+            <button type="button" id="deleteStoryButton" class="danger-button">Delete</button>
+            <button type="button" id="saveButton" class="primary-button">Save to GitHub</button>
+          </div>
+        </div>
+
+        <p class="editor-status" id="statusText">Loading stories...</p>
+
+        <div class="editor-layout">
+          <aside class="story-list-panel">
+            <h2>Stories</h2>
+            <div id="storyList" class="story-list"></div>
+          </aside>
+
+          <form id="storyForm" class="story-editor-form">
+            <div class="form-grid">
+              <label>
+                Slug
+                <input name="slug" required pattern="[a-z0-9]+(-[a-z0-9]+)*" />
+              </label>
+              <label>
+                Category
+                <select name="category" required>
+                  <option value="leak">Leak</option>
+                  <option value="analysis">Analysis</option>
+                  <option value="local">Local chaos</option>
+                </select>
+              </label>
+              <label>
+                Category label
+                <input name="categoryLabel" required />
+              </label>
+              <label>
+                Badge
+                <input name="badge" required />
+              </label>
+              <label>
+                Accent
+                <select name="accent" required>
+                  <option value="blue">Blue</option>
+                  <option value="yellow">Yellow</option>
+                  <option value="green">Green</option>
+                  <option value="red">Red</option>
+                  <option value="sunset">Sunset</option>
+                </select>
+              </label>
+              <label>
+                Author
+                <input name="author" required />
+              </label>
+              <label>
+                Read time
+                <input name="readTime" required />
+              </label>
+              <label>
+                Date
+                <input name="date" required />
+              </label>
+            </div>
+
+            <label>
+              Headline
+              <input name="title" required />
+            </label>
+            <label>
+              Description
+              <textarea name="description" rows="3" required></textarea>
+            </label>
+            <label>
+              Body paragraphs
+              <textarea name="body" rows="12" required></textarea>
+            </label>
+
+            <details class="advanced-panel">
+              <summary>Homepage and ticker settings</summary>
+              <div class="form-grid">
+                <label>
+                  Updated label
+                  <input name="updatedLabel" />
+                </label>
+                <label>
+                  Lead label
+                  <input name="leadLabel" />
+                </label>
+              </div>
+              <label>
+                Homepage headline
+                <input name="leadTitle" />
+              </label>
+              <label>
+                Homepage summary
+                <textarea name="leadSummary" rows="3"></textarea>
+              </label>
+              <label>
+                Ticker lines
+                <textarea name="ticker" rows="5"></textarea>
+              </label>
+            </details>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="editor.js"></script>
+  </body>
+</html>

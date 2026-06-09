@@ -2,9 +2,21 @@
 
 This site is a static parody news site. Writers should edit the story data, then rebuild the generated pages.
 
+## Online Editing
+
+Open the editor at:
+
+```text
+/editor/
+```
+
+Use the shared editor password.
+
+When you click **Save to GitHub**, the editor commits the story data to GitHub. Vercel should then redeploy the live site automatically.
+
 ## The Important Files
 
-Edit this file:
+If you are editing locally instead of using the online editor, edit this file:
 
 ```text
 data/stories.json
@@ -94,7 +106,7 @@ sunset
 
 ## Rebuilding The Site
 
-After editing stories, run this from the `gta6-truth` folder:
+If you edited stories locally, run this from the `gta6-truth` folder:
 
 ```powershell
 npm.cmd run build
@@ -110,7 +122,7 @@ stories/stories.json
 
 ## Publishing Changes
 
-From the main repo folder:
+If you edited locally, publish from the main repo folder:
 
 ```powershell
 git add gta6-truth
