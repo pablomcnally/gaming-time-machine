@@ -120,7 +120,7 @@ function renderIndex() {
 
   const main = `<main>
       <section class="hero" id="lead" aria-labelledby="hero-title">
-        <img src="assets/neon-rumor-desk.png" alt="A neon coastal city and messy newsroom desk full of rumour files" />
+        <img src="assets/neon-rumor-desk-clean.png" alt="A neon coastal city and messy newsroom desk full of rumour files" />
         <div class="hero-copy">
           <p class="label">${escapeHtml(data.lead.label)}</p>
           <h1 id="hero-title">${escapeHtml(data.lead.title)}</h1>
