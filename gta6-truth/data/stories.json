@@ -14,6 +14,21 @@
   ],
   "stories": [
     {
+      "slug": "a-brand-new-leak",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "Unverified",
+      "accent": "blue",
+      "title": "A brand new leak",
+      "description": "you wont have read this anywhere else",
+      "author": "Writer Name",
+      "readTime": "3 min read",
+      "date": "Tuesday, June 9, 2026",
+      "body": [
+        "ooh this is interesting\nit's probably true"
+      ]
+    },
+    {
       "slug": "trailer-palm-tree-47-endings",
       "category": "analysis",
       "categoryLabel": "Analysis",
