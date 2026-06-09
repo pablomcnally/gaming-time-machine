@@ -7,6 +7,7 @@ const storyForm = document.querySelector("#storyForm");
 const statusText = document.querySelector("#statusText");
 const loginStatusText = document.querySelector("#loginStatusText");
 const addStoryButton = document.querySelector("#addStoryButton");
+const makeLeadButton = document.querySelector("#makeLeadButton");
 const duplicateStoryButton = document.querySelector("#duplicateStoryButton");
 const deleteStoryButton = document.querySelector("#deleteStoryButton");
 const saveButton = document.querySelector("#saveButton");
@@ -222,6 +223,18 @@ duplicateStoryButton.addEventListener("click", () => {
   renderStoryList();
   fillForm();
   setStatus("Story duplicated. Update the slug before saving.");
+});
+
+makeLeadButton.addEventListener("click", () => {
+  syncCurrentStory();
+  const story = selectedStory();
+  data.lead.label = story.categoryLabel || "Front page exclusive";
+  data.lead.title = story.title;
+  data.lead.summary = story.description;
+  storyForm.elements.leadLabel.value = data.lead.label;
+  storyForm.elements.leadTitle.value = data.lead.title;
+  storyForm.elements.leadSummary.value = data.lead.summary;
+  setStatus("Selected story copied into the homepage hero. Save to publish it.");
 });
 
 deleteStoryButton.addEventListener("click", () => {
