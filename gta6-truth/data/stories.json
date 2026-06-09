@@ -21,14 +21,14 @@
       "accent": "blue",
       "title": "A brand new leak",
       "description": "you wont have read this anywhere else",
+      "imageUrl": "",
+      "imageAlt": "",
       "author": "Don Pablo",
       "readTime": "3 min read",
       "date": "Tuesday, June 9, 2026",
       "body": [
         "ooh this is interesting\nit's probably true"
-      ],
-      "imageUrl": "",
-      "imageAlt": ""
+      ]
     },
     {
       "slug": "trailer-palm-tree-47-endings",
@@ -38,6 +38,8 @@
       "accent": "sunset",
       "title": "Trailer palm tree may confirm 47 separate endings, say men with rulers.",
       "description": "A shadow, a leaf, and what might be a seagull have convinced our panel that every mission will branch into either crime, karaoke, or responsible parking.",
+      "imageUrl": "",
+      "imageAlt": "",
       "author": "Vera Citydesk",
       "readTime": "6 min read",
       "date": "June 9, 2026",
@@ -46,9 +48,7 @@
         "After rotating the image by three degrees, printing it on legal paper, and asking a kettle for a second opinion, our newsroom believes the shadow pattern points toward a branching ending system of historic complexity.",
         "One staff analyst claims the tree's leftmost frond resembles the number 47. Another argues it resembles a tired banana. Both readings are currently being treated as equally robust.",
         "Rockstar has not commented, which we interpret as either a denial, a confirmation, or a company choosing not to reply to a question about a tree."
-      ],
-      "imageUrl": "",
-      "imageAlt": ""
+      ]
     },
     {
       "slug": "traffic-cone-emotions-retail-listing",
@@ -58,6 +58,8 @@
       "accent": "blue",
       "title": "Retail listing briefly promises realistic traffic cone emotions.",
       "description": "The page vanished within minutes, which proves either a cover-up or that someone needed to fix the spelling of vehicular melancholy.",
+      "imageUrl": "",
+      "imageAlt": "",
       "author": "Dex Pixel",
       "readTime": "3 min read",
       "date": "June 9, 2026",
@@ -65,9 +67,7 @@
         "A retailer listing, visible for approximately eleven minutes and one very dramatic group chat, appeared to describe a feature called \"dynamic roadside object feelings.\"",
         "The listing claimed cones would react to nearby danger with \"contextual wobble, civic disappointment, and premium next-gen regret.\" We cannot confirm any of this, but we can confirm we enjoyed reading it.",
         "The page was removed shortly after being noticed. Industry watchers say this is either normal metadata cleanup or the largest traffic-cone secrecy operation in entertainment history."
-      ],
-      "imageUrl": "",
-      "imageAlt": ""
+      ]
     },
     {
       "slug": "vice-beaches-puddle-photographers",
@@ -77,6 +77,8 @@
       "accent": "yellow",
       "title": "Vice beaches prepare for influx of people photographing puddles.",
       "description": "Residents have been advised not to stand near reflective surfaces, neon signs, or suspiciously high-resolution scooters with surprisingly detailed suspension.",
+      "imageUrl": "assets/story-images/vice-beaches-puddle-photographers-1781020450596-gtavi.jpg",
+      "imageAlt": "Vice beaches prepare for influx of people photographing puddles.",
       "author": "Nia Brakecheck",
       "readTime": "4 min read",
       "date": "June 9, 2026",
@@ -84,9 +86,7 @@
         "Tourism officials are preparing for a wave of visitors expected to crouch beside puddles, whisper \"ray tracing,\" and take twelve identical screenshots of wet pavement.",
         "Local businesses are reportedly installing extra reflective surfaces to meet demand. One beachfront cafe now offers a premium puddle table with optional lens flare.",
         "Residents have been urged to keep moving if they see someone comparing sidewalk reflections to a trailer frame. Officials describe the situation as \"mostly harmless, but emotionally glossy.\""
-      ],
-      "imageUrl": "",
-      "imageAlt": ""
+      ]
     },
     {
       "slug": "release-dates-hidden-in-synth-pads",
@@ -96,6 +96,8 @@
       "accent": "green",
       "title": "Scientists discover fans can hear release dates in ambient synth pads.",
       "description": "The breakthrough came after one listener slowed the trailer by 0.5 percent and heard what experts describe as probably a drum.",
+      "imageUrl": "",
+      "imageAlt": "",
       "author": "Mo Framecount",
       "readTime": "5 min read",
       "date": "June 9, 2026",
@@ -103,9 +105,7 @@
         "A new field of trailer acoustics has emerged after fans began analysing background synth pads for hidden scheduling information.",
         "One popular theory claims that a low note at the 38-second mark contains the phrase \"late fiscal optimism\" when played through a toaster. Another claims the same sound is just a bass line.",
         "Our audio desk ran the clip through seven filters and one emotional support spreadsheet. The result was inconclusive, but very cinematic."
-      ],
-      "imageUrl": "",
-      "imageAlt": ""
+      ]
     },
     {
       "slug": "npc-mortgage-crisp-flavour-insider",
@@ -115,6 +115,8 @@
       "accent": "red",
       "title": "Insider says every NPC has a mortgage and a favourite crisp flavour.",
       "description": "We cannot verify this, but our source was wearing sunglasses indoors, which is the highest known credential in games journalism.",
+      "imageUrl": "",
+      "imageAlt": "",
       "author": "Cass Receipts",
       "readTime": "2 min read",
       "date": "June 9, 2026",
@@ -122,9 +124,7 @@
         "A person close to a person close to a Discord screenshot claims the game simulates deep personal lives for every background character.",
         "According to the claim, NPCs will remember their mortgage provider, preferred snack, and whether they once considered learning guitar in 2014.",
         "We asked for evidence and received a photo of a car park. Our editorial board has classified this as \"not proof, but atmospherically compelling.\""
-      ],
-      "imageUrl": "",
-      "imageAlt": ""
+      ]
     }
   ]
 }
