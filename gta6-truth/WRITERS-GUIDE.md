@@ -14,6 +14,20 @@ Use the shared editor password.
 
 When you click **Save to GitHub**, the editor commits the story data to GitHub. Vercel should then redeploy the live site automatically.
 
+## Homepage Settings
+
+The top **Homepage settings** panel controls the big hero headline, summary, date label, and ticker lines.
+
+Changing these does not create a story.
+
+If you want an existing story to become the homepage hero, select that story and click:
+
+```text
+Make homepage lead
+```
+
+Then click **Save to GitHub**.
+
 ## Tip Inbox
 
 Reader tips from the homepage tip form appear in the editor's **Tip inbox**.

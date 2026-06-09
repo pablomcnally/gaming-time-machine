@@ -15,6 +15,11 @@ const refreshTipsButton = document.querySelector("#refreshTipsButton");
 const tipList = document.querySelector("#tipList");
 const imageFileInput = document.querySelector("#imageFileInput");
 const uploadImageButton = document.querySelector("#uploadImageButton");
+const updatedLabelInput = document.querySelector("#updatedLabelInput");
+const leadLabelInput = document.querySelector("#leadLabelInput");
+const leadTitleInput = document.querySelector("#leadTitleInput");
+const leadSummaryInput = document.querySelector("#leadSummaryInput");
+const tickerInput = document.querySelector("#tickerInput");
 
 const categoryLabels = {
   leak: "Leak",
@@ -136,11 +141,11 @@ function storyFromForm() {
 function syncCurrentStory() {
   if (!data || !data.stories[selectedIndex]) return;
   data.stories[selectedIndex] = storyFromForm();
-  data.updatedLabel = storyForm.elements.updatedLabel.value.trim();
-  data.lead.label = storyForm.elements.leadLabel.value.trim();
-  data.lead.title = storyForm.elements.leadTitle.value.trim();
-  data.lead.summary = storyForm.elements.leadSummary.value.trim();
-  data.ticker = storyForm.elements.ticker.value
+  data.updatedLabel = updatedLabelInput.value.trim();
+  data.lead.label = leadLabelInput.value.trim();
+  data.lead.title = leadTitleInput.value.trim();
+  data.lead.summary = leadSummaryInput.value.trim();
+  data.ticker = tickerInput.value
     .split("\n")
     .map((line) => line.trim())
     .filter(Boolean);
@@ -161,11 +166,11 @@ function fillForm() {
   storyForm.elements.imageUrl.value = story.imageUrl || "";
   storyForm.elements.imageAlt.value = story.imageAlt || "";
   storyForm.elements.body.value = story.body.join("\n\n");
-  storyForm.elements.updatedLabel.value = data.updatedLabel;
-  storyForm.elements.leadLabel.value = data.lead.label;
-  storyForm.elements.leadTitle.value = data.lead.title;
-  storyForm.elements.leadSummary.value = data.lead.summary;
-  storyForm.elements.ticker.value = data.ticker.join("\n");
+  updatedLabelInput.value = data.updatedLabel;
+  leadLabelInput.value = data.lead.label;
+  leadTitleInput.value = data.lead.title;
+  leadSummaryInput.value = data.lead.summary;
+  tickerInput.value = data.ticker.join("\n");
 }
 
 function renderStoryList() {
@@ -366,9 +371,9 @@ makeLeadButton.addEventListener("click", () => {
   data.lead.label = story.categoryLabel || "Front page exclusive";
   data.lead.title = story.title;
   data.lead.summary = story.description;
-  storyForm.elements.leadLabel.value = data.lead.label;
-  storyForm.elements.leadTitle.value = data.lead.title;
-  storyForm.elements.leadSummary.value = data.lead.summary;
+  leadLabelInput.value = data.lead.label;
+  leadTitleInput.value = data.lead.title;
+  leadSummaryInput.value = data.lead.summary;
   setStatus("Selected story copied into the homepage hero. Save to publish it.");
 });
 

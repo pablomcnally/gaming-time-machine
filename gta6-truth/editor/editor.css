@@ -31,12 +31,27 @@
 }
 
 .editor-card,
+.homepage-settings-card,
 .story-list-panel,
 .story-editor-form {
   border: 2px solid var(--ink);
   background: #fffdf7;
   box-shadow: var(--shadow);
   padding: 18px;
+}
+
+.homepage-settings-card {
+  display: grid;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.homepage-settings-card h2 {
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2.4rem;
+  line-height: 0.95;
+  text-transform: uppercase;
 }
 
 .editor-toolbar {
@@ -219,6 +234,7 @@
 }
 
 .editor-card label,
+.homepage-settings-card label,
 .story-editor-form label {
   display: grid;
   gap: 6px;
@@ -229,6 +245,8 @@
 }
 
 .editor-card input,
+.homepage-settings-card input,
+.homepage-settings-card textarea,
 .story-editor-form input,
 .story-editor-form select,
 .story-editor-form textarea {

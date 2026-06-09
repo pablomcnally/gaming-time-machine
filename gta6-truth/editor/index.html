@@ -63,6 +63,35 @@
 
         <p class="editor-status" id="statusText">Loading stories...</p>
 
+        <section class="homepage-settings-card" aria-labelledby="homepage-settings-title">
+          <div>
+            <p class="label">Homepage settings</p>
+            <h2 id="homepage-settings-title">Hero and ticker</h2>
+          </div>
+          <div class="form-grid">
+            <label>
+              Updated label
+              <input id="updatedLabelInput" />
+            </label>
+            <label>
+              Lead label
+              <input id="leadLabelInput" />
+            </label>
+          </div>
+          <label>
+            Homepage headline
+            <input id="leadTitleInput" />
+          </label>
+          <label>
+            Homepage summary
+            <textarea id="leadSummaryInput" rows="3"></textarea>
+          </label>
+          <label>
+            Ticker lines
+            <textarea id="tickerInput" rows="5"></textarea>
+          </label>
+        </section>
+
         <div class="editor-layout">
           <aside class="story-list-panel">
             <h2>Stories</h2>
@@ -152,31 +181,6 @@
               <textarea name="body" rows="12" required></textarea>
             </label>
 
-            <details class="advanced-panel">
-              <summary>Homepage and ticker settings</summary>
-              <div class="form-grid">
-                <label>
-                  Updated label
-                  <input name="updatedLabel" />
-                </label>
-                <label>
-                  Lead label
-                  <input name="leadLabel" />
-                </label>
-              </div>
-              <label>
-                Homepage headline
-                <input name="leadTitle" />
-              </label>
-              <label>
-                Homepage summary
-                <textarea name="leadSummary" rows="3"></textarea>
-              </label>
-              <label>
-                Ticker lines
-                <textarea name="ticker" rows="5"></textarea>
-              </label>
-            </details>
           </form>
         </div>
       </section>
