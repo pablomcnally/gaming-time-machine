@@ -205,6 +205,13 @@
   gap: 14px;
 }
 
+.upload-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: end;
+}
+
 .form-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -237,6 +244,10 @@
 
 .story-editor-form textarea {
   resize: vertical;
+}
+
+.upload-row button {
+  white-space: nowrap;
 }
 
 .advanced-panel {
@@ -290,6 +301,10 @@
   }
 
   .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .upload-row {
     grid-template-columns: 1fr;
   }
 

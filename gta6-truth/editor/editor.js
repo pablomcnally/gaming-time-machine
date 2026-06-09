@@ -13,6 +13,8 @@ const deleteStoryButton = document.querySelector("#deleteStoryButton");
 const saveButton = document.querySelector("#saveButton");
 const refreshTipsButton = document.querySelector("#refreshTipsButton");
 const tipList = document.querySelector("#tipList");
+const imageFileInput = document.querySelector("#imageFileInput");
+const uploadImageButton = document.querySelector("#uploadImageButton");
 
 const categoryLabels = {
   leak: "Leak",
@@ -61,6 +63,17 @@ async function requestStories() {
   }
 
   return result.data;
+}
+
+function fileToBase64(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.addEventListener("load", () => {
+      resolve(String(reader.result).split(",")[1] || "");
+    });
+    reader.addEventListener("error", () => reject(new Error("Could not read image file.")));
+    reader.readAsDataURL(file);
+  });
 }
 
 async function requestTips() {
@@ -406,6 +419,52 @@ refreshTipsButton.addEventListener("click", async () => {
     setStatus("Tip inbox refreshed.");
   } catch (error) {
     setStatus(error.message, true);
+  }
+});
+
+uploadImageButton.addEventListener("click", async () => {
+  const file = imageFileInput.files[0];
+  if (!file) {
+    setStatus("Choose an image file first.", true);
+    return;
+  }
+
+  if (file.size > 3 * 1024 * 1024) {
+    setStatus("Image is too large. Try under 3 MB.", true);
+    return;
+  }
+
+  try {
+    syncCurrentStory();
+    setStatus("Uploading image...");
+    uploadImageButton.disabled = true;
+    const base64 = await fileToBase64(file);
+    const response = await fetch("/api/images", {
+      method: "POST",
+      headers: getHeaders(),
+      body: JSON.stringify({
+        storySlug: selectedStory().slug,
+        filename: file.name,
+        mimeType: file.type,
+        base64
+      })
+    });
+    const result = await response.json();
+
+    if (!response.ok || !result.ok) {
+      throw new Error(result.message || "Image upload failed.");
+    }
+
+    storyForm.elements.imageUrl.value = result.path;
+    if (!storyForm.elements.imageAlt.value) {
+      storyForm.elements.imageAlt.value = selectedStory().title;
+    }
+    syncCurrentStory();
+    setStatus(`Image uploaded. Save the story to publish image path ${result.path}.`);
+  } catch (error) {
+    setStatus(error.message, true);
+  } finally {
+    uploadImageButton.disabled = false;
   }
 });
 

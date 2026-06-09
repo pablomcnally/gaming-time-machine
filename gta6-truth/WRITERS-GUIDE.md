@@ -127,6 +127,20 @@ assets/story-images/example.jpg
 
 `imageAlt` should briefly describe the image. Leave it blank if the image is decorative.
 
+In the online editor, the easier route is:
+
+```text
+Choose file -> Upload and use image -> Save to GitHub
+```
+
+Uploaded images are stored in:
+
+```text
+assets/story-images/
+```
+
+Use JPG, PNG, WebP, or GIF. Keep images under 3 MB.
+
 `body` is an array of paragraphs. Put each paragraph in its own quoted line.
 
 ## Rebuilding The Site

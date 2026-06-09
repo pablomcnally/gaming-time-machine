@@ -56,6 +56,12 @@ The generated story pages live under `stories/`, so each article has its own cra
 
 Stories can optionally include `imageUrl` and `imageAlt`. If `imageUrl` is blank, the site uses the coloured story block fallback.
 
+The editor can upload story images to GitHub under:
+
+```text
+assets/story-images/
+```
+
 ## Editor Environment Variables
 
 Add these in Vercel Project Settings > Environment Variables:
@@ -67,6 +73,7 @@ GITHUB_REPO
 GITHUB_BRANCH
 GITHUB_CONTENT_PATH
 GITHUB_TIPS_PATH
+GITHUB_IMAGE_PATH
 ```
 
 Recommended values:
@@ -77,6 +84,7 @@ GITHUB_REPO=pablomcnally/gaming-time-machine
 GITHUB_BRANCH=main
 GITHUB_CONTENT_PATH=gta6-truth/data/stories.json
 GITHUB_TIPS_PATH=gta6-truth/data/tips.json
+GITHUB_IMAGE_PATH=gta6-truth/assets/story-images
 ```
 
 `GITHUB_TOKEN` should be a GitHub token with permission to read and write repository contents.
