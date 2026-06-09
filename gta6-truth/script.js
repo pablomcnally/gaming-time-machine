@@ -1,10 +1,5 @@
-const rumours = [
-  "Anonymous source claims the moon is a playable vehicle if you pre-order twice.",
-  "A menu beep has allegedly confirmed 19 radio stations and one deeply tired podcast.",
-  "Fans identify a possible convenience store from a reflection inside another reflection.",
-  "Publisher remains silent after journalist asks whether water will be wet.",
-  "New theory suggests every palm tree is individually voice-acted."
-];
+const tickerData = document.querySelector("#tickerData");
+const rumours = tickerData ? JSON.parse(tickerData.textContent) : [];
 
 const tickerText = document.querySelector("#tickerText");
 const filterButtons = document.querySelectorAll(".filter-button");
@@ -14,10 +9,12 @@ const formNote = document.querySelector(".form-note");
 
 let tickerIndex = 0;
 
-window.setInterval(() => {
-  tickerIndex = (tickerIndex + 1) % rumours.length;
-  tickerText.textContent = rumours[tickerIndex];
-}, 4200);
+if (tickerText && rumours.length > 0) {
+  window.setInterval(() => {
+    tickerIndex = (tickerIndex + 1) % rumours.length;
+    tickerText.textContent = rumours[tickerIndex];
+  }, 4200);
+}
 
 filterButtons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -31,8 +28,10 @@ filterButtons.forEach((button) => {
   });
 });
 
-tipForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-  formNote.textContent = "Filed under: Things We Will Mention With Absolute Confidence.";
-  tipForm.reset();
-});
+if (tipForm && formNote) {
+  tipForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    formNote.textContent = "Filed under: Things We Will Mention With Absolute Confidence.";
+    tipForm.reset();
+  });
+}
