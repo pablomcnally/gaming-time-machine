@@ -68,6 +68,7 @@ function siteHeader(basePath) {
           <a href="${base}index.html#latest">Latest</a>
           <a href="${base}index.html#evidence">Evidence</a>
           <a href="${base}index.html#tipline">Tip line</a>
+          <a href="${base}logo-gallery/">Logos</a>
         </div>
       </nav>
       <div class="ticker" aria-label="Breaking rumours">

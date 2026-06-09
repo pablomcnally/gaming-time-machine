@@ -1,0 +1,266 @@
+.logo-gallery-page {
+  background:
+    linear-gradient(rgba(23, 17, 15, 0.04) 1px, transparent 1px),
+    var(--paper);
+  background-size: 100% 18px;
+}
+
+.logo-gallery-shell {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 34px 0 62px;
+}
+
+.logo-gallery-intro {
+  border-bottom: 5px solid var(--ink);
+  margin-bottom: 22px;
+  padding-bottom: 18px;
+}
+
+.logo-gallery-intro h1 {
+  max-width: 900px;
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: clamp(3rem, 8vw, 7rem);
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+
+.logo-gallery-intro p:not(.label) {
+  max-width: 760px;
+  font-size: 1.12rem;
+  line-height: 1.55;
+}
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.logo-card {
+  border: 2px solid var(--ink);
+  background: #fffdf7;
+  box-shadow: var(--shadow);
+}
+
+.logo-sample {
+  display: grid;
+  min-height: 270px;
+  place-items: center;
+  border-bottom: 2px solid var(--ink);
+  padding: 22px;
+  overflow: hidden;
+}
+
+.dark-sample {
+  background: #151012;
+}
+
+.logo-notes {
+  padding: 16px;
+}
+
+.logo-notes h2 {
+  margin: 0 0 8px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+
+.logo-notes p {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.logo-a {
+  color: var(--ink);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.logo-a-top {
+  display: block;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: clamp(4rem, 10vw, 8rem);
+  line-height: 0.78;
+}
+
+.logo-a-rule {
+  display: block;
+  height: 10px;
+  margin: 14px auto 10px;
+  width: min(400px, 88%);
+  background: var(--red);
+}
+
+.logo-a-bottom {
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: clamp(1rem, 2vw, 1.55rem);
+  font-weight: 900;
+  color: var(--red);
+  letter-spacing: 0;
+}
+
+.logo-b {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  color: var(--ink);
+}
+
+.logo-b-seal {
+  display: grid;
+  width: 112px;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 8px solid var(--ink);
+  background: var(--yellow);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.logo-b strong,
+.logo-b em {
+  display: block;
+  text-transform: uppercase;
+}
+
+.logo-b strong {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: clamp(4rem, 9vw, 7rem);
+  line-height: 0.8;
+}
+
+.logo-b em {
+  border-top: 6px solid var(--red);
+  margin-top: 10px;
+  padding-top: 8px;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  color: var(--red);
+}
+
+.logo-c {
+  color: #fff9ec;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow:
+    4px 0 0 rgba(12, 143, 145, 0.85),
+    -4px 0 0 rgba(201, 38, 46, 0.85);
+}
+
+.logo-c-main {
+  display: block;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: clamp(4rem, 10vw, 8rem);
+  line-height: 0.84;
+}
+
+.logo-c-sub {
+  display: inline-block;
+  margin-top: 12px;
+  border: 2px solid #fff9ec;
+  padding: 8px 12px;
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+}
+
+.logo-d {
+  display: grid;
+  justify-items: center;
+  text-transform: uppercase;
+  transform: rotate(-2deg);
+}
+
+.logo-d-small {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.logo-d-main {
+  border: 8px double var(--ink);
+  padding: 8px 16px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: clamp(4rem, 10vw, 7rem);
+  line-height: 0.9;
+}
+
+.logo-d-stamp {
+  margin-top: -6px;
+  background: var(--red);
+  color: #ffffff;
+  padding: 8px 14px;
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+}
+
+.logo-e {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.logo-e-box {
+  display: grid;
+  width: 132px;
+  aspect-ratio: 1;
+  place-items: center;
+  background: var(--ink);
+  color: var(--paper);
+  box-shadow: 10px 10px 0 var(--red);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 4.8rem;
+}
+
+.logo-e-type strong,
+.logo-e-type em {
+  display: block;
+  text-transform: uppercase;
+}
+
+.logo-e-type strong {
+  font-family: Arial, sans-serif;
+  font-size: clamp(1.6rem, 4vw, 3.4rem);
+  font-weight: 900;
+}
+
+.logo-e-type em {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.8rem, 4vw, 3.6rem);
+  font-style: italic;
+  font-weight: 900;
+}
+
+.logo-f {
+  width: min(100%, 540px);
+  height: auto;
+}
+
+@media (max-width: 820px) {
+  .logo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .logo-b,
+  .logo-e {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 520px) {
+  .logo-gallery-shell {
+    width: min(100% - 20px, 460px);
+  }
+
+  .logo-sample {
+    min-height: 230px;
+    padding: 16px;
+  }
+}
