@@ -238,6 +238,50 @@ p {
   text-transform: uppercase;
 }
 
+.scroll-cue {
+  position: absolute;
+  left: 50%;
+  bottom: 18px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transform: translateX(-50%);
+  border: 2px solid rgba(255, 249, 236, 0.75);
+  background: rgba(23, 17, 15, 0.72);
+  color: #fff9ec;
+  padding: 8px 12px;
+  font-family: Arial, sans-serif;
+  font-size: 0.74rem;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.scroll-arrow {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1;
+  animation: scroll-bob 1.4s ease-in-out infinite;
+}
+
+@keyframes scroll-bob {
+  0%,
+  100% {
+    transform: translateY(-1px);
+  }
+
+  50% {
+    transform: translateY(4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-arrow {
+    animation: none;
+  }
+}
+
 .issue-strip {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr;
@@ -701,6 +745,10 @@ p {
   .nav-links a {
     width: 100%;
     text-align: center;
+  }
+
+  .scroll-cue {
+    bottom: 12px;
   }
 
   .meta {

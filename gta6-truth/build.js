@@ -141,6 +141,10 @@ function renderIndex() {
           <p>${escapeHtml(data.lead.summary)}</p>
           <a class="button-link" href="#latest">Read the latest nonsense</a>
         </div>
+        <a class="scroll-cue" href="#latest" aria-label="Scroll to latest stories">
+          <span>Latest stories</span>
+          <span class="scroll-arrow" aria-hidden="true">↓</span>
+        </a>
       </section>
 
       <section class="issue-strip" aria-label="Today's issue summary">
