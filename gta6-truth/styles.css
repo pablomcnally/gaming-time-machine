@@ -322,6 +322,21 @@ p {
   gap: 18px;
 }
 
+.story-grid .story-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.story-grid .story-card > div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.story-grid .meta {
+  margin-top: auto;
+}
+
 .story-card h3 {
   margin: 0 0 10px;
   font-size: clamp(1.45rem, 3vw, 2rem);
@@ -338,7 +353,8 @@ p {
 }
 
 .story-art {
-  min-height: 190px;
+  aspect-ratio: 16 / 9;
+  min-height: 0;
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
@@ -348,6 +364,11 @@ p {
     repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.18) 0 6px, rgba(255, 255, 255, 0) 6px 14px),
     var(--coral);
   text-decoration: none;
+}
+
+.lead-article .story-art {
+  aspect-ratio: auto;
+  min-height: 100%;
 }
 
 .story-art span {
@@ -377,7 +398,6 @@ p {
 }
 
 .story-art.sunset {
-  min-height: 100%;
   background:
     linear-gradient(135deg, rgba(201, 38, 46, 0.9), rgba(12, 143, 145, 0.78)),
     repeating-linear-gradient(90deg, transparent 0 18px, rgba(255, 255, 255, 0.25) 18px 21px);
