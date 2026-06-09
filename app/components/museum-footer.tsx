@@ -13,12 +13,12 @@ export function MuseumFooter({
     <>
       <div className="h-px bg-gradient-to-r from-transparent via-zinc-950/20 to-transparent" />
 
-      <footer className="bg-zinc-950 px-5 py-14 text-stone-200 md:px-8 md:py-16">
+      <footer className="bg-zinc-950 px-5 py-12 text-stone-200 md:px-8 md:py-16">
         <div className="mx-auto max-w-7xl">
           {sources.length > 0 ? (
             <div className="grid gap-8 border-b border-stone-100/10 pb-10 md:grid-cols-[0.8fr_2fr]">
               <div>
-                <p className="font-mono text-xs uppercase tracking-[0.28em] text-amber-200">Source shelf</p>
+                <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-amber-200 md:text-xs md:tracking-[0.28em]">Source shelf</p>
                 <p className="mt-4 max-w-sm text-sm leading-6 text-stone-400">
                   Exhibit notes are condensed from contemporary release listings, magazine records, and platform context.
                 </p>
@@ -37,11 +37,11 @@ export function MuseumFooter({
             </div>
           ) : null}
 
-          <div className="grid gap-10 border-b border-stone-100/10 py-10 md:grid-cols-[1.1fr_0.9fr] md:items-end">
+          <div className="grid gap-8 border-b border-stone-100/10 py-9 md:grid-cols-[1.1fr_0.9fr] md:items-end md:gap-10 md:py-10">
             <section aria-label="Museum closing panel" className="max-w-2xl">
               <p className="font-display text-3xl text-stone-50 md:text-4xl">Gaming Time Machine</p>
               <p className="mt-4 text-sm leading-7 text-stone-400">A digital museum of video game history.</p>
-              <p className="mt-2 font-mono text-xs uppercase tracking-[0.22em] text-amber-200/85">
+              <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.18em] text-amber-200/85 md:text-xs md:tracking-[0.22em]">
                 Gaming History, One Month at a Time.
               </p>
               <p className="mt-7 max-w-xl border-l border-amber-200/30 pl-5 text-sm leading-7 text-stone-400">
@@ -49,25 +49,25 @@ export function MuseumFooter({
               </p>
             </section>
 
-            <div className="grid gap-6 sm:grid-cols-3 md:justify-self-end">
+            <div className="grid grid-cols-3 gap-3 md:gap-6 md:justify-self-end">
               <div>
-                <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-stone-500">Years in Archive</p>
-                <p className="mt-2 font-display text-4xl text-stone-50">{archiveStats.yearsInArchive}</p>
+                <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-stone-500 md:text-[11px] md:tracking-[0.24em]">Years</p>
+                <p className="mt-2 font-display text-3xl text-stone-50 md:text-4xl">{archiveStats.yearsInArchive}</p>
               </div>
               <div>
-                <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-stone-500">Monthly Exhibits</p>
-                <p className="mt-2 font-display text-4xl text-stone-50">{archiveStats.monthlyExhibits}</p>
+                <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-stone-500 md:text-[11px] md:tracking-[0.24em]">Exhibits</p>
+                <p className="mt-2 font-display text-3xl text-stone-50 md:text-4xl">{archiveStats.monthlyExhibits}</p>
               </div>
               <div>
-                <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-stone-500">Verified Exhibits</p>
-                <p className="mt-2 font-display text-4xl text-stone-50">{archiveStats.verifiedExhibits}</p>
+                <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-stone-500 md:text-[11px] md:tracking-[0.24em]">Verified</p>
+                <p className="mt-2 font-display text-3xl text-stone-50 md:text-4xl">{archiveStats.verifiedExhibits}</p>
               </div>
             </div>
           </div>
 
           <div className="flex flex-col gap-6 pt-8 text-sm text-stone-500 md:flex-row md:items-center md:justify-between">
             <p>Curated by Paul McNally.</p>
-            <nav aria-label="Footer navigation" className="flex flex-wrap gap-x-6 gap-y-3 font-mono text-[11px] uppercase tracking-[0.2em]">
+            <nav aria-label="Footer navigation" className="grid grid-cols-2 gap-x-6 gap-y-3 font-mono text-[11px] uppercase tracking-[0.18em] sm:flex sm:flex-wrap sm:tracking-[0.2em]">
               <a href="/" className="transition hover:text-amber-200">Home</a>
               <a href="/about" className="transition hover:text-amber-200">About</a>
               <a href={randomExhibitHref} className="transition hover:text-amber-200">Random Month</a>

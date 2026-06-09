@@ -17,15 +17,15 @@ type TimelineMonth = {
 export function YearTimeline({ months, selectedYear, years }: { months: TimelineMonth[]; selectedYear: number; years: TimelineYear[] }) {
   return (
     <section id="timeline-archive" className="border-y border-black/10 bg-[#e7efe7]" aria-label="Historical timeline">
-      <div className="mx-auto max-w-7xl px-5 py-8 md:px-8">
+      <div className="mx-auto max-w-7xl px-5 py-7 md:px-8 md:py-8">
         <div className="flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="font-mono text-xs uppercase tracking-[0.28em] text-red-700">Timeline archive</p>
-            <h2 className="mt-2 font-display text-3xl text-zinc-950 md:text-4xl">Select a year</h2>
+            <p className="font-mono text-[11px] uppercase tracking-[0.26em] text-red-700 md:text-xs md:tracking-[0.28em]">Timeline archive</p>
+            <h2 className="mt-2 font-display text-3xl leading-none text-zinc-950 md:text-4xl">Select a year</h2>
           </div>
         </div>
 
-        <div className="mt-7 overflow-x-auto pb-3 [scrollbar-color:#18181b_transparent]">
+        <div className="mt-6 overflow-x-auto pb-3 [scrollbar-color:#18181b_transparent] md:mt-7">
           <div className="relative flex min-w-max items-end gap-1 border-b border-zinc-950/25 pb-5">
             {years.map((year) => (
               <a
@@ -33,7 +33,7 @@ export function YearTimeline({ months, selectedYear, years }: { months: Timeline
                 href={year.href}
                 aria-current={year.isSelected ? "date" : undefined}
                 className={[
-                  "group relative flex w-16 flex-col items-center gap-3 pt-5 text-center font-mono text-xs transition",
+                  "group relative flex w-14 flex-col items-center gap-3 pt-5 text-center font-mono text-[11px] transition sm:w-16 sm:text-xs",
                   year.isSelected ? "text-zinc-950" : "text-zinc-500 hover:text-zinc-950"
                 ].join(" ")}
               >
@@ -63,13 +63,13 @@ export function YearTimeline({ months, selectedYear, years }: { months: Timeline
           </div>
         </div>
 
-        <div className="mt-6 border border-zinc-950/15 bg-[#f3efe4]/70 p-4">
+        <div className="mt-5 border border-zinc-950/15 bg-[#f3efe4]/70 p-4 md:mt-6">
           <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
-            <p className="font-mono text-xs uppercase tracking-[0.24em] text-zinc-500">{selectedYear} month drawer</p>
-            <p className="text-sm leading-6 text-zinc-600">Installed months are active; empty drawers are held for future exhibits.</p>
+            <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-zinc-500 md:text-xs md:tracking-[0.24em]">{selectedYear} month drawer</p>
+            <p className="text-sm leading-6 text-zinc-600">Swipe the drawer to move through the year.</p>
           </div>
           <div className="mt-4 overflow-x-auto pb-1 [scrollbar-color:#18181b_transparent]">
-            <div className="grid min-w-[48rem] grid-cols-12 gap-2">
+            <div className="grid min-w-[39rem] grid-cols-12 gap-2 sm:min-w-[48rem]">
               {months.map((month) =>
                 month.hasContent ? (
                   <a
@@ -77,7 +77,7 @@ export function YearTimeline({ months, selectedYear, years }: { months: Timeline
                     href={month.href}
                     aria-current={month.isSelected ? "date" : undefined}
                     className={[
-                      "group relative border px-3 py-3 text-center font-mono text-xs uppercase tracking-[0.16em] transition",
+                      "group relative border px-2 py-3 text-center font-mono text-[11px] uppercase tracking-[0.14em] transition sm:px-3 sm:text-xs sm:tracking-[0.16em]",
                       month.isSelected
                         ? "border-red-700 bg-red-700 text-stone-50 shadow-exhibit"
                         : "border-zinc-950 bg-[#fbf8ef] text-zinc-950 hover:-translate-y-0.5 hover:border-red-700"
@@ -96,7 +96,7 @@ export function YearTimeline({ months, selectedYear, years }: { months: Timeline
                   <span
                     key={month.id}
                     className={[
-                      "cursor-not-allowed border border-dashed px-3 py-3 text-center font-mono text-xs uppercase tracking-[0.16em]",
+                      "cursor-not-allowed border border-dashed px-2 py-3 text-center font-mono text-[11px] uppercase tracking-[0.14em] sm:px-3 sm:text-xs sm:tracking-[0.16em]",
                       month.isSelected
                         ? "border-red-700 bg-[#fbf8ef] text-red-700 shadow-exhibit"
                         : "border-zinc-950/20 text-zinc-400"

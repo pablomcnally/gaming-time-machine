@@ -2,6 +2,12 @@ import type { Metadata } from "next";
 import { exhibitStatusLabels, getArchiveWorkflowSummary } from "../../../data/archive";
 import { LocalCuratorOnly } from "../local-only";
 
+type CuratorExhibitsSearchParams = Promise<{
+  status?: string;
+}>;
+
+type WorkflowFilter = "all" | "ai-draft" | "edited";
+
 export const metadata: Metadata = {
   title: "Curator Exhibit Editor | Gaming Time Machine",
   description: "Local-only exhibit editing tools for Gaming Time Machine.",
@@ -11,13 +17,59 @@ export const metadata: Metadata = {
   }
 };
 
-export default function CuratorExhibitsPage() {
+function getWorkflowFilter(status: string | undefined): WorkflowFilter {
+  if (status === "ai-draft" || status === "edited") {
+    return status;
+  }
+
+  return "all";
+}
+
+function getFilterHref(filter: WorkflowFilter) {
+  return filter === "all" ? "/curator/exhibits" : `/curator/exhibits?status=${filter}`;
+}
+
+function getFilterCardClass(isActive: boolean) {
+  return [
+    "block border p-5 shadow-exhibit transition hover:-translate-y-0.5 hover:border-red-700",
+    isActive ? "border-red-700 bg-[#fbf8ef]" : "border-zinc-950/15 bg-[#fbf8ef]"
+  ].join(" ");
+}
+
+export default async function CuratorExhibitsPage({ searchParams }: { searchParams: CuratorExhibitsSearchParams }) {
   if (process.env.NODE_ENV !== "development") {
     return <LocalCuratorOnly />;
   }
 
+  const { status } = await searchParams;
+  const activeFilter = getWorkflowFilter(status);
   const summary = getArchiveWorkflowSummary();
-  const years = Object.keys(summary.byYear).map(Number).sort((left, right) => left - right);
+  const allRecords = Object.keys(summary.byYear)
+    .map(Number)
+    .sort((left, right) => left - right)
+    .flatMap((year) => summary.byYear[year]);
+  const filteredRecords = allRecords.filter((record) => {
+    if (activeFilter === "ai-draft") {
+      return record.exhibit.status === "ai-draft";
+    }
+
+    if (activeFilter === "edited") {
+      return record.exhibit.status === "human-edited" || record.exhibit.status === "verified";
+    }
+
+    return true;
+  });
+  const filteredByYear = filteredRecords.reduce(
+    (yearsByRecord, record) => {
+      yearsByRecord[record.year] = [...(yearsByRecord[record.year] ?? []), record];
+
+      return yearsByRecord;
+    },
+    {} as typeof summary.byYear
+  );
+  const years = Object.keys(filteredByYear).map(Number).sort((left, right) => left - right);
+  const filterLabel =
+    activeFilter === "ai-draft" ? "AI Draft" : activeFilter === "edited" ? "Human Edited / Verified" : "All Exhibits";
 
   return (
     <main className="min-h-screen bg-[#f3efe4] text-zinc-900">
@@ -42,20 +94,43 @@ export default function CuratorExhibitsPage() {
 
       <section className="border-b border-black/10 bg-[#e7efe7] px-5 py-8 md:px-8" aria-label="Editor totals">
         <div className="mx-auto grid max-w-7xl gap-4 sm:grid-cols-3">
-          <article className="border border-zinc-950/15 bg-[#fbf8ef] p-5">
+          <a href={getFilterHref("all")} aria-current={activeFilter === "all" ? "page" : undefined} className={getFilterCardClass(activeFilter === "all")}>
             <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-zinc-500">Total Exhibits</p>
             <p className="mt-3 font-display text-4xl text-zinc-950">{summary.totalExhibits}</p>
-          </article>
-          <article className="border border-zinc-950/15 bg-[#fbf8ef] p-5">
+            <span className="mt-4 inline-flex font-mono text-[10px] uppercase tracking-[0.18em] text-red-700">
+              {activeFilter === "all" ? "Showing" : "Show all"}
+            </span>
+          </a>
+          <a
+            href={getFilterHref("ai-draft")}
+            aria-current={activeFilter === "ai-draft" ? "page" : undefined}
+            className={getFilterCardClass(activeFilter === "ai-draft")}
+          >
             <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-zinc-500">AI Draft</p>
             <p className="mt-3 font-display text-4xl text-zinc-950">{summary.statusCounts["ai-draft"]}</p>
-          </article>
-          <article className="border border-zinc-950/15 bg-[#fbf8ef] p-5">
+            <span className="mt-4 inline-flex font-mono text-[10px] uppercase tracking-[0.18em] text-red-700">
+              {activeFilter === "ai-draft" ? "Showing" : "Filter"}
+            </span>
+          </a>
+          <a href={getFilterHref("edited")} aria-current={activeFilter === "edited" ? "page" : undefined} className={getFilterCardClass(activeFilter === "edited")}>
             <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-zinc-500">Human Edited / Verified</p>
             <p className="mt-3 font-display text-4xl text-zinc-950">
               {summary.statusCounts["human-edited"] + summary.statusCounts.verified}
             </p>
-          </article>
+            <span className="mt-4 inline-flex font-mono text-[10px] uppercase tracking-[0.18em] text-red-700">
+              {activeFilter === "edited" ? "Showing" : "Filter"}
+            </span>
+          </a>
+        </div>
+        <div className="mx-auto mt-5 flex max-w-7xl flex-col gap-2 border border-zinc-950/10 bg-[#fbf8ef]/70 p-4 sm:flex-row sm:items-center sm:justify-between">
+          <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-zinc-600">
+            Showing {filteredRecords.length} {filterLabel.toLowerCase()} exhibits
+          </p>
+          {activeFilter !== "all" ? (
+            <a href="/curator/exhibits" className="font-mono text-[10px] uppercase tracking-[0.18em] text-red-700 transition hover:text-zinc-950">
+              Clear filter
+            </a>
+          ) : null}
         </div>
       </section>
 
@@ -92,7 +167,7 @@ export default function CuratorExhibitsPage() {
                 <h2 className="mt-3 font-display text-4xl text-zinc-950">{year}</h2>
               </div>
               <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                {summary.byYear[year].map((record) => (
+                {filteredByYear[year].map((record) => (
                   <a
                     key={`${record.year}-${record.monthId}`}
                     href={`/curator/exhibits/${record.year}/${record.monthId}`}
