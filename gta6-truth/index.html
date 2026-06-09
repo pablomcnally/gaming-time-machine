@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GTA 6 - Nothing but the truth, an unofficial parody rumour newspaper."
+    />
+    <title>GTA 6 - Nothing but the truth</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="topline">
+        <span>Unofficial parody edition</span>
+        <span>Tuesday, June 9, 2026</span>
+        <span>Truth level: heavily caffeinated</span>
+      </div>
+      <nav class="masthead" aria-label="Primary">
+        <a class="brand" href="#" aria-label="GTA 6 - Nothing but the truth home">
+          <span class="brand-kicker">GTA 6</span>
+          <span class="brand-name">Nothing but the truth</span>
+        </a>
+        <div class="nav-links">
+          <a href="#lead">Lead story</a>
+          <a href="#latest">Latest</a>
+          <a href="#evidence">Evidence</a>
+          <a href="#tipline">Tip line</a>
+        </div>
+      </nav>
+      <div class="ticker" aria-label="Breaking rumours">
+        <strong>Breaking:</strong>
+        <span id="tickerText">Anonymous source claims the moon is a playable vehicle if you pre-order twice.</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="lead" aria-labelledby="hero-title">
+        <img src="assets/neon-rumor-desk.png" alt="A neon coastal city and messy newsroom desk full of rumour files" />
+        <div class="hero-copy">
+          <p class="label">Front page exclusive</p>
+          <h1 id="hero-title">We read one blurry screenshot and uncovered the entire economy.</h1>
+          <p>
+            Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a
+            400-pixel image until it confessed.
+          </p>
+          <a class="button-link" href="#latest">Read the latest nonsense</a>
+        </div>
+      </section>
+
+      <section class="issue-strip" aria-label="Today's issue summary">
+        <div>
+          <span class="issue-number">Issue 006</span>
+          <strong>Special investigation:</strong> The trailer pause-button industrial complex
+        </div>
+        <div>
+          <strong>Corrections:</strong> Yesterday's "confirmed submarine heist" was a bus stop.
+        </div>
+      </section>
+
+      <section class="layout-shell" id="latest">
+        <div class="content-column">
+          <div class="section-heading">
+            <p class="label">Latest dispatches</p>
+            <h2>News stories with a straight face and no legal confidence</h2>
+          </div>
+
+          <div class="filters" aria-label="Story filters">
+            <button class="filter-button active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="leak">Leaks</button>
+            <button class="filter-button" type="button" data-filter="analysis">Analysis</button>
+            <button class="filter-button" type="button" data-filter="local">Local chaos</button>
+          </div>
+
+          <article class="lead-article story-card" data-category="analysis">
+            <div class="story-art sunset">
+              <span>Enhanced 800%</span>
+            </div>
+            <div>
+              <p class="tag">Analysis</p>
+              <h3>Trailer palm tree may confirm 47 separate endings, say men with rulers.</h3>
+              <p>
+                A shadow, a leaf, and what might be a seagull have convinced our panel that every
+                mission will branch into either crime, karaoke, or responsible parking.
+              </p>
+              <div class="meta">
+                <span>By Vera Citydesk</span>
+                <span>6 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <div class="story-grid">
+            <article class="story-card" data-category="leak">
+              <div class="story-art blue">
+                <span>Unverified</span>
+              </div>
+              <p class="tag">Leak</p>
+              <h3>Retail listing briefly promises "realistic traffic cone emotions".</h3>
+              <p>
+                The page vanished within minutes, which proves either a cover-up or that someone
+                needed to fix the spelling of "vehicular melancholy".
+              </p>
+              <div class="meta">
+                <span>By Dex Pixel</span>
+                <span>3 min read</span>
+              </div>
+            </article>
+
+            <article class="story-card" data-category="local">
+              <div class="story-art yellow">
+                <span>Local chaos</span>
+              </div>
+              <p class="tag">Local chaos</p>
+              <h3>Vice beaches prepare for influx of people photographing puddles.</h3>
+              <p>
+                Residents have been advised not to stand near reflective surfaces, neon signs, or
+                suspiciously high-resolution scooters with surprisingly detailed suspension.
+              </p>
+              <div class="meta">
+                <span>By Nia Brakecheck</span>
+                <span>4 min read</span>
+              </div>
+            </article>
+
+            <article class="story-card" data-category="analysis">
+              <div class="story-art green">
+                <span>Deep dive</span>
+              </div>
+              <p class="tag">Analysis</p>
+              <h3>Scientists discover fans can hear release dates in ambient synth pads.</h3>
+              <p>
+                The breakthrough came after one listener slowed the trailer by 0.5 percent and
+                heard what experts describe as "probably a drum".
+              </p>
+              <div class="meta">
+                <span>By Mo Framecount</span>
+                <span>5 min read</span>
+              </div>
+            </article>
+
+            <article class="story-card" data-category="leak">
+              <div class="story-art red">
+                <span>Tip line</span>
+              </div>
+              <p class="tag">Leak</p>
+              <h3>Insider says every NPC has a mortgage and a favourite crisp flavour.</h3>
+              <p>
+                We cannot verify this, but our source was wearing sunglasses indoors, which is the
+                highest known credential in games journalism.
+              </p>
+              <div class="meta">
+                <span>By Cass Receipts</span>
+                <span>2 min read</span>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <aside class="sidebar" id="evidence" aria-label="Evidence desk">
+          <section class="side-panel">
+            <p class="label">Evidence desk</p>
+            <h2>Rumour reliability meter</h2>
+            <div class="meter">
+              <span style="width: 18%"></span>
+            </div>
+            <p>
+              Today's confidence rating is based on vibes, compression artifacts, and a receipt
+              that says "sandwich".
+            </p>
+          </section>
+
+          <section class="side-panel">
+            <p class="label">Most cited evidence</p>
+            <ol class="evidence-list">
+              <li>A reflection in a car door</li>
+              <li>Two pixels that look like a jet ski</li>
+              <li>The phrase "soon" in a forum post from 2019</li>
+              <li>A spreadsheet named FINAL_final_REAL.xlsx</li>
+            </ol>
+          </section>
+
+          <section class="side-panel" id="tipline">
+            <p class="label">Send a tip</p>
+            <h2>Got proof?</h2>
+            <form class="tip-form">
+              <label>
+                Alias
+                <input type="text" placeholder="DefinitelyNotAnInsider" />
+              </label>
+              <label>
+                Rumour
+                <textarea placeholder="I saw a menu icon shaped like my uncle's boat."></textarea>
+              </label>
+              <button type="submit">Submit to the filing cabinet</button>
+              <p class="form-note" role="status" aria-live="polite"></p>
+            </form>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        GTA 6 - Nothing but the truth is an unofficial parody site. It is not affiliated with,
+        endorsed by, or speaking for Rockstar Games or Take-Two Interactive.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
