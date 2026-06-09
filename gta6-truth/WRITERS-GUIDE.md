@@ -14,6 +14,20 @@ Use the shared editor password.
 
 When you click **Save to GitHub**, the editor commits the story data to GitHub. Vercel should then redeploy the live site automatically.
 
+## Tip Inbox
+
+Reader tips from the homepage tip form appear in the editor's **Tip inbox**.
+
+Use **Make draft** to turn a tip into a starter story. It will add a new draft story at the top of the story list.
+
+After you have saved the story, use **Dismiss** to remove the tip from the inbox.
+
+Tips are stored in:
+
+```text
+data/tips.json
+```
+
 ## The Important Files
 
 If you are editing locally instead of using the online editor, edit this file:

@@ -68,7 +68,23 @@
             <button class="filter-button" type="button" data-filter="local">Local chaos</button>
           </div>
 
-          <article class="lead-article story-card" data-category="analysis">
+          <article class="lead-article story-card" data-category="leak">
+            <a class="story-art blue" href="stories/a-brand-new-leak/" aria-label="A brand new leak">
+              <span>Unverified</span>
+            </a>
+            <div>
+              <p class="tag">Leak</p>
+              <h3><a href="stories/a-brand-new-leak/">A brand new leak</a></h3>
+              <p>you wont have read this anywhere else</p>
+              <div class="meta">
+                <span>By Don Pablo</span>
+                <span>3 min read</span>
+              </div>
+            </div>
+          </article>
+
+          <div class="story-grid">
+            <article class="story-card" data-category="analysis">
             <a class="story-art sunset" href="stories/trailer-palm-tree-47-endings/" aria-label="Trailer palm tree may confirm 47 separate endings, say men with rulers.">
               <span>Enhanced 800%</span>
             </a>
@@ -82,9 +98,7 @@
               </div>
             </div>
           </article>
-
-          <div class="story-grid">
-            <article class="story-card" data-category="leak">
+<article class="story-card" data-category="leak">
             <a class="story-art blue" href="stories/traffic-cone-emotions-retail-listing/" aria-label="Retail listing briefly promises realistic traffic cone emotions.">
               <span>Unverified</span>
             </a>
@@ -172,11 +186,15 @@
             <form class="tip-form">
               <label>
                 Alias
-                <input type="text" placeholder="DefinitelyNotAnInsider" />
+                <input name="alias" type="text" placeholder="DefinitelyNotAnInsider" />
               </label>
               <label>
                 Rumour
-                <textarea placeholder="I saw a menu icon shaped like my uncle's boat."></textarea>
+                <textarea name="rumour" placeholder="I saw a menu icon shaped like my uncle's boat." required></textarea>
+              </label>
+              <label class="screen-reader-field">
+                Leave this blank
+                <input name="website" type="text" tabindex="-1" autocomplete="off" />
               </label>
               <button type="submit">Submit to the filing cabinet</button>
               <p class="form-note" role="status" aria-live="polite"></p>

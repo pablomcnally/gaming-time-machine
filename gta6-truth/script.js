@@ -29,9 +29,39 @@ filterButtons.forEach((button) => {
 });
 
 if (tipForm && formNote) {
-  tipForm.addEventListener("submit", (event) => {
+  tipForm.addEventListener("submit", async (event) => {
     event.preventDefault();
-    formNote.textContent = "Filed under: Things We Will Mention With Absolute Confidence.";
-    tipForm.reset();
+    const submitButton = tipForm.querySelector("button");
+    const formData = new FormData(tipForm);
+    const payload = {
+      alias: formData.get("alias"),
+      rumour: formData.get("rumour"),
+      website: formData.get("website")
+    };
+
+    formNote.textContent = "Filing tip...";
+    submitButton.disabled = true;
+
+    try {
+      const response = await fetch("/api/tips", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(payload)
+      });
+      const result = await response.json();
+
+      if (!response.ok || !result.ok) {
+        throw new Error(result.message || "Tip line jammed.");
+      }
+
+      formNote.textContent = "Filed under: Things We Will Mention With Absolute Confidence.";
+      tipForm.reset();
+    } catch (error) {
+      formNote.textContent = error.message;
+    } finally {
+      submitButton.disabled = false;
+    }
   });
 }

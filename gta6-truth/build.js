@@ -186,11 +186,15 @@ function renderIndex() {
             <form class="tip-form">
               <label>
                 Alias
-                <input type="text" placeholder="DefinitelyNotAnInsider" />
+                <input name="alias" type="text" placeholder="DefinitelyNotAnInsider" />
               </label>
               <label>
                 Rumour
-                <textarea placeholder="I saw a menu icon shaped like my uncle's boat."></textarea>
+                <textarea name="rumour" placeholder="I saw a menu icon shaped like my uncle's boat." required></textarea>
+              </label>
+              <label class="screen-reader-field">
+                Leave this blank
+                <input name="website" type="text" tabindex="-1" autocomplete="off" />
               </label>
               <button type="submit">Submit to the filing cabinet</button>
               <p class="form-note" role="status" aria-live="polite"></p>

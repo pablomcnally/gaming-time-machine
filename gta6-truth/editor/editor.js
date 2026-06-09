@@ -11,6 +11,8 @@ const makeLeadButton = document.querySelector("#makeLeadButton");
 const duplicateStoryButton = document.querySelector("#duplicateStoryButton");
 const deleteStoryButton = document.querySelector("#deleteStoryButton");
 const saveButton = document.querySelector("#saveButton");
+const refreshTipsButton = document.querySelector("#refreshTipsButton");
+const tipList = document.querySelector("#tipList");
 
 const categoryLabels = {
   leak: "Leak",
@@ -20,6 +22,7 @@ const categoryLabels = {
 
 let password = window.sessionStorage.getItem("gtaTruthEditorPassword") || "";
 let data = null;
+let tips = [];
 let selectedIndex = 0;
 
 function setStatus(message, isError = false) {
@@ -58,6 +61,36 @@ async function requestStories() {
   }
 
   return result.data;
+}
+
+async function requestTips() {
+  const response = await fetch("/api/tips", {
+    headers: getHeaders()
+  });
+  const result = await response.json();
+
+  if (!response.ok || !result.ok) {
+    throw new Error(result.message || "Could not load tips.");
+  }
+
+  return result.tips;
+}
+
+async function saveTips(nextTips) {
+  const response = await fetch("/api/tips", {
+    method: "PUT",
+    headers: getHeaders(),
+    body: JSON.stringify({ tips: nextTips })
+  });
+  const result = await response.json();
+
+  if (!response.ok || !result.ok) {
+    throw new Error(result.message || "Could not update tips.");
+  }
+
+  tips = nextTips;
+  renderTips();
+  return result;
 }
 
 function selectedStory() {
@@ -135,6 +168,85 @@ function renderStoryList() {
   });
 }
 
+function renderTips() {
+  tipList.innerHTML = "";
+
+  if (!tips.length) {
+    const empty = document.createElement("p");
+    empty.className = "editor-status";
+    empty.textContent = "No tips waiting.";
+    tipList.append(empty);
+    return;
+  }
+
+  tips.forEach((tip) => {
+    const card = document.createElement("article");
+    card.className = "tip-card";
+
+    const meta = document.createElement("p");
+    meta.className = "tip-meta";
+    meta.textContent = `${tip.alias} | ${tip.createdAt ? new Date(tip.createdAt).toLocaleString() : "undated"}`;
+
+    const rumour = document.createElement("p");
+    rumour.textContent = tip.rumour;
+
+    const actions = document.createElement("div");
+    actions.className = "tip-card-actions";
+
+    const draftButton = document.createElement("button");
+    draftButton.type = "button";
+    draftButton.textContent = "Make draft";
+    draftButton.addEventListener("click", () => createStoryFromTip(tip));
+
+    const dismissButton = document.createElement("button");
+    dismissButton.type = "button";
+    dismissButton.textContent = "Dismiss";
+    dismissButton.addEventListener("click", () => dismissTip(tip.id));
+
+    actions.append(draftButton, dismissButton);
+    card.append(meta, rumour, actions);
+    tipList.append(card);
+  });
+}
+
+function createStoryFromTip(tip) {
+  syncCurrentStory();
+  const slugBase = slugify(tip.rumour).split("-").slice(0, 8).join("-") || "reader-tip";
+  data.stories.unshift({
+    slug: slugBase,
+    category: "leak",
+    categoryLabel: "Leak",
+    badge: "Reader tip",
+    accent: "blue",
+    title: `${tip.rumour.slice(0, 82).replace(/[.?!]*$/, "")}.`,
+    description: `A tip from ${tip.alias} has entered the newsroom and refuses to leave quietly.`,
+    author: "Tip Desk",
+    readTime: "3 min read",
+    date: data.updatedLabel,
+    body: [
+      `A reader using the name ${tip.alias} sent the following rumour to the tip line: "${tip.rumour}"`,
+      "We have not verified this, but we have placed it on the board with enough red string to make it feel important.",
+      "More details as soon as someone dramatically zooms in on something reflective."
+    ]
+  });
+  selectedIndex = 0;
+  renderStoryList();
+  fillForm();
+  setStatus("Tip turned into a draft story. Edit it, save stories, then dismiss the tip.");
+}
+
+async function dismissTip(id) {
+  if (!window.confirm("Dismiss this tip from the inbox?")) return;
+
+  try {
+    setStatus("Updating tip inbox...");
+    await saveTips(tips.filter((tip) => tip.id !== id));
+    setStatus("Tip dismissed.");
+  } catch (error) {
+    setStatus(error.message, true);
+  }
+}
+
 function validateData() {
   syncCurrentStory();
 
@@ -168,10 +280,12 @@ function validateData() {
 async function loadEditor() {
   setStatus("Loading stories...");
   data = await requestStories();
+  tips = await requestTips();
   selectedIndex = 0;
   loginPanel.classList.add("hidden");
   editorApp.classList.remove("hidden");
   renderStoryList();
+  renderTips();
   fillForm();
   setStatus("Stories loaded.");
 }
@@ -215,7 +329,7 @@ addStoryButton.addEventListener("click", () => {
 
 duplicateStoryButton.addEventListener("click", () => {
   syncCurrentStory();
-  const copy = structuredClone(selectedStory());
+  const copy = JSON.parse(JSON.stringify(selectedStory()));
   copy.slug = `${copy.slug}-copy`;
   copy.title = `${copy.title} Copy`;
   data.stories.splice(selectedIndex + 1, 0, copy);
@@ -273,6 +387,17 @@ saveButton.addEventListener("click", async () => {
     setStatus(error.message, true);
   } finally {
     saveButton.disabled = false;
+  }
+});
+
+refreshTipsButton.addEventListener("click", async () => {
+  try {
+    setStatus("Refreshing tips...");
+    tips = await requestTips();
+    renderTips();
+    setStatus("Tip inbox refreshed.");
+  } catch (error) {
+    setStatus(error.message, true);
   }
 });
 

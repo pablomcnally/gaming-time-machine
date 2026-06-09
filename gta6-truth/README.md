@@ -12,6 +12,14 @@ Online editor:
 
 The editor uses a shared password and saves changes by committing `data/stories.json` back to GitHub. Vercel then redeploys from that commit.
 
+Reader tips submitted on the homepage are saved to:
+
+```text
+data/tips.json
+```
+
+The editor shows these in the Tip Inbox. Writers can turn a tip into a draft story or dismiss it.
+
 Local fallback: edit story content in:
 
 ```text
@@ -56,6 +64,7 @@ GITHUB_TOKEN
 GITHUB_REPO
 GITHUB_BRANCH
 GITHUB_CONTENT_PATH
+GITHUB_TIPS_PATH
 ```
 
 Recommended values:
@@ -65,6 +74,7 @@ EDITOR_PASSWORD=<shared writer password>
 GITHUB_REPO=pablomcnally/gaming-time-machine
 GITHUB_BRANCH=main
 GITHUB_CONTENT_PATH=gta6-truth/data/stories.json
+GITHUB_TIPS_PATH=gta6-truth/data/tips.json
 ```
 
 `GITHUB_TOKEN` should be a GitHub token with permission to read and write repository contents.

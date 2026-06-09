@@ -136,6 +136,70 @@
   color: var(--paper);
 }
 
+.tip-inbox {
+  border-top: 2px solid rgba(23, 17, 15, 0.18);
+  margin-top: 18px;
+  padding-top: 16px;
+}
+
+.tip-inbox-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.tip-inbox-heading h2 {
+  margin: 0;
+}
+
+.tip-inbox-heading button,
+.tip-card button {
+  border: 2px solid var(--ink);
+  background: #ffffff;
+  color: var(--ink);
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  font-size: 0.74rem;
+  font-weight: 900;
+  min-height: 34px;
+  padding: 6px 8px;
+  text-transform: uppercase;
+}
+
+.tip-list {
+  display: grid;
+  gap: 10px;
+}
+
+.tip-card {
+  border: 2px solid var(--ink);
+  background: var(--paper);
+  padding: 10px;
+}
+
+.tip-card p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 0.88rem;
+  line-height: 1.42;
+}
+
+.tip-card .tip-meta {
+  margin-bottom: 8px;
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.tip-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
 .story-editor-form {
   display: grid;
   gap: 14px;

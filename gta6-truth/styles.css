@@ -487,6 +487,15 @@ p {
   font-weight: 800;
 }
 
+.screen-reader-field {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .site-footer {
   border-top: 3px solid var(--ink);
   padding: 18px 0 24px;
