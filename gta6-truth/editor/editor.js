@@ -107,6 +107,8 @@ function storyFromForm() {
     accent: formData.get("accent"),
     title: formData.get("title").trim(),
     description: formData.get("description").trim(),
+    imageUrl: formData.get("imageUrl").trim(),
+    imageAlt: formData.get("imageAlt").trim(),
     author: formData.get("author").trim(),
     readTime: formData.get("readTime").trim(),
     date: formData.get("date").trim(),
@@ -143,6 +145,8 @@ function fillForm() {
   storyForm.elements.date.value = story.date;
   storyForm.elements.title.value = story.title;
   storyForm.elements.description.value = story.description;
+  storyForm.elements.imageUrl.value = story.imageUrl || "";
+  storyForm.elements.imageAlt.value = story.imageAlt || "";
   storyForm.elements.body.value = story.body.join("\n\n");
   storyForm.elements.updatedLabel.value = data.updatedLabel;
   storyForm.elements.leadLabel.value = data.lead.label;
@@ -220,6 +224,8 @@ function createStoryFromTip(tip) {
     accent: "blue",
     title: `${tip.rumour.slice(0, 82).replace(/[.?!]*$/, "")}.`,
     description: `A tip from ${tip.alias} has entered the newsroom and refuses to leave quietly.`,
+    imageUrl: "",
+    imageAlt: "",
     author: "Tip Desk",
     readTime: "3 min read",
     date: data.updatedLabel,
@@ -316,6 +322,8 @@ addStoryButton.addEventListener("click", () => {
     accent: "blue",
     title: "New story headline.",
     description: "Short homepage and search preview description.",
+    imageUrl: "",
+    imageAlt: "",
     author: "Writer Name",
     readTime: "3 min read",
     date: data.updatedLabel,

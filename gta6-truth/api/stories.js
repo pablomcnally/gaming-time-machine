@@ -63,6 +63,12 @@ function validateText(value, path, errors) {
   }
 }
 
+function validateOptionalText(value, path, errors) {
+  if (value !== undefined && typeof value !== "string") {
+    errors.push(`${path} must be text when provided.`);
+  }
+}
+
 function validateStoriesData(value) {
   const errors = [];
 
@@ -117,6 +123,9 @@ function validateStoriesData(value) {
       validateText(story[field], `${path}.${field}`, errors);
     }
 
+    validateOptionalText(story.imageUrl, `${path}.imageUrl`, errors);
+    validateOptionalText(story.imageAlt, `${path}.imageAlt`, errors);
+
     if (!Array.isArray(story.body) || story.body.length === 0) {
       errors.push(`${path}.body must contain at least one paragraph.`);
     } else {
@@ -146,6 +155,8 @@ function normalizeStoriesData(value) {
       accent: story.accent.trim(),
       title: story.title.trim(),
       description: story.description.trim(),
+      imageUrl: (story.imageUrl || "").trim(),
+      imageAlt: (story.imageAlt || "").trim(),
       author: story.author.trim(),
       readTime: story.readTime.trim(),
       date: story.date.trim(),

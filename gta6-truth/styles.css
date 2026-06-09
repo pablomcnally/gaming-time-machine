@@ -353,6 +353,7 @@ p {
 }
 
 .story-art {
+  position: relative;
   aspect-ratio: 16 / 9;
   min-height: 0;
   display: flex;
@@ -364,6 +365,22 @@ p {
     repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.18) 0 6px, rgba(255, 255, 255, 0) 6px 14px),
     var(--coral);
   text-decoration: none;
+  overflow: hidden;
+}
+
+.story-art img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story-art.has-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(23, 17, 15, 0.48), rgba(23, 17, 15, 0.04) 58%);
 }
 
 .lead-article .story-art {
@@ -372,6 +389,8 @@ p {
 }
 
 .story-art span {
+  position: relative;
+  z-index: 1;
   background: var(--ink);
   color: var(--paper);
   padding: 6px 8px;
@@ -572,6 +591,17 @@ p {
 
 .article-body p {
   margin: 0 0 1.2em;
+}
+
+.article-image {
+  margin: 0 0 1.4em;
+}
+
+.article-image img {
+  display: block;
+  width: 100%;
+  border: 2px solid var(--ink);
+  object-fit: cover;
 }
 
 .article-sidebar {

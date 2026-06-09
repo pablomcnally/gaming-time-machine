@@ -91,10 +91,24 @@ function storyUrl(story, basePath = "") {
   return `${base}stories/${story.slug}/`;
 }
 
+function storyImageSrc(story, basePath = "") {
+  if (!story.imageUrl) return "";
+  if (/^https?:\/\//.test(story.imageUrl) || story.imageUrl.startsWith("/")) return story.imageUrl;
+  const base = basePath ? `${basePath}/` : "";
+  return `${base}${story.imageUrl}`;
+}
+
 function storyCard(story, isLead = false) {
   const articleClass = isLead ? "lead-article story-card" : "story-card";
+  const imageSrc = storyImageSrc(story);
+  const imageMarkup = imageSrc
+    ? `<img src="${escapeHtml(imageSrc)}" alt="${escapeHtml(story.imageAlt || "")}" loading="lazy" />`
+    : "";
+  const imageClass = imageSrc ? " has-image" : "";
+
   return `<article class="${articleClass}" data-category="${escapeHtml(story.category)}">
-            <a class="story-art ${escapeHtml(story.accent)}" href="${storyUrl(story)}" aria-label="${escapeHtml(story.title)}">
+            <a class="story-art ${escapeHtml(story.accent)}${imageClass}" href="${storyUrl(story)}" aria-label="${escapeHtml(story.title)}">
+              ${imageMarkup}
               <span>${escapeHtml(story.badge)}</span>
             </a>
             <div>
@@ -219,6 +233,12 @@ function renderStory(story) {
     .map((item) => `<li><a href="../${escapeHtml(item.slug)}/">${escapeHtml(item.title)}</a></li>`)
     .join("\n                ");
   const body = story.body.map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("\n            ");
+  const articleImageSrc = storyImageSrc(story, "../..");
+  const articleImage = articleImageSrc
+    ? `<figure class="article-image">
+              <img src="${escapeHtml(articleImageSrc)}" alt="${escapeHtml(story.imageAlt || story.title)}" />
+            </figure>`
+    : "";
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
@@ -247,6 +267,7 @@ function renderStory(story) {
 
         <div class="article-layout">
           <div class="article-body">
+            ${articleImage}
             ${body}
           </div>
 
@@ -294,7 +315,8 @@ function build() {
       data.stories.map((story) => ({
         title: story.title,
         url: `/stories/${story.slug}/`,
-        description: story.description
+        description: story.description,
+        imageUrl: story.imageUrl || ""
       })),
       null,
       2

@@ -59,6 +59,8 @@ Use this template:
   "accent": "blue",
   "title": "Your funny headline goes here.",
   "description": "One sharp sentence that sums up the joke and appears on the homepage and in search previews.",
+  "imageUrl": "",
+  "imageAlt": "",
   "author": "Writer Name",
   "readTime": "3 min read",
   "date": "June 9, 2026",
@@ -115,6 +117,15 @@ sunset
 ```
 
 `description` should be one sentence. Think of it as the homepage standfirst and Google preview.
+
+`imageUrl` is optional. Leave it blank to use the coloured story block. Add a full image URL or a local asset path to show an image:
+
+```text
+https://example.com/image.jpg
+assets/story-images/example.jpg
+```
+
+`imageAlt` should briefly describe the image. Leave it blank if the image is decorative.
 
 `body` is an array of paragraphs. Put each paragraph in its own quoted line.
 

@@ -54,6 +54,8 @@ Install Command: npm install
 
 The generated story pages live under `stories/`, so each article has its own crawlable URL.
 
+Stories can optionally include `imageUrl` and `imageAlt`. If `imageUrl` is blank, the site uses the coloured story block fallback.
+
 ## Editor Environment Variables
 
 Add these in Vercel Project Settings > Environment Variables:

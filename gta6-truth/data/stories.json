@@ -26,7 +26,9 @@
       "date": "Tuesday, June 9, 2026",
       "body": [
         "ooh this is interesting\nit's probably true"
-      ]
+      ],
+      "imageUrl": "",
+      "imageAlt": ""
     },
     {
       "slug": "trailer-palm-tree-47-endings",
@@ -44,7 +46,9 @@
         "After rotating the image by three degrees, printing it on legal paper, and asking a kettle for a second opinion, our newsroom believes the shadow pattern points toward a branching ending system of historic complexity.",
         "One staff analyst claims the tree's leftmost frond resembles the number 47. Another argues it resembles a tired banana. Both readings are currently being treated as equally robust.",
         "Rockstar has not commented, which we interpret as either a denial, a confirmation, or a company choosing not to reply to a question about a tree."
-      ]
+      ],
+      "imageUrl": "",
+      "imageAlt": ""
     },
     {
       "slug": "traffic-cone-emotions-retail-listing",
@@ -61,7 +65,9 @@
         "A retailer listing, visible for approximately eleven minutes and one very dramatic group chat, appeared to describe a feature called \"dynamic roadside object feelings.\"",
         "The listing claimed cones would react to nearby danger with \"contextual wobble, civic disappointment, and premium next-gen regret.\" We cannot confirm any of this, but we can confirm we enjoyed reading it.",
         "The page was removed shortly after being noticed. Industry watchers say this is either normal metadata cleanup or the largest traffic-cone secrecy operation in entertainment history."
-      ]
+      ],
+      "imageUrl": "",
+      "imageAlt": ""
     },
     {
       "slug": "vice-beaches-puddle-photographers",
@@ -78,7 +84,9 @@
         "Tourism officials are preparing for a wave of visitors expected to crouch beside puddles, whisper \"ray tracing,\" and take twelve identical screenshots of wet pavement.",
         "Local businesses are reportedly installing extra reflective surfaces to meet demand. One beachfront cafe now offers a premium puddle table with optional lens flare.",
         "Residents have been urged to keep moving if they see someone comparing sidewalk reflections to a trailer frame. Officials describe the situation as \"mostly harmless, but emotionally glossy.\""
-      ]
+      ],
+      "imageUrl": "",
+      "imageAlt": ""
     },
     {
       "slug": "release-dates-hidden-in-synth-pads",
@@ -95,7 +103,9 @@
         "A new field of trailer acoustics has emerged after fans began analysing background synth pads for hidden scheduling information.",
         "One popular theory claims that a low note at the 38-second mark contains the phrase \"late fiscal optimism\" when played through a toaster. Another claims the same sound is just a bass line.",
         "Our audio desk ran the clip through seven filters and one emotional support spreadsheet. The result was inconclusive, but very cinematic."
-      ]
+      ],
+      "imageUrl": "",
+      "imageAlt": ""
     },
     {
       "slug": "npc-mortgage-crisp-flavour-insider",
@@ -112,7 +122,9 @@
         "A person close to a person close to a Discord screenshot claims the game simulates deep personal lives for every background character.",
         "According to the claim, NPCs will remember their mortgage provider, preferred snack, and whether they once considered learning guitar in 2014.",
         "We asked for evidence and received a photo of a car park. Our editorial board has classified this as \"not proof, but atmospherically compelling.\""
-      ]
+      ],
+      "imageUrl": "",
+      "imageAlt": ""
     }
   ]
 }
