@@ -35,6 +35,7 @@ function pageShell({ title, description, basePath, bodyClass = "", main }) {
     <meta property="og:title" content="${safeTitle}" />
     <meta property="og:description" content="${safeDescription}" />
     <title>${safeTitle}</title>
+    <link rel="icon" href="${base}assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="${base}styles.css" />
   </head>
   <body class="${bodyClass}">
@@ -60,8 +61,8 @@ function siteHeader(basePath) {
       </div>
       <nav class="masthead" aria-label="Primary">
         <a class="brand" href="${home}" aria-label="GTA 6 - Nothing but the truth home">
-          <span class="brand-kicker">GTA 6</span>
-          <span class="brand-name">Nothing but the truth</span>
+          <span class="brand-neon-main">GTA 6</span>
+          <span class="brand-neon-sub">Nothing / But / The Truth</span>
         </a>
         <div class="nav-links">
           <a href="${base}index.html#lead">Lead story</a>

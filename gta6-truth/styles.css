@@ -83,7 +83,8 @@ textarea {
   line-height: 0.9;
 }
 
-.brand-kicker {
+.brand-kicker,
+.brand-neon-main {
   display: block;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: clamp(2.35rem, 7vw, 5.9rem);
@@ -91,7 +92,15 @@ textarea {
   text-transform: uppercase;
 }
 
-.brand-name {
+.brand-neon-main {
+  color: var(--ink);
+  text-shadow:
+    3px 0 0 rgba(12, 143, 145, 0.82),
+    -3px 0 0 rgba(201, 38, 46, 0.78);
+}
+
+.brand-name,
+.brand-neon-sub {
   display: block;
   margin-top: 8px;
   font-family: Arial, sans-serif;
@@ -100,6 +109,15 @@ textarea {
   text-transform: uppercase;
   letter-spacing: 0;
   color: var(--red);
+}
+
+.brand-neon-sub {
+  display: inline-block;
+  border: 2px solid var(--ink);
+  background: #fffdf7;
+  color: var(--ink);
+  padding: 5px 8px;
+  box-shadow: 4px 4px 0 var(--red);
 }
 
 .nav-links {
