@@ -386,6 +386,79 @@ p {
   gap: 18px;
 }
 
+.sponsor-strip {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin: 0 0 18px;
+}
+
+.classified-ad {
+  position: relative;
+  overflow: hidden;
+  border: 2px dashed var(--ink);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.46), transparent 52%),
+    var(--paper-deep);
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.classified-ad::after {
+  content: "PAID PANIC";
+  position: absolute;
+  right: -18px;
+  top: 14px;
+  transform: rotate(12deg);
+  border: 2px solid rgba(201, 38, 46, 0.7);
+  color: rgba(201, 38, 46, 0.72);
+  padding: 4px 8px;
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.classified-ad h3 {
+  max-width: 12ch;
+  margin: 0 0 8px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: clamp(1.7rem, 4vw, 2.6rem);
+  line-height: 0.92;
+  text-transform: uppercase;
+}
+
+.classified-ad p:not(.ad-kicker) {
+  margin: 0 0 12px;
+  line-height: 1.42;
+}
+
+.classified-ad a {
+  display: inline-block;
+  border: 2px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  padding: 8px 10px;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.classified-ad a:hover,
+.classified-ad a:focus-visible {
+  background: var(--yellow);
+  color: var(--ink);
+  outline: none;
+}
+
+.ad-kicker {
+  margin: 0 0 8px;
+  color: var(--red);
+  font-size: 0.74rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 .story-grid .story-card {
   display: flex;
   flex-direction: column;
@@ -547,6 +620,28 @@ p {
   border: 2px solid var(--ink);
   background: var(--paper-deep);
   padding: 16px;
+}
+
+.ad-rail {
+  display: grid;
+  gap: 12px;
+}
+
+.ad-rail .label {
+  margin-bottom: 0;
+}
+
+.classified-ad.compact {
+  padding: 14px;
+}
+
+.classified-ad.compact h3 {
+  max-width: 10ch;
+  font-size: 1.75rem;
+}
+
+.classified-ad.compact p:not(.ad-kicker) {
+  font-size: 0.92rem;
 }
 
 .side-panel h2 {
@@ -713,6 +808,52 @@ p {
   gap: 18px;
 }
 
+.ad-sales-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  padding: 28px 0;
+}
+
+.rate-card {
+  border: 2px solid var(--ink);
+  background: #fffdf7;
+  padding: 18px;
+  box-shadow: var(--shadow);
+}
+
+.rate-card h2,
+.advertise-copy h2 {
+  margin: 0 0 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 0.92;
+  text-transform: uppercase;
+}
+
+.rate-card strong {
+  display: inline-block;
+  margin-top: 8px;
+  border: 2px solid var(--ink);
+  background: var(--yellow);
+  padding: 8px 10px;
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+}
+
+.featured-rate {
+  background: var(--paper-deep);
+  box-shadow: 8px 8px 0 var(--red);
+}
+
+.advertise-copy {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 28px;
+  border-top: 5px solid var(--ink);
+  padding-top: 28px;
+}
+
 .hidden {
   display: none;
 }
@@ -766,6 +907,12 @@ p {
   }
 
   .story-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sponsor-strip,
+  .ad-sales-grid,
+  .advertise-copy {
     grid-template-columns: 1fr;
   }
 

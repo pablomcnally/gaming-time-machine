@@ -3,7 +3,9 @@ const path = require("path");
 
 const root = __dirname;
 const data = JSON.parse(fs.readFileSync(path.join(root, "data", "stories.json"), "utf8"));
+const ads = JSON.parse(fs.readFileSync(path.join(root, "data", "ads.json"), "utf8"));
 const storyDir = path.join(root, "stories");
+const advertiseDir = path.join(root, "advertise");
 
 const categoryLabels = {
   all: "All",
@@ -89,6 +91,7 @@ function siteHeader(basePath) {
           <a href="${base}index.html#latest">Latest</a>
           <a href="${base}index.html#evidence">Evidence</a>
           <a href="${base}index.html#tipline">Tip line</a>
+          <a href="${base}advertise/">Advertise</a>
           <a href="${base}logo-gallery/">Logos</a>
         </div>
       </nav>
@@ -118,6 +121,30 @@ function storyImageSrc(story, basePath = "") {
   if (/^https?:\/\//.test(story.imageUrl) || story.imageUrl.startsWith("/")) return story.imageUrl;
   const base = basePath ? `${basePath}/` : "";
   return `${base}${story.imageUrl}`;
+}
+
+function sitePath(target, basePath = "") {
+  const base = basePath ? `${basePath}/` : "";
+  return `${base}${target}`;
+}
+
+function adCard(ad, basePath = "", variant = "") {
+  const className = variant ? `classified-ad ${variant}` : "classified-ad";
+  const href = sitePath(ad.href || "advertise/", basePath);
+
+  return `<article class="${className}">
+            <p class="ad-kicker">${escapeHtml(ad.kicker)}</p>
+            <h3>${escapeHtml(ad.title)}</h3>
+            <p>${escapeHtml(ad.body)}</p>
+            <a href="${href}">${escapeHtml(ad.cta)}</a>
+          </article>`;
+}
+
+function adRail(basePath = "") {
+  return `<section class="ad-rail" aria-label="Classified sponsor notices">
+            <p class="label">Classifieds</p>
+            ${ads.sidebar.map((ad) => adCard(ad, basePath, "compact")).join("\n            ")}
+          </section>`;
 }
 
 function storyCard(story, isLead = false) {
@@ -195,6 +222,10 @@ function renderIndex() {
 
           ${storyCard(leadStory, true)}
 
+          <section class="sponsor-strip" aria-label="Questionable sponsor messages">
+            ${ads.homepage.map((ad) => adCard(ad)).join("\n            ")}
+          </section>
+
           <div class="story-grid">
             ${otherStories.map((story) => storyCard(story)).join("\n")}
           </div>
@@ -222,6 +253,8 @@ function renderIndex() {
               <li>A spreadsheet named FINAL_final_REAL.xlsx</li>
             </ol>
           </section>
+
+          ${adRail()}
 
           <section class="side-panel" id="tipline">
             <p class="label">Send a tip</p>
@@ -251,6 +284,71 @@ function renderIndex() {
     title: "GTA 6 - Nothing but the truth",
     description: "GTA 6 - Nothing but the truth, an unofficial parody rumour newspaper.",
     basePath: "",
+    main
+  });
+}
+
+function renderAdvertise() {
+  const main = `<main>
+      <section class="article-page advertise-page">
+        <header class="article-hero">
+          <p class="label">Commercial opportunities</p>
+          <h1>Advertise with the least reliable paper in Vice.</h1>
+          <p class="article-deck">
+            Reach readers who believe in screenshots, red string, and buying things because
+            a sidebar box looked official for three seconds.
+          </p>
+        </header>
+
+        <section class="ad-sales-grid" aria-label="Advertising packages">
+          <article class="rate-card">
+            <p class="label">Starter suspicion</p>
+            <h2>Classified box</h2>
+            <p>One small sidebar placement for brands, creators, or mysterious sandwich vendors.</p>
+            <strong>GBP 25 / week</strong>
+          </article>
+          <article class="rate-card featured-rate">
+            <p class="label">Most believable</p>
+            <h2>Evidence desk sponsor</h2>
+            <p>A homepage sponsor card placed between the news and the panic.</p>
+            <strong>GBP 75 / week</strong>
+          </article>
+          <article class="rate-card">
+            <p class="label">Absolutely unwise</p>
+            <h2>Full conspiracy</h2>
+            <p>Homepage, article sidebar, and a headline written with suspicious confidence.</p>
+            <strong>GBP 150 / week</strong>
+          </article>
+        </section>
+
+        <section class="advertise-copy">
+          <div>
+            <p class="label">Who this is for</p>
+            <h2>Indie creators, Discords, newsletters, merch shops, and anyone selling red string.</h2>
+            <p>
+              Sponsor notices are designed to look like part of the parody newspaper, while staying
+              clearly separate from editorial stories. Real sponsors can replace the fake classifieds
+              whenever the newsroom becomes dangerously solvent.
+            </p>
+          </div>
+          <aside class="side-panel">
+            <p class="label">Send a pitch</p>
+            <h2>Got proof of money?</h2>
+            <p>
+              For now, use the homepage tip line and start your message with ADVERT. A more official
+              form will appear once our accounts department finds its login.
+            </p>
+            <a class="button-link" href="../index.html#tipline">Open the tip line</a>
+          </aside>
+        </section>
+      </section>
+    </main>`;
+
+  return pageShell({
+    title: "Advertise | GTA 6 - Nothing but the truth",
+    description: "Advertise with GTA 6 - Nothing but the truth, an unofficial parody rumour newspaper.",
+    basePath: "..",
+    bodyClass: "advertise-template",
     main
   });
 }
@@ -312,6 +410,7 @@ function renderStory(story) {
                 ${related}
               </ol>
             </section>
+            ${adRail("../..")}
           </aside>
         </div>
       </article>
@@ -329,8 +428,11 @@ function renderStory(story) {
 
 function build() {
   fs.rmSync(storyDir, { recursive: true, force: true });
+  fs.rmSync(advertiseDir, { recursive: true, force: true });
   fs.mkdirSync(storyDir, { recursive: true });
+  fs.mkdirSync(advertiseDir, { recursive: true });
   fs.writeFileSync(path.join(root, "index.html"), renderIndex());
+  fs.writeFileSync(path.join(advertiseDir, "index.html"), renderAdvertise());
 
   for (const story of data.stories) {
     const dir = path.join(storyDir, story.slug);

@@ -1,0 +1,34 @@
+{
+  "homepage": [
+    {
+      "kicker": "Sponsored panic",
+      "title": "Red String Pro",
+      "body": "Premium investigative twine for people who have zoomed in too far and cannot come back.",
+      "cta": "Book a classified",
+      "href": "advertise/"
+    },
+    {
+      "kicker": "Rumour partner",
+      "title": "BlurEnhance 800",
+      "body": "Turn any thumbnail into a 34-minute video essay with our legally imaginary software suite.",
+      "cta": "Become a sponsor",
+      "href": "advertise/"
+    }
+  ],
+  "sidebar": [
+    {
+      "kicker": "Classified",
+      "title": "Wanted: one source",
+      "body": "Must own a hat, a burner phone, and an opinion about puddle reflections.",
+      "cta": "Place your ad",
+      "href": "advertise/"
+    },
+    {
+      "kicker": "Desk sponsor",
+      "title": "Corkboard Warehouse",
+      "body": "For when a normal wall simply cannot hold this much evidence.",
+      "cta": "Sponsor the board",
+      "href": "advertise/"
+    }
+  ]
+}
