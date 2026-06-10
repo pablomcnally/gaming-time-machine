@@ -6,6 +6,7 @@ const data = JSON.parse(fs.readFileSync(path.join(root, "data", "stories.json"),
 const ads = JSON.parse(fs.readFileSync(path.join(root, "data", "ads.json"), "utf8"));
 const storyDir = path.join(root, "stories");
 const advertiseDir = path.join(root, "advertise");
+const archiveDir = path.join(root, "archive");
 
 const categoryLabels = {
   all: "All",
@@ -90,6 +91,7 @@ function siteHeader(basePath) {
           <a href="${base}index.html#lead">Lead story</a>
           <a href="${base}index.html#latest">Latest</a>
           <a href="${base}index.html#evidence">Evidence</a>
+          <a href="${base}archive/">Archive</a>
           <a href="${base}index.html#tipline">Tip line</a>
           <a href="${base}advertise/">Advertise</a>
           <a href="${base}logo-gallery/">Logos</a>
@@ -353,6 +355,81 @@ function renderAdvertise() {
   });
 }
 
+function groupStoriesByDate(stories) {
+  return stories.reduce((groups, story) => {
+    const date = story.date || "Undated intelligence";
+    if (!groups.has(date)) groups.set(date, []);
+    groups.get(date).push(story);
+    return groups;
+  }, new Map());
+}
+
+function renderArchive() {
+  const groups = groupStoriesByDate(data.stories);
+  const archiveGroups = Array.from(groups.entries())
+    .map(([date, stories]) => {
+      const items = stories
+        .map(
+          (story) => `<article class="archive-item">
+              <div>
+                <p class="tag">${escapeHtml(story.categoryLabel)}</p>
+                <h2><a href="../stories/${escapeHtml(story.slug)}/">${escapeHtml(story.title)}</a></h2>
+                <p>${escapeHtml(story.description)}</p>
+              </div>
+              <div class="archive-meta">
+                <span>${escapeHtml(story.badge)}</span>
+                <span>${escapeHtml(story.readTime)}</span>
+              </div>
+            </article>`
+        )
+        .join("\n            ");
+
+      return `<section class="archive-day">
+            <header>
+              <p class="label">Filed on</p>
+              <h2>${escapeHtml(date)}</h2>
+            </header>
+            ${items}
+          </section>`;
+    })
+    .join("\n");
+
+  const main = `<main>
+      <section class="article-page archive-page">
+        <header class="article-hero">
+          <p class="label">All dispatches</p>
+          <h1>The archive of suspicious confidence.</h1>
+          <p class="article-deck">
+            Every rumour, analysis, local panic, and evidence-adjacent filing currently
+            stored in the newsroom cabinet.
+          </p>
+        </header>
+
+        <div class="archive-layout">
+          <div class="archive-list">
+            ${archiveGroups}
+          </div>
+          <aside class="article-sidebar" aria-label="Archive sidebar">
+            <section class="side-panel">
+              <p class="label">Archive count</p>
+              <h2>${data.stories.length} filings</h2>
+              <p>Sorted by the date our newsroom claims it was wearing a serious jacket.</p>
+            </section>
+            ${adRail("..")}
+          </aside>
+        </div>
+      </section>
+    </main>`;
+
+  return pageShell({
+    title: "Archive | GTA 6 - Nothing but the truth",
+    description: "The story archive for GTA 6 - Nothing but the truth, an unofficial parody rumour newspaper.",
+    basePath: "..",
+    bodyClass: "archive-template",
+    main
+  });
+}
+
 function renderStory(story) {
   const related = data.stories
     .filter((item) => item.slug !== story.slug)
@@ -429,10 +506,13 @@ function renderStory(story) {
 function build() {
   fs.rmSync(storyDir, { recursive: true, force: true });
   fs.rmSync(advertiseDir, { recursive: true, force: true });
+  fs.rmSync(archiveDir, { recursive: true, force: true });
   fs.mkdirSync(storyDir, { recursive: true });
   fs.mkdirSync(advertiseDir, { recursive: true });
+  fs.mkdirSync(archiveDir, { recursive: true });
   fs.writeFileSync(path.join(root, "index.html"), renderIndex());
   fs.writeFileSync(path.join(advertiseDir, "index.html"), renderAdvertise());
+  fs.writeFileSync(path.join(archiveDir, "index.html"), renderArchive());
 
   for (const story of data.stories) {
     const dir = path.join(storyDir, story.slug);

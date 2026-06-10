@@ -854,6 +854,76 @@ p {
   padding-top: 28px;
 }
 
+.archive-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 36px;
+  padding-top: 28px;
+}
+
+.archive-list {
+  display: grid;
+  gap: 28px;
+}
+
+.archive-day {
+  display: grid;
+  gap: 14px;
+}
+
+.archive-day > header {
+  border-bottom: 5px solid var(--ink);
+}
+
+.archive-day > header h2 {
+  margin: 0 0 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: clamp(2.2rem, 5vw, 4.2rem);
+  line-height: 0.92;
+  text-transform: uppercase;
+}
+
+.archive-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(150px, 0.24fr);
+  gap: 18px;
+  border: 2px solid var(--ink);
+  background: #fffdf7;
+  padding: 16px;
+}
+
+.archive-item h2 {
+  margin: 0 0 8px;
+  font-size: clamp(1.55rem, 3vw, 2.3rem);
+  line-height: 1.02;
+}
+
+.archive-item h2 a {
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.12em;
+}
+
+.archive-item p:not(.tag) {
+  margin: 0;
+  line-height: 1.48;
+}
+
+.archive-meta {
+  display: grid;
+  align-content: start;
+  gap: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.archive-meta span {
+  border: 2px solid var(--ink);
+  background: var(--paper-deep);
+  padding: 7px 9px;
+}
+
 .hidden {
   display: none;
 }
@@ -912,7 +982,9 @@ p {
 
   .sponsor-strip,
   .ad-sales-grid,
-  .advertise-copy {
+  .advertise-copy,
+  .archive-layout,
+  .archive-item {
     grid-template-columns: 1fr;
   }
 
