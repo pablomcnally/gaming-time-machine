@@ -67,8 +67,11 @@ function getResponseText(responseJson) {
 }
 
 function coerceStory(rawStory, usedSlugs, todayLabel) {
-  const title = cleanText(rawStory.title, 110);
-  const description = cleanText(rawStory.description, 190);
+  const title = cleanText(rawStory.title, 100);
+  const description = cleanText(rawStory.description, 170, {
+    addEllipsis: true,
+    preferSentence: true
+  });
   const body = Array.isArray(rawStory.body)
     ? rawStory.body.map((paragraph) => cleanText(paragraph, 650)).filter(Boolean)
     : [];
@@ -98,13 +101,37 @@ function coerceStory(rawStory, usedSlugs, todayLabel) {
   };
 }
 
-function cleanText(value, maxLength) {
-  return String(value || "")
+function cleanText(value, maxLength, options = {}) {
+  const text = String(value || "")
     .replace(/\s+/g, " ")
     .replace(/[{}<>]/g, "")
-    .trim()
-    .slice(0, maxLength)
     .trim();
+
+  if (text.length <= maxLength) return text;
+
+  return truncateText(text, maxLength, options);
+}
+
+function truncateText(text, maxLength, { addEllipsis = false, preferSentence = false } = {}) {
+  const suffix = addEllipsis ? "..." : "";
+  const limit = Math.max(1, maxLength - suffix.length);
+  const slice = text.slice(0, limit + 1).trim();
+
+  if (preferSentence) {
+    const sentenceEnd = Math.max(
+      slice.lastIndexOf("."),
+      slice.lastIndexOf("!"),
+      slice.lastIndexOf("?")
+    );
+
+    if (sentenceEnd >= Math.floor(limit * 0.45)) {
+      return slice.slice(0, sentenceEnd + 1).trim();
+    }
+  }
+
+  const wordEnd = slice.lastIndexOf(" ");
+  const trimmed = wordEnd > 24 ? slice.slice(0, wordEnd) : slice.slice(0, limit);
+  return `${trimmed.trim()}${suffix}`;
 }
 
 function validateNoBannedClaims(story) {
@@ -189,17 +216,17 @@ async function createRumours({ count, data }) {
                   ],
                   properties: {
                     category: { type: "string", enum: ["leak", "analysis", "local"] },
-                    badge: { type: "string" },
+                    badge: { type: "string", maxLength: 28 },
                     accent: { type: "string", enum: ["blue", "sunset", "green", "yellow", "red"] },
-                    title: { type: "string" },
-                    description: { type: "string" },
-                    author: { type: "string" },
+                    title: { type: "string", maxLength: 100 },
+                    description: { type: "string", maxLength: 170 },
+                    author: { type: "string", maxLength: 42 },
                     readTime: { type: "string" },
                     body: {
                       type: "array",
                       minItems: 3,
                       maxItems: 5,
-                      items: { type: "string" }
+                      items: { type: "string", maxLength: 650 }
                     }
                   }
                 }
