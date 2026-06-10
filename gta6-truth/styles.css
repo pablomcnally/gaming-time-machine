@@ -244,7 +244,6 @@ p {
 
 .button-link {
   display: inline-block;
-  margin-top: 8px;
   background: var(--paper);
   color: var(--ink);
   border: 3px solid var(--ink);
@@ -256,19 +255,22 @@ p {
   text-transform: uppercase;
 }
 
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
 .scroll-cue {
-  position: absolute;
-  left: 50%;
-  bottom: 18px;
-  z-index: 3;
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  transform: translateX(-50%);
-  border: 2px solid rgba(255, 249, 236, 0.75);
+  border: 3px solid rgba(255, 249, 236, 0.82);
   background: rgba(23, 17, 15, 0.72);
   color: #fff9ec;
-  padding: 8px 12px;
+  padding: 12px 14px;
   font-family: Arial, sans-serif;
   font-size: 0.74rem;
   font-weight: 900;
@@ -759,6 +761,7 @@ p {
   }
 
   .button-link,
+  .scroll-cue,
   .filter-button,
   .nav-links a {
     width: 100%;
@@ -766,7 +769,7 @@ p {
   }
 
   .scroll-cue {
-    bottom: 12px;
+    justify-content: center;
   }
 
   .meta {
