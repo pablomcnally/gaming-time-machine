@@ -426,6 +426,8 @@ p {
   border: 2px solid var(--ink);
   padding: 10px;
   background:
+    radial-gradient(circle at 75% 20%, rgba(255, 255, 255, 0.28) 0 10%, transparent 11%),
+    linear-gradient(135deg, rgba(23, 17, 15, 0.14), transparent 42%, rgba(23, 17, 15, 0.2)),
     repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.18) 0 6px, rgba(255, 255, 255, 0) 6px 14px),
     var(--coral);
   text-decoration: none;
@@ -447,6 +449,43 @@ p {
   background: linear-gradient(0deg, rgba(23, 17, 15, 0.48), rgba(23, 17, 15, 0.04) 58%);
 }
 
+.story-art:not(.has-image)::before {
+  content: "THE TRUTH\A IS OUT THERE";
+  position: absolute;
+  right: clamp(12px, 7%, 34px);
+  top: clamp(18px, 18%, 46px);
+  z-index: 0;
+  max-width: min(72%, 270px);
+  transform: rotate(-9deg);
+  border: 4px double rgba(255, 249, 236, 0.82);
+  color: rgba(255, 249, 236, 0.88);
+  padding: 10px 14px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: clamp(1.25rem, 3vw, 2.45rem);
+  line-height: 0.9;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: pre-line;
+  opacity: 0.88;
+  text-shadow: 2px 2px 0 rgba(23, 17, 15, 0.32);
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+.story-art:not(.has-image)::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    linear-gradient(90deg, rgba(255, 249, 236, 0.18) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255, 249, 236, 0.14) 1px, transparent 1px);
+  background-size: 22px 22px;
+  opacity: 0.28;
+  pointer-events: none;
+}
+
 .lead-article .story-art {
   aspect-ratio: auto;
   min-height: 100%;
@@ -454,7 +493,7 @@ p {
 
 .story-art span {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   background: var(--ink);
   color: var(--paper);
   padding: 6px 8px;
