@@ -6,16 +6,37 @@
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Trailer Parallax 'Strongly Suggests' Seventeen New Weather Types And One Moody Seagull",
     "Map Shape 'Practically Confirms' At Least Nine Lost Bin Lorries, Experts Claim",
     "Vice Deli Sells Out Of 'Mysterious Sandwich' After Rumour About Floating Iguana",
     "Is Gen AI to blame for delay as devs to busy turning their cats into Tudor princes?",
     "Anonymous source claims the moon is a playable vehicle if you pre-order twice.",
     "A menu beep has allegedly confirmed 19 radio stations and one deeply tired podcast.",
     "Fans identify a possible convenience store from a reflection inside another reflection.",
-    "Publisher remains silent after journalist asks whether water will be wet.",
-    "New theory suggests every palm tree is individually voice-acted."
+    "Publisher remains silent after journalist asks whether water will be wet."
   ],
   "stories": [
+    {
+      "slug": "trailer-parallax-strongly-suggests-seventeen-new-weather-types-and-one-moo",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "WELL, WELL, WELL",
+      "accent": "yellow",
+      "title": "Trailer Parallax 'Strongly Suggests' Seventeen New Weather Types And One Moody Seagull",
+      "description": "Our crack team of sofa analysts have stared at a thumbnail until it started staring back. Conclusions have been drawn, maps have been folded, and at least one man has developed a theory abou",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "M. Biscuit, Correspondent at Large",
+      "readTime": "4 min read",
+      "date": "Wednesday, June 10, 2026",
+      "body": [
+        "Experts report the trailer’s sky contains \"distinct emotional layers\", which they say can only mean the game now includes weather with opinions.",
+        "A close reading of a passing cloud has apparently revealed \"possible drizzle-based side quests\" and what one caller described as \"a very determined breeze\".",
+        "The seagull, seen hovering near a takeaway cup for less than two seconds, has already been promoted by fans to \"important lore creature\".",
+        "Analysts cautioned that none of this is confirmed, but immediately published a colour-coded chart anyway.",
+        "At press time, one viewer was still insisting the sunlight angle proves there is a hidden mechanic for washing sunglasses."
+      ]
+    },
     {
       "slug": "map-shape-practically-confirms-at-least-nine-lost-bin-lorries-experts-clai",
       "category": "analysis",
