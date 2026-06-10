@@ -67,6 +67,7 @@ function pageShell({ title, description, basePath, bodyClass = "", main }) {
     <script type="application/json" id="tickerData">${JSON.stringify(data.ticker)}</script>
     <script type="application/json" id="heroImagesData">${JSON.stringify(heroImages)}</script>
     <script src="${base}script.js"></script>
+    <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
     <script defer src="/_vercel/insights/script.js"></script>
   </body>
 </html>
