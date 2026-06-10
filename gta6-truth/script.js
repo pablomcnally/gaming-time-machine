@@ -1,13 +1,22 @@
 const tickerData = document.querySelector("#tickerData");
 const rumours = tickerData ? JSON.parse(tickerData.textContent) : [];
+const heroImagesData = document.querySelector("#heroImagesData");
+const heroImages = heroImagesData ? JSON.parse(heroImagesData.textContent) : [];
 
 const tickerText = document.querySelector("#tickerText");
+const heroImage = document.querySelector("#heroImage");
 const filterButtons = document.querySelectorAll(".filter-button");
 const stories = document.querySelectorAll(".story-card[data-category]");
 const tipForm = document.querySelector(".tip-form");
 const formNote = document.querySelector(".form-note");
 
 let tickerIndex = 0;
+
+if (heroImage && heroImages.length > 1) {
+  const selectedHero = heroImages[Math.floor(Math.random() * heroImages.length)];
+  heroImage.src = selectedHero.src;
+  heroImage.alt = selectedHero.alt;
+}
 
 if (tickerText && rumours.length > 0) {
   window.setInterval(() => {

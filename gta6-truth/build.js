@@ -12,6 +12,25 @@ const categoryLabels = {
   local: "Local chaos"
 };
 
+const heroImages = [
+  {
+    src: "assets/neon-rumor-desk-clean.png",
+    alt: "A neon coastal city and messy newsroom desk full of rumour files"
+  },
+  {
+    src: "assets/hero-balcony-rumour-desk.png",
+    alt: "A coastal balcony rumour desk covered in clippings and evidence maps"
+  },
+  {
+    src: "assets/hero-archive-evidence-wall.png",
+    alt: "A chaotic archive room with a neon street and a wall of rumour evidence"
+  },
+  {
+    src: "assets/hero-city-evidence-desk.png",
+    alt: "A neon city evidence desk with maps, red string, and newsroom lamps"
+  }
+];
+
 function escapeHtml(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -43,6 +62,7 @@ function pageShell({ title, description, basePath, bodyClass = "", main }) {
     ${main}
     ${siteFooter()}
     <script type="application/json" id="tickerData">${JSON.stringify(data.ticker)}</script>
+    <script type="application/json" id="heroImagesData">${JSON.stringify(heroImages)}</script>
     <script src="${base}script.js"></script>
   </body>
 </html>
@@ -127,6 +147,7 @@ function storyCard(story, isLead = false) {
 
 function renderIndex() {
   const [leadStory, ...otherStories] = data.stories;
+  const defaultHeroImage = heroImages[0];
   const filters = Object.entries(categoryLabels)
     .map(([key, label], index) => {
       const active = index === 0 ? " active" : "";
@@ -136,7 +157,7 @@ function renderIndex() {
 
   const main = `<main>
       <section class="hero" id="lead" aria-labelledby="hero-title">
-        <img src="assets/neon-rumor-desk-clean.png" alt="A neon coastal city and messy newsroom desk full of rumour files" />
+        <img id="heroImage" src="${escapeHtml(defaultHeroImage.src)}" alt="${escapeHtml(defaultHeroImage.alt)}" />
         <div class="hero-copy">
           <p class="label">${escapeHtml(data.lead.label)}</p>
           <h1 id="hero-title">${escapeHtml(data.lead.title)}</h1>
