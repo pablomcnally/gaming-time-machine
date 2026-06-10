@@ -1,0 +1,58 @@
+name: Generate GTA 6 parody rumours
+
+on:
+  schedule:
+    - cron: "30 8 * * *"
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "Number of stories to generate"
+        required: false
+        default: "2"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gta6-auto-rumours
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate parody rumours
+        working-directory: gta6-truth
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          AI_RUMOUR_COUNT: ${{ github.event.inputs.count || '2' }}
+        run: npm run generate:rumours
+
+      - name: Build static pages
+        working-directory: gta6-truth
+        run: npm run build
+
+      - name: Commit generated rumours
+        run: |
+          if git diff --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+
+          git config user.name "gta6-rumour-bot"
+          git config user.email "gta6-rumour-bot@users.noreply.github.com"
+          git add gta6-truth/data/stories.json gta6-truth/index.html gta6-truth/stories
+          git commit -m "Add automated GTA 6 parody rumours"
+          git push
