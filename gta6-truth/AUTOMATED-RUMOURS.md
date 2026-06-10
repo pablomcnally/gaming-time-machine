@@ -26,7 +26,7 @@ Optional repository variable:
 OPENAI_MODEL
 ```
 
-If `OPENAI_MODEL` is blank, the script uses `gpt-5.1-mini`.
+If `OPENAI_MODEL` is blank, the script uses `gpt-5.4-mini`.
 
 ## Manual Run
 

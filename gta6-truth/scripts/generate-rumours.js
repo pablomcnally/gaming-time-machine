@@ -131,7 +131,7 @@ async function createRumours({ count, data }) {
     throw new Error("Missing OPENAI_API_KEY. Add it as a GitHub Actions repository secret.");
   }
 
-  const model = process.env.OPENAI_MODEL || "gpt-5.1-mini";
+  const model = process.env.OPENAI_MODEL || "gpt-5.4-mini";
   const existingTitles = data.stories.slice(0, 12).map((story) => story.title);
 
   const response = await fetch("https://api.openai.com/v1/responses", {
