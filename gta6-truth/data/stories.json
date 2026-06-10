@@ -1,11 +1,13 @@
 {
-  "updatedLabel": "Tuesday, June 9, 2026",
+  "updatedLabel": "Wednesday, June 10, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Map Shape 'Practically Confirms' At Least Nine Lost Bin Lorries, Experts Claim",
+    "Vice Deli Sells Out Of 'Mysterious Sandwich' After Rumour About Floating Iguana",
     "Is Gen AI to blame for delay as devs to busy turning their cats into Tudor princes?",
     "Anonymous source claims the moon is a playable vehicle if you pre-order twice.",
     "A menu beep has allegedly confirmed 19 radio stations and one deeply tired podcast.",
@@ -14,6 +16,48 @@
     "New theory suggests every palm tree is individually voice-acted."
   ],
   "stories": [
+    {
+      "slug": "map-shape-practically-confirms-at-least-nine-lost-bin-lorries-experts-clai",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "SENSIBLE GUESS",
+      "accent": "yellow",
+      "title": "Map Shape 'Practically Confirms' At Least Nine Lost Bin Lorries, Experts Claim",
+      "description": "A solemn breakdown of the latest imaginary map chatter suggests the city will once again be full of places for people to get mildly confused in.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By M. T. Punctual",
+      "readTime": "4 min read",
+      "date": "Wednesday, June 10, 2026",
+      "body": [
+        "A completely invented wave of map talk has led to an important conclusion: the roads in GTA VI will almost certainly go somewhere.",
+        "Our panel of beige-jacketed experts studied a variety of pixel blobs, coffee rings and one particularly optimistic shadow, then declared the coastline to be 'very coastal indeed'.",
+        "One analyst pointed to a suspiciously bendy road and said it was 'clearly a narrative route for a stolen hot dog van'. Another insisted the wetlands prove the game will contain 'at least three heroic swamps and a fourth, secret swamp'.",
+        "The report also notes that any city with this many roads is likely to feature drivers, pedestrians, and a number of bins that will be relocated against their will.",
+        "Fans have taken the findings seriously, which is exactly the sort of thing fans are known for in these circumstances."
+      ]
+    },
+    {
+      "slug": "vice-deli-sells-out-of-mysterious-sandwich-after-rumour-about-floating-igu",
+      "category": "local",
+      "categoryLabel": "Local chaos",
+      "badge": "NEIGHBOURHOOD WATCH",
+      "accent": "green",
+      "title": "Vice Deli Sells Out Of 'Mysterious Sandwich' After Rumour About Floating Iguana",
+      "description": "Locals reportedly formed a civilised queue outside a fictional corner shop after word spread that an unusually calm lizard had been spotted near the salad bar.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Knott",
+      "readTime": "3 min read",
+      "date": "Wednesday, June 10, 2026",
+      "body": [
+        "Shoppers in Vice have reacted with admirable restraint after a rumour claimed a floating iguana had been seen near the deli counter, possibly while considering a panini.",
+        "The shop, called Pete's Nearly Fresh, denied all involvement and said it had only ever stocked bread, ham, and one suspiciously cheerful jar of pickles.",
+        "Despite this, customers arrived in numbers usually reserved for half-price lawn furniture. One witness said the iguana looked 'thoughtful, but not judgmental'.",
+        "Management responded by adding an emergency sign reading 'No reptiles, please ask at till', which only encouraged more people to look for reptiles.",
+        "By lunchtime, the deli had sold out of the Mysterious Sandwich, a tuna-based item no one remembered ordering in the first place."
+      ]
+    },
     {
       "slug": "a-brand-new-leak",
       "category": "leak",
