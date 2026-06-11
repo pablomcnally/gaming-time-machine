@@ -1,21 +1,87 @@
 {
-  "updatedLabel": "Wednesday, June 10, 2026",
+  "updatedLabel": "Thursday, June 11, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Soggy Receipt 'Strongly Hints' At Five New Boat Horns And A Very Judgy Pelican",
+    "Map Corner 'Essentially Verifies' Three Secret Sunsets, Two Tramlines And A Bin Schedule With Attitu",
+    "Vice Diner Introduces 'Mystery Toast' After Customers Begin Ordering 'Whatever The Rumour Is'",
     "Trailer Parallax 'Strongly Suggests' Seventeen New Weather Types And One Moody Seagull",
     "Map Shape 'Practically Confirms' At Least Nine Lost Bin Lorries, Experts Claim",
     "Vice Deli Sells Out Of 'Mysterious Sandwich' After Rumour About Floating Iguana",
     "Is Gen AI to blame for delay as devs to busy turning their cats into Tudor princes?",
-    "Anonymous source claims the moon is a playable vehicle if you pre-order twice.",
-    "A menu beep has allegedly confirmed 19 radio stations and one deeply tired podcast.",
-    "Fans identify a possible convenience store from a reflection inside another reflection.",
-    "Publisher remains silent after journalist asks whether water will be wet."
+    "Anonymous source claims the moon is a playable vehicle if you pre-order twice."
   ],
   "stories": [
+    {
+      "slug": "soggy-receipt-strongly-hints-at-five-new-boat-horns-and-a-very-judgy-pelic",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE-ish",
+      "accent": "blue",
+      "title": "Soggy Receipt 'Strongly Hints' At Five New Boat Horns And A Very Judgy Pelican",
+      "description": "A damp receipt from a burger kiosk has allegedly kicked off fresh speculation about hidden features, nautical drama, and at least one bird with standards.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Colin Wobble, Senior Rumour Correspondb",
+      "readTime": "4 min read",
+      "date": "Thursday, June 11, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A wrinkled receipt, found in a puddle and therefore immediately promoted to the status of evidence, has sent the forum ladies and gents into a right tizzy.",
+        "According to absolutely nobody in a position to know anything, the paper's faint ink apparently shows prices for \"boat horn calibration\", \"pelican snack tax\", and \"premium towel reuse\", which observers describe as \"not nothing\".",
+        "One expert with a spreadsheet and too much time said the listing \"pretty much confirms\" five distinct boat horn sounds, ranging from \"polite toot\" to \"industrial apology\".",
+        "The same source also insists the pelican is \"either a mascot, a menace, or both\", and may be seen judging players near docks, diners, and emotionally vulnerable chips.",
+        "Rock-solid evidence? Not remotely. Excellent pub chat? Undoubtedly."
+      ]
+    },
+    {
+      "slug": "map-corner-essentially-verifies-three-secret-sunsets-two-tramlines-and-a-b",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "ANALYSIS",
+      "accent": "sunset",
+      "title": "Map Corner 'Essentially Verifies' Three Secret Sunsets, Two Tramlines And A Bin Schedule With Attitu",
+      "description": "A new round of map-based deduction has led fans to conclude the game world will contain more weather, more transport, and at least one bin collection with narrative depth",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Penelope Wren, Map Enjoyer",
+      "readTime": "5 min read",
+      "date": "Thursday, June 11, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A fresh look at an unofficially imaginary map has revealed, in the eyes of analysts, \"clear signs\" of several things that are normal in cities but apparently thrilling in rumours.",
+        "The first clue is a suspiciously bright corner near the coast, which one enthusiast claims must mean the game includes three separate sunsets: \"golden, dramatic, and the sort that makes you question your life choices\".",
+        "Elsewhere, a thin line near a station has been declared evidence of tramlines, despite the fact that it could just as easily be a coffee stain, a ruler mark, or the universe having a laugh.",
+        "Particularly compelling, say the community detectives, is a tiny icon that may represent a bin collection timetable, prompting one man to declare the system \"finally realistic\" and another to ask whether bins now have lore.",
+        "Our conclusion is simple: the map says very little, fans say very much, and everybody remains heroically committed to staring at rectangles."
+      ]
+    },
+    {
+      "slug": "vice-diner-introduces-mystery-toast-after-customers-begin-ordering-whateve",
+      "category": "local",
+      "categoryLabel": "Local chaos",
+      "badge": "LOCAL BEAT",
+      "accent": "green",
+      "title": "Vice Diner Introduces 'Mystery Toast' After Customers Begin Ordering 'Whatever The Rumour Is'",
+      "description": "A local eatery has leaned fully into the nonsense by serving a special menu item inspired by forum speculation, resulting in queue lengths, confusion, and one excellent s",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Quibble, Vice Correspondent",
+      "readTime": "3 min read",
+      "date": "Thursday, June 11, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A cheerful diner on the edge of Vice has reportedly introduced a new item called Mystery Toast after customers began arriving and asking for \"the thing from the posts\".",
+        "Staff say the toast may contain butter, jam, or \"the concept of anticipation\", depending on the day and how persuasive you are.",
+        "One regular, who ordered it twice because he \"wanted to compare patches\", described the experience as \"surprisingly decent, and a bit too much like the rumour economy in itself\".",
+        "The diner has gone further by adding a chalkboard menu of fictional specials, including \"Foggy Noodles\", \"Patch Note Pie\", and \"A Cup Of Tea That Knows Something\".",
+        "Locals seem delighted, tourists are taking photos of their cutlery, and the whole affair has become the most sensible thing anybody has done all week."
+      ]
+    },
     {
       "slug": "trailer-parallax-strongly-suggests-seventeen-new-weather-types-and-one-moo",
       "category": "analysis",
