@@ -97,6 +97,7 @@ function coerceStory(rawStory, usedSlugs, todayLabel) {
     author: cleanText(rawStory.author, 42) || "Auto Rumour Desk",
     readTime,
     date: todayLabel,
+    generatedBy: "auto-rumour-bot",
     body
   };
 }
@@ -150,6 +151,10 @@ function validateNoBannedClaims(story) {
       throw new Error(`Generated story used banned phrase: ${phrase}`);
     }
   }
+}
+
+function hasAutomatedStoryToday(data, todayLabel) {
+  return data.stories.some((story) => story.date === todayLabel && story.generatedBy === "auto-rumour-bot");
 }
 
 async function createRumours({ count, data }) {
@@ -260,6 +265,12 @@ async function main() {
 
   const data = readJson(dataPath);
   const todayLabel = formatDate(new Date());
+
+  if (process.env.AI_RUMOUR_SKIP_IF_TODAY === "1" && hasAutomatedStoryToday(data, todayLabel)) {
+    console.log(`Automated rumours already published for ${todayLabel}. Skipping.`);
+    return;
+  }
+
   const usedSlugs = new Set(data.stories.map((story) => story.slug));
   const generated = await createRumours({ count, data });
   const newStories = generated.map((story) => coerceStory(story, usedSlugs, todayLabel));

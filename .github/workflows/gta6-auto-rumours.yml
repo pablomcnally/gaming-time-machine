@@ -3,6 +3,8 @@ name: Generate GTA 6 parody rumours
 on:
   schedule:
     - cron: "30 8 * * *"
+    - cron: "0 9 * * *"
+    - cron: "30 9 * * *"
   workflow_dispatch:
     inputs:
       count:
@@ -38,6 +40,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
           AI_RUMOUR_COUNT: ${{ github.event.inputs.count || '2' }}
+          AI_RUMOUR_SKIP_IF_TODAY: ${{ github.event_name == 'schedule' && '1' || '0' }}
         run: npm run generate:rumours
 
       - name: Build static pages

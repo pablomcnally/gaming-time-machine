@@ -4,13 +4,15 @@ The site can publish two AI-written parody stories a day with GitHub Actions.
 
 ## How It Works
 
-1. `.github/workflows/gta6-auto-rumours.yml` runs every day at 08:30 UTC.
+1. `.github/workflows/gta6-auto-rumours.yml` tries every day at 08:30, 09:00, and 09:30 UTC.
 2. The workflow runs `npm run generate:rumours` inside `gta6-truth`.
 3. `scripts/generate-rumours.js` asks OpenAI for fictional parody story JSON.
 4. The script adds the stories to `data/stories.json`, updates the ticker, and updates the site date.
 5. The workflow runs `npm run build`.
 6. GitHub commits the generated JSON and HTML.
 7. Vercel sees the commit and redeploys.
+
+Scheduled runs skip automatically if the bot has already published for the current date, so the extra cron times are backup attempts rather than extra editions.
 
 ## GitHub Setup
 
