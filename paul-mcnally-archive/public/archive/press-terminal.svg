@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <rect width="900" height="650" fill="#070807"/>
+  <rect x="90" y="80" width="720" height="470" fill="#111" stroke="#fff45c" stroke-width="7"/>
+  <rect x="130" y="120" width="640" height="90" fill="#1624ff"/>
+  <text x="155" y="176" font-family="Courier New, monospace" font-size="36" fill="#fff45c">PRESS TERMINAL</text>
+  <rect x="130" y="250" width="290" height="220" fill="#f3f0db"/>
+  <path d="M160 290h220M160 330h180M160 370h230M160 410h145" stroke="#070807" stroke-width="13"/>
+  <rect x="475" y="250" width="295" height="220" fill="#070807" stroke="#00e5ff" stroke-width="5"/>
+  <text x="505" y="315" font-family="Courier New, monospace" font-size="28" fill="#31ff65">COPY READY</text>
+  <text x="505" y="370" font-family="Courier New, monospace" font-size="28" fill="#ff3347">DEADLINE</text>
+  <text x="505" y="425" font-family="Courier New, monospace" font-size="28" fill="#00e5ff">SEND FILE</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <rect width="900" height="650" fill="#07110f"/>
+  <rect x="60" y="55" width="780" height="540" fill="#111" stroke="#00e5ff" stroke-width="6"/>
+  <rect x="95" y="105" width="190" height="270" fill="#fff45c"/>
+  <rect x="120" y="135" width="140" height="28" fill="#070807"/>
+  <rect x="120" y="180" width="120" height="18" fill="#ff3347"/>
+  <rect x="120" y="215" width="145" height="18" fill="#1624ff"/>
+  <rect x="330" y="120" width="210" height="300" fill="#1624ff" stroke="#f3f0db" stroke-width="5"/>
+  <text x="435" y="265" text-anchor="middle" font-family="Courier New, monospace" font-size="38" fill="#fff45c">REVIEWS</text>
+  <rect x="585" y="105" width="200" height="270" fill="#f3f0db"/>
+  <path d="M615 160h140M615 195h140M615 230h110M615 265h125M615 300h90" stroke="#070807" stroke-width="12"/>
+  <rect x="120" y="460" width="660" height="45" fill="#00e5ff"/>
+  <text x="450" y="492" text-anchor="middle" font-family="Courier New, monospace" font-size="28" fill="#070807">MAGAZINE DEADLINE DESK</text>
+</svg>

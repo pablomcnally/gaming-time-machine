@@ -1,0 +1,94 @@
+export type ArchiveCategory = "magazines" | "websites" | "events" | "press" | "retro";
+
+export type ArchiveItem = {
+  image: string;
+  title: string;
+  caption: string;
+  year: string;
+  category: ArchiveCategory;
+  publication: string;
+  externalLink?: string;
+};
+
+export const archiveCategories: { id: ArchiveCategory; label: string }[] = [
+  { id: "magazines", label: "Magazines" },
+  { id: "websites", label: "Websites" },
+  { id: "events", label: "Events" },
+  { id: "press", label: "Press" },
+  { id: "retro", label: "Retro" }
+];
+
+export const archiveItems: ArchiveItem[] = [
+  {
+    image: "/archive/magazine-desk.svg",
+    title: "The review desk",
+    caption:
+      "Stacks of code, proofs and notes from the years when a magazine deadline was a physical thing heading toward you.",
+    year: "1994",
+    category: "magazines",
+    publication: "Games magazines"
+  },
+  {
+    image: "/archive/terminal-room.svg",
+    title: "Early online services",
+    caption:
+      "Micronet, Prestel, Teletext and the peculiar thrill of finding useful information behind a numbered menu.",
+    year: "1980s",
+    category: "retro",
+    publication: "Viewdata culture"
+  },
+  {
+    image: "/archive/online-service.svg",
+    title: "Editorial systems",
+    caption:
+      "The shift from paste-up habits to CMS life: faster, messier, more measurable, but still basically about good sentences.",
+    year: "2000",
+    category: "websites",
+    publication: "Digital publishing"
+  },
+  {
+    image: "/archive/event-pass.svg",
+    title: "Events and launches",
+    caption:
+      "Press trips, hotel Wi-Fi, lanyards, nervous demos, and trying to ask something useful before the next group comes in.",
+    year: "2005",
+    category: "events",
+    publication: "Industry events"
+  },
+  {
+    image: "/archive/guidebook.svg",
+    title: "Guide publishing",
+    caption:
+      "Maps, builds, walkthroughs and reference work, built for readers who needed the answer more than the flourish.",
+    year: "2015",
+    category: "press",
+    publication: "Gamer Guides"
+  },
+  {
+    image: "/archive/hardware-bench.svg",
+    title: "Hardware bench",
+    caption:
+      "PC parts, benchmarks, launch windows, buying advice, and the editorial art of saying what something is actually for.",
+    year: "2020",
+    category: "websites",
+    publication: "WePC"
+  },
+  {
+    image: "/archive/press-terminal.svg",
+    title: "Modern games desk",
+    caption:
+      "A current working station for news, reviews, opinion, interviews and the occasional raised eyebrow.",
+    year: "2025",
+    category: "press",
+    publication: "The Escapist"
+  },
+  {
+    image: "/archive/viewdata-cards.svg",
+    title: "Personal archive terminal",
+    caption:
+      "A deliberately old-fashioned structure for a modern body of work: numbered routes, readable pages, and no pretending everything is a brand journey.",
+    year: "2026",
+    category: "retro",
+    publication: "Personal archive"
+  }
+];

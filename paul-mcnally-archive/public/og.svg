@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#070807"/>
+  <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200M0 450h1200M0 540h1200" stroke="#173c42" stroke-width="3"/>
+  <rect x="70" y="70" width="1060" height="490" fill="#1624ff" stroke="#00e5ff" stroke-width="8"/>
+  <rect x="96" y="96" width="1008" height="438" fill="#070807" stroke="#fff45c" stroke-width="6"/>
+  <text x="130" y="165" font-family="Courier New, monospace" font-size="34" fill="#31ff65">*** MICRONET 800 SERVICES ***</text>
+  <text x="130" y="260" font-family="Courier New, monospace" font-size="92" font-weight="700" fill="#fff45c">PAUL McNALLY</text>
+  <text x="130" y="330" font-family="Courier New, monospace" font-size="34" fill="#00e5ff">PERSONAL ARCHIVE TERMINAL</text>
+  <text x="130" y="422" font-family="Courier New, monospace" font-size="30" fill="#f3f0db">Games journalist &gt; Editor &gt; Writer &gt; Retro enthusiast</text>
+  <text x="130" y="492" font-family="Courier New, monospace" font-size="28" fill="#ff3347">CONNECTED // PRESS START</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <rect width="900" height="650" fill="#070807"/>
+  <path d="M0 72h900M0 144h900M0 216h900M0 288h900M0 360h900M0 432h900M0 504h900M0 576h900" stroke="#102b30" stroke-width="4"/>
+  <rect x="130" y="110" width="640" height="390" fill="#1624ff" stroke="#00e5ff" stroke-width="8"/>
+  <rect x="175" y="150" width="550" height="260" fill="#050505" stroke="#fff45c" stroke-width="5"/>
+  <text x="215" y="220" font-family="Courier New, monospace" font-size="34" fill="#31ff65">1: NEWS</text>
+  <text x="215" y="278" font-family="Courier New, monospace" font-size="34" fill="#31ff65">2: GAMES</text>
+  <text x="215" y="336" font-family="Courier New, monospace" font-size="34" fill="#31ff65">3: MAILBOX</text>
+  <rect x="260" y="455" width="380" height="52" fill="#fff45c"/>
+  <text x="450" y="490" text-anchor="middle" font-family="Courier New, monospace" font-size="30" fill="#070807">VIEWDATA NODE</text>
+</svg>

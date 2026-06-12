@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <rect width="900" height="650" fill="#070807"/>
+  <rect x="280" y="70" width="340" height="510" rx="12" fill="#f3f0db" stroke="#00e5ff" stroke-width="7"/>
+  <rect x="320" y="115" width="260" height="90" fill="#ff3347"/>
+  <text x="450" y="172" text-anchor="middle" font-family="Courier New, monospace" font-size="44" fill="#fff45c">PRESS</text>
+  <rect x="325" y="245" width="250" height="150" fill="#1624ff"/>
+  <text x="450" y="315" text-anchor="middle" font-family="Courier New, monospace" font-size="30" fill="#fff45c">EVENT</text>
+  <text x="450" y="360" text-anchor="middle" font-family="Courier New, monospace" font-size="30" fill="#31ff65">ACCESS</text>
+  <path d="M330 455h240M330 492h180" stroke="#070807" stroke-width="16"/>
+  <path d="M450 70V20" stroke="#fff45c" stroke-width="10"/>
+</svg>

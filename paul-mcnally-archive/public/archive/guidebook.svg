@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <rect width="900" height="650" fill="#06100a"/>
+  <rect x="150" y="90" width="255" height="460" fill="#1624ff" stroke="#00e5ff" stroke-width="6"/>
+  <rect x="405" y="90" width="255" height="460" fill="#fff45c" stroke="#070807" stroke-width="6"/>
+  <text x="278" y="180" text-anchor="middle" font-family="Courier New, monospace" font-size="36" fill="#fff45c">GUIDE</text>
+  <path d="M195 245h160M195 285h130M195 325h175M195 365h100" stroke="#f3f0db" stroke-width="13"/>
+  <text x="532" y="180" text-anchor="middle" font-family="Courier New, monospace" font-size="32" fill="#070807">MAPS</text>
+  <path d="M450 250l75 40 80-65v210l-80 65-75-40z" fill="#31ff65" stroke="#070807" stroke-width="8"/>
+</svg>

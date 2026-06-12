@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <rect width="900" height="650" fill="#070807"/>
+  <rect x="80" y="90" width="220" height="360" fill="#1624ff" stroke="#00e5ff" stroke-width="6"/>
+  <rect x="340" y="130" width="220" height="360" fill="#ff3347" stroke="#fff45c" stroke-width="6"/>
+  <rect x="600" y="90" width="220" height="360" fill="#31ff65" stroke="#070807" stroke-width="6"/>
+  <text x="190" y="235" text-anchor="middle" font-family="Courier New, monospace" font-size="58" fill="#fff45c">1</text>
+  <text x="450" y="275" text-anchor="middle" font-family="Courier New, monospace" font-size="58" fill="#fff45c">2</text>
+  <text x="710" y="235" text-anchor="middle" font-family="Courier New, monospace" font-size="58" fill="#070807">3</text>
+  <text x="450" y="555" text-anchor="middle" font-family="Courier New, monospace" font-size="34" fill="#00e5ff">NUMBERED MENU ARCHIVE</text>
+</svg>

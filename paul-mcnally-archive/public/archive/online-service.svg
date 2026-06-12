@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <rect width="900" height="650" fill="#111827"/>
+  <rect x="70" y="70" width="760" height="500" fill="#070807" stroke="#31ff65" stroke-width="6"/>
+  <rect x="110" y="115" width="680" height="80" fill="#1624ff"/>
+  <text x="135" y="166" font-family="Courier New, monospace" font-size="34" fill="#fff45c">CMS // LIVE EDITORIAL SERVICE</text>
+  <rect x="110" y="235" width="300" height="250" fill="#f3f0db"/>
+  <path d="M140 275h220M140 315h180M140 355h230M140 395h150M140 435h210" stroke="#070807" stroke-width="14"/>
+  <rect x="455" y="235" width="335" height="250" fill="#1624ff" stroke="#00e5ff" stroke-width="5"/>
+  <path d="M500 285h245M500 335h180M500 385h230M500 435h130" stroke="#fff45c" stroke-width="12"/>
+</svg>
