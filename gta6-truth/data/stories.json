@@ -1,21 +1,63 @@
 {
-  "updatedLabel": "Thursday, June 11, 2026",
+  "updatedLabel": "Friday, June 12, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Parked Scooter 'Basically Confirms' A New Radio Station Dedicated To Weather Warnings And Mild Drama",
+    "Fans Conclude Every Bush In Vice City Is Plotting Something After Prolonged Leaf Activity",
     "Soggy Receipt 'Strongly Hints' At Five New Boat Horns And A Very Judgy Pelican",
     "Map Corner 'Essentially Verifies' Three Secret Sunsets, Two Tramlines And A Bin Schedule With Attitu",
     "Vice Diner Introduces 'Mystery Toast' After Customers Begin Ordering 'Whatever The Rumour Is'",
     "Trailer Parallax 'Strongly Suggests' Seventeen New Weather Types And One Moody Seagull",
     "Map Shape 'Practically Confirms' At Least Nine Lost Bin Lorries, Experts Claim",
-    "Vice Deli Sells Out Of 'Mysterious Sandwich' After Rumour About Floating Iguana",
-    "Is Gen AI to blame for delay as devs to busy turning their cats into Tudor princes?",
-    "Anonymous source claims the moon is a playable vehicle if you pre-order twice."
+    "Vice Deli Sells Out Of 'Mysterious Sandwich' After Rumour About Floating Iguana"
   ],
   "stories": [
+    {
+      "slug": "parked-scooter-basically-confirms-a-new-radio-station-dedicated-to-weather",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "TOTALLY UNVERIFIED",
+      "accent": "blue",
+      "title": "Parked Scooter 'Basically Confirms' A New Radio Station Dedicated To Weather Warnings And Mild Drama",
+      "description": "A commuter scooter, allegedly seen outside a Vice City café, has apparently started a whole new chapter in human overconfidence.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel Bramble",
+      "readTime": "3 min read",
+      "date": "Friday, June 12, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Witnesses claim the scooter’s dashboard displayed a station icon labelled ‘WX & WOBBLE FM’, though this may also have been the reflection of a spoon.",
+        "The playlist reportedly includes “Rain Coming In Two Hours”, “Probably Fine”, and a 14-minute spoken-word segment titled ‘Your Patio Furniture Is Not Secure’.",
+        "One local expert in absolutely nothing said the station sounds ‘like if a traffic cone had opinions’ and called it ‘a bold move for suburban morale’.",
+        "No one has confirmed the scooter is meaningful in any way, but it has now been photographed from six angles and described as a breakthrough by people holding pastries."
+      ]
+    },
+    {
+      "slug": "fans-conclude-every-bush-in-vice-city-is-plotting-something-after-prolonge",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "SHRUGGING EXPERTS",
+      "accent": "green",
+      "title": "Fans Conclude Every Bush In Vice City Is Plotting Something After Prolonged Leaf Activity",
+      "description": "Our team of analysts has examined the foliage and found it to be, at minimum, suspiciously leafy.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Martin Dibble",
+      "readTime": "4 min read",
+      "date": "Friday, June 12, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The theory began when a very determined bush appeared to move in the wind, leading the internet to do what it does best: assemble a seminar.",
+        "A diagram posted by one forum user allegedly shows eleven hidden routes, three secret shops, and ‘one emotionally complicated hedge’.",
+        "Sceptics note that bushes are often just bushes, but this has not stopped the community from zooming in until the pixels started asking for privacy.",
+        "For now, the consensus is that Vice City’s shrubbery is either hiding clues, hiding snacks, or simply existing with terrible timing."
+      ]
+    },
     {
       "slug": "soggy-receipt-strongly-hints-at-five-new-boat-horns-and-a-very-judgy-pelic",
       "category": "leak",
