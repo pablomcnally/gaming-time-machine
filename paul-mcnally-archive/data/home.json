@@ -1,0 +1,31 @@
+{
+  "taglineParts": ["Games journalist", "Editor", "Writer", "Retro enthusiast"],
+  "welcomeTitle": "Welcome to my personal archive",
+  "introLines": [
+    "Three decades of writing about video games.",
+    "From glossy magazine pages to websites, podcasts,",
+    "and everything in between.",
+    "This is a collection of my work, history,",
+    "thoughts and the odd rant."
+  ],
+  "readMoreLabel": "Read more about me",
+  "status": {
+    "title": "Connect status",
+    "state": "Online",
+    "user": "Paul_McNally",
+    "location": "London, UK",
+    "service": "Personal Archive"
+  },
+  "latestTitle": "< Latest posts",
+  "latestCounter": "(1/3) >",
+  "latestCtaLabel": "> View all posts [4]",
+  "selectedWorkTitle": "Selected work",
+  "selectedWorkCounter": "(1/3) >",
+  "storyStats": [
+    { "label": "Articles Published", "value": "12,000+" },
+    { "label": "Years Writing", "value": "30+" },
+    { "label": "Magazines Worked On", "value": "20+" },
+    { "label": "Countries Visited", "value": "15+" },
+    { "label": "Games Reviewed", "value": "Too Many" }
+  ]
+}

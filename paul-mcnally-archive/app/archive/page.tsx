@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ArchiveGrid } from "../../components/ArchiveGrid";
 import { PageContainer } from "../../components/PageContainer";
 import { archiveItems } from "../../data/archive";
+import { pageLabels } from "../../data/site";
 
 export const metadata: Metadata = {
   title: "Archive",
@@ -11,9 +12,9 @@ export const metadata: Metadata = {
 export default function ArchivePage() {
   return (
     <PageContainer
-      eyebrow="Service page 500"
-      title="Archive"
-      intro="A historical collection rather than a gallery: magazines, websites, events, press work and retro systems arranged as inspectable archive cards."
+      eyebrow={pageLabels.archive.eyebrow}
+      title={pageLabels.archive.title}
+      intro={pageLabels.archive.intro}
     >
       <ArchiveGrid items={archiveItems} />
     </PageContainer>

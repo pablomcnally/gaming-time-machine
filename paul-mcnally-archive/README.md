@@ -73,19 +73,33 @@ Post body goes here.
 
 The writing index and individual post pages are generated automatically.
 
-## Editing Homepage Musings
+## Editing Site Content
 
-Short homepage entries live in:
-
-```text
-data/musings.json
-```
-
-They can be edited through:
+The editor lives at:
 
 ```text
 /editor
 ```
+
+It edits these files through normal form fields:
+
+```text
+data/home.json
+data/about.json
+data/contact.json
+data/career.json
+data/archive.json
+data/musings.json
+```
+
+The editable sections are:
+
+- Home page intro, status panel, labels, and story stats
+- About page panels
+- Career timeline entries
+- Archive cards
+- Contact copy, links, and form endpoint
+- Homepage musings/latest rows
 
 The editor expects a password sent to the API. Set this in Vercel:
 
@@ -99,10 +113,9 @@ For GitHub-backed saves, also add:
 GITHUB_TOKEN=your-github-token
 GITHUB_REPO=pablomcnally/gaming-time-machine
 GITHUB_BRANCH=main
-GITHUB_MUSINGS_PATH=paul-mcnally-archive/data/musings.json
 ```
 
-If `GITHUB_TOKEN` is not set, the editor falls back to local JSON writes. This is useful for local testing, but Vercel deployments should use GitHub so a commit triggers a rebuild.
+If `GITHUB_TOKEN` is not set, the editor falls back to local JSON reads/writes. This is useful for local testing, but Vercel deployments should use GitHub so commits trigger rebuilds.
 
 Local fallback password when `EDITOR_PASSWORD` is not set:
 

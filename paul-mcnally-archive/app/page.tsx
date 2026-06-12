@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { StorySoFarPanel } from "../components/StorySoFarPanel";
 import { archiveItems } from "../data/archive";
+import { homeContent } from "../data/pages";
 import { getLatestMusings } from "../lib/musings";
 
 function formatShortDate(date: string) {
@@ -33,46 +34,47 @@ export default function HomePage() {
             <img src="/paul-mcnally-masthead.svg" alt="Paul McNally" />
           </h1>
           <p className="mt-4 text-center text-xl text-terminal-green md:text-2xl">
-            Games journalist <span className="text-terminal-yellow">&raquo;</span> Editor{" "}
-            <span className="text-terminal-yellow">&raquo;</span> Writer <span className="text-terminal-yellow">&raquo;</span>{" "}
-            Retro enthusiast
+            {homeContent.taglineParts.map((part, index) => (
+              <span key={part}>
+                {index > 0 ? <span className="text-terminal-yellow"> &raquo; </span> : null}
+                {part}
+              </span>
+            ))}
           </p>
 
           <div className="mt-7 grid grid-cols-[1fr_auto_1fr] items-center gap-4 text-center text-lg text-terminal-blue md:text-xl">
             <div className="white-rule" />
-            <p>Welcome to my personal archive</p>
+            <p>{homeContent.welcomeTitle}</p>
             <div className="white-rule" />
           </div>
 
           <div className="mt-7 grid gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:items-start">
             <div className="text-xl leading-8 text-terminal-paper md:text-2xl md:leading-10">
-              <p>Three decades of writing about video games.</p>
-              <p>From glossy magazine pages to websites, podcasts,</p>
-              <p>and everything in between.</p>
-              <p>This is a collection of my work, history,</p>
-              <p>thoughts and the odd rant.</p>
+              {homeContent.introLines.map((line) => (
+                <p key={line}>{line}</p>
+              ))}
               <Link className="mt-7 inline-flex text-terminal-green hover:text-terminal-yellow" href="/about">
-                &gt; Read more about me <span className="ml-3 text-terminal-paper">[2]</span>
+                &gt; {homeContent.readMoreLabel} <span className="ml-3 text-terminal-paper">[2]</span>
               </Link>
             </div>
 
             <section className="border border-dashed border-terminal-paper/80 p-4 text-lg leading-8 md:text-xl">
               <div className="mb-4 flex justify-between gap-4 text-terminal-green">
-                <h2>Connect status</h2>
-                <p>Online</p>
+                <h2>{homeContent.status.title}</h2>
+                <p>{homeContent.status.state}</p>
               </div>
               <dl className="grid gap-1">
                 <div className="grid grid-cols-[9.5rem_1fr]">
                   <dt className="text-terminal-paper">User:</dt>
-                  <dd className="text-terminal-cyan">Paul_McNally</dd>
+                  <dd className="text-terminal-cyan">{homeContent.status.user}</dd>
                 </div>
                 <div className="grid grid-cols-[9.5rem_1fr]">
                   <dt className="text-terminal-paper">Location:</dt>
-                  <dd className="text-terminal-cyan">London, UK</dd>
+                  <dd className="text-terminal-cyan">{homeContent.status.location}</dd>
                 </div>
                 <div className="grid grid-cols-[9.5rem_1fr]">
                   <dt className="text-terminal-paper">Service:</dt>
-                  <dd className="text-terminal-cyan">Personal Archive</dd>
+                  <dd className="text-terminal-cyan">{homeContent.status.service}</dd>
                 </div>
                 <div className="grid grid-cols-[9.5rem_1fr]">
                   <dt className="text-terminal-paper">Last updated:</dt>
@@ -85,8 +87,8 @@ export default function HomePage() {
           <div className="mt-8 grid gap-4 lg:grid-cols-[0.95fr_1.05fr]">
             <section className="viewdata-box">
               <div className="viewdata-box-title flex items-center justify-between px-4 py-2 text-xl">
-                <h2>&lt; Latest posts</h2>
-                <p>(1/3) &gt;</p>
+                <h2>{homeContent.latestTitle}</h2>
+                <p>{homeContent.latestCounter}</p>
               </div>
               <div className="space-y-3 p-4 text-lg text-terminal-paper md:text-xl">
                 {musings.map((musing) => (
@@ -96,15 +98,15 @@ export default function HomePage() {
                   </Link>
                 ))}
                 <Link className="inline-flex pt-2 text-terminal-green hover:text-terminal-yellow" href="/writing">
-                  &gt; View all posts [4]
+                  {homeContent.latestCtaLabel}
                 </Link>
               </div>
             </section>
 
             <section className="viewdata-box">
               <div className="viewdata-box-title flex items-center justify-between px-4 py-2 text-xl">
-                <h2>Selected work</h2>
-                <p>(1/3) &gt;</p>
+                <h2>{homeContent.selectedWorkTitle}</h2>
+                <p>{homeContent.selectedWorkCounter}</p>
               </div>
               <div className="grid gap-4 p-4 md:grid-cols-3">
                 {featuredArchive.map((item) => (

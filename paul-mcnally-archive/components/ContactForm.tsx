@@ -1,6 +1,6 @@
-export function ContactForm() {
+export function ContactForm({ action }: { action: string }) {
   return (
-    <form className="grid gap-4 border border-terminal-cyan/50 bg-terminal-black/85 p-5 shadow-terminal md:p-7" action="https://formspree.io/f/replace-me" method="POST">
+    <form className="grid gap-4 border border-terminal-cyan/50 bg-terminal-black/85 p-5 shadow-terminal md:p-7" action={action} method="POST">
       {/* Replace the action URL with Formspree, a Vercel Function endpoint, or a Resend-backed API route when ready. */}
       <label className="grid gap-2 font-mono text-sm uppercase text-terminal-cyan">
         Name

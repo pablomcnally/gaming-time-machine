@@ -7,13 +7,18 @@ export const navigationItems = [
   { number: "6", label: "Contact", href: "/contact" }
 ];
 
-export const storyStats = [
-  { label: "Articles Published", value: "12,000+" },
-  { label: "Years Writing", value: "30+" },
-  { label: "Magazines Worked On", value: "20+" },
-  { label: "Countries Visited", value: "15+" },
-  { label: "Games Reviewed", value: "Too Many" }
-];
+export const pageLabels = {
+  career: {
+    eyebrow: "Service page 300",
+    title: "Career Timeline",
+    intro: "A Teletext-style route through print, digital, communications, guides, hardware coverage and current games journalism."
+  },
+  archive: {
+    eyebrow: "Service page 500",
+    title: "Archive",
+    intro: "A historical collection rather than a gallery: magazines, websites, events, press work and retro systems arranged as inspectable archive cards."
+  }
+};
 
 export const selectedWork = [
   {

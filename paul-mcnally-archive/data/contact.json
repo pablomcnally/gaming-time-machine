@@ -1,0 +1,13 @@
+{
+  "eyebrow": "Service page 600",
+  "title": "Contact",
+  "intro": "For commissions, interviews, editorial work, events, archive questions, or a sensible chat about games and media.",
+  "panelTitle": "CONTACT ROUTES",
+  "panelBody": "Email is the best route for professional enquiries. Short, clear messages are always welcome; ominous attachments with no context are less welcome, but that was true in 1996 as well.",
+  "links": [
+    { "label": "hello@example.com", "href": "mailto:hello@example.com" },
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/" },
+    { "label": "Bluesky", "href": "https://bsky.app/" }
+  ],
+  "formAction": "https://formspree.io/f/replace-me"
+}
