@@ -13,6 +13,17 @@ export function EasterEggs() {
 
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
+      const target = event.target;
+      const isTyping =
+        target instanceof HTMLInputElement ||
+        target instanceof HTMLTextAreaElement ||
+        target instanceof HTMLSelectElement ||
+        (target instanceof HTMLElement && target.isContentEditable);
+
+      if (isTyping) {
+        return;
+      }
+
       const key = event.key;
 
       if (/^\d$/.test(key)) {

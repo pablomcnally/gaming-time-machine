@@ -11,6 +11,17 @@ export function RetroNavigation() {
 
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
+      const target = event.target;
+      const isTyping =
+        target instanceof HTMLInputElement ||
+        target instanceof HTMLTextAreaElement ||
+        target instanceof HTMLSelectElement ||
+        (target instanceof HTMLElement && target.isContentEditable);
+
+      if (isTyping) {
+        return;
+      }
+
       if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) {
         return;
       }
