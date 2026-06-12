@@ -53,10 +53,7 @@ function linesToText(lines: string[]) {
 }
 
 function textToLines(value: string) {
-  return value
-    .split("\n")
-    .map((line) => line.trim())
-    .filter(Boolean);
+  return value.split("\n");
 }
 
 function Field({
