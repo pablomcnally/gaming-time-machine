@@ -237,30 +237,6 @@ async function readGithubFile(config: GithubConfig & { token: string }, filePath
   };
 }
 
-async function writeGithubFile(config: GithubConfig & { token: string }, filePath: string, data: unknown, sha: string) {
-  const url = `https://api.github.com/repos/${config.repo}/contents/paul-mcnally-archive/${filePath}`;
-  const content = Buffer.from(`${JSON.stringify(data, null, 2)}\n`, "utf8").toString("base64");
-  const payload = await githubRequest(
-    url,
-    {
-      method: "PUT",
-      body: JSON.stringify({
-        message: `Update Paul archive ${filePath}`,
-        content,
-        sha,
-        branch: config.branch,
-        committer: {
-          name: config.committerName,
-          email: config.committerEmail
-        }
-      })
-    },
-    config.token
-  );
-
-  return payload.commit as { sha?: string; html_url?: string };
-}
-
 async function readGithubContent(config: GithubConfig & { token: string }) {
   const entries = await Promise.all(
     Object.entries(editableFiles).map(async ([key, filePath]) => {
@@ -272,16 +248,114 @@ async function readGithubContent(config: GithubConfig & { token: string }) {
   return Object.fromEntries(entries) as Record<EditableKey, unknown>;
 }
 
-async function writeGithubContent(config: GithubConfig & { token: string }, content: Record<EditableKey, unknown>) {
-  const commits = [];
+function formatJson(data: unknown) {
+  return `${JSON.stringify(data, null, 2)}\n`;
+}
 
-  for (const [key, filePath] of Object.entries(editableFiles)) {
-    const file = await readGithubFile(config, filePath);
-    const commit = await writeGithubFile(config, filePath, content[key as EditableKey], file.sha);
-    commits.push(commit);
+async function getGithubHead(config: GithubConfig & { token: string }) {
+  const refUrl = `https://api.github.com/repos/${config.repo}/git/ref/heads/${config.branch}`;
+  const ref = await githubRequest(refUrl, { method: "GET" }, config.token);
+  const commitSha = String(ref.object?.sha || "");
+  const commitUrl = `https://api.github.com/repos/${config.repo}/git/commits/${commitSha}`;
+  const commit = await githubRequest(commitUrl, { method: "GET" }, config.token);
+
+  return {
+    commitSha,
+    treeSha: String(commit.tree?.sha || "")
+  };
+}
+
+async function createGithubBlob(config: GithubConfig & { token: string }, content: string) {
+  const url = `https://api.github.com/repos/${config.repo}/git/blobs`;
+  const payload = await githubRequest(
+    url,
+    {
+      method: "POST",
+      body: JSON.stringify({
+        content,
+        encoding: "utf-8"
+      })
+    },
+    config.token
+  );
+
+  return String(payload.sha || "");
+}
+
+async function writeGithubContent(config: GithubConfig & { token: string }, content: Record<EditableKey, unknown>) {
+  const currentEntries = await Promise.all(
+    Object.entries(editableFiles).map(async ([key, filePath]) => {
+      const file = await readGithubFile(config, filePath);
+      return [key, filePath, formatJson(file.data)] as const;
+    })
+  );
+  const changedEntries = currentEntries.filter(([key, , currentContent]) => currentContent !== formatJson(content[key as EditableKey]));
+
+  if (changedEntries.length === 0) {
+    return {
+      changedFiles: 0,
+      commit: undefined
+    };
   }
 
-  return commits;
+  const head = await getGithubHead(config);
+  const tree = await Promise.all(
+    changedEntries.map(async ([key, filePath]) => ({
+      path: `paul-mcnally-archive/${filePath}`,
+      mode: "100644",
+      type: "blob",
+      sha: await createGithubBlob(config, formatJson(content[key as EditableKey]))
+    }))
+  );
+  const treeUrl = `https://api.github.com/repos/${config.repo}/git/trees`;
+  const newTree = await githubRequest(
+    treeUrl,
+    {
+      method: "POST",
+      body: JSON.stringify({
+        base_tree: head.treeSha,
+        tree
+      })
+    },
+    config.token
+  );
+  const commitUrl = `https://api.github.com/repos/${config.repo}/git/commits`;
+  const commit = await githubRequest(
+    commitUrl,
+    {
+      method: "POST",
+      body: JSON.stringify({
+        message: "Update Paul archive content",
+        tree: newTree.sha,
+        parents: [head.commitSha],
+        author: {
+          name: config.committerName,
+          email: config.committerEmail
+        },
+        committer: {
+          name: config.committerName,
+          email: config.committerEmail
+        }
+      })
+    },
+    config.token
+  );
+  const refUrl = `https://api.github.com/repos/${config.repo}/git/refs/heads/${config.branch}`;
+  await githubRequest(
+    refUrl,
+    {
+      method: "PATCH",
+      body: JSON.stringify({
+        sha: commit.sha
+      })
+    },
+    config.token
+  );
+
+  return {
+    changedFiles: changedEntries.length,
+    commit: commit as { sha?: string; html_url?: string }
+  };
 }
 
 export async function GET(request: NextRequest) {
@@ -316,13 +390,13 @@ export async function POST(request: NextRequest) {
     const config = getGithubConfig();
 
     if (config.token) {
-      const commits = await writeGithubContent(config as GithubConfig & { token: string }, content);
+      const result = await writeGithubContent(config as GithubConfig & { token: string }, content);
       return sendJson(200, {
         ok: true,
         mode: "github",
-        message: "Content saved to GitHub.",
-        commitSha: commits.at(-1)?.sha,
-        commitCount: commits.length
+        message: result.changedFiles > 0 ? "Content saved to GitHub." : "No content changes to save.",
+        changedFiles: result.changedFiles,
+        commitSha: result.commit?.sha
       });
     }
 
