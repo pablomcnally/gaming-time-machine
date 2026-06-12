@@ -1,9 +1,14 @@
 {
-  "taglineParts": ["Games journalist", "Editor", "Writer", "Retro enthusiast"],
+  "taglineParts": [
+    "Games journalist",
+    "Editor",
+    "Writer",
+    "Retro gamer"
+  ],
   "welcomeTitle": "Welcome to my personal archive",
   "introLines": [
     "Three decades of writing about video games.",
-    "From glossy magazine pages to websites, podcasts,",
+    "From glossy magazine pages to websites, podcasts, shows,",
     "and everything in between.",
     "This is a collection of my work, history,",
     "thoughts and the odd rant."
@@ -22,10 +27,25 @@
   "selectedWorkTitle": "Selected work",
   "selectedWorkCounter": "(1/3) >",
   "storyStats": [
-    { "label": "Articles Published", "value": "12,000+" },
-    { "label": "Years Writing", "value": "30+" },
-    { "label": "Magazines Worked On", "value": "20+" },
-    { "label": "Countries Visited", "value": "15+" },
-    { "label": "Games Reviewed", "value": "Too Many" }
+    {
+      "label": "Articles Published",
+      "value": "12,000+"
+    },
+    {
+      "label": "Years Writing",
+      "value": "30+"
+    },
+    {
+      "label": "Magazines Worked On",
+      "value": "20+"
+    },
+    {
+      "label": "Countries Visited",
+      "value": "15+"
+    },
+    {
+      "label": "Games Reviewed",
+      "value": "Too Many"
+    }
   ]
 }
