@@ -56,6 +56,6 @@ jobs:
 
           git config user.name "gta6-rumour-bot"
           git config user.email "gta6-rumour-bot@users.noreply.github.com"
-          git add gta6-truth/data/stories.json gta6-truth/index.html gta6-truth/stories
+          git add gta6-truth/data/stories.json gta6-truth/index.html gta6-truth/archive gta6-truth/advertise gta6-truth/stories
           git commit -m "Add automated GTA 6 parody rumours"
           git push

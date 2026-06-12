@@ -221,17 +221,15 @@ async function createRumours({ count, data }) {
                   ],
                   properties: {
                     category: { type: "string", enum: ["leak", "analysis", "local"] },
-                    badge: { type: "string", maxLength: 28 },
+                    badge: { type: "string" },
                     accent: { type: "string", enum: ["blue", "sunset", "green", "yellow", "red"] },
-                    title: { type: "string", maxLength: 100 },
-                    description: { type: "string", maxLength: 170 },
-                    author: { type: "string", maxLength: 42 },
+                    title: { type: "string" },
+                    description: { type: "string" },
+                    author: { type: "string" },
                     readTime: { type: "string" },
                     body: {
                       type: "array",
-                      minItems: 3,
-                      maxItems: 5,
-                      items: { type: "string", maxLength: 650 }
+                      items: { type: "string" }
                     }
                   }
                 }
