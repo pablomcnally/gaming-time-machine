@@ -96,15 +96,59 @@ textarea {
 
 .ascii-masthead {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   justify-items: center;
   margin: 1.25rem auto 0;
 }
 
-.ascii-masthead img {
+.ascii-masthead-full {
   display: block;
   width: min(100%, 82rem);
   height: auto;
   filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.25));
+}
+
+.ascii-masthead-mobile {
+  display: none;
+}
+
+.ascii-masthead-slice {
+  display: block;
+  width: 100%;
+  background-image: url("/paul-mcnally-masthead.svg");
+  background-repeat: no-repeat;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.25));
+}
+
+.ascii-masthead-slice-paul {
+  aspect-ratio: 3.2;
+  background-position: left top;
+  background-size: 260% auto;
+}
+
+.ascii-masthead-slice-mcnally {
+  aspect-ratio: 5.1;
+  background-position: right top;
+  background-size: 163% auto;
+}
+
+@media (max-width: 640px) {
+  .ascii-masthead {
+    justify-items: stretch;
+    margin-top: 1rem;
+  }
+
+  .ascii-masthead-full {
+    display: none;
+  }
+
+  .ascii-masthead-mobile {
+    display: grid;
+    gap: 0.35rem;
+    max-width: 100%;
+    min-width: 0;
+    width: 100%;
+  }
 }
 
 .viewdata-box {
