@@ -5,17 +5,17 @@ import { useEffect, useRef, useState } from "react";
 type AudioNodes = {
   carrierA: OscillatorNode;
   carrierB: OscillatorNode;
+  carrierC: OscillatorNode;
   masterGain: GainNode;
   noise: AudioBufferSourceNode;
 };
 
-const MODEM_VOLUME = 0.14;
+const MODEM_VOLUME = 0.12;
 
 export function ModemSoundToggle() {
   const [isOn, setIsOn] = useState(false);
   const contextRef = useRef<AudioContext | null>(null);
   const nodesRef = useRef<AudioNodes | null>(null);
-  const chirpTimerRef = useRef<number | null>(null);
   const warbleTimerRef = useRef<number | null>(null);
 
   useEffect(() => {
@@ -33,24 +33,61 @@ export function ModemSoundToggle() {
     return buffer;
   }
 
-  function scheduleChirp(context: AudioContext, destination: AudioNode, delay = 0) {
+  function scheduleHandshakeTone(
+    context: AudioContext,
+    destination: AudioNode,
+    delay: number,
+    frequency: number,
+    duration: number,
+    volume: number,
+    type: OscillatorType = "sine"
+  ) {
     const oscillator = context.createOscillator();
     const gain = context.createGain();
     const start = context.currentTime + delay;
-    const duration = 0.055 + Math.random() * 0.08;
-    const frequency = 700 + Math.random() * 2100;
 
-    oscillator.type = Math.random() > 0.5 ? "square" : "sine";
+    oscillator.type = type;
     oscillator.frequency.setValueAtTime(frequency, start);
-    oscillator.frequency.exponentialRampToValueAtTime(frequency * (0.65 + Math.random() * 0.7), start + duration);
+    oscillator.frequency.exponentialRampToValueAtTime(frequency * 1.04, start + duration * 0.45);
+    oscillator.frequency.exponentialRampToValueAtTime(frequency * 0.72, start + duration);
     gain.gain.setValueAtTime(0.0001, start);
-    gain.gain.exponentialRampToValueAtTime(0.085, start + 0.012);
+    gain.gain.exponentialRampToValueAtTime(volume, start + 0.018);
     gain.gain.exponentialRampToValueAtTime(0.0001, start + duration);
 
     oscillator.connect(gain);
     gain.connect(destination);
     oscillator.start(start);
     oscillator.stop(start + duration + 0.02);
+  }
+
+  function scheduleHandshake(context: AudioContext, destination: AudioNode) {
+    [
+      [0, 2100, 0.24, 0.11, "sine"],
+      [0.3, 980, 0.1, 0.075, "square"],
+      [0.43, 1650, 0.13, 0.08, "sawtooth"],
+      [0.62, 2420, 0.08, 0.075, "square"],
+      [0.75, 1220, 0.12, 0.07, "sine"],
+      [0.92, 1850, 0.16, 0.065, "sawtooth"]
+    ].forEach(([delay, frequency, duration, volume, type]) => {
+      scheduleHandshakeTone(context, destination, Number(delay), Number(frequency), Number(duration), Number(volume), type as OscillatorType);
+    });
+  }
+
+  function scheduleWarble(context: AudioContext, carrierA: OscillatorNode, carrierB: OscillatorNode, carrierC: OscillatorNode) {
+    const now = context.currentTime;
+    const nextA = 1120 + Math.random() * 420;
+    const nextB = 1950 + Math.random() * 760;
+    const nextC = 520 + Math.random() * 210;
+
+    carrierA.frequency.setTargetAtTime(nextA, now, 0.018 + Math.random() * 0.02);
+    carrierB.frequency.setTargetAtTime(nextB, now, 0.014 + Math.random() * 0.018);
+    carrierC.frequency.setTargetAtTime(nextC, now, 0.03 + Math.random() * 0.04);
+
+    warbleTimerRef.current = window.setTimeout(() => {
+      if (nodesRef.current) {
+        scheduleWarble(context, carrierA, carrierB, carrierC);
+      }
+    }, 45 + Math.random() * 115);
   }
 
   function startSound() {
@@ -70,9 +107,11 @@ export function ModemSoundToggle() {
     const bandpass = context.createBiquadFilter();
     const carrierAGain = context.createGain();
     const carrierBGain = context.createGain();
+    const carrierCGain = context.createGain();
     const noiseGain = context.createGain();
     const carrierA = context.createOscillator();
     const carrierB = context.createOscillator();
+    const carrierC = context.createOscillator();
     const noise = context.createBufferSource();
 
     masterGain.gain.setValueAtTime(0.0001, context.currentTime);
@@ -86,44 +125,36 @@ export function ModemSoundToggle() {
     carrierAGain.gain.value = 0.08;
     carrierB.type = "square";
     carrierB.frequency.value = 2225;
-    carrierBGain.gain.value = 0.035;
+    carrierBGain.gain.value = 0.028;
+    carrierC.type = "triangle";
+    carrierC.frequency.value = 620;
+    carrierCGain.gain.value = 0.018;
 
     noise.buffer = makeNoiseBuffer(context);
     noise.loop = true;
-    noiseGain.gain.value = 0.026;
+    noiseGain.gain.value = 0.04;
 
     carrierA.connect(carrierAGain);
     carrierB.connect(carrierBGain);
+    carrierC.connect(carrierCGain);
     noise.connect(noiseGain);
     carrierAGain.connect(bandpass);
     carrierBGain.connect(bandpass);
+    carrierCGain.connect(bandpass);
     noiseGain.connect(bandpass);
     bandpass.connect(masterGain);
     masterGain.connect(context.destination);
 
     carrierA.start();
     carrierB.start();
+    carrierC.start();
     noise.start();
 
-    [0, 0.08, 0.16, 0.27].forEach((delay) => {
-      scheduleChirp(context, masterGain, delay);
-    });
-
-    warbleTimerRef.current = window.setInterval(() => {
-      const now = context.currentTime;
-      const nextFrequency = Math.random() > 0.5 ? 1180 : 1270;
-      carrierA.frequency.setTargetAtTime(nextFrequency, now, 0.015);
-      carrierB.frequency.setTargetAtTime(2050 + Math.random() * 260, now, 0.02);
-    }, 140);
-
-    chirpTimerRef.current = window.setInterval(() => {
-      if (Math.random() > 0.22) {
-        scheduleChirp(context, masterGain);
-      }
-    }, 520);
+    scheduleHandshake(context, masterGain);
 
     contextRef.current = context;
-    nodesRef.current = { carrierA, carrierB, masterGain, noise };
+    nodesRef.current = { carrierA, carrierB, carrierC, masterGain, noise };
+    scheduleWarble(context, carrierA, carrierB, carrierC);
 
     if (context.state === "suspended") {
       void context.resume().catch(() => stopSound());
@@ -133,13 +164,8 @@ export function ModemSoundToggle() {
   }
 
   function stopSound() {
-    if (chirpTimerRef.current) {
-      window.clearInterval(chirpTimerRef.current);
-      chirpTimerRef.current = null;
-    }
-
     if (warbleTimerRef.current) {
-      window.clearInterval(warbleTimerRef.current);
+      window.clearTimeout(warbleTimerRef.current);
       warbleTimerRef.current = null;
     }
 
@@ -152,6 +178,7 @@ export function ModemSoundToggle() {
       window.setTimeout(() => {
         nodes.carrierA.stop();
         nodes.carrierB.stop();
+        nodes.carrierC.stop();
         nodes.noise.stop();
         context.close();
       }, stopAt * 1000 - context.currentTime * 1000);
