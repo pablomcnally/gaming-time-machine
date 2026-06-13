@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 220" role="img" aria-labelledby="title desc">
   <title id="title">Paul McNally</title>
-  <desc id="desc">Paul McNally rendered as a clear stacked retro terminal wordmark for mobile screens.</desc>
+  <desc id="desc">Paul McNally rendered as a clear single-line retro terminal wordmark for mobile screens.</desc>
   <defs>
-    <filter id="glow" x="-8%" y="-18%" width="116%" height="136%">
-      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+    <filter id="glow" x="-8%" y="-24%" width="116%" height="148%">
+      <feGaussianBlur stdDeviation="2.3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -15,22 +15,17 @@
       <rect x="7" width="2" height="10" fill="#111111" opacity="0.2"/>
     </pattern>
   </defs>
-  <rect width="1000" height="330" fill="transparent"/>
+  <rect width="1180" height="220" fill="transparent"/>
   <g
     font-family="Impact, 'Arial Black', 'Trebuchet MS', Arial, sans-serif"
     font-weight="900"
-    letter-spacing="3"
+    letter-spacing="2"
     text-anchor="middle"
     text-rendering="geometricPrecision"
   >
-    <text x="512" y="124" font-size="122" fill="#262626" stroke="#202020" stroke-width="8">PAUL</text>
-    <text x="508" y="120" font-size="122" fill="#6a6a6a" stroke="#2c2c2c" stroke-width="7">PAUL</text>
-    <text x="500" y="112" font-size="122" fill="#f4f4f4" stroke="#111111" stroke-width="5" filter="url(#glow)">PAUL</text>
-    <text x="500" y="112" font-size="122" fill="url(#pixelHatch)" opacity="0.55">PAUL</text>
-
-    <text x="512" y="266" font-size="106" fill="#262626" stroke="#202020" stroke-width="8">MCNALLY</text>
-    <text x="508" y="262" font-size="106" fill="#6a6a6a" stroke="#2c2c2c" stroke-width="7">MCNALLY</text>
-    <text x="500" y="254" font-size="106" fill="#f4f4f4" stroke="#111111" stroke-width="5" filter="url(#glow)">MCNALLY</text>
-    <text x="500" y="254" font-size="106" fill="url(#pixelHatch)" opacity="0.55">MCNALLY</text>
+    <text x="602" y="142" font-size="132" fill="#262626" stroke="#202020" stroke-width="8">PAUL MCNALLY</text>
+    <text x="598" y="138" font-size="132" fill="#6a6a6a" stroke="#2c2c2c" stroke-width="7">PAUL MCNALLY</text>
+    <text x="590" y="130" font-size="132" fill="#f4f4f4" stroke="#111111" stroke-width="5" filter="url(#glow)">PAUL MCNALLY</text>
+    <text x="590" y="130" font-size="132" fill="url(#pixelHatch)" opacity="0.55">PAUL MCNALLY</text>
   </g>
 </svg>
