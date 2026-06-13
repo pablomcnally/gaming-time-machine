@@ -1,21 +1,67 @@
 {
-  "updatedLabel": "Friday, June 12, 2026",
+  "updatedLabel": "Saturday, June 13, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Car Park Receipt ‘Strongly Implies’ New Vice City Radio Station For Traffic Updates, Sandwich Chat",
+    "Experts Say Every Palm Tree In Vice City Now ‘Looks Suspicious’, Which Is Not Strictly A Crime But",
     "Parked Scooter 'Basically Confirms' A New Radio Station Dedicated To Weather Warnings And Mild Drama",
     "Fans Conclude Every Bush In Vice City Is Plotting Something After Prolonged Leaf Activity",
     "Soggy Receipt 'Strongly Hints' At Five New Boat Horns And A Very Judgy Pelican",
     "Map Corner 'Essentially Verifies' Three Secret Sunsets, Two Tramlines And A Bin Schedule With Attitu",
     "Vice Diner Introduces 'Mystery Toast' After Customers Begin Ordering 'Whatever The Rumour Is'",
-    "Trailer Parallax 'Strongly Suggests' Seventeen New Weather Types And One Moody Seagull",
-    "Map Shape 'Practically Confirms' At Least Nine Lost Bin Lorries, Experts Claim",
-    "Vice Deli Sells Out Of 'Mysterious Sandwich' After Rumour About Floating Iguana"
+    "Trailer Parallax 'Strongly Suggests' Seventeen New Weather Types And One Moody Seagull"
   ],
   "stories": [
+    {
+      "slug": "car-park-receipt-strongly-implies-new-vice-city-radio-station-for-traffic-",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "BREEZY LEAK",
+      "accent": "blue",
+      "title": "Car Park Receipt ‘Strongly Implies’ New Vice City Radio Station For Traffic Updates, Sandwich Chat",
+      "description": "A crumpled receipt from a luminous car park has been treated by fans as proof of a station that only plays road safety jingles and callers arguing about chips.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By R. T. Wobbles, Staff Correspondent",
+      "readTime": "3 min read",
+      "date": "Saturday, June 13, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A receipt found fluttering beside a vending machine has caused a minor panic among the sort of people who can turn a barcode into a prophecy.",
+        "According to the theory, the total amount paid — which was apparently ‘too specific to be accidental’ — points directly to a new Vice City radio station dedicated to traffic updates, sandwich chat and what witnesses described as ‘an unhelpful amount of laughter’.",
+        "Fans say the station would fill a vital gap in the cultural market between upbeat yacht music and whatever noise is happening near the docks.",
+        "One online analyst, speaking from behind a large mug, explained that the receipt’s folded corner formed ‘an unmistakable frequency shape’ when viewed at a distance of six inches and a dramatic angle.",
+        "The same reading also suggests there may be a weekly feature called Mild Panic in the Potholes, though this remains unconfirmed and, frankly, slightly rude to the potholes.",
+        "Nobody from anywhere official has said anything at all, which has only encouraged people to create diagrams."
+      ]
+    },
+    {
+      "slug": "experts-say-every-palm-tree-in-vice-city-now-looks-suspicious-which-is-not",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "COLUMN OF DOUBT",
+      "accent": "sunset",
+      "title": "Experts Say Every Palm Tree In Vice City Now ‘Looks Suspicious’, Which Is Not Strictly A Crime But",
+      "description": "A serious-looking breakdown of why fans keep interpreting decorative foliage as hidden content, seasonal content and emotional content.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By C. B. Muddle, Analysis Desk",
+      "readTime": "4 min read",
+      "date": "Saturday, June 13, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "In the latest example of modern scholarship, players have begun treating every palm tree in Vice City as if it were hiding either a secret mission or a tax form.",
+        "This week’s breakdown insists that palm fronds are being arranged in ‘deliberately narrative ways’, a phrase that means absolutely nothing but sounds extremely expensive.",
+        "The theory hinges on shadows, spacing and the deeply British belief that if a plant looks at you for too long, it is probably involved in something.",
+        "One fan chart reportedly demonstrates that three trees, a parked scooter and a bin all align with the sun in a manner that ‘basically confirms’ a whole mission chain about borrowing a surfboard and regretting it.",
+        "Our experts, who are not experts, advise caution. Decorative vegetation is known to be decorative. It may simply be doing its job.",
+        "Still, the palm tree lobby remains strong, and several online users have already begun ranking trunks by confidence level."
+      ]
+    },
     {
       "slug": "parked-scooter-basically-confirms-a-new-radio-station-dedicated-to-weather",
       "category": "leak",
