@@ -9,6 +9,8 @@ type AudioNodes = {
   noise: AudioBufferSourceNode;
 };
 
+const MODEM_VOLUME = 0.14;
+
 export function ModemSoundToggle() {
   const [isOn, setIsOn] = useState(false);
   const contextRef = useRef<AudioContext | null>(null);
@@ -31,10 +33,10 @@ export function ModemSoundToggle() {
     return buffer;
   }
 
-  function scheduleChirp(context: AudioContext, destination: AudioNode) {
+  function scheduleChirp(context: AudioContext, destination: AudioNode, delay = 0) {
     const oscillator = context.createOscillator();
     const gain = context.createGain();
-    const start = context.currentTime;
+    const start = context.currentTime + delay;
     const duration = 0.055 + Math.random() * 0.08;
     const frequency = 700 + Math.random() * 2100;
 
@@ -42,7 +44,7 @@ export function ModemSoundToggle() {
     oscillator.frequency.setValueAtTime(frequency, start);
     oscillator.frequency.exponentialRampToValueAtTime(frequency * (0.65 + Math.random() * 0.7), start + duration);
     gain.gain.setValueAtTime(0.0001, start);
-    gain.gain.exponentialRampToValueAtTime(0.018, start + 0.012);
+    gain.gain.exponentialRampToValueAtTime(0.085, start + 0.012);
     gain.gain.exponentialRampToValueAtTime(0.0001, start + duration);
 
     oscillator.connect(gain);
@@ -53,14 +55,14 @@ export function ModemSoundToggle() {
 
   function startSound() {
     if (nodesRef.current) {
-      return;
+      return true;
     }
 
     const audioWindow = window as Window & typeof globalThis & { webkitAudioContext?: typeof AudioContext };
     const AudioCtor = audioWindow.AudioContext || audioWindow.webkitAudioContext;
 
     if (!AudioCtor) {
-      return;
+      return false;
     }
 
     const context = new AudioCtor();
@@ -74,21 +76,21 @@ export function ModemSoundToggle() {
     const noise = context.createBufferSource();
 
     masterGain.gain.setValueAtTime(0.0001, context.currentTime);
-    masterGain.gain.exponentialRampToValueAtTime(0.035, context.currentTime + 0.08);
+    masterGain.gain.exponentialRampToValueAtTime(MODEM_VOLUME, context.currentTime + 0.08);
     bandpass.type = "bandpass";
     bandpass.frequency.value = 1650;
     bandpass.Q.value = 3.2;
 
     carrierA.type = "sawtooth";
     carrierA.frequency.value = 1180;
-    carrierAGain.gain.value = 0.018;
+    carrierAGain.gain.value = 0.08;
     carrierB.type = "square";
     carrierB.frequency.value = 2225;
-    carrierBGain.gain.value = 0.006;
+    carrierBGain.gain.value = 0.035;
 
     noise.buffer = makeNoiseBuffer(context);
     noise.loop = true;
-    noiseGain.gain.value = 0.011;
+    noiseGain.gain.value = 0.026;
 
     carrierA.connect(carrierAGain);
     carrierB.connect(carrierBGain);
@@ -102,6 +104,10 @@ export function ModemSoundToggle() {
     carrierA.start();
     carrierB.start();
     noise.start();
+
+    [0, 0.08, 0.16, 0.27].forEach((delay) => {
+      scheduleChirp(context, masterGain, delay);
+    });
 
     warbleTimerRef.current = window.setInterval(() => {
       const now = context.currentTime;
@@ -118,6 +124,12 @@ export function ModemSoundToggle() {
 
     contextRef.current = context;
     nodesRef.current = { carrierA, carrierB, masterGain, noise };
+
+    if (context.state === "suspended") {
+      void context.resume().catch(() => stopSound());
+    }
+
+    return true;
   }
 
   function stopSound() {
@@ -156,8 +168,7 @@ export function ModemSoundToggle() {
       return;
     }
 
-    startSound();
-    setIsOn(true);
+    setIsOn(startSound());
   }
 
   return (
