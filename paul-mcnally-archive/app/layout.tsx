@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Script from "next/script";
+import { CrtDisplayShell } from "../components/CrtDisplayShell";
 import { EasterEggs } from "../components/EasterEggs";
 import { FooterStatusBar } from "../components/FooterStatusBar";
 import { SiteHeader } from "../components/SiteHeader";
@@ -41,11 +43,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
-        <SiteHeader />
-        {children}
-        <FooterStatusBar />
+        <Script id="crt-frame-preference" strategy="beforeInteractive">
+          {`try{if(localStorage.getItem("paul-mcnally-crt-frame")==="off"){document.documentElement.classList.add("crt-frame-off")}}catch(e){}`}
+        </Script>
+        <CrtDisplayShell>
+          <SiteHeader />
+          {children}
+          <FooterStatusBar />
+        </CrtDisplayShell>
         <EasterEggs />
         <Analytics />
         <SpeedInsights />

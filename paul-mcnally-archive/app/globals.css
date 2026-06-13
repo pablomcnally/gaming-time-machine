@@ -38,6 +38,160 @@ body::before {
   mix-blend-mode: soft-light;
 }
 
+.crt-stage,
+.crt-cabinet,
+.crt-bezel,
+.crt-screen-shell,
+.crt-screen-content {
+  display: contents;
+}
+
+html:not(.crt-frame-off) .crt-stage {
+  display: flex;
+  height: 100svh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: clamp(0.45rem, 1.4vw, 1.15rem);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(243, 240, 219, 0.08), transparent 32rem),
+    linear-gradient(135deg, rgba(255, 244, 92, 0.08), transparent 18rem),
+    #030403;
+}
+
+html:not(.crt-frame-off) .crt-cabinet {
+  display: block;
+  width: min(100%, 94rem);
+  height: min(100%, 58rem);
+  border: 1px solid rgba(243, 240, 219, 0.2);
+  border-radius: clamp(1.15rem, 2.2vw, 2.35rem);
+  padding: clamp(0.55rem, 1.4vw, 1.45rem);
+  background:
+    linear-gradient(145deg, #262821 0%, #11130f 48%, #050605 100%),
+    #11130f;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    inset 0 -1.2rem 2rem rgba(0, 0, 0, 0.45),
+    0 1.2rem 3.2rem rgba(0, 0, 0, 0.68);
+}
+
+html:not(.crt-frame-off) .crt-bezel {
+  position: relative;
+  display: block;
+  height: 100%;
+  border-radius: clamp(0.9rem, 1.8vw, 1.9rem);
+  padding: clamp(0.55rem, 1.25vw, 1.15rem);
+  background:
+    linear-gradient(145deg, rgba(243, 240, 219, 0.16), transparent 14%),
+    linear-gradient(315deg, rgba(0, 0, 0, 0.72), rgba(36, 38, 31, 0.96));
+  box-shadow:
+    inset 0 0 0 1px rgba(243, 240, 219, 0.14),
+    inset 0 0 1.6rem rgba(0, 0, 0, 0.8);
+}
+
+html:not(.crt-frame-off) .crt-bezel::after {
+  position: absolute;
+  right: clamp(0.8rem, 1.7vw, 1.6rem);
+  bottom: clamp(0.55rem, 1.1vw, 1rem);
+  width: clamp(2.4rem, 5vw, 4.5rem);
+  height: 0.28rem;
+  border-radius: 999px;
+  content: "";
+  background: linear-gradient(90deg, #31ff65, #fff45c 46%, #ff4cff);
+  box-shadow: 0 0 0.6rem rgba(49, 255, 101, 0.36);
+  opacity: 0.72;
+}
+
+html:not(.crt-frame-off) .crt-screen-shell {
+  position: relative;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid rgba(49, 255, 101, 0.28);
+  border-radius: clamp(0.7rem, 1.45vw, 1.45rem);
+  background: #020302;
+  box-shadow:
+    inset 0 0 0 2px rgba(0, 0, 0, 0.85),
+    inset 0 0 3.5rem rgba(0, 0, 0, 0.88),
+    inset 0 0 5.5rem rgba(49, 255, 101, 0.1);
+}
+
+html:not(.crt-frame-off) .crt-screen-shell::before,
+html:not(.crt-frame-off) .crt-screen-shell::after {
+  position: absolute;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  content: "";
+}
+
+html:not(.crt-frame-off) .crt-screen-shell::before {
+  background:
+    radial-gradient(ellipse at 50% 45%, transparent 58%, rgba(0, 0, 0, 0.54) 100%),
+    linear-gradient(115deg, rgba(255, 255, 255, 0.14), transparent 22% 62%, rgba(255, 255, 255, 0.04));
+  mix-blend-mode: screen;
+  opacity: 0.34;
+}
+
+html:not(.crt-frame-off) .crt-screen-shell::after {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 51, 71, 0.035), rgba(49, 255, 101, 0.025), rgba(0, 229, 255, 0.035));
+  background-size: 100% 4px, 6px 100%;
+  box-shadow: inset 0 0 4rem rgba(0, 0, 0, 0.56);
+  opacity: 0.34;
+}
+
+html:not(.crt-frame-off) .crt-screen-content {
+  position: relative;
+  z-index: 1;
+  display: block;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-radius: inherit;
+  background:
+    linear-gradient(var(--scanline) 1px, transparent 1px),
+    radial-gradient(circle at 50% 4%, rgba(255, 255, 255, 0.08), transparent 26rem),
+    radial-gradient(circle at 18% 18%, rgba(49, 255, 101, 0.055), transparent 24rem),
+    #070807;
+  background-size: 100% 9px, auto, auto, auto;
+  scrollbar-color: rgba(49, 255, 101, 0.72) rgba(0, 0, 0, 0.6);
+  scrollbar-width: thin;
+}
+
+html:not(.crt-frame-off) .crt-screen-content > header {
+  position: sticky;
+}
+
+@media (max-width: 700px) {
+  html:not(.crt-frame-off) .crt-stage {
+    padding: 0.25rem;
+  }
+
+  html:not(.crt-frame-off) .crt-cabinet {
+    border-radius: 1rem;
+    padding: 0.35rem;
+  }
+
+  html:not(.crt-frame-off) .crt-bezel {
+    border-radius: 0.8rem;
+    padding: 0.35rem;
+  }
+
+  html:not(.crt-frame-off) .crt-bezel::after {
+    display: none;
+  }
+
+  html:not(.crt-frame-off) .crt-screen-shell {
+    border-radius: 0.55rem;
+  }
+
+  html:not(.crt-frame-off) .crt-screen-shell::before {
+    opacity: 0.22;
+  }
+}
+
 a {
   color: inherit;
 }

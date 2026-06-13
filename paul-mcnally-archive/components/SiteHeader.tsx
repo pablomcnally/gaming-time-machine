@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { CrtFrameToggle } from "./CrtFrameToggle";
 import { ModemSoundToggle } from "./ModemSoundToggle";
 import { RetroNavigation } from "./RetroNavigation";
 
@@ -43,6 +44,7 @@ export function SiteHeader() {
         <p className="text-terminal-paper sm:text-center">Personal Archive Terminal</p>
         <div className="flex flex-wrap items-center gap-2 text-terminal-green sm:justify-end">
           <p className="sm:text-right">{now ? `${formatTime(now)}  ${formatServiceDate(now)}` : "--:--  --- -- --- ----"}</p>
+          <CrtFrameToggle />
           <ModemSoundToggle />
         </div>
       </div>
