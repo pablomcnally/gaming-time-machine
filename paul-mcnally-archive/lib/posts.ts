@@ -9,6 +9,7 @@ export type Post = {
   category: string;
   featuredImage: string;
   body: string;
+  order?: number;
 };
 
 const postsDirectory = path.join(process.cwd(), "content", "posts");
@@ -54,10 +55,17 @@ export function getAllPosts() {
         excerpt: data.excerpt,
         category: data.category,
         featuredImage: data.featuredImage,
-        body
+        body,
+        order: Number.isFinite(Number(data.order)) ? Number(data.order) : undefined
       } satisfies Post;
     })
-    .sort((left, right) => right.date.localeCompare(left.date));
+    .sort((left, right) => {
+      if (left.order || right.order) {
+        return (left.order ?? Number.MAX_SAFE_INTEGER) - (right.order ?? Number.MAX_SAFE_INTEGER) || right.date.localeCompare(left.date);
+      }
+
+      return right.date.localeCompare(left.date);
+    });
 }
 
 export function getPostBySlug(slug: string) {

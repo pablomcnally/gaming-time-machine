@@ -16,12 +16,26 @@ type MediaLibrary = {
   mode?: "github" | "local";
 };
 
-type TabId = "home" | "about" | "career" | "archive" | "contact" | "musings";
+type EditablePost = {
+  body: string;
+  category: string;
+  date: string;
+  excerpt: string;
+  featuredImage: string;
+  fileName?: string;
+  order?: number;
+  originalSlug?: string;
+  slug: string;
+  title: string;
+};
+
+type TabId = "home" | "about" | "career" | "writing" | "archive" | "contact" | "musings";
 
 const tabs: { id: TabId; label: string }[] = [
   { id: "home", label: "Home" },
   { id: "about", label: "About" },
   { id: "career", label: "Career" },
+  { id: "writing", label: "Writing" },
   { id: "archive", label: "Archive" },
   { id: "contact", label: "Contact" },
   { id: "musings", label: "Musings" }
@@ -191,10 +205,12 @@ export default function EditorPage() {
   const [isUnlocked, setIsUnlocked] = useState(false);
   const [content, setContent] = useState<ContentBundle>(emptyContent);
   const [media, setMedia] = useState<MediaLibrary>({ images: [] });
+  const [posts, setPosts] = useState<EditablePost[]>([]);
   const [activeTab, setActiveTab] = useState<TabId>("home");
   const [status, setStatus] = useState("Enter the editor password to load site content.");
   const [isSaving, setIsSaving] = useState(false);
   const [uploadingArchiveIndex, setUploadingArchiveIndex] = useState<number | null>(null);
+  const [uploadingPostIndex, setUploadingPostIndex] = useState<number | null>(null);
 
   useEffect(() => {
     const savedPassword = window.sessionStorage.getItem("paulArchiveEditorPassword");
@@ -225,7 +241,7 @@ export default function EditorPage() {
     setContent(result.content);
     setIsUnlocked(true);
     setStatus(result.mode === "local" ? "Loaded from local JSON." : "Loaded from GitHub.");
-    await loadMedia(nextPassword);
+    await Promise.all([loadMedia(nextPassword), loadPosts(nextPassword)]);
   }
 
   async function loadMedia(nextPassword = password) {
@@ -242,6 +258,19 @@ export default function EditorPage() {
       images: result.images || [],
       mode: result.mode
     });
+  }
+
+  async function loadPosts(nextPassword = password) {
+    const response = await fetch("/api/posts", {
+      headers: getHeaders(nextPassword)
+    });
+    const result = await response.json();
+
+    if (!response.ok || !result.ok) {
+      throw new Error(result.message || "Could not load writing posts.");
+    }
+
+    setPosts(result.posts || []);
   }
 
   async function unlockEditor(event: FormEvent<HTMLFormElement>) {
@@ -333,28 +362,93 @@ export default function EditorPage() {
     }));
   }
 
+  function updatePost(index: number, field: keyof EditablePost, value: string) {
+    setPosts((current) => current.map((post, postIndex) => (postIndex === index ? { ...post, [field]: value } : post)));
+  }
+
+  function addPost() {
+    const date = new Date().toISOString().slice(0, 10);
+
+    setPosts((current) => [
+      {
+        body: "Write the full article body here.",
+        category: "Writing",
+        date,
+        excerpt: "Short summary for the writing page.",
+        featuredImage: "/archive/press-terminal.svg",
+        slug: `new-writing-file-${Date.now().toString().slice(-6)}`,
+        title: "New writing file"
+      },
+      ...current
+    ]);
+  }
+
+  function duplicatePost(index: number) {
+    setPosts((current) => {
+      const copy = {
+        ...current[index],
+        fileName: undefined,
+        originalSlug: undefined,
+        slug: `${current[index].slug}-copy`,
+        title: `${current[index].title} copy`
+      };
+      const nextPosts = current.slice();
+      nextPosts.splice(index + 1, 0, copy);
+
+      return nextPosts;
+    });
+  }
+
+  function deletePost(index: number) {
+    if (!window.confirm("Delete this writing post from the draft list?")) {
+      return;
+    }
+
+    setPosts((current) => current.filter((_, postIndex) => postIndex !== index));
+  }
+
+  function movePost(index: number, nextIndex: number) {
+    setPosts((current) => moveListItem(current, index, nextIndex));
+  }
+
   async function saveContent() {
     try {
       setIsSaving(true);
       setStatus("Saving content...");
-      const response = await fetch("/api/content", {
+      const contentResponse = await fetch("/api/content", {
         method: "POST",
         headers: getHeaders(),
         body: JSON.stringify({ content })
       });
-      const result = await response.json();
+      const contentResult = await contentResponse.json();
 
-      if (!response.ok || !result.ok) {
-        throw new Error(result.message || "Save failed.");
+      if (!contentResponse.ok || !contentResult.ok) {
+        throw new Error(contentResult.message || "Save failed.");
       }
 
-      setStatus(
-        result.mode === "local"
-          ? result.message
-          : result.changedFiles > 0
-            ? `Saved to GitHub. ${result.changedFiles} content file(s) updated. Vercel should redeploy shortly.`
-            : "No content changes to save."
-      );
+      const postsResponse = await fetch("/api/posts", {
+        method: "POST",
+        headers: getHeaders(),
+        body: JSON.stringify({ posts })
+      });
+      const postsResult = await postsResponse.json();
+
+      if (!postsResponse.ok || !postsResult.ok) {
+        throw new Error(postsResult.message || "Writing post save failed.");
+      }
+
+      if (contentResult.mode === "local" || postsResult.mode === "local") {
+        setStatus(`${contentResult.message} ${postsResult.message}`);
+      } else {
+        const contentChanged = contentResult.changedFiles || 0;
+        const postsChanged = postsResult.changedFiles || 0;
+
+        setStatus(
+          contentChanged + postsChanged > 0
+            ? `Saved to GitHub. ${contentChanged} content file(s) and ${postsChanged} writing file change(s) updated. Vercel should redeploy shortly.`
+            : "No changes to save."
+        );
+      }
     } catch (error) {
       setStatus(error instanceof Error ? error.message : "Could not save content.");
     } finally {
@@ -391,6 +485,38 @@ export default function EditorPage() {
       setStatus(error instanceof Error ? error.message : "Could not upload image.");
     } finally {
       setUploadingArchiveIndex(null);
+    }
+  }
+
+  async function uploadPostImage(index: number, file: File) {
+    try {
+      setUploadingPostIndex(index);
+      setStatus(`Uploading ${file.name}...`);
+      const dataUrl = await readFileAsDataUrl(file);
+      const response = await fetch("/api/media", {
+        method: "POST",
+        headers: getHeaders(),
+        body: JSON.stringify({
+          fileName: file.name,
+          dataUrl
+        })
+      });
+      const result = await response.json();
+
+      if (!response.ok || !result.ok) {
+        throw new Error(result.message || "Image upload failed.");
+      }
+
+      updatePost(index, "featuredImage", result.imagePath);
+      setMedia((current) => ({
+        ...current,
+        images: Array.from(new Set([result.imagePath, ...current.images])).sort()
+      }));
+      setStatus(`Uploaded ${result.imagePath}. Save all to attach it to this writing post.`);
+    } catch (error) {
+      setStatus(error instanceof Error ? error.message : "Could not upload image.");
+    } finally {
+      setUploadingPostIndex(null);
     }
   }
 
@@ -451,6 +577,19 @@ export default function EditorPage() {
                 duplicateArrayItem={duplicateArrayItem}
                 moveArrayItem={moveArrayItem}
                 updateArrayItem={updateArrayItem}
+              />
+            ) : null}
+            {activeTab === "writing" ? (
+              <WritingEditor
+                media={media}
+                onAdd={addPost}
+                onDelete={deletePost}
+                onDuplicate={duplicatePost}
+                onMove={movePost}
+                onUpdate={updatePost}
+                onUploadImage={uploadPostImage}
+                posts={posts}
+                uploadingPostIndex={uploadingPostIndex}
               />
             ) : null}
             {activeTab === "archive" ? (
@@ -677,6 +816,77 @@ function CareerEditor({ addArrayItem, content, deleteArrayItem, duplicateArrayIt
   );
 }
 
+function WritingEditor({
+  media,
+  onAdd,
+  onDelete,
+  onDuplicate,
+  onMove,
+  onUpdate,
+  onUploadImage,
+  posts,
+  uploadingPostIndex
+}: {
+  media: MediaLibrary;
+  onAdd: () => void;
+  onDelete: (index: number) => void;
+  onDuplicate: (index: number) => void;
+  onMove: (index: number, nextIndex: number) => void;
+  onUpdate: (index: number, field: keyof EditablePost, value: string) => void;
+  onUploadImage: (index: number, file: File) => void;
+  posts: EditablePost[];
+  uploadingPostIndex: number | null;
+}) {
+  return (
+    <Panel title="Writing posts">
+      <button className="mb-5 border border-terminal-green px-4 py-2 text-terminal-green" onClick={onAdd} type="button">
+        Add writing post
+      </button>
+      <div className="grid gap-5">
+        {posts.map((post, index) => (
+          <article className="border border-terminal-cyan/40 p-4" key={`${post.slug}-${index}`}>
+            <div className="mb-4 flex items-center justify-between gap-3">
+              <div>
+                <h3 className="text-terminal-yellow">{post.title || "Writing post"}</h3>
+                <p className="mt-1 normal-case text-terminal-paper/70">/writing/{post.slug || "new-post"}</p>
+              </div>
+              <RowActions
+                canMoveDown={index < posts.length - 1}
+                canMoveUp={index > 0}
+                onDelete={() => onDelete(index)}
+                onDuplicate={() => onDuplicate(index)}
+                onMoveDown={() => onMove(index, index + 1)}
+                onMoveUp={() => onMove(index, index - 1)}
+              />
+            </div>
+
+            <ArchiveImagePicker
+              helperText="This featured image appears on the writing card and article page. Uploads are saved under /archive/uploads."
+              image={post.featuredImage || ""}
+              images={media.images || []}
+              isUploading={uploadingPostIndex === index}
+              onChange={(value) => onUpdate(index, "featuredImage", value)}
+              onUpload={(file) => onUploadImage(index, file)}
+            />
+
+            <div className="grid gap-4 md:grid-cols-2">
+              <Field label="Title" onChange={(value) => onUpdate(index, "title", value)} value={post.title || ""} />
+              <Field label="Slug" onChange={(value) => onUpdate(index, "slug", slugify(value))} value={post.slug || ""} />
+              <Field label="Date" onChange={(value) => onUpdate(index, "date", value)} type="date" value={post.date || ""} />
+              <Field label="Category" onChange={(value) => onUpdate(index, "category", value)} value={post.category || ""} />
+            </div>
+
+            <div className="mt-4 grid gap-4">
+              <TextArea label="Excerpt" onChange={(value) => onUpdate(index, "excerpt", value)} rows={3} value={post.excerpt || ""} />
+              <TextArea label="Full article body (Markdown)" onChange={(value) => onUpdate(index, "body", value)} rows={16} value={post.body || ""} />
+            </div>
+          </article>
+        ))}
+      </div>
+    </Panel>
+  );
+}
+
 function ArchiveEditor({
   addArrayItem,
   content,
@@ -748,12 +958,14 @@ function ArchiveEditor({
 }
 
 function ArchiveImagePicker({
+  helperText = "Uploads are saved under /archive/uploads and then selected for this card. Use Save all after uploading to update the archive JSON.",
   image,
   images,
   isUploading,
   onChange,
   onUpload
 }: {
+  helperText?: string;
   image: string;
   images: string[];
   isUploading: boolean;
@@ -809,9 +1021,7 @@ function ArchiveImagePicker({
           />
         </label>
 
-        <p className="normal-case leading-6 text-terminal-paper/75">
-          Uploads are saved under /archive/uploads and then selected for this card. Use Save all after uploading to update the archive JSON.
-        </p>
+        <p className="normal-case leading-6 text-terminal-paper/75">{helperText}</p>
         {isUploading ? <p className="text-terminal-green">Uploading image...</p> : null}
       </div>
     </div>
