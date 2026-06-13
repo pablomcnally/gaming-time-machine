@@ -61,6 +61,18 @@ function textToLines(value: string) {
   return value.split("\n");
 }
 
+function moveListItem<T>(items: T[], index: number, nextIndex: number) {
+  if (nextIndex < 0 || nextIndex >= items.length) {
+    return items;
+  }
+
+  const nextItems = items.slice();
+  const [item] = nextItems.splice(index, 1);
+  nextItems.splice(nextIndex, 0, item);
+
+  return nextItems;
+}
+
 function readFileAsDataUrl(file: File) {
   return new Promise<string>((resolve, reject) => {
     const reader = new FileReader();
@@ -137,9 +149,33 @@ function Panel({
   );
 }
 
-function RowActions({ onDelete, onDuplicate }: { onDelete: () => void; onDuplicate: () => void }) {
+function RowActions({
+  canMoveDown = true,
+  canMoveUp = true,
+  onDelete,
+  onDuplicate,
+  onMoveDown,
+  onMoveUp
+}: {
+  canMoveDown?: boolean;
+  canMoveUp?: boolean;
+  onDelete: () => void;
+  onDuplicate: () => void;
+  onMoveDown?: () => void;
+  onMoveUp?: () => void;
+}) {
   return (
     <div className="flex flex-wrap gap-2">
+      {onMoveUp ? (
+        <button className="border border-terminal-cyan px-3 py-2 text-terminal-cyan disabled:opacity-40" disabled={!canMoveUp} onClick={onMoveUp} type="button">
+          Move up
+        </button>
+      ) : null}
+      {onMoveDown ? (
+        <button className="border border-terminal-cyan px-3 py-2 text-terminal-cyan disabled:opacity-40" disabled={!canMoveDown} onClick={onMoveDown} type="button">
+          Move down
+        </button>
+      ) : null}
       <button className="border border-terminal-cyan px-3 py-2 text-terminal-cyan" onClick={onDuplicate} type="button">
         Duplicate
       </button>
@@ -279,6 +315,13 @@ export default function EditorPage() {
     });
   }
 
+  function moveArrayItem(section: "career" | "archive" | "musings", index: number, nextIndex: number) {
+    setContent((current) => ({
+      ...current,
+      [section]: moveListItem(current[section], index, nextIndex)
+    }));
+  }
+
   function deleteArrayItem(section: "career" | "archive" | "musings", index: number) {
     if (!window.confirm("Delete this item from the draft list?")) {
       return;
@@ -401,7 +444,14 @@ export default function EditorPage() {
             {activeTab === "home" ? <HomeEditor content={content} updateHome={updateHome} updateSection={updateSection} /> : null}
             {activeTab === "about" ? <AboutEditor content={content} updateSection={updateSection} /> : null}
             {activeTab === "career" ? (
-              <CareerEditor addArrayItem={addArrayItem} content={content} deleteArrayItem={deleteArrayItem} duplicateArrayItem={duplicateArrayItem} updateArrayItem={updateArrayItem} />
+              <CareerEditor
+                addArrayItem={addArrayItem}
+                content={content}
+                deleteArrayItem={deleteArrayItem}
+                duplicateArrayItem={duplicateArrayItem}
+                moveArrayItem={moveArrayItem}
+                updateArrayItem={updateArrayItem}
+              />
             ) : null}
             {activeTab === "archive" ? (
               <ArchiveEditor
@@ -410,6 +460,7 @@ export default function EditorPage() {
                 deleteArrayItem={deleteArrayItem}
                 duplicateArrayItem={duplicateArrayItem}
                 media={media}
+                moveArrayItem={moveArrayItem}
                 onUploadImage={uploadArchiveImage}
                 updateArrayItem={updateArrayItem}
                 uploadingArchiveIndex={uploadingArchiveIndex}
@@ -417,7 +468,14 @@ export default function EditorPage() {
             ) : null}
             {activeTab === "contact" ? <ContactEditor content={content} updateSection={updateSection} /> : null}
             {activeTab === "musings" ? (
-              <MusingsEditor addArrayItem={addArrayItem} content={content} deleteArrayItem={deleteArrayItem} duplicateArrayItem={duplicateArrayItem} updateArrayItem={updateArrayItem} />
+              <MusingsEditor
+                addArrayItem={addArrayItem}
+                content={content}
+                deleteArrayItem={deleteArrayItem}
+                duplicateArrayItem={duplicateArrayItem}
+                moveArrayItem={moveArrayItem}
+                updateArrayItem={updateArrayItem}
+              />
             ) : null}
 
             <p className="border border-terminal-green/50 bg-black p-4 text-terminal-green" role="status">
@@ -471,6 +529,7 @@ function HomeEditor({
           nextStats.splice(index + 1, 0, { ...home.storyStats[index] });
           updateHome("storyStats", nextStats);
         }}
+        onMove={(index, nextIndex) => updateHome("storyStats", moveListItem(home.storyStats || [], index, nextIndex))}
         renderItem={(item, index) => (
           <div className="grid gap-4 md:grid-cols-2">
             <Field label="Label" onChange={(value) => updateHome("storyStats", home.storyStats.map((stat: any, itemIndex: number) => (itemIndex === index ? { ...stat, label: value } : stat)))} value={item.label} />
@@ -508,6 +567,7 @@ function AboutEditor({ content, updateSection }: { content: ContentBundle; updat
           nextPanels.splice(index + 1, 0, { ...about.panels[index], paragraphs: [...about.panels[index].paragraphs] });
           updateAbout({ panels: nextPanels });
         }}
+        onMove={(index, nextIndex) => updateAbout({ panels: moveListItem(about.panels || [], index, nextIndex) })}
         renderItem={(panel, index) => (
           <div className="grid gap-4">
             <div className="grid gap-4 md:grid-cols-2">
@@ -565,6 +625,7 @@ function ContactEditor({ content, updateSection }: { content: ContentBundle; upd
           nextLinks.splice(index + 1, 0, { ...contact.links[index] });
           updateContact({ links: nextLinks });
         }}
+        onMove={(index, nextIndex) => updateContact({ links: moveListItem(contact.links || [], index, nextIndex) })}
         renderItem={(link, index) => (
           <div className="grid gap-4 md:grid-cols-2">
             <Field label="Label" onChange={(value) => updateContact({ links: contact.links.map((item: any, itemIndex: number) => (itemIndex === index ? { ...item, label: value } : item)) })} value={link.label} />
@@ -577,7 +638,7 @@ function ContactEditor({ content, updateSection }: { content: ContentBundle; upd
   );
 }
 
-function CareerEditor({ addArrayItem, content, deleteArrayItem, duplicateArrayItem, updateArrayItem }: any) {
+function CareerEditor({ addArrayItem, content, deleteArrayItem, duplicateArrayItem, moveArrayItem, updateArrayItem }: any) {
   return (
     <Panel title="Career timeline">
       <button
@@ -592,7 +653,14 @@ function CareerEditor({ addArrayItem, content, deleteArrayItem, duplicateArrayIt
           <article className="border border-terminal-cyan/40 p-4" key={`${entry.year}-${index}`}>
             <div className="mb-4 flex items-center justify-between gap-3">
               <h3 className="text-terminal-yellow">{entry.year || "Career entry"}</h3>
-              <RowActions onDelete={() => deleteArrayItem("career", index)} onDuplicate={() => duplicateArrayItem("career", index)} />
+              <RowActions
+                canMoveDown={index < content.career.length - 1}
+                canMoveUp={index > 0}
+                onDelete={() => deleteArrayItem("career", index)}
+                onDuplicate={() => duplicateArrayItem("career", index)}
+                onMoveDown={() => moveArrayItem("career", index, index + 1)}
+                onMoveUp={() => moveArrayItem("career", index, index - 1)}
+              />
             </div>
             <div className="grid gap-4 md:grid-cols-2">
               {["year", "range", "role", "company", "image", "link"].map((field) => (
@@ -615,6 +683,7 @@ function ArchiveEditor({
   deleteArrayItem,
   duplicateArrayItem,
   media,
+  moveArrayItem,
   onUploadImage,
   updateArrayItem,
   uploadingArchiveIndex
@@ -633,7 +702,14 @@ function ArchiveEditor({
           <article className="border border-terminal-cyan/40 p-4" key={`${item.title}-${index}`}>
             <div className="mb-4 flex items-center justify-between gap-3">
               <h3 className="text-terminal-yellow">{item.title || "Archive item"}</h3>
-              <RowActions onDelete={() => deleteArrayItem("archive", index)} onDuplicate={() => duplicateArrayItem("archive", index)} />
+              <RowActions
+                canMoveDown={index < content.archive.length - 1}
+                canMoveUp={index > 0}
+                onDelete={() => deleteArrayItem("archive", index)}
+                onDuplicate={() => duplicateArrayItem("archive", index)}
+                onMoveDown={() => moveArrayItem("archive", index, index + 1)}
+                onMoveUp={() => moveArrayItem("archive", index, index - 1)}
+              />
             </div>
             <ArchiveImagePicker
               image={item.image || ""}
@@ -742,7 +818,7 @@ function ArchiveImagePicker({
   );
 }
 
-function MusingsEditor({ addArrayItem, content, deleteArrayItem, duplicateArrayItem, updateArrayItem }: any) {
+function MusingsEditor({ addArrayItem, content, deleteArrayItem, duplicateArrayItem, moveArrayItem, updateArrayItem }: any) {
   return (
     <Panel title="Homepage musings">
       <button
@@ -757,7 +833,14 @@ function MusingsEditor({ addArrayItem, content, deleteArrayItem, duplicateArrayI
           <article className="border border-terminal-cyan/40 p-4" key={`${musing.id}-${index}`}>
             <div className="mb-4 flex items-center justify-between gap-3">
               <h3 className="text-terminal-yellow">{musing.title || "Musing"}</h3>
-              <RowActions onDelete={() => deleteArrayItem("musings", index)} onDuplicate={() => duplicateArrayItem("musings", index)} />
+              <RowActions
+                canMoveDown={index < content.musings.length - 1}
+                canMoveUp={index > 0}
+                onDelete={() => deleteArrayItem("musings", index)}
+                onDuplicate={() => duplicateArrayItem("musings", index)}
+                onMoveDown={() => moveArrayItem("musings", index, index + 1)}
+                onMoveUp={() => moveArrayItem("musings", index, index - 1)}
+              />
             </div>
             <div className="grid gap-4 md:grid-cols-2">
               <Field label="Id" onChange={(value) => updateArrayItem("musings", index, "id", slugify(value))} value={musing.id || ""} />
@@ -782,6 +865,7 @@ function EditableList({
   onAdd,
   onDelete,
   onDuplicate,
+  onMove,
   renderItem,
   title
 }: {
@@ -790,6 +874,7 @@ function EditableList({
   onAdd: () => void;
   onDelete: (index: number) => void;
   onDuplicate: (index: number) => void;
+  onMove?: (index: number, nextIndex: number) => void;
   renderItem: (item: any, index: number) => React.ReactNode;
   title: string;
 }) {
@@ -805,7 +890,14 @@ function EditableList({
         {items.map((item, index) => (
           <article className="border border-terminal-cyan/40 p-4" key={index}>
             <div className="mb-4 flex justify-end">
-              <RowActions onDelete={() => onDelete(index)} onDuplicate={() => onDuplicate(index)} />
+              <RowActions
+                canMoveDown={index < items.length - 1}
+                canMoveUp={index > 0}
+                onDelete={() => onDelete(index)}
+                onDuplicate={() => onDuplicate(index)}
+                onMoveDown={onMove ? () => onMove(index, index + 1) : undefined}
+                onMoveUp={onMove ? () => onMove(index, index - 1) : undefined}
+              />
             </div>
             {renderItem(item, index)}
           </article>
