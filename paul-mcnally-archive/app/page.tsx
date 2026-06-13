@@ -32,10 +32,7 @@ export default function HomePage() {
           <div className="viewdata-rule mb-5" />
           <h1 className="ascii-masthead" aria-label="Paul McNally">
             <img className="ascii-masthead-full" src="/paul-mcnally-masthead.svg" alt="Paul McNally" />
-            <span className="ascii-masthead-mobile" aria-hidden="true">
-              <span className="ascii-masthead-slice ascii-masthead-slice-paul" />
-              <span className="ascii-masthead-slice ascii-masthead-slice-mcnally" />
-            </span>
+            <img className="ascii-masthead-mobile" src="/paul-mcnally-mobile-masthead.svg" alt="" aria-hidden="true" />
           </h1>
           <p className="mt-4 text-center text-xl text-terminal-green md:text-2xl">
             {homeContent.taglineParts.map((part, index) => (

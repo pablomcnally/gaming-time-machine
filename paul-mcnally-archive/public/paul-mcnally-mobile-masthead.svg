@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 360" role="img" aria-labelledby="title desc">
+  <title id="title">Paul McNally</title>
+  <desc id="desc">Paul McNally rendered as stacked ANSI-shadow terminal lettering for mobile screens.</desc>
+  <defs>
+    <filter id="softGlow" x="-5%" y="-12%" width="110%" height="124%">
+      <feGaussianBlur stdDeviation="1.1" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="980" height="360" fill="transparent"/>
+  <g
+    xml:space="preserve"
+    font-family="'Cascadia Mono', Consolas, 'Lucida Console', 'Courier New', monospace"
+    font-size="24"
+    font-weight="700"
+    letter-spacing="0"
+    text-anchor="middle"
+    text-rendering="geometricPrecision"
+  >
+    <text x="500" y="50" fill="#363636" opacity="0.9">
+      <tspan x="500" dy="0">██████╗  █████╗ ██╗   ██╗██╗</tspan>
+      <tspan x="500" dy="28">██╔══██╗██╔══██╗██║   ██║██║</tspan>
+      <tspan x="500" dy="28">██████╔╝███████║██║   ██║██║</tspan>
+      <tspan x="500" dy="28">██╔═══╝ ██╔══██║██║   ██║██║</tspan>
+      <tspan x="500" dy="28">██║     ██║  ██║╚██████╔╝███████╗</tspan>
+      <tspan x="500" dy="28">╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝</tspan>
+      <tspan x="500" dy="58">███╗   ███╗ ██████╗███╗   ██╗ █████╗ ██╗     ██╗  ██╗   ██╗</tspan>
+      <tspan x="500" dy="28">████╗ ████║██╔════╝████╗  ██║██╔══██╗██║     ██║  ╚██╗ ██╔╝</tspan>
+      <tspan x="500" dy="28">██╔████╔██║██║     ██╔██╗ ██║███████║██║     ██║   ╚████╔╝</tspan>
+      <tspan x="500" dy="28">██║╚██╔╝██║██║     ██║╚██╗██║██╔══██║██║     ██║    ╚██╔╝</tspan>
+      <tspan x="500" dy="28">██║ ╚═╝ ██║╚██████╗██║ ╚████║██║  ██║███████╗███████╗██║</tspan>
+      <tspan x="500" dy="28">╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝</tspan>
+    </text>
+    <text x="492" y="42" fill="#f2f2f2" filter="url(#softGlow)">
+      <tspan x="492" dy="0">██████╗  █████╗ ██╗   ██╗██╗</tspan>
+      <tspan x="492" dy="28">██╔══██╗██╔══██╗██║   ██║██║</tspan>
+      <tspan x="492" dy="28">██████╔╝███████║██║   ██║██║</tspan>
+      <tspan x="492" dy="28">██╔═══╝ ██╔══██║██║   ██║██║</tspan>
+      <tspan x="492" dy="28">██║     ██║  ██║╚██████╔╝███████╗</tspan>
+      <tspan x="492" dy="28">╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝</tspan>
+      <tspan x="492" dy="58">███╗   ███╗ ██████╗███╗   ██╗ █████╗ ██╗     ██╗  ██╗   ██╗</tspan>
+      <tspan x="492" dy="28">████╗ ████║██╔════╝████╗  ██║██╔══██╗██║     ██║  ╚██╗ ██╔╝</tspan>
+      <tspan x="492" dy="28">██╔████╔██║██║     ██╔██╗ ██║███████║██║     ██║   ╚████╔╝</tspan>
+      <tspan x="492" dy="28">██║╚██╔╝██║██║     ██║╚██╗██║██╔══██║██║     ██║    ╚██╔╝</tspan>
+      <tspan x="492" dy="28">██║ ╚═╝ ██║╚██████╗██║ ╚████║██║  ██║███████╗███████╗██║</tspan>
+      <tspan x="492" dy="28">╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝</tspan>
+    </text>
+  </g>
+</svg>

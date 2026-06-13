@@ -110,26 +110,9 @@ textarea {
 
 .ascii-masthead-mobile {
   display: none;
-}
-
-.ascii-masthead-slice {
-  display: block;
+  height: auto;
   width: 100%;
-  background-image: url("/paul-mcnally-masthead.svg");
-  background-repeat: no-repeat;
   filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.25));
-}
-
-.ascii-masthead-slice-paul {
-  aspect-ratio: 3.2;
-  background-position: left top;
-  background-size: 260% auto;
-}
-
-.ascii-masthead-slice-mcnally {
-  aspect-ratio: 5.1;
-  background-position: right top;
-  background-size: 163% auto;
 }
 
 @media (max-width: 640px) {
@@ -143,10 +126,8 @@ textarea {
   }
 
   .ascii-masthead-mobile {
-    display: grid;
-    gap: 0.35rem;
+    display: block;
     max-width: 100%;
-    min-width: 0;
     width: 100%;
   }
 }
