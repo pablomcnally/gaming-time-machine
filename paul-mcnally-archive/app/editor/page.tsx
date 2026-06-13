@@ -11,6 +11,11 @@ type ContentBundle = {
   musings: any[];
 };
 
+type MediaLibrary = {
+  images: string[];
+  mode?: "github" | "local";
+};
+
 type TabId = "home" | "about" | "career" | "archive" | "contact" | "musings";
 
 const tabs: { id: TabId; label: string }[] = [
@@ -54,6 +59,16 @@ function linesToText(lines: string[]) {
 
 function textToLines(value: string) {
   return value.split("\n");
+}
+
+function readFileAsDataUrl(file: File) {
+  return new Promise<string>((resolve, reject) => {
+    const reader = new FileReader();
+
+    reader.addEventListener("load", () => resolve(String(reader.result || "")));
+    reader.addEventListener("error", () => reject(new Error("Could not read the selected image.")));
+    reader.readAsDataURL(file);
+  });
 }
 
 function Field({
@@ -139,9 +154,11 @@ export default function EditorPage() {
   const [password, setPassword] = useState("");
   const [isUnlocked, setIsUnlocked] = useState(false);
   const [content, setContent] = useState<ContentBundle>(emptyContent);
+  const [media, setMedia] = useState<MediaLibrary>({ images: [] });
   const [activeTab, setActiveTab] = useState<TabId>("home");
   const [status, setStatus] = useState("Enter the editor password to load site content.");
   const [isSaving, setIsSaving] = useState(false);
+  const [uploadingArchiveIndex, setUploadingArchiveIndex] = useState<number | null>(null);
 
   useEffect(() => {
     const savedPassword = window.sessionStorage.getItem("paulArchiveEditorPassword");
@@ -172,6 +189,23 @@ export default function EditorPage() {
     setContent(result.content);
     setIsUnlocked(true);
     setStatus(result.mode === "local" ? "Loaded from local JSON." : "Loaded from GitHub.");
+    await loadMedia(nextPassword);
+  }
+
+  async function loadMedia(nextPassword = password) {
+    const response = await fetch("/api/media", {
+      headers: getHeaders(nextPassword)
+    });
+    const result = await response.json();
+
+    if (!response.ok || !result.ok) {
+      throw new Error(result.message || "Could not load archive images.");
+    }
+
+    setMedia({
+      images: result.images || [],
+      mode: result.mode
+    });
   }
 
   async function unlockEditor(event: FormEvent<HTMLFormElement>) {
@@ -274,12 +308,46 @@ export default function EditorPage() {
       setStatus(
         result.mode === "local"
           ? result.message
-          : `Saved to GitHub. ${result.commitCount || 1} content file(s) updated. Vercel should redeploy shortly.`
+          : result.changedFiles > 0
+            ? `Saved to GitHub. ${result.changedFiles} content file(s) updated. Vercel should redeploy shortly.`
+            : "No content changes to save."
       );
     } catch (error) {
       setStatus(error instanceof Error ? error.message : "Could not save content.");
     } finally {
       setIsSaving(false);
+    }
+  }
+
+  async function uploadArchiveImage(index: number, file: File) {
+    try {
+      setUploadingArchiveIndex(index);
+      setStatus(`Uploading ${file.name}...`);
+      const dataUrl = await readFileAsDataUrl(file);
+      const response = await fetch("/api/media", {
+        method: "POST",
+        headers: getHeaders(),
+        body: JSON.stringify({
+          fileName: file.name,
+          dataUrl
+        })
+      });
+      const result = await response.json();
+
+      if (!response.ok || !result.ok) {
+        throw new Error(result.message || "Image upload failed.");
+      }
+
+      updateArrayItem("archive", index, "image", result.imagePath);
+      setMedia((current) => ({
+        ...current,
+        images: Array.from(new Set([result.imagePath, ...current.images])).sort()
+      }));
+      setStatus(`Uploaded ${result.imagePath}. Save all to attach it to this archive card.`);
+    } catch (error) {
+      setStatus(error instanceof Error ? error.message : "Could not upload image.");
+    } finally {
+      setUploadingArchiveIndex(null);
     }
   }
 
@@ -336,7 +404,16 @@ export default function EditorPage() {
               <CareerEditor addArrayItem={addArrayItem} content={content} deleteArrayItem={deleteArrayItem} duplicateArrayItem={duplicateArrayItem} updateArrayItem={updateArrayItem} />
             ) : null}
             {activeTab === "archive" ? (
-              <ArchiveEditor addArrayItem={addArrayItem} content={content} deleteArrayItem={deleteArrayItem} duplicateArrayItem={duplicateArrayItem} updateArrayItem={updateArrayItem} />
+              <ArchiveEditor
+                addArrayItem={addArrayItem}
+                content={content}
+                deleteArrayItem={deleteArrayItem}
+                duplicateArrayItem={duplicateArrayItem}
+                media={media}
+                onUploadImage={uploadArchiveImage}
+                updateArrayItem={updateArrayItem}
+                uploadingArchiveIndex={uploadingArchiveIndex}
+              />
             ) : null}
             {activeTab === "contact" ? <ContactEditor content={content} updateSection={updateSection} /> : null}
             {activeTab === "musings" ? (
@@ -532,7 +609,16 @@ function CareerEditor({ addArrayItem, content, deleteArrayItem, duplicateArrayIt
   );
 }
 
-function ArchiveEditor({ addArrayItem, content, deleteArrayItem, duplicateArrayItem, updateArrayItem }: any) {
+function ArchiveEditor({
+  addArrayItem,
+  content,
+  deleteArrayItem,
+  duplicateArrayItem,
+  media,
+  onUploadImage,
+  updateArrayItem,
+  uploadingArchiveIndex
+}: any) {
   return (
     <Panel title="Archive cards">
       <button
@@ -549,8 +635,15 @@ function ArchiveEditor({ addArrayItem, content, deleteArrayItem, duplicateArrayI
               <h3 className="text-terminal-yellow">{item.title || "Archive item"}</h3>
               <RowActions onDelete={() => deleteArrayItem("archive", index)} onDuplicate={() => duplicateArrayItem("archive", index)} />
             </div>
+            <ArchiveImagePicker
+              image={item.image || ""}
+              images={media.images || []}
+              isUploading={uploadingArchiveIndex === index}
+              onChange={(value) => updateArrayItem("archive", index, "image", value)}
+              onUpload={(file) => onUploadImage(index, file)}
+            />
             <div className="grid gap-4 md:grid-cols-2">
-              {["title", "year", "publication", "image", "externalLink"].map((field) => (
+              {["title", "year", "publication", "externalLink"].map((field) => (
                 <Field key={field} label={field} onChange={(value) => updateArrayItem("archive", index, field, value)} value={item[field] || ""} />
               ))}
               <label className="grid gap-2 text-terminal-cyan">
@@ -575,6 +668,77 @@ function ArchiveEditor({ addArrayItem, content, deleteArrayItem, duplicateArrayI
         ))}
       </div>
     </Panel>
+  );
+}
+
+function ArchiveImagePicker({
+  image,
+  images,
+  isUploading,
+  onChange,
+  onUpload
+}: {
+  image: string;
+  images: string[];
+  isUploading: boolean;
+  onChange: (value: string) => void;
+  onUpload: (file: File) => void;
+}) {
+  const selectedImage = image || images[0] || "";
+
+  return (
+    <div className="mb-5 grid gap-4 border border-terminal-cyan/35 bg-terminal-black/80 p-4 md:grid-cols-[14rem_1fr]">
+      <div className="border border-terminal-paper/50 bg-black">
+        {selectedImage ? (
+          <img alt="" className="aspect-[4/3] w-full object-cover" src={selectedImage} />
+        ) : (
+          <div className="grid aspect-[4/3] place-items-center p-4 text-center text-sm text-terminal-paper/70">No image selected</div>
+        )}
+      </div>
+      <div className="grid gap-4">
+        <label className="grid gap-2 text-terminal-cyan">
+          Choose archive image
+          <select
+            className="min-h-12 border border-terminal-cyan/60 bg-terminal-black px-4 normal-case text-terminal-paper"
+            onChange={(event) => onChange(event.target.value)}
+            value={image || ""}
+          >
+            <option value="">Choose an existing image...</option>
+            {images.map((imagePath) => (
+              <option key={imagePath} value={imagePath}>
+                {imagePath}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <Field label="Image path" onChange={onChange} placeholder="/archive/uploads/example.png" value={image || ""} />
+
+        <label className="grid gap-2 text-terminal-cyan">
+          Upload new image
+          <input
+            accept="image/png,image/jpeg,image/webp,image/gif,image/svg+xml"
+            className="border border-terminal-cyan/60 bg-terminal-black px-4 py-3 normal-case text-terminal-paper file:mr-4 file:border-0 file:bg-terminal-yellow file:px-4 file:py-2 file:font-mono file:uppercase file:text-terminal-black"
+            disabled={isUploading}
+            onChange={(event) => {
+              const file = event.target.files?.[0];
+
+              if (file) {
+                onUpload(file);
+              }
+
+              event.target.value = "";
+            }}
+            type="file"
+          />
+        </label>
+
+        <p className="normal-case leading-6 text-terminal-paper/75">
+          Uploads are saved under /archive/uploads and then selected for this card. Use Save all after uploading to update the archive JSON.
+        </p>
+        {isUploading ? <p className="text-terminal-green">Uploading image...</p> : null}
+      </div>
+    </div>
   );
 }
 
