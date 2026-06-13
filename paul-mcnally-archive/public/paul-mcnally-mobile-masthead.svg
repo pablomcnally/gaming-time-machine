@@ -1,52 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-labelledby="title desc">
   <title id="title">Paul McNally</title>
-  <desc id="desc">Paul McNally rendered as stacked ANSI-shadow terminal lettering for mobile screens.</desc>
+  <desc id="desc">Paul McNally rendered as a clear stacked retro terminal wordmark for mobile screens.</desc>
   <defs>
-    <filter id="softGlow" x="-5%" y="-12%" width="110%" height="124%">
-      <feGaussianBlur stdDeviation="1.1" result="blur"/>
+    <filter id="glow" x="-8%" y="-18%" width="116%" height="136%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <pattern id="pixelHatch" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="transparent"/>
+      <rect y="0" width="10" height="2" fill="#ffffff" opacity="0.18"/>
+      <rect x="7" width="2" height="10" fill="#111111" opacity="0.2"/>
+    </pattern>
   </defs>
-  <rect width="980" height="360" fill="transparent"/>
+  <rect width="1000" height="330" fill="transparent"/>
   <g
-    xml:space="preserve"
-    font-family="'Cascadia Mono', Consolas, 'Lucida Console', 'Courier New', monospace"
-    font-size="24"
-    font-weight="700"
-    letter-spacing="0"
+    font-family="Impact, 'Arial Black', 'Trebuchet MS', Arial, sans-serif"
+    font-weight="900"
+    letter-spacing="3"
     text-anchor="middle"
     text-rendering="geometricPrecision"
   >
-    <text x="500" y="50" fill="#363636" opacity="0.9">
-      <tspan x="500" dy="0">██████╗  █████╗ ██╗   ██╗██╗</tspan>
-      <tspan x="500" dy="28">██╔══██╗██╔══██╗██║   ██║██║</tspan>
-      <tspan x="500" dy="28">██████╔╝███████║██║   ██║██║</tspan>
-      <tspan x="500" dy="28">██╔═══╝ ██╔══██║██║   ██║██║</tspan>
-      <tspan x="500" dy="28">██║     ██║  ██║╚██████╔╝███████╗</tspan>
-      <tspan x="500" dy="28">╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝</tspan>
-      <tspan x="500" dy="58">███╗   ███╗ ██████╗███╗   ██╗ █████╗ ██╗     ██╗  ██╗   ██╗</tspan>
-      <tspan x="500" dy="28">████╗ ████║██╔════╝████╗  ██║██╔══██╗██║     ██║  ╚██╗ ██╔╝</tspan>
-      <tspan x="500" dy="28">██╔████╔██║██║     ██╔██╗ ██║███████║██║     ██║   ╚████╔╝</tspan>
-      <tspan x="500" dy="28">██║╚██╔╝██║██║     ██║╚██╗██║██╔══██║██║     ██║    ╚██╔╝</tspan>
-      <tspan x="500" dy="28">██║ ╚═╝ ██║╚██████╗██║ ╚████║██║  ██║███████╗███████╗██║</tspan>
-      <tspan x="500" dy="28">╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝</tspan>
-    </text>
-    <text x="492" y="42" fill="#f2f2f2" filter="url(#softGlow)">
-      <tspan x="492" dy="0">██████╗  █████╗ ██╗   ██╗██╗</tspan>
-      <tspan x="492" dy="28">██╔══██╗██╔══██╗██║   ██║██║</tspan>
-      <tspan x="492" dy="28">██████╔╝███████║██║   ██║██║</tspan>
-      <tspan x="492" dy="28">██╔═══╝ ██╔══██║██║   ██║██║</tspan>
-      <tspan x="492" dy="28">██║     ██║  ██║╚██████╔╝███████╗</tspan>
-      <tspan x="492" dy="28">╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝</tspan>
-      <tspan x="492" dy="58">███╗   ███╗ ██████╗███╗   ██╗ █████╗ ██╗     ██╗  ██╗   ██╗</tspan>
-      <tspan x="492" dy="28">████╗ ████║██╔════╝████╗  ██║██╔══██╗██║     ██║  ╚██╗ ██╔╝</tspan>
-      <tspan x="492" dy="28">██╔████╔██║██║     ██╔██╗ ██║███████║██║     ██║   ╚████╔╝</tspan>
-      <tspan x="492" dy="28">██║╚██╔╝██║██║     ██║╚██╗██║██╔══██║██║     ██║    ╚██╔╝</tspan>
-      <tspan x="492" dy="28">██║ ╚═╝ ██║╚██████╗██║ ╚████║██║  ██║███████╗███████╗██║</tspan>
-      <tspan x="492" dy="28">╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝</tspan>
-    </text>
+    <text x="512" y="124" font-size="122" fill="#262626" stroke="#202020" stroke-width="8">PAUL</text>
+    <text x="508" y="120" font-size="122" fill="#6a6a6a" stroke="#2c2c2c" stroke-width="7">PAUL</text>
+    <text x="500" y="112" font-size="122" fill="#f4f4f4" stroke="#111111" stroke-width="5" filter="url(#glow)">PAUL</text>
+    <text x="500" y="112" font-size="122" fill="url(#pixelHatch)" opacity="0.55">PAUL</text>
+
+    <text x="512" y="266" font-size="106" fill="#262626" stroke="#202020" stroke-width="8">MCNALLY</text>
+    <text x="508" y="262" font-size="106" fill="#6a6a6a" stroke="#2c2c2c" stroke-width="7">MCNALLY</text>
+    <text x="500" y="254" font-size="106" fill="#f4f4f4" stroke="#111111" stroke-width="5" filter="url(#glow)">MCNALLY</text>
+    <text x="500" y="254" font-size="106" fill="url(#pixelHatch)" opacity="0.55">MCNALLY</text>
   </g>
 </svg>
