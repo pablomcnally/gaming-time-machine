@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { ModemSoundToggle } from "./ModemSoundToggle";
 import { RetroNavigation } from "./RetroNavigation";
 
 function formatDate(now: Date) {
@@ -40,9 +41,10 @@ export function SiteHeader() {
       <div className="mx-auto grid max-w-7xl gap-2 border-b border-terminal-paper/80 px-3 py-2 text-sm sm:grid-cols-[1fr_auto_1fr] sm:items-center sm:px-4 md:text-base">
         <p className="text-terminal-green">*** MICRONET 800 SERVICES ***</p>
         <p className="text-terminal-paper sm:text-center">Personal Archive Terminal</p>
-        <p className="text-terminal-green sm:text-right">
-          {now ? `${formatTime(now)}  ${formatServiceDate(now)}` : "--:--  --- -- --- ----"}
-        </p>
+        <div className="flex flex-wrap items-center gap-2 text-terminal-green sm:justify-end">
+          <p className="sm:text-right">{now ? `${formatTime(now)}  ${formatServiceDate(now)}` : "--:--  --- -- --- ----"}</p>
+          <ModemSoundToggle />
+        </div>
       </div>
       <RetroNavigation />
     </header>
