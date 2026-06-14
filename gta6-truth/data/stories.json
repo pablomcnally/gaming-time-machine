@@ -1,21 +1,67 @@
 {
-  "updatedLabel": "Saturday, June 13, 2026",
+  "updatedLabel": "Sunday, June 14, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Fence Post ‘Basically Verifies’ Secret Side Mission About Someone’s Cousin, Say Scholars With",
+    "Man In Vice Cafe Orders ‘The Usual’, Receives 14-Minute Lecture On Sandwich Theory",
     "Car Park Receipt ‘Strongly Implies’ New Vice City Radio Station For Traffic Updates, Sandwich Chat",
     "Experts Say Every Palm Tree In Vice City Now ‘Looks Suspicious’, Which Is Not Strictly A Crime But",
     "Parked Scooter 'Basically Confirms' A New Radio Station Dedicated To Weather Warnings And Mild Drama",
     "Fans Conclude Every Bush In Vice City Is Plotting Something After Prolonged Leaf Activity",
     "Soggy Receipt 'Strongly Hints' At Five New Boat Horns And A Very Judgy Pelican",
-    "Map Corner 'Essentially Verifies' Three Secret Sunsets, Two Tramlines And A Bin Schedule With Attitu",
-    "Vice Diner Introduces 'Mystery Toast' After Customers Begin Ordering 'Whatever The Rumour Is'",
-    "Trailer Parallax 'Strongly Suggests' Seventeen New Weather Types And One Moody Seagull"
+    "Map Corner 'Essentially Verifies' Three Secret Sunsets, Two Tramlines And A Bin Schedule With Attitu"
   ],
   "stories": [
+    {
+      "slug": "fence-post-basically-verifies-secret-side-mission-about-someone-s-cousin-s",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "EXPERTS WAG FINGER",
+      "accent": "sunset",
+      "title": "Fence Post ‘Basically Verifies’ Secret Side Mission About Someone’s Cousin, Say Scholars With",
+      "description": "A deeply serious analysis of one slightly odd fence post which has, predictably, been treated as a full-grown prophecy.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By N. P. Loose, Correspondent",
+      "readTime": "4 min read",
+      "date": "Sunday, June 14, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has once again looked at an object the size of a loaf of bread and concluded it contains the fate of the entire map.",
+        "This week’s suspect is a fence post, which appears to be standing at an angle. Naturally, fans have taken this as proof of a side mission involving a cousin, a missing key, and possibly a very damp car boot.",
+        "One forum expert said the tilt was 'too intentional to ignore', which is a phrase now meaning absolutely nothing but is nevertheless being repeated everywhere.",
+        "Another pointed out that the post is near a bin, a bench and a small patch of grass, which in rumour law means it could be anything from a cutscene to a lifestyle choice.",
+        "Rock-solid evidence was also found in the shape of a nearby shadow, which one observer described as 'doing a lot'.",
+        "At press time, the fence post had declined to comment and continued being a fence post, which only strengthened the speculation."
+      ]
+    },
+    {
+      "slug": "man-in-vice-cafe-orders-the-usual-receives-14-minute-lecture-on-sandwich-t",
+      "category": "local",
+      "categoryLabel": "Local chaos",
+      "badge": "VIC ECHO",
+      "accent": "green",
+      "title": "Man In Vice Cafe Orders ‘The Usual’, Receives 14-Minute Lecture On Sandwich Theory",
+      "description": "A local lunch has spiralled into a full civic event after one customer accidentally asked for ‘the usual’ and opened a philosophical storm.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By T. Biscuit, Local Affairs",
+      "readTime": "3 min read",
+      "date": "Sunday, June 14, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Customers at a Vice City cafe were left stunned after one man, apparently trying to keep things simple, asked for 'the usual' and was immediately trapped in a discussion about fillings, ratios and what counts as toast.",
+        "The cashier, who witnesses say had the calm but dangerous expression of someone who has worked in hospitality for years, replied: 'There is no usual. There is only what you can explain under pressure.'",
+        "By minute seven, two strangers had joined in to argue whether mayonnaise is a sauce, a mood, or a warning sign.",
+        "By minute ten, a decorative avocado on the menu board was said to be 'sending messages'. No one has been able to confirm this, but nobody has ruled it out either.",
+        "The man eventually received a sandwich, though reports differ on whether it was food or a lesson.",
+        "A small crowd then gathered outside to debate the matter in the rain, as is customary in Vice City whenever lunch becomes serious."
+      ]
+    },
     {
       "slug": "car-park-receipt-strongly-implies-new-vice-city-radio-station-for-traffic-",
       "category": "leak",
