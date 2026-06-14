@@ -10,14 +10,27 @@ function renderInline(text: string) {
   });
 }
 
-export function MarkdownBody({ content }: { content: string }) {
+type MarkdownBodyProps = {
+  className?: string;
+  content: string;
+};
+
+export function MarkdownBody({ className = "", content }: MarkdownBodyProps) {
   const blocks = content.split(/\n{2,}/);
 
   return (
-    <div className="prose-terminal max-w-none">
+    <div className={`prose-terminal max-w-none ${className}`}>
       {blocks.map((block) => {
         if (block.startsWith("## ")) {
           return <h2 key={block}>{block.replace("## ", "")}</h2>;
+        }
+
+        if (block.startsWith("### ")) {
+          return <h3 key={block}>{block.replace("### ", "")}</h3>;
+        }
+
+        if (block.startsWith("> ")) {
+          return <blockquote key={block}>{renderInline(block.replace(/^> /gm, ""))}</blockquote>;
         }
 
         if (block.startsWith("- ")) {

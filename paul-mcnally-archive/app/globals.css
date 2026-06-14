@@ -550,6 +550,15 @@ textarea {
   line-height: 1.25;
 }
 
+.prose-terminal h3 {
+  margin-top: 1.65rem;
+  color: #31ff65;
+  font-family: var(--font-mono);
+  font-size: 1.05rem;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+
 .prose-terminal p,
 .prose-terminal li {
   color: #f3f0db;
@@ -568,4 +577,48 @@ textarea {
 
 .prose-terminal strong {
   color: #00e5ff;
+}
+
+.prose-terminal blockquote {
+  margin: 2rem 0;
+  border-left: 4px solid #ff4cff;
+  padding: 0.35rem 0 0.35rem 1.25rem;
+  color: #fff45c;
+  font-family: var(--font-mono);
+  font-size: clamp(1.15rem, 2vw, 1.55rem);
+  line-height: 1.45;
+  text-transform: uppercase;
+}
+
+.article-shell {
+  position: relative;
+}
+
+.article-shell::before {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  width: 3rem;
+  height: 0.35rem;
+  content: "";
+  background: linear-gradient(90deg, #31ff65, #00e5ff, #ff4cff);
+  opacity: 0.72;
+}
+
+.article-prose > p:first-of-type {
+  color: #fffbea;
+  font-size: clamp(1.08rem, 1.5vw, 1.28rem);
+  line-height: 1.85;
+}
+
+.article-prose > p:first-of-type::first-letter {
+  float: left;
+  margin: 0.15rem 0.45rem 0 0;
+  color: #fff45c;
+  font-family: var(--font-mono);
+  font-size: clamp(3.2rem, 7vw, 5rem);
+  line-height: 0.78;
+  text-shadow:
+    0 0 0.45rem rgba(255, 244, 92, 0.34),
+    0.12rem 0.12rem 0 #1624ff;
 }

@@ -2,190 +2,83 @@
 
 import { useEffect, useRef, useState } from "react";
 
-type AudioNodes = {
-  carrierA: OscillatorNode;
-  carrierB: OscillatorNode;
-  carrierC: OscillatorNode;
-  masterGain: GainNode;
-  noise: AudioBufferSourceNode;
-};
-
-const MODEM_VOLUME = 0.12;
+const HANDSHAKE_SRC = "/audio/modem-handshake.wav";
+const CARRIER_SRC = "/audio/modem-carrier-loop.wav";
+const HANDSHAKE_VOLUME = 0.55;
+const CARRIER_VOLUME = 0.26;
 
 export function ModemSoundToggle() {
   const [isOn, setIsOn] = useState(false);
-  const contextRef = useRef<AudioContext | null>(null);
-  const nodesRef = useRef<AudioNodes | null>(null);
-  const warbleTimerRef = useRef<number | null>(null);
+  const handshakeRef = useRef<HTMLAudioElement | null>(null);
+  const carrierRef = useRef<HTMLAudioElement | null>(null);
+  const carrierTimerRef = useRef<number | null>(null);
 
   useEffect(() => {
     return () => stopSound();
   }, []);
 
-  function makeNoiseBuffer(context: AudioContext) {
-    const buffer = context.createBuffer(1, context.sampleRate * 2, context.sampleRate);
-    const data = buffer.getChannelData(0);
-
-    for (let index = 0; index < data.length; index += 1) {
-      data[index] = (Math.random() * 2 - 1) * 0.35;
+  function ensureAudio() {
+    if (!handshakeRef.current) {
+      const handshake = new Audio(HANDSHAKE_SRC);
+      handshake.preload = "auto";
+      handshake.volume = HANDSHAKE_VOLUME;
+      handshakeRef.current = handshake;
     }
 
-    return buffer;
-  }
+    if (!carrierRef.current) {
+      const carrier = new Audio(CARRIER_SRC);
+      carrier.loop = true;
+      carrier.preload = "auto";
+      carrier.volume = 0;
+      carrierRef.current = carrier;
+    }
 
-  function scheduleHandshakeTone(
-    context: AudioContext,
-    destination: AudioNode,
-    delay: number,
-    frequency: number,
-    duration: number,
-    volume: number,
-    type: OscillatorType = "sine"
-  ) {
-    const oscillator = context.createOscillator();
-    const gain = context.createGain();
-    const start = context.currentTime + delay;
-
-    oscillator.type = type;
-    oscillator.frequency.setValueAtTime(frequency, start);
-    oscillator.frequency.exponentialRampToValueAtTime(frequency * 1.04, start + duration * 0.45);
-    oscillator.frequency.exponentialRampToValueAtTime(frequency * 0.72, start + duration);
-    gain.gain.setValueAtTime(0.0001, start);
-    gain.gain.exponentialRampToValueAtTime(volume, start + 0.018);
-    gain.gain.exponentialRampToValueAtTime(0.0001, start + duration);
-
-    oscillator.connect(gain);
-    gain.connect(destination);
-    oscillator.start(start);
-    oscillator.stop(start + duration + 0.02);
-  }
-
-  function scheduleHandshake(context: AudioContext, destination: AudioNode) {
-    [
-      [0, 2100, 0.24, 0.11, "sine"],
-      [0.3, 980, 0.1, 0.075, "square"],
-      [0.43, 1650, 0.13, 0.08, "sawtooth"],
-      [0.62, 2420, 0.08, 0.075, "square"],
-      [0.75, 1220, 0.12, 0.07, "sine"],
-      [0.92, 1850, 0.16, 0.065, "sawtooth"]
-    ].forEach(([delay, frequency, duration, volume, type]) => {
-      scheduleHandshakeTone(context, destination, Number(delay), Number(frequency), Number(duration), Number(volume), type as OscillatorType);
-    });
-  }
-
-  function scheduleWarble(context: AudioContext, carrierA: OscillatorNode, carrierB: OscillatorNode, carrierC: OscillatorNode) {
-    const now = context.currentTime;
-    const nextA = 1120 + Math.random() * 420;
-    const nextB = 1950 + Math.random() * 760;
-    const nextC = 520 + Math.random() * 210;
-
-    carrierA.frequency.setTargetAtTime(nextA, now, 0.018 + Math.random() * 0.02);
-    carrierB.frequency.setTargetAtTime(nextB, now, 0.014 + Math.random() * 0.018);
-    carrierC.frequency.setTargetAtTime(nextC, now, 0.03 + Math.random() * 0.04);
-
-    warbleTimerRef.current = window.setTimeout(() => {
-      if (nodesRef.current) {
-        scheduleWarble(context, carrierA, carrierB, carrierC);
-      }
-    }, 45 + Math.random() * 115);
+    return {
+      carrier: carrierRef.current,
+      handshake: handshakeRef.current
+    };
   }
 
   function startSound() {
-    if (nodesRef.current) {
-      return true;
+    const { carrier, handshake } = ensureAudio();
+
+    if (carrierTimerRef.current) {
+      window.clearTimeout(carrierTimerRef.current);
     }
 
-    const audioWindow = window as Window & typeof globalThis & { webkitAudioContext?: typeof AudioContext };
-    const AudioCtor = audioWindow.AudioContext || audioWindow.webkitAudioContext;
+    handshake.pause();
+    carrier.pause();
+    handshake.currentTime = 0;
+    carrier.currentTime = 0;
+    handshake.volume = HANDSHAKE_VOLUME;
+    carrier.volume = 0;
 
-    if (!AudioCtor) {
-      return false;
-    }
+    void handshake.play().catch(() => undefined);
+    void carrier.play().catch(() => undefined);
 
-    const context = new AudioCtor();
-    const masterGain = context.createGain();
-    const bandpass = context.createBiquadFilter();
-    const carrierAGain = context.createGain();
-    const carrierBGain = context.createGain();
-    const carrierCGain = context.createGain();
-    const noiseGain = context.createGain();
-    const carrierA = context.createOscillator();
-    const carrierB = context.createOscillator();
-    const carrierC = context.createOscillator();
-    const noise = context.createBufferSource();
-
-    masterGain.gain.setValueAtTime(0.0001, context.currentTime);
-    masterGain.gain.exponentialRampToValueAtTime(MODEM_VOLUME, context.currentTime + 0.08);
-    bandpass.type = "bandpass";
-    bandpass.frequency.value = 1650;
-    bandpass.Q.value = 3.2;
-
-    carrierA.type = "sawtooth";
-    carrierA.frequency.value = 1180;
-    carrierAGain.gain.value = 0.08;
-    carrierB.type = "square";
-    carrierB.frequency.value = 2225;
-    carrierBGain.gain.value = 0.028;
-    carrierC.type = "triangle";
-    carrierC.frequency.value = 620;
-    carrierCGain.gain.value = 0.018;
-
-    noise.buffer = makeNoiseBuffer(context);
-    noise.loop = true;
-    noiseGain.gain.value = 0.04;
-
-    carrierA.connect(carrierAGain);
-    carrierB.connect(carrierBGain);
-    carrierC.connect(carrierCGain);
-    noise.connect(noiseGain);
-    carrierAGain.connect(bandpass);
-    carrierBGain.connect(bandpass);
-    carrierCGain.connect(bandpass);
-    noiseGain.connect(bandpass);
-    bandpass.connect(masterGain);
-    masterGain.connect(context.destination);
-
-    carrierA.start();
-    carrierB.start();
-    carrierC.start();
-    noise.start();
-
-    scheduleHandshake(context, masterGain);
-
-    contextRef.current = context;
-    nodesRef.current = { carrierA, carrierB, carrierC, masterGain, noise };
-    scheduleWarble(context, carrierA, carrierB, carrierC);
-
-    if (context.state === "suspended") {
-      void context.resume().catch(() => stopSound());
-    }
+    carrierTimerRef.current = window.setTimeout(() => {
+      carrier.volume = CARRIER_VOLUME;
+      carrierTimerRef.current = null;
+    }, 900);
 
     return true;
   }
 
   function stopSound() {
-    if (warbleTimerRef.current) {
-      window.clearTimeout(warbleTimerRef.current);
-      warbleTimerRef.current = null;
+    if (carrierTimerRef.current) {
+      window.clearTimeout(carrierTimerRef.current);
+      carrierTimerRef.current = null;
     }
 
-    const nodes = nodesRef.current;
-    const context = contextRef.current;
+    [handshakeRef.current, carrierRef.current].forEach((audio) => {
+      if (!audio) {
+        return;
+      }
 
-    if (nodes && context) {
-      const stopAt = context.currentTime + 0.05;
-      nodes.masterGain.gain.setTargetAtTime(0.0001, context.currentTime, 0.02);
-      window.setTimeout(() => {
-        nodes.carrierA.stop();
-        nodes.carrierB.stop();
-        nodes.carrierC.stop();
-        nodes.noise.stop();
-        context.close();
-      }, stopAt * 1000 - context.currentTime * 1000);
-    }
-
-    nodesRef.current = null;
-    contextRef.current = null;
+      audio.pause();
+      audio.currentTime = 0;
+      audio.volume = audio === carrierRef.current ? 0 : HANDSHAKE_VOLUME;
+    });
   }
 
   function toggleSound() {
