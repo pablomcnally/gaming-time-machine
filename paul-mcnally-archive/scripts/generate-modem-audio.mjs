@@ -24,26 +24,47 @@ function envelope(time, duration, attack = 0.025, release = 0.08) {
   return Math.max(0, Math.min(fadeIn, fadeOut));
 }
 
-function tone(time, frequency, wobble = 0, wobbleRate = 0) {
-  const modulated = frequency + Math.sin(2 * Math.PI * wobbleRate * time) * wobble;
-  return Math.sin(2 * Math.PI * modulated * time);
+function sine(time, frequency) {
+  return Math.sin(2 * Math.PI * frequency * time);
 }
 
-function burst(time, start, length, frequency, volume, shape = "sine") {
+function square(time, frequency) {
+  return sine(time, frequency) >= 0 ? 1 : -1;
+}
+
+function softClip(value) {
+  return Math.tanh(value * 1.8) / Math.tanh(1.8);
+}
+
+function burst(time, start, length, frequency, volume, shape = "square") {
   if (time < start || time > start + length) {
     return 0;
   }
 
   const localTime = time - start;
-  const sweep = frequency * (1 + (0.4 * localTime) / length);
   const base =
     shape === "square"
-      ? Math.sign(tone(localTime, sweep))
+      ? square(localTime, frequency)
       : shape === "saw"
-        ? 2 * ((localTime * sweep) % 1) - 1
-        : tone(localTime, sweep, 35, 7);
+        ? 2 * ((localTime * frequency) % 1) - 1
+        : sine(localTime, frequency);
 
-  return base * envelope(localTime, length, 0.008, 0.035) * volume;
+  return base * envelope(localTime, length, 0.004, 0.018) * volume;
+}
+
+function fskData(time, start, length, lowFrequency, highFrequency, bitRate, volume) {
+  if (time < start || time > start + length) {
+    return 0;
+  }
+
+  const localTime = time - start;
+  const bitIndex = Math.floor(localTime * bitRate);
+  const bit = (bitIndex * 13 + Math.floor(bitIndex / 3) * 7) % 11;
+  const frequency = bit < 5 ? lowFrequency : highFrequency;
+  const roughness = square(localTime, frequency * 0.5) * 0.2;
+  const noise = (random() * 2 - 1) * 0.22;
+
+  return (sine(localTime, frequency) + square(localTime, frequency * 1.01) * 0.42 + roughness + noise) * envelope(localTime, length, 0.025, 0.08) * volume;
 }
 
 function writeWav(filePath, samples) {
@@ -73,58 +94,37 @@ function writeWav(filePath, samples) {
 }
 
 function generateHandshake() {
-  const duration = 3.25;
+  const duration = 4.15;
   const samples = new Float32Array(Math.floor(duration * sampleRate));
 
   for (let index = 0; index < samples.length; index += 1) {
     const time = index / sampleRate;
     let sample = 0;
 
-    sample += (tone(time, 2100, 7, 3) + tone(time, 2225, 5, 2.5)) * 0.16 * envelope(time, 0.62, 0.03, 0.12);
-    sample += burst(time, 0.72, 0.16, 980, 0.26, "square");
-    sample += burst(time, 0.93, 0.22, 1650, 0.24, "saw");
-    sample += burst(time, 1.23, 0.12, 2420, 0.24, "square");
-    sample += burst(time, 1.42, 0.34, 1280, 0.2, "sine");
-    sample += burst(time, 1.86, 0.18, 1850, 0.2, "saw");
-    sample += burst(time, 2.14, 0.44, 740, 0.18, "square");
+    sample += burst(time, 0.04, 0.48, 2100, 0.2, "sine");
+    sample += burst(time, 0.58, 0.12, 980, 0.26, "square");
+    sample += burst(time, 0.74, 0.1, 1180, 0.22, "square");
+    sample += burst(time, 0.9, 0.14, 1650, 0.24, "saw");
+    sample += burst(time, 1.12, 0.1, 2400, 0.22, "square");
+    sample += fskData(time, 1.28, 0.72, 1070, 1270, 62, 0.23);
+    sample += burst(time, 2.08, 0.11, 1750, 0.24, "square");
+    sample += burst(time, 2.25, 0.09, 2250, 0.2, "saw");
+    sample += fskData(time, 2.42, 1.08, 980, 2225, 86, 0.22);
+    sample += burst(time, 3.66, 0.13, 1300, 0.18, "square");
+    sample += burst(time, 3.83, 0.12, 1850, 0.16, "saw");
 
-    const dataEnvelope = time > 1.05 ? envelope(time - 1.05, duration - 1.05, 0.06, 0.34) : 0;
-    const bitRate = 32 + (Math.floor(time * 17) % 13);
-    const bit = Math.sin(2 * Math.PI * bitRate * time) > 0 ? 1 : -1;
-    const carrier = tone(time, 1180 + bit * 115, 18, 11) + tone(time, 2230 - bit * 170, 28, 7) * 0.65;
-    const noise = (random() * 2 - 1) * 0.18;
-
-    sample += (carrier * 0.13 + noise) * dataEnvelope;
-    samples[index] = clamp(sample * 0.86);
-  }
-
-  return samples;
-}
-
-function generateCarrierLoop() {
-  const duration = 5.2;
-  const samples = new Float32Array(Math.floor(duration * sampleRate));
-
-  for (let index = 0; index < samples.length; index += 1) {
-    const time = index / sampleRate;
-    const loopEnvelope = Math.min(1, time / 0.08, (duration - time) / 0.08);
-    const frame = Math.floor(time * 46);
-    const bitA = frame % 5 < 2 ? 1 : -1;
-    const bitB = frame % 7 < 3 ? -1 : 1;
-    let sample = 0;
-
-    sample += tone(time, 1170 + bitA * 130, 22, 10) * 0.22;
-    sample += tone(time, 2200 + bitB * 180, 34, 8) * 0.16;
-    sample += tone(time, 640 + bitA * bitB * 45, 12, 5) * 0.08;
-    sample += (random() * 2 - 1) * 0.08;
-    sample += Math.sin(2 * Math.PI * 91 * time) * Math.sin(2 * Math.PI * 7.5 * time) * 0.035;
-    samples[index] = clamp(sample * loopEnvelope * 0.72);
+    const lineNoise = (random() * 2 - 1) * 0.018;
+    samples[index] = clamp(softClip(sample + lineNoise) * 0.82);
   }
 
   return samples;
 }
 
 writeWav(path.join(outputDir, "modem-handshake.wav"), generateHandshake());
-writeWav(path.join(outputDir, "modem-carrier-loop.wav"), generateCarrierLoop());
 
-console.log(`Generated modem audio in ${outputDir}`);
+const oldLoopPath = path.join(outputDir, "modem-carrier-loop.wav");
+if (fs.existsSync(oldLoopPath)) {
+  fs.unlinkSync(oldLoopPath);
+}
+
+console.log(`Generated one-shot modem handshake in ${outputDir}`);
