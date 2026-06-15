@@ -1,21 +1,63 @@
 {
-  "updatedLabel": "Sunday, June 14, 2026",
+  "updatedLabel": "Monday, June 15, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Bin Lid ‘Rattles In A Manner Suggesting’ New Heist, Say Men Who Stared At It Too Long",
+    "Experts Say Vice City Skyline Has Been ‘Overthinking Itself’ For Weeks, Which Is Apparently Good",
     "Fence Post ‘Basically Verifies’ Secret Side Mission About Someone’s Cousin, Say Scholars With",
     "Man In Vice Cafe Orders ‘The Usual’, Receives 14-Minute Lecture On Sandwich Theory",
     "Car Park Receipt ‘Strongly Implies’ New Vice City Radio Station For Traffic Updates, Sandwich Chat",
     "Experts Say Every Palm Tree In Vice City Now ‘Looks Suspicious’, Which Is Not Strictly A Crime But",
     "Parked Scooter 'Basically Confirms' A New Radio Station Dedicated To Weather Warnings And Mild Drama",
-    "Fans Conclude Every Bush In Vice City Is Plotting Something After Prolonged Leaf Activity",
-    "Soggy Receipt 'Strongly Hints' At Five New Boat Horns And A Very Judgy Pelican",
-    "Map Corner 'Essentially Verifies' Three Secret Sunsets, Two Tramlines And A Bin Schedule With Attitu"
+    "Fans Conclude Every Bush In Vice City Is Plotting Something After Prolonged Leaf Activity"
   ],
   "stories": [
+    {
+      "slug": "bin-lid-rattles-in-a-manner-suggesting-new-heist-say-men-who-stared-at-it-",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE-ish",
+      "accent": "blue",
+      "title": "Bin Lid ‘Rattles In A Manner Suggesting’ New Heist, Say Men Who Stared At It Too Long",
+      "description": "A perfectly ordinary bin lid has been promoted to near-mythical status by onlookers with clipboards and far too much confidence.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Derek Tumble, Rumour Desk",
+      "readTime": "3 min read",
+      "date": "Monday, June 15, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Witnesses insist the lid made a “soft but meaningful clatter” when nudged, which in tabloid circles is now being treated as a structural clue.",
+        "One analyst said the noise was “not unlike a planning meeting, if the planning meeting was damp and in a hurry.”",
+        "The lid itself has declined to comment, though locals report it has “the energy of a man who knows a shortcut.”",
+        "Officials have urged calm and reminded residents that not every recycling container is secretly involved in a criminal enterprise, however stylish it may look in the afternoon sun."
+      ]
+    },
+    {
+      "slug": "experts-say-vice-city-skyline-has-been-overthinking-itself-for-weeks-which",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "HOT TAKE",
+      "accent": "sunset",
+      "title": "Experts Say Vice City Skyline Has Been ‘Overthinking Itself’ For Weeks, Which Is Apparently Good",
+      "description": "A panel of very serious people believes the skyline’s recent silhouette behaviour may point to more dramatic scenery, or possibly just a nice sunset.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Wobble, Features",
+      "readTime": "4 min read",
+      "date": "Monday, June 15, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The skyline has been described as “restless,” “architecturally nosy,” and “a bit too aware of the camera.”",
+        "One theorist claims the tallest building is “leaning into the narrative,” though this may simply be the effect of heat haze and ambition.",
+        "The report suggests players should expect “at least one dramatic viewpoint” and “several buildings with opinions.”",
+        "In fairness, any city that keeps changing colour at dusk is bound to encourage nonsense."
+      ]
+    },
     {
       "slug": "fence-post-basically-verifies-secret-side-mission-about-someone-s-cousin-s",
       "category": "analysis",
