@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Monday, June 15, 2026",
+  "updatedLabel": "Tuesday, June 16, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Chip Shop Napkin 'Essentially Confirms' New Heist, Say Men Who Read It Upside Down",
+    "Vice City Seagulls Now Said To Be 'Tracking The Narrative', Which Is Very Rude Of Them",
     "Bin Lid ‘Rattles In A Manner Suggesting’ New Heist, Say Men Who Stared At It Too Long",
     "Experts Say Vice City Skyline Has Been ‘Overthinking Itself’ For Weeks, Which Is Apparently Good",
     "Fence Post ‘Basically Verifies’ Secret Side Mission About Someone’s Cousin, Say Scholars With",
     "Man In Vice Cafe Orders ‘The Usual’, Receives 14-Minute Lecture On Sandwich Theory",
     "Car Park Receipt ‘Strongly Implies’ New Vice City Radio Station For Traffic Updates, Sandwich Chat",
-    "Experts Say Every Palm Tree In Vice City Now ‘Looks Suspicious’, Which Is Not Strictly A Crime But",
-    "Parked Scooter 'Basically Confirms' A New Radio Station Dedicated To Weather Warnings And Mild Drama",
-    "Fans Conclude Every Bush In Vice City Is Plotting Something After Prolonged Leaf Activity"
+    "Experts Say Every Palm Tree In Vice City Now ‘Looks Suspicious’, Which Is Not Strictly A Crime But"
   ],
   "stories": [
+    {
+      "slug": "chip-shop-napkin-essentially-confirms-new-heist-say-men-who-read-it-upside",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE",
+      "accent": "blue",
+      "title": "Chip Shop Napkin 'Essentially Confirms' New Heist, Say Men Who Read It Upside Down",
+      "description": "A napkin from a Vice City chip shop has allegedly been interpreted as a full criminal operation by a group of locals with a biro and far too much confidence.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel T. Haddock",
+      "readTime": "3 min read",
+      "date": "Tuesday, June 16, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Witnesses report that the napkin, stained with salt, vinegar and what appears to be the emotional weight of a Tuesday, contains three arrows, a circle and the words 'meet by bins'.",
+        "Experts in 'pattern looking' say this can only mean a multi-stage heist involving a forklift, a marina, and 'possibly a bloke called Darren'.",
+        "One analyst noted the napkin's corners were 'deliberately folded', while another admitted they may simply have been used to wipe chips off a wrist.",
+        "Theories are already circulating that the job will feature stealth, speedboats and at least one extremely overconfident getaway outfit.",
+        "Rock-solid evidence of this kind is best treated with caution, especially when the source is a crumpled takeaway napkin and the witness says, 'I knew it, the curry sauce does add up.'"
+      ]
+    },
+    {
+      "slug": "vice-city-seagulls-now-said-to-be-tracking-the-narrative-which-is-very-rud",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "BREAKING-ish",
+      "accent": "sunset",
+      "title": "Vice City Seagulls Now Said To Be 'Tracking The Narrative', Which Is Very Rude Of Them",
+      "description": "A baffling rise in aggressive seagull behaviour has led observers to conclude the birds are not merely after chips, but potentially story progression.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Mopps",
+      "readTime": "4 min read",
+      "date": "Tuesday, June 16, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Residents say the seagulls have become unusually focused, forming tidy circles above bus stops, sandwich queues and one suspiciously interesting lamppost.",
+        "According to bird-watchers, the gulls now ignore ordinary snacks and only swoop when someone mentions the words 'mission', 'shoreline' or 'where's my mate gone'.",
+        "This has prompted serious discussion about whether the birds are acting as environmental storytellers, or simply recognising a free lunch from fifty feet up.",
+        "Local philosopher and man outside the minimart, Kev, suggested the gulls 'know too much' and should be 'kept away from reflective surfaces'.",
+        "While no one can confirm the birds are plotting anything, they have been seen looking pointedly towards the harbour in a manner described as 'a bit on the nose, frankly'."
+      ]
+    },
     {
       "slug": "bin-lid-rattles-in-a-manner-suggesting-new-heist-say-men-who-stared-at-it-",
       "category": "leak",
