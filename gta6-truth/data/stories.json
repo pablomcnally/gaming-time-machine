@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Tuesday, June 16, 2026",
+  "updatedLabel": "Wednesday, June 17, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Pigeon Seen Carrying Tiny Blueprint, Fans Claim It 'All But Confirms' New Safehouse With Better",
+    "Analysts Say Every Sun Lounger Now Points Toward A Mystery, Which Is Either Foreshadowing Or Poor",
     "Chip Shop Napkin 'Essentially Confirms' New Heist, Say Men Who Read It Upside Down",
     "Vice City Seagulls Now Said To Be 'Tracking The Narrative', Which Is Very Rude Of Them",
     "Bin Lid ‘Rattles In A Manner Suggesting’ New Heist, Say Men Who Stared At It Too Long",
     "Experts Say Vice City Skyline Has Been ‘Overthinking Itself’ For Weeks, Which Is Apparently Good",
     "Fence Post ‘Basically Verifies’ Secret Side Mission About Someone’s Cousin, Say Scholars With",
-    "Man In Vice Cafe Orders ‘The Usual’, Receives 14-Minute Lecture On Sandwich Theory",
-    "Car Park Receipt ‘Strongly Implies’ New Vice City Radio Station For Traffic Updates, Sandwich Chat",
-    "Experts Say Every Palm Tree In Vice City Now ‘Looks Suspicious’, Which Is Not Strictly A Crime But"
+    "Man In Vice Cafe Orders ‘The Usual’, Receives 14-Minute Lecture On Sandwich Theory"
   ],
   "stories": [
+    {
+      "slug": "pigeon-seen-carrying-tiny-blueprint-fans-claim-it-all-but-confirms-new-saf",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "HOT TIP FROM A CRISP PACKET",
+      "accent": "blue",
+      "title": "Pigeon Seen Carrying Tiny Blueprint, Fans Claim It 'All But Confirms' New Safehouse With Better",
+      "description": "An entirely fictional rumour suggests a rooftop pigeon may have got hold of a highly suspicious napkin drawing, though experts agree it most likely just wanted crumbs...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel Threadbare, Staff Correspondent",
+      "readTime": "4 min read",
+      "date": "Wednesday, June 17, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Vice City has once again been thrown into elaborate speculation after a pigeon was spotted marching across a lamppost with what looked like a folded blueprint, a grape, and the confidence of a minor civil servant.",
+        "Within minutes, forum scholars declared the paper shape to be 'obviously a safehouse plan', despite the bird also being seen attempting to eat a chip.",
+        "The supposed design featured a roof terrace, a warning sign about noise, and a dedicated biscuit shelf, which led one witness to conclude the new location would be 'very mid-level criminal but excellent for tea'.",
+        "No one involved has confirmed anything, and frankly the pigeon appeared more interested in pecking the corner than revealing the next great urban mystery.",
+        "Still, theories have flourished, including one in which the safehouse doubles as a weather station, a laundrette, and a place to dramatically stare at the sea while holding a plastic fork."
+      ]
+    },
+    {
+      "slug": "analysts-say-every-sun-lounger-now-points-toward-a-mystery-which-is-either",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "FRESHLY OVERANALYSED",
+      "accent": "sunset",
+      "title": "Analysts Say Every Sun Lounger Now Points Toward A Mystery, Which Is Either Foreshadowing Or Poor",
+      "description": "A highly unofficial theory column examines whether beach furniture in Vice City is secretly trying to tell us something, or merely enjoying retirement in the sun.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Widdershins, Investigative",
+      "readTime": "5 min read",
+      "date": "Wednesday, June 17, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A team of self-appointed analysts has spent the week studying sun loungers, only to conclude that they are 'too placed' and therefore probably meaningful in some way.",
+        "Their evidence includes matching angles, suspiciously neat towels, and one chair that allegedly faced a hot dog stand with what they called 'cinematic intent'.",
+        "The group believes this may point to a future mission chain involving beach politics, an argument over sunscreen, and possibly a dramatic chase on a pedal boat.",
+        "Sceptics have noted that the loungers are simply arranged to face the ocean, which is a fairly common hobby among chairs.",
+        "Nevertheless, the analysts remain convinced. 'Nothing in Vice City sits still without a reason,' said one, before being asked to stop measuring deck chairs with a spaghetti ruler."
+      ]
+    },
     {
       "slug": "chip-shop-napkin-essentially-confirms-new-heist-say-men-who-read-it-upside",
       "category": "leak",
