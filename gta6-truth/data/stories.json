@@ -1,21 +1,66 @@
 {
-  "updatedLabel": "Wednesday, June 17, 2026",
+  "updatedLabel": "Thursday, June 18, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Seaside Umbrella Treated As ‘Proof’ Of Hidden Jet Ski Plot, Despite Being A Bit Rude To Weather",
+    "Man Spotted Feeding Coins To Parking Meter, Community Convinces It Must Be A New Side Quest",
     "Pigeon Seen Carrying Tiny Blueprint, Fans Claim It 'All But Confirms' New Safehouse With Better",
     "Analysts Say Every Sun Lounger Now Points Toward A Mystery, Which Is Either Foreshadowing Or Poor",
     "Chip Shop Napkin 'Essentially Confirms' New Heist, Say Men Who Read It Upside Down",
     "Vice City Seagulls Now Said To Be 'Tracking The Narrative', Which Is Very Rude Of Them",
     "Bin Lid ‘Rattles In A Manner Suggesting’ New Heist, Say Men Who Stared At It Too Long",
-    "Experts Say Vice City Skyline Has Been ‘Overthinking Itself’ For Weeks, Which Is Apparently Good",
-    "Fence Post ‘Basically Verifies’ Secret Side Mission About Someone’s Cousin, Say Scholars With",
-    "Man In Vice Cafe Orders ‘The Usual’, Receives 14-Minute Lecture On Sandwich Theory"
+    "Experts Say Vice City Skyline Has Been ‘Overthinking Itself’ For Weeks, Which Is Apparently Good"
   ],
   "stories": [
+    {
+      "slug": "seaside-umbrella-treated-as-proof-of-hidden-jet-ski-plot-despite-being-a-b",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "FIELD NOTES",
+      "accent": "blue",
+      "title": "Seaside Umbrella Treated As ‘Proof’ Of Hidden Jet Ski Plot, Despite Being A Bit Rude To Weather",
+      "description": "Our panel of highly committed optimists has decided a beach umbrella is not merely shade, but a narrative device with opinions.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "M. Weatherby",
+      "readTime": "4 min read",
+      "date": "Thursday, June 18, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Vice City’s finest theory lads have returned with a fresh one: a striped umbrella on the promenade is, they say, arranged in a way that can only mean jet skis are being introduced, removed, then reintroduced for dramatic effect.",
+        "The evidence appears to be that the umbrella is tilted. This, according to one analyst, is either “environmental storytelling” or “the council having a day off.”",
+        "A second observer pointed out that every nearby deck chair seems to be facing the water, which they described as “a clear sign of anticipation.” It was later noted that this is also the usual direction for chairs by the sea.",
+        "Still, the mood remains confident. Several forum users have declared the umbrella’s shadow “too cinematic,” while one man in shorts insisted the fabric pattern is “doing a lot of world-building for a Sunday.”",
+        "Our newsroom will continue to monitor all beach furniture for suspicious body language and any sudden increase in nautical swagger.",
+        "Fans have already begun sketching maps of the shoreline using ice cream receipts and guesses. The resulting diagram is, in fairness, quite persuasive if you do not know what a map is."
+      ]
+    },
+    {
+      "slug": "man-spotted-feeding-coins-to-parking-meter-community-convinces-it-must-be-",
+      "category": "local",
+      "categoryLabel": "Local chaos",
+      "badge": "SIGHTINGS",
+      "accent": "sunset",
+      "title": "Man Spotted Feeding Coins To Parking Meter, Community Convinces It Must Be A New Side Quest",
+      "description": "A local parking meter has enjoyed unexpected fame after a gentleman gave it several coins and a nod, which authorities in internet circles call ‘immersion’.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "N. Barlow",
+      "readTime": "3 min read",
+      "date": "Thursday, June 18, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Residents of Vice City report a small but important incident: one man was seen placing money into a parking meter while muttering, “There you go, mate.” The internet has, naturally, decided this is not payment but a cryptic mission trigger.",
+        "Within minutes, speculation bloomed into a full theory orchard. Some say the meter is a disguised contact point. Others believe it unlocks a hidden minigame involving patience, regret, and parallel parking.",
+        "A nearby witness said the man looked entirely ordinary, which only made the scene more suspicious to those online. “That’s how they get you,” explained one commenter, who has apparently seen too much.",
+        "The meter itself has remained unavailable for comment, though it is understood to have accepted the coins with the calm dignity of a machine that has seen things.",
+        "Experts urge the public not to stare too hard at civic infrastructure unless they are prepared to interpret a bench as an encrypted message from destiny."
+      ]
+    },
     {
       "slug": "pigeon-seen-carrying-tiny-blueprint-fans-claim-it-all-but-confirms-new-saf",
       "category": "leak",
