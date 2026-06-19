@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Thursday, June 18, 2026",
+  "updatedLabel": "Friday, June 19, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Analysts Declare Every Flamingo Statue Now ‘Clearly’ A Side Mission In Disguise",
+    "Tea Shop Receipt Allegedly Hints At New ‘Bring Your Own Biscuit’ Heist, Say Men In Cardigans",
     "Seaside Umbrella Treated As ‘Proof’ Of Hidden Jet Ski Plot, Despite Being A Bit Rude To Weather",
     "Man Spotted Feeding Coins To Parking Meter, Community Convinces It Must Be A New Side Quest",
     "Pigeon Seen Carrying Tiny Blueprint, Fans Claim It 'All But Confirms' New Safehouse With Better",
     "Analysts Say Every Sun Lounger Now Points Toward A Mystery, Which Is Either Foreshadowing Or Poor",
     "Chip Shop Napkin 'Essentially Confirms' New Heist, Say Men Who Read It Upside Down",
-    "Vice City Seagulls Now Said To Be 'Tracking The Narrative', Which Is Very Rude Of Them",
-    "Bin Lid ‘Rattles In A Manner Suggesting’ New Heist, Say Men Who Stared At It Too Long",
-    "Experts Say Vice City Skyline Has Been ‘Overthinking Itself’ For Weeks, Which Is Apparently Good"
+    "Vice City Seagulls Now Said To Be 'Tracking The Narrative', Which Is Very Rude Of Them"
   ],
   "stories": [
+    {
+      "slug": "analysts-declare-every-flamingo-statue-now-clearly-a-side-mission-in-disgu",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "LOCAL THEORY",
+      "accent": "green",
+      "title": "Analysts Declare Every Flamingo Statue Now ‘Clearly’ A Side Mission In Disguise",
+      "description": "A stern new theory suggests decorative birds are not mere decor, but a highly organised conspiracy with excellent posture.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Clive Natter, Staff Over-Interpreter",
+      "readTime": "4 min read",
+      "date": "Friday, June 19, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Vice City’s flamingo statues have become the latest object of mass speculation, after a group of enthusiasts insisted their fixed smiles are ‘too knowing to be accidental’.",
+        "The theory, published between two strong teas and one alarming spreadsheet, claims the birds are positioned in patterns that can only mean a hidden activity involving water, timing, and possibly a very rude hat.",
+        "Experts say the evidence includes the flamingos facing different directions, which is either deliberate design or a draught.",
+        "One witness told us: ‘I saw three of them and immediately felt I was being guided toward a collectible. I can’t explain why, but I had the strong sense I’d be rewarded for walking in a circle.’",
+        "Developers have not commented, mostly because they are fictional in this context and also because the flamingos have remained silent throughout."
+      ]
+    },
+    {
+      "slug": "tea-shop-receipt-allegedly-hints-at-new-bring-your-own-biscuit-heist-say-m",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "ABSOLUTELY REAL-ISH",
+      "accent": "sunset",
+      "title": "Tea Shop Receipt Allegedly Hints At New ‘Bring Your Own Biscuit’ Heist, Say Men In Cardigans",
+      "description": "A crumpled receipt has set off frantic speculation that the next big job may involve pastries, teamwork and a deeply British sense of panic.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Chalk, Correspondent At Large",
+      "readTime": "3 min read",
+      "date": "Friday, June 19, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Rumours are swirling after a tea shop receipt was photographed beside a bench, leading some to conclude that the next GTA VI heist may revolve around a biscuit-related smuggling operation.",
+        "According to the theory, the itemised list includes one tea, one jam tart, and an entry simply labelled ‘repositioning supplies’, which amateur sleuths say is unmistakably criminal.",
+        "A forum post claims the receipt’s total is ‘too neat to be a coincidence’, a point which would be stronger if it were not a receipt.",
+        "Local observers have also noted that the paper was folded into what appears to be a tiny map, or possibly just abandoned with a complete lack of dignity.",
+        "As ever, this is all nonsense assembled from crumbs, vibes and one extremely overconfident man with a ruler."
+      ]
+    },
     {
       "slug": "seaside-umbrella-treated-as-proof-of-hidden-jet-ski-plot-despite-being-a-b",
       "category": "analysis",
