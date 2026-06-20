@@ -1,21 +1,67 @@
 {
-  "updatedLabel": "Friday, June 19, 2026",
+  "updatedLabel": "Saturday, June 20, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Analysts Say A Lonely Beach Ball Has ‘Enough Narrative Weight’ To Be A Whole Mission, Somehow",
+    "Town’s Patched-Up Ice Lorry Declared ‘Critical To The Plot’ After It Played One Very Confident Tune",
     "Analysts Declare Every Flamingo Statue Now ‘Clearly’ A Side Mission In Disguise",
     "Tea Shop Receipt Allegedly Hints At New ‘Bring Your Own Biscuit’ Heist, Say Men In Cardigans",
     "Seaside Umbrella Treated As ‘Proof’ Of Hidden Jet Ski Plot, Despite Being A Bit Rude To Weather",
     "Man Spotted Feeding Coins To Parking Meter, Community Convinces It Must Be A New Side Quest",
     "Pigeon Seen Carrying Tiny Blueprint, Fans Claim It 'All But Confirms' New Safehouse With Better",
-    "Analysts Say Every Sun Lounger Now Points Toward A Mystery, Which Is Either Foreshadowing Or Poor",
-    "Chip Shop Napkin 'Essentially Confirms' New Heist, Say Men Who Read It Upside Down",
-    "Vice City Seagulls Now Said To Be 'Tracking The Narrative', Which Is Very Rude Of Them"
+    "Analysts Say Every Sun Lounger Now Points Toward A Mystery, Which Is Either Foreshadowing Or Poor"
   ],
   "stories": [
+    {
+      "slug": "analysts-say-a-lonely-beach-ball-has-enough-narrative-weight-to-be-a-whole",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TABLOID THEORIST",
+      "accent": "yellow",
+      "title": "Analysts Say A Lonely Beach Ball Has ‘Enough Narrative Weight’ To Be A Whole Mission, Somehow",
+      "description": "A serious group of internet philosophers has turned its attention to a beach ball and discovered destiny, or at least a mildly suspicious bounce pattern.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Clive Natter, Senior Biscuit",
+      "readTime": "4 min read",
+      "date": "Saturday, June 20, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Papers in a state of permanent astonishment report that a beach ball seen near the shoreline has become the latest object to be declared “deeply meaningful” by people with too much time and a magnifying glass.",
+        "According to the theory, the ball’s repeated drift toward a pier is not simple wind, but a “symbolic refusal to stay put”, which is apparently how one identifies a side mission now.",
+        "One analyst, speaking with the calm certainty of a man who has never been told no by a laminated sign, said the ball’s colours “strongly suggest a quest chain involving optimism, poor timing and a small amount of debt”.",
+        "A local dog briefly intervened, at which point the ball was described as “reacting to the environment”, which is just a posh way of saying it rolled away.",
+        "The site in question does not confirm any of this, because the site is a beach ball and cannot talk. Still, commentators remain convinced it is “doing something important”.",
+        "Experts advise everyone to stop asking the beach ball for answers, unless it starts paying council tax."
+      ]
+    },
+    {
+      "slug": "town-s-patched-up-ice-lorry-declared-critical-to-the-plot-after-it-played-",
+      "category": "local",
+      "categoryLabel": "Local chaos",
+      "badge": "EYEWITNESS NOTICE",
+      "accent": "sunset",
+      "title": "Town’s Patched-Up Ice Lorry Declared ‘Critical To The Plot’ After It Played One Very Confident Tune",
+      "description": "Residents have become convinced a cheerful ice lorry is secretly organising the entire map, simply because it turned up on time and had opinions.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Quill, Local Streets Editor",
+      "readTime": "3 min read",
+      "date": "Saturday, June 20, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A brightly painted ice lorry has sent the district into a light frenzy after arriving with a jingling tune that, according to onlookers, “felt written down in advance”.",
+        "The vehicle was seen outside a corner shop where it unloaded frozen treats with the sort of purpose usually reserved for coronations and emergency plumbing.",
+        "Witnesses immediately concluded the lorry was either hiding a mission marker or “on speaking terms with the story”, despite the only visible evidence being a polite flap of its serving hatch.",
+        "One resident claimed the melody had “a suspiciously cinematic quality”, which is a phrase people say when they are prepared to believe absolutely anything on a hot day.",
+        "Children lined up for lollies. Adults lined up for meaning. Both groups left with sticky hands and no official information whatsoever.",
+        "The lorry later departed into the sunshine, prompting claims it had “advanced the narrative”, though it may simply have gone to park illegally round the corner."
+      ]
+    },
     {
       "slug": "analysts-declare-every-flamingo-statue-now-clearly-a-side-mission-in-disgu",
       "category": "analysis",
