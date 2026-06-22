@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Sunday, June 21, 2026",
+  "updatedLabel": "Monday, June 22, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Experts Say One Crooked Deckchair Is ‘Clearly’ Preparing Us For A 40-Minute Espionage Bit",
+    "Neighbourhood Sees Bloke Repainting Scooter, Immediately Declares It A New Faction, Obviously",
     "Fishing Boat’s Soggy Logbook ‘Obviously’ Hints At A Mission About Extremely Determined Crabs",
     "Experts Insist A Neon Flamingo Sign Means The Map Is ‘Emotionally Ready’ For New Activities",
     "Analysts Say A Lonely Beach Ball Has ‘Enough Narrative Weight’ To Be A Whole Mission, Somehow",
     "Town’s Patched-Up Ice Lorry Declared ‘Critical To The Plot’ After It Played One Very Confident Tune",
     "Analysts Declare Every Flamingo Statue Now ‘Clearly’ A Side Mission In Disguise",
-    "Tea Shop Receipt Allegedly Hints At New ‘Bring Your Own Biscuit’ Heist, Say Men In Cardigans",
-    "Seaside Umbrella Treated As ‘Proof’ Of Hidden Jet Ski Plot, Despite Being A Bit Rude To Weather",
-    "Man Spotted Feeding Coins To Parking Meter, Community Convinces It Must Be A New Side Quest"
+    "Tea Shop Receipt Allegedly Hints At New ‘Bring Your Own Biscuit’ Heist, Say Men In Cardigans"
   ],
   "stories": [
+    {
+      "slug": "experts-say-one-crooked-deckchair-is-clearly-preparing-us-for-a-40-minute-",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TIDY CONJECTURE",
+      "accent": "blue",
+      "title": "Experts Say One Crooked Deckchair Is ‘Clearly’ Preparing Us For A 40-Minute Espionage Bit",
+      "description": "A perfectly ordinary deckchair has been elevated to full plot significance by people with maps and too much confidence.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel Threadbare",
+      "readTime": "3 min read",
+      "date": "Monday, June 22, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Observers on the boardwalk have identified a single deckchair leaning at what they call a ‘suspiciously narrative angle’.",
+        "According to the theory, this can only mean there is a stealth sequence, a boat scene, or at minimum someone losing their sunglasses in a meaningful way.",
+        "The deckchair in question appears to be doing nothing at all, which is exactly the sort of thing analysts describe as ‘loaded with intent’.",
+        "One commentator said the chair’s shadow points toward a nearby kiosk, proving there must be either clues, snacks, or both.",
+        "Local residents remain unconvinced, though several admitted the chair does look a bit like it knows a secret and is refusing to pay for it."
+      ]
+    },
+    {
+      "slug": "neighbourhood-sees-bloke-repainting-scooter-immediately-declares-it-a-new-",
+      "category": "local",
+      "categoryLabel": "Local chaos",
+      "badge": "BAY AREA BOTHER",
+      "accent": "sunset",
+      "title": "Neighbourhood Sees Bloke Repainting Scooter, Immediately Declares It A New Faction, Obviously",
+      "description": "A weekend touch-up on a scooter has prompted rumours of rival clubs, coded colours and at least one regrettable soundtrack.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Nettle",
+      "readTime": "2 min read",
+      "date": "Monday, June 22, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A man on a side street spent the afternoon repainting a battered scooter while being watched with the sort of intensity usually reserved for coronations.",
+        "Within minutes, speculation spread that the fresh paint must signal a hidden gang, an allegiance switch, or a very committed errand.",
+        "Several residents were heard discussing ‘the red stripe meaning trouble’ despite the stripe being, by all accounts, mostly a stripe.",
+        "A passing auntie said the whole thing looked less like a criminal underworld and more like ‘a fellow trying to make the machine less embarrassing’.",
+        "By dusk, the scooter was still just a scooter, though now with a considerable amount of backstory."
+      ]
+    },
     {
       "slug": "fishing-boat-s-soggy-logbook-obviously-hints-at-a-mission-about-extremely-",
       "category": "leak",
