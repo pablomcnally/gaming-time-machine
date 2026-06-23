@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Monday, June 22, 2026",
+  "updatedLabel": "Tuesday, June 23, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Bakery Queue Spotted Doing ‘Suspiciously Strategic’ Zig-Zag, Fans Declare It A Six-Part Heist",
+    "Analysts Think A Suspiciously Gleaming Tram Bell May Mean The Map Has Developed Opinions",
     "Experts Say One Crooked Deckchair Is ‘Clearly’ Preparing Us For A 40-Minute Espionage Bit",
     "Neighbourhood Sees Bloke Repainting Scooter, Immediately Declares It A New Faction, Obviously",
     "Fishing Boat’s Soggy Logbook ‘Obviously’ Hints At A Mission About Extremely Determined Crabs",
     "Experts Insist A Neon Flamingo Sign Means The Map Is ‘Emotionally Ready’ For New Activities",
     "Analysts Say A Lonely Beach Ball Has ‘Enough Narrative Weight’ To Be A Whole Mission, Somehow",
-    "Town’s Patched-Up Ice Lorry Declared ‘Critical To The Plot’ After It Played One Very Confident Tune",
-    "Analysts Declare Every Flamingo Statue Now ‘Clearly’ A Side Mission In Disguise",
-    "Tea Shop Receipt Allegedly Hints At New ‘Bring Your Own Biscuit’ Heist, Say Men In Cardigans"
+    "Town’s Patched-Up Ice Lorry Declared ‘Critical To The Plot’ After It Played One Very Confident Tune"
   ],
   "stories": [
+    {
+      "slug": "bakery-queue-spotted-doing-suspiciously-strategic-zig-zag-fans-declare-it-",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE? SORT OF",
+      "accent": "red",
+      "title": "Bakery Queue Spotted Doing ‘Suspiciously Strategic’ Zig-Zag, Fans Declare It A Six-Part Heist",
+      "description": "A completely made-up sighting of a bakery queue has somehow become the internet’s latest proof of a carefully choreographed criminal caper involving pastries, timing,...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "The Rumour Register",
+      "readTime": "4 min read",
+      "date": "Tuesday, June 23, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Locals allegedly observed the line outside a seaside bakery move in what witnesses described as a ‘military-grade wobble’, with one man twice circling the lamppost as if awaiting a coded crumpet.",
+        "Within minutes, amateur analysts concluded this was not a queue at all, but a highly advanced mission structure built around the logistics of jam doughnuts and trust issues.",
+        "The theory is that players will be asked to tail a suspicious sausage roll, only to discover the real objective is to ‘blend in naturally’ while pretending to like bran muffins.",
+        "No one involved has confirmed anything, because no one involved exists, and the bakery itself has reportedly denied all involvement aside from selling a frankly alarming number of iced buns.",
+        "Still, fans remain convinced the zig-zag pattern is ‘too deliberate to be coincidence’, which is also what they say every time a shopping basket has a slightly funny wheel."
+      ]
+    },
+    {
+      "slug": "analysts-think-a-suspiciously-gleaming-tram-bell-may-mean-the-map-has-deve",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "CITY WATCH",
+      "accent": "sunset",
+      "title": "Analysts Think A Suspiciously Gleaming Tram Bell May Mean The Map Has Developed Opinions",
+      "description": "A shiny tram bell has inspired a sweeping new theory that the city map in our entirely imaginary game is now emotionally invested in player behaviour, like a satnav...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "Bridget P. from the Cut-Through Desk",
+      "readTime": "3 min read",
+      "date": "Tuesday, June 23, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "After a local artist polished a tram bell to an unnerving shine, forum experts immediately identified it as symbolic evidence that the game world is ‘becoming self-aware, but politely’.",
+        "Their reasoning is as follows: if a tram bell can ring twice, then the map can presumably remember where you parked, and if it can remember that, it may also judge your outfit.",
+        "One commentator suggested this could point to a reactive neighbourhood system where shops open and close based on your mood, weather, and whether you kept reversing into bins.",
+        "Another insisted it must be a clue for a hidden route involving scenic rail crossings, three regrettable shortcuts, and a man who only communicates through shrugging.",
+        "The prevailing conclusion is that the bell is either foreshadowing a major mechanic or simply a bell doing bell things, though that has not stopped anyone from drawing arrows over a photograph of it."
+      ]
+    },
     {
       "slug": "experts-say-one-crooked-deckchair-is-clearly-preparing-us-for-a-40-minute-",
       "category": "analysis",
