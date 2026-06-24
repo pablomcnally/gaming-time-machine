@@ -1,21 +1,67 @@
 {
-  "updatedLabel": "Tuesday, June 23, 2026",
+  "updatedLabel": "Wednesday, June 24, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Experts Say One Slightly Too-Angry Seagull Is ‘Structurally Enough’ For A Whole Crime Subplot",
+    "Village Postbox Declared ‘Emotionally Loaded’ After It Refused To Shut Properly",
     "Bakery Queue Spotted Doing ‘Suspiciously Strategic’ Zig-Zag, Fans Declare It A Six-Part Heist",
     "Analysts Think A Suspiciously Gleaming Tram Bell May Mean The Map Has Developed Opinions",
     "Experts Say One Crooked Deckchair Is ‘Clearly’ Preparing Us For A 40-Minute Espionage Bit",
     "Neighbourhood Sees Bloke Repainting Scooter, Immediately Declares It A New Faction, Obviously",
     "Fishing Boat’s Soggy Logbook ‘Obviously’ Hints At A Mission About Extremely Determined Crabs",
-    "Experts Insist A Neon Flamingo Sign Means The Map Is ‘Emotionally Ready’ For New Activities",
-    "Analysts Say A Lonely Beach Ball Has ‘Enough Narrative Weight’ To Be A Whole Mission, Somehow",
-    "Town’s Patched-Up Ice Lorry Declared ‘Critical To The Plot’ After It Played One Very Confident Tune"
+    "Experts Insist A Neon Flamingo Sign Means The Map Is ‘Emotionally Ready’ For New Activities"
   ],
   "stories": [
+    {
+      "slug": "experts-say-one-slightly-too-angry-seagull-is-structurally-enough-for-a-wh",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TEA LEAF ANALYSIS",
+      "accent": "blue",
+      "title": "Experts Say One Slightly Too-Angry Seagull Is ‘Structurally Enough’ For A Whole Crime Subplot",
+      "description": "A new wave of armchair experts insist a single cross-looking seagull has the sort of energy usually reserved for a three-act mission chain and a regrettable getaway.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Clive T. Boggle, Correspondent",
+      "readTime": "4 min read",
+      "date": "Wednesday, June 24, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The bird in question was observed standing on a bin with the air of a man who has just realised he left the oven on and the car running.",
+        "Analysts said the seagull’s posture suggested either deep tactical thought or a personal grievance against the chip wrapper industry.",
+        "“You don’t perch like that unless you’re guarding something,” explained one local gentleman, while buying a pasty and pretending not to be in a rush.",
+        "Other observers pointed out that the seagull had made three separate dramatic head turns, which in rumour-speak means the map is “absolutely brimming with intrigue”.",
+        "There is, naturally, no evidence of a plot, but the internet has already assigned the bird a codename, a backstory, and a minor theme tune on harmonica.",
+        "At press time, the seagull had flown off, leaving behind only one feather and a scene of complete overreaction."
+      ]
+    },
+    {
+      "slug": "village-postbox-declared-emotionally-loaded-after-it-refused-to-shut-prope",
+      "category": "local",
+      "categoryLabel": "Local chaos",
+      "badge": "LOCAL INTEL, PROBABLY",
+      "accent": "yellow",
+      "title": "Village Postbox Declared ‘Emotionally Loaded’ After It Refused To Shut Properly",
+      "description": "Residents have convinced themselves that a stubborn postbox flap is secretly setting up a whole new bit of map behaviour, despite being plainly faulty in the usual way.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Marjorie Wimple, Staff Writer",
+      "readTime": "3 min read",
+      "date": "Wednesday, June 24, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The postbox, located beside a café that sells soup and opinions, has been opening with the grim determination of a pensioner late for bingo.",
+        "Locals say the flap’s awkward bounce makes it look “intentional”, which in a modern rumour environment is the same as proof.",
+        "One passer-by claimed the box “sounded scripted”, though this may simply have been the sound of a letter getting lodged in the mechanism.",
+        "A second witness, armed with a phone camera and far too much confidence, suggested the box could be hiding “a supply route, a clue route or, at minimum, a very smug pigeon”.",
+        "The council has reportedly not issued a statement, which has only intensified theories that the postbox is “being kept quiet on purpose”.",
+        "Experts remain divided, though all agree the flap is, at the very least, committed to the role."
+      ]
+    },
     {
       "slug": "bakery-queue-spotted-doing-suspiciously-strategic-zig-zag-fans-declare-it-",
       "category": "leak",
