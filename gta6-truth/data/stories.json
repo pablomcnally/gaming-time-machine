@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Wednesday, June 24, 2026",
+  "updatedLabel": "Thursday, June 25, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Pigeons Seen Running a Careful Syndicate Behind the Arcade, Allegedly Teasing a ‘Very Feathered’",
+    "Analysts Conclude A Slightly Menacing Ice Cream Van Must Be Hiding Plot, Because It Played the",
     "Experts Say One Slightly Too-Angry Seagull Is ‘Structurally Enough’ For A Whole Crime Subplot",
     "Village Postbox Declared ‘Emotionally Loaded’ After It Refused To Shut Properly",
     "Bakery Queue Spotted Doing ‘Suspiciously Strategic’ Zig-Zag, Fans Declare It A Six-Part Heist",
     "Analysts Think A Suspiciously Gleaming Tram Bell May Mean The Map Has Developed Opinions",
     "Experts Say One Crooked Deckchair Is ‘Clearly’ Preparing Us For A 40-Minute Espionage Bit",
-    "Neighbourhood Sees Bloke Repainting Scooter, Immediately Declares It A New Faction, Obviously",
-    "Fishing Boat’s Soggy Logbook ‘Obviously’ Hints At A Mission About Extremely Determined Crabs",
-    "Experts Insist A Neon Flamingo Sign Means The Map Is ‘Emotionally Ready’ For New Activities"
+    "Neighbourhood Sees Bloke Repainting Scooter, Immediately Declares It A New Faction, Obviously"
   ],
   "stories": [
+    {
+      "slug": "pigeons-seen-running-a-careful-syndicate-behind-the-arcade-allegedly-teasi",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "RUMOUR",
+      "accent": "sunset",
+      "title": "Pigeons Seen Running a Careful Syndicate Behind the Arcade, Allegedly Teasing a ‘Very Feathered’",
+      "description": "A completely made-up ‘insider’ sighting claims the local pigeons have developed suspicious timing, leading fans to conclude the birds are either plotting a job or...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By N. T. Gable",
+      "readTime": "3 min read",
+      "date": "Thursday, June 25, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "According to no one in particular, a small gang of pigeons has been spotted taking turns on a phone wire outside a shuttered arcade, which is exactly the sort of thing people on the internet call ‘proof’.",
+        "The birds were seen arriving in a formation so tidy it was described by one witness as ‘basically a business meeting, but with more necks’.",
+        "Rumour merchants immediately declared the flock to be a new in-game faction, possibly specialising in reconnaissance, bread theft, and the sort of passive-aggressive staring that only pigeons can manage.",
+        "A much-discussed detail is the alleged presence of one pigeon with a tiny red ankle tag, which fans have decided is either a quest marker or a symbol of very formal bird politics.",
+        "Nobody involved has confirmed anything, obviously, because there is nothing to confirm. But that has not stopped the theory mill from announcing the birds will be 'important to the weather system' in a manner best left unexplained."
+      ]
+    },
+    {
+      "slug": "analysts-conclude-a-slightly-menacing-ice-cream-van-must-be-hiding-plot-be",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TAKE",
+      "accent": "green",
+      "title": "Analysts Conclude A Slightly Menacing Ice Cream Van Must Be Hiding Plot, Because It Played the",
+      "description": "Our wholly imaginary experts have examined a rumoured ice cream van and decided its questionable melody is, naturally, a sign of deeper narrative machinery at work.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Celia Wren",
+      "readTime": "4 min read",
+      "date": "Thursday, June 25, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A fictional analysis desk has looked into reports of an ice cream van that allegedly plays one cheerful tune and then, with no warning at all, a second tune that sounds mildly disappointed.",
+        "This was enough for several commentators to announce that the van is ‘doing symbolism’, which in the games media industry is broadly how people say ‘we have run out of normal things to say’.",
+        "The theory goes that the vehicle will operate as a roaming meeting point, escape ride, or possibly an audio clue for something involving shaved ice, fake moustaches, or both.",
+        "One expert, speaking with the confidence of a man standing near a printer, suggested the van’s route may be tied to ‘dynamic street economy systems’, a phrase which means nothing and therefore sounds believable.",
+        "The article concludes, as all such articles must, that a harmless roadside novelty is probably the gateway to six missions, two collectibles, and one extremely stern driver who refuses to turn the volume down."
+      ]
+    },
     {
       "slug": "experts-say-one-slightly-too-angry-seagull-is-structurally-enough-for-a-wh",
       "category": "analysis",
