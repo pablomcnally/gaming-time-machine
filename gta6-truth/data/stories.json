@@ -1,21 +1,67 @@
 {
-  "updatedLabel": "Saturday, June 27, 2026",
+  "updatedLabel": "Sunday, June 28, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Experts Say A Mildly Narky Traffic Cone Is ‘Clearly’ Hinting At A Whole Vice Plot",
+    "Residents Alarmed As A Seagull Forms What Appears To Be A Small But Confident Employee Union",
     "Analysts Say A Slightly Judgemental Car Wash Foam Cannon Is ‘Obviously’ Foreshadowing A Whole",
     "Residents Report A Biscuit Tin On The Bus Route Is Acting ‘Far Too Plot-Relevant’ For A Tin Of",
     "Analysts Declare A Slightly Offensive Garden Gnome Is 'Clearly' Plot-Adjacent, Because It Keeps",
     "Very Serious Sources Report A Vanishing Chip Shop Queue Has Become 'Too Organised To Ignore'",
     "Pigeons Seen Running a Careful Syndicate Behind the Arcade, Allegedly Teasing a ‘Very Feathered’",
-    "Analysts Conclude A Slightly Menacing Ice Cream Van Must Be Hiding Plot, Because It Played the",
-    "Experts Say One Slightly Too-Angry Seagull Is ‘Structurally Enough’ For A Whole Crime Subplot",
-    "Village Postbox Declared ‘Emotionally Loaded’ After It Refused To Shut Properly"
+    "Analysts Conclude A Slightly Menacing Ice Cream Van Must Be Hiding Plot, Because It Played the"
   ],
   "stories": [
+    {
+      "slug": "experts-say-a-mildly-narky-traffic-cone-is-clearly-hinting-at-a-whole-vice",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TABLOID THEORY",
+      "accent": "yellow",
+      "title": "Experts Say A Mildly Narky Traffic Cone Is ‘Clearly’ Hinting At A Whole Vice Plot",
+      "description": "Our panel of local overthinkers examine one cone with ambition and conclude it has main-character energy.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Derek P. Waffle",
+      "readTime": "4 min read",
+      "date": "Sunday, June 28, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A single traffic cone near a roundabout has been spotted leaning at what witnesses described as ‘an opinionated angle’.",
+        "Within minutes, analysts had declared it ‘symbolic’, ‘narratively loaded’ and, in one case, ‘basically a character with tax problems’.",
+        "The cone, which is orange in the way all cones are orange, has been seen near a puddle, a lamppost and a sausage roll wrapper, leading some to believe it is part of a very serious urban conspiracy.",
+        "‘You don’t just place a cone like that unless the story is about to start getting ideas above its station,’ said one neighbour, adjusting a sandwich.",
+        "Experts have since explained that the cone may simply be a cone, but this has not stopped the internet from assigning it a tragic backstory, a rival and a theme tune.",
+        "As ever, the map remains quiet, except for the bit where it is apparently being extremely obvious in a subtle way."
+      ]
+    },
+    {
+      "slug": "residents-alarmed-as-a-seagull-forms-what-appears-to-be-a-small-but-confid",
+      "category": "local",
+      "categoryLabel": "Local chaos",
+      "badge": "LOCAL CHAOS",
+      "accent": "green",
+      "title": "Residents Alarmed As A Seagull Forms What Appears To Be A Small But Confident Employee Union",
+      "description": "Bird watchers, chip shop staff and one bewildered cyclist all weigh in on the gull’s suspiciously organised clipboard behaviour.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Maureen F. Trolley",
+      "readTime": "3 min read",
+      "date": "Sunday, June 28, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A seagull on the harbour front has been observed pacing in a circle, staring at passers-by and, crucially, refusing to look unimportant.",
+        "Witnesses claim the bird was seen standing on a bollard as if preparing a memo, before briefly pecking a newspaper and walking off with the air of middle management.",
+        "‘It had the posture of someone expecting a meeting that could have been an email,’ said one local, who has now begun avoiding eye contact with birds generally.",
+        "Nearby chip shop workers say the gull has not stolen any chips, but has instead been ‘morally appraising’ the queue, which many consider worse.",
+        "The bird was later joined by two more seagulls, one of whom brought what appeared to be a crisp packet and a sense of purpose.",
+        "Experts say the behaviour is almost certainly normal seaside nonsense, though that has not stopped residents insisting the whole coastline is now one disagreement away from a very feathered takeover."
+      ]
+    },
     {
       "slug": "analysts-say-a-slightly-judgemental-car-wash-foam-cannon-is-obviously-fore",
       "category": "analysis",
