@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Sunday, June 28, 2026",
+  "updatedLabel": "Monday, June 29, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Analysts Insist A Wobbly Pedalo Lantern Is ‘Obviously’ Setting Up A Very Serious Underwater Mood",
+    "Residents Panic Slightly As A Suspiciously Self-Assured Hotdog Mascot Starts Directing Traffic",
     "Experts Say A Mildly Narky Traffic Cone Is ‘Clearly’ Hinting At A Whole Vice Plot",
     "Residents Alarmed As A Seagull Forms What Appears To Be A Small But Confident Employee Union",
     "Analysts Say A Slightly Judgemental Car Wash Foam Cannon Is ‘Obviously’ Foreshadowing A Whole",
     "Residents Report A Biscuit Tin On The Bus Route Is Acting ‘Far Too Plot-Relevant’ For A Tin Of",
     "Analysts Declare A Slightly Offensive Garden Gnome Is 'Clearly' Plot-Adjacent, Because It Keeps",
-    "Very Serious Sources Report A Vanishing Chip Shop Queue Has Become 'Too Organised To Ignore'",
-    "Pigeons Seen Running a Careful Syndicate Behind the Arcade, Allegedly Teasing a ‘Very Feathered’",
-    "Analysts Conclude A Slightly Menacing Ice Cream Van Must Be Hiding Plot, Because It Played the"
+    "Very Serious Sources Report A Vanishing Chip Shop Queue Has Become 'Too Organised To Ignore'"
   ],
   "stories": [
+    {
+      "slug": "analysts-insist-a-wobbly-pedalo-lantern-is-obviously-setting-up-a-very-ser",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "FIELD REPORT",
+      "accent": "blue",
+      "title": "Analysts Insist A Wobbly Pedalo Lantern Is ‘Obviously’ Setting Up A Very Serious Underwater Mood",
+      "description": "Experts have once again peered at a cheerful bit of seaside tat and declared it a thesis statement.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel Plimpton, Loose-End Correspondent",
+      "readTime": "3 min read",
+      "date": "Monday, June 29, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The lantern in question is a bit bent, a bit smug, and definitely not trying to be a major clue, which is how people know it is one.",
+        "According to the internet’s more theatrical corners, the lantern’s gentle bobbing means the map is “full of symbolic tide energy”, whatever that means before lunch.",
+        "Locals were less convinced. One man said it looked like “a lamp that had lost a disagreement with a pier,” which frankly is the kind of professional analysis we need more of.",
+        "Still, the theorists remain delighted. They say the lantern’s flicker is proof of hidden routes, secret coves, and possibly a side mission involving a very damp argument.",
+        "No official confirmation has been offered, because this is a seaside lantern and not a magistrate."
+      ]
+    },
+    {
+      "slug": "residents-panic-slightly-as-a-suspiciously-self-assured-hotdog-mascot-star",
+      "category": "local",
+      "categoryLabel": "Local chaos",
+      "badge": "COMMUNITY DESK",
+      "accent": "sunset",
+      "title": "Residents Panic Slightly As A Suspiciously Self-Assured Hotdog Mascot Starts Directing Traffic",
+      "description": "A brightly dressed civic nuisance has been seen waving cars around with the confidence of a man who has never paid a parking ticket in his life.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Waffle, South Vice Bureau",
+      "readTime": "4 min read",
+      "date": "Monday, June 29, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Shoppers near the promenade reported seeing a hotdog mascot standing in the road like it owned the borough and at least two thirds of the asphalt.",
+        "Witnesses say the mascot began gesturing at taxis, cyclists and one confused pensioner with a clipboard, all while nodding as though it had a five-year plan.",
+        "A local takeaway owner said the whole thing was “oddly efficient,” which is not the usual review you want for public safety.",
+        "Rumour-minded residents immediately took this as evidence of a hidden faction, an elaborate convoy system, or the return of something called “the mustard boys,” which no one has been able to define.",
+        "Authorities have advised the public to ignore mascots directing traffic unless they appear to have a whistle, a clipboard, and an alarming amount of purpose."
+      ]
+    },
     {
       "slug": "experts-say-a-mildly-narky-traffic-cone-is-clearly-hinting-at-a-whole-vice",
       "category": "analysis",
