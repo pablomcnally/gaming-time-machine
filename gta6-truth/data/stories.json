@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Monday, June 29, 2026",
+  "updatedLabel": "Tuesday, June 30, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Analysts Say A Suspiciously Confident Dolphin Statue Is “Clearly” Teasing A Very Serious Waterfront",
+    "Residents Slightly Rattled As A Very Neat Flamingo Crossing Sign Begins Acting Like It Runs The",
     "Analysts Insist A Wobbly Pedalo Lantern Is ‘Obviously’ Setting Up A Very Serious Underwater Mood",
     "Residents Panic Slightly As A Suspiciously Self-Assured Hotdog Mascot Starts Directing Traffic",
     "Experts Say A Mildly Narky Traffic Cone Is ‘Clearly’ Hinting At A Whole Vice Plot",
     "Residents Alarmed As A Seagull Forms What Appears To Be A Small But Confident Employee Union",
     "Analysts Say A Slightly Judgemental Car Wash Foam Cannon Is ‘Obviously’ Foreshadowing A Whole",
-    "Residents Report A Biscuit Tin On The Bus Route Is Acting ‘Far Too Plot-Relevant’ For A Tin Of",
-    "Analysts Declare A Slightly Offensive Garden Gnome Is 'Clearly' Plot-Adjacent, Because It Keeps",
-    "Very Serious Sources Report A Vanishing Chip Shop Queue Has Become 'Too Organised To Ignore'"
+    "Residents Report A Biscuit Tin On The Bus Route Is Acting ‘Far Too Plot-Relevant’ For A Tin Of"
   ],
   "stories": [
+    {
+      "slug": "analysts-say-a-suspiciously-confident-dolphin-statue-is-clearly-teasing-a-",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "EXCLUSIVE? SORT OF",
+      "accent": "blue",
+      "title": "Analysts Say A Suspiciously Confident Dolphin Statue Is “Clearly” Teasing A Very Serious Waterfront",
+      "description": "A gleaming dolphin ornament has been spotted near the marina, and some observers are already behaving like it’s the final key to the whole game.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "M. Wobbles, Entertainment Desk",
+      "readTime": "4 min read",
+      "date": "Tuesday, June 30, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "According to a completely non-official reading of one very shiny dolphin statue, the object is “doing too much” to be ignored.",
+        "Experts, meaning three people and one sandwich, say the statue’s grin is either a warning, a clue, or evidence that somebody in Vice City has been given too much freedom with decorative budgets.",
+        "The dolphin appears to be pointing at the water in a way that has been described as “plot-adjacent” and “a bit know-all.” This has naturally led to theories involving secret docks, moonlit boat deals and one emotionally complicated jet ski.",
+        "No one involved is claiming this is real information. It is simply a dolphin that has, against all odds, developed main-character energy.",
+        "If the statue turns out to do absolutely nothing, analysts say they will still insist it was “setting the tone.”"
+      ]
+    },
+    {
+      "slug": "residents-slightly-rattled-as-a-very-neat-flamingo-crossing-sign-begins-ac",
+      "category": "local",
+      "categoryLabel": "Local chaos",
+      "badge": "LOCAL FUSS",
+      "accent": "red",
+      "title": "Residents Slightly Rattled As A Very Neat Flamingo Crossing Sign Begins Acting Like It Runs The",
+      "description": "A plastic flamingo sign has caused a modest amount of panic, mostly because it looks confident and has excellent posture.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "D. Featherstone, Local Correspondent",
+      "readTime": "3 min read",
+      "date": "Tuesday, June 30, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Citizens in one sun-blasted corner of the map have reported that a flamingo-themed crossing sign is carrying itself with an attitude usually reserved for nightclub doormen and school governors.",
+        "Witnesses say the sign’s stance is “oddly managerial,” with one local claiming it has been “sending people across with confidence, like it owns the pavement.”",
+        "The sign itself, being inanimate and famously unhelpful, has declined to comment. Nevertheless, rumours have spread that it is secretly directing the flow of pedestrians, scooters and at least one confused man with shopping bags.",
+        "Some locals have begun crossing the road just to avoid making eye contact with it. Others say the flamingo is merely bringing “strong summer energy” to the district, which is fair enough.",
+        "Either way, the neighbourhood now treats the sign as if it might start charging rent."
+      ]
+    },
     {
       "slug": "analysts-insist-a-wobbly-pedalo-lantern-is-obviously-setting-up-a-very-ser",
       "category": "analysis",
