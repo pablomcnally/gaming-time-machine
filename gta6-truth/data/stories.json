@@ -1,21 +1,67 @@
 {
-  "updatedLabel": "Tuesday, June 30, 2026",
+  "updatedLabel": "Wednesday, July 1, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Analysts Reckon A Moody Bus Shelter Bench Is “Obviously” Plotting A Very Serious Rainy-Day Crisis",
+    "Residents Slightly Flummoxed As A Highly Ambitious Pelican Begins Acting Like It Owns The Marina",
     "Analysts Say A Suspiciously Confident Dolphin Statue Is “Clearly” Teasing A Very Serious Waterfront",
     "Residents Slightly Rattled As A Very Neat Flamingo Crossing Sign Begins Acting Like It Runs The",
     "Analysts Insist A Wobbly Pedalo Lantern Is ‘Obviously’ Setting Up A Very Serious Underwater Mood",
     "Residents Panic Slightly As A Suspiciously Self-Assured Hotdog Mascot Starts Directing Traffic",
     "Experts Say A Mildly Narky Traffic Cone Is ‘Clearly’ Hinting At A Whole Vice Plot",
-    "Residents Alarmed As A Seagull Forms What Appears To Be A Small But Confident Employee Union",
-    "Analysts Say A Slightly Judgemental Car Wash Foam Cannon Is ‘Obviously’ Foreshadowing A Whole",
-    "Residents Report A Biscuit Tin On The Bus Route Is Acting ‘Far Too Plot-Relevant’ For A Tin Of"
+    "Residents Alarmed As A Seagull Forms What Appears To Be A Small But Confident Employee Union"
   ],
   "stories": [
+    {
+      "slug": "analysts-reckon-a-moody-bus-shelter-bench-is-obviously-plotting-a-very-ser",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "Tavern Maths",
+      "accent": "yellow",
+      "title": "Analysts Reckon A Moody Bus Shelter Bench Is “Obviously” Plotting A Very Serious Rainy-Day Crisis",
+      "description": "Experts insist the bench’s positioning, posture, and general cheek suggest a major storyline about waiting, regret, and possibly sandwiches.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "Clive Nettle, Staff Scribbler",
+      "readTime": "4 min read",
+      "date": "Wednesday, July 1, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A profoundly ordinary bus shelter bench has sent the rumour mill into a gentle but persistent wobble after apparently looking “too purposeful” in a blurry in-game snap.",
+        "Local analysts, who mostly specialise in reading far too much into things, say the bench’s suspiciously straight backrest and dramatic angle toward the road can only mean one thing: plot.",
+        "“No bench just sits there like that by accident,” said one enthusiast, adjusting a tie that had no business being this excited. “That is the posture of a bench with backstory.”",
+        "The theory suggests the seat may be tied to a thunderously important rain-soaked mission involving missed buses, emotional revelations, and at least one person standing in drizzle while making a point.",
+        "Sceptics have noted the bench is, in fact, a bench. The analysts countered this by staring at it more intensely.",
+        "Meanwhile, residents remain divided between those who think it is teasing a major moment and those who simply want somewhere dry to sit without being drafted into a theory thread."
+      ]
+    },
+    {
+      "slug": "residents-slightly-flummoxed-as-a-highly-ambitious-pelican-begins-acting-l",
+      "category": "local",
+      "categoryLabel": "Local chaos",
+      "badge": "Neighbourhood Natter",
+      "accent": "green",
+      "title": "Residents Slightly Flummoxed As A Highly Ambitious Pelican Begins Acting Like It Owns The Marina",
+      "description": "A local bird has developed what witnesses describe as ‘management energy’, raising questions about waterfront hierarchy and who exactly approved the sunglasses.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "Mavis Quill, Coastal Correspondent",
+      "readTime": "3 min read",
+      "date": "Wednesday, July 1, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Marina regulars say a pelican with far too much confidence has been pacing the waterfront like it pays rent, sparking fresh gossip about whether the bird is part of the game’s next great seaside nonsense.",
+        "Witnesses reported the pelican perching on signposts, staring at boats, and making one elderly man feel as if he had forgotten a membership card.",
+        "“It had the air of a fellow who knows where the keys are,” said one onlooker. “Not necessarily a bad bird. Just administratively intense.”",
+        "The local rumour, naturally, is that the pelican’s behaviour must point to some kind of future mission, hidden faction, or at minimum a very stern cutscene about fish.",
+        "No official confirmation was offered, because this is a newspaper column about a bird, and not remotely the sort of place one should expect official anything.",
+        "Still, the pelican has reportedly continued its circuit of the marina, maintaining eye contact with everyone and absolutely nobody winning that exchange."
+      ]
+    },
     {
       "slug": "analysts-say-a-suspiciously-confident-dolphin-statue-is-clearly-teasing-a-",
       "category": "analysis",
