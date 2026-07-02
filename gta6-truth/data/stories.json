@@ -1,21 +1,66 @@
 {
-  "updatedLabel": "Wednesday, July 1, 2026",
+  "updatedLabel": "Thursday, July 2, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Analysts Say A Slightly Pompous Golf Cart Is ‘Obviously’ Rehearsing For A Very Serious Coastal",
+    "Residents Slightly Bewildered As A Chips Van Starts Taking The Long Way Round Every Roundabout",
     "Analysts Reckon A Moody Bus Shelter Bench Is “Obviously” Plotting A Very Serious Rainy-Day Crisis",
     "Residents Slightly Flummoxed As A Highly Ambitious Pelican Begins Acting Like It Owns The Marina",
     "Analysts Say A Suspiciously Confident Dolphin Statue Is “Clearly” Teasing A Very Serious Waterfront",
     "Residents Slightly Rattled As A Very Neat Flamingo Crossing Sign Begins Acting Like It Runs The",
     "Analysts Insist A Wobbly Pedalo Lantern Is ‘Obviously’ Setting Up A Very Serious Underwater Mood",
-    "Residents Panic Slightly As A Suspiciously Self-Assured Hotdog Mascot Starts Directing Traffic",
-    "Experts Say A Mildly Narky Traffic Cone Is ‘Clearly’ Hinting At A Whole Vice Plot",
-    "Residents Alarmed As A Seagull Forms What Appears To Be A Small But Confident Employee Union"
+    "Residents Panic Slightly As A Suspiciously Self-Assured Hotdog Mascot Starts Directing Traffic"
   ],
   "stories": [
+    {
+      "slug": "analysts-say-a-slightly-pompous-golf-cart-is-obviously-rehearsing-for-a-ve",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TABLOID ANALYSIS",
+      "accent": "blue",
+      "title": "Analysts Say A Slightly Pompous Golf Cart Is ‘Obviously’ Rehearsing For A Very Serious Coastal",
+      "description": "Experts insist the little cart’s enormous confidence points to a complicated Vice City side hustle involving umbrellas, snacks and one deeply suspicious map holder.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By M. T. Widdershins",
+      "readTime": "3 min read",
+      "date": "Thursday, July 2, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A remarkably self-important golf cart has been seen drifting around the coastal roads with the sort of confidence usually reserved for men who call everyone “mate” and then immediately invoice them.",
+        "Witnesses claim the cart has been circling beachside car parks, pausing for no reason at all, and glaring at nearby cones as if they are competition.",
+        "One analyst, wearing sunglasses indoors for legal reasons, said this is “clearly not just transport, but a narrative device with wheels.”",
+        "The cart was also observed carrying a folded beach umbrella, two soft drinks, and what appeared to be a map marked with three questionably smug circles.",
+        "Locals have interpreted this as evidence of an elaborate Vice City thread involving leisure, logistics and a level of planning no one fully trusts.",
+        "Experts remain split on whether the cart is a clue, a joke, or simply enjoying itself far too much for something with such tiny tyres."
+      ]
+    },
+    {
+      "slug": "residents-slightly-bewildered-as-a-chips-van-starts-taking-the-long-way-ro",
+      "category": "local",
+      "categoryLabel": "Local chaos",
+      "badge": "LOCAL NOISE",
+      "accent": "red",
+      "title": "Residents Slightly Bewildered As A Chips Van Starts Taking The Long Way Round Every Roundabout",
+      "description": "A very ordinary takeaway vehicle has reportedly developed a dramatic route preference, leading to concern, admiration and one man insisting it is “up to something...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By P. L. Weatherby",
+      "readTime": "2 min read",
+      "date": "Thursday, July 2, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A chips van in the seaside district has begun taking scenic detours around every roundabout, despite being visibly late and aggressively full of vinegar.",
+        "Eyewitnesses say the van now slows at junctions as though reflecting on its life choices, then accelerates with the confidence of someone who knows a shortcut but refuses to share it.",
+        "One resident declared the vehicle “suspiciously committed to atmosphere,” while another said the van has the energy of a bloke who says he is just popping out for paper and returns in three hours.",
+        "Some have read the behaviour as a sign of hidden mission logic, though others believe the driver simply hates left turns and has never forgiven geometry.",
+        "Either way, the chips remain hot, the route remains baffling, and the whole district now treats the van like a minor celebrity with fry-based secrets."
+      ]
+    },
     {
       "slug": "analysts-reckon-a-moody-bus-shelter-bench-is-obviously-plotting-a-very-ser",
       "category": "analysis",
