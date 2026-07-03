@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Thursday, July 2, 2026",
+  "updatedLabel": "Friday, July 3, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Analysts Say A Very Serious Sun Umbrella Is ‘Obviously’ Preparing For A Grand Sentimental Meltdown",
+    "Residents Slightly Perplexed As A Ferret In Sunglasses Starts Giving Directions To Delivery Vans",
     "Analysts Say A Slightly Pompous Golf Cart Is ‘Obviously’ Rehearsing For A Very Serious Coastal",
     "Residents Slightly Bewildered As A Chips Van Starts Taking The Long Way Round Every Roundabout",
     "Analysts Reckon A Moody Bus Shelter Bench Is “Obviously” Plotting A Very Serious Rainy-Day Crisis",
     "Residents Slightly Flummoxed As A Highly Ambitious Pelican Begins Acting Like It Owns The Marina",
     "Analysts Say A Suspiciously Confident Dolphin Statue Is “Clearly” Teasing A Very Serious Waterfront",
-    "Residents Slightly Rattled As A Very Neat Flamingo Crossing Sign Begins Acting Like It Runs The",
-    "Analysts Insist A Wobbly Pedalo Lantern Is ‘Obviously’ Setting Up A Very Serious Underwater Mood",
-    "Residents Panic Slightly As A Suspiciously Self-Assured Hotdog Mascot Starts Directing Traffic"
+    "Residents Slightly Rattled As A Very Neat Flamingo Crossing Sign Begins Acting Like It Runs The"
   ],
   "stories": [
+    {
+      "slug": "analysts-say-a-very-serious-sun-umbrella-is-obviously-preparing-for-a-gran",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "PARK BENCH WATCH",
+      "accent": "blue",
+      "title": "Analysts Say A Very Serious Sun Umbrella Is ‘Obviously’ Preparing For A Grand Sentimental Meltdown",
+      "description": "A shady seafront umbrella has apparently developed the bearing of a retired diplomat, prompting experts to declare it “plotting something emotionally important”.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "M. P. Wetherby",
+      "readTime": "4 min read",
+      "date": "Friday, July 3, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Observers in the fictional Vice State have reported that one sun umbrella, positioned beside a café that sells suspiciously expensive lemonade, has begun tilting at what locals describe as “a very considered angle”.",
+        "It is understood to have spent most of the afternoon casting shade over a bench, a milkshake, and one man who was only trying to read a map.",
+        "Analysts, speaking with the kind of certainty usually reserved for weather forecasts and sandwich arguments, say the umbrella is “clearly setting up a big heartfelt reveal”.",
+        "One theory suggests it may be covering for a dramatic reunion. Another claims it simply dislikes sunburn and has become oddly committed to the bit.",
+        "Either way, residents have been advised not to make eye contact, as the umbrella appears to be in the middle of a serious narrative phase."
+      ]
+    },
+    {
+      "slug": "residents-slightly-perplexed-as-a-ferret-in-sunglasses-starts-giving-direc",
+      "category": "local",
+      "categoryLabel": "Local chaos",
+      "badge": "ROUNDABOUT GAZETTE",
+      "accent": "sunset",
+      "title": "Residents Slightly Perplexed As A Ferret In Sunglasses Starts Giving Directions To Delivery Vans",
+      "description": "A small ferret with excellent eyewear has allegedly been seen conducting traffic like a pocket-sized logistics manager.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "D. Bellamy",
+      "readTime": "3 min read",
+      "date": "Friday, July 3, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Locals near the harbour say a ferret wearing tiny sunglasses has spent the week pointing at vans, then at signs, then at its own tail, as though running a transport empire from a drainage pipe.",
+        "Delivery drivers, who had been expecting a simple parcel drop, now report being sent on “a scenic route with intent”.",
+        "Witnesses insist the ferret is not merely confused. It appears to know exactly where every box ought to go, and is deeply unimpressed when anyone parks badly.",
+        "Some say the animal has become the unofficial mayor of a very small industrial estate. Others believe it is training for a promotion nobody else understands.",
+        "Council staff declined to comment, though one was heard muttering that the ferret has “better organisational skills than half the office”."
+      ]
+    },
     {
       "slug": "analysts-say-a-slightly-pompous-golf-cart-is-obviously-rehearsing-for-a-ve",
       "category": "analysis",
