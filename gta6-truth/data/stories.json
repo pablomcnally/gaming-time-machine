@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Friday, July 3, 2026",
+  "updatedLabel": "Saturday, July 4, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "Leaked Footage Shows A Very Important Bin Liner Apparently Training For Emotional Lift-Off",
+    "Analysts Conclude A Very Fussy Parking Meter Is Clearly Preparing A Strong Narrative Arc",
     "Analysts Say A Very Serious Sun Umbrella Is ‘Obviously’ Preparing For A Grand Sentimental Meltdown",
     "Residents Slightly Perplexed As A Ferret In Sunglasses Starts Giving Directions To Delivery Vans",
     "Analysts Say A Slightly Pompous Golf Cart Is ‘Obviously’ Rehearsing For A Very Serious Coastal",
     "Residents Slightly Bewildered As A Chips Van Starts Taking The Long Way Round Every Roundabout",
     "Analysts Reckon A Moody Bus Shelter Bench Is “Obviously” Plotting A Very Serious Rainy-Day Crisis",
-    "Residents Slightly Flummoxed As A Highly Ambitious Pelican Begins Acting Like It Owns The Marina",
-    "Analysts Say A Suspiciously Confident Dolphin Statue Is “Clearly” Teasing A Very Serious Waterfront",
-    "Residents Slightly Rattled As A Very Neat Flamingo Crossing Sign Begins Acting Like It Runs The"
+    "Residents Slightly Flummoxed As A Highly Ambitious Pelican Begins Acting Like It Owns The Marina"
   ],
   "stories": [
+    {
+      "slug": "leaked-footage-shows-a-very-important-bin-liner-apparently-training-for-em",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE-ish",
+      "accent": "sunset",
+      "title": "Leaked Footage Shows A Very Important Bin Liner Apparently Training For Emotional Lift-Off",
+      "description": "A fresh batch of entirely imaginary “footage” has convinced nobody sensible that a bin liner may be preparing for dramatic public self-esteem.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "M. T. Sassington",
+      "readTime": "4 min read",
+      "date": "Saturday, July 4, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "According to sources who definitely live inside the nearest decorative hedge, the bin liner in question was seen swelling with purpose beside a café on the waterfront.",
+        "Observers claim it performed three separate rustles, which local analysts have described as “the unmistakable sound of ambition getting stuck in a breeze.”",
+        "One onlooker said the liner appeared to be “working through some things” before leaning against a scooter and making a shape that looked, frankly, a bit managerial.",
+        "The supposed footage also includes a brief moment where the liner catches the wind and seems to rise half an inch, prompting wild speculation that it is “testing a launch sequence” for future bins.",
+        "Nobody involved has confirmed anything, which is exactly what makes this all feel hugely believable in the least believable way possible."
+      ]
+    },
+    {
+      "slug": "analysts-conclude-a-very-fussy-parking-meter-is-clearly-preparing-a-strong",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "FULL OF IT",
+      "accent": "blue",
+      "title": "Analysts Conclude A Very Fussy Parking Meter Is Clearly Preparing A Strong Narrative Arc",
+      "description": "Experts have spent far too long staring at a parking meter and have now decided it is, in fact, on the brink of something important.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "C. Buttons",
+      "readTime": "5 min read",
+      "date": "Saturday, July 4, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The meter was spotted standing beside a sun-bleached kerb, looking as though it had issues with the pacing of modern life.",
+        "Analysis suggests the device is currently in its “quiet before the receipt” phase, a state previously documented only in particularly dramatic tea rooms.",
+        "Sources note that the meter has been blinking with unusual determination, which one expert described as “less electrical fault, more Shakespearean hesitation.”",
+        "Some locals believe it is about to trigger a chain of events involving a lost coin, a disgruntled pigeon and a man in sandals who takes parking too personally.",
+        "As always, this remains a total work of fiction, but it does have the air of something that would absolutely cause a row outside a sandwich shop."
+      ]
+    },
     {
       "slug": "analysts-say-a-very-serious-sun-umbrella-is-obviously-preparing-for-a-gran",
       "category": "analysis",
