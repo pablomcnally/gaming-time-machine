@@ -1,21 +1,67 @@
 {
-  "updatedLabel": "Monday, July 6, 2026",
+  "updatedLabel": "Tuesday, July 7, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Suggests A Dignified Bin Bag Is Preparing For A Very Emotional Windy Exit",
+    "Analysts Claim A Shopping Trolley With A Blunt Sense Of Direction Is Clearly Entering Its",
     "‘Leaked’ Clip Shows A Seagull In A Tie Apparently Negotiating A Pay Rise With A Hotdog Stand",
     "Analysts Decide A Trolley With One Wonky Wheel Is Definitely Headed For A Personal Journey",
     "‘Leaked’ Clip Appears To Show A Pigeon In A Waistcoat Planning A Dramatic Career Change",
     "Analysts Say A Shouting Ice Cream Van Is Definitely Rehearsing For A Tragic Third Act",
     "Leaked Footage Shows A Very Important Bin Liner Apparently Training For Emotional Lift-Off",
-    "Analysts Conclude A Very Fussy Parking Meter Is Clearly Preparing A Strong Narrative Arc",
-    "Analysts Say A Very Serious Sun Umbrella Is ‘Obviously’ Preparing For A Grand Sentimental Meltdown",
-    "Residents Slightly Perplexed As A Ferret In Sunglasses Starts Giving Directions To Delivery Vans"
+    "Analysts Conclude A Very Fussy Parking Meter Is Clearly Preparing A Strong Narrative Arc"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-suggests-a-dignified-bin-bag-is-preparing-for-a-very-emotional",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "UNCONFIRMED GOBSMACKER",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Suggests A Dignified Bin Bag Is Preparing For A Very Emotional Windy Exit",
+      "description": "A completely imaginary clip appears to show a bin bag in the sort of mood usually reserved for award ceremonies and bus delays.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "M. Tiddly, Palace Street Desk",
+      "readTime": "3 min read",
+      "date": "Tuesday, July 7, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has once again done that thing where it stares at a blurry object and decides it must contain the whole plot of a blockbuster.",
+        "In this latest bit of blessed nonsense, a black bin bag is seen billowing beside a takeaway shop like it has just discovered its own destiny and wants the world to respect it.",
+        "Witnesses in the clip insist the bag performs a \"determined little wobble\", which experts say is either physics, weather, or a very committed performance piece.",
+        "By frame four, the bag is apparently \"looking out to sea\", although this may simply be it being nudged by a breeze with aspirations.",
+        "Our in-house rumour concierge has described the footage as \"deeply cinematic for something that could be bought in a pack of twelve\".",
+        "No official person, nor any sensible person, has confirmed any of this, but that has never stopped the internet from acting like it has just found the Crown Jewels in a puddle."
+      ]
+    },
+    {
+      "slug": "analysts-claim-a-shopping-trolley-with-a-blunt-sense-of-direction-is-clear",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "SENSIBLE-ISH THEORY",
+      "accent": "sunset",
+      "title": "Analysts Claim A Shopping Trolley With A Blunt Sense Of Direction Is Clearly Entering Its",
+      "description": "Experts have bravely interpreted an ordinary trolley as a vessel for ambition, regret and possibly loose change.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "P. Underhill, Investigations & Snacks",
+      "readTime": "4 min read",
+      "date": "Tuesday, July 7, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Following yesterday’s very ordinary sighting of a supermarket trolley drifting across a car park like it had missed the last bus, analysts have issued a bold conclusion: it is absolutely planning something.",
+        "According to the panel, the trolley’s one stubborn wheel suggests not a fault, but a \"character edge\" — the sort usually reserved for old boxers and detective dramas.",
+        "The theory holds that the trolley’s route was less accidental and more a \"journey of self-discovery\", although it still ended beside a wall after three metres.",
+        "One expert said the trolley \"gave off strong 'former employee returning to clear the air' energy\", which is an astonishing amount of feeling to project onto a receptacle for groceries.",
+        "Another noted that the basket section seemed to face the sunlight as if \"poised for forgiveness\".",
+        "As ever, this is not a leak, a clue, or even especially sensible. It is simply what happens when people in glasses are left alone with a dramatic shadow and too much tea."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-seagull-in-a-tie-apparently-negotiating-a-pay-rise-wit",
       "category": "leak",
