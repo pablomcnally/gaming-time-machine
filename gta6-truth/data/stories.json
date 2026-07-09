@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Wednesday, July 8, 2026",
+  "updatedLabel": "Thursday, July 9, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Very Earnest Traffic Cone Apparently Auditioning For Public Office",
+    "Analysts Say A Seemingly Responsible Folding Chair Is Definitely Preparing For A Mid-Life",
     "‘Leaked’ Clip Shows A Wheelie Bin In A Hat Apparently Preparing For A Noble Re-entry Into Traffic",
     "Analysts Conclude A Terribly Committed Shopping Basket Is ‘Absolutely’ About To Start A Fresh Life",
     "‘Leaked’ Clip Suggests A Dignified Bin Bag Is Preparing For A Very Emotional Windy Exit",
     "Analysts Claim A Shopping Trolley With A Blunt Sense Of Direction Is Clearly Entering Its",
     "‘Leaked’ Clip Shows A Seagull In A Tie Apparently Negotiating A Pay Rise With A Hotdog Stand",
-    "Analysts Decide A Trolley With One Wonky Wheel Is Definitely Headed For A Personal Journey",
-    "‘Leaked’ Clip Appears To Show A Pigeon In A Waistcoat Planning A Dramatic Career Change",
-    "Analysts Say A Shouting Ice Cream Van Is Definitely Rehearsing For A Tragic Third Act"
+    "Analysts Decide A Trolley With One Wonky Wheel Is Definitely Headed For A Personal Journey"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-very-earnest-traffic-cone-apparently-auditioning-for-p",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "ALLEGED CLIP",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Very Earnest Traffic Cone Apparently Auditioning For Public Office",
+      "description": "A startlingly official-looking cone is said to be making campaign-style gestures at passers-by, though experts suspect it is merely trying to avoid being kicked into...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel Tattletape",
+      "readTime": "3 min read",
+      "date": "Thursday, July 9, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The clip, which may or may not have been filmed by someone holding a sandwich, shows a traffic cone planted beside a crossroads with the sort of confidence usually reserved for local councillors and parking wardens.",
+        "In the footage, the cone appears to point at nearby cars as if outlining a bold transport strategy, before wobbling slightly in the wind and resuming its job of being orange.",
+        "An eyewitness, who asked to remain anonymous because they were on a lunch break, said the cone had “real leadership energy” and “terrible weatherproofing.”",
+        "Rumour enthusiasts have already begun mapping the cone’s supposed campaign trail, including a petrol station forecourt, a roundabout and what looks suspiciously like a skip with opinions.",
+        "Nothing in the video suggests any actual political programme, though one commentator claims the cone may be “protesting against unnecessary lane changes.”"
+      ]
+    },
+    {
+      "slug": "analysts-say-a-seemingly-responsible-folding-chair-is-definitely-preparing",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TABLOID BREAKDOWN",
+      "accent": "sunset",
+      "title": "Analysts Say A Seemingly Responsible Folding Chair Is Definitely Preparing For A Mid-Life",
+      "description": "The internet’s finest minds have examined a chair, reached several conclusions, and then immediately contradicted themselves for sport.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Botherwell",
+      "readTime": "4 min read",
+      "date": "Thursday, July 9, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "According to a blistering new wave of speculation, the folding chair seen in a brief mock-up is not merely a chair but a symbol of transformation, regret and possibly light catering.",
+        "Analysts say the chair’s slightly tilted stance suggests a person or object on the brink of a new chapter, perhaps involving improved posture or an unfortunate amount of group therapy.",
+        "One expert noted that the chair is facing away from the camera, which in analyst language means it is “hiding a backstory.” Another observed that it is placed near a barbecue, therefore “clearly entering a social season.”",
+        "The current theory is that the chair will either become a beloved household fixture or fold at the first sign of pressure, much like the entire internet in the face of a blurry object.",
+        "As ever, none of this is based on anything firmer than vibes, zoom buttons and a profound refusal to go outside."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-wheelie-bin-in-a-hat-apparently-preparing-for-a-noble-",
       "category": "leak",
