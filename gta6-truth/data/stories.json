@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Thursday, July 9, 2026",
+  "updatedLabel": "Friday, July 10, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Trolley With One Floppy Wheel Apparently Joining A Local Running Club",
+    "Analysts Say A Pigeon In Sunglasses Is Definitely Not Here To Behave",
     "‘Leaked’ Clip Shows A Very Earnest Traffic Cone Apparently Auditioning For Public Office",
     "Analysts Say A Seemingly Responsible Folding Chair Is Definitely Preparing For A Mid-Life",
     "‘Leaked’ Clip Shows A Wheelie Bin In A Hat Apparently Preparing For A Noble Re-entry Into Traffic",
     "Analysts Conclude A Terribly Committed Shopping Basket Is ‘Absolutely’ About To Start A Fresh Life",
     "‘Leaked’ Clip Suggests A Dignified Bin Bag Is Preparing For A Very Emotional Windy Exit",
-    "Analysts Claim A Shopping Trolley With A Blunt Sense Of Direction Is Clearly Entering Its",
-    "‘Leaked’ Clip Shows A Seagull In A Tie Apparently Negotiating A Pay Rise With A Hotdog Stand",
-    "Analysts Decide A Trolley With One Wonky Wheel Is Definitely Headed For A Personal Journey"
+    "Analysts Claim A Shopping Trolley With A Blunt Sense Of Direction Is Clearly Entering Its"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-trolley-with-one-floppy-wheel-apparently-joining-a-loc",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "TOTALLY-UNCONFIRMED",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Trolley With One Floppy Wheel Apparently Joining A Local Running Club",
+      "description": "A most suspiciously ordinary clip has allegedly revealed a shopping trolley attempting a brisk, wobbly comeback as if it has just discovered purpose and regret at the...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Pete Wobble, Senior Rumour Clerk",
+      "readTime": "3 min read",
+      "date": "Friday, July 10, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "In the footage, a trolley is seen leaving a supermarket car park with the determined energy of a man late for a meeting he never agreed to attend.",
+        "Witnesses in the video, if they are to be believed, say the trolley keeps veering left in a manner described by experts as 'full of character' and 'not remotely safe for cardio'.",
+        "A nearby seagull appears to observe the scene like a stern sports coach who has lost the whistle and most of the patience.",
+        "Fans have already begun speculating that the trolley may be headed for a training montage, a seaside promenade, or a very awkward apology.",
+        "As ever, nobody involved has confirmed anything, and the clip may simply be a trolley being a trolley in its own time-honoured, slightly embarrassing way."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-pigeon-in-sunglasses-is-definitely-not-here-to-behave",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "STREET-LEVEL THINKING",
+      "accent": "sunset",
+      "title": "Analysts Say A Pigeon In Sunglasses Is Definitely Not Here To Behave",
+      "description": "Our panel of overconfident observers has taken one look at a very stylish pigeon and concluded that serenity, order and civic decency are all in immediate danger.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Brick, Features and Mild Panic",
+      "readTime": "4 min read",
+      "date": "Friday, July 10, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The bird was allegedly spotted lingering near a corner shop with the calm confidence of someone who knows where the best snacks are hidden.",
+        "According to the analysis, the sunglasses are not merely a fashion choice but a declaration of intent, a warning, and possibly a tax dispute.",
+        "One expert suggested the pigeon's stance indicates either a dramatic mission or a refusal to leave until the crisps are discounted.",
+        "Others believe the entire scene points to a bigger pattern in the rumour ecosystem: if an object, animal or piece of municipal furniture appears mildly composed, people will insist it is plotting something.",
+        "In short, the pigeon is probably fine, but it does look like it has a story to tell and absolutely no intention of telling the truth straight away."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-very-earnest-traffic-cone-apparently-auditioning-for-p",
       "category": "leak",
