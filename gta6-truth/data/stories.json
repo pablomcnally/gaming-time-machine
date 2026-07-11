@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Friday, July 10, 2026",
+  "updatedLabel": "Saturday, July 11, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Litter Picker In A Hi-Vis Jacket Apparently Training For Olympic",
+    "Analysts Say A Shopping Basket With A Heroic Rattle Is ‘Clearly’ On The Verge Of A Personal",
     "‘Leaked’ Clip Shows A Trolley With One Floppy Wheel Apparently Joining A Local Running Club",
     "Analysts Say A Pigeon In Sunglasses Is Definitely Not Here To Behave",
     "‘Leaked’ Clip Shows A Very Earnest Traffic Cone Apparently Auditioning For Public Office",
     "Analysts Say A Seemingly Responsible Folding Chair Is Definitely Preparing For A Mid-Life",
     "‘Leaked’ Clip Shows A Wheelie Bin In A Hat Apparently Preparing For A Noble Re-entry Into Traffic",
-    "Analysts Conclude A Terribly Committed Shopping Basket Is ‘Absolutely’ About To Start A Fresh Life",
-    "‘Leaked’ Clip Suggests A Dignified Bin Bag Is Preparing For A Very Emotional Windy Exit",
-    "Analysts Claim A Shopping Trolley With A Blunt Sense Of Direction Is Clearly Entering Its"
+    "Analysts Conclude A Terribly Committed Shopping Basket Is ‘Absolutely’ About To Start A Fresh Life"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-litter-picker-in-a-hi-vis-jacket-apparently-training-f",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE?",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Litter Picker In A Hi-Vis Jacket Apparently Training For Olympic",
+      "description": "A very convincing bit of nonsense suggests the city’s most determined public servant may be chasing gold in the discipline of “not giving up yet”.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By C. N. D. Quibble",
+      "readTime": "3 min read",
+      "date": "Saturday, July 11, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A fresh bit of alleged footage has arrived online, showing what appears to be a litter picker in a hi-vis jacket taking a running start at a plastic bottle with the kind of focus usually reserved for final exams.",
+        "Witnesses who are absolutely not at the scene say the performance includes one heroic bend, two dramatic reaches, and a look of quiet rage at a crisp packet that refused to cooperate.",
+        "The clip, which has all the hallmarks of being filmed by a phone held by an excited potato, has prompted experts to conclude the character is either deeply committed to civic duty or just having a very odd afternoon.",
+        "At one point the figure pauses beside a bin, seemingly to reassess their life choices, before marching off with the energy of a substitute PE teacher who has lost the whistle but kept the authority.",
+        "Fans are already calling it the most emotionally charged rubbish-related content since last Tuesday."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-shopping-basket-with-a-heroic-rattle-is-clearly-on-the-verg",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "ANALYSIS",
+      "accent": "sunset",
+      "title": "Analysts Say A Shopping Basket With A Heroic Rattle Is ‘Clearly’ On The Verge Of A Personal",
+      "description": "Industry observers have once again looked at an ordinary object and decided it has a future, a backstory, and possibly unresolved feelings about the car park.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By W. I. R. Dibble",
+      "readTime": "4 min read",
+      "date": "Saturday, July 11, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Professional guessers have turned their attention to a shopping basket that allegedly rattles with uncommon confidence, leading some to believe it is preparing for a bold new chapter.",
+        "According to the sort of reasoning that thrives under fluorescent lighting, the basket’s slightly bent handle indicates emotional growth, while its aggressive wobble suggests inner turmoil.",
+        "Analysts note that if placed near a convenience store, the object may be “heading somewhere important”; if placed near a bollard, it is “encountering a pivotal obstacle”.",
+        "One expert described the basket as “a small metal ambition with a handle”, which is either insightful or the result of skipping lunch.",
+        "The general consensus is that the basket will not merely be transported by the world, but will instead argue with it politely the entire way."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-trolley-with-one-floppy-wheel-apparently-joining-a-loc",
       "category": "leak",
