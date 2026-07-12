@@ -1,21 +1,67 @@
 {
-  "updatedLabel": "Saturday, July 11, 2026",
+  "updatedLabel": "Sunday, July 12, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Bin Lorry With One Determined Mirror Apparently Training For A Career In",
+    "Analysts Say A Seemingly Respectable Gnome Is ‘Obviously’ About To Open A Tiny But Ambitious",
     "‘Leaked’ Clip Shows A Litter Picker In A Hi-Vis Jacket Apparently Training For Olympic",
     "Analysts Say A Shopping Basket With A Heroic Rattle Is ‘Clearly’ On The Verge Of A Personal",
     "‘Leaked’ Clip Shows A Trolley With One Floppy Wheel Apparently Joining A Local Running Club",
     "Analysts Say A Pigeon In Sunglasses Is Definitely Not Here To Behave",
     "‘Leaked’ Clip Shows A Very Earnest Traffic Cone Apparently Auditioning For Public Office",
-    "Analysts Say A Seemingly Responsible Folding Chair Is Definitely Preparing For A Mid-Life",
-    "‘Leaked’ Clip Shows A Wheelie Bin In A Hat Apparently Preparing For A Noble Re-entry Into Traffic",
-    "Analysts Conclude A Terribly Committed Shopping Basket Is ‘Absolutely’ About To Start A Fresh Life"
+    "Analysts Say A Seemingly Responsible Folding Chair Is Definitely Preparing For A Mid-Life"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-bin-lorry-with-one-determined-mirror-apparently-traini",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "TOTALLY MAYBE",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Bin Lorry With One Determined Mirror Apparently Training For A Career In",
+      "description": "A deeply serious-looking bin lorry has been spotted doing a slow pirouette near a loading bay, causing experts to nod at once and absolutely not laugh.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel P. Waffle",
+      "readTime": "3 min read",
+      "date": "Sunday, July 12, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has once again done what it does best: looked at a vehicle and announced a lifestyle change.",
+        "In the clip, the lorry appears to inch forward, pause with purpose, and then swing left in a manner described by one witness as “very stagey indeed.”",
+        "Viewers were quick to conclude that the single stubborn mirror was not defective, but in fact “a character choice.”",
+        "One forum pundit said the machine was “clearly preparing for a dramatic second act,” which is the sort of sentence that should be taxed.",
+        "The footage ends with the lorry facing a wall, which analysts immediately interpreted as “thinking about itself.”",
+        "No one involved has confirmed anything, of course, but that has not stopped the nation from pretending to understand bin-based choreography."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-seemingly-respectable-gnome-is-obviously-about-to-open-a-ti",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "EXPERT OPINION",
+      "accent": "sunset",
+      "title": "Analysts Say A Seemingly Respectable Gnome Is ‘Obviously’ About To Open A Tiny But Ambitious",
+      "description": "According to entirely unofficial logic, a garden ornament with excellent posture is preparing to go from decorative to deeply entrepreneurial.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda M. Snip",
+      "readTime": "4 min read",
+      "date": "Sunday, July 12, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Industry observers have spotted a small gnome standing near a fence with the unmistakable air of someone finalising a venue concept.",
+        "The hat, they insist, is not merely a hat but a business plan.",
+        "The confident stillness has been read as proof of a forthcoming nightlife venture, probably with velvet rope policy and baffling door staff.",
+        "One commentator suggested the gnome has “the kind of expression you only get after three mocktails and a rent review.”",
+        "The club, if it exists at all, is expected to be tiny, loud, and awkwardly lit, with a strict no-elfs-after-ten policy.",
+        "As always, there is no real evidence, only vibes, and in this town vibes are treated like official documents."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-litter-picker-in-a-hi-vis-jacket-apparently-training-f",
       "category": "leak",
