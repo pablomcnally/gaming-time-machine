@@ -1,21 +1,66 @@
 {
-  "updatedLabel": "Sunday, July 12, 2026",
+  "updatedLabel": "Monday, July 13, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Parking Meter In A Tiny Cap Apparently Training For A Career In Community",
+    "Analysts Say A Ducks-in-a-Row Strategy Is ‘Plainly’ Being Overheard In The Vicinity Of Vice City’s",
     "‘Leaked’ Clip Shows A Bin Lorry With One Determined Mirror Apparently Training For A Career In",
     "Analysts Say A Seemingly Respectable Gnome Is ‘Obviously’ About To Open A Tiny But Ambitious",
     "‘Leaked’ Clip Shows A Litter Picker In A Hi-Vis Jacket Apparently Training For Olympic",
     "Analysts Say A Shopping Basket With A Heroic Rattle Is ‘Clearly’ On The Verge Of A Personal",
     "‘Leaked’ Clip Shows A Trolley With One Floppy Wheel Apparently Joining A Local Running Club",
-    "Analysts Say A Pigeon In Sunglasses Is Definitely Not Here To Behave",
-    "‘Leaked’ Clip Shows A Very Earnest Traffic Cone Apparently Auditioning For Public Office",
-    "Analysts Say A Seemingly Responsible Folding Chair Is Definitely Preparing For A Mid-Life"
+    "Analysts Say A Pigeon In Sunglasses Is Definitely Not Here To Behave"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-parking-meter-in-a-tiny-cap-apparently-training-for-a-",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "UNVERIFIED",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Parking Meter In A Tiny Cap Apparently Training For A Career In Community",
+      "description": "Internet experts have spotted a suspiciously theatrical parking meter and are now behaving as though it has agent representation.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By R. T. Crump, Rumour Desk",
+      "readTime": "3 min read",
+      "date": "Monday, July 13, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A grainy clip, said to have been filmed by someone who has never once aimed a camera at the right thing, appears to show a parking meter wearing a tiny cap and standing with the air of a man who has rehearsed a monologue to an empty bus stop.",
+        "Within minutes, observers declared the meter was ‘clearly’ preparing for a breakout role in local community drama, possibly as a stern mayor, a haunted postman, or a gentleman who says very little but means it.",
+        "One witness, speaking entirely as a joke and possibly while drinking tea, said the meter had ‘the sort of face that could sell out a modestly sized village hall’.",
+        "The clip also features a passing cyclist, who is almost certainly not part of the plan, though the internet has already assigned them the role of rival understudy.",
+        "At press time, the parking meter remained upright, enigmatic, and deeply committed to the bit."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-ducks-in-a-row-strategy-is-plainly-being-overheard-in-the-v",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "MAYBE",
+      "accent": "sunset",
+      "title": "Analysts Say A Ducks-in-a-Row Strategy Is ‘Plainly’ Being Overheard In The Vicinity Of Vice City’s",
+      "description": "A highly scientific reading of a bench has led to claims that order, discipline and mild inconvenience are all part of a grander social scheme.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By M. J. Tilly, Senior Speculator",
+      "readTime": "4 min read",
+      "date": "Monday, July 13, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Experts have turned their gaze to a bench that, by all accounts, is sitting there with the kind of confidence usually reserved for a man waiting to be recognised by his neighbours.",
+        "Their conclusion: the bench is not merely furniture, but a tactical asset in a larger ‘ducks-in-a-row’ movement, in which everything must be aligned, sat upon, and faintly judged.",
+        "The analysis was supported by two things: a long pause and a pencil drawing of a pigeon looking administrative.",
+        "According to the report, the bench’s stance suggests it may soon host a series of serious conversations, one sandwich break, and at least one misunderstanding involving a flask.",
+        "Sceptics have pointed out that it is, in fairness, only a bench. Analysts responded by nodding grimly at it, which in this field counts as decisive evidence.",
+        "The mood around the bench remains calm but deeply organised."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-bin-lorry-with-one-determined-mirror-apparently-traini",
       "category": "leak",
