@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Tuesday, July 14, 2026",
+  "updatedLabel": "Wednesday, July 15, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Crab In A Tiny Tie Apparently Entering Middle Management",
+    "Analysts Say A Pelican With A Briefcase Is ‘Clearly’ Preparing For A Quiet Coup",
     "‘Leaked’ Clip Shows A Seagull In A Tiny Waistcoat Apparently Applying For Middle Management",
     "Analysts Say A Confident Shopping Trolley Is ‘Clearly’ Practising For A Solo Career In Civic",
     "‘Leaked’ Clip Shows A Parking Meter In A Tiny Cap Apparently Training For A Career In Community",
     "Analysts Say A Ducks-in-a-Row Strategy Is ‘Plainly’ Being Overheard In The Vicinity Of Vice City’s",
     "‘Leaked’ Clip Shows A Bin Lorry With One Determined Mirror Apparently Training For A Career In",
-    "Analysts Say A Seemingly Respectable Gnome Is ‘Obviously’ About To Open A Tiny But Ambitious",
-    "‘Leaked’ Clip Shows A Litter Picker In A Hi-Vis Jacket Apparently Training For Olympic",
-    "Analysts Say A Shopping Basket With A Heroic Rattle Is ‘Clearly’ On The Verge Of A Personal"
+    "Analysts Say A Seemingly Respectable Gnome Is ‘Obviously’ About To Open A Tiny But Ambitious"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-crab-in-a-tiny-tie-apparently-entering-middle-manageme",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "PARODY EXCLUSIVE",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Crab In A Tiny Tie Apparently Entering Middle Management",
+      "description": "An entirely fictional clip is said to feature a crab in a tie, several clipboards, and a powerful sense of regional ambition.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Reginald P. Biscuit",
+      "readTime": "3 min read",
+      "date": "Wednesday, July 15, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A brand-new and definitely imaginary clip has washed up on the internet, apparently showing a crab in a tiny tie striding sideways across a marina with the air of a man who has just discovered email.",
+        "The footage, which almost certainly exists only in the minds of overexcited forum users, shows the creature pausing to inspect a stack of forms before clicking one claw in what experts have described as ‘strong manager energy’.",
+        "Observers claim the crab then sidesteps a coffee cup, glances sternly at a seagull, and appears to assign a task to nobody in particular. This has been taken by the public to mean it is ‘in charge’ of absolutely everything.",
+        "Local commentators have welcomed the rumour as proof that Vice City’s business culture is still alive and well, provided it can be reached by small claws and a lot of confidence.",
+        "The clip remains wholly fictional, but that has not stopped fans from declaring the crab to be ‘office-ready’, ‘promotion-minded’, and ‘at least as organised as most of us on a Monday’."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-pelican-with-a-briefcase-is-clearly-preparing-for-a-quiet-c",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TIDY THEORY",
+      "accent": "sunset",
+      "title": "Analysts Say A Pelican With A Briefcase Is ‘Clearly’ Preparing For A Quiet Coup",
+      "description": "A solemn breakdown of why a well-dressed pelican may or may not be planning to run the waterfront.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Mavis Underwood",
+      "readTime": "4 min read",
+      "date": "Wednesday, July 15, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "After much unnecessary thought, analysts have concluded that a pelican carrying a briefcase is probably not merely commuting, but staging what one called ‘a very polite takeover’.",
+        "The theory rests on three pillars: the bird’s fixed stare, its unhurried gait, and the briefcase itself, which has allegedly been seen both open and closed, suggesting a level of administrative flexibility not often found in wildlife.",
+        "The same analysts note that the pelican has been spotted near docks, piers, and a bench with a suspiciously authoritative shadow, all of which have been interpreted as signs of strategic intent rather than simple bird business.",
+        "Sceptics maintain the creature may simply be looking for chips, papers, or a safe place to stand without being shouted at. Analysts, however, remain committed to the narrative that it is ‘playing the long game’.",
+        "No one has confirmed any of this, of course, but the absence of evidence has only strengthened the feeling that the pelican has, at minimum, a very clear five-year plan."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-seagull-in-a-tiny-waistcoat-apparently-applying-for-mi",
       "category": "leak",
