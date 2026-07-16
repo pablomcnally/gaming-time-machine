@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Wednesday, July 15, 2026",
+  "updatedLabel": "Thursday, July 16, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Flip-Flop In A Tiny Blazer Apparently Applying For Office Politics",
+    "Analysts Say A Lonesome Hedge Trimmer Is ‘Obviously’ Building A Grassroots Movement",
     "‘Leaked’ Clip Shows A Crab In A Tiny Tie Apparently Entering Middle Management",
     "Analysts Say A Pelican With A Briefcase Is ‘Clearly’ Preparing For A Quiet Coup",
     "‘Leaked’ Clip Shows A Seagull In A Tiny Waistcoat Apparently Applying For Middle Management",
     "Analysts Say A Confident Shopping Trolley Is ‘Clearly’ Practising For A Solo Career In Civic",
     "‘Leaked’ Clip Shows A Parking Meter In A Tiny Cap Apparently Training For A Career In Community",
-    "Analysts Say A Ducks-in-a-Row Strategy Is ‘Plainly’ Being Overheard In The Vicinity Of Vice City’s",
-    "‘Leaked’ Clip Shows A Bin Lorry With One Determined Mirror Apparently Training For A Career In",
-    "Analysts Say A Seemingly Respectable Gnome Is ‘Obviously’ About To Open A Tiny But Ambitious"
+    "Analysts Say A Ducks-in-a-Row Strategy Is ‘Plainly’ Being Overheard In The Vicinity Of Vice City’s"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-flip-flop-in-a-tiny-blazer-apparently-applying-for-off",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "APPARENTLY RUMOURED",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Flip-Flop In A Tiny Blazer Apparently Applying For Office Politics",
+      "description": "A most suspiciously daft clip seems to show beachwear with ambitions beyond its station, and several insiders are allegedly feeling very tired about it.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel P. Trolley",
+      "readTime": "2 min read",
+      "date": "Thursday, July 16, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A new bit of supposed nonsense has surfaced online, showing what looks like a lone flip-flop wearing a tiny blazer and taking notes beside a fountain in Vice City.",
+        "The footwear is seen nodding along to a sentence nobody can hear, which is being interpreted by keen-eyed gobshites as either a networking event or a cry for help.",
+        "Witnesses claim the item then attempted a power move by standing near a clipboard, as if it were about to become Interim Deputy Something Important.",
+        "Naturally, no one can confirm where the clip came from, because it is almost certainly the sort of thing cooked up by a person with too much time and a very small imagination.",
+        "Still, the internet has already decided the flip-flop is ‘playing the long game’, which is the sort of analysis that would get you laughed out of a post office and possibly a parish council."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-lonesome-hedge-trimmer-is-obviously-building-a-grassroots-m",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TOWN HALL TEA LEAF READING",
+      "accent": "sunset",
+      "title": "Analysts Say A Lonesome Hedge Trimmer Is ‘Obviously’ Building A Grassroots Movement",
+      "description": "Experts with entirely imaginary qualifications believe one garden tool’s determined hum may signal the rise of a new suburban dynasty.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Maureen Biscuit",
+      "readTime": "3 min read",
+      "date": "Thursday, July 16, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Pundits have once again looked directly at something harmless and concluded it has political energy.",
+        "This week’s object of fascination is a hedge trimmer said to be seen idling outside a strip mall, vibrating with the kind of confidence usually reserved for men in expensive loafers and unhelpful opinions.",
+        "According to the unofficial chatter, the trimmer is not merely trimming. It is, allegedly, ‘mobilising’.",
+        "Nobody has explained what this would involve, though rumours suggest leaflets, a keynote speech, and an extremely firm stance on overgrown corners.",
+        "The important thing, observers say, is that the machine has a presence about it. Whether that presence is civic leadership or a loose electrical problem remains unresolved, much like most modern discourse."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-crab-in-a-tiny-tie-apparently-entering-middle-manageme",
       "category": "leak",
