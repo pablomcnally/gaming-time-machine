@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Thursday, July 16, 2026",
+  "updatedLabel": "Friday, July 17, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Bicycle Bell In A Raincoat Apparently Running For Mayor",
+    "Analysts Say A Torn Umbrella Is ‘Obviously’ About To Launch A Floatation-Based Lifestyle Brand",
     "‘Leaked’ Clip Shows A Flip-Flop In A Tiny Blazer Apparently Applying For Office Politics",
     "Analysts Say A Lonesome Hedge Trimmer Is ‘Obviously’ Building A Grassroots Movement",
     "‘Leaked’ Clip Shows A Crab In A Tiny Tie Apparently Entering Middle Management",
     "Analysts Say A Pelican With A Briefcase Is ‘Clearly’ Preparing For A Quiet Coup",
     "‘Leaked’ Clip Shows A Seagull In A Tiny Waistcoat Apparently Applying For Middle Management",
-    "Analysts Say A Confident Shopping Trolley Is ‘Clearly’ Practising For A Solo Career In Civic",
-    "‘Leaked’ Clip Shows A Parking Meter In A Tiny Cap Apparently Training For A Career In Community",
-    "Analysts Say A Ducks-in-a-Row Strategy Is ‘Plainly’ Being Overheard In The Vicinity Of Vice City’s"
+    "Analysts Say A Confident Shopping Trolley Is ‘Clearly’ Practising For A Solo Career In Civic"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-bicycle-bell-in-a-raincoat-apparently-running-for-mayo",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "SCANDALOUSLY POSSIBLE",
+      "accent": "sunset",
+      "title": "‘Leaked’ Clip Shows A Bicycle Bell In A Raincoat Apparently Running For Mayor",
+      "description": "A flimsy clip, said to be visible to the naked eye and possibly three pigeons, has the city in uproar over a bicycle bell’s alleged ambition.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Mildred Quibble",
+      "readTime": "3 min read",
+      "date": "Friday, July 17, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The alleged footage, if one can call a shaky shadow with opinions ‘footage’, shows a bicycle bell in a neat little raincoat ringing with the confidence of a man who has discovered municipal procedure.",
+        "Witnesses in the clip appear to be a lamppost, a kebab wrapper and one extremely judgemental alley cat, all of whom seem to agree the bell has ‘a platform’ and ‘strong ding energy’.",
+        "Experts, who were reached only after a stern cup of tea, say the bell’s campaign is likely to focus on smoother crossings, fewer potholes and a promise to make all honks more polite.",
+        "At one point the bell is seen addressing a crowd of shopping bags from the top of a delivery crate, declaring that Vice City deserves leadership with ‘excellent timing and a proper chime’.",
+        "No one can confirm the clip is genuine, but many have agreed it is exactly the sort of nonsense this town would produce on a Tuesday."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-torn-umbrella-is-obviously-about-to-launch-a-floatation-bas",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TIRELESSLY THEORETICAL",
+      "accent": "green",
+      "title": "Analysts Say A Torn Umbrella Is ‘Obviously’ About To Launch A Floatation-Based Lifestyle Brand",
+      "description": "Pundits have stared at a puddle for long enough to conclude that a damp umbrella is probably positioning itself as a wellness icon.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Clive Button",
+      "readTime": "4 min read",
+      "date": "Friday, July 17, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Industry watchers believe the umbrella, last seen flapping near a bus stop like a confused mayfly, is no longer content with simple weather resistance and is now pivoting into aspirational branding.",
+        "The main evidence, according to the people paid to say things near microphones, is that the umbrella has been spotted pointing dramatically at the horizon whenever it rains, which is considered classic founder behaviour.",
+        "One analyst noted that the item’s crooked handle suggests both vulnerability and ‘a strong narrative arc’, while another said the torn fabric gives it an authentic lived-in look, ideal for the Vice City leisure market.",
+        "There is also talk of a second product line: waterproof napkins, emotionally supportive sandals and a branded slogan that roughly translates to ‘Stay dry, stay determined, stay somehow available for brunch’.",
+        "Whether this is a business plan or just a draught with opinions remains unclear, but the market appears prepared to clap politely either way."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-flip-flop-in-a-tiny-blazer-apparently-applying-for-off",
       "category": "leak",
