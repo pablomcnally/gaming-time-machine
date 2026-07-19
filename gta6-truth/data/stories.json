@@ -1,21 +1,70 @@
 {
-  "updatedLabel": "Saturday, July 18, 2026",
+  "updatedLabel": "Sunday, July 19, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Jogger In A Woolly Cravat Apparently Founding A Ministry Of Vague Urgency",
+    "Analysts Say A Bin Lorry In Formal Gloves Is ‘Clearly’ Preparing A Sophisticated Bid For Cultural",
     "‘Alleged’ Clip Shows A Traffic Cone In A Velvet Waistcoat Apparently Running A Very Small Monarchy",
     "Analysts Say A Lighthouse In Sunglasses Is ‘Obviously’ Launching A Nightlife Empire",
     "‘Leaked’ Clip Shows A Bicycle Bell In A Raincoat Apparently Running For Mayor",
     "Analysts Say A Torn Umbrella Is ‘Obviously’ About To Launch A Floatation-Based Lifestyle Brand",
     "‘Leaked’ Clip Shows A Flip-Flop In A Tiny Blazer Apparently Applying For Office Politics",
-    "Analysts Say A Lonesome Hedge Trimmer Is ‘Obviously’ Building A Grassroots Movement",
-    "‘Leaked’ Clip Shows A Crab In A Tiny Tie Apparently Entering Middle Management",
-    "Analysts Say A Pelican With A Briefcase Is ‘Clearly’ Preparing For A Quiet Coup"
+    "Analysts Say A Lonesome Hedge Trimmer Is ‘Obviously’ Building A Grassroots Movement"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-jogger-in-a-woolly-cravat-apparently-founding-a-minist",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Jogger In A Woolly Cravat Apparently Founding A Ministry Of Vague Urgency",
+      "description": "A deeply questionable clip has convinced the internet that Vice City’s next big power player is a man in trainers with the expression of a junior accountant and the...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel T. Waffle",
+      "readTime": "3 min read",
+      "date": "Sunday, July 19, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has once again done what it does best: looked at a blur on a screen and declared it constitutional law.",
+        "This time, the so-called ‘footage’ appears to show a jogger wearing a woolly cravat, pacing through a sun-bleached car park and pointing at absolutely nothing with alarming conviction.",
+        "Within minutes, theorists concluded the figure was not merely exercising, but laying the groundwork for a Ministry of Vague Urgency, complete with red tape, laminated forms, and a sandwich queue that never moves.",
+        "One source close to nobody said the jogger’s left shoe ‘looked administrative’, which in rumour culture is apparently enough to trigger a seven-day thread and three reaction videos.",
+        "Forum experts have also noted a suspiciously official clipboard, though closer inspection suggests it may in fact be a takeaway menu folded into a rectangle.",
+        "As ever, no one can prove anything, but that has not stopped the public from insisting the cravat is a clue, the stride is symbolic, and the sweaty determination is definitely an announcement.",
+        "In summary: if this turns out to be real, Vice City may soon be governed by a chap in running gear and a scarf that says ‘I have read the minutes’."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-bin-lorry-in-formal-gloves-is-clearly-preparing-a-sophistic",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "BREAKING THEORISING",
+      "accent": "sunset",
+      "title": "Analysts Say A Bin Lorry In Formal Gloves Is ‘Clearly’ Preparing A Sophisticated Bid For Cultural",
+      "description": "Our panel of self-appointed experts has examined a mysterious refuse truck and concluded it is either a vehicle, a metaphor, or both at once if you tilt your head and...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Penelope Crumbs",
+      "readTime": "4 min read",
+      "date": "Sunday, July 19, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A bold new wave of analysis has swept across the fandom, after a bin lorry was spotted in footage allegedly doing something as radical as turning left.",
+        "The real story, according to several very serious keyboard gentlemen, is the pair of formal gloves hanging from the driver’s door, which they say indicates a campaign for cultural relevance, civic influence, or possibly a limited-edition tea range.",
+        "Their reasoning is impeccable in the way all internet reasoning is: the truck is large, the gloves are posh, and therefore the machine must be plotting something with branding.",
+        "One analyst described the vehicle as ‘oddly majestic’, which is the sort of phrase people use when they have run out of facts but still have a podcast to record.",
+        "Another noted that the rear hatch gave off ‘festival energy’, although this may have been caused by the fact that it is a rubbish truck and rubbish trucks are, by nature, a bit dramatic.",
+        "The consensus, if that is the word, is that the lorry may be preparing for a sophisticated public rollout involving jazz, local endorsements, and a ceremonial ribbon cut by someone who clearly should not be trusted with scissors.",
+        "No actual evidence supports any of this, of course, but that has never stopped the internet from appointing a bin lorry as the next great tastemaker.",
+        "If nothing else, it is the first vehicle in history to be accused of having a personal brand."
+      ]
+    },
     {
       "slug": "alleged-clip-shows-a-traffic-cone-in-a-velvet-waistcoat-apparently-running",
       "category": "leak",
