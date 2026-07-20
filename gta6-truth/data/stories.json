@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Sunday, July 19, 2026",
+  "updatedLabel": "Monday, July 20, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Tea Urn In A Bomber Jacket Apparently Joining A Street Racing Crew",
+    "Analysts Say A Pigeon In A Silk Scarf Is ‘Clearly’ Preparing A Hostile Takeover Of The Seafront",
     "‘Leaked’ Clip Shows A Jogger In A Woolly Cravat Apparently Founding A Ministry Of Vague Urgency",
     "Analysts Say A Bin Lorry In Formal Gloves Is ‘Clearly’ Preparing A Sophisticated Bid For Cultural",
     "‘Alleged’ Clip Shows A Traffic Cone In A Velvet Waistcoat Apparently Running A Very Small Monarchy",
     "Analysts Say A Lighthouse In Sunglasses Is ‘Obviously’ Launching A Nightlife Empire",
     "‘Leaked’ Clip Shows A Bicycle Bell In A Raincoat Apparently Running For Mayor",
-    "Analysts Say A Torn Umbrella Is ‘Obviously’ About To Launch A Floatation-Based Lifestyle Brand",
-    "‘Leaked’ Clip Shows A Flip-Flop In A Tiny Blazer Apparently Applying For Office Politics",
-    "Analysts Say A Lonesome Hedge Trimmer Is ‘Obviously’ Building A Grassroots Movement"
+    "Analysts Say A Torn Umbrella Is ‘Obviously’ About To Launch A Floatation-Based Lifestyle Brand"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-tea-urn-in-a-bomber-jacket-apparently-joining-a-street",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE SORT OF",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Tea Urn In A Bomber Jacket Apparently Joining A Street Racing Crew",
+      "description": "Absolutely no one can prove this, but the internet is convinced a tea urn has been spotted attempting wheelies and peer pressure.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Our Rumour Desk",
+      "readTime": "2 min read",
+      "date": "Monday, July 20, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "An obviously fictional clip has supposedly emerged showing a tea urn in a bomber jacket revving its way through traffic with all the dignity of a kettle at a bank holiday barbecue.",
+        "Viewers claim the urn was heard announcing it was \"not here for paperwork\" before skidding around a corner and disappearing behind a sandwich van.",
+        "Experts, meaning three blokes in the comments, say the performance may indicate a new criminal-adjacent subculture of municipal caffeine.",
+        "We can confirm nothing except that the tea urn looked determined, hydrated, and mildly offended by speed limits.",
+        "If real, which it isn't, the clip would represent a bold new direction in automotive storytelling and workplace refreshments."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-pigeon-in-a-silk-scarf-is-clearly-preparing-a-hostile-takeo",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TIDY THEORY",
+      "accent": "sunset",
+      "title": "Analysts Say A Pigeon In A Silk Scarf Is ‘Clearly’ Preparing A Hostile Takeover Of The Seafront",
+      "description": "Puffed-up experts have interpreted one bird’s extremely posh outfit as a serious bid for local dominance, probably over chips.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By The South Coast Desk",
+      "readTime": "3 min read",
+      "date": "Monday, July 20, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A flamboyant pigeon has allegedly been seen pacing the promenade in a silk scarf, leading analysts to conclude the seafront is on the brink of an avian management reshuffle.",
+        "According to the sort of people who say things like \"the body language is significant,\" the bird’s sideways stare suggests a campaign of total control over benches, crumbs and public apologies.",
+        "One observer noted the pigeon appeared to be flanked by two gulls acting as what can only be described as very cheap security.",
+        "The theory has not been confirmed by anyone sensible, but the scarf did look expensive and the chips did look nervous.",
+        "Should the pigeon proceed, locals are advised to keep an eye on ice creams, deckchairs and any suspiciously confident cooing."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-jogger-in-a-woolly-cravat-apparently-founding-a-minist",
       "category": "leak",
