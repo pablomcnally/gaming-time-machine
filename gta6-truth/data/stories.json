@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Wednesday, July 22, 2026",
+  "updatedLabel": "Thursday, July 23, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Bouncer Hedge In A Tie Apparently Opening A Department Of Public Staring",
+    "Analysts Say A Roller Skate In A Dinner Jacket Is ‘Clearly’ Poised To Disrupt Vice City’s Evening",
     "‘Leaked’ Clip Shows A Hot Dog Van In Court Shoes Apparently Opening A Bureau Of Mild Panic",
     "Analysts Say A Karaoke Taxi In A Velvet Bow Tie Is ‘Clearly’ Set To Dominate Vice City Nightlife",
     "‘Leaked’ Clip Shows A Lamppost In A Wool Overcoat Apparently Starting A Night School For Very",
     "Neighbourhood Rumour Claims A Shopping Trolley In Patent Boots Has Been Elected Interim King Of The",
     "‘Leaked’ Clip Shows A Tea Urn In A Bomber Jacket Apparently Joining A Street Racing Crew",
-    "Analysts Say A Pigeon In A Silk Scarf Is ‘Clearly’ Preparing A Hostile Takeover Of The Seafront",
-    "‘Leaked’ Clip Shows A Jogger In A Woolly Cravat Apparently Founding A Ministry Of Vague Urgency",
-    "Analysts Say A Bin Lorry In Formal Gloves Is ‘Clearly’ Preparing A Sophisticated Bid For Cultural"
+    "Analysts Say A Pigeon In A Silk Scarf Is ‘Clearly’ Preparing A Hostile Takeover Of The Seafront"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-bouncer-hedge-in-a-tie-apparently-opening-a-department",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "ALLEGED CLIP",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Bouncer Hedge In A Tie Apparently Opening A Department Of Public Staring",
+      "description": "A very serious-looking shrub is said to have taken over a pavement corner and started handing out judgement with all the warmth of a wet biscuit.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Reginald P. Quibble",
+      "readTime": "3 min read",
+      "date": "Thursday, July 23, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A mysterious clip, which may or may not be a hedge with aspirations, appears to show a bouncer-grade shrub in a tie standing outside a neon arcade and looking deeply unimpressed with everyone alive.",
+        "The footage, clearly captured on a device with excellent timing and questionable priorities, suggests the hedge has appointed itself as head of a new civic office: the Department of Public Staring.",
+        "Locals in the clip are seen approaching, pausing, and then deciding against whatever they were about to do, which experts are calling the strongest authority a plant has ever demonstrated.",
+        "One passer-by reportedly tried to ask for directions, only to receive a long silence and the sort of glare usually reserved for people who bring crisps into meetings.",
+        "Rumour enthusiasts have already declared this proof that Vice City is entering a fresh era of ornamental bureaucracy, though the hedge itself has yet to confirm, deny, or shed any leaves on the matter."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-roller-skate-in-a-dinner-jacket-is-clearly-poised-to-disrup",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "ANALYSTS SAY",
+      "accent": "sunset",
+      "title": "Analysts Say A Roller Skate In A Dinner Jacket Is ‘Clearly’ Poised To Disrupt Vice City’s Evening",
+      "description": "Industry watchers believe formal footwear for feet is out, and formal footwear for wheels is absolutely in, especially after dark.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Mavis T. Pemberley",
+      "readTime": "4 min read",
+      "date": "Thursday, July 23, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Following last week’s deeply scientific-looking whispers, analysts are now united in their belief that a roller skate in a dinner jacket is the next big thing in vice-soaked urban leisure.",
+        "Their report, drawn from what appears to be one freeze-frame and several cups of tea, argues that the shiny wheel-based gentleman is perfectly positioned to revolutionise nightlife by arriving before he has even decided where he is going.",
+        "The group notes that the skate’s combination of speed, elegance and faint danger gives it a unique edge in a market previously dominated by loud shirts and impractical confidence.",
+        "They also suggest the jacket is not merely decorative but a strategic signal to rivals, pedestrians and anyone standing near a curb.",
+        "In summary, the experts conclude that if the skate can maintain balance, composure and a respectable hemline, it may well become the city’s first truly premium mode of social transport."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-hot-dog-van-in-court-shoes-apparently-opening-a-bureau",
       "category": "leak",
