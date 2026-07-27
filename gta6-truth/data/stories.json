@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Sunday, July 26, 2026",
+  "updatedLabel": "Monday, July 27, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Street Cleanser In A Fedora Apparently Negotiating The City’s Bin Shortage",
+    "Analysts Say A Parking Meter In A Silk Scarf Is ‘Clearly’ Set To Revolutionise Vice City’s Fashion",
     "‘Leaked’ Clip Shows A Jet Ski In A Cravat Apparently Drafting A Welcome Sign For Vice City",
     "Analysts Say A Bin Lorry In A Monocle Is ‘Clearly’ Repositioning Vice City’s Waste Economy",
     "‘Leaked’ Clip Shows A Flamingo In A Waistcoat Apparently Drafting A Coastal Congestion Plan",
     "Analysts Say A Trampoline In A Dinner Suit Is ‘Clearly’ Set To Rebalance The Vice City Night Economy",
     "‘Leaked’ Clip Shows A Wheelie Bin In Corduroy Trousers Apparently Founding A Ministry Of Snack",
-    "Analysts Say A Seagull In Patent Slippers Is ‘Clearly’ Poised To Reshape Vice City’s Harbour Economy",
-    "‘Leaked’ Clip Shows A Bouncer Hedge In A Tie Apparently Opening A Department Of Public Staring",
-    "Analysts Say A Roller Skate In A Dinner Jacket Is ‘Clearly’ Poised To Disrupt Vice City’s Evening"
+    "Analysts Say A Seagull In Patent Slippers Is ‘Clearly’ Poised To Reshape Vice City’s Harbour Economy"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-street-cleanser-in-a-fedora-apparently-negotiating-the",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "Tabloid “Clip”",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Street Cleanser In A Fedora Apparently Negotiating The City’s Bin Shortage",
+      "description": "An entirely imagined snippet has allegedly revealed civic waste management being handled by one extremely determined sweeper with hat-based authority.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By C. Bungalow, Metropolitan Features",
+      "readTime": "3 min read",
+      "date": "Monday, July 27, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has once again done what it does best: stared at a blurry square and announced it has solved urban planning.",
+        "In the fictional clip, a street cleanser wearing a fedora is seen nodding sternly at three wheelie bins, as if conducting delicate diplomacy over who gets emptied first.",
+        "Witnesses in our made-up newsroom claim the scene ends with a dustpan being placed on a bonnet and a nearby pigeon applauding in a very administrative manner.",
+        "Experts we definitely invented say this can only mean the next Vice City has a full bin economy, complete with curbside tariffs, skip-based rivals, and a black market in extra bin lids.",
+        "Naturally, none of this is real, and the clip is as imaginary as a tax return written by a seagull. Still, it has not stopped fans from zooming in on the fedora for 14 straight hours."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-parking-meter-in-a-silk-scarf-is-clearly-set-to-revolutioni",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "Hot Take",
+      "accent": "sunset",
+      "title": "Analysts Say A Parking Meter In A Silk Scarf Is ‘Clearly’ Set To Revolutionise Vice City’s Fashion",
+      "description": "A highly scientific reading of a totally fictional image suggests the humble parking meter is moving into luxury branding with alarming confidence.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By M. Quibble, Opinion Desk",
+      "readTime": "4 min read",
+      "date": "Monday, July 27, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Our analysts, all of whom were assembled from leftover sausage rolls and guesswork, have concluded the parking meter is not merely standing there, but making a statement.",
+        "The silk scarf, they insist, is a sign of impending upscale ambition. This is apparently how a city transitions from ‘no standing’ to ‘please mind the velvet rope’.",
+        "According to the theory, Vice City’s fashion quarter will soon be dominated by objects with self-esteem: mannequins with mortgages, mannequins with opinions, and at least one bin with a tasteful fringe.",
+        "This, they argue, will create a three-stage economy: parking, posing, and pretending not to notice the valet.",
+        "We should stress again that the source material exists only in the nation’s collective imagination. But if a parking meter turns up on a catwalk, you heard it here first — or at least you would have, if any of this had happened."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-jet-ski-in-a-cravat-apparently-drafting-a-welcome-sign",
       "category": "leak",
