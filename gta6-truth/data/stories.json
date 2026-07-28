@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Monday, July 27, 2026",
+  "updatedLabel": "Tuesday, July 28, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Corn Dog Cart In A Panama Hat Apparently Launching A Ministry Of Queue",
+    "Analysts Say A Pelican In A Bowler Hat Is ‘Clearly’ Poised To Oversee Vice City’s Parking Diplomacy",
     "‘Leaked’ Clip Shows A Street Cleanser In A Fedora Apparently Negotiating The City’s Bin Shortage",
     "Analysts Say A Parking Meter In A Silk Scarf Is ‘Clearly’ Set To Revolutionise Vice City’s Fashion",
     "‘Leaked’ Clip Shows A Jet Ski In A Cravat Apparently Drafting A Welcome Sign For Vice City",
     "Analysts Say A Bin Lorry In A Monocle Is ‘Clearly’ Repositioning Vice City’s Waste Economy",
     "‘Leaked’ Clip Shows A Flamingo In A Waistcoat Apparently Drafting A Coastal Congestion Plan",
-    "Analysts Say A Trampoline In A Dinner Suit Is ‘Clearly’ Set To Rebalance The Vice City Night Economy",
-    "‘Leaked’ Clip Shows A Wheelie Bin In Corduroy Trousers Apparently Founding A Ministry Of Snack",
-    "Analysts Say A Seagull In Patent Slippers Is ‘Clearly’ Poised To Reshape Vice City’s Harbour Economy"
+    "Analysts Say A Trampoline In A Dinner Suit Is ‘Clearly’ Set To Rebalance The Vice City Night Economy"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-corn-dog-cart-in-a-panama-hat-apparently-launching-a-m",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "UNVERIFIED CLIP",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Corn Dog Cart In A Panama Hat Apparently Launching A Ministry Of Queue",
+      "description": "Residents reportedly stared at a very organised snack situation while insisting they had seen the future of civic administration, or at least lunch.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By M. Quibble",
+      "readTime": "3 min read",
+      "date": "Tuesday, July 28, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A grainy and deeply theatrical clip has allegedly appeared online showing a corn dog cart in a Panama hat standing beside a yellow line and looking, by all accounts, terribly pleased with itself.",
+        "The cart is said to have issued no statements, but onlookers claim it gently rolled to the front of an imaginary queue and immediately caused several pedestrians to behave like they had discovered etiquette.",
+        "One expert in absolutely nothing told us the vehicle’s polished sauce dispenser was a clear sign of a broader plan to bring order to Vice City’s snack-based infrastructure.",
+        "As ever, the internet has responded with calm, restraint and only four thousand memes about mustard.",
+        "Officials have not commented, which is sensible, as the cart is not officially an official of anything and was last seen reversing into a festival crowd with the dignity of a man who knows he is important."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-pelican-in-a-bowler-hat-is-clearly-poised-to-oversee-vice-c",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "CITY THEORY",
+      "accent": "sunset",
+      "title": "Analysts Say A Pelican In A Bowler Hat Is ‘Clearly’ Poised To Oversee Vice City’s Parking Diplomacy",
+      "description": "Apparently the harbour bird’s posture, hat choice and frankly discouraging stare all point to a bold new era of street-side negotiation.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Elsie Marrow",
+      "readTime": "4 min read",
+      "date": "Tuesday, July 28, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A fresh wave of sophisticated nonsense has swept the forums after viewers claimed a pelican in a bowler hat was spotted standing near a pay-and-display machine with the air of a man auditing a train timetable.",
+        "According to the theory, the bird’s refusal to blink for seven straight seconds indicates strategic authority, while its habit of pecking only at unattended chips suggests a strong position on enforcement.",
+        "Analysts have concluded that this means parking in Vice City may become a matter of etiquette, geography and whether the pelican approves of your mirror alignment.",
+        "They also note the hat sits at a slight angle, which in modern game science apparently means either a deep lore clue or a bird with opinions about urban planning.",
+        "The whole thing could, of course, just be a pelican wearing a hat. But where’s the fun in that, frankly?"
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-street-cleanser-in-a-fedora-apparently-negotiating-the",
       "category": "leak",
