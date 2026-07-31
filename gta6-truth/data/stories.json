@@ -1,21 +1,63 @@
 {
-  "updatedLabel": "Thursday, July 30, 2026",
+  "updatedLabel": "Friday, July 31, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Trolley In A Raincoat Apparently Applying For Vice City’s Bus Lane",
+    "Analysts Say A Binocular-Wielding Seagull Is ‘Clearly’ Preparing To Oversee Vice City’s Waterfront",
     "‘Leaked’ Clip Shows A Kayak In A Tie Apparently Running Vice City’s Canal Commute",
     "Analysts Say A Hot Dog Stand In Tiny Glasses Is ‘Clearly’ Set To Command Vice City’s Street Gossip",
     "‘Leaked’ Clip Shows A Scooter In A Waistcoat Apparently Presenting Vice City With A Three-Wheeled",
     "Analysts Say A Donut Van In Spectacles Is ‘Clearly’ Set To Run Vice City’s Entire Snack Policy",
     "‘Leaked’ Clip Shows A Corn Dog Cart In A Panama Hat Apparently Launching A Ministry Of Queue",
-    "Analysts Say A Pelican In A Bowler Hat Is ‘Clearly’ Poised To Oversee Vice City’s Parking Diplomacy",
-    "‘Leaked’ Clip Shows A Street Cleanser In A Fedora Apparently Negotiating The City’s Bin Shortage",
-    "Analysts Say A Parking Meter In A Silk Scarf Is ‘Clearly’ Set To Revolutionise Vice City’s Fashion"
+    "Analysts Say A Pelican In A Bowler Hat Is ‘Clearly’ Poised To Oversee Vice City’s Parking Diplomacy"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-trolley-in-a-raincoat-apparently-applying-for-vice-cit",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "TOTALLY DEFINITELY NOT OFFIC",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Trolley In A Raincoat Apparently Applying For Vice City’s Bus Lane",
+      "description": "An entirely imaginary clip appears to show a determined shopping trolley taking the express route, while onlookers pretend this is all part of a grand urban transport...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By A. Humbug, Senior Rumour Enjoyer",
+      "readTime": "3 min read",
+      "date": "Friday, July 31, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Witnesses with very poor eyesight claim the trolley was seen wobbling heroically along a painted bus lane, looking as though it had a weekly pass and a firm opinion on timetables.",
+        "The footage, if one can call a blur with ambition ‘footage’, allegedly shows the trolley ignoring a bollard, a cone, and the general concept of shame.",
+        "One expert in nothing whatsoever said the trolley’s raincoat suggests a broader trend toward weatherproof public-sector mobility, which is the sort of sentence that should probably be illegal.",
+        "We are assured by absolutely no one that this development will transform Vice City’s commute, unless commuters now travel exclusively by metal basket with a squeaky wheel."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-binocular-wielding-seagull-is-clearly-preparing-to-oversee-",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "WE HAVE LOOKED AT IT FOR TOO",
+      "accent": "sunset",
+      "title": "Analysts Say A Binocular-Wielding Seagull Is ‘Clearly’ Preparing To Oversee Vice City’s Waterfront",
+      "description": "Our so-called analysts have taken a long, hard stare at the sky and concluded that a very nosy bird may be about to become the city’s unofficial coastal consultant.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By C. Side-Eye, Analysis Department",
+      "readTime": "4 min read",
+      "date": "Friday, July 31, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "According to our in-house reading of the clouds, the seagull’s binoculars indicate a serious commitment to maritime gossip and possibly shed ownership.",
+        "Its posture, which can only be described as ‘judgemental with intent’, suggests it is monitoring ferry arrivals, chip deliveries, and any pedestrians holding a sandwich without authority.",
+        "The bird’s presence near the waterfront has been interpreted as a sign that Vice City’s entire harbour economy may soon be run on crumbs, squawking, and suspiciously aggressive head tilts.",
+        "Economists remain divided, with one saying the seagull has ‘real leadership energy’ and another asking us to stop ringing him at home."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-kayak-in-a-tie-apparently-running-vice-city-s-canal-co",
       "category": "leak",
