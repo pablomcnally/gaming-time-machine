@@ -310,3 +310,27 @@ The tray menu provides:
 Start with Windows volume low. DRIFT uses conservative gain staging, compression and a final limiter, but layered low frequencies can still feel powerful.
 
 Use **Panic** for a four-second musical fade. Press it again during the fade for immediate silence. Use the normal output button for a reversible mute or unmute.
+
+## RHYTHM quick start
+
+1. Select **RHYTHM** in the persistent instrument navigation.
+2. Select **ENGAGE** if the shared engine is still idle. It starts at the existing safe mute setting.
+3. Press **PLAY**. The drum sequencer and shared bar/beat display now follow the audio clock.
+4. Select a voice and click steps in the 16-step window. Use the four page buttons for steps 1–64.
+5. Double-click a voice button or use **TRIGGER** to audition its synthesis circuit.
+
+Each voice has its own length, first/last step region, rotation and timing division. The detailed step editor controls velocity, probability, microtiming, ratchets, flam, accent and parameter locks. Alt-click a step, or use **PROTECT**, to keep it unchanged by generation and mutation. **GEN LOCK** protects the entire selected track.
+
+**GENERATE** creates a complete, role-aware pattern from the selected style and displayed seed. The same seed and settings reproduce the same result. **MUTATE** makes a related version. **EVOLVE** commits mutations only at the selected musical boundary; **FREEZE** suspends that process without stopping playback. **REVERT/UNDO** restores the prior pattern.
+
+Pattern changes are queued to pattern end by default. Choose immediate, next beat or next bar when required. Enter comma-separated pattern numbers in **CHAIN** for arrangement playback.
+
+## Shared transport, mixer and sessions
+
+The top shell stays visible on every page. Space toggles transport, **STOP** returns to the beginning, **TAP** calculates tempo, and the Swing control delays alternate subdivisions. DRIFT can remain free-running, follow start/stop, or use the shared tempo-sync state.
+
+The **MIXER** page controls the DRIFT bus, RHYTHM bus and protected master. Both instruments continue while their pages are hidden. Sidechain and interaction routes ship off; enable them explicitly in RHYTHM's Interaction panel.
+
+**SAVE SESSION** exports both instruments, pattern banks, transport, mixer, seeds and UI state. Kits, patterns and complete RHYTHM presets also have independent import/export controls. Old DRIFT preset files continue to work.
+
+The recorder can capture the full master, DRIFT only or RHYTHM only. Select an immediate, next-beat or next-bar start before arming capture.

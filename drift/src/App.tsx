@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import packageInfo from '../package.json';
 import { DriftEngine, type AtmosphereEventKind, type CustomSpeechClip } from './audio/DriftEngine';
+import { RhythmEngine } from './audio/RhythmEngine';
+import { Transport } from './audio/Transport';
 import { EvolutionEngine } from './audio/evolution';
 import { interpolatePreset, smoothJourneyProgress } from './audio/journey';
 import { clamp } from './audio/math';
@@ -18,6 +20,7 @@ import { SettingsPanel } from './components/SettingsPanel';
 import { TonesPanel } from './components/TonesPanel';
 import { Visualizer } from './components/Visualizer';
 import { VoiceStrip } from './components/VoiceStrip';
+import { RhythmPage } from './components/RhythmPage';
 import {
   defaultAtmosphere,
   defaultAmbientLayer,
@@ -32,6 +35,19 @@ import {
 } from './presets/defaults';
 import { factoryPresets } from './presets/factory';
 import { deserializePreset, serializePreset } from './presets/serialization';
+import { defaultBus, defaultTransport, makeDefaultRhythmState } from './rhythm/defaults';
+import { factoryPatterns } from './rhythm/factory';
+import { generatePattern, mutatePattern } from './rhythm/generator';
+import {
+  deserializeRhythmData,
+  makeSession,
+  migratePersistedState,
+  normaliseKit,
+  normalisePattern,
+  normaliseRhythmState,
+  serializeRhythmData,
+} from './rhythm/serialization';
+import type { DrumKit, DrumVoiceId, MixerBusState, RhythmPattern, RhythmState, TransportState, WorkstationSession } from './rhythm/types';
 import type {
   AppSettings,
   DriftPreset,
@@ -168,6 +184,16 @@ function downloadBytes(bytes: Uint8Array, filename: string): void {
   window.setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
+function downloadJson(content: string, filename: string): void {
+  const blob = new Blob([content], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement('a');
+  anchor.href = url;
+  anchor.download = filename;
+  anchor.click();
+  window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
 export default function App() {
   const [preset, setPreset] = useState<DriftPreset>(() => clone(factoryPresets[0]!));
   const [savedSnapshot, setSavedSnapshot] = useState<DriftPreset>(() => clone(factoryPresets[0]!));
@@ -192,6 +218,8 @@ export default function App() {
   const [recordingStartedAt, setRecordingStartedAt] = useState(0);
   const [recordingElapsed, setRecordingElapsed] = useState(0);
   const [recordingDuration, setRecordingDuration] = useState(0);
+  const [recordingSource, setRecordingSource] = useState<'master' | 'drone' | 'rhythm'>('master');
+  const [recordingStartMode, setRecordingStartMode] = useState<'immediate' | 'beat' | 'bar'>('immediate');
   const [panicFading, setPanicFading] = useState(false);
   const [journey, setJourney] = useState<JourneyState>(() => clone(defaultJourney));
   const [journeyRunning, setJourneyRunning] = useState(false);
@@ -216,6 +244,15 @@ export default function App() {
     filename: string;
   } | null>(null);
   const [notice, setNotice] = useState('');
+  const [activeInstrument, setActiveInstrument] = useState<'drift' | 'rhythm' | 'mixer'>('drift');
+  const [rhythm, setRhythm] = useState<RhythmState>(() => makeDefaultRhythmState(factoryPatterns[0]));
+  const [transportState, setTransportState] = useState<TransportState>(() => ({ ...defaultTransport }));
+  const [droneBus, setDroneBus] = useState<MixerBusState>(() => ({ ...defaultBus, volume: 0.78 }));
+  const [rhythmMeters, setRhythmMeters] = useState<Record<DrumVoiceId, number>>(
+    () => Object.fromEntries(['kick','snare','lowTom','midTom','highTom','rim','clap','closedHat','openHat','crash','ride'].map((voice) => [voice, 0])) as Record<DrumVoiceId, number>,
+  );
+  const [rhythmBusMeter, setRhythmBusMeter] = useState(0);
+  const [currentRhythmStep, setCurrentRhythmStep] = useState(0);
 
   const evolutionRef = useRef(new EvolutionEngine(preset.seed));
   const presetRef = useRef(preset);
@@ -234,10 +271,21 @@ export default function App() {
   const journeyLastTickRef = useRef(0);
   const importedSoundsRef = useRef(importedSounds);
   const customSpeechClipsRef = useRef<CustomSpeechClip[]>([]);
+  const rhythmEngineRef = useRef<RhythmEngine | null>(null);
+  const transportRef = useRef<Transport | null>(null);
+  const rhythmRef = useRef(rhythm);
+  const transportStateRef = useRef(transportState);
+  const droneBusRef = useRef(droneBus);
+  const lastEvolutionBarRef = useRef(-1);
+  const tapTimesRef = useRef<number[]>([]);
+  const scheduledRecordingRef = useRef<number | null>(null);
 
   recordingRef.current = recording;
   recordingStartedAtRef.current = recordingStartedAt;
   importedSoundsRef.current = importedSounds;
+  rhythmRef.current = rhythm;
+  transportStateRef.current = transportState;
+  droneBusRef.current = droneBus;
 
   const allPresets = useMemo(
     () => [
@@ -270,18 +318,18 @@ export default function App() {
 
   useEffect(() => {
     const load = async () => {
-      let saved: PersistedState | null = null;
+      let saved: unknown = null;
       try {
         if (window.driftDesktop) {
-          saved = (await window.driftDesktop.loadState()) as PersistedState | null;
+          saved = await window.driftDesktop.loadState();
         } else {
           const raw = localStorage.getItem('drift-state');
-          saved = raw ? (JSON.parse(raw) as PersistedState) : null;
+          saved = raw ? (JSON.parse(raw) as unknown) : null;
         }
       } catch {
         saved = null;
       }
-      const state = saved?.version === 1 ? saved : makeDefaultState();
+      const state = migratePersistedState(saved, makeDefaultState());
       setSettings({ ...defaultSettings, ...state.settings });
       const restoredUsers = Array.isArray(state.userPresets)
         ? state.userPresets.filter(validPreset).map(normalisePreset)
@@ -297,6 +345,17 @@ export default function App() {
         : [];
       setImportedSounds(restoredSounds);
       setImportedStatuses(Object.fromEntries(restoredSounds.map((sound) => [sound.id, 'stored'])));
+      const restoredRhythm = state.rhythm ?? makeDefaultRhythmState(factoryPatterns[0]);
+      setRhythm(restoredRhythm);
+      rhythmRef.current = restoredRhythm;
+      const restoredTransport = { ...defaultTransport, ...(state.transport ?? {}) };
+      restoredTransport.playing = false;
+      setTransportState(restoredTransport);
+      transportStateRef.current = restoredTransport;
+      const restoredDroneBus = { ...defaultBus, volume: 0.78, ...(state.droneBus ?? {}) };
+      setDroneBus(restoredDroneBus);
+      droneBusRef.current = restoredDroneBus;
+      setActiveInstrument(state.activePage ?? 'drift');
       const collection = [...factoryPresets, ...restoredUsers];
       const restored =
         state.settings?.restoreSession && state.lastPreset && validPreset(state.lastPreset)
@@ -315,7 +374,7 @@ export default function App() {
     if (!loaded) return;
     const timeout = window.setTimeout(() => {
       const state: PersistedState = {
-        version: 1,
+        version: 2,
         settings,
         userPresets,
         favourites,
@@ -323,12 +382,16 @@ export default function App() {
         lastPreset: clone(preset),
         journey,
         importedSounds,
+        rhythm,
+        transport: { ...transportStateRef.current, playing: false },
+        droneBus,
+        activePage: activeInstrument,
       };
       if (window.driftDesktop) void window.driftDesktop.saveState(state);
       else localStorage.setItem('drift-state', JSON.stringify(state));
     }, 450);
     return () => window.clearTimeout(timeout);
-  }, [favourites, importedSounds, journey, loaded, preset, settings, userPresets]);
+  }, [activeInstrument, droneBus, favourites, importedSounds, journey, loaded, preset, rhythm, settings, userPresets]);
 
   useEffect(() => {
     if (!window.driftDesktop) return;
@@ -358,6 +421,11 @@ export default function App() {
     const interval = window.setInterval(() => {
       const frame = engine.getMeterFrame();
       setMeter({ rms: frame.rms, peak: frame.peak });
+      const rhythmFrame = rhythmEngineRef.current?.getMeterFrame();
+      if (rhythmFrame) {
+        setRhythmMeters(rhythmFrame.voices);
+        setRhythmBusMeter(rhythmFrame.bus);
+      }
       setPulseCount(engine.getPulseCount());
       setChordStatus(engine.getChordStatus());
       setAmbientCount(engine.getAmbientCount());
@@ -370,6 +438,28 @@ export default function App() {
     }, 350);
     return () => window.clearInterval(interval);
   }, [engine]);
+
+  useEffect(() => {
+    const activeEngine = rhythmEngineRef.current;
+    if (!activeEngine || !engine) return;
+    const pattern = rhythm.banks[rhythm.activeBank]?.patterns[rhythm.activePattern];
+    if (pattern) activeEngine.applyPattern(pattern);
+    activeEngine.applyEffects(rhythm.effects);
+    activeEngine.setOutput(rhythm.bus.volume, rhythm.bus.mute);
+    engine.setInstrumentBus('rhythm', rhythm.bus.volume, rhythm.bus.mute, rhythm.bus.low, rhythm.bus.high);
+  }, [engine, rhythm]);
+
+  useEffect(() => {
+    engine?.setInstrumentBus('drone', droneBus.volume, droneBus.mute, droneBus.low, droneBus.high);
+  }, [droneBus, engine]);
+
+  useEffect(() => {
+    const transport = transportRef.current;
+    if (!transport) return;
+    transport.setBpm(transportState.bpm);
+    transport.setSwing(transportState.swing);
+    transport.setDroneMode(transportState.droneMode);
+  }, [transportState.bpm, transportState.droneMode, transportState.swing]);
 
   useEffect(() => {
     engine?.setImportedSounds(importedSounds);
@@ -491,7 +581,10 @@ export default function App() {
   useEffect(
     () => () => {
       if (panicTimerRef.current !== null) window.clearTimeout(panicTimerRef.current);
+      if (scheduledRecordingRef.current !== null) window.clearTimeout(scheduledRecordingRef.current);
       for (const clip of customSpeechClipsRef.current) URL.revokeObjectURL(clip.url);
+      transportRef.current?.dispose();
+      rhythmEngineRef.current?.dispose();
       void engineRef.current?.close();
       if (window.driftDesktop) void window.driftDesktop.setPowerSave(false);
     },
@@ -583,6 +676,110 @@ export default function App() {
       next.setCustomSpeechClips(customSpeechClipsRef.current);
       const startMuted = settings.startMuted;
       next.setMuted(startMuted);
+      next.setInstrumentBus(
+        'drone',
+        droneBusRef.current.volume,
+        droneBusRef.current.mute,
+        droneBusRef.current.low,
+        droneBusRef.current.high,
+      );
+      const rhythmEngine = new RhythmEngine(next.context, next.getRhythmInput());
+      const transport = new Transport(next.context, transportStateRef.current);
+      rhythmEngine.connectTransport(
+        transport,
+        () => {
+          const current = rhythmRef.current;
+          return current.banks[current.activeBank]?.patterns[current.activePattern] ?? current.banks[0]!.patterns[0]!;
+        },
+        () => rhythmRef.current.selectedVoice,
+        (step, pulse) => {
+          setCurrentRhythmStep(step);
+          let current = rhythmRef.current;
+          if (step === 0 && pulse.pulse > 0) {
+            const queued = current.queuedPattern;
+            const hasChain = current.chain.length > 1;
+            if (queued !== null || hasChain) {
+              const updated = structuredClone(current);
+              if (queued !== null) {
+                updated.activePattern = clamp(queued, 0, 15);
+                updated.queuedPattern = null;
+              } else {
+                updated.chainPosition = (updated.chainPosition + 1) % updated.chain.length;
+                updated.activePattern = clamp(updated.chain[updated.chainPosition] ?? 0, 0, 15);
+              }
+              rhythmRef.current = updated;
+              setRhythm(updated);
+              current = updated;
+            }
+          }
+          if (
+            step === 0 &&
+            current.generative.evolving &&
+            !current.generative.frozen &&
+            pulse.bar !== lastEvolutionBarRef.current &&
+            pulse.bar > 0 &&
+            pulse.bar % current.generative.boundaryBars === 0
+          ) {
+            lastEvolutionBarRef.current = pulse.bar;
+            const activePattern = current.banks[current.activeBank]!.patterns[current.activePattern]!;
+            const seed = `${current.generative.seed}:EVOLVE:${pulse.bar}`;
+            const evolved = mutatePattern(activePattern, current.generative, seed);
+            const updated = structuredClone(current);
+            updated.mutationHistory = [...updated.mutationHistory.slice(-15), structuredClone(activePattern)];
+            updated.banks[updated.activeBank]!.patterns[updated.activePattern] = evolved;
+            rhythmRef.current = updated;
+            setRhythm(updated);
+          }
+        },
+      );
+      rhythmEngine.onTrigger((voice, strength, time) => {
+        const currentRhythm = rhythmRef.current;
+        const sidechain = currentRhythm.sidechain;
+        if (sidechain.enabled && (sidechain.trigger === voice || sidechain.trigger === 'drum-bus')) {
+          const depth = sidechain.amount * strength * (sidechain.mode === 'pump' ? 1.35 : 0.72);
+          next.scheduleDroneDuck(time, depth, sidechain.attack, sidechain.release);
+        }
+        for (const route of currentRhythm.interactions) {
+          const sourceMatches =
+            route.source === voice ||
+            (route.source === 'hats' && (voice === 'closedHat' || voice === 'openHat')) ||
+            route.source === 'drum-bus';
+          if (!route.enabled || !sourceMatches) continue;
+          const amount = clamp(route.amount * strength, route.minimum, route.maximum);
+          if (route.destination === 'drone-filter')
+            next.scheduleDroneTone(time, amount, route.smoothing, route.polarity);
+          else if (route.destination === 'drone-duck')
+            next.scheduleDroneDuck(time, amount, 0.008, route.smoothing);
+        }
+      });
+      const currentRhythm = rhythmRef.current;
+      const activeRhythmPattern = currentRhythm.banks[currentRhythm.activeBank]!.patterns[currentRhythm.activePattern]!;
+      rhythmEngine.applyPattern(activeRhythmPattern);
+      rhythmEngine.applyEffects(currentRhythm.effects);
+      rhythmEngine.setOutput(currentRhythm.bus.volume, currentRhythm.bus.mute);
+      next.setInstrumentBus('rhythm', currentRhythm.bus.volume, currentRhythm.bus.mute, currentRhythm.bus.low, currentRhythm.bus.high);
+      transport.subscribeState((state) => {
+        transportStateRef.current = state;
+        setTransportState(state);
+        const bus = droneBusRef.current;
+        const transportMuted = state.droneMode !== 'free' && !state.playing;
+        next.setInstrumentBus('drone', bus.volume, bus.mute || transportMuted, bus.low, bus.high);
+      });
+      transport.subscribe((pulse) => {
+        const current = rhythmRef.current;
+        if (current.queuedPattern === null) return;
+        const atBeat = pulse.pulseInBeat === 0;
+        const atBar = atBeat && pulse.beat === 0;
+        if ((current.switchMode === 'beat' && atBeat) || (current.switchMode === 'bar' && atBar)) {
+          const updated = structuredClone(current);
+          updated.activePattern = clamp(updated.queuedPattern ?? updated.activePattern, 0, 15);
+          updated.queuedPattern = null;
+          rhythmRef.current = updated;
+          setRhythm(updated);
+        }
+      });
+      rhythmEngineRef.current = rhythmEngine;
+      transportRef.current = transport;
       setMuted(startMuted);
       engineRef.current = next;
       setEngine(next);
@@ -620,6 +817,12 @@ export default function App() {
   const handlePanic = () => {
     const activeEngine = engineRef.current;
     if (!activeEngine) return;
+    rhythmEngineRef.current?.panic();
+    transportRef.current?.pause();
+    if (scheduledRecordingRef.current !== null) {
+      window.clearTimeout(scheduledRecordingRef.current);
+      scheduledRecordingRef.current = null;
+    }
 
     if (panicTimerRef.current !== null) {
       const wasRecording = recordingRef.current;
@@ -996,6 +1199,118 @@ export default function App() {
     loadPreset(next);
   };
 
+  const exportWorkstationData = async (
+    format: 'drift-kit' | 'drift-pattern' | 'drift-rhythm-preset' | 'drift-session',
+    data: unknown,
+    name: string,
+  ) => {
+    const serialised = serializeRhythmData(format, data);
+    if (window.driftDesktop) {
+      const saved = await window.driftDesktop.exportPreset(JSON.parse(serialised) as unknown, name);
+      if (saved) notify(`${name} exported.`);
+    } else {
+      downloadJson(serialised, `${name.replace(/[^a-z0-9-_]+/gi, '-')}.drift.json`);
+    }
+  };
+
+  const importWorkstationData = async () => {
+    if (!window.driftDesktop) {
+      notify('Import is available in the desktop build.');
+      return null;
+    }
+    return window.driftDesktop.importPreset();
+  };
+
+  const exportRhythmPattern = () => {
+    const current = rhythmRef.current;
+    const pattern = current.banks[current.activeBank]!.patterns[current.activePattern]!;
+    void exportWorkstationData('drift-pattern', pattern, pattern.name);
+  };
+
+  const importRhythmPattern = async () => {
+    const imported = await importWorkstationData();
+    if (!imported) return;
+    try {
+      const pattern = normalisePattern(deserializeRhythmData<RhythmPattern>(imported, 'drift-pattern'));
+      replaceActiveRhythmPattern(pattern);
+      notify(`${pattern.name} imported.`);
+    } catch (error) {
+      notify(error instanceof Error ? error.message : 'Pattern import failed.');
+    }
+  };
+
+  const exportDrumKit = () => void exportWorkstationData('drift-kit', rhythmRef.current.kit, rhythmRef.current.kit.name);
+
+  const importDrumKit = async () => {
+    const imported = await importWorkstationData();
+    if (!imported) return;
+    try {
+      const kit = normaliseKit(deserializeRhythmData<DrumKit>(imported, 'drift-kit'));
+      setRhythm((current) => {
+        const next = structuredClone(current);
+        next.kit = kit;
+        next.effects = structuredClone(kit.effects);
+        for (const track of next.banks[next.activeBank]!.patterns[next.activePattern]!.tracks)
+          track.params = structuredClone(kit.voices[track.voice]);
+        rhythmRef.current = next;
+        return next;
+      });
+      notify(`${kit.name} imported.`);
+    } catch (error) {
+      notify(error instanceof Error ? error.message : 'Kit import failed.');
+    }
+  };
+
+  const exportRhythmPreset = () => void exportWorkstationData('drift-rhythm-preset', rhythmRef.current, `${rhythmRef.current.kit.name} Rhythm`);
+
+  const importRhythmPreset = async () => {
+    const imported = await importWorkstationData();
+    if (!imported) return;
+    try {
+      const next = normaliseRhythmState(deserializeRhythmData<RhythmState>(imported, 'drift-rhythm-preset'));
+      rhythmRef.current = next;
+      setRhythm(next);
+      notify('RHYTHM preset imported.');
+    } catch (error) {
+      notify(error instanceof Error ? error.message : 'RHYTHM preset import failed.');
+    }
+  };
+
+  const exportSession = () => {
+    const session = makeSession(
+      `${presetRef.current.name} + ${rhythmRef.current.kit.name}`,
+      presetRef.current,
+      rhythmRef.current,
+      transportStateRef.current,
+      droneBusRef.current,
+    );
+    void exportWorkstationData('drift-session', session, session.name);
+  };
+
+  const importSession = async () => {
+    const imported = await importWorkstationData();
+    if (!imported) return;
+    try {
+      const session = deserializeRhythmData<WorkstationSession>(imported, 'drift-session');
+      const restoredPreset = normalisePreset(session.dronePreset);
+      const restoredRhythm = normaliseRhythmState(session.rhythm);
+      presetRef.current = restoredPreset;
+      setPreset(restoredPreset);
+      setSavedSnapshot(structuredClone(restoredPreset));
+      evolutionRef.current.reseed(restoredPreset.seed);
+      rhythmRef.current = restoredRhythm;
+      setRhythm(restoredRhythm);
+      droneBusRef.current = { ...defaultBus, ...session.droneBus };
+      setDroneBus(droneBusRef.current);
+      transportStateRef.current = { ...defaultTransport, ...session.transport, playing: false };
+      setTransportState(transportStateRef.current);
+      if (session.activePage) setActiveInstrument(session.activePage);
+      notify(`${session.name} session restored.`);
+    } catch (error) {
+      notify(error instanceof Error ? error.message : 'Session import failed.');
+    }
+  };
+
   const saveRecordingBytes = useCallback(
     async (bytes: Uint8Array, filename: string) => {
       if (window.driftDesktop) {
@@ -1039,14 +1354,28 @@ export default function App() {
       await startAudio();
       activeEngine = engineRef.current;
     }
-    if (!activeEngine || recording) return;
-    const startedAt = activeEngine.startRecording();
-    recordingStartedAtRef.current = startedAt;
-    recordingRef.current = true;
-    setRecordingStartedAt(startedAt);
-    setRecordingElapsed(0);
-    setRecording(true);
-    notify('Master WAV capture started.');
+    if (!activeEngine || recording || scheduledRecordingRef.current !== null) return;
+    const begin = () => {
+      scheduledRecordingRef.current = null;
+      const startedAt = activeEngine!.startRecording(recordingSource);
+      recordingStartedAtRef.current = startedAt;
+      recordingRef.current = true;
+      setRecordingStartedAt(startedAt);
+      setRecordingElapsed(0);
+      setRecording(true);
+      notify(`${recordingSource === 'master' ? 'Master' : recordingSource === 'drone' ? 'DRIFT' : 'RHYTHM'} WAV capture started.`);
+    };
+    const transport = transportRef.current?.snapshot();
+    if (recordingStartMode === 'immediate' || !transport?.playing) {
+      begin();
+      return;
+    }
+    const boundary = recordingStartMode === 'bar' ? transport.numerator * 24 : 24;
+    const modulo = transport.positionPulses % boundary;
+    const remaining = modulo === 0 ? boundary : boundary - modulo;
+    const delay = Math.max(0.01, remaining * (60 / transport.bpm / 24));
+    scheduledRecordingRef.current = window.setTimeout(begin, delay * 1000);
+    notify(`Recording armed for the next ${recordingStartMode}.`);
   };
 
   const formatTime = (seconds: number) => {
@@ -1075,6 +1404,75 @@ export default function App() {
       }));
   };
 
+  const toggleTransport = async () => {
+    if (!transportRef.current) await startAudio();
+    const transport = transportRef.current;
+    if (!transport) return;
+    if (transport.snapshot().playing) transport.pause();
+    else transport.start();
+  };
+
+  const stopTransport = () => {
+    transportRef.current?.stop();
+    rhythmEngineRef.current?.panic();
+    setCurrentRhythmStep(0);
+  };
+
+  const tapTempo = () => {
+    const now = performance.now();
+    tapTimesRef.current = [...tapTimesRef.current.filter((value) => now - value < 2400), now].slice(-6);
+    const bpm = transportRef.current?.tap(tapTimesRef.current);
+    if (bpm) notify(`Tempo ${bpm.toFixed(1)} BPM.`);
+  };
+
+  const replaceActiveRhythmPattern = (nextPattern: import('./rhythm/types').RhythmPattern) => {
+    setRhythm((current) => {
+      const next = structuredClone(current);
+      const previous = next.banks[next.activeBank]!.patterns[next.activePattern]!;
+      next.mutationHistory = [...next.mutationHistory.slice(-15), structuredClone(previous)];
+      next.banks[next.activeBank]!.patterns[next.activePattern] = nextPattern;
+      rhythmRef.current = next;
+      return next;
+    });
+  };
+
+  const generateRhythm = () => {
+    const current = rhythmRef.current;
+    const pattern = current.banks[current.activeBank]!.patterns[current.activePattern]!;
+    replaceActiveRhythmPattern(generatePattern(pattern, current.generative, current.generative.seed));
+    notify('RHYTHM pattern generated from the displayed seed.');
+  };
+
+  const mutateRhythm = () => {
+    const current = rhythmRef.current;
+    const pattern = current.banks[current.activeBank]!.patterns[current.activePattern]!;
+    const seed = `${current.generative.seed}:M${current.mutationHistory.length + 1}`;
+    replaceActiveRhythmPattern(mutatePattern(pattern, current.generative, seed));
+    notify('RHYTHM mutation committed; protected material was preserved.');
+  };
+
+  const auditionDrum = async (voice: DrumVoiceId) => {
+    if (!rhythmEngineRef.current) await startAudio();
+    rhythmEngineRef.current?.trigger(voice);
+  };
+
+  useEffect(() => {
+    const onKeyDown = (event: KeyboardEvent) => {
+      const target = event.target as HTMLElement | null;
+      if (target?.matches('input, textarea, select, [contenteditable="true"]') || event.repeat) return;
+      if (event.code === 'Space') {
+        event.preventDefault();
+        void toggleTransport();
+      } else if (event.key.toLowerCase() === 'r' && !event.ctrlKey && !event.metaKey) {
+        event.preventDefault();
+        if (recordingRef.current) void stopRecordingRef.current();
+        else void startRecording();
+      }
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  });
+
   const percent = (value: number) => `${Math.round(value * 100)}%`;
   const favourite = favourites.includes(preset.id);
   const showLiveMotion =
@@ -1087,7 +1485,38 @@ export default function App() {
 
   return (
     <div className="app-shell">
-      <header className="topbar">
+      <header className="workstation-header">
+        <div className="workstation-brand">
+          <span><i /><i /><i /></span>
+          <div><strong>DRIFT</strong><small>GENERATIVE MUSIC WORKSTATION / V{packageInfo.version}</small></div>
+        </div>
+        <nav className="instrument-navigation" aria-label="Instruments">
+          <button className={activeInstrument === 'drift' ? 'is-active' : ''} onClick={() => setActiveInstrument('drift')}><span>01</span> DRIFT</button>
+          <button className={activeInstrument === 'rhythm' ? 'is-active' : ''} onClick={() => setActiveInstrument('rhythm')}><span>02</span> RHYTHM</button>
+          <button className={activeInstrument === 'mixer' ? 'is-active' : ''} onClick={() => setActiveInstrument('mixer')}><span>03</span> MIXER</button>
+        </nav>
+        <div className="shared-transport">
+          <button className={`transport-play ${transportState.playing ? 'is-playing' : ''}`} onClick={() => void toggleTransport()}>{transportState.playing ? 'PAUSE' : 'PLAY'}</button>
+          <button onClick={stopTransport}>STOP</button>
+          <label>BPM<input type="number" min={30} max={300} step={0.1} value={transportState.bpm} onChange={(event) => { const bpm = clamp(Number(event.target.value), 30, 300); setTransportState((current) => ({ ...current, bpm })); transportRef.current?.setBpm(bpm); }} /></label>
+          <button onClick={tapTempo}>TAP</button>
+          <label>SWING<input type="range" min={0} max={0.75} step={0.01} value={transportState.swing} onChange={(event) => { const swing = Number(event.target.value); setTransportState((current) => ({ ...current, swing })); transportRef.current?.setSwing(swing); }} /><span>{percent(transportState.swing)}</span></label>
+          <label>DRONE<select value={transportState.droneMode} onChange={(event) => { const droneMode = event.target.value as TransportState['droneMode']; setTransportState((current) => ({ ...current, droneMode })); transportRef.current?.setDroneMode(droneMode); }}><option value="free">Free</option><option value="transport">Start / stop</option><option value="tempo-sync">Tempo sync</option></select></label>
+          <output>{String(Math.floor(transportState.positionPulses / 96) + 1).padStart(3, '0')} : {String(Math.floor((transportState.positionPulses % 96) / 24) + 1).padStart(2, '0')}</output>
+        </div>
+        <div className="shared-master">
+          <div className="shared-meter"><i style={{ width: `${clamp(meter.peak * 100, 0, 100)}%` }} /></div>
+          <label>MASTER<input type="range" min={0} max={0.72} step={0.01} value={preset.macros.master} onChange={(event) => patchMacro('master', Number(event.target.value))} /></label>
+          <button className={recording ? 'is-recording' : ''} onClick={() => recording ? void stopRecording() : void startRecording()}>{recording ? `REC ${formatTime(recordingElapsed)}` : 'RECORD'}</button>
+          <button onClick={exportSession}>SAVE SESSION</button>
+          <button onClick={() => void importSession()}>LOAD SESSION</button>
+          <button className="shared-engine" onClick={() => void toggleMute()}>{audioStatus === 'idle' ? 'ENGAGE' : muted ? 'MUTED' : 'AUDIO LIVE'}</button>
+          <button className="shared-settings" onClick={() => setSettingsOpen(true)}>SETTINGS</button>
+          <button className="shared-panic" disabled={!engine} onClick={handlePanic}>PANIC</button>
+        </div>
+      </header>
+
+      <header className="topbar" hidden={activeInstrument !== 'drift'}>
         <div className="brand">
           <span className="brand__mark">
             <i />
@@ -1199,6 +1628,7 @@ export default function App() {
       </header>
 
       <main>
+        <div className="instrument-page drift-instrument-page" hidden={activeInstrument !== 'drift'}>
         <section className="performance-panel">
           <div className="performance-panel__header">
             <span>MACRO CONTROL SURFACE</span>
@@ -1685,6 +2115,22 @@ export default function App() {
                 </small>
               </div>
               <label>
+                SOURCE
+                <select disabled={recording} value={recordingSource} onChange={(event) => setRecordingSource(event.target.value as typeof recordingSource)}>
+                  <option value="master">Full master</option>
+                  <option value="drone">DRIFT only</option>
+                  <option value="rhythm">RHYTHM only</option>
+                </select>
+              </label>
+              <label>
+                START
+                <select disabled={recording} value={recordingStartMode} onChange={(event) => setRecordingStartMode(event.target.value as typeof recordingStartMode)}>
+                  <option value="immediate">Immediately</option>
+                  <option value="beat">Next beat</option>
+                  <option value="bar">Next bar</option>
+                </select>
+              </label>
+              <label>
                 DURATION
                 <select
                   disabled={recording}
@@ -1732,6 +2178,67 @@ export default function App() {
             </div>
           </section>
         )}
+        </div>
+
+        <div className="instrument-page rhythm-instrument-page" hidden={activeInstrument !== 'rhythm'}>
+          <RhythmPage
+            state={rhythm}
+            transport={transportState}
+            currentStep={currentRhythmStep}
+            meters={rhythmMeters}
+            busMeter={rhythmBusMeter}
+            active={activeInstrument === 'rhythm'}
+            onChange={(next) => {
+              rhythmRef.current = next;
+              setRhythm(next);
+            }}
+            onAudition={(voice) => void auditionDrum(voice)}
+            onGenerate={generateRhythm}
+            onMutate={mutateRhythm}
+            onToggleEvolution={() => {
+              setRhythm((current) => {
+                const next = { ...current, generative: { ...current.generative, evolving: !current.generative.evolving } };
+                rhythmRef.current = next;
+                return next;
+              });
+            }}
+            onExportPattern={exportRhythmPattern}
+            onImportPattern={() => void importRhythmPattern()}
+            onExportKit={exportDrumKit}
+            onImportKit={() => void importDrumKit()}
+            onExportPreset={exportRhythmPreset}
+            onImportPreset={() => void importRhythmPreset()}
+          />
+        </div>
+
+        <div className="instrument-page mixer-page" hidden={activeInstrument !== 'mixer'}>
+          <section className="mixer-title"><span>INSTRUMENT 03</span><h1>MIXER</h1><small>SHARED ROUTING / EFFECTS / DYNAMICS</small></section>
+          <section className="mixer-strips">
+            <article>
+              <header><strong>DRIFT BUS</strong><small>DRONE / ATMOSPHERE / CHORD / TONES</small></header>
+              <div className="mixer-meter"><i style={{ height: `${clamp(meter.rms * 180, 0, 100)}%` }} /></div>
+              <label>LEVEL<input type="range" min={0} max={0.95} step={0.01} value={droneBus.volume} onChange={(event) => setDroneBus((current) => ({ ...current, volume: Number(event.target.value) }))} /></label>
+              <label>LOW EQ<input type="range" min={0} max={1} step={0.01} value={droneBus.low} onChange={(event) => setDroneBus((current) => ({ ...current, low: Number(event.target.value) }))} /></label>
+              <label>HIGH EQ<input type="range" min={0} max={1} step={0.01} value={droneBus.high} onChange={(event) => setDroneBus((current) => ({ ...current, high: Number(event.target.value) }))} /></label>
+              <button className={droneBus.mute ? 'is-on warning' : ''} onClick={() => setDroneBus((current) => ({ ...current, mute: !current.mute }))}>MUTE</button>
+            </article>
+            <article>
+              <header><strong>RHYTHM BUS</strong><small>11 VOICES / DRUM DYNAMICS</small></header>
+              <div className="mixer-meter"><i style={{ height: `${clamp(rhythmBusMeter * 280, 0, 100)}%` }} /></div>
+              <label>LEVEL<input type="range" min={0} max={0.9} step={0.01} value={rhythm.bus.volume} onChange={(event) => setRhythm((current) => ({ ...current, bus: { ...current.bus, volume: Number(event.target.value) } }))} /></label>
+              <label>LOW EQ<input type="range" min={0} max={1} step={0.01} value={rhythm.bus.low} onChange={(event) => setRhythm((current) => ({ ...current, bus: { ...current.bus, low: Number(event.target.value) } }))} /></label>
+              <label>HIGH EQ<input type="range" min={0} max={1} step={0.01} value={rhythm.bus.high} onChange={(event) => setRhythm((current) => ({ ...current, bus: { ...current.bus, high: Number(event.target.value) } }))} /></label>
+              <button className={rhythm.bus.mute ? 'is-on warning' : ''} onClick={() => setRhythm((current) => ({ ...current, bus: { ...current.bus, mute: !current.bus.mute } }))}>MUTE</button>
+            </article>
+            <article className="master-strip">
+              <header><strong>MASTER OUTPUT</strong><small>SHARED FX / COMPRESSOR / LIMITER / RECORDER</small></header>
+              <div className="mixer-meter master"><i style={{ height: `${clamp(meter.peak * 100, 0, 100)}%` }} /></div>
+              <label>LEVEL<input type="range" min={0} max={0.72} step={0.01} value={preset.macros.master} onChange={(event) => patchMacro('master', Number(event.target.value))} /></label>
+              <button className={muted ? 'is-on warning' : ''} onClick={() => void toggleMute()}>{muted ? 'MUTED' : 'LIVE'}</button>
+              <button className={recording ? 'is-on warning' : ''} onClick={() => recording ? void stopRecording() : void startRecording()}>{recording ? 'STOP RECORDING' : 'RECORD MASTER'}</button>
+            </article>
+          </section>
+        </div>
       </main>
 
       <footer className="statusbar">

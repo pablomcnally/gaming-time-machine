@@ -253,7 +253,7 @@ export interface AppSettings {
   outputDeviceId: string;
 }
 
-export interface PersistedState {
+export interface PersistedStateV1 {
   version: 1;
   settings: AppSettings;
   userPresets: DriftPreset[];
@@ -262,6 +262,14 @@ export interface PersistedState {
   lastPreset?: DriftPreset;
   journey?: JourneyState;
   importedSounds?: ImportedSoundState[];
+}
+
+export interface PersistedState extends Omit<PersistedStateV1, 'version'> {
+  version: 2;
+  rhythm?: import('./rhythm/types').RhythmState;
+  transport?: import('./rhythm/types').TransportState;
+  droneBus?: import('./rhythm/types').MixerBusState;
+  activePage?: 'drift' | 'rhythm' | 'mixer';
 }
 
 export interface EvolutionFrame {

@@ -1,8 +1,8 @@
 {
   "name": "drift",
   "productName": "DRIFT",
-  "version": "1.7.0",
-  "description": "A generative drone synthesizer for long-form evolving sound.",
+  "version": "2.0.0",
+  "description": "An integrated generative drone synthesizer and rhythm workstation.",
   "private": true,
   "main": "dist-electron/main.js",
   "author": "DRIFT",
@@ -14,6 +14,7 @@
     "typecheck": "tsc --noEmit",
     "start": "electron .",
     "test": "vitest run",
+    "test:integration": "npm run build && node scripts/qa-rhythm.cjs",
     "test:watch": "vitest",
     "lint": "eslint . --max-warnings=0",
     "format": "prettier --write .",

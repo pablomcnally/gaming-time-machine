@@ -58,6 +58,7 @@ interface VoiceUnit {
 interface RecorderState {
   node: ScriptProcessorNode;
   silent: GainNode;
+  source: AudioNode;
   chunks: Int16Array[];
   startedAt: number;
 }
@@ -135,6 +136,19 @@ export class DriftEngine {
   private masterGain: GainNode;
   private panicGain: GainNode;
   private analyser: AnalyserNode;
+  private droneInstrumentInput: GainNode;
+  private droneInstrumentLow: BiquadFilterNode;
+  private droneInstrumentHigh: BiquadFilterNode;
+  private droneInstrumentGain: GainNode;
+  private droneInstrumentAnalyser: AnalyserNode;
+  private rhythmInstrumentInput: GainNode;
+  private rhythmInstrumentLow: BiquadFilterNode;
+  private rhythmInstrumentHigh: BiquadFilterNode;
+  private rhythmInstrumentGain: GainNode;
+  private rhythmInstrumentAnalyser: AnalyserNode;
+  private droneBusLevel = 0.78;
+  private rhythmBusLevel = 0.76;
+  private droneHighDb = 0;
   private voiceUnits: VoiceUnit[] = [];
   private noiseBuffer: AudioBuffer;
   private droneBus: GainNode;
@@ -309,6 +323,32 @@ export class DriftEngine {
     this.analyser.fftSize = 1024;
     this.analyser.smoothingTimeConstant = 0.88;
 
+    this.droneInstrumentInput = this.context.createGain();
+    this.droneInstrumentLow = this.context.createBiquadFilter();
+    this.droneInstrumentLow.type = 'lowshelf';
+    this.droneInstrumentLow.frequency.value = 180;
+    this.droneInstrumentHigh = this.context.createBiquadFilter();
+    this.droneInstrumentHigh.type = 'highshelf';
+    this.droneInstrumentHigh.frequency.value = 5200;
+    this.droneInstrumentGain = this.context.createGain();
+    this.droneInstrumentGain.gain.value = this.droneBusLevel;
+    this.droneInstrumentAnalyser = this.context.createAnalyser();
+    this.droneInstrumentAnalyser.fftSize = 256;
+    this.droneInstrumentAnalyser.smoothingTimeConstant = 0.76;
+
+    this.rhythmInstrumentInput = this.context.createGain();
+    this.rhythmInstrumentLow = this.context.createBiquadFilter();
+    this.rhythmInstrumentLow.type = 'lowshelf';
+    this.rhythmInstrumentLow.frequency.value = 180;
+    this.rhythmInstrumentHigh = this.context.createBiquadFilter();
+    this.rhythmInstrumentHigh.type = 'highshelf';
+    this.rhythmInstrumentHigh.frequency.value = 5200;
+    this.rhythmInstrumentGain = this.context.createGain();
+    this.rhythmInstrumentGain.gain.value = this.rhythmBusLevel;
+    this.rhythmInstrumentAnalyser = this.context.createAnalyser();
+    this.rhythmInstrumentAnalyser.fftSize = 256;
+    this.rhythmInstrumentAnalyser.smoothingTimeConstant = 0.7;
+
     this.masterInput
       .connect(this.masterToneHigh)
       .connect(this.masterToneLow)
@@ -321,6 +361,18 @@ export class DriftEngine {
     this.saturator.connect(this.delay).connect(this.delayGain).connect(this.effectReturn);
     this.saturator.connect(this.convolver).connect(this.reverbGain).connect(this.effectReturn);
     this.effectReturn.connect(this.compressor);
+    this.droneInstrumentInput
+      .connect(this.droneInstrumentLow)
+      .connect(this.droneInstrumentHigh)
+      .connect(this.droneInstrumentGain)
+      .connect(this.droneInstrumentAnalyser)
+      .connect(this.masterInput);
+    this.rhythmInstrumentInput
+      .connect(this.rhythmInstrumentLow)
+      .connect(this.rhythmInstrumentHigh)
+      .connect(this.rhythmInstrumentGain)
+      .connect(this.rhythmInstrumentAnalyser)
+      .connect(this.masterInput);
 
     this.binauralLeft = this.context.createOscillator();
     this.binauralRight = this.context.createOscillator();
@@ -335,7 +387,7 @@ export class DriftEngine {
     this.binauralGain.gain.value = 0;
     this.binauralLeft.connect(this.binauralLeftGain).connect(this.binauralMerger, 0, 0);
     this.binauralRight.connect(this.binauralRightGain).connect(this.binauralMerger, 0, 1);
-    this.binauralMerger.connect(this.binauralGain).connect(this.compressor);
+    this.binauralMerger.connect(this.binauralGain).connect(this.droneInstrumentInput);
     this.binauralLeft.start();
     this.binauralRight.start();
     this.compressor
@@ -349,15 +401,15 @@ export class DriftEngine {
 
     this.droneBus = this.context.createGain();
     this.droneBus.gain.value = 0.7;
-    this.droneBus.connect(this.masterInput);
+    this.droneBus.connect(this.droneInstrumentInput);
 
     this.chordBus = this.context.createGain();
     this.chordBus.gain.value = 0.82;
-    this.chordBus.connect(this.masterInput);
+    this.chordBus.connect(this.droneInstrumentInput);
 
     this.ambientBus = this.context.createGain();
     this.ambientBus.gain.value = 0.72;
-    this.ambientBus.connect(this.masterInput);
+    this.ambientBus.connect(this.droneInstrumentInput);
 
     this.atmosphereBus = this.context.createGain();
     this.atmosphereBus.gain.value = 0.92;
@@ -365,10 +417,10 @@ export class DriftEngine {
     this.atmosphereDelay.delayTime.value = 1.8;
     this.atmosphereFeedback = this.context.createGain();
     this.atmosphereFeedback.gain.value = 0.38;
-    this.atmosphereBus.connect(this.masterInput);
+    this.atmosphereBus.connect(this.droneInstrumentInput);
     this.atmosphereBus.connect(this.atmosphereDelay);
     this.atmosphereDelay.connect(this.atmosphereFeedback).connect(this.atmosphereDelay);
-    this.atmosphereDelay.connect(this.masterInput);
+    this.atmosphereDelay.connect(this.droneInstrumentInput);
 
     this.rainSource = this.context.createBufferSource();
     this.rainSource.buffer = this.noiseBuffer;
@@ -1024,7 +1076,7 @@ export class DriftEngine {
       0.7,
     );
 
-    oscillator.connect(envelope).connect(panner).connect(this.masterInput);
+    oscillator.connect(envelope).connect(panner).connect(this.droneInstrumentInput);
     oscillator.onended = () => {
       oscillator.disconnect();
       envelope.disconnect();
@@ -1490,6 +1542,70 @@ export class DriftEngine {
     return this.playSaxPhrase(preset.sax, preset, this.context.currentTime);
   }
 
+  getRhythmInput(): AudioNode {
+    return this.rhythmInstrumentInput;
+  }
+
+  setInstrumentBus(
+    bus: 'drone' | 'rhythm',
+    volume: number,
+    muted: boolean,
+    low = 0.5,
+    high = 0.5,
+  ): void {
+    const now = this.context.currentTime;
+    const level = muted ? 0 : clamp(volume, 0, 0.95);
+    if (bus === 'drone') {
+      this.droneBusLevel = level;
+      safeParam(this.droneInstrumentGain.gain, level, now, 0.04);
+      safeParam(this.droneInstrumentLow.gain, (clamp(low, 0, 1) - 0.5) * 18, now, 0.08);
+      this.droneHighDb = (clamp(high, 0, 1) - 0.5) * 18;
+      safeParam(this.droneInstrumentHigh.gain, this.droneHighDb, now, 0.08);
+    } else {
+      this.rhythmBusLevel = level;
+      safeParam(this.rhythmInstrumentGain.gain, level, now, 0.035);
+      safeParam(this.rhythmInstrumentLow.gain, (clamp(low, 0, 1) - 0.5) * 18, now, 0.08);
+      safeParam(this.rhythmInstrumentHigh.gain, (clamp(high, 0, 1) - 0.5) * 18, now, 0.08);
+    }
+  }
+
+  scheduleDroneDuck(time: number, amount: number, attack: number, release: number): void {
+    if (this.droneBusLevel <= 0) return;
+    const at = Math.max(this.context.currentTime + 0.001, time);
+    const depth = clamp(amount, 0, 0.92);
+    const floor = this.droneBusLevel * (1 - depth);
+    const attackEnd = at + clamp(attack, 0.002, 0.2);
+    const releaseEnd = attackEnd + clamp(release, 0.03, 2.5);
+    const gain = this.droneInstrumentGain.gain;
+    gain.cancelScheduledValues(at);
+    gain.setValueAtTime(this.droneBusLevel, at);
+    gain.linearRampToValueAtTime(floor, attackEnd);
+    gain.exponentialRampToValueAtTime(Math.max(0.0001, this.droneBusLevel), releaseEnd);
+  }
+
+  scheduleDroneTone(time: number, amount: number, smoothing: number, polarity: 1 | -1): void {
+    const at = Math.max(this.context.currentTime + 0.001, time);
+    const base = this.droneHighDb;
+    const peak = clamp(base + clamp(amount, 0, 1) * polarity * 12, -12, 12);
+    const duration = clamp(smoothing, 0.02, 2);
+    const gain = this.droneInstrumentHigh.gain;
+    gain.cancelScheduledValues(at);
+    gain.setValueAtTime(gain.value, at);
+    gain.linearRampToValueAtTime(peak, at + 0.015);
+    gain.linearRampToValueAtTime(base, at + duration);
+  }
+
+  setMasterVolume(volume: number): void {
+    safeParam(this.masterGain.gain, clamp(volume, 0, 0.72), this.context.currentTime, 0.08);
+  }
+
+  getInstrumentMeters(): { drone: number; rhythm: number } {
+    return {
+      drone: this.readAnalyserRms(this.droneInstrumentAnalyser),
+      rhythm: this.readAnalyserRms(this.rhythmInstrumentAnalyser),
+    };
+  }
+
   getSaxCount(): number {
     return this.saxCount;
   }
@@ -1655,7 +1771,15 @@ export class DriftEngine {
     return { rms: Math.sqrt(energy / waveform.length), peak, spectrum, waveform };
   }
 
-  startRecording(): number {
+  private readAnalyserRms(analyser: AnalyserNode): number {
+    const waveform = new Float32Array(analyser.fftSize);
+    analyser.getFloatTimeDomainData(waveform);
+    let energy = 0;
+    for (const sample of waveform) energy += sample * sample;
+    return Math.sqrt(energy / waveform.length);
+  }
+
+  startRecording(source: 'master' | 'drone' | 'rhythm' = 'master'): number {
     if (this.recorder) return this.recorder.startedAt;
     const node = this.context.createScriptProcessor(4096, 2, 2);
     const silent = this.context.createGain();
@@ -1674,9 +1798,15 @@ export class DriftEngine {
       }
       chunks.push(interleaved);
     };
-    this.analyser.connect(node);
+    const recordingSource =
+      source === 'drone'
+        ? this.droneInstrumentAnalyser
+        : source === 'rhythm'
+          ? this.rhythmInstrumentAnalyser
+          : this.analyser;
+    recordingSource.connect(node);
     node.connect(silent).connect(this.context.destination);
-    this.recorder = { node, silent, chunks, startedAt: Date.now() };
+    this.recorder = { node, silent, source: recordingSource, chunks, startedAt: Date.now() };
     return this.recorder.startedAt;
   }
 
@@ -1687,7 +1817,7 @@ export class DriftEngine {
       sampleRate: this.context.sampleRate,
       startedAt: this.recorder.startedAt,
     };
-    this.analyser.disconnect(this.recorder.node);
+    this.recorder.source.disconnect(this.recorder.node);
     this.recorder.node.disconnect();
     this.recorder.silent.disconnect();
     this.recorder.node.onaudioprocess = null;

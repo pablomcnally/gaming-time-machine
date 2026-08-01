@@ -288,7 +288,7 @@ const path = require('node:path');
       !packagedState?.visible ||
       packagedState.ui?.readyState !== 'complete' ||
       packagedState.ui?.title !== 'DRIFT' ||
-      !packagedState.ui?.version?.includes('V1.7.0') ||
+      !packagedState.ui?.version?.includes('V2.0.0') ||
       packagedState.ui?.factoryPrograms !== 28 ||
       !packagedState.ui?.deltaNightVisible ||
       !packagedState.ui?.thetaPassageVisible ||
@@ -579,7 +579,7 @@ const path = require('node:path');
   if (
     initial.title !== 'DRIFT' ||
     initial.heading !== 'DRIFT' ||
-    !initial.versionLabel?.includes('V1.7.0') ||
+    !initial.versionLabel?.includes('V2.0.0') ||
     initial.knobs < 9 ||
     initial.factoryPrograms !== 28 ||
     !neonRainVisible ||

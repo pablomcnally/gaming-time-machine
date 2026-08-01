@@ -12,6 +12,7 @@ export default tseslint.config(
       'node_modules',
       'qa',
       'scripts/qa-electron.cjs',
+      'scripts/qa-rhythm.cjs',
       'scripts/inspect-running-portable.cjs',
     ],
   },

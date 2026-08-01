@@ -15,6 +15,8 @@ import type {
   TuningState,
   VoiceState,
 } from '../types';
+import { defaultBus, defaultTransport, makeDefaultRhythmState } from '../rhythm/defaults';
+import { factoryPatterns } from '../rhythm/factory';
 
 export const defaultMacros: MacroState = {
   autoMorphEnabled: false,
@@ -335,12 +337,27 @@ export function makeDefaultPreset(): DriftPreset {
 }
 
 export function makeDefaultState(): PersistedState {
+  const rhythm = makeDefaultRhythmState(factoryPatterns[0]);
+  rhythm.banks[0]!.patterns = Array.from({ length: 16 }, (_, index) =>
+    structuredClone(factoryPatterns[index] ?? rhythm.banks[0]!.patterns[index]!),
+  );
+  rhythm.banks.push({
+    id: 'bank-b',
+    name: 'BANK B',
+    patterns: Array.from({ length: 16 }, (_, index) =>
+      structuredClone(factoryPatterns[index + 16] ?? rhythm.banks[0]!.patterns[index]!),
+    ),
+  });
   return {
-    version: 1,
+    version: 2,
     settings: structuredClone(defaultSettings),
     userPresets: [],
     favourites: [],
     lastPresetId: 'factory-deep-space',
     journey: structuredClone(defaultJourney),
+    rhythm,
+    transport: structuredClone(defaultTransport),
+    droneBus: { ...structuredClone(defaultBus), volume: 0.78 },
+    activePage: 'drift',
   };
 }
