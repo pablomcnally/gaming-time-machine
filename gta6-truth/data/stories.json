@@ -1,21 +1,67 @@
 {
-  "updatedLabel": "Friday, July 31, 2026",
+  "updatedLabel": "Saturday, August 1, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Flamingo On Roller Skates Apparently Filing For Vice City Traffic Warden Duty",
+    "Analysts Say A Pigeon In A Waistcoat Is ‘Clearly’ About To Take Charge Of Vice City’s Balcony",
     "‘Leaked’ Clip Shows A Trolley In A Raincoat Apparently Applying For Vice City’s Bus Lane",
     "Analysts Say A Binocular-Wielding Seagull Is ‘Clearly’ Preparing To Oversee Vice City’s Waterfront",
     "‘Leaked’ Clip Shows A Kayak In A Tie Apparently Running Vice City’s Canal Commute",
     "Analysts Say A Hot Dog Stand In Tiny Glasses Is ‘Clearly’ Set To Command Vice City’s Street Gossip",
     "‘Leaked’ Clip Shows A Scooter In A Waistcoat Apparently Presenting Vice City With A Three-Wheeled",
-    "Analysts Say A Donut Van In Spectacles Is ‘Clearly’ Set To Run Vice City’s Entire Snack Policy",
-    "‘Leaked’ Clip Shows A Corn Dog Cart In A Panama Hat Apparently Launching A Ministry Of Queue",
-    "Analysts Say A Pelican In A Bowler Hat Is ‘Clearly’ Poised To Oversee Vice City’s Parking Diplomacy"
+    "Analysts Say A Donut Van In Spectacles Is ‘Clearly’ Set To Run Vice City’s Entire Snack Policy"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-flamingo-on-roller-skates-apparently-filing-for-vice-c",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "RUMOUR",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Flamingo On Roller Skates Apparently Filing For Vice City Traffic Warden Duty",
+      "description": "A very serious-looking bit of made-up footage suggests Vice City may soon be managed by a flamingo with excellent balance and a complete misunderstanding of parking bays.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Neville Fumble, Occasional",
+      "readTime": "3 min read",
+      "date": "Saturday, August 1, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has done what it does best: taken a perfectly ordinary fantasy, put it in a low-resolution frame, and declared it destiny.",
+        "In the clip, a flamingo on roller skates appears to glide past a line of immobile hatchbacks while holding what looks suspiciously like a clipboard and a mild grudge.",
+        "No one can confirm what the bird is actually doing, but experts in our office have agreed it is definitely not a normal Thursday.",
+        "The costume department, if there is one, has gone for an aggressively official look: reflective stripes, a whistle, and the sort of stern posture usually reserved for people explaining tow fees.",
+        "Naturally, this has led to feverish speculation that Vice City’s streets will be policed by a bird with impeccable poise and absolutely no respect for pavement etiquette.",
+        "As ever, we should stress this is nonsense of the highest order, which is exactly why the internet has embraced it like a seagull with a chip."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-pigeon-in-a-waistcoat-is-clearly-about-to-take-charge-of-vi",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "ANALYSIS",
+      "accent": "sunset",
+      "title": "Analysts Say A Pigeon In A Waistcoat Is ‘Clearly’ About To Take Charge Of Vice City’s Balcony",
+      "description": "Our panel of deeply unqualified experts believes the city’s terraces may soon be governed by a very determined pigeon with a fondness for linen.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Waffle, Staff Rumour Analyst",
+      "readTime": "4 min read",
+      "date": "Saturday, August 1, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Following the mysterious appearance of a waistcoat-clad pigeon near a row of luxury balconies, analysts have drawn the only conclusion available to them: the bird is planning something.",
+        "The waistcoat, they say, is no mere fashion choice but a sign of administrative intent. One expert described it as “the look of a creature ready to do very boring paperwork, but with crumbs.”",
+        "The balcony economy, which we have just now invented, is reportedly set to experience unprecedented growth, assuming pigeons can continue to negotiate with patio furniture.",
+        "Observers noted several strategic pauses, a confident head-tilt, and what may have been a tiny nod toward a planter box. In today’s climate, that is apparently enough to trigger forecasts.",
+        "The general theory is that Vice City is entering a new era of feather-based management, where terrace access, flowerpots and stray toast will all be subject to a strict but oddly elegant regime.",
+        "We repeat, none of this is real. However, it does sound exactly like the sort of thing the internet would celebrate with five thousand comments and a blurry zoom-in."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-trolley-in-a-raincoat-apparently-applying-for-vice-cit",
       "category": "leak",
