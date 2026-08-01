@@ -4,6 +4,7 @@ import { generatePattern, mutatePattern, rotateTrack } from './generator';
 import { deserializeRhythmData, migratePersistedState, normalisePattern, serializeRhythmData } from './serialization';
 import { factoryKits, factoryPatterns, factorySessionSummaries } from './factory';
 import { makeDefaultState } from '../presets/defaults';
+import { factorySessions } from './sessions';
 
 describe('RHYTHM persistence and factory content', () => {
   it('round-trips patterns and kits independently', () => {
@@ -17,6 +18,8 @@ describe('RHYTHM persistence and factory content', () => {
     expect(factoryKits).toHaveLength(12);
     expect(factoryPatterns).toHaveLength(24);
     expect(factorySessionSummaries).toHaveLength(10);
+    expect(factorySessions).toHaveLength(10);
+    expect(factorySessions.every((session) => session.dronePreset && session.rhythm.banks.length >= 1)).toBe(true);
     expect(new Set(factoryKits.map((kit) => kit.name)).size).toBe(12);
     expect(new Set(factoryPatterns.map((pattern) => pattern.name)).size).toBe(24);
   });

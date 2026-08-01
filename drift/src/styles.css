@@ -3486,6 +3486,10 @@ input[type='text'],
 
 .mixer-page { display: grid; gap: 14px; align-content: start; }
 .mixer-title { max-width: 1500px; width: 100%; margin: 0 auto; }
+.factory-session-browser { display: flex; align-items: end; gap: 8px; }
+.factory-session-browser label { display: grid; gap: 5px; color: #8d7b60; font: 600 7px var(--font-display); letter-spacing: 0.1em; }
+.factory-session-browser select { min-width: 210px; height: 31px; border: 1px solid #4a4438; background: #0b0e0b; color: #d0c2a8; font-size: 8px; }
+.factory-session-browser button { min-height: 31px; border: 1px solid #70583a; background: #201910; color: #d5ad76; font: 600 8px var(--font-display); }
 .mixer-strips {
   width: min(1100px, 100%);
   margin: 0 auto;

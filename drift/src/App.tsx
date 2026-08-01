@@ -37,6 +37,7 @@ import { factoryPresets } from './presets/factory';
 import { deserializePreset, serializePreset } from './presets/serialization';
 import { defaultBus, defaultTransport, makeDefaultRhythmState } from './rhythm/defaults';
 import { factoryPatterns } from './rhythm/factory';
+import { factorySessions } from './rhythm/sessions';
 import { generatePattern, mutatePattern } from './rhythm/generator';
 import {
   deserializeRhythmData,
@@ -253,6 +254,7 @@ export default function App() {
   );
   const [rhythmBusMeter, setRhythmBusMeter] = useState(0);
   const [currentRhythmStep, setCurrentRhythmStep] = useState(0);
+  const [factorySessionIndex, setFactorySessionIndex] = useState(0);
 
   const evolutionRef = useRef(new EvolutionEngine(preset.seed));
   const presetRef = useRef(preset);
@@ -1287,25 +1289,29 @@ export default function App() {
     void exportWorkstationData('drift-session', session, session.name);
   };
 
+  const restoreWorkstationSession = (session: WorkstationSession) => {
+    const restoredPreset = normalisePreset(session.dronePreset);
+    const restoredRhythm = normaliseRhythmState(session.rhythm);
+    presetRef.current = restoredPreset;
+    setPreset(restoredPreset);
+    setSavedSnapshot(structuredClone(restoredPreset));
+    evolutionRef.current.reseed(restoredPreset.seed);
+    rhythmRef.current = restoredRhythm;
+    setRhythm(restoredRhythm);
+    droneBusRef.current = { ...defaultBus, ...session.droneBus };
+    setDroneBus(droneBusRef.current);
+    transportStateRef.current = { ...defaultTransport, ...session.transport, playing: false };
+    setTransportState(transportStateRef.current);
+    if (session.activePage) setActiveInstrument(session.activePage);
+    notify(`${session.name} session restored.`);
+  };
+
   const importSession = async () => {
     const imported = await importWorkstationData();
     if (!imported) return;
     try {
       const session = deserializeRhythmData<WorkstationSession>(imported, 'drift-session');
-      const restoredPreset = normalisePreset(session.dronePreset);
-      const restoredRhythm = normaliseRhythmState(session.rhythm);
-      presetRef.current = restoredPreset;
-      setPreset(restoredPreset);
-      setSavedSnapshot(structuredClone(restoredPreset));
-      evolutionRef.current.reseed(restoredPreset.seed);
-      rhythmRef.current = restoredRhythm;
-      setRhythm(restoredRhythm);
-      droneBusRef.current = { ...defaultBus, ...session.droneBus };
-      setDroneBus(droneBusRef.current);
-      transportStateRef.current = { ...defaultTransport, ...session.transport, playing: false };
-      setTransportState(transportStateRef.current);
-      if (session.activePage) setActiveInstrument(session.activePage);
-      notify(`${session.name} session restored.`);
+      restoreWorkstationSession(session);
     } catch (error) {
       notify(error instanceof Error ? error.message : 'Session import failed.');
     }
@@ -2212,7 +2218,7 @@ export default function App() {
         </div>
 
         <div className="instrument-page mixer-page" hidden={activeInstrument !== 'mixer'}>
-          <section className="mixer-title"><span>INSTRUMENT 03</span><h1>MIXER</h1><small>SHARED ROUTING / EFFECTS / DYNAMICS</small></section>
+          <section className="mixer-title"><div><span>INSTRUMENT 03</span><h1>MIXER</h1><small>SHARED ROUTING / EFFECTS / DYNAMICS</small></div><div className="factory-session-browser"><label>FACTORY SESSION<select value={factorySessionIndex} onChange={(event) => setFactorySessionIndex(Number(event.target.value))}>{factorySessions.map((session, index) => <option key={session.name} value={index}>{session.name}</option>)}</select></label><button onClick={() => restoreWorkstationSession(structuredClone(factorySessions[factorySessionIndex]!))}>LOAD COMBINED SESSION</button></div></section>
           <section className="mixer-strips">
             <article>
               <header><strong>DRIFT BUS</strong><small>DRONE / ATMOSPHERE / CHORD / TONES</small></header>
