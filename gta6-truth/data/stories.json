@@ -1,21 +1,64 @@
 {
-  "updatedLabel": "Sunday, August 2, 2026",
+  "updatedLabel": "Monday, August 3, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Shopping Trolley In A Trench Coat Apparently Applying For Vice City Mayor",
+    "Analysts Say A Parrot In A Silk Scarf Is ‘Clearly’ About To Negotiate Vice City’s Beach Permits",
     "‘Leaked’ Clip Shows A Bin Lorry In A Cravat Apparently Auditioning For Vice City’s Nightlife Scene",
     "Analysts Say A Teacup In Goggles Is ‘Clearly’ About To Oversee Vice City’s Most Serious Meetings",
     "‘Leaked’ Clip Shows A Flamingo On Roller Skates Apparently Filing For Vice City Traffic Warden Duty",
     "Analysts Say A Pigeon In A Waistcoat Is ‘Clearly’ About To Take Charge Of Vice City’s Balcony",
     "‘Leaked’ Clip Shows A Trolley In A Raincoat Apparently Applying For Vice City’s Bus Lane",
-    "Analysts Say A Binocular-Wielding Seagull Is ‘Clearly’ Preparing To Oversee Vice City’s Waterfront",
-    "‘Leaked’ Clip Shows A Kayak In A Tie Apparently Running Vice City’s Canal Commute",
-    "Analysts Say A Hot Dog Stand In Tiny Glasses Is ‘Clearly’ Set To Command Vice City’s Street Gossip"
+    "Analysts Say A Binocular-Wielding Seagull Is ‘Clearly’ Preparing To Oversee Vice City’s Waterfront"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-shopping-trolley-in-a-trench-coat-apparently-applying-",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "TABLOID TATTLE",
+      "accent": "yellow",
+      "title": "‘Leaked’ Clip Shows A Shopping Trolley In A Trench Coat Apparently Applying For Vice City Mayor",
+      "description": "A very serious-looking trolley has apparently been spotted practising speeches beside a parking metre and a pastry stand.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Clive Biscuit",
+      "readTime": "3 min read",
+      "date": "Monday, August 3, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Rumour merchants are in a state of mild collapse after a new clip allegedly showed a shopping trolley wearing a trench coat and staring meaningfully at the skyline.",
+        "Onlookers said the trolley rolled up to a fountain, paused for dramatic effect, and then appeared to nod at a clipboard as though preparing to lead a full civic campaign.",
+        "The footage, naturally, has been interpreted as a bold sign that Vice City is about to be run by something with four wheels, two wonky opinions, and a budget-conscious attitude to bins.",
+        "One expert of absolutely no official standing claimed the trolley’s posture suggested ‘mayoral energy’, while another said the trench coat was a clear indication of ‘administrative intent’."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-parrot-in-a-silk-scarf-is-clearly-about-to-negotiate-vice-c",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "PUNDIT NIBBLES",
+      "accent": "sunset",
+      "title": "Analysts Say A Parrot In A Silk Scarf Is ‘Clearly’ About To Negotiate Vice City’s Beach Permits",
+      "description": "Observers insist the bird’s posture, side-eye and general air of entitlement point to an imminent planning summit.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Mavis Waffle",
+      "readTime": "4 min read",
+      "date": "Monday, August 3, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "In the latest example of everyone seeing far too much in a bird, analysts are convinced a parrot in a silk scarf is absolutely destined to sort out Vice City’s beach permits.",
+        "The logic is simple: the scarf is elegant, the beak is firm, and the parrot has the sort of expression usually reserved for people who have just discovered a surcharge.",
+        "According to one breathless breakdown, the bird’s repeated squawk may actually be coded bureaucratic language for ‘submit the form in triplicate’.",
+        "Sceptics have pointed out that parrots do not, in fact, issue permits, but the analyst camp responded by saying that was exactly what a good permit-negotiator would want everyone to think.",
+        "If true, the city’s shoreline could soon be governed by a feathered intermediary with strong opinions on deckchairs and a deeply suspicious relationship with public access."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-bin-lorry-in-a-cravat-apparently-auditioning-for-vice-",
       "category": "leak",
