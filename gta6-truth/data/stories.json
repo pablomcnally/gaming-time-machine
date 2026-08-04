@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Monday, August 3, 2026",
+  "updatedLabel": "Tuesday, August 4, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Dustbin In Suspenders Apparently Applying For Vice City Harbour Master",
+    "Analysts Say A Roller Disco Lighthouse Is ‘Clearly’ About To Redesign Vice City’s Evening Budget",
     "‘Leaked’ Clip Shows A Shopping Trolley In A Trench Coat Apparently Applying For Vice City Mayor",
     "Analysts Say A Parrot In A Silk Scarf Is ‘Clearly’ About To Negotiate Vice City’s Beach Permits",
     "‘Leaked’ Clip Shows A Bin Lorry In A Cravat Apparently Auditioning For Vice City’s Nightlife Scene",
     "Analysts Say A Teacup In Goggles Is ‘Clearly’ About To Oversee Vice City’s Most Serious Meetings",
     "‘Leaked’ Clip Shows A Flamingo On Roller Skates Apparently Filing For Vice City Traffic Warden Duty",
-    "Analysts Say A Pigeon In A Waistcoat Is ‘Clearly’ About To Take Charge Of Vice City’s Balcony",
-    "‘Leaked’ Clip Shows A Trolley In A Raincoat Apparently Applying For Vice City’s Bus Lane",
-    "Analysts Say A Binocular-Wielding Seagull Is ‘Clearly’ Preparing To Oversee Vice City’s Waterfront"
+    "Analysts Say A Pigeon In A Waistcoat Is ‘Clearly’ About To Take Charge Of Vice City’s Balcony"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-dustbin-in-suspenders-apparently-applying-for-vice-cit",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "FLASH EXCLUSIVE",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Dustbin In Suspenders Apparently Applying For Vice City Harbour Master",
+      "description": "The internet has once again mistaken municipal optimism for a blockbuster reveal, as a very official-looking dustbin is said to be “seen” near the docks with...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel Wobble, Senior Sub-Editor",
+      "readTime": "4 min read",
+      "date": "Tuesday, August 4, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A grainy clip doing the rounds online appears to show a dustbin in suspenders gazing out over Vice City Harbour like it owns the place, which has naturally caused several thousand people to cry, “new gameplay!”.",
+        "In the footage, the bin can be observed standing beside a clipboard, wearing what experts are politely calling “confidence”. It then nudges a bollard as if to say the port authority must now answer to a higher, slightly rattly power.",
+        "Fans have already begun over-analysing the scene, with some claiming the dustbin’s shiny lid proves it is “important”, while others insist the suspenders are a clue about ferry routes, dockside taxes, or a secret mission involving crisps.",
+        "Our own department of nonsense believes the clip is probably just a prop, a prank, or a bin with ambition. Still, the pose is undeniably managerial, and the harbour has looked nervous ever since.",
+        "As ever, none of this is confirmed, which in internet terms means it will be discussed as fact until further notice."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-roller-disco-lighthouse-is-clearly-about-to-redesign-vice-c",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "SOPHISTICATED GUESSWORK",
+      "accent": "sunset",
+      "title": "Analysts Say A Roller Disco Lighthouse Is ‘Clearly’ About To Redesign Vice City’s Evening Budget",
+      "description": "A dazzling bit of fan interpretation suggests the city’s most sensible beacon may now be moonlighting as a nightlife consultant, despite having no visible hands,...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Patricia Blunt, Rumour Correspondent",
+      "readTime": "5 min read",
+      "date": "Tuesday, August 4, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A new wave of totally scientific speculation has arrived, this time concerning a roller disco lighthouse spotted in what may or may not be a menu background, a loading screen, or someone’s uncle’s dream.",
+        "According to analysts, the lighthouse’s mirrored shades and wheels are “obviously” symbolic of Vice City’s nightlife economy. The theory is that it will spend the evenings guiding boats, then sprinting off to a club to request the VIP list.",
+        "The evidence is said to include the glow, the rhythm, and the fact that it appears to be standing near water, which fans have long considered a sign of imminent narrative significance.",
+        "Critics have pointed out that it could simply be a lighthouse with disco shoes on, but that has not slowed the discussion. If anything, it has made the discussion more determined and slightly more glittery.",
+        "In summary: the internet has decided a building on wheels is either central to the plot or deeply committed to jazz. Both possibilities remain, regrettably, within the realm of parody."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-shopping-trolley-in-a-trench-coat-apparently-applying-",
       "category": "leak",
