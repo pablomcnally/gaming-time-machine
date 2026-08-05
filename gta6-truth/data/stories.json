@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Tuesday, August 4, 2026",
+  "updatedLabel": "Wednesday, August 5, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Wheelie Bin In Sunglasses Apparently Applying For Vice City’s Parking",
+    "Analysts Say A Karaoke Crab In A Blazer Is ‘Clearly’ About To Reorganise Vice City’s Seafront",
     "‘Leaked’ Clip Shows A Dustbin In Suspenders Apparently Applying For Vice City Harbour Master",
     "Analysts Say A Roller Disco Lighthouse Is ‘Clearly’ About To Redesign Vice City’s Evening Budget",
     "‘Leaked’ Clip Shows A Shopping Trolley In A Trench Coat Apparently Applying For Vice City Mayor",
     "Analysts Say A Parrot In A Silk Scarf Is ‘Clearly’ About To Negotiate Vice City’s Beach Permits",
     "‘Leaked’ Clip Shows A Bin Lorry In A Cravat Apparently Auditioning For Vice City’s Nightlife Scene",
-    "Analysts Say A Teacup In Goggles Is ‘Clearly’ About To Oversee Vice City’s Most Serious Meetings",
-    "‘Leaked’ Clip Shows A Flamingo On Roller Skates Apparently Filing For Vice City Traffic Warden Duty",
-    "Analysts Say A Pigeon In A Waistcoat Is ‘Clearly’ About To Take Charge Of Vice City’s Balcony"
+    "Analysts Say A Teacup In Goggles Is ‘Clearly’ About To Oversee Vice City’s Most Serious Meetings"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-wheelie-bin-in-sunglasses-apparently-applying-for-vice",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "NEW TIP",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Wheelie Bin In Sunglasses Apparently Applying For Vice City’s Parking",
+      "description": "A deeply suspicious-looking clip has the internet insisting a bin is now in charge of traffic policy, mood lighting and possibly bins.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "M. Appleby",
+      "readTime": "3 min read",
+      "date": "Wednesday, August 5, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The clip, which appears to have been filmed on a phone held horizontally and with great confidence, shows a wheelie bin wearing sunglasses outside a neon car park while several pedestrians nod as if this is entirely normal.",
+        "Observers say the bin briefly rotates toward the camera, which experts have interpreted as either a dramatic reveal or the start of a strongly worded parking memo.",
+        "Fans immediately concluded the container is destined to become Vice City’s new Parking Director, a role said to involve cones, clamping, and judging people who reverse into space with unnecessary enthusiasm.",
+        "One witness claimed the bin was seen near a ticket machine and a ketchup-stained leaflet reading ‘Respect the kerb, mate’, though this has not been independently verified by any sane person.",
+        "As ever, the footage is almost certainly just a bin being a bin, but that has not stopped the internet appointing it to public office by lunchtime."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-karaoke-crab-in-a-blazer-is-clearly-about-to-reorganise-vic",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "CITY DESK",
+      "accent": "green",
+      "title": "Analysts Say A Karaoke Crab In A Blazer Is ‘Clearly’ About To Reorganise Vice City’s Seafront",
+      "description": "Pundits are reading far too much into a shellfish with confidence, a tie, and what looks like a clipboard made of fish shop menu boards.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "J. Pembroke",
+      "readTime": "4 min read",
+      "date": "Wednesday, August 5, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Industry boffins have taken one blurry frame of a crab at a seaside microphone and declared, with a straight face, that the creature is ‘setting up a serious tourism push’.",
+        "The crab, seen wearing a blazer and standing beside a neon palm tree, is said to symbolise the game’s new approach to coastal management, which apparently now includes background music, scheduling and emotional support for seagulls.",
+        "According to analysts, the crab’s sideways movement points to a ‘dynamic urban flow model’, though others suggest it simply could not be bothered to walk forward.",
+        "The real clue, they insist, is the karaoke machine, which they believe confirms a major storyline about a seafront entertainment review, a dispute over reserved decking, and at least one very awkward rendition of a power ballad.",
+        "In reality, the only thing confirmed is that a crab in formalwear remains a powerful image, and possibly the most qualified tourist official Vice City has ever produced."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-dustbin-in-suspenders-apparently-applying-for-vice-cit",
       "category": "leak",
