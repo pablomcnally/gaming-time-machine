@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Thursday, August 6, 2026",
+  "updatedLabel": "Friday, August 7, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Hot Dog Stand In Loafers Apparently Applying For Vice City’s Bridge Inspector",
+    "Analysts Say A Seagull In A Bowler Hat Is ‘Clearly’ About To Rebrand Vice City’s Ferry Schedule",
     "‘Leaked’ Clip Shows A Neon Eel In A Bow Tie Apparently Applying For Vice City’s Taxi Rank",
     "Analysts Say A Golf Cart DJ In Patent Shoes Is ‘Clearly’ About To Rebrand Vice City’s Night Market",
     "‘Leaked’ Clip Shows A Wheelie Bin In Sunglasses Apparently Applying For Vice City’s Parking",
     "Analysts Say A Karaoke Crab In A Blazer Is ‘Clearly’ About To Reorganise Vice City’s Seafront",
     "‘Leaked’ Clip Shows A Dustbin In Suspenders Apparently Applying For Vice City Harbour Master",
-    "Analysts Say A Roller Disco Lighthouse Is ‘Clearly’ About To Redesign Vice City’s Evening Budget",
-    "‘Leaked’ Clip Shows A Shopping Trolley In A Trench Coat Apparently Applying For Vice City Mayor",
-    "Analysts Say A Parrot In A Silk Scarf Is ‘Clearly’ About To Negotiate Vice City’s Beach Permits"
+    "Analysts Say A Roller Disco Lighthouse Is ‘Clearly’ About To Redesign Vice City’s Evening Budget"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-hot-dog-stand-in-loafers-apparently-applying-for-vice-",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "Absolutely Not Verified",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Hot Dog Stand In Loafers Apparently Applying For Vice City’s Bridge Inspector",
+      "description": "A clip of a suspiciously confident snack kiosk has allegedly convinced the internet that Vice City’s bridge network is now being managed by a sausage-based entrepreneur.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel Teasdale",
+      "readTime": "3 min read",
+      "date": "Friday, August 7, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The latest so-called sighting features a hot dog stand wearing loafers, standing beside a drawbridge with the sort of posture normally reserved for school governors and divorced uncles.",
+        "According to nobody sensible, the stand was seen tapping a clipboard with a mustard-smeared finger and muttering about load-bearing optimism.",
+        "Witnesses claim the structure then announced it was ‘very much qualified’ to inspect the bridge because it had been ‘serving buns for years’, which is the kind of logic only Vice City could make sound almost official.",
+        "Some fans are now insisting the clip proves the game has introduced a new careers system, while others believe it is simply a hot dog stand having a powerful day out.",
+        "Either way, the alleged footage has already become the only thing standing between the bridge and a full-blown press conference."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-seagull-in-a-bowler-hat-is-clearly-about-to-rebrand-vice-ci",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "Probably Overthinking It",
+      "accent": "sunset",
+      "title": "Analysts Say A Seagull In A Bowler Hat Is ‘Clearly’ About To Rebrand Vice City’s Ferry Schedule",
+      "description": "Experts with absolutely too much spare time believe a dapper seagull points to a major transport shake-up, or at least a stronger opinion about chips.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Crump",
+      "readTime": "4 min read",
+      "date": "Friday, August 7, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The new theory sweeping the message boards suggests that a seagull in a bowler hat is not merely decorative, but deeply symbolic of transport reform, civic order, and possibly theft.",
+        "In the footage-under-discussion, the bird appears to loiter near a timetable board with the unwavering confidence of a man who has lost his parking ticket but not his dignity.",
+        "Analysts have interpreted this as evidence of a ferry schedule system that may now be run by birds, or at least by people who dress like birds and speak in stern chirps.",
+        "One particularly committed poster argued the bowler hat signifies ‘old money maritime control’, though this was immediately countered by a reply reading simply, ‘It’s a seagull, mate.’",
+        "Still, the idea of a ferry service managed by a judgmental bird has caught on, and frankly sounds more organised than most actual holiday routes."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-neon-eel-in-a-bow-tie-apparently-applying-for-vice-cit",
       "category": "leak",
