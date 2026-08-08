@@ -1,21 +1,63 @@
 {
-  "updatedLabel": "Friday, August 7, 2026",
+  "updatedLabel": "Saturday, August 8, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Parking Meter In A Leather Jacket Apparently Applying For Vice City Weather",
+    "Analysts Say A Flamingo In Work Boots Is ‘Clearly’ Set To Run Vice City’s Traffic Lights",
     "‘Leaked’ Clip Shows A Hot Dog Stand In Loafers Apparently Applying For Vice City’s Bridge Inspector",
     "Analysts Say A Seagull In A Bowler Hat Is ‘Clearly’ About To Rebrand Vice City’s Ferry Schedule",
     "‘Leaked’ Clip Shows A Neon Eel In A Bow Tie Apparently Applying For Vice City’s Taxi Rank",
     "Analysts Say A Golf Cart DJ In Patent Shoes Is ‘Clearly’ About To Rebrand Vice City’s Night Market",
     "‘Leaked’ Clip Shows A Wheelie Bin In Sunglasses Apparently Applying For Vice City’s Parking",
-    "Analysts Say A Karaoke Crab In A Blazer Is ‘Clearly’ About To Reorganise Vice City’s Seafront",
-    "‘Leaked’ Clip Shows A Dustbin In Suspenders Apparently Applying For Vice City Harbour Master",
-    "Analysts Say A Roller Disco Lighthouse Is ‘Clearly’ About To Redesign Vice City’s Evening Budget"
+    "Analysts Say A Karaoke Crab In A Blazer Is ‘Clearly’ About To Reorganise Vice City’s Seafront"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-parking-meter-in-a-leather-jacket-apparently-applying-",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "VERY OFFICIAL-LOOKING RUMOUR",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Parking Meter In A Leather Jacket Apparently Applying For Vice City Weather",
+      "description": "A highly questionable clip, believed to have been filmed on what looked like a phone, suggests the city’s weather system is now being handled by a meter with strong...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Our Entirely Unlicensed Games Desk",
+      "readTime": "4 min read",
+      "date": "Saturday, August 8, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The latest so-called clip has arrived looking as if it was uploaded by a suspiciously confident seagull. It shows a parking meter wearing a leather jacket, standing under a palm tree and staring into the middle distance like it has just been told it owns the coastline.",
+        "According to no-one in particular, the meter is seen tapping its little top cap against a console and apparently choosing between ‘light drizzle’, ‘dramatic sunset’ and ‘absolutely not, mate’. We have not been able to verify any of this, because it is almost certainly nonsense.",
+        "Fans online have already done what fans online do best, namely announcing that the meter’s reflective panel is ‘obviously a clue’. One commenter insisted the whole thing proves Vice City will feature dynamic weather, while another said it proves the parking meter has been to drama school.",
+        "Our analysis is simple: if this is real, then the rain is in trouble. If it is not real, then the parking meter still deserves an agent, a stylist and possibly a small umbrella of its own."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-flamingo-in-work-boots-is-clearly-set-to-run-vice-city-s-tr",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TABLOID LOGIC CORRESPONDENT",
+      "accent": "sunset",
+      "title": "Analysts Say A Flamingo In Work Boots Is ‘Clearly’ Set To Run Vice City’s Traffic Lights",
+      "description": "Pundits have examined a baffling image of a flamingo in sturdy footwear and concluded, with no measurable evidence, that it must be involved in citywide traffic...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By The Editorial Department, Who Should",
+      "readTime": "5 min read",
+      "date": "Saturday, August 8, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Following a week of highly serious internet behaviour, analysts are now convinced that Vice City’s traffic lights are about to be overseen by a flamingo in work boots. The bird has been described as ‘purposeful’, ‘architectural’ and ‘probably on salary’.",
+        "The reasoning, if that is the word, goes like this: flamingos are tall, boots suggest authority, and traffic lights are red, which is apparently close enough for an entire theory. Somewhere in the middle of this logic pile, a new map system was invented.",
+        "Several experts have pointed out that if the flamingo does indeed manage the lights, then at least one junction will be permanently stuck on green because it is ‘vibing’. Another school of thought believes the boots indicate side quests involving ladders, cones and a great deal of civic fuss.",
+        "We should stress that this is not a leak, a confirmation or a public consultation. It is simply the sort of confident guesswork that keeps the forums warm on a damp Tuesday."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-hot-dog-stand-in-loafers-apparently-applying-for-vice-",
       "category": "leak",
