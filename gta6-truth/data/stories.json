@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Saturday, August 8, 2026",
+  "updatedLabel": "Sunday, August 9, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Soggy Briefcase In Trainers Apparently Training To Be Vice City’s Wind Advisor",
+    "Analysts Say A Disco Bin Lorry In Driving Gloves Is ‘Clearly’ Set To Overhaul Vice City’s Bin",
     "‘Leaked’ Clip Shows A Parking Meter In A Leather Jacket Apparently Applying For Vice City Weather",
     "Analysts Say A Flamingo In Work Boots Is ‘Clearly’ Set To Run Vice City’s Traffic Lights",
     "‘Leaked’ Clip Shows A Hot Dog Stand In Loafers Apparently Applying For Vice City’s Bridge Inspector",
     "Analysts Say A Seagull In A Bowler Hat Is ‘Clearly’ About To Rebrand Vice City’s Ferry Schedule",
     "‘Leaked’ Clip Shows A Neon Eel In A Bow Tie Apparently Applying For Vice City’s Taxi Rank",
-    "Analysts Say A Golf Cart DJ In Patent Shoes Is ‘Clearly’ About To Rebrand Vice City’s Night Market",
-    "‘Leaked’ Clip Shows A Wheelie Bin In Sunglasses Apparently Applying For Vice City’s Parking",
-    "Analysts Say A Karaoke Crab In A Blazer Is ‘Clearly’ About To Reorganise Vice City’s Seafront"
+    "Analysts Say A Golf Cart DJ In Patent Shoes Is ‘Clearly’ About To Rebrand Vice City’s Night Market"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-soggy-briefcase-in-trainers-apparently-training-to-be-",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE-ish",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Soggy Briefcase In Trainers Apparently Training To Be Vice City’s Wind Advisor",
+      "description": "A deeply unofficial clip appears to reveal a damp briefcase doing important-looking stretches near the marina while seagulls file complaints.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "M. T. Wibble",
+      "readTime": "4 min read",
+      "date": "Sunday, August 9, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has once again discovered a clip that definitely should not be trusted, and yet insists on trusting it immediately.",
+        "In the footage, a soggy briefcase wearing trainers is seen wobbling into the frame beside a palm tree, then pausing as if to judge the breeze with great professional seriousness.",
+        "Observers are split between ‘weather system’, ‘future side character’ and ‘extremely committed suitcase’.",
+        "At one point, the briefcase appears to point a tiny umbrella at the horizon, which some fans have already interpreted as a sign it will soon take control of Vice City’s crosswinds.",
+        "Naturally, no one knows what any of this means. But that has not stopped people from zooming in 400 times and naming the briefcase ‘Sir Draft-a-lot’."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-disco-bin-lorry-in-driving-gloves-is-clearly-set-to-overhau",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "ANALYSTS SHRUG",
+      "accent": "sunset",
+      "title": "Analysts Say A Disco Bin Lorry In Driving Gloves Is ‘Clearly’ Set To Overhaul Vice City’s Bin",
+      "description": "A highly scientific reading of a very silly screenshot suggests the city’s rubbish economy may be entering a glitter-heavy era.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "P. Honeychurch",
+      "readTime": "5 min read",
+      "date": "Sunday, August 9, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The latest bit of nonsense to set the forums alight is a grainy image of a disco-themed bin lorry idling outside a neon laundrette like it owns the place.",
+        "According to analysts, the driving gloves are the key detail. ‘No vehicle wears gloves unless it has ambition,’ one expert reportedly said, while nobody else agreed but all nodded politely.",
+        "The theory goes that the lorry is not merely collecting rubbish, but curating it, with a special interest in glow sticks, pizza boxes and anything left near a bass speaker.",
+        "Fans have already begun predicting side missions involving wheelie bins, municipal drama and at least one dramatic horn solo.",
+        "If true, Vice City may soon face the age-old question: is that garbage collection, or is it a residency?"
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-parking-meter-in-a-leather-jacket-apparently-applying-",
       "category": "leak",
