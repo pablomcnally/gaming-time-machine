@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Sunday, August 9, 2026",
+  "updatedLabel": "Monday, August 10, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Biscuit Tin In Sunglasses Apparently Applying For Vice City’s Pedestrian",
+    "Analysts Say A Shopping Trolley In A Headband Is ‘Clearly’ Set To Overhaul Vice City’s Parking",
     "‘Leaked’ Clip Shows A Soggy Briefcase In Trainers Apparently Training To Be Vice City’s Wind Advisor",
     "Analysts Say A Disco Bin Lorry In Driving Gloves Is ‘Clearly’ Set To Overhaul Vice City’s Bin",
     "‘Leaked’ Clip Shows A Parking Meter In A Leather Jacket Apparently Applying For Vice City Weather",
     "Analysts Say A Flamingo In Work Boots Is ‘Clearly’ Set To Run Vice City’s Traffic Lights",
     "‘Leaked’ Clip Shows A Hot Dog Stand In Loafers Apparently Applying For Vice City’s Bridge Inspector",
-    "Analysts Say A Seagull In A Bowler Hat Is ‘Clearly’ About To Rebrand Vice City’s Ferry Schedule",
-    "‘Leaked’ Clip Shows A Neon Eel In A Bow Tie Apparently Applying For Vice City’s Taxi Rank",
-    "Analysts Say A Golf Cart DJ In Patent Shoes Is ‘Clearly’ About To Rebrand Vice City’s Night Market"
+    "Analysts Say A Seagull In A Bowler Hat Is ‘Clearly’ About To Rebrand Vice City’s Ferry Schedule"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-biscuit-tin-in-sunglasses-apparently-applying-for-vice",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE-ish",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Biscuit Tin In Sunglasses Apparently Applying For Vice City’s Pedestrian",
+      "description": "A deeply unofficial clip has allegedly revealed a biscuit tin standing by a zebra crossing and taking its safety role far too seriously, which naturally means the...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "P. Crumbly",
+      "readTime": "3 min read",
+      "date": "Monday, August 10, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The clip, which is almost certainly nonsense with extra nonsense on top, shows a modest biscuit tin in shades staring at a crossing as if it has just discovered responsibility.",
+        "Within moments, commentators began declaring the tin a “game-changer” for Vice City pedestrian safety, despite the fact it is clearly just a tin with ambition and a shiny attitude.",
+        "Witnesses in the made-up footage say the tin performed a slow turn, a dramatic pause, and what appeared to be a stern internal memo about road etiquette.",
+        "Experts on the sofa have already suggested the tin’s real talent is making every nearby vehicle feel mildly judged, which is apparently the new benchmark for urban planning.",
+        "If true, the sighting would mark the first time in history that a biscuit container has been credited with improving civic order without actually moving its lid."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-shopping-trolley-in-a-headband-is-clearly-set-to-overhaul-v",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TRENDS",
+      "accent": "sunset",
+      "title": "Analysts Say A Shopping Trolley In A Headband Is ‘Clearly’ Set To Overhaul Vice City’s Parking",
+      "description": "Industry thinkers have examined a suspiciously stylish trolley and concluded it is either an icon of reform or a metal basket having a very confident afternoon.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "M. Havers",
+      "readTime": "4 min read",
+      "date": "Monday, August 10, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "According to people who absolutely should know better, the trolley’s headband is not fashion but governance, signalling a bold new era of boundary-pushing parking rules.",
+        "Their theory is that Vice City will soon be divided into zones: one for cars, one for scooters, and one for trolleys with leadership qualities.",
+        "The analysis also claims the trolley’s slight wobble represents “adaptive policy”, which is a very grand phrase for something that looks like it may topple into a hedge at any moment.",
+        "A rival camp insists the trolley is simply lost, but this has not stopped pundits from treating it as the keynote speaker at a conference on kerbside efficiency.",
+        "Either way, the trolley has reportedly boosted morale among all metal objects that have ever dreamed of making a difference."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-soggy-briefcase-in-trainers-apparently-training-to-be-",
       "category": "leak",
