@@ -1,21 +1,69 @@
 {
-  "updatedLabel": "Monday, August 10, 2026",
+  "updatedLabel": "Tuesday, August 11, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Pigeon In A Hi-Vis Waistcoat Apparently Applying For Vice City’s Airport",
+    "Analysts Say A Stolen Umbrella In A Tie Is ‘Clearly’ Set To Redesign Vice City’s Bus Stops",
     "‘Leaked’ Clip Shows A Biscuit Tin In Sunglasses Apparently Applying For Vice City’s Pedestrian",
     "Analysts Say A Shopping Trolley In A Headband Is ‘Clearly’ Set To Overhaul Vice City’s Parking",
     "‘Leaked’ Clip Shows A Soggy Briefcase In Trainers Apparently Training To Be Vice City’s Wind Advisor",
     "Analysts Say A Disco Bin Lorry In Driving Gloves Is ‘Clearly’ Set To Overhaul Vice City’s Bin",
     "‘Leaked’ Clip Shows A Parking Meter In A Leather Jacket Apparently Applying For Vice City Weather",
-    "Analysts Say A Flamingo In Work Boots Is ‘Clearly’ Set To Run Vice City’s Traffic Lights",
-    "‘Leaked’ Clip Shows A Hot Dog Stand In Loafers Apparently Applying For Vice City’s Bridge Inspector",
-    "Analysts Say A Seagull In A Bowler Hat Is ‘Clearly’ About To Rebrand Vice City’s Ferry Schedule"
+    "Analysts Say A Flamingo In Work Boots Is ‘Clearly’ Set To Run Vice City’s Traffic Lights"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-pigeon-in-a-hi-vis-waistcoat-apparently-applying-for-v",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE?",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Pigeon In A Hi-Vis Waistcoat Apparently Applying For Vice City’s Airport",
+      "description": "A deeply suspicious-looking video appears to show a very determined pigeon taking a clipboard to the runway, which experts say is either nonsense or the future of travel.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Reginald P. Muck, Senior Scribbler",
+      "readTime": "3 min read",
+      "date": "Tuesday, August 11, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has done what it does best: looked at a blurry clip and immediately decided it was destiny.",
+        "The star of the footage is a pigeon wearing a hi-vis waistcoat and pecking at a clipboard with the sort of confidence usually reserved for men selling air fryers outside service stations.",
+        "According to absolutely nobody in particular, the bird is said to be ‘applying’ for Vice City’s airport, though the application appears to consist mainly of one peck, two side-eyes and a brisk hop onto a trolley.",
+        "Observers were divided. Some called it a promising sign of dynamic NPC behaviour. Others said it was just a pigeon being rude near luggage.",
+        "Either way, the clip has already sparked debate about whether Vice City is entering a bold new era of aviation, or simply running out of sensible places to stand.",
+        "One source close to a nearby sandwich said the pigeon seemed ‘fully committed’ and had already judged three passengers for their shoes.",
+        "As ever, the truth remains somewhere between total fabrication and a bird with attitude."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-stolen-umbrella-in-a-tie-is-clearly-set-to-redesign-vice-ci",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "HOT TAKE",
+      "accent": "sunset",
+      "title": "Analysts Say A Stolen Umbrella In A Tie Is ‘Clearly’ Set To Redesign Vice City’s Bus Stops",
+      "description": "Pundits have examined a completely imaginary umbrella and concluded, with great seriousness, that public transport in Vice City is about to become much wetter and...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Penelope D. Stitch, Features Department",
+      "readTime": "4 min read",
+      "date": "Tuesday, August 11, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Analysts have been at it again, staring into the void and finding a tie-wearing umbrella with ‘strong infrastructure potential’.",
+        "The object in question, said to be standing very straight beside a bus stop, has allegedly been described as ‘a natural leader’ and ‘probably quite good at queues’.",
+        "Experts believe the umbrella’s real strength lies in its ability to offer shade, confusion and a slight sense of betrayal all at once.",
+        "They say Vice City’s bus stops are poised for a major refresh, with sharper signage, moodier shelter angles and the possible introduction of a sighing mechanism for delays.",
+        "One report, drafted entirely in the spirit of career preservation, claims the umbrella may also improve passenger confidence by doing absolutely nothing while looking important.",
+        "Sceptics have pointed out that umbrellas, by design, are not usually architects. Analysts countered that neither are several existing bus stops.",
+        "The result is a solidly made-up theory with enough starch to survive three morning editions and a light drizzle."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-biscuit-tin-in-sunglasses-apparently-applying-for-vice",
       "category": "leak",
