@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Tuesday, August 11, 2026",
+  "updatedLabel": "Wednesday, August 12, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Pelican In A Reflective Vest Apparently Applying For Vice City’s Roundabout",
+    "Analysts Say A Shopping Basket In Driving Gloves Is ‘Clearly’ Set To Oversee Vice City’s Queue",
     "‘Leaked’ Clip Shows A Pigeon In A Hi-Vis Waistcoat Apparently Applying For Vice City’s Airport",
     "Analysts Say A Stolen Umbrella In A Tie Is ‘Clearly’ Set To Redesign Vice City’s Bus Stops",
     "‘Leaked’ Clip Shows A Biscuit Tin In Sunglasses Apparently Applying For Vice City’s Pedestrian",
     "Analysts Say A Shopping Trolley In A Headband Is ‘Clearly’ Set To Overhaul Vice City’s Parking",
     "‘Leaked’ Clip Shows A Soggy Briefcase In Trainers Apparently Training To Be Vice City’s Wind Advisor",
-    "Analysts Say A Disco Bin Lorry In Driving Gloves Is ‘Clearly’ Set To Overhaul Vice City’s Bin",
-    "‘Leaked’ Clip Shows A Parking Meter In A Leather Jacket Apparently Applying For Vice City Weather",
-    "Analysts Say A Flamingo In Work Boots Is ‘Clearly’ Set To Run Vice City’s Traffic Lights"
+    "Analysts Say A Disco Bin Lorry In Driving Gloves Is ‘Clearly’ Set To Overhaul Vice City’s Bin"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-pelican-in-a-reflective-vest-apparently-applying-for-v",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE?",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Pelican In A Reflective Vest Apparently Applying For Vice City’s Roundabout",
+      "description": "A very serious-looking bird has reportedly been spotted pacing a traffic island and judging everyone with a clipboard.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Staff Quack Correspondent",
+      "readTime": "3 min read",
+      "date": "Wednesday, August 12, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A fresh bit of made-up internet nonsense claims a pelican in a reflective vest has been seen standing by a Vice City roundabout, staring at cars like it owns the place.",
+        "According to the clearly unreliable clip, the bird spends several minutes pecking at a clipboard, then waddles into the middle of the road as if conducting a formal inspection of the entire transport system.",
+        "Onlookers in the imaginary footage say the pelican appears to issue stern nods, one disapproving glare, and what may or may not have been a demand for better lane discipline.",
+        "Naturally, no one knows what this means, because it means nothing. Still, fans have already decided the pelican is either a side character, a mission-giver, or a warning from the gods of parking.",
+        "The whole affair has all the hallmarks of a classic internet ‘leak’: blurry camera work, dramatic zooms, and a level of certainty that collapses instantly upon being looked at closely."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-shopping-basket-in-driving-gloves-is-clearly-set-to-oversee",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "CITY DESK",
+      "accent": "sunset",
+      "title": "Analysts Say A Shopping Basket In Driving Gloves Is ‘Clearly’ Set To Oversee Vice City’s Queue",
+      "description": "Experts have drawn sweeping conclusions from a basket, a pair of gloves, and absolutely no evidence whatsoever.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Moira F. Whimsy",
+      "readTime": "4 min read",
+      "date": "Wednesday, August 12, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Our imaginary analysts have had a busy afternoon with a grainy clip showing a supermarket basket wearing driving gloves and waiting with unnerving patience outside a corner shop.",
+        "From this, they have apparently concluded that Vice City’s queue system is about to undergo a major shake-up, with the basket expected to ‘bring order, fairness and possibly coupons’ to the streets.",
+        "The reasoning is, as ever, rock solid in the way a wet paper bag is rock solid. The basket is seen turning slightly to the left, which some interpret as a policy stance, while others think it simply noticed a bin.",
+        "One expert quoted in the parody realm said the basket’s posture suggested ‘leadership energy’, which is also what people say when they cannot explain a shopping basket in gloves.",
+        "If true, the streets of Vice City may soon become a place where everyone queues properly, nobody cuts in, and the basket gives out stern looks to anyone reaching for the last pastry."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-pigeon-in-a-hi-vis-waistcoat-apparently-applying-for-v",
       "category": "leak",
