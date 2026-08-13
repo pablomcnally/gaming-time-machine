@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Wednesday, August 12, 2026",
+  "updatedLabel": "Thursday, August 13, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Coconut In A Raincoat Apparently Applying For Vice City’s Pothole Patrol",
+    "Analysts Say A Sunglasses Shop Sign In Trainers Is ‘Clearly’ About To Launch Vice City’s Nightlife",
     "‘Leaked’ Clip Shows A Pelican In A Reflective Vest Apparently Applying For Vice City’s Roundabout",
     "Analysts Say A Shopping Basket In Driving Gloves Is ‘Clearly’ Set To Oversee Vice City’s Queue",
     "‘Leaked’ Clip Shows A Pigeon In A Hi-Vis Waistcoat Apparently Applying For Vice City’s Airport",
     "Analysts Say A Stolen Umbrella In A Tie Is ‘Clearly’ Set To Redesign Vice City’s Bus Stops",
     "‘Leaked’ Clip Shows A Biscuit Tin In Sunglasses Apparently Applying For Vice City’s Pedestrian",
-    "Analysts Say A Shopping Trolley In A Headband Is ‘Clearly’ Set To Overhaul Vice City’s Parking",
-    "‘Leaked’ Clip Shows A Soggy Briefcase In Trainers Apparently Training To Be Vice City’s Wind Advisor",
-    "Analysts Say A Disco Bin Lorry In Driving Gloves Is ‘Clearly’ Set To Overhaul Vice City’s Bin"
+    "Analysts Say A Shopping Trolley In A Headband Is ‘Clearly’ Set To Overhaul Vice City’s Parking"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-coconut-in-a-raincoat-apparently-applying-for-vice-cit",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "FRESHLY FORGED CLIP",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Coconut In A Raincoat Apparently Applying For Vice City’s Pothole Patrol",
+      "description": "A highly questionable clip suggests a coconut has been promoted from beach snack to civic inspector after being spotted standing very still beside a puddle.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel Quibble",
+      "readTime": "3 min read",
+      "date": "Thursday, August 13, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has once again done what it does best: looked at a blurry object and declared it destiny.",
+        "In the clip, a coconut wearing a raincoat is seen beside a crater-sized pothole, apparently judging it with the sternness of a headteacher and the texture of a chip shop wall.",
+        "Sources close to absolutely nobody say the coconut is ‘taking the role very seriously’, which is more than can be said for the road.",
+        "The footage ends with the coconut being placed into a traffic cone like a tiny, woody mayor, which has led fans to conclude Vice City is entering its ‘hard-hitting infrastructure era’.",
+        "Experts urge caution, pointing out that the object may simply be a coconut."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-sunglasses-shop-sign-in-trainers-is-clearly-about-to-launch",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "ANALYSTS GO BRASSY",
+      "accent": "sunset",
+      "title": "Analysts Say A Sunglasses Shop Sign In Trainers Is ‘Clearly’ About To Launch Vice City’s Nightlife",
+      "description": "Industry watchers believe a particularly confident signboard has all the hallmarks of someone ready to reinvent club culture, queue management and possibly parking.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Felicity Muddle",
+      "readTime": "4 min read",
+      "date": "Thursday, August 13, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The newest wave of speculation has taken a sharp turn into the decorative, with analysts now focusing on a sunglasses shop sign that appears to be wearing trainers.",
+        "According to the usual experts with too much time and a printer, the footwear indicates ‘mobility, ambition and a willingness to stand outside a venue for six hours’.",
+        "They claim the sign’s reflective surface suggests a major role in Vice City’s nightlife, possibly as a border control officer for velvet ropes.",
+        "One report states the sign is ‘positioned for influence’, which is a deeply alarming phrase to apply to a retail fixture.",
+        "The site is expected to either transform the city’s after-dark economy or simply remain attached to a wall and mind its own business."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-pelican-in-a-reflective-vest-apparently-applying-for-v",
       "category": "leak",
