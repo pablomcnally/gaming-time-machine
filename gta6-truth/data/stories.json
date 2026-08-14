@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Thursday, August 13, 2026",
+  "updatedLabel": "Friday, August 14, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Seagull In A Boiler Suit Apparently Training To Audit Vice City’s Chips",
+    "Analysts Say A Traffic Cone In A Bowler Hat Is ‘Clearly’ Set To Oversee Vice City’s Celebrations",
     "‘Leaked’ Clip Shows A Coconut In A Raincoat Apparently Applying For Vice City’s Pothole Patrol",
     "Analysts Say A Sunglasses Shop Sign In Trainers Is ‘Clearly’ About To Launch Vice City’s Nightlife",
     "‘Leaked’ Clip Shows A Pelican In A Reflective Vest Apparently Applying For Vice City’s Roundabout",
     "Analysts Say A Shopping Basket In Driving Gloves Is ‘Clearly’ Set To Oversee Vice City’s Queue",
     "‘Leaked’ Clip Shows A Pigeon In A Hi-Vis Waistcoat Apparently Applying For Vice City’s Airport",
-    "Analysts Say A Stolen Umbrella In A Tie Is ‘Clearly’ Set To Redesign Vice City’s Bus Stops",
-    "‘Leaked’ Clip Shows A Biscuit Tin In Sunglasses Apparently Applying For Vice City’s Pedestrian",
-    "Analysts Say A Shopping Trolley In A Headband Is ‘Clearly’ Set To Overhaul Vice City’s Parking"
+    "Analysts Say A Stolen Umbrella In A Tie Is ‘Clearly’ Set To Redesign Vice City’s Bus Stops"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-seagull-in-a-boiler-suit-apparently-training-to-audit-",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "Rumour Munch",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Seagull In A Boiler Suit Apparently Training To Audit Vice City’s Chips",
+      "description": "A very serious-looking bird is said to have been spotted standing near a takeaway, holding a clipboard and judging the fryer with all the warmth of a customs officer...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "Mavis Grumble",
+      "readTime": "3 min read",
+      "date": "Friday, August 14, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "According to absolutely nobody official, a grainy clip has surfaced of a seagull in a tiny boiler suit and steel-toe boots waddling up to a chip shop like it owns the franchise.",
+        "The bird is allegedly seen peering into a basket of fries, nodding once, and giving what onlookers described as ‘the face of a man who has found one too many soggy chips’.",
+        "Fans have, naturally, concluded this means Vice City will soon feature a full municipal chip-audit system, complete with bird-led inspections and a firm stance on undercooked batter.",
+        "One expert in nonsense suggested the seagull may be part of a wider ecosystem of characters who turn up looking vaguely overqualified for lunch.",
+        "If true, it would be the first time a shortlist has ever been presented in wings."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-traffic-cone-in-a-bowler-hat-is-clearly-set-to-oversee-vice",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "Desk Dread",
+      "accent": "sunset",
+      "title": "Analysts Say A Traffic Cone In A Bowler Hat Is ‘Clearly’ Set To Oversee Vice City’s Celebrations",
+      "description": "Our panel of overexcited theorists believe one distinguished cone may be stepping into a civic role involving parades, confetti and an alarming amount of standing still.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "Nigel P. Flap",
+      "readTime": "4 min read",
+      "date": "Friday, August 14, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet’s leading minds have examined a traffic cone wearing a bowler hat and declared it to be an unmistakable hint about Vice City’s future party planning.",
+        "They note the cone appears to be positioned beside bunting, which in analyst terms means it is either in charge of festivities or about to open a museum.",
+        "The bowler hat, they argue, suggests administrative power, while the cone’s rigid posture implies a character who will not tolerate nonsense at ribbon-cuttings.",
+        "A rival theory claims the cone is simply British, which the experts say makes the situation even more likely.",
+        "Either way, preparations are now under way for what may be the most dignified bit of roadworks ever imagined."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-coconut-in-a-raincoat-apparently-applying-for-vice-cit",
       "category": "leak",
