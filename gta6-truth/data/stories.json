@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Friday, August 14, 2026",
+  "updatedLabel": "Saturday, August 15, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Flamingo In A Flat Cap Apparently Training To Manage Vice City’s Roundabout",
+    "Analysts Say A Welly Boot In A Waistcoat Is ‘Clearly’ Set To Run Vice City’s Weather Desk",
     "‘Leaked’ Clip Shows A Seagull In A Boiler Suit Apparently Training To Audit Vice City’s Chips",
     "Analysts Say A Traffic Cone In A Bowler Hat Is ‘Clearly’ Set To Oversee Vice City’s Celebrations",
     "‘Leaked’ Clip Shows A Coconut In A Raincoat Apparently Applying For Vice City’s Pothole Patrol",
     "Analysts Say A Sunglasses Shop Sign In Trainers Is ‘Clearly’ About To Launch Vice City’s Nightlife",
     "‘Leaked’ Clip Shows A Pelican In A Reflective Vest Apparently Applying For Vice City’s Roundabout",
-    "Analysts Say A Shopping Basket In Driving Gloves Is ‘Clearly’ Set To Oversee Vice City’s Queue",
-    "‘Leaked’ Clip Shows A Pigeon In A Hi-Vis Waistcoat Apparently Applying For Vice City’s Airport",
-    "Analysts Say A Stolen Umbrella In A Tie Is ‘Clearly’ Set To Redesign Vice City’s Bus Stops"
+    "Analysts Say A Shopping Basket In Driving Gloves Is ‘Clearly’ Set To Oversee Vice City’s Queue"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-flamingo-in-a-flat-cap-apparently-training-to-manage-v",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "TOTALLY NOT OFFICIAL",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Flamingo In A Flat Cap Apparently Training To Manage Vice City’s Roundabout",
+      "description": "Tiny clip allegedly captures a flamingo taking notes beside a traffic circle, prompting instant theories about civic jazz planning and extremely confident pedestrians.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "Clive Muddle",
+      "readTime": "3 min read",
+      "date": "Saturday, August 15, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has once again spotted what it insists is a seismic moment for Vice City: a flamingo in a flat cap standing beside a roundabout like it owns the lease and the saxophone.",
+        "In the brief, highly suspicious clip, the bird appears to point one leg at approaching traffic, then nod solemnly as if approving a trumpet solo or a minor lane closure.",
+        "Fans were quick to conclude this means the game will feature a new roundabout jazz system, where vehicles must yield not only to pedestrians, but also to mood.",
+        "Our newsroom can confirm absolutely nothing, except that the flamingo looked very committed and the flat cap was positioned with alarming professionalism.",
+        "If true, Vice City’s transport department may finally be run by a creature that understands rhythm, patience, and the eternal British belief that a hat solves administration."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-welly-boot-in-a-waistcoat-is-clearly-set-to-run-vice-city-s",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "CIVIL SERVICES DESK",
+      "accent": "sunset",
+      "title": "Analysts Say A Welly Boot In A Waistcoat Is ‘Clearly’ Set To Run Vice City’s Weather Desk",
+      "description": "Experts have squinted at a damp footwear item and decided it is obviously destined for a senior role in forecasting, puddle policy, and emotional rainfall.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "Mavis Plume",
+      "readTime": "4 min read",
+      "date": "Saturday, August 15, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Our analysts have examined a perfectly ordinary-looking welly boot wearing a waistcoat and reached the only conclusion that matters: Vice City’s weather department is about to become deeply silly.",
+        "The theory is that the boot’s polished stance and tactical lining indicate leadership potential, especially in drizzle-heavy districts where umbrellas have a short and tragic career.",
+        "Supporters say the boot is a natural fit for the job, as it has experience with standing in mud, accepting criticism from clouds, and being left by the back door.",
+        "Sceptics, meanwhile, argue that a boot cannot possibly forecast anything unless it begins by predicting where the other boot is, which is fair enough.",
+        "If the rumours are correct, players may soon find themselves receiving weather updates from a footwear-based civil servant with a firm grip on precipitation and an unsettling fondness for spreadsheets."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-seagull-in-a-boiler-suit-apparently-training-to-audit-",
       "category": "leak",
