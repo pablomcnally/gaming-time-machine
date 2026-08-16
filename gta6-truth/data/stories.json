@@ -1,21 +1,67 @@
 {
-  "updatedLabel": "Saturday, August 15, 2026",
+  "updatedLabel": "Sunday, August 16, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Rubber Duck In A Trench Coat Apparently Interviewing For Vice City’s Harbour",
+    "Analysts Say A Teacup In Work Boots Is ‘Clearly’ Set To Reorganise Vice City’s Sunrise Economy",
     "‘Leaked’ Clip Shows A Flamingo In A Flat Cap Apparently Training To Manage Vice City’s Roundabout",
     "Analysts Say A Welly Boot In A Waistcoat Is ‘Clearly’ Set To Run Vice City’s Weather Desk",
     "‘Leaked’ Clip Shows A Seagull In A Boiler Suit Apparently Training To Audit Vice City’s Chips",
     "Analysts Say A Traffic Cone In A Bowler Hat Is ‘Clearly’ Set To Oversee Vice City’s Celebrations",
     "‘Leaked’ Clip Shows A Coconut In A Raincoat Apparently Applying For Vice City’s Pothole Patrol",
-    "Analysts Say A Sunglasses Shop Sign In Trainers Is ‘Clearly’ About To Launch Vice City’s Nightlife",
-    "‘Leaked’ Clip Shows A Pelican In A Reflective Vest Apparently Applying For Vice City’s Roundabout",
-    "Analysts Say A Shopping Basket In Driving Gloves Is ‘Clearly’ Set To Oversee Vice City’s Queue"
+    "Analysts Say A Sunglasses Shop Sign In Trainers Is ‘Clearly’ About To Launch Vice City’s Nightlife"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-rubber-duck-in-a-trench-coat-apparently-interviewing-f",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE? SORT OF",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Rubber Duck In A Trench Coat Apparently Interviewing For Vice City’s Harbour",
+      "description": "A suspiciously blurry clip appears to show a rubber duck taking notes, nodding gravely, and demanding better lighting for the docks.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Colin Wobble, Special Correspondent",
+      "readTime": "3 min read",
+      "date": "Sunday, August 16, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has once again mistaken a slightly wobbly video for a state secret, with viewers insisting a rubber duck in a trench coat is now in line to oversee harbour security.",
+        "In the clip, the duck is seen staring into the middle distance with the kind of determination usually reserved for men in queue-avoidance roles and women in urgent sunglasses purchases.",
+        "One expert in absolutely nothing described the footage as “a major sign” that Vice City’s waterfront will soon be patrolled by waterfowl, paperwork, and a deeply suspicious clipboard.",
+        "The duck’s briefcase, if it was a briefcase, appears to contain either official documents or two chips and a biro. Naturally, this has fuelled intense debate.",
+        "Analysts say the most important clue is the duck’s serious expression, which they believe signals both a promotion and a mild distrust of seagulls.",
+        "If real, the scene would mark a bold new era of harbourside administration. If not real, it would still be more organised than most weekends on the quay."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-teacup-in-work-boots-is-clearly-set-to-reorganise-vice-city",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TABLOID THINK PIECE",
+      "accent": "yellow",
+      "title": "Analysts Say A Teacup In Work Boots Is ‘Clearly’ Set To Reorganise Vice City’s Sunrise Economy",
+      "description": "A deep and almost certainly unnecessary read on why a very small cup, dressed for labour, may be the next big thing in dawn-time commerce.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Cuff, Staff Analyst For",
+      "readTime": "4 min read",
+      "date": "Sunday, August 16, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Business watchers have been left blinking into their croissants after noticing what appears to be a teacup in work boots marching purposefully through a sunlit scene.",
+        "The consensus, if such a thing can exist in this paper-based fever dream, is that the teacup represents a brand-new economic force: fragile confidence with reinforced soles.",
+        "According to analysts, the boots suggest heavy-duty ambition, while the handle angle indicates a refusal to accept defeat, even in adverse weather or a strong breeze.",
+        "Some say the scene points to new dawn markets, with the teacup taking charge of breakfast trading, early deliveries, and all disputes involving powdered sugar.",
+        "Others believe it is simply a teacup in boots, which is also a strong look and probably should be respected.",
+        "Either way, Vice City’s sunrise economy may never be the same, assuming it was ever the same to begin with."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-flamingo-in-a-flat-cap-apparently-training-to-manage-v",
       "category": "leak",
