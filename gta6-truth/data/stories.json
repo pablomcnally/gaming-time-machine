@@ -1,21 +1,63 @@
 {
-  "updatedLabel": "Sunday, August 16, 2026",
+  "updatedLabel": "Monday, August 17, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Pram In A Denim Jacket Apparently Interviewing For Vice City’s Parking Warden",
+    "Analysts Say A Clockwork Flip-Flop Is ‘Clearly’ Set To Become Vice City’s Most Important Political",
     "‘Leaked’ Clip Shows A Rubber Duck In A Trench Coat Apparently Interviewing For Vice City’s Harbour",
     "Analysts Say A Teacup In Work Boots Is ‘Clearly’ Set To Reorganise Vice City’s Sunrise Economy",
     "‘Leaked’ Clip Shows A Flamingo In A Flat Cap Apparently Training To Manage Vice City’s Roundabout",
     "Analysts Say A Welly Boot In A Waistcoat Is ‘Clearly’ Set To Run Vice City’s Weather Desk",
     "‘Leaked’ Clip Shows A Seagull In A Boiler Suit Apparently Training To Audit Vice City’s Chips",
-    "Analysts Say A Traffic Cone In A Bowler Hat Is ‘Clearly’ Set To Oversee Vice City’s Celebrations",
-    "‘Leaked’ Clip Shows A Coconut In A Raincoat Apparently Applying For Vice City’s Pothole Patrol",
-    "Analysts Say A Sunglasses Shop Sign In Trainers Is ‘Clearly’ About To Launch Vice City’s Nightlife"
+    "Analysts Say A Traffic Cone In A Bowler Hat Is ‘Clearly’ Set To Oversee Vice City’s Celebrations"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-pram-in-a-denim-jacket-apparently-interviewing-for-vic",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "RUMOUR MONGER",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Pram In A Denim Jacket Apparently Interviewing For Vice City’s Parking Warden",
+      "description": "A highly suspect video allegedly shows a respectable pram taking notes, staring sternly at a parked scooter, and projecting the sort of authority usually reserved for...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel T. Biscuit",
+      "readTime": "3 min read",
+      "date": "Monday, August 17, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The clip, if it can be called that and not a blur with ambitions, appears to feature a pram in a denim jacket standing beside a painted kerb like it pays council tax.",
+        "Observers say the pram’s expression is one of firm disappointment, which is exactly the look Vice City needs when someone leaves a hatchback at a jaunty angle.",
+        "One scene seems to show the pram consulting a clipboard, though experts note it may simply be a folded takeaway menu and a terrible attitude.",
+        "Naturally, fans have concluded this means the game’s parking system will be “deep” and “emotionally complex”, with at least one street in permanent passive aggression."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-clockwork-flip-flop-is-clearly-set-to-become-vice-city-s-mo",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "CITY DESK",
+      "accent": "sunset",
+      "title": "Analysts Say A Clockwork Flip-Flop Is ‘Clearly’ Set To Become Vice City’s Most Important Political",
+      "description": "Commentators are convinced a single sandal with gears in it is destined to shape the city’s future through a mixture of squeaking, punctuality, and baffling confidence.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda C. Teacake",
+      "readTime": "4 min read",
+      "date": "Monday, August 17, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "According to people who only look at screenshots for moral support, the flip-flop’s tidy brass cogs prove it is “symbolically central” to the whole saga.",
+        "The theory claims it will influence everything from nightclub queues to rainfall, mainly by arriving late but somehow still being in charge.",
+        "One analyst described the footwear as “a metaphor for governance”, which is not a phrase most newspapers get to use before lunch.",
+        "If true, players may spend much of Vice City walking past important meetings while the flip-flop makes decisions from under a lounger with a clipboard and a grudge."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-rubber-duck-in-a-trench-coat-apparently-interviewing-f",
       "category": "leak",
