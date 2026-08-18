@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Monday, August 17, 2026",
+  "updatedLabel": "Tuesday, August 18, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Kettle In A Chain Necklace Apparently Applying For Vice City’s Bin Liaison",
+    "Analysts Say A Broom In Loafers Is ‘Clearly’ Set To Revolutionise Vice City’s Sidewalk Politics",
     "‘Leaked’ Clip Shows A Pram In A Denim Jacket Apparently Interviewing For Vice City’s Parking Warden",
     "Analysts Say A Clockwork Flip-Flop Is ‘Clearly’ Set To Become Vice City’s Most Important Political",
     "‘Leaked’ Clip Shows A Rubber Duck In A Trench Coat Apparently Interviewing For Vice City’s Harbour",
     "Analysts Say A Teacup In Work Boots Is ‘Clearly’ Set To Reorganise Vice City’s Sunrise Economy",
     "‘Leaked’ Clip Shows A Flamingo In A Flat Cap Apparently Training To Manage Vice City’s Roundabout",
-    "Analysts Say A Welly Boot In A Waistcoat Is ‘Clearly’ Set To Run Vice City’s Weather Desk",
-    "‘Leaked’ Clip Shows A Seagull In A Boiler Suit Apparently Training To Audit Vice City’s Chips",
-    "Analysts Say A Traffic Cone In A Bowler Hat Is ‘Clearly’ Set To Oversee Vice City’s Celebrations"
+    "Analysts Say A Welly Boot In A Waistcoat Is ‘Clearly’ Set To Run Vice City’s Weather Desk"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-kettle-in-a-chain-necklace-apparently-applying-for-vic",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "VERY OFFICIAL-ISH",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Kettle In A Chain Necklace Apparently Applying For Vice City’s Bin Liaison",
+      "description": "A totally invented clip has allegedly revealed a deeply serious kettle pursuing a civic career, because even hot water needs ambition.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "Chip P. Tatter",
+      "readTime": "3 min read",
+      "date": "Tuesday, August 18, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Our newsroom has received what is being described, in the most theatrical possible sense, as a ‘clip’ of a kettle in a chain necklace standing outside what may or may not be a municipal office.",
+        "The footage, which looks like someone filmed a breakfast tray after it had opinions, shows the appliance nodding solemnly at a clipboard while a passing pigeon seems to act as its PR manager.",
+        "Observers say the kettle’s confident stance suggests it is gunning for Vice City’s Bin Liaison role, a job involving wheelie-bin diplomacy, curbside etiquette and the kind of paperwork that smells faintly of toast.",
+        "Naturally, nobody knows what any of this means, but that has not stopped online experts from declaring the kettle ‘surprisingly electable’ and ‘better dressed than most candidates’.",
+        "As with all such nonsense, treat the whole thing as pure parody: a made-up sighting for made-up times, in a made-up city, where even the tea sets have career plans."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-broom-in-loafers-is-clearly-set-to-revolutionise-vice-city-",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "CITY HALL, SORT OF",
+      "accent": "sunset",
+      "title": "Analysts Say A Broom In Loafers Is ‘Clearly’ Set To Revolutionise Vice City’s Sidewalk Politics",
+      "description": "Industry observers have stared at a broom long enough to conclude it is destined for public office, or at least very determined sweeping.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "Mavis Underwood",
+      "readTime": "4 min read",
+      "date": "Tuesday, August 18, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A fresh wave of highly scientific guesswork suggests a broom wearing loafers is about to become the next big thing in Vice City civic life.",
+        "According to the analysis, the broom’s choice of footwear indicates a ‘cross-demographic appeal’ to commuters, janitors and anyone who has ever lost patience with a patio.",
+        "Experts say the handle-to-shoe ratio is particularly strong, with one commentator calling it ‘a bold silhouette that says: I may be tidy, but I’m not here to make friends’.",
+        "The broom’s rumoured platform includes cleaner pavements, firmer parking cones and a hard line on stray confetti, which has already won it a loyal following among shopkeepers and extremely punctual citizens.",
+        "In truth, of course, none of this is real. It is a glorified joke dressed as a headline, and the broom is almost certainly just standing there being a broom."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-pram-in-a-denim-jacket-apparently-interviewing-for-vic",
       "category": "leak",
