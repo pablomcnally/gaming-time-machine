@@ -1,21 +1,71 @@
 {
-  "updatedLabel": "Tuesday, August 18, 2026",
+  "updatedLabel": "Wednesday, August 19, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Dustbin In A Tuxedo Apparently Auditioning For Vice City’s Sandwich",
+    "Analysts Say A Surfboard In Spectacles Is Poised To Redraw Vice City’s Entire Taxi Etiquette System",
     "‘Leaked’ Clip Shows A Kettle In A Chain Necklace Apparently Applying For Vice City’s Bin Liaison",
     "Analysts Say A Broom In Loafers Is ‘Clearly’ Set To Revolutionise Vice City’s Sidewalk Politics",
     "‘Leaked’ Clip Shows A Pram In A Denim Jacket Apparently Interviewing For Vice City’s Parking Warden",
     "Analysts Say A Clockwork Flip-Flop Is ‘Clearly’ Set To Become Vice City’s Most Important Political",
     "‘Leaked’ Clip Shows A Rubber Duck In A Trench Coat Apparently Interviewing For Vice City’s Harbour",
-    "Analysts Say A Teacup In Work Boots Is ‘Clearly’ Set To Reorganise Vice City’s Sunrise Economy",
-    "‘Leaked’ Clip Shows A Flamingo In A Flat Cap Apparently Training To Manage Vice City’s Roundabout",
-    "Analysts Say A Welly Boot In A Waistcoat Is ‘Clearly’ Set To Run Vice City’s Weather Desk"
+    "Analysts Say A Teacup In Work Boots Is ‘Clearly’ Set To Reorganise Vice City’s Sunrise Economy"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-dustbin-in-a-tuxedo-apparently-auditioning-for-vice-ci",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE-ish",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Dustbin In A Tuxedo Apparently Auditioning For Vice City’s Sandwich",
+      "description": "A very serious-looking bin, dressed for success, is said to have been spotted taking notes near a deli and acting as though it owned the place.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "Clive M. Tattler",
+      "readTime": "3 min read",
+      "date": "Wednesday, August 19, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A new bit of alleged nonsense has emerged, and it concerns a dustbin in a tuxedo, which is the sort of thing Vice City only usually gets after midnight and a strong wind.",
+        "The clip, if it exists in the usual sense, appears to show the bin standing outside a sandwich shop with the calm confidence of a man who has been told he is now “in charge of lunch”.",
+        "Observers claim the bin wore a tiny bow tie, a clipboard, and an expression suggesting it had already judged the bread situation to be “below standard but workable”.",
+        "One onlooker, who may have been a tourist or may have been a seagull with strong opinions, said the bin was seen nodding at pastrami as though approving a promotion.",
+        "No one can verify anything, because the only reliable witness is a man selling novelty spoons who kept getting distracted by a scooter. Still, the footage has reportedly sparked excitement among locals who enjoy a disciplined approach to fillings.",
+        "If true, this would mark a major shift in Vice City’s culinary landscape, with the dustbin expected to introduce stricter rules on mayo placement, emotional support pickles, and the correct posture for toasted ciabatta.",
+        "Naturally, the internet has responded with extreme caution and no overreaction whatsoever. Several users immediately declared the bin to be “100% real” and “the most qualified candidate in the building”.",
+        "At press time, the dustbin had not commented, though sources close to the matter insist it was seen quietly sweeping crumbs into a folder marked PRIORITIES."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-surfboard-in-spectacles-is-poised-to-redraw-vice-city-s-ent",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "CITY WATCH",
+      "accent": "sunset",
+      "title": "Analysts Say A Surfboard In Spectacles Is Poised To Redraw Vice City’s Entire Taxi Etiquette System",
+      "description": "A sharply dressed surfboard has apparently become the benchmark for whether a taxi can turn left, which experts are describing as “very on brand for the coast”.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "Margo P. Winstone",
+      "readTime": "4 min read",
+      "date": "Wednesday, August 19, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Pundits are once again doing what they do best: staring at a completely fictional object and building a thesis around it until someone in a cafe asks them to leave.",
+        "This week’s subject is a surfboard in spectacles, which analysts believe is not just a prop but a symbol, a mood, and possibly a replacement for the entire transport ministry.",
+        "According to the theory, the board’s glasses imply a new era of “considered speed”, in which taxis will no longer simply arrive; they will arrive with opinions.",
+        "The idea gained traction after a blurry image circulated showing the surfboard near a rank, angled slightly as if assessing whether the taxi queue had understood the assignment.",
+        "Experts say the eyewear suggests heightened awareness of lane discipline, destination ambiguity, and the social importance of not honking like a raccoon in a saucepan.",
+        "Sceptics have described the analysis as “a touch much”, but the same sceptics were later seen taking notes, which in academic circles counts as surrender.",
+        "If the surfboard does become the face of taxi etiquette, residents can expect gentler u-turns, more respectful horn usage, and possibly a new policy requiring drivers to apologise before overtaking.",
+        "Either way, Vice City remains committed to its long tradition of letting complete silliness set the tone, especially when it is wearing proper frames."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-kettle-in-a-chain-necklace-apparently-applying-for-vic",
       "category": "leak",
