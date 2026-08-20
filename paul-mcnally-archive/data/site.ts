@@ -15,8 +15,8 @@ export const pageLabels = {
   },
   archive: {
     eyebrow: "Service page 500",
-    title: "Archive",
-    intro: "A historical collection rather than a gallery: magazines, websites, events, press work and retro systems arranged as inspectable archive cards."
+    title: "Portfolio Archive",
+    intro: "A searchable work index spanning magazines, websites, events, press work and retro systems. Filter the files, search the database, and open any record for the full detail."
   }
 };
 

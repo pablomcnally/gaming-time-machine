@@ -140,6 +140,9 @@ function normalizeArchive(value: unknown) {
     year: cleanText(item.year, 40),
     category: ["magazines", "websites", "events", "press", "retro"].includes(item.category) ? item.category : "press",
     publication: cleanText(item.publication, 160),
+    role: cleanText(item.role, 160) || undefined,
+    tags: Array.isArray(item.tags) ? item.tags.map((tag: unknown) => cleanText(tag, 60)).filter(Boolean).slice(0, 12) : [],
+    featured: Boolean(item.featured),
     externalLink: cleanText(item.externalLink, 300) || undefined
   }));
 }

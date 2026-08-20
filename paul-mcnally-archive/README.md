@@ -97,7 +97,7 @@ The editable sections are:
 - Home page intro, status panel, labels, and story stats
 - About page panels
 - Career timeline entries
-- Archive cards
+- Searchable portfolio files, images, featured status, roles and tags
 - Contact copy, links, and form endpoint
 - Homepage musings/latest rows
 
@@ -123,12 +123,14 @@ Local fallback password when `EDITOR_PASSWORD` is not set:
 local-preview
 ```
 
-## Adding Archive Items
+## Adding Portfolio Items
 
-Archive items live in:
+The quickest route is `/editor` and then **Portfolio**. Add a file, upload or select its image, fill in the work details, and switch on **Feature on homepage** when it should appear on page 100. The top three featured files are used in the order shown in the editor.
+
+Portfolio items are stored in:
 
 ```text
-data/archive.ts
+data/archive.json
 ```
 
 Each item supports:
@@ -139,6 +141,9 @@ Each item supports:
 - `year`
 - `category`
 - `publication`
+- `role`
+- `tags`
+- `featured`
 - `externalLink`
 
 Valid categories are:
@@ -149,13 +154,13 @@ Valid categories are:
 - `press`
 - `retro`
 
-Images should be placed in:
+Images can be uploaded directly in the editor. They are stored in:
 
 ```text
-public/archive
+public/archive/uploads
 ```
 
-Then reference them from the data file with a root-relative path:
+Existing images in `public/archive` can also be selected or referenced with a root-relative path:
 
 ```ts
 image: "/archive/my-image.svg"
@@ -262,4 +267,4 @@ lib/posts.ts
 public/archive/
 ```
 
-The guiding principle is simple editing: content is either Markdown or a small TypeScript data array.
+The guiding principle is simple editing: portfolio and page content live in small JSON files, while full writing posts use Markdown. The browser editor handles both.

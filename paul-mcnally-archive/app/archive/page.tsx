@@ -5,8 +5,8 @@ import { archiveItems } from "../../data/archive";
 import { pageLabels } from "../../data/site";
 
 export const metadata: Metadata = {
-  title: "Archive",
-  description: "A historical collection of magazine, website, event, press and retro material."
+  title: "Portfolio Archive",
+  description: "Search Paul McNally's portfolio of magazine, website, event, editorial and retro media work."
 };
 
 export default function ArchivePage() {

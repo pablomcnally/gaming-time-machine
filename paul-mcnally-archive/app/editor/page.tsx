@@ -36,7 +36,7 @@ const tabs: { id: TabId; label: string }[] = [
   { id: "about", label: "About" },
   { id: "career", label: "Career" },
   { id: "writing", label: "Writing" },
-  { id: "archive", label: "Archive" },
+  { id: "archive", label: "Portfolio" },
   { id: "contact", label: "Contact" },
   { id: "musings", label: "Musings" }
 ];
@@ -206,9 +206,10 @@ export default function EditorPage() {
   const [content, setContent] = useState<ContentBundle>(emptyContent);
   const [media, setMedia] = useState<MediaLibrary>({ images: [] });
   const [posts, setPosts] = useState<EditablePost[]>([]);
-  const [activeTab, setActiveTab] = useState<TabId>("home");
+  const [activeTab, setActiveTab] = useState<TabId>("archive");
   const [status, setStatus] = useState("Enter the editor password to load site content.");
   const [isSaving, setIsSaving] = useState(false);
+  const [isDirty, setIsDirty] = useState(false);
   const [uploadingArchiveIndex, setUploadingArchiveIndex] = useState<number | null>(null);
   const [uploadingPostIndex, setUploadingPostIndex] = useState<number | null>(null);
 
@@ -219,6 +220,19 @@ export default function EditorPage() {
       setPassword(savedPassword);
     }
   }, []);
+
+  useEffect(() => {
+    if (!isDirty) {
+      return;
+    }
+
+    function warnBeforeLeaving(event: BeforeUnloadEvent) {
+      event.preventDefault();
+    }
+
+    window.addEventListener("beforeunload", warnBeforeLeaving);
+    return () => window.removeEventListener("beforeunload", warnBeforeLeaving);
+  }, [isDirty]);
 
   function getHeaders(nextPassword = password) {
     return {
@@ -242,6 +256,7 @@ export default function EditorPage() {
     setIsUnlocked(true);
     setStatus(result.mode === "local" ? "Loaded from local JSON." : "Loaded from GitHub.");
     await Promise.all([loadMedia(nextPassword), loadPosts(nextPassword)]);
+    setIsDirty(false);
   }
 
   async function loadMedia(nextPassword = password) {
@@ -285,10 +300,12 @@ export default function EditorPage() {
   }
 
   function updateSection(section: keyof ContentBundle, nextValue: any) {
+    setIsDirty(true);
     setContent((current) => ({ ...current, [section]: nextValue }));
   }
 
   function updateHome(path: string, value: any) {
+    setIsDirty(true);
     setContent((current) => {
       if (path.startsWith("status.")) {
         const key = path.replace("status.", "");
@@ -316,6 +333,7 @@ export default function EditorPage() {
   }
 
   function updateArrayItem(section: "career" | "archive" | "musings", index: number, field: string, value: any) {
+    setIsDirty(true);
     setContent((current) => ({
       ...current,
       [section]: current[section].map((item, itemIndex) => (itemIndex === index ? { ...item, [field]: value } : item))
@@ -323,6 +341,7 @@ export default function EditorPage() {
   }
 
   function addArrayItem(section: "career" | "archive" | "musings", item: any) {
+    setIsDirty(true);
     setContent((current) => ({
       ...current,
       [section]: [item, ...current[section]]
@@ -330,6 +349,7 @@ export default function EditorPage() {
   }
 
   function duplicateArrayItem(section: "career" | "archive" | "musings", index: number) {
+    setIsDirty(true);
     setContent((current) => {
       const copy = { ...current[section][index] };
 
@@ -345,6 +365,7 @@ export default function EditorPage() {
   }
 
   function moveArrayItem(section: "career" | "archive" | "musings", index: number, nextIndex: number) {
+    setIsDirty(true);
     setContent((current) => ({
       ...current,
       [section]: moveListItem(current[section], index, nextIndex)
@@ -356,6 +377,7 @@ export default function EditorPage() {
       return;
     }
 
+    setIsDirty(true);
     setContent((current) => ({
       ...current,
       [section]: current[section].filter((_, itemIndex) => itemIndex !== index)
@@ -363,12 +385,14 @@ export default function EditorPage() {
   }
 
   function updatePost(index: number, field: keyof EditablePost, value: string) {
+    setIsDirty(true);
     setPosts((current) => current.map((post, postIndex) => (postIndex === index ? { ...post, [field]: value } : post)));
   }
 
   function addPost() {
     const date = new Date().toISOString().slice(0, 10);
 
+    setIsDirty(true);
     setPosts((current) => [
       {
         body: "Write the full article body here.",
@@ -384,6 +408,7 @@ export default function EditorPage() {
   }
 
   function duplicatePost(index: number) {
+    setIsDirty(true);
     setPosts((current) => {
       const copy = {
         ...current[index],
@@ -404,10 +429,12 @@ export default function EditorPage() {
       return;
     }
 
+    setIsDirty(true);
     setPosts((current) => current.filter((_, postIndex) => postIndex !== index));
   }
 
   function movePost(index: number, nextIndex: number) {
+    setIsDirty(true);
     setPosts((current) => moveListItem(current, index, nextIndex));
   }
 
@@ -449,6 +476,7 @@ export default function EditorPage() {
             : "No changes to save."
         );
       }
+      setIsDirty(false);
     } catch (error) {
       setStatus(error instanceof Error ? error.message : "Could not save content.");
     } finally {
@@ -544,7 +572,7 @@ export default function EditorPage() {
           </form>
         ) : (
           <div className="grid gap-5">
-            <div className="flex flex-wrap items-center justify-between gap-3 border border-terminal-cyan/50 bg-black p-3">
+            <div className="sticky top-0 z-20 flex flex-wrap items-center justify-between gap-3 border border-terminal-cyan/50 bg-black/95 p-3 shadow-terminal backdrop-blur">
               <div className="flex flex-wrap gap-2">
                 {tabs.map((tab) => (
                   <button
@@ -557,14 +585,25 @@ export default function EditorPage() {
                   </button>
                 ))}
               </div>
-              <button
-                className="border border-terminal-yellow bg-terminal-yellow px-5 py-2 text-terminal-black disabled:opacity-60"
-                disabled={isSaving}
-                onClick={saveContent}
-                type="button"
-              >
-                Save all
-              </button>
+              <div className="flex flex-wrap gap-2">
+                <span className={`border px-3 py-2 ${isDirty ? "border-terminal-yellow text-terminal-yellow" : "border-terminal-green/50 text-terminal-green"}`}>
+                  {isDirty ? "Unsaved changes" : "All changes saved"}
+                </span>
+                <a className="border border-terminal-cyan px-4 py-2 text-terminal-cyan hover:border-terminal-yellow hover:text-terminal-yellow" href="/" target="_blank">
+                  View site
+                </a>
+                <a className="border border-terminal-cyan px-4 py-2 text-terminal-cyan hover:border-terminal-yellow hover:text-terminal-yellow" href="/archive" target="_blank">
+                  View portfolio
+                </a>
+                <button
+                  className="border border-terminal-yellow bg-terminal-yellow px-5 py-2 text-terminal-black disabled:opacity-60"
+                  disabled={isSaving || !isDirty}
+                  onClick={saveContent}
+                  type="button"
+                >
+                  {isSaving ? "Saving..." : "Save all"}
+                </button>
+              </div>
             </div>
 
             {activeTab === "home" ? <HomeEditor content={content} updateHome={updateHome} updateSection={updateSection} /> : null}
@@ -816,6 +855,28 @@ function CareerEditor({ addArrayItem, content, deleteArrayItem, duplicateArrayIt
   );
 }
 
+function Checkbox({
+  checked,
+  label,
+  onChange
+}: {
+  checked: boolean;
+  label: string;
+  onChange: (checked: boolean) => void;
+}) {
+  return (
+    <label className="flex min-h-12 cursor-pointer items-center gap-3 border border-terminal-cyan/60 bg-terminal-black px-4 text-terminal-cyan">
+      <input
+        checked={checked}
+        className="h-5 w-5 accent-terminal-yellow"
+        onChange={(event) => onChange(event.target.checked)}
+        type="checkbox"
+      />
+      {label}
+    </label>
+  );
+}
+
 function WritingEditor({
   media,
   onAdd,
@@ -898,20 +959,47 @@ function ArchiveEditor({
   updateArrayItem,
   uploadingArchiveIndex
 }: any) {
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(0);
+
   return (
-    <Panel title="Archive cards">
+    <Panel title="Portfolio files">
+      <p className="mb-5 max-w-4xl normal-case leading-7 text-terminal-paper/80">
+        Add work once here and it appears in the searchable portfolio. Switch on Featured to also place it automatically
+        on the homepage. The top three featured items are used, in this list order.
+      </p>
       <button
         className="mb-5 border border-terminal-green px-4 py-2 text-terminal-green"
-        onClick={() => addArrayItem("archive", { image: "/archive/viewdata-cards.svg", title: "New archive item", caption: "Caption.", year: "2026", category: "press", publication: "Publication", externalLink: "" })}
+        onClick={() =>
+          addArrayItem("archive", {
+            image: "/archive/viewdata-cards.svg",
+            title: "New portfolio item",
+            caption: "Explain what the work was, why it mattered, and what you contributed.",
+            year: new Date().getFullYear().toString(),
+            category: "press",
+            publication: "Publication",
+            role: "Writer / editor",
+            tags: [],
+            featured: false,
+            externalLink: ""
+          })
+        }
         type="button"
       >
-        Add archive item
+        + Add portfolio item
       </button>
       <div className="grid gap-5">
         {content.archive.map((item: any, index: number) => (
           <article className="border border-terminal-cyan/40 p-4" key={`${item.title}-${index}`}>
             <div className="mb-4 flex items-center justify-between gap-3">
-              <h3 className="text-terminal-yellow">{item.title || "Archive item"}</h3>
+              <button
+                className="min-w-0 text-left"
+                onClick={() => setExpandedIndex((current) => (current === index ? null : index))}
+                type="button"
+              >
+                <p className="text-xs text-terminal-green">FILE {String(index + 1).padStart(3, "0")}</p>
+                <h3 className="mt-1 text-terminal-yellow">{item.title || "Portfolio item"}</h3>
+                <p className="mt-1 text-xs text-terminal-cyan">{expandedIndex === index ? "[-] Hide fields" : "[+] Edit fields"}</p>
+              </button>
               <RowActions
                 canMoveDown={index < content.archive.length - 1}
                 canMoveUp={index > 0}
@@ -921,35 +1009,55 @@ function ArchiveEditor({
                 onMoveUp={() => moveArrayItem("archive", index, index - 1)}
               />
             </div>
-            <ArchiveImagePicker
-              image={item.image || ""}
-              images={media.images || []}
-              isUploading={uploadingArchiveIndex === index}
-              onChange={(value) => updateArrayItem("archive", index, "image", value)}
-              onUpload={(file) => onUploadImage(index, file)}
-            />
-            <div className="grid gap-4 md:grid-cols-2">
-              {["title", "year", "publication", "externalLink"].map((field) => (
-                <Field key={field} label={field} onChange={(value) => updateArrayItem("archive", index, field, value)} value={item[field] || ""} />
-              ))}
-              <label className="grid gap-2 text-terminal-cyan">
-                Category
-                <select
-                  className="min-h-12 border border-terminal-cyan/60 bg-terminal-black px-4 text-terminal-paper"
-                  onChange={(event) => updateArrayItem("archive", index, "category", event.target.value)}
-                  value={item.category || "press"}
-                >
-                  <option value="magazines">Magazines</option>
-                  <option value="websites">Websites</option>
-                  <option value="events">Events</option>
-                  <option value="press">Press</option>
-                  <option value="retro">Retro</option>
-                </select>
-              </label>
-            </div>
-            <div className="mt-4">
-              <TextArea label="Caption" onChange={(value) => updateArrayItem("archive", index, "caption", value)} value={item.caption || ""} />
-            </div>
+            {expandedIndex === index ? (
+              <>
+                <ArchiveImagePicker
+                  image={item.image || ""}
+                  images={media.images || []}
+                  isUploading={uploadingArchiveIndex === index}
+                  onChange={(value) => updateArrayItem("archive", index, "image", value)}
+                  onUpload={(file) => onUploadImage(index, file)}
+                />
+                <div className="grid gap-4 md:grid-cols-2">
+                  {["title", "year", "publication", "role", "externalLink"].map((field) => (
+                    <Field key={field} label={field} onChange={(value) => updateArrayItem("archive", index, field, value)} value={item[field] || ""} />
+                  ))}
+                  <label className="grid gap-2 text-terminal-cyan">
+                    Category
+                    <select
+                      className="min-h-12 border border-terminal-cyan/60 bg-terminal-black px-4 text-terminal-paper"
+                      onChange={(event) => updateArrayItem("archive", index, "category", event.target.value)}
+                      value={item.category || "press"}
+                    >
+                      <option value="magazines">Magazines</option>
+                      <option value="websites">Websites</option>
+                      <option value="events">Events</option>
+                      <option value="press">Press</option>
+                      <option value="retro">Retro</option>
+                    </select>
+                  </label>
+                  <Checkbox
+                    checked={Boolean(item.featured)}
+                    label="Feature on homepage"
+                    onChange={(checked) => updateArrayItem("archive", index, "featured", checked)}
+                  />
+                </div>
+                <div className="mt-4 grid gap-4 md:grid-cols-2">
+                  <TextArea
+                    label="Tags (one per line)"
+                    onChange={(value) => updateArrayItem("archive", index, "tags", textToLines(value))}
+                    rows={5}
+                    value={linesToText(item.tags || [])}
+                  />
+                  <TextArea label="Caption" onChange={(value) => updateArrayItem("archive", index, "caption", value)} value={item.caption || ""} />
+                </div>
+              </>
+            ) : (
+              <div className="grid gap-2 border-t border-terminal-cyan/25 pt-3 normal-case text-terminal-paper/70 sm:grid-cols-[auto_1fr]">
+                <p className="font-mono uppercase text-terminal-cyan">{item.year} // {item.publication}</p>
+                <p className="sm:text-right">{item.role || "No role added"}</p>
+              </div>
+            )}
           </article>
         ))}
       </div>

@@ -5,7 +5,14 @@
     "caption": "Stacks of code, proofs and notes from the years when a magazine deadline was a physical thing heading toward you.",
     "year": "1994",
     "category": "magazines",
-    "publication": "Games magazines"
+    "publication": "Games magazines",
+    "role": "Writer / editor",
+    "tags": [
+      "Print",
+      "Reviews",
+      "Features"
+    ],
+    "featured": true
   },
   {
     "image": "/archive/terminal-room.svg",
@@ -13,7 +20,14 @@
     "caption": "Micronet, Prestel, Teletext and the peculiar thrill of finding useful information behind a numbered menu.",
     "year": "1980s",
     "category": "retro",
-    "publication": "Viewdata culture"
+    "publication": "Viewdata culture",
+    "role": "Archive research",
+    "tags": [
+      "Micronet",
+      "Prestel",
+      "Retro"
+    ],
+    "featured": true
   },
   {
     "image": "/archive/online-service.svg",
@@ -21,7 +35,14 @@
     "caption": "The shift from paste-up habits to CMS life: faster, messier, more measurable, but still basically about good sentences.",
     "year": "2000",
     "category": "websites",
-    "publication": "Digital publishing"
+    "publication": "Digital publishing",
+    "role": "Digital editorial",
+    "tags": [
+      "Web",
+      "CMS",
+      "Publishing"
+    ],
+    "featured": true
   },
   {
     "image": "/archive/event-pass.svg",
@@ -29,7 +50,13 @@
     "caption": "Press trips, hotel Wi-Fi, lanyards, nervous demos, and trying to ask something useful before the next group comes in.",
     "year": "2005",
     "category": "events",
-    "publication": "Industry events"
+    "publication": "Industry events",
+    "role": "Press / editorial",
+    "tags": [
+      "Events",
+      "Interviews"
+    ],
+    "featured": false
   },
   {
     "image": "/archive/guidebook.svg",
@@ -37,7 +64,14 @@
     "caption": "Maps, builds, walkthroughs and reference work, built for readers who needed the answer more than the flourish.",
     "year": "2015",
     "category": "press",
-    "publication": "Gamer Guides"
+    "publication": "Gamer Guides",
+    "role": "Editorial and publishing lead",
+    "tags": [
+      "Guides",
+      "Books",
+      "Production"
+    ],
+    "featured": false
   },
   {
     "image": "/archive/hardware-bench.svg",
@@ -45,7 +79,14 @@
     "caption": "PC parts, benchmarks, launch windows, buying advice, and the editorial art of saying what something is actually for.",
     "year": "2020",
     "category": "websites",
-    "publication": "WePC"
+    "publication": "WePC",
+    "role": "Editorial leadership",
+    "tags": [
+      "Hardware",
+      "Strategy",
+      "Commerce"
+    ],
+    "featured": false
   },
   {
     "image": "/archive/press-terminal.svg",
@@ -53,7 +94,14 @@
     "caption": "A current working station for news, reviews, opinion, interviews and the occasional raised eyebrow.",
     "year": "2025",
     "category": "press",
-    "publication": "The Escapist"
+    "publication": "The Escapist",
+    "role": "Games journalist / editor",
+    "tags": [
+      "News",
+      "Features",
+      "Opinion"
+    ],
+    "featured": false
   },
   {
     "image": "/archive/viewdata-cards.svg",
@@ -61,6 +109,13 @@
     "caption": "A deliberately old-fashioned structure for a modern body of work: numbered routes, readable pages, and no pretending everything is a brand journey.",
     "year": "2026",
     "category": "retro",
-    "publication": "Personal archive"
+    "publication": "Personal archive",
+    "role": "Creator / curator",
+    "tags": [
+      "Portfolio",
+      "Viewdata",
+      "Web"
+    ],
+    "featured": false
   }
 ]

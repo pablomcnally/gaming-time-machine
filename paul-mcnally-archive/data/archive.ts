@@ -9,6 +9,9 @@ export type ArchiveItem = {
   year: string;
   category: ArchiveCategory;
   publication: string;
+  role?: string;
+  tags?: string[];
+  featured?: boolean;
   externalLink?: string;
 };
 
