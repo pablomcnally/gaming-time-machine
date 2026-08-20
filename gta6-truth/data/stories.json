@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Wednesday, August 19, 2026",
+  "updatedLabel": "Thursday, August 20, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Potted Palm In A Cardigan Apparently Applying For Vice City’s Moral Compass",
+    "Analysts Say A Goldfish In A Waistcoat Is ‘Clearly’ Set To Reorganise Vice City’s Bus Stops",
     "‘Leaked’ Clip Shows A Dustbin In A Tuxedo Apparently Auditioning For Vice City’s Sandwich",
     "Analysts Say A Surfboard In Spectacles Is Poised To Redraw Vice City’s Entire Taxi Etiquette System",
     "‘Leaked’ Clip Shows A Kettle In A Chain Necklace Apparently Applying For Vice City’s Bin Liaison",
     "Analysts Say A Broom In Loafers Is ‘Clearly’ Set To Revolutionise Vice City’s Sidewalk Politics",
     "‘Leaked’ Clip Shows A Pram In A Denim Jacket Apparently Interviewing For Vice City’s Parking Warden",
-    "Analysts Say A Clockwork Flip-Flop Is ‘Clearly’ Set To Become Vice City’s Most Important Political",
-    "‘Leaked’ Clip Shows A Rubber Duck In A Trench Coat Apparently Interviewing For Vice City’s Harbour",
-    "Analysts Say A Teacup In Work Boots Is ‘Clearly’ Set To Reorganise Vice City’s Sunrise Economy"
+    "Analysts Say A Clockwork Flip-Flop Is ‘Clearly’ Set To Become Vice City’s Most Important Political"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-potted-palm-in-a-cardigan-apparently-applying-for-vice",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE(?)",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Potted Palm In A Cardigan Apparently Applying For Vice City’s Moral Compass",
+      "description": "A very serious-looking bit of nonsense suggests the city may soon be guided by a potted palm with opinions and a faintly judgmental cardigan.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "The Harbour Gazette’s Rumour Desk",
+      "readTime": "3 min read",
+      "date": "Thursday, August 20, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The clip, which appears to have been filmed on a phone, a toaster, and possibly a particularly optimistic seagull, shows a potted palm being wheeled through Vice City while wearing a knitted cardigan that seems to have its own agenda.",
+        "Observers say the plant pauses outside several landmarks, leaning gently in the breeze as if deciding whether to approve of them. At one point it is seen next to a civic noticeboard, where it allegedly stares at a poster in a way best described as ‘deeply municipal’.",
+        "Naturally, the internet has decided this means the palm will now serve as Vice City’s moral compass, calming rowdy neighbourhoods by rustling disapprovingly at anyone near a loud scooter. This has not been confirmed by anyone sensible or otherwise.",
+        "The cardigan, meanwhile, has been praised for its ‘quiet authority’ and ‘surprisingly stern elbow patches’. One onlooker claimed the ensemble gives off ‘the energy of a headteacher who has just seen your trainers’.",
+        "As ever, all of this may simply be a decorative shrub having a normal day in a city that does not know how to behave. Still, if the palm does get the job, residents are advised to speak politely and avoid asking it for fiscal advice."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-goldfish-in-a-waistcoat-is-clearly-set-to-reorganise-vice-c",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "CITY WATCH",
+      "accent": "sunset",
+      "title": "Analysts Say A Goldfish In A Waistcoat Is ‘Clearly’ Set To Reorganise Vice City’s Bus Stops",
+      "description": "Experts have interpreted a baffling frame as evidence that public transport is about to be overseen by a small fish with strong tailoring opinions.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "Mavis Trotter, Local Systems Correspondent",
+      "readTime": "4 min read",
+      "date": "Thursday, August 20, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "After three days of squinting at a blurry still image, analysts have concluded that a goldfish wearing a waistcoat is not merely decorative, but a key piece of Vice City’s looming transport philosophy.",
+        "According to the theory, the fish is positioned beside a bus stop as if conducting a review. Its tiny outfit, they say, signals a bold new era in which passengers will queue more efficiently out of fear of being judged by a creature with no visible regard for human schedules.",
+        "The so-called evidence also includes a receipt, a puddle, and what may or may not be a timetable. From this, commentators have inferred that the goldfish will introduce a ‘water-based punctuality model’, in which buses arrive whenever they feel emotionally prepared.",
+        "One analyst described the waistcoat as ‘a clear statement of intent’, adding that the fish’s expression suggests ‘the sort of administrative seriousness normally reserved for deputy mayors and disappointed uncles’.",
+        "In truth, the image may simply be a goldfish near some public furniture, which has never stopped the internet from building a complete civic framework around a mildly dressed animal. Vice City has not commented, presumably because the fish is not taking calls."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-dustbin-in-a-tuxedo-apparently-auditioning-for-vice-ci",
       "category": "leak",
