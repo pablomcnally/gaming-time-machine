@@ -3,8 +3,10 @@ export const navigationItems = [
   { number: "2", label: "About", href: "/about" },
   { number: "3", label: "Career", href: "/career" },
   { number: "4", label: "Writing", href: "/writing" },
-  { number: "5", label: "Archive", href: "/archive" },
-  { number: "6", label: "Contact", href: "/contact" }
+  { number: "5", label: "Interviews", href: "/interviews" },
+  { number: "6", label: "Features", href: "/features" },
+  { number: "7", label: "Archive", href: "/archive" },
+  { number: "8", label: "Contact", href: "/contact" }
 ];
 
 export const pageLabels = {

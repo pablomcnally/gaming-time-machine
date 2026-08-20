@@ -40,7 +40,7 @@ export function RetroNavigation() {
 
   return (
     <nav aria-label="Main navigation" className="bg-terminal-blue">
-      <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-3 gap-y-1 px-3 py-2 sm:px-4">
+      <div className="mx-auto grid max-w-7xl grid-cols-2 gap-1 px-3 py-2 sm:grid-cols-4 sm:px-4 xl:grid-cols-8">
         {navigationItems.map((item) => {
           const isActive = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
 
@@ -48,7 +48,7 @@ export function RetroNavigation() {
             <Link
               key={item.href}
               href={item.href}
-              className={`min-h-9 flex-[1_1_30%] whitespace-nowrap px-2 py-1 text-center font-mono text-base uppercase tracking-wide transition hover:bg-terminal-yellow hover:text-terminal-black sm:min-w-28 sm:flex-1 sm:text-xl ${
+              className={`min-h-9 whitespace-nowrap px-1 py-1 text-center font-mono text-sm uppercase tracking-wide transition hover:bg-terminal-yellow hover:text-terminal-black sm:text-base ${
                 isActive ? "text-terminal-yellow" : "text-terminal-paper"
               }`}
             >
@@ -57,7 +57,6 @@ export function RetroNavigation() {
             </Link>
           );
         })}
-        <span className="hidden px-3 py-1 text-xl text-terminal-yellow lg:block">HELP</span>
       </div>
     </nav>
   );

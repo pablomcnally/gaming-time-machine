@@ -73,6 +73,19 @@ Post body goes here.
 
 The writing index and individual post pages are generated automatically.
 
+## Adding Interviews and Features
+
+Published portfolio work is kept separate from the site's own Writing posts. Add a Markdown file to one of these folders:
+
+```text
+content/portfolio/interviews
+content/portfolio/features
+```
+
+Use the same front matter as the existing portfolio files, including the original publication URL and a local featured-image path. Each file automatically appears on its section index and gets a permanent static page at `/interviews/[slug]` or `/features/[slug]`; no page component needs to be copied.
+
+The shared content loader lives in `lib/portfolio.ts`, while the common index, card and detail layouts live in `components/PortfolioIndex.tsx`, `components/PortfolioCard.tsx` and `components/PortfolioPiecePage.tsx`.
+
 ## Editing Site Content
 
 The editor lives at:
