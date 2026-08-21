@@ -55,10 +55,13 @@ export function MarkdownBody({ className = "", content }: MarkdownBodyProps) {
           );
         }
 
-        const youtubeMatch = block.match(/^\[YOUTUBE:(https:\/\/www\.youtube\.com\/watch\?v=([\w-]+))\|([^\]]+)\]$/);
+        const youtubeMatch = block.match(/^\[YOUTUBE:(https:\/\/www\.youtube\.com\/watch\?v=([\w-]+)(?:&[^\]|]+)?)\|([^\]]+)\]$/);
 
         if (youtubeMatch) {
           const [, videoUrl, videoId, title] = youtubeMatch;
+          const timestamp = new URL(videoUrl).searchParams.get("t");
+          const startAt = timestamp?.match(/^(\d+)s?$/)?.[1];
+          const embedUrl = `https://www.youtube-nocookie.com/embed/${videoId}${startAt ? `?start=${startAt}` : ""}`;
 
           return (
             <figure className="portfolio-media portfolio-video" key={videoId}>
@@ -68,7 +71,7 @@ export function MarkdownBody({ className = "", content }: MarkdownBodyProps) {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="strict-origin-when-cross-origin"
-                  src={`https://www.youtube-nocookie.com/embed/${videoId}`}
+                  src={embedUrl}
                   title={title}
                 />
               </div>
