@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Thursday, August 20, 2026",
+  "updatedLabel": "Friday, August 21, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Ceiling Fan In A Tie Apparently Running For Vice City’s Lost Property Office",
+    "Analysts Say A Shopping Trolley In Argyle Sunglasses Is Poised To Rewire Vice City’s Public Seating",
     "‘Leaked’ Clip Shows A Potted Palm In A Cardigan Apparently Applying For Vice City’s Moral Compass",
     "Analysts Say A Goldfish In A Waistcoat Is ‘Clearly’ Set To Reorganise Vice City’s Bus Stops",
     "‘Leaked’ Clip Shows A Dustbin In A Tuxedo Apparently Auditioning For Vice City’s Sandwich",
     "Analysts Say A Surfboard In Spectacles Is Poised To Redraw Vice City’s Entire Taxi Etiquette System",
     "‘Leaked’ Clip Shows A Kettle In A Chain Necklace Apparently Applying For Vice City’s Bin Liaison",
-    "Analysts Say A Broom In Loafers Is ‘Clearly’ Set To Revolutionise Vice City’s Sidewalk Politics",
-    "‘Leaked’ Clip Shows A Pram In A Denim Jacket Apparently Interviewing For Vice City’s Parking Warden",
-    "Analysts Say A Clockwork Flip-Flop Is ‘Clearly’ Set To Become Vice City’s Most Important Political"
+    "Analysts Say A Broom In Loafers Is ‘Clearly’ Set To Revolutionise Vice City’s Sidewalk Politics"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-ceiling-fan-in-a-tie-apparently-running-for-vice-city-",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "ALLEGED CLIP",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Ceiling Fan In A Tie Apparently Running For Vice City’s Lost Property Office",
+      "description": "A wobbling new clip has the internet convinced a ceiling fan is preparing a proper civic comeback, with fans of the fan calling it “very hands-on” in the usual sense...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Percy Underhill",
+      "readTime": "3 min read",
+      "date": "Friday, August 21, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "An allegedly very secret video has emerged showing a ceiling fan in a tie spinning solemnly beside a row of umbrellas and one suspiciously proud glove.",
+        "Witnesses claim the fan appeared to be “considering paperwork” before drifting sideways into a decorative fern, which sources describe as a clear sign of administrative intent.",
+        "The clip, if it is a clip and not simply a disorganised breeze with a phone attached, has already inspired wild debate about whether Vice City is ready for such a rotating statesman.",
+        "One expert said the outfit suggested “serious lost property energy”, while another noted that the fan’s body language was “all circulation, no nonsense”.",
+        "At press time, the fan had reportedly declined to comment, though it did give the impression of remembering everyone’s coat from last Tuesday."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-shopping-trolley-in-argyle-sunglasses-is-poised-to-rewire-v",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TABLOID THEORY",
+      "accent": "sunset",
+      "title": "Analysts Say A Shopping Trolley In Argyle Sunglasses Is Poised To Rewire Vice City’s Public Seating",
+      "description": "Clever people with clipboards insist the trolley’s posture suggests a bold new era for benches, bollards and anywhere else one might briefly sit while pretending to...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "Mavis Quill",
+      "readTime": "4 min read",
+      "date": "Friday, August 21, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A fresh wave of analyst enthusiasm has settled on a shopping trolley seen wearing Argyle sunglasses and standing near a bench with the confidence of a minor aristocrat.",
+        "The thinking, such as it is, suggests the trolley is not merely roaming but actively lobbying for a complete rethink of public seating.",
+        "One graph-heavy report claims the vehicle’s front wheels indicate “forward momentum”, while its slightly crooked basket implies “an instinct for compromise”.",
+        "This has led observers to speculate that Vice City could soon see benches repainted, moved, renamed or, in one case, politely replaced by a lamppost with better manners.",
+        "Sensible citizens are urged to remember that all of this is nonsense, though it is undeniably the sort of nonsense that keeps the tabloids in business."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-potted-palm-in-a-cardigan-apparently-applying-for-vice",
       "category": "leak",
