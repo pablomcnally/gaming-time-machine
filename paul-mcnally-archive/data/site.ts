@@ -2,11 +2,10 @@ export const navigationItems = [
   { number: "1", label: "Home", href: "/" },
   { number: "2", label: "About", href: "/about" },
   { number: "3", label: "Career", href: "/career" },
-  { number: "4", label: "Writing", href: "/writing" },
-  { number: "5", label: "Interviews", href: "/interviews" },
-  { number: "6", label: "Features", href: "/features" },
-  { number: "7", label: "Archive", href: "/archive" },
-  { number: "8", label: "Contact", href: "/contact" }
+  { number: "4", label: "Interviews", href: "/interviews" },
+  { number: "5", label: "Features", href: "/features" },
+  { number: "6", label: "Archive", href: "/archive" },
+  { number: "7", label: "Contact", href: "/contact" }
 ];
 
 export const pageLabels = {

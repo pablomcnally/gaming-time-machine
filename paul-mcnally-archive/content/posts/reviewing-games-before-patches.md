@@ -2,6 +2,7 @@
 title: "Reviewing games before the patch culture"
 date: "2026-04-26"
 slug: "reviewing-games-before-patches"
+order: 3
 excerpt: "A few notes on reviewing games when the version in front of you was not a temporary state but the thing readers were about to buy."
 category: "Journalism"
 featuredImage: "/archive/press-terminal.svg"

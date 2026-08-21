@@ -40,7 +40,7 @@ export function RetroNavigation() {
 
   return (
     <nav aria-label="Main navigation" className="bg-terminal-blue">
-      <div className="mx-auto grid max-w-7xl grid-cols-2 gap-1 px-3 py-2 sm:grid-cols-4 sm:px-4 xl:grid-cols-8">
+      <div className="mx-auto grid max-w-7xl grid-cols-2 gap-1 px-3 py-2 sm:grid-cols-4 sm:px-4 2xl:grid-cols-7">
         {navigationItems.map((item) => {
           const isActive = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
 

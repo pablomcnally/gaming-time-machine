@@ -2,22 +2,98 @@ import Link from "next/link";
 import { StorySoFarPanel } from "../components/StorySoFarPanel";
 import { archiveItems } from "../data/archive";
 import { homeContent } from "../data/pages";
-import { getLatestMusings } from "../lib/musings";
+import { getAllPortfolioPieces, type PortfolioPiece } from "../lib/portfolio";
 
-function formatShortDate(date: string) {
+const homePreviewImages: Record<string, string> = {
+  "forgotten-amberstar-review-copy-resurfaced": "/portfolio/home/amberstar-micronet.png",
+  "ere-informatique-french-video-game-revolution": "/portfolio/home/ere-informatique-micronet.png",
+  "sterre-meijer-skatesterre-interview": "/portfolio/home/sterre-meijer-micronet.png",
+  "slipknot-clown-vernearth": "/portfolio/home/slipknot-clown-micronet.png",
+  "tim-kitzrow-nba-jam-blitz-mutant-football-league-interview": "/portfolio/home/tim-kitzrow-micronet.png"
+};
+
+function formatPortfolioDate(date: string) {
   return new Intl.DateTimeFormat("en-GB", {
     day: "2-digit",
-    month: "2-digit",
-    year: "2-digit"
-  })
-    .format(new Date(date))
-    .replaceAll("/", ".");
+    month: "short",
+    year: "numeric"
+  }).format(new Date(date));
+}
+
+function HomePortfolioCard({ piece, eager = false }: { piece: PortfolioPiece; eager?: boolean }) {
+  const previewImage = homePreviewImages[piece.slug];
+
+  return (
+    <Link
+      href={`/${piece.kind}/${piece.slug}`}
+      className="home-portfolio-card group bg-terminal-black"
+      aria-label={`Open ${piece.title}`}
+    >
+      <div className="home-portfolio-visual">
+        {previewImage ? (
+          <img
+            src={previewImage}
+            alt=""
+            className="h-full w-full object-cover"
+            loading={eager ? "eager" : "lazy"}
+          />
+        ) : (
+          <div className="home-portfolio-placeholder" aria-hidden="true">
+            <span>{piece.kind === "features" ? "FEATURE" : "INTERVIEW"} FILE // UNCATALOGUED</span>
+            <strong>ARCHIVE SIGNAL</strong>
+            <span>PREVIEW IMAGE PENDING</span>
+          </div>
+        )}
+        <span className="home-portfolio-kind">{piece.kind === "features" ? "FEATURE" : "INTERVIEW"}</span>
+      </div>
+
+      <div className="flex min-w-0 flex-1 flex-col p-4 sm:p-5">
+        <div className="flex flex-wrap items-center justify-between gap-2 text-xs">
+          <span className="text-terminal-green">{piece.publication}</span>
+          <time className="text-terminal-cyan" dateTime={piece.date}>{formatPortfolioDate(piece.date)}</time>
+        </div>
+        <h3 className="mt-3 text-lg leading-snug text-terminal-yellow sm:text-xl">{piece.title}</h3>
+        <p className="mt-3 line-clamp-3 normal-case leading-6 text-terminal-paper/80">{piece.excerpt}</p>
+        <span className="mt-5 text-sm text-terminal-green group-hover:text-terminal-yellow">&gt; Open archive file</span>
+      </div>
+    </Link>
+  );
+}
+
+function PortfolioBand({
+  id,
+  title,
+  servicePage,
+  pieces
+}: {
+  id: string;
+  title: string;
+  servicePage: string;
+  pieces: PortfolioPiece[];
+}) {
+  return (
+    <section className="mt-6 viewdata-box" aria-labelledby={id}>
+      <div className="viewdata-box-title flex items-center justify-between gap-4 px-4 py-2 text-base sm:text-xl">
+        <h2 id={id}>{title}</h2>
+        <p>[{pieces.length.toString().padStart(2, "0")} FILES]</p>
+      </div>
+      <div className={`grid gap-px bg-terminal-cyan/25 ${pieces.length === 2 ? "md:grid-cols-2" : "md:grid-cols-3"}`}>
+        {pieces.map((piece, index) => (
+          <HomePortfolioCard key={piece.slug} piece={piece} eager={index === 0 && piece.kind === "features"} />
+        ))}
+      </div>
+      <div className="border-t border-terminal-cyan/35 p-4 text-right">
+        <Link className="text-terminal-green hover:text-terminal-yellow" href={servicePage}>
+          &gt; Open complete {title.toLowerCase()} directory
+        </Link>
+      </div>
+    </section>
+  );
 }
 
 export default function HomePage() {
-  const musings = getLatestMusings(5);
-  const featuredItems = archiveItems.filter((item) => item.featured);
-  const featuredArchive = [...featuredItems, ...archiveItems.filter((item) => !item.featured)].slice(0, 3);
+  const features = getAllPortfolioPieces("features");
+  const interviews = getAllPortfolioPieces("interviews");
   const lastUpdated = new Intl.DateTimeFormat("en-GB", {
     day: "2-digit",
     month: "2-digit",
@@ -65,8 +141,11 @@ export default function HomePage() {
                 ))}
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
-                <Link className="viewdata-command" href="/archive">
-                  Browse portfolio <span>[5]</span>
+                <Link className="viewdata-command" href="/features">
+                  Browse features <span>[5]</span>
+                </Link>
+                <Link className="viewdata-command" href="/interviews">
+                  Browse interviews <span>[4]</span>
                 </Link>
                 <Link className="viewdata-command" href="/about">
                   {homeContent.readMoreLabel} <span>[2]</span>
@@ -98,82 +177,36 @@ export default function HomePage() {
                 </div>
               </dl>
               <div className="status-terminal-meter" aria-hidden="true">
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
+                {Array.from({ length: 12 }, (_, index) => <span key={index} />)}
               </div>
             </section>
           </div>
 
-          <section className="mt-6 viewdata-box">
-            <div className="viewdata-box-title flex items-center justify-between gap-4 px-4 py-2 text-base sm:text-xl">
-              <h2>{homeContent.selectedWorkTitle}</h2>
-              <p>[{featuredArchive.length} FILES]</p>
-            </div>
-            <div className="grid gap-px bg-terminal-cyan/25 md:grid-cols-3">
-              {featuredArchive.map((item, index) => (
-                <Link
-                  key={`${item.title}-${item.year}`}
-                  href={`/archive?q=${encodeURIComponent(item.title)}`}
-                  className="featured-work group bg-terminal-black p-4"
-                >
-                  <div className="relative overflow-hidden border border-terminal-paper/55">
-                    <img
-                      src={item.image}
-                      alt=""
-                      className="aspect-[4/3] w-full object-cover transition duration-300 group-hover:scale-[1.02]"
-                      loading={index === 0 ? "eager" : "lazy"}
-                    />
-                    <span className="absolute left-2 top-2 bg-terminal-black px-2 py-1 text-xs text-terminal-green">
-                      FILE {String(index + 1).padStart(3, "0")}
-                    </span>
-                  </div>
-                  <p className="mt-4 text-xs text-terminal-green">
-                    {item.year} // {item.publication}
-                  </p>
-                  <h3 className="mt-2 text-xl leading-tight text-terminal-yellow md:text-2xl">{item.title}</h3>
-                  {item.role ? <p className="mt-2 text-sm text-terminal-cyan">{item.role}</p> : null}
-                  <p className="mt-3 line-clamp-3 normal-case leading-6 text-terminal-paper/80">{item.caption}</p>
-                  <p className="mt-4 text-sm text-terminal-green group-hover:text-terminal-yellow">&gt; Inspect portfolio file</p>
-                </Link>
-              ))}
-            </div>
-            <div className="border-t border-terminal-cyan/35 p-4 text-right">
-              <Link className="text-terminal-green hover:text-terminal-yellow" href="/archive">
-                &gt; Open complete work index [{archiveItems.length}]
-              </Link>
-            </div>
-          </section>
+          <PortfolioBand id="home-features" title="Features" servicePage="/features" pieces={features} />
+          <PortfolioBand id="home-interviews" title="Interviews" servicePage="/interviews" pieces={interviews} />
 
           <div className="mt-6 grid gap-5 lg:grid-cols-[1.08fr_0.92fr]">
-            <section className="viewdata-box">
-              <div className="viewdata-box-title flex items-center justify-between gap-4 px-4 py-2 text-base sm:text-xl">
-                <h2>{homeContent.latestTitle}</h2>
-                <p>[LATEST]</p>
+            <StorySoFarPanel />
+
+            <section className="viewdata-box" aria-labelledby="archive-directories">
+              <div className="viewdata-box-title px-4 py-2 text-base sm:text-xl">
+                <h2 id="archive-directories">Archive directories</h2>
               </div>
-              <div className="space-y-3 p-4 text-base text-terminal-paper md:text-lg">
-                {musings.map((musing) => (
-                  <Link key={musing.id} className="dotted-leader hover:text-terminal-yellow" href={musing.href || "/writing"}>
-                    <span>{musing.title}</span>
-                    <span className="dotted-leader-date">{formatShortDate(musing.date)}</span>
-                  </Link>
-                ))}
-                <Link className="inline-flex pt-2 text-terminal-green hover:text-terminal-yellow" href="/writing">
-                  {homeContent.latestCtaLabel}
+              <div className="grid gap-px bg-terminal-cyan/25">
+                <Link className="home-directory-link" href="/features">
+                  <span>Features</span>
+                  <span>{features.length.toString().padStart(2, "0")} files</span>
+                </Link>
+                <Link className="home-directory-link" href="/interviews">
+                  <span>Interviews</span>
+                  <span>{interviews.length.toString().padStart(2, "0")} files</span>
+                </Link>
+                <Link className="home-directory-link" href="/archive">
+                  <span>Complete work index</span>
+                  <span>{archiveItems.length.toString().padStart(2, "0")} records</span>
                 </Link>
               </div>
             </section>
-
-            <StorySoFarPanel />
           </div>
 
           <div className="viewdata-rule mt-7" />

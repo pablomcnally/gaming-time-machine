@@ -2,6 +2,7 @@
 title: "The joy of numbered menus"
 date: "2026-05-18"
 slug: "the-joy-of-numbered-menus"
+order: 2
 excerpt: "Before every interface wanted to be invisible, some of them had the decency to tell you which number to press."
 category: "Retro"
 featuredImage: "/archive/viewdata-cards.svg"

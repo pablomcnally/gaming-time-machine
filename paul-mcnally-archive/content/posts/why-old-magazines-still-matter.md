@@ -2,6 +2,7 @@
 title: "Why old games magazines still matter"
 date: "2026-06-01"
 slug: "why-old-games-magazines-still-matter"
+order: 1
 excerpt: "The paper was disposable, but the context was not. Old magazines still tell us what games felt like before hindsight cleaned everything up."
 category: "Magazines"
 featuredImage: "/archive/magazine-desk.svg"
