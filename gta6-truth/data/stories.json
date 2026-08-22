@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Friday, August 21, 2026",
+  "updatedLabel": "Saturday, August 22, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Toaster In A Fedora Apparently Seeking Vice City’s Night Mayor Job",
+    "Analysts Say A Handbag In Driving Gloves Is Poised To Redraw Vice City’s Entire Snack Economy",
     "‘Leaked’ Clip Shows A Ceiling Fan In A Tie Apparently Running For Vice City’s Lost Property Office",
     "Analysts Say A Shopping Trolley In Argyle Sunglasses Is Poised To Rewire Vice City’s Public Seating",
     "‘Leaked’ Clip Shows A Potted Palm In A Cardigan Apparently Applying For Vice City’s Moral Compass",
     "Analysts Say A Goldfish In A Waistcoat Is ‘Clearly’ Set To Reorganise Vice City’s Bus Stops",
     "‘Leaked’ Clip Shows A Dustbin In A Tuxedo Apparently Auditioning For Vice City’s Sandwich",
-    "Analysts Say A Surfboard In Spectacles Is Poised To Redraw Vice City’s Entire Taxi Etiquette System",
-    "‘Leaked’ Clip Shows A Kettle In A Chain Necklace Apparently Applying For Vice City’s Bin Liaison",
-    "Analysts Say A Broom In Loafers Is ‘Clearly’ Set To Revolutionise Vice City’s Sidewalk Politics"
+    "Analysts Say A Surfboard In Spectacles Is Poised To Redraw Vice City’s Entire Taxi Etiquette System"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-toaster-in-a-fedora-apparently-seeking-vice-city-s-nig",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "UNVERIFIED BOTHER",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Toaster In A Fedora Apparently Seeking Vice City’s Night Mayor Job",
+      "description": "A baffling bit of supposed footage has set the internet atremble, as a toaster in a fedora is seen pacing a marina with what experts are calling “distinct campaign...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By P. B. Waffle",
+      "readTime": "4 min read",
+      "date": "Saturday, August 22, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The clip, which absolutely nobody should be treating as evidence of anything, shows the appliance leaning against a payphone, blinking its little lights with the seriousness of a man who has misplaced both his umbrella and his principles.",
+        "Viewers have already assigned the toaster a full policy platform, including warmer pavements, stricter jazz zoning, and a sensible approach to toast distribution after midnight.",
+        "One armchair commentator claimed the fedora suggests “leadership,” while another insisted the crumb tray points to a background in municipal administration.",
+        "We are, of course, not saying this is a real reveal of any kind. We are merely noting that the internet has once again looked at a kitchen device and decided it is now running for office.",
+        "If true, the toasty candidate would face strong competition from a lamppost in cufflinks and a seagull with an attitude problem. If false, it remains an excellent example of the city’s ongoing commitment to nonsense."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-handbag-in-driving-gloves-is-poised-to-redraw-vice-city-s-e",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TROLLEY THINK-PIECE",
+      "accent": "sunset",
+      "title": "Analysts Say A Handbag In Driving Gloves Is Poised To Redraw Vice City’s Entire Snack Economy",
+      "description": "A serious-looking pile of speculation has emerged around a handbag allegedly seen making very decisive movements near a deli, prompting forecasts of major change in...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By M. Crumpet",
+      "readTime": "5 min read",
+      "date": "Saturday, August 22, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "According to absolutely made-up market chatter, the handbag’s driving gloves indicate it is not merely fashionable, but operational.",
+        "Economists have leapt upon the sighting as proof that snack logistics in Vice City are entering a bold new era, one where crisps may be stacked by class rather than by flavour.",
+        "The theory goes that a handbag with gloves has the confidence to negotiate with vending machines, refuse bad sandwiches, and sit on a bench without looking apologetic about it.",
+        "Sceptics point out that bags often wear gloves for style, comfort, or because the weather has taken a turn. Still, that has not stopped commentators from declaring the item “institutional” and “dangerously polished.”",
+        "If the handbag’s influence grows, analysts expect a ripple effect across corner shops, taxi ranks, and any establishment that has ever sold a sausage roll after 8pm."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-ceiling-fan-in-a-tie-apparently-running-for-vice-city-",
       "category": "leak",
