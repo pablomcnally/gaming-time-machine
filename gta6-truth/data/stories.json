@@ -1,21 +1,67 @@
 {
-  "updatedLabel": "Saturday, August 22, 2026",
+  "updatedLabel": "Sunday, August 23, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Smart Fridge In A Bow Tie Apparently Applying For Vice City’s Deputy Mayor",
+    "Analysts Say A Lawn Flamingo In A Trilby Is Poised To Redraw Vice City’s Entire Neighbourhood Watch",
     "‘Leaked’ Clip Shows A Toaster In A Fedora Apparently Seeking Vice City’s Night Mayor Job",
     "Analysts Say A Handbag In Driving Gloves Is Poised To Redraw Vice City’s Entire Snack Economy",
     "‘Leaked’ Clip Shows A Ceiling Fan In A Tie Apparently Running For Vice City’s Lost Property Office",
     "Analysts Say A Shopping Trolley In Argyle Sunglasses Is Poised To Rewire Vice City’s Public Seating",
     "‘Leaked’ Clip Shows A Potted Palm In A Cardigan Apparently Applying For Vice City’s Moral Compass",
-    "Analysts Say A Goldfish In A Waistcoat Is ‘Clearly’ Set To Reorganise Vice City’s Bus Stops",
-    "‘Leaked’ Clip Shows A Dustbin In A Tuxedo Apparently Auditioning For Vice City’s Sandwich",
-    "Analysts Say A Surfboard In Spectacles Is Poised To Redraw Vice City’s Entire Taxi Etiquette System"
+    "Analysts Say A Goldfish In A Waistcoat Is ‘Clearly’ Set To Reorganise Vice City’s Bus Stops"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-smart-fridge-in-a-bow-tie-apparently-applying-for-vice",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "ALLEGEDLY FOUND ON A CRISP",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Smart Fridge In A Bow Tie Apparently Applying For Vice City’s Deputy Mayor",
+      "description": "A deeply suspicious bit of footage has allegedly surfaced showing a very serious fridge with a very tiny necktie and an even tinier agenda.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel Waffers",
+      "readTime": "3 min read",
+      "date": "Sunday, August 23, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has, in its infinite wisdom, decided that Vice City now requires a deputy mayor for snacks, and the frontrunner is a smart fridge with a bow tie.",
+        "In the ‘clip’, the appliance is seen humming thoughtfully beside a suspiciously formal yoghurt, before nodding at nobody in particular as if it has just heard a moving speech about discretionary cheese.",
+        "Observers have already declared the scene ‘game-changing’, by which they mean ‘a fridge wearing officewear in a place where that should not happen’.",
+        "One expert told us the fridge’s posture suggests it has a long-term plan for enforcing sandwich standards, though the expert may also have been standing too close to a microwave at the time.",
+        "The rumour mill insists the bow tie is not merely decorative but symbolic, representing a bold new era of cold storage diplomacy and mild administrative menace.",
+        "Naturally, the footage has sparked fierce debate over whether the appliance is a candidate, a witness, or simply having a very ambitious Tuesday."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-lawn-flamingo-in-a-trilby-is-poised-to-redraw-vice-city-s-e",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "BREAKING DOWN THE NONSENSE",
+      "accent": "green",
+      "title": "Analysts Say A Lawn Flamingo In A Trilby Is Poised To Redraw Vice City’s Entire Neighbourhood Watch",
+      "description": "Pundits have looked very hard at a decorative flamingo and concluded it may be the key to understanding the next phase of Vice City civics.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Ethel P. Brisket",
+      "readTime": "4 min read",
+      "date": "Sunday, August 23, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Analysts have spent the morning staring at a lawn flamingo in a trilby and, after extensive charting and at least one biscuit, declared it a likely catalyst for social change.",
+        "Their theory is simple: once a flamingo adopts headwear, the whole neighbourhood watch model shifts from ‘concerned’ to ‘impossibly coordinated’.",
+        "The bird, which is not a real bird in any legal sense, is said to signal a broader movement toward decorative authority, where gardens become governance and sheds become think tanks.",
+        "According to the analysis, the trilby introduces a subtle but decisive element of menace, making the flamingo appear as though it knows where the spare keys are kept.",
+        "This, naturally, will affect everything from driveway etiquette to who gets to stand near the barbecue without looking suspicious.",
+        "The analysts conclude that Vice City is not merely witnessing a fashion statement, but the birth of what they are calling ‘hard landscaping politics’."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-toaster-in-a-fedora-apparently-seeking-vice-city-s-nig",
       "category": "leak",
