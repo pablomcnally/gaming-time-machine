@@ -1,13 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
 
 const konami = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a"];
 
 export function EasterEggs() {
-  const router = useRouter();
-  const [buffer, setBuffer] = useState("");
   const [sequence, setSequence] = useState<string[]>([]);
   const [messageVisible, setMessageVisible] = useState(false);
 
@@ -26,19 +23,6 @@ export function EasterEggs() {
 
       const key = event.key;
 
-      if (/^\d$/.test(key)) {
-        const nextBuffer = `${buffer}${key}`.slice(-3);
-        setBuffer(nextBuffer);
-
-        if (nextBuffer === "800") {
-          router.push("/micronet-800");
-        }
-
-        if (nextBuffer === "999") {
-          router.push("/system-status");
-        }
-      }
-
       const nextSequence = [...sequence, key].slice(-konami.length);
       setSequence(nextSequence);
 
@@ -51,7 +35,7 @@ export function EasterEggs() {
     window.addEventListener("keydown", onKeyDown);
 
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [buffer, router, sequence]);
+  }, [sequence]);
 
   if (!messageVisible) {
     return null;

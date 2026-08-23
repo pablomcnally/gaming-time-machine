@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { BackgroundMusicToggle } from "./BackgroundMusicToggle";
 import { CrtFrameToggle } from "./CrtFrameToggle";
 import { ModemSoundToggle } from "./ModemSoundToggle";
 import { RetroNavigation } from "./RetroNavigation";
@@ -38,14 +39,17 @@ export function SiteHeader() {
   }, []);
 
   return (
-    <header className="sticky top-0 z-40 bg-terminal-black/95 font-mono uppercase shadow-terminal backdrop-blur">
-      <div className="mx-auto grid max-w-7xl gap-2 border-b border-terminal-paper/80 px-3 py-2 text-sm sm:grid-cols-[1fr_auto_1fr] sm:items-center sm:px-4 md:text-base">
+    <header className="site-header sticky top-0 z-40 bg-terminal-black/95 font-mono uppercase shadow-terminal backdrop-blur">
+      <div className="site-header-grid mx-auto max-w-7xl border-b border-terminal-paper/80">
         <p className="text-terminal-green">*** MICRONET 800 SERVICES ***</p>
-        <p className="text-terminal-paper sm:text-center">Personal Archive Terminal</p>
-        <div className="flex flex-wrap items-center gap-2 text-terminal-green sm:justify-end">
-          <p className="sm:text-right">{now ? `${formatTime(now)}  ${formatServiceDate(now)}` : "--:--  --- -- --- ----"}</p>
-          <CrtFrameToggle />
-          <ModemSoundToggle />
+        <p className="site-header-title text-terminal-paper">Personal Archive Terminal</p>
+        <div className="site-header-meta text-terminal-green">
+          <p className="site-header-clock">{now ? `${formatTime(now)}  ${formatServiceDate(now)}` : "--:--  --- -- --- ----"}</p>
+          <div className="site-header-controls">
+            <CrtFrameToggle />
+            <ModemSoundToggle />
+            <BackgroundMusicToggle />
+          </div>
         </div>
       </div>
       <RetroNavigation />

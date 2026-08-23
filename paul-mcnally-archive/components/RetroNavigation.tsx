@@ -2,14 +2,39 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 import { navigationItems } from "../data/site";
+
+const PAGE_ENTRY_TIMEOUT = 1200;
+const keyboardPages: Array<{ number: string; href: string }> = [
+  ...navigationItems,
+  { number: "800", href: "/micronet-800" },
+  { number: "999", href: "/system-status" }
+];
 
 export function RetroNavigation() {
   const pathname = usePathname();
   const router = useRouter();
+  const [pageEntry, setPageEntry] = useState("");
+  const pageBufferRef = useRef("");
+  const resetTimerRef = useRef<number | null>(null);
 
   useEffect(() => {
+    function clearResetTimer() {
+      if (resetTimerRef.current !== null) {
+        window.clearTimeout(resetTimerRef.current);
+        resetTimerRef.current = null;
+      }
+    }
+
+    function scheduleReset(delay = PAGE_ENTRY_TIMEOUT) {
+      clearResetTimer();
+      resetTimerRef.current = window.setTimeout(() => {
+        pageBufferRef.current = "";
+        setPageEntry("");
+      }, delay);
+    }
+
     function onKeyDown(event: KeyboardEvent) {
       const target = event.target;
       const isTyping =
@@ -22,25 +47,46 @@ export function RetroNavigation() {
         return;
       }
 
-      if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) {
+      if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || event.repeat || !/^\d$/.test(event.key)) {
         return;
       }
 
-      const item = navigationItems.find((navItem) => navItem.number === event.key);
+      event.preventDefault();
+      clearResetTimer();
+
+      const nextEntry = `${pageBufferRef.current}${event.key}`;
+      pageBufferRef.current = nextEntry;
+      setPageEntry(nextEntry);
+
+      if (nextEntry.length < 3) {
+        scheduleReset();
+        return;
+      }
+
+      const item = keyboardPages.find((navItem) => navItem.number === nextEntry);
+      pageBufferRef.current = "";
 
       if (item) {
+        scheduleReset(350);
         router.push(item.href);
+      } else {
+        setPageEntry("???");
+        scheduleReset(700);
       }
     }
 
     window.addEventListener("keydown", onKeyDown);
 
-    return () => window.removeEventListener("keydown", onKeyDown);
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+      clearResetTimer();
+    };
   }, [router]);
 
   return (
-    <nav aria-label="Main navigation" className="bg-terminal-blue">
-      <div className="mx-auto grid max-w-7xl grid-cols-2 gap-1 px-3 py-2 sm:grid-cols-4 sm:px-4 2xl:grid-cols-7">
+    <>
+      <nav aria-label="Main navigation" className="teletext-navigation bg-terminal-blue">
+        <div className="teletext-nav-grid mx-auto grid max-w-7xl gap-1 px-3 py-2 sm:px-4">
         {navigationItems.map((item) => {
           const isActive = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
 
@@ -48,7 +94,9 @@ export function RetroNavigation() {
             <Link
               key={item.href}
               href={item.href}
-              className={`min-h-9 whitespace-nowrap px-1 py-1 text-center font-mono text-sm uppercase tracking-wide transition hover:bg-terminal-yellow hover:text-terminal-black sm:text-base ${
+              aria-current={isActive ? "page" : undefined}
+              aria-label={`Page ${item.number}: ${item.label}`}
+              className={`teletext-nav-link min-h-10 whitespace-nowrap px-1 py-1 text-center uppercase transition hover:bg-terminal-yellow hover:text-terminal-black ${
                 isActive ? "text-terminal-yellow" : "text-terminal-paper"
               }`}
             >
@@ -57,7 +105,19 @@ export function RetroNavigation() {
             </Link>
           );
         })}
-      </div>
-    </nav>
+        </div>
+      </nav>
+      {pageEntry ? (
+        <div
+          aria-label={pageEntry === "???" ? "Unknown page code" : `Page code ${pageEntry}`}
+          aria-live="polite"
+          className="teletext-page-entry"
+          role="status"
+        >
+          <span>PAGE</span>
+          <strong aria-hidden="true">{pageEntry === "???" ? pageEntry : pageEntry.padEnd(3, "_")}</strong>
+        </div>
+      ) : null}
+    </>
   );
 }

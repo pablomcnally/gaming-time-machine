@@ -1,21 +1,21 @@
 export const navigationItems = [
-  { number: "1", label: "Home", href: "/" },
-  { number: "2", label: "About", href: "/about" },
-  { number: "3", label: "Career", href: "/career" },
-  { number: "4", label: "Interviews", href: "/interviews" },
-  { number: "5", label: "Features", href: "/features" },
-  { number: "6", label: "Archive", href: "/archive" },
-  { number: "7", label: "Contact", href: "/contact" }
+  { number: "101", label: "Home", href: "/" },
+  { number: "201", label: "About", href: "/about" },
+  { number: "301", label: "Career", href: "/career" },
+  { number: "401", label: "Interviews", href: "/interviews" },
+  { number: "501", label: "Features", href: "/features" },
+  { number: "601", label: "Archive", href: "/archive" },
+  { number: "701", label: "Contact", href: "/contact" }
 ];
 
 export const pageLabels = {
   career: {
-    eyebrow: "Service page 300",
+    eyebrow: "Service page 301",
     title: "Career Timeline",
     intro: "A Teletext-style route through print, digital, communications, guides, hardware coverage and current games journalism."
   },
   archive: {
-    eyebrow: "Service page 500",
+    eyebrow: "Service page 601",
     title: "Portfolio Archive",
     intro: "A searchable work index spanning magazines, websites, events, press work and retro systems. Filter the files, search the database, and open any record for the full detail."
   }

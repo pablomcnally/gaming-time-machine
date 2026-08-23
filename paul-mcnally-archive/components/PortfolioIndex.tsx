@@ -14,7 +14,7 @@ export function PortfolioIndex({ kind }: { kind: PortfolioKind }) {
   const otherKind = kind === "interviews" ? "features" : "interviews";
 
   return (
-    <PageContainer eyebrow={`Service page ${kind === "interviews" ? "410" : "420"}`} title={label} intro={descriptions[kind]}>
+    <PageContainer eyebrow={`Service page ${kind === "interviews" ? "401" : "501"}`} title={label} intro={descriptions[kind]}>
       <div className="mb-8 flex flex-wrap items-center justify-between gap-4 border-b border-terminal-cyan/35 pb-5 font-mono text-sm uppercase">
         <p className="text-terminal-green">{pieces.length.toString().padStart(2, "0")} archive file{pieces.length === 1 ? "" : "s"} online</p>
         <Link href={`/${otherKind}`} className="text-terminal-cyan hover:text-terminal-yellow">

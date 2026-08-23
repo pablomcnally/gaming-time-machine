@@ -110,7 +110,7 @@ export default function HomePage() {
           <div className="viewdata-rule mb-4" />
 
           <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-terminal-cyan md:text-sm">
-            <p>PAGE 100 // PERSONAL ARCHIVE FRONT PAGE</p>
+            <p>PAGE 101 // PERSONAL ARCHIVE FRONT PAGE</p>
             <p className="text-terminal-green">HOST STATUS: ONLINE</p>
           </div>
 
@@ -143,13 +143,13 @@ export default function HomePage() {
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link className="viewdata-command" href="/features">
-                  Browse features <span>[5]</span>
+                  Browse features <span>[501]</span>
                 </Link>
                 <Link className="viewdata-command" href="/interviews">
-                  Browse interviews <span>[4]</span>
+                  Browse interviews <span>[401]</span>
                 </Link>
                 <Link className="viewdata-command" href="/about">
-                  {homeContent.readMoreLabel} <span>[2]</span>
+                  {homeContent.readMoreLabel} <span>[201]</span>
                 </Link>
               </div>
             </section>

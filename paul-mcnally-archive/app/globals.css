@@ -2,8 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "VT323";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/vt323/VT323-Regular.ttf") format("truetype");
+}
+
 :root {
   --font-mono: "Lucida Console", "Courier New", monospace;
+  --font-teletext: "VT323", "Lucida Console", "Courier New", monospace;
   --font-sans: Arial, Helvetica, sans-serif;
   --scanline: rgba(255, 255, 255, 0.055);
 }
@@ -127,7 +136,7 @@ html:not(.crt-frame-off) .crt-screen-shell {
   height: 100%;
   overflow: hidden;
   border: 1px solid rgba(0, 0, 0, 0.95);
-  border-radius: 44% / 6%;
+  border-radius: clamp(2rem, 5vw, 4.5rem) / clamp(1.25rem, 3.5vw, 3rem);
   background: #020302;
   box-shadow:
     0 0 0 0.35rem rgba(0, 0, 0, 0.72),
@@ -183,6 +192,11 @@ html:not(.crt-frame-off) .crt-screen-content {
 
 html:not(.crt-frame-off) .crt-screen-content > header {
   position: sticky;
+}
+
+html:not(.crt-frame-off) .site-header-grid {
+  padding-right: clamp(1.75rem, 3.4vw, 3rem);
+  padding-left: clamp(1.75rem, 3.4vw, 3rem);
 }
 
 html:not(.crt-frame-off) .crt-side-panel {
@@ -397,11 +411,165 @@ html:not(.crt-frame-off) .crt-power-button {
   }
 
   html:not(.crt-frame-off) .crt-screen-shell {
-    border-radius: 34% / 4%;
+    border-radius: 2rem / 1.25rem;
   }
 
   html:not(.crt-frame-off) .crt-screen-shell::before {
     opacity: 0.22;
+  }
+}
+
+.site-header {
+  container-name: site-header;
+  container-type: inline-size;
+}
+
+.site-header-grid {
+  display: grid;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+}
+
+.site-header-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.site-header-clock {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.site-header-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@container site-header (min-width: 40rem) {
+  .site-header-grid {
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+
+  .site-header-title {
+    text-align: center;
+  }
+
+  .site-header-meta {
+    justify-content: flex-end;
+  }
+
+  .site-header-clock {
+    text-align: right;
+  }
+}
+
+@container site-header (min-width: 72rem) {
+  .site-header-clock {
+    width: auto;
+  }
+}
+
+.teletext-navigation {
+  font-family: var(--font-teletext);
+  font-synthesis: none;
+  letter-spacing: 0;
+}
+
+.service-page-code,
+.service-page-title {
+  font-family: var(--font-teletext);
+  font-synthesis: none;
+  letter-spacing: 0;
+}
+
+.service-page-code {
+  font-size: 1.25rem;
+  line-height: 1;
+  text-shadow: 0 0 0.3rem rgba(49, 255, 101, 0.42);
+}
+
+.service-page-title {
+  font-size: 3.5rem;
+  line-height: 0.9;
+  overflow-wrap: anywhere;
+  text-shadow:
+    0.06em 0 rgba(255, 51, 71, 0.16),
+    -0.06em 0 rgba(0, 229, 255, 0.16),
+    0 0 0.42rem rgba(255, 244, 92, 0.28);
+}
+
+.teletext-nav-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.teletext-nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  line-height: 1;
+  text-shadow: 0 0 0.32rem currentColor;
+}
+
+.teletext-nav-link:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
+.teletext-page-entry {
+  position: fixed;
+  left: 50%;
+  bottom: clamp(1rem, 3vw, 2rem);
+  z-index: 80;
+  display: flex;
+  min-width: 8.5rem;
+  transform: translateX(-50%);
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  border: 2px solid #fff45c;
+  padding: 0.4rem 0.7rem;
+  background: rgba(7, 8, 7, 0.96);
+  box-shadow: 0 0 1rem rgba(255, 244, 92, 0.22);
+  color: #fff45c;
+  font-family: var(--font-teletext);
+  font-size: 1.45rem;
+  line-height: 1;
+  letter-spacing: 0;
+  pointer-events: none;
+}
+
+.teletext-page-entry strong {
+  color: #31ff65;
+  font: inherit;
+}
+
+@media (min-width: 600px) {
+  .service-page-code {
+    font-size: 1.45rem;
+  }
+
+  .service-page-title {
+    font-size: 5rem;
+  }
+
+  .teletext-nav-grid {
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  }
+
+  .teletext-nav-link {
+    font-size: 1.55rem;
+  }
+
+  .teletext-nav-link:last-child:nth-child(odd) {
+    grid-column: auto;
   }
 }
 

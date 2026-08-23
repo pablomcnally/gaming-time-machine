@@ -138,7 +138,7 @@ local-preview
 
 ## Adding Portfolio Items
 
-The quickest route is `/editor` and then **Portfolio**. Add a file, upload or select its image, fill in the work details, and switch on **Feature on homepage** when it should appear on page 100. The top three featured files are used in the order shown in the editor.
+The quickest route is `/editor` and then **Portfolio**. Add a file, upload or select its image, fill in the work details, and switch on **Feature on homepage** when it should appear on page 101. The top three featured files are used in the order shown in the editor.
 
 Portfolio items are stored in:
 
