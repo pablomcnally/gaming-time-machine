@@ -9,6 +9,7 @@ export type PortfolioPiece = {
   kind: PortfolioKind;
   title: string;
   date: string;
+  updatedDate?: string;
   slug: string;
   excerpt: string;
   publication: string;
@@ -65,6 +66,7 @@ function getPiecesForKind(kind: PortfolioKind): PortfolioPiece[] {
         kind,
         title: data.title,
         date: data.date,
+        updatedDate: data.updatedDate || undefined,
         slug: data.slug,
         excerpt: data.excerpt,
         publication: data.publication,

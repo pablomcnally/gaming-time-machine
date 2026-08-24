@@ -41,6 +41,24 @@ export function MarkdownBody({ className = "", content }: MarkdownBodyProps) {
   return (
     <div className={`prose-terminal max-w-none ${className}`}>
       {blocks.map((block) => {
+        const backgroundSectionMatch = block.match(/^\[BACKGROUND SECTION:(\/[^|\]]+)\|([^\]]+)\]\n([\s\S]+)$/);
+
+        if (backgroundSectionMatch) {
+          const [, src, description, sectionCopy] = backgroundSectionMatch;
+          const paragraphs = sectionCopy.split(/\n+/).filter(Boolean);
+
+          return (
+            <section
+              className="portfolio-background-section"
+              key={src}
+              style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.9)), url("${src}")` }}
+            >
+              <span className="sr-only">Background image: {description}</span>
+              {paragraphs.map((paragraph) => <p key={paragraph}>{renderInline(paragraph)}</p>)}
+            </section>
+          );
+        }
+
         const imageMatch = block.match(/^!\[([^\]]*)\]\((\/[^)\s]+)(?:\s+"([^"]*)")?\)(?:\n\*(.*?)\*)?$/);
 
         if (imageMatch) {

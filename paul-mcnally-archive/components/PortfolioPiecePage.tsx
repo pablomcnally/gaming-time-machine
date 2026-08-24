@@ -39,6 +39,7 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
                 <span className="border border-terminal-green/50 bg-terminal-black px-3 py-2 text-terminal-green">By {piece.author}</span>
                 {piece.tag ? <span className="border border-terminal-yellow/50 bg-terminal-black px-3 py-2 text-terminal-yellow">{piece.tag}</span> : null}
                 <time className="border border-terminal-cyan/50 bg-terminal-black px-3 py-2 text-terminal-cyan" dateTime={piece.date}>{formatDate(piece.date)}</time>
+                {piece.updatedDate ? <span className="border border-terminal-cyan/50 bg-terminal-black px-3 py-2 text-terminal-cyan">Updated {formatDate(piece.updatedDate)}</span> : null}
                 <span className="border border-terminal-yellow/50 bg-terminal-black px-3 py-2 text-terminal-yellow">{getReadingTime(piece)} min read</span>
               </div>
               <a
@@ -64,7 +65,7 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
           <div className="mb-8 border-b border-terminal-yellow/50 pb-5 font-mono text-sm uppercase">
             <p className="text-terminal-yellow">Permanent archive copy</p>
             <p className="mt-2 max-w-3xl text-xs leading-5 text-terminal-paper/70">
-              Originally published by {piece.publication} on {formatDate(piece.date)}. Preserved here by the author for long-term access.
+              Originally published by {piece.publication} on {formatDate(piece.date)}{piece.updatedDate ? ` and updated on ${formatDate(piece.updatedDate)}` : ""}. Preserved here by the author for long-term access.
             </p>
           </div>
           <MarkdownBody className="article-prose portfolio-prose" content={piece.body} />
@@ -85,6 +86,7 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
               <div><dt className="text-terminal-cyan">Publication</dt><dd className="mt-1 text-terminal-paper">{piece.publication}</dd></div>
               {piece.tag ? <div><dt className="text-terminal-cyan">Tag</dt><dd className="mt-1 text-terminal-paper">{piece.tag}</dd></div> : null}
               <div><dt className="text-terminal-cyan">Published</dt><dd className="mt-1 text-terminal-paper">{formatDate(piece.date)}</dd></div>
+              {piece.updatedDate ? <div><dt className="text-terminal-cyan">Updated</dt><dd className="mt-1 text-terminal-paper">{formatDate(piece.updatedDate)}</dd></div> : null}
               <div><dt className="text-terminal-cyan">Archive ref</dt><dd className="mt-1 break-words text-terminal-paper">{piece.slug}</dd></div>
             </dl>
           </section>

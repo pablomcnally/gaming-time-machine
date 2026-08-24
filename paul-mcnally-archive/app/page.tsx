@@ -9,6 +9,7 @@ const homePreviewImages: Record<string, string> = {
   "forgotten-amberstar-review-copy-resurfaced": "/portfolio/home/amberstar-micronet.png",
   "ere-informatique-french-video-game-revolution": "/portfolio/home/ere-informatique-micronet.png",
   "prestel-micronet-lost-online-world": "/portfolio/home/prestel-micronet.jpg.webp",
+  "theatre-europe-nuclear-war-phone-call": "/portfolio/home/theatre-europe-micronet.png",
   "sterre-meijer-skatesterre-interview": "/portfolio/home/sterre-meijer-micronet.png",
   "slipknot-clown-vernearth": "/portfolio/home/slipknot-clown-micronet.png",
   "tim-kitzrow-nba-jam-blitz-mutant-football-league-interview": "/portfolio/home/tim-kitzrow-micronet.png"
@@ -79,7 +80,7 @@ function PortfolioBand({
         <h2 id={id}>{title}</h2>
         <p>[{pieces.length.toString().padStart(2, "0")} FILES]</p>
       </div>
-      <div className={`grid gap-px bg-terminal-cyan/25 ${pieces.length === 2 ? "md:grid-cols-2" : "md:grid-cols-3"}`}>
+      <div className={`grid gap-px bg-terminal-cyan/25 ${pieces.length === 2 || pieces.length === 4 ? "md:grid-cols-2" : "md:grid-cols-3"}`}>
         {pieces.map((piece, index) => (
           <HomePortfolioCard key={piece.slug} piece={piece} eager={index === 0 && piece.kind === "features"} />
         ))}
