@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Sunday, August 23, 2026",
+  "updatedLabel": "Monday, August 24, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Bin Lorry In A Beanie Apparently Applying For Vice City’s Minister Of Vibes",
+    "Analysts Say A Sandwich Board In A Trench Coat Is Poised To Rewire Vice City’s Entire Roadside",
     "‘Leaked’ Clip Shows A Smart Fridge In A Bow Tie Apparently Applying For Vice City’s Deputy Mayor",
     "Analysts Say A Lawn Flamingo In A Trilby Is Poised To Redraw Vice City’s Entire Neighbourhood Watch",
     "‘Leaked’ Clip Shows A Toaster In A Fedora Apparently Seeking Vice City’s Night Mayor Job",
     "Analysts Say A Handbag In Driving Gloves Is Poised To Redraw Vice City’s Entire Snack Economy",
     "‘Leaked’ Clip Shows A Ceiling Fan In A Tie Apparently Running For Vice City’s Lost Property Office",
-    "Analysts Say A Shopping Trolley In Argyle Sunglasses Is Poised To Rewire Vice City’s Public Seating",
-    "‘Leaked’ Clip Shows A Potted Palm In A Cardigan Apparently Applying For Vice City’s Moral Compass",
-    "Analysts Say A Goldfish In A Waistcoat Is ‘Clearly’ Set To Reorganise Vice City’s Bus Stops"
+    "Analysts Say A Shopping Trolley In Argyle Sunglasses Is Poised To Rewire Vice City’s Public Seating"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-bin-lorry-in-a-beanie-apparently-applying-for-vice-cit",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "spoof footage",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Bin Lorry In A Beanie Apparently Applying For Vice City’s Minister Of Vibes",
+      "description": "The internet has once again lost its hat over a deeply unserious clip said to show municipal machinery with political ambitions.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "B. Crump, Staff Whistle-Observer",
+      "readTime": "3 min read",
+      "date": "Monday, August 24, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A fresh round of eyebrow exercise is under way after a cartoonishly dodgy clip began circulating online, allegedly showing a bin lorry in a beanie conducting a very determined walk down a palm-lined street.",
+        "No actual information is being confirmed here, because there is nothing to confirm apart from the fact that the vehicle appears to have the posture of a man who has just discovered artisanal coffee and is now impossible to talk to.",
+        "The clip’s supposed ‘evidence’ includes a jaunty horn beep, a suspiciously confident reverse manoeuvre, and what commentators insist is the lorry giving a press-ready nod to an off-camera pelican.",
+        "Naturally, viewers have responded with the usual mixture of nonsense, charts, and 14-minute explanations recorded from bed.",
+        "If true, the footage would suggest Vice City’s civic scene is moving towards a bold new era in which refuse collection, campaign promises, and mild confusion become fully integrated services."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-sandwich-board-in-a-trench-coat-is-poised-to-rewire-vice-ci",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "expert panic",
+      "accent": "sunset",
+      "title": "Analysts Say A Sandwich Board In A Trench Coat Is Poised To Rewire Vice City’s Entire Roadside",
+      "description": "Industry sages believe the city is entering a golden age of portable signage, suspiciously ambitious lunch, and pedestrian-based optimism.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "D. Mallow, Correspondent At Large",
+      "readTime": "4 min read",
+      "date": "Monday, August 24, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Analysts, who are to common sense what a glitter cannon is to carpet, have reportedly concluded that a sandwich board in a trench coat may be about to reshape every roadside transaction in Vice City.",
+        "Their reasoning is said to rest on three pillars: a visible logo, a dramatic turn of pace, and the unsettling confidence usually found in a man who says he can fix a leak with one phone call and a biscuit.",
+        "According to the theory, the board’s unique combination of advertisement, wardrobe, and immediate square-shouldered determination could force cafés, garages, and one very confused parking attendant to rethink their entire pricing model.",
+        "One expert allegedly called the move ‘disruptive’, which in this case appears to mean ‘wearing too many layers and standing near traffic’.",
+        "If the prediction lands, the city could soon see a surge in self-moving promotions, coat-based commerce, and lunch-related infrastructure policy drafted by committee and ignored by everyone except the pigeons."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-smart-fridge-in-a-bow-tie-apparently-applying-for-vice",
       "category": "leak",
