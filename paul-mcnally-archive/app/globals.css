@@ -966,7 +966,8 @@ textarea {
   line-height: 1.85;
 }
 
-.prose-terminal ul {
+.prose-terminal ul,
+.prose-terminal ol {
   margin: 1.25rem 0;
   padding-left: 1.25rem;
 }

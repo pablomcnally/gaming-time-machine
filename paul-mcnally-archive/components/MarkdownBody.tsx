@@ -106,6 +106,18 @@ export function MarkdownBody({ className = "", content }: MarkdownBodyProps) {
           );
         }
 
+        if (/^\d+\. /.test(block)) {
+          const items = block.split(/\n/).map((item) => item.replace(/^\d+\. /, ""));
+
+          return (
+            <ol key={block}>
+              {items.map((item) => (
+                <li key={item}>{renderInline(item)}</li>
+              ))}
+            </ol>
+          );
+        }
+
         return <p key={block}>{renderInline(block)}</p>;
       })}
     </div>

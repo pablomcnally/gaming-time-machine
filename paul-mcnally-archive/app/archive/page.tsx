@@ -1,22 +1,19 @@
-import type { Metadata } from "next";
-import { ArchiveGrid } from "../../components/ArchiveGrid";
-import { PageContainer } from "../../components/PageContainer";
-import { archiveItems } from "../../data/archive";
-import { pageLabels } from "../../data/site";
+import { redirect } from "next/navigation";
 
-export const metadata: Metadata = {
-  title: "Portfolio Archive",
-  description: "Search Paul McNally's portfolio of magazine, website, event, editorial and retro media work."
-};
+type SearchParams = Promise<Record<string, string | string[] | undefined>>;
 
-export default function ArchivePage() {
-  return (
-    <PageContainer
-      eyebrow={pageLabels.archive.eyebrow}
-      title={pageLabels.archive.title}
-      intro={pageLabels.archive.intro}
-    >
-      <ArchiveGrid items={archiveItems} />
-    </PageContainer>
-  );
+export default async function ArchiveRedirect({ searchParams }: { searchParams: SearchParams }) {
+  const suppliedParams = await searchParams;
+  const targetParams = new URLSearchParams();
+
+  Object.entries(suppliedParams).forEach(([key, value]) => {
+    if (Array.isArray(value)) {
+      value.forEach((item) => targetParams.append(key, item));
+    } else if (value !== undefined) {
+      targetParams.set(key, value);
+    }
+  });
+
+  const query = targetParams.toString();
+  redirect(`/work${query ? `?${query}` : ""}`);
 }

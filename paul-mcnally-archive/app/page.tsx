@@ -2,6 +2,7 @@ import Link from "next/link";
 import { StorySoFarPanel } from "../components/StorySoFarPanel";
 import { archiveItems } from "../data/archive";
 import { homeContent } from "../data/pages";
+import { getAllBlogPosts } from "../lib/blog";
 import { getAllPortfolioPieces, type PortfolioPiece } from "../lib/portfolio";
 
 const homePreviewImages: Record<string, string> = {
@@ -95,6 +96,7 @@ function PortfolioBand({
 export default function HomePage() {
   const features = getAllPortfolioPieces("features");
   const interviews = getAllPortfolioPieces("interviews");
+  const blogPosts = getAllBlogPosts();
   const lastUpdated = new Intl.DateTimeFormat("en-GB", {
     day: "2-digit",
     month: "2-digit",
@@ -189,9 +191,9 @@ export default function HomePage() {
           <div className="mt-6 grid gap-5 lg:grid-cols-[1.08fr_0.92fr]">
             <StorySoFarPanel />
 
-            <section className="viewdata-box" aria-labelledby="archive-directories">
+            <section className="viewdata-box" aria-labelledby="site-directories">
               <div className="viewdata-box-title px-4 py-2 text-base sm:text-xl">
-                <h2 id="archive-directories">Archive directories</h2>
+                <h2 id="site-directories">Site directories</h2>
               </div>
               <div className="grid gap-px bg-terminal-cyan/25">
                 <Link className="home-directory-link" href="/features">
@@ -202,7 +204,11 @@ export default function HomePage() {
                   <span>Interviews</span>
                   <span>{interviews.length.toString().padStart(2, "0")} files</span>
                 </Link>
-                <Link className="home-directory-link" href="/archive">
+                <Link className="home-directory-link" href="/blog">
+                  <span>Blog</span>
+                  <span>{blogPosts.length.toString().padStart(2, "0")} posts</span>
+                </Link>
+                <Link className="home-directory-link" href="/work">
                   <span>Complete work index</span>
                   <span>{archiveItems.length.toString().padStart(2, "0")} records</span>
                 </Link>

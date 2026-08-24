@@ -592,7 +592,7 @@ export default function EditorPage() {
                 <a className="border border-terminal-cyan px-4 py-2 text-terminal-cyan hover:border-terminal-yellow hover:text-terminal-yellow" href="/" target="_blank">
                   View site
                 </a>
-                <a className="border border-terminal-cyan px-4 py-2 text-terminal-cyan hover:border-terminal-yellow hover:text-terminal-yellow" href="/archive" target="_blank">
+                <a className="border border-terminal-cyan px-4 py-2 text-terminal-cyan hover:border-terminal-yellow hover:text-terminal-yellow" href="/work" target="_blank">
                   View portfolio
                 </a>
                 <button
