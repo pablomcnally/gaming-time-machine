@@ -908,6 +908,113 @@ textarea {
   transform: translateY(-2px);
 }
 
+.teletext-directory {
+  overflow: hidden;
+  border: 3px solid #1624ff;
+  background: #070807;
+  box-shadow:
+    inset 0 0 0 1px rgba(0, 229, 255, 0.58),
+    0 0 1rem rgba(22, 36, 255, 0.2);
+  font-family: var(--font-teletext);
+  font-synthesis: none;
+  letter-spacing: 0;
+}
+
+.teletext-directory-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.45rem 0.75rem;
+  background: #1624ff;
+  color: #f3f0db;
+  font-size: 1.25rem;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.teletext-directory-header h2 {
+  min-width: 0;
+  font: inherit;
+}
+
+.teletext-directory-header span {
+  flex: none;
+  color: #fff45c;
+}
+
+.teletext-directory-list {
+  margin: 0;
+  padding: 0.4rem 0.65rem;
+  list-style: none;
+}
+
+.teletext-directory-list li + li {
+  border-top: 1px solid rgba(0, 229, 255, 0.2);
+}
+
+.teletext-directory-list a {
+  display: grid;
+  min-height: 2.75rem;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.38rem 0.3rem;
+  color: #31ff65;
+  font-size: 1.25rem;
+  line-height: 1.05;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.3rem rgba(49, 255, 101, 0.35);
+}
+
+.teletext-directory-list a:hover,
+.teletext-directory-list a:focus-visible {
+  background: #1624ff;
+  color: #fff45c;
+}
+
+.teletext-directory-title {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.teletext-directory-code {
+  align-self: start;
+  color: #00e5ff;
+  line-height: inherit;
+  text-shadow: 0 0 0.3rem rgba(0, 229, 255, 0.42);
+}
+
+.teletext-directory-list a:hover .teletext-directory-code,
+.teletext-directory-list a:focus-visible .teletext-directory-code {
+  color: #f3f0db;
+}
+
+.teletext-directory-hint {
+  border-top: 2px solid #1624ff;
+  padding: 0.45rem 0.95rem;
+  color: #00e5ff;
+  font-size: 1.05rem;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+@media (min-width: 600px) {
+  .teletext-directory-header,
+  .teletext-directory-list a {
+    font-size: 1.45rem;
+  }
+
+  .teletext-directory-list {
+    padding: 0.55rem 0.9rem;
+  }
+
+  .teletext-directory-list a {
+    min-height: 2.9rem;
+    padding-inline: 0.45rem;
+  }
+}
+
 .portfolio-card-image::after {
   position: absolute;
   inset: 0;

@@ -22,6 +22,12 @@ export type PortfolioPiece = {
   body: string;
 };
 
+export type PortfolioPageEntry = {
+  number: string;
+  href: string;
+  piece: PortfolioPiece;
+};
+
 const portfolioDirectory = path.join(process.cwd(), "content", "portfolio");
 
 function parseFrontMatter(fileContents: string) {
@@ -88,6 +94,29 @@ export function getAllPortfolioPieces(kind?: PortfolioKind) {
   }
 
   return portfolioKinds.flatMap(getPiecesForKind).sort((left, right) => right.date.localeCompare(left.date));
+}
+
+const portfolioPageStarts: Record<PortfolioKind, number> = {
+  interviews: 402,
+  features: 502
+};
+
+export function getPortfolioPageEntries(kind: PortfolioKind): PortfolioPageEntry[] {
+  return getPiecesForKind(kind).map((piece, index) => ({
+    number: String(portfolioPageStarts[kind] + index).padStart(3, "0"),
+    href: `/${kind}/${piece.slug}`,
+    piece
+  }));
+}
+
+export function getPortfolioPageCode(kind: PortfolioKind, slug: string) {
+  return getPortfolioPageEntries(kind).find((entry) => entry.piece.slug === slug)?.number;
+}
+
+export function getPortfolioKeyboardPages() {
+  return portfolioKinds.flatMap((kind) =>
+    getPortfolioPageEntries(kind).map(({ number, href }) => ({ number, href }))
+  );
 }
 
 export function getPortfolioPieceBySlug(kind: PortfolioKind, slug: string) {

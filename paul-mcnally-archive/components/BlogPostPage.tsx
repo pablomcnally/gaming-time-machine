@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getAllBlogPosts, getBlogPostBySlug, type BlogPost } from "../lib/blog";
+import { getAllBlogPosts, getBlogPageCode, getBlogPostBySlug, type BlogPost } from "../lib/blog";
 import { MarkdownBody } from "./MarkdownBody";
 
 function formatDate(date: string) {
@@ -19,6 +19,7 @@ export function BlogPostPage({ slug }: { slug: string }) {
     notFound();
   }
 
+  const pageCode = getBlogPageCode(slug);
   const relatedPosts = getAllBlogPosts().filter((candidate) => candidate.slug !== post.slug).slice(0, 3);
 
   return (
@@ -28,7 +29,7 @@ export function BlogPostPage({ slug }: { slug: string }) {
           <div>
             <nav aria-label="Breadcrumb" className="font-mono text-sm uppercase text-terminal-green">
               <Link href="/blog" className="hover:text-terminal-yellow">Blog</Link>
-              <span aria-hidden="true"> // Independent transmission</span>
+              <span aria-hidden="true"> // Page {pageCode} // Independent transmission</span>
             </nav>
             <h1 className="mt-5 max-w-5xl font-mono text-3xl uppercase leading-tight text-terminal-yellow sm:text-4xl md:text-5xl">{post.title}</h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-terminal-paper md:text-xl">{post.excerpt}</p>
@@ -65,6 +66,7 @@ export function BlogPostPage({ slug }: { slug: string }) {
             <h2 className="text-terminal-green">File data</h2>
             <dl className="mt-5 grid gap-4">
               <div><dt className="text-terminal-cyan">File type</dt><dd className="mt-1 text-terminal-paper">Blog post</dd></div>
+              {pageCode ? <div><dt className="text-terminal-cyan">Page code</dt><dd className="mt-1 text-terminal-green">{pageCode}</dd></div> : null}
               <div><dt className="text-terminal-cyan">Byline</dt><dd className="mt-1 text-terminal-yellow">{post.author}</dd></div>
               {post.tag ? <div><dt className="text-terminal-cyan">Tag</dt><dd className="mt-1 text-terminal-paper">{post.tag}</dd></div> : null}
               <div><dt className="text-terminal-cyan">Published</dt><dd className="mt-1 text-terminal-paper">{formatDate(post.date)}</dd></div>

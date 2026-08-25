@@ -6,6 +6,11 @@ import { CrtFrameToggle } from "./CrtFrameToggle";
 import { ModemSoundToggle } from "./ModemSoundToggle";
 import { RetroNavigation } from "./RetroNavigation";
 
+type KeyboardPage = {
+  number: string;
+  href: string;
+};
+
 function formatDate(now: Date) {
   return new Intl.DateTimeFormat("en-GB", {
     weekday: "short",
@@ -28,7 +33,7 @@ function formatTime(now: Date) {
   }).format(now);
 }
 
-export function SiteHeader() {
+export function SiteHeader({ contentKeyboardPages }: { contentKeyboardPages: KeyboardPage[] }) {
   const [now, setNow] = useState<Date | null>(null);
 
   useEffect(() => {
@@ -41,7 +46,7 @@ export function SiteHeader() {
   return (
     <header className="site-header sticky top-0 z-40 bg-terminal-black/95 font-mono uppercase shadow-terminal backdrop-blur">
       <div className="site-header-grid mx-auto max-w-7xl border-b border-terminal-paper/80">
-        <p className="text-terminal-green">*** MICRONET 800 SERVICES ***</p>
+        <p className="text-terminal-green">*** PLABLONET 800 SERVICES ***</p>
         <p className="site-header-title text-terminal-paper">Personal Archive Terminal</p>
         <div className="site-header-meta text-terminal-green">
           <p className="site-header-clock">{now ? `${formatTime(now)}  ${formatServiceDate(now)}` : "--:--  --- -- --- ----"}</p>
@@ -52,7 +57,7 @@ export function SiteHeader() {
           </div>
         </div>
       </div>
-      <RetroNavigation />
+      <RetroNavigation contentKeyboardPages={contentKeyboardPages} />
     </header>
   );
 }

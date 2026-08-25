@@ -21,7 +21,7 @@ export function BlogCard({ post }: { post: BlogPost }) {
         <div className="home-portfolio-placeholder aspect-[3/2] border-b border-terminal-cyan/30" aria-hidden="true">
           <span>INDEPENDENT TRANSMISSION</span>
           <strong>BLOG FILE</strong>
-          <span>MICRONET 601</span>
+          <span>PLABLONET 601</span>
         </div>
       )}
 
@@ -37,10 +37,9 @@ export function BlogCard({ post }: { post: BlogPost }) {
             {post.title}
           </Link>
         </h2>
-        <p className="mt-4 flex-1 leading-7 text-terminal-paper/90">{post.excerpt}</p>
-        <p className="mt-5 font-mono text-xs uppercase text-terminal-paper/70">By {post.author}</p>
+        <p className="mt-4 font-mono text-xs uppercase text-terminal-paper/70">By {post.author}</p>
         <Link
-          className="mt-5 inline-flex min-h-11 items-center self-start border border-terminal-cyan/60 px-4 font-mono text-sm uppercase text-terminal-cyan hover:border-terminal-yellow hover:text-terminal-yellow"
+          className="mt-4 inline-flex min-h-11 items-center self-start border border-terminal-cyan/60 px-4 font-mono text-sm uppercase text-terminal-cyan hover:border-terminal-yellow hover:text-terminal-yellow"
           href={`/blog/${post.slug}`}
         >
           Read transmission

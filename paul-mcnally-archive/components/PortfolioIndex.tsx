@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { getAllPortfolioPieces, getPortfolioKindLabel, type PortfolioKind } from "../lib/portfolio";
+import { getPortfolioKindLabel, getPortfolioPageEntries, type PortfolioKind } from "../lib/portfolio";
 import { PageContainer } from "./PageContainer";
 import { PortfolioCard } from "./PortfolioCard";
+import { TeletextDirectory } from "./TeletextDirectory";
 
 const descriptions: Record<PortfolioKind, string> = {
   interviews: "Long-form conversations with the people building games, worlds, technology and culture — preserved here as permanent archive files.",
@@ -9,9 +10,11 @@ const descriptions: Record<PortfolioKind, string> = {
 };
 
 export function PortfolioIndex({ kind }: { kind: PortfolioKind }) {
-  const pieces = getAllPortfolioPieces(kind);
+  const entries = getPortfolioPageEntries(kind);
+  const pieces = entries.map((entry) => entry.piece);
   const label = getPortfolioKindLabel(kind);
   const otherKind = kind === "interviews" ? "features" : "interviews";
+  const indexCode = kind === "interviews" ? "401" : "501";
 
   return (
     <PageContainer eyebrow={`Service page ${kind === "interviews" ? "401" : "501"}`} title={label} intro={descriptions[kind]}>
@@ -23,9 +26,18 @@ export function PortfolioIndex({ kind }: { kind: PortfolioKind }) {
       </div>
 
       {pieces.length ? (
-        <div className="grid gap-6 lg:grid-cols-2">
-          {pieces.map((piece) => <PortfolioCard key={piece.slug} piece={piece} />)}
-        </div>
+        <>
+          <TeletextDirectory
+            id={`${kind}-directory-heading`}
+            indexCode={indexCode}
+            label={label}
+            entries={entries.map(({ number, href, piece }) => ({ number, href, title: piece.title }))}
+          />
+
+          <div className="mt-8 grid gap-6 lg:grid-cols-2">
+            {pieces.map((piece) => <PortfolioCard key={piece.slug} piece={piece} />)}
+          </div>
+        </>
       ) : (
         <section className="viewdata-box max-w-3xl p-6 font-mono uppercase md:p-8">
           <p className="text-terminal-green">Directory ready // awaiting first transmission</p>

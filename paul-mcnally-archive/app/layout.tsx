@@ -6,6 +6,8 @@ import { CrtDisplayShell } from "../components/CrtDisplayShell";
 import { EasterEggs } from "../components/EasterEggs";
 import { FooterStatusBar } from "../components/FooterStatusBar";
 import { SiteHeader } from "../components/SiteHeader";
+import { getBlogKeyboardPages } from "../lib/blog";
+import { getPortfolioKeyboardPages } from "../lib/portfolio";
 import "./globals.css";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://paul-mcnally-archive.vercel.app";
@@ -23,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Paul McNally | Personal Archive Terminal",
     description:
-      "Micronet, Prestel and Teletext energy rebuilt as a readable personal archive for a games journalist.",
+      "Plablonet, Prestel and Teletext energy rebuilt as a readable personal archive for a games journalist.",
     url: siteUrl,
     siteName: "Paul McNally Personal Archive",
     images: [{ url: "/og.svg", width: 1200, height: 630, alt: "Paul McNally personal archive terminal" }],
@@ -33,7 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Paul McNally | Personal Archive Terminal",
-    description: "A games journalist's personal archive, as if Micronet survived into 2026.",
+    description: "A games journalist's personal archive, presented through the Plablonet terminal.",
     images: ["/og.svg"]
   },
   icons: {
@@ -42,14 +44,16 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const contentKeyboardPages = [...getPortfolioKeyboardPages(), ...getBlogKeyboardPages()];
+
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
       <body>
         <Script id="crt-frame-preference" strategy="beforeInteractive">
           {`try{if(localStorage.getItem("paul-mcnally-crt-frame")==="off"){document.documentElement.classList.add("crt-frame-off")}}catch(e){}`}
         </Script>
         <CrtDisplayShell>
-          <SiteHeader />
+          <SiteHeader contentKeyboardPages={contentKeyboardPages} />
           {children}
           <FooterStatusBar />
         </CrtDisplayShell>

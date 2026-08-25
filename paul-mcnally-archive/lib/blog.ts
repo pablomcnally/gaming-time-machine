@@ -13,6 +13,12 @@ export type BlogPost = {
   body: string;
 };
 
+export type BlogPageEntry = {
+  number: string;
+  href: string;
+  post: BlogPost;
+};
+
 const blogDirectory = path.join(process.cwd(), "content", "blog");
 
 function parseFrontMatter(fileContents: string) {
@@ -81,4 +87,20 @@ export function getAllBlogPosts(): BlogPost[] {
 
 export function getBlogPostBySlug(slug: string) {
   return getAllBlogPosts().find((post) => post.slug === slug);
+}
+
+export function getBlogPageEntries(): BlogPageEntry[] {
+  return getAllBlogPosts().map((post, index) => ({
+    number: String(602 + index).padStart(3, "0"),
+    href: `/blog/${post.slug}`,
+    post
+  }));
+}
+
+export function getBlogPageCode(slug: string) {
+  return getBlogPageEntries().find((entry) => entry.post.slug === slug)?.number;
+}
+
+export function getBlogKeyboardPages() {
+  return getBlogPageEntries().map(({ number, href }) => ({ number, href }));
 }

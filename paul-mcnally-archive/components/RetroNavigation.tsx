@@ -6,13 +6,13 @@ import { useEffect, useRef, useState } from "react";
 import { navigationItems } from "../data/site";
 
 const PAGE_ENTRY_TIMEOUT = 1200;
-const keyboardPages: Array<{ number: string; href: string }> = [
-  ...navigationItems,
-  { number: "800", href: "/micronet-800" },
-  { number: "999", href: "/system-status" }
-];
 
-export function RetroNavigation() {
+type KeyboardPage = {
+  number: string;
+  href: string;
+};
+
+export function RetroNavigation({ contentKeyboardPages }: { contentKeyboardPages: KeyboardPage[] }) {
   const pathname = usePathname();
   const router = useRouter();
   const [pageEntry, setPageEntry] = useState("");
@@ -63,6 +63,12 @@ export function RetroNavigation() {
         return;
       }
 
+      const keyboardPages: KeyboardPage[] = [
+        ...navigationItems,
+        ...contentKeyboardPages,
+        { number: "800", href: "/micronet-800" },
+        { number: "999", href: "/system-status" }
+      ];
       const item = keyboardPages.find((navItem) => navItem.number === nextEntry);
       pageBufferRef.current = "";
 
@@ -81,7 +87,7 @@ export function RetroNavigation() {
       window.removeEventListener("keydown", onKeyDown);
       clearResetTimer();
     };
-  }, [router]);
+  }, [contentKeyboardPages, router]);
 
   return (
     <>

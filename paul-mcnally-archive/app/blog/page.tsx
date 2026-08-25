@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { BlogCard } from "../../components/BlogCard";
 import { PageContainer } from "../../components/PageContainer";
-import { getAllBlogPosts } from "../../lib/blog";
+import { TeletextDirectory } from "../../components/TeletextDirectory";
+import { getBlogPageEntries } from "../../lib/blog";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -9,7 +10,8 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPage() {
-  const posts = getAllBlogPosts();
+  const entries = getBlogPageEntries();
+  const posts = entries.map((entry) => entry.post);
 
   return (
     <PageContainer
@@ -23,9 +25,17 @@ export default function BlogPage() {
       </div>
 
       {posts.length ? (
-        <div className="grid gap-6 lg:grid-cols-2">
-          {posts.map((post) => <BlogCard key={post.slug} post={post} />)}
-        </div>
+        <>
+          <TeletextDirectory
+            id="blog-directory-heading"
+            indexCode="601"
+            label="Blog"
+            entries={entries.map(({ number, href, post }) => ({ number, href, title: post.title }))}
+          />
+          <div className="mt-8 grid gap-6 lg:grid-cols-2">
+            {posts.map((post) => <BlogCard key={post.slug} post={post} />)}
+          </div>
+        </>
       ) : (
         <section className="viewdata-box max-w-3xl p-6 font-mono uppercase md:p-8">
           <p className="text-terminal-green">Blog channel ready // awaiting first transmission</p>

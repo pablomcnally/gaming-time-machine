@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getAllPortfolioPieces, getPortfolioKindLabel, getPortfolioPieceBySlug, type PortfolioKind, type PortfolioPiece } from "../lib/portfolio";
+import { getAllPortfolioPieces, getPortfolioKindLabel, getPortfolioPageCode, getPortfolioPieceBySlug, type PortfolioKind, type PortfolioPiece } from "../lib/portfolio";
 import { MarkdownBody } from "./MarkdownBody";
 
 function formatDate(date: string) {
@@ -20,6 +20,7 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
   }
 
   const label = getPortfolioKindLabel(kind);
+  const pageCode = getPortfolioPageCode(kind, slug);
   const relatedPieces = getAllPortfolioPieces(kind).filter((candidate) => candidate.slug !== piece.slug).slice(0, 3);
 
   return (
@@ -28,7 +29,7 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
         <div className="mx-auto max-w-7xl">
           <nav aria-label="Breadcrumb" className="font-mono text-sm uppercase text-terminal-green">
             <Link href={`/${kind}`} className="hover:text-terminal-yellow">{label}</Link>
-            <span aria-hidden="true"> // Archive file</span>
+            <span aria-hidden="true"> // Page {pageCode} // Archive file</span>
           </nav>
 
           <div className="mt-5 grid gap-8 lg:grid-cols-[minmax(0,1fr)_25rem] lg:items-end">
@@ -82,6 +83,7 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
             <h2 className="text-terminal-green">File data</h2>
             <dl className="mt-5 grid gap-4">
               <div><dt className="text-terminal-cyan">File type</dt><dd className="mt-1 text-terminal-paper">{label.slice(0, -1)}</dd></div>
+              {pageCode ? <div><dt className="text-terminal-cyan">Page code</dt><dd className="mt-1 text-terminal-green">{pageCode}</dd></div> : null}
               <div><dt className="text-terminal-cyan">Byline</dt><dd className="mt-1 text-terminal-yellow">{piece.author}</dd></div>
               <div><dt className="text-terminal-cyan">Publication</dt><dd className="mt-1 text-terminal-paper">{piece.publication}</dd></div>
               {piece.tag ? <div><dt className="text-terminal-cyan">Tag</dt><dd className="mt-1 text-terminal-paper">{piece.tag}</dd></div> : null}
