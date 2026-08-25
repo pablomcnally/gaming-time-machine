@@ -1,21 +1,68 @@
 {
-  "updatedLabel": "Monday, August 24, 2026",
+  "updatedLabel": "Tuesday, August 25, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Traffic Cone In A Cardigan Apparently Applying For Vice City’s Deputy Weather",
+    "Analysts Say A Mop In Loafers Is Poised To Rewire Vice City’s Entire Wet-Floor Diplomacy",
     "‘Leaked’ Clip Shows A Bin Lorry In A Beanie Apparently Applying For Vice City’s Minister Of Vibes",
     "Analysts Say A Sandwich Board In A Trench Coat Is Poised To Rewire Vice City’s Entire Roadside",
     "‘Leaked’ Clip Shows A Smart Fridge In A Bow Tie Apparently Applying For Vice City’s Deputy Mayor",
     "Analysts Say A Lawn Flamingo In A Trilby Is Poised To Redraw Vice City’s Entire Neighbourhood Watch",
     "‘Leaked’ Clip Shows A Toaster In A Fedora Apparently Seeking Vice City’s Night Mayor Job",
-    "Analysts Say A Handbag In Driving Gloves Is Poised To Redraw Vice City’s Entire Snack Economy",
-    "‘Leaked’ Clip Shows A Ceiling Fan In A Tie Apparently Running For Vice City’s Lost Property Office",
-    "Analysts Say A Shopping Trolley In Argyle Sunglasses Is Poised To Rewire Vice City’s Public Seating"
+    "Analysts Say A Handbag In Driving Gloves Is Poised To Redraw Vice City’s Entire Snack Economy"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-traffic-cone-in-a-cardigan-apparently-applying-for-vic",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EXCLUSIVE-ish",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Traffic Cone In A Cardigan Apparently Applying For Vice City’s Deputy Weather",
+      "description": "A suspiciously polished clip has allegedly surfaced of a traffic cone attempting to brief the city on cloud formations, lane discipline, and the emotional needs of...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel P. Wethers",
+      "readTime": "3 min read",
+      "date": "Tuesday, August 25, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "In what the internet is calling a Very Real Piece Of Something, a new ‘leaked’ clip allegedly shows a traffic cone in a cardigan standing beside a clipboard and behaving like it has every right to be there.",
+        "The cone is said to gesture sternly at the horizon before delivering what witnesses describe as a “deeply administrative” speech about drizzle, heat haze, and the need for roundabouts to remain optimistic.",
+        "Experts on nothing in particular have noted that the cardigan appears hand-knitted by someone with strong opinions about municipal branding.",
+        "One frame allegedly shows the cone nodding at a passing cloud as if negotiating terms. Another shows it being saluted by a seagull, which sources close to the footage claim is “standard Vice City procedure”.",
+        "The clip has naturally sent forum users into a frenzy, with some insisting it proves the game contains advanced weather politics, while others believe it merely proves the city has become unsafely stylish.",
+        "Nobody credible is confirming anything, of course, but if a traffic cone can wear knitwear and issue wind advisories, then frankly the whole schedule is in trouble."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-mop-in-loafers-is-poised-to-rewire-vice-city-s-entire-wet-f",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TABLOID THEORY",
+      "accent": "sunset",
+      "title": "Analysts Say A Mop In Loafers Is Poised To Rewire Vice City’s Entire Wet-Floor Diplomacy",
+      "description": "Industry tea-leaf readers reckon the next big revolution may not be a feature at all, but a mop with impeccable footwear and a frighteningly balanced opinion on puddles.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Bellows",
+      "readTime": "4 min read",
+      "date": "Tuesday, August 25, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Analysts, meaning three blokes and a spreadsheet with stage fright, are now convinced that Vice City’s most important future system is not combat, transport, or property, but wet-floor diplomacy.",
+        "Their thesis centres on a mop in loafers, reportedly spotted in a speculative diagram looking “official enough to annoy people” while standing near a bucket as if it had just been promoted.",
+        "The thinking goes that any mop confident enough to wear loafers is clearly prepared to mediate disputes between spillage, foot traffic, and the deeply personal beliefs of polished tiles.",
+        "According to this line of nonsense, the whole map may be subtly restructured around cleaning routes, reflective surfaces, and the moral difference between a drip and a splash.",
+        "One analyst claimed the mop’s silhouette suggests a new class of “soft utility icons”, which is a phrase no one has ever been ready for.",
+        "Whether this means anything at all remains unclear, but the market has already reacted by becoming dramatically more sensible than the rumour deserves.",
+        "If true, Vice City could end up less about chaos and more about the grimly elegant management of damp corridors."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-bin-lorry-in-a-beanie-apparently-applying-for-vice-cit",
       "category": "leak",
