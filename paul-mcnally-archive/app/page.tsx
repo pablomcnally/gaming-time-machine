@@ -6,6 +6,7 @@ import { getAllBlogPosts } from "../lib/blog";
 import { getAllPortfolioPieces, type PortfolioPiece } from "../lib/portfolio";
 
 const homePreviewImages: Record<string, string> = {
+  "bitmap-books-sam-dyer-interview": "/portfolio/home/bitmap-books-micronet.png",
   "forgotten-amberstar-review-copy-resurfaced": "/portfolio/home/amberstar-micronet.png",
   "ere-informatique-french-video-game-revolution": "/portfolio/home/ere-informatique-micronet.png",
   "prestel-micronet-lost-online-world": "/portfolio/home/prestel-micronet.jpg.webp",
