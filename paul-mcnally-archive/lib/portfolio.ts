@@ -19,6 +19,7 @@ export type PortfolioPiece = {
   featuredImageAlt: string;
   imageCredit?: string;
   sourceUrl: string;
+  directoryPlacement?: "last";
   body: string;
 };
 
@@ -82,10 +83,15 @@ function getPiecesForKind(kind: PortfolioKind): PortfolioPiece[] {
         featuredImageAlt: data.featuredImageAlt,
         imageCredit: data.imageCredit || undefined,
         sourceUrl: data.sourceUrl,
+        directoryPlacement: data.directoryPlacement === "last" ? "last" : undefined,
         body
       } satisfies PortfolioPiece;
     })
-    .sort((left, right) => right.date.localeCompare(left.date));
+    .sort((left, right) => {
+      const placementDifference = Number(left.directoryPlacement === "last") - Number(right.directoryPlacement === "last");
+
+      return placementDifference || right.date.localeCompare(left.date);
+    });
 }
 
 export function getAllPortfolioPieces(kind?: PortfolioKind) {

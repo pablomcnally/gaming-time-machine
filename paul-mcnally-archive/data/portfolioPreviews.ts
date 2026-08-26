@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "atari-intellivision-sprint-interview": "/portfolio/home/atari-intellivision-sprint.png",
   "bitmap-books-sam-dyer-interview": "/portfolio/home/bitmap-books-micronet.png",
   "forgotten-amberstar-review-copy-resurfaced": "/portfolio/home/amberstar-micronet.png",
   "ere-informatique-french-video-game-revolution": "/portfolio/home/ere-informatique-micronet.png",
