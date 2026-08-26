@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "eve-fanfest-hilmar-interview-25-years": "/portfolio/home/eve-fanfest-hilmar-pablonet.png",
   "ukrainian-drone-simulator-ufds-training-tool-war-game": "/portfolio/home/ukrainian-drone-simulator-pablonet.png",
   "stern-transformers-pinball-interview": "/portfolio/home/stern-transformers-pinball-pablonet.png",
   "why-old-consoles-computers-go-yellow": "/portfolio/home/yellowed-acorn-electron-pablonet.png",
