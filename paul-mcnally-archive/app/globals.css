@@ -1164,6 +1164,50 @@ textarea {
   font-size: clamp(1rem, 1.25vw, 1.12rem);
 }
 
+.portfolio-table-scroll {
+  margin: 2.5rem 0;
+  overflow-x: auto;
+  border: 1px solid rgba(0, 229, 255, 0.45);
+  background: rgba(0, 0, 0, 0.72);
+}
+
+.portfolio-table-scroll table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  color: #fffbea;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.portfolio-table-scroll th,
+.portfolio-table-scroll td {
+  border-bottom: 1px solid rgba(0, 229, 255, 0.25);
+  padding: 0.75rem 0.9rem;
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.portfolio-table-scroll th {
+  background: #1624ff;
+  color: #fff45c;
+  font-family: var(--font-teletext);
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.portfolio-table-scroll td:first-child {
+  width: 38%;
+  color: #31ff65;
+  font-family: var(--font-mono);
+}
+
+.portfolio-table-scroll tr:last-child td {
+  border-bottom: 0;
+}
+
 .portfolio-media {
   margin: 2.5rem 0;
   overflow: hidden;

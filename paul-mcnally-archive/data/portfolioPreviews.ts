@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "dwarf-3-smart-telescope-review": "/portfolio/home/dwarf-3-smart-telescope-pablonet.png",
   "eve-fanfest-hilmar-interview-25-years": "/portfolio/home/eve-fanfest-hilmar-pablonet.png",
   "ukrainian-drone-simulator-ufds-training-tool-war-game": "/portfolio/home/ukrainian-drone-simulator-pablonet.png",
   "stern-transformers-pinball-interview": "/portfolio/home/stern-transformers-pinball-pablonet.png",

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 function renderInline(text: string) {
-  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*|\[[^\]]+\]\((?:https?:\/\/|\/)[^)]+\))/g);
+  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*|\[[^\]]+\]\((?:https?:\/\/|\/)[^)]+\)|<br\s*\/?>)/g);
 
   return parts.map((part, index) => {
     if (part.startsWith("**") && part.endsWith("**")) {
@@ -10,6 +10,10 @@ function renderInline(text: string) {
 
     if (part.startsWith("*") && part.endsWith("*")) {
       return <em key={index}>{part.slice(1, -1)}</em>;
+    }
+
+    if (/^<br\s*\/?>$/.test(part)) {
+      return <br key={index} />;
     }
 
     const linkMatch = part.match(/^\[([^\]]+)\]\(((?:https?:\/\/|\/)[^)]+)\)$/);
@@ -41,6 +45,35 @@ export function MarkdownBody({ className = "", content }: MarkdownBodyProps) {
   return (
     <div className={`prose-terminal max-w-none ${className}`}>
       {blocks.map((block) => {
+        const tableLines = block.split("\n");
+        const tableRows = tableLines.map((line) => line.trim().replace(/^\||\|$/g, "").split("|").map((cell) => cell.trim()));
+        const isTable =
+          tableRows.length >= 2 &&
+          tableRows[0].length > 1 &&
+          tableRows[1].length === tableRows[0].length &&
+          tableRows[1].every((cell) => /^:?-{3,}:?$/.test(cell));
+
+        if (isTable) {
+          const [headers, , ...rows] = tableRows;
+
+          return (
+            <div className="portfolio-table-scroll" key={block}>
+              <table>
+                <thead>
+                  <tr>{headers.map((header) => <th key={header} scope="col">{renderInline(header)}</th>)}</tr>
+                </thead>
+                <tbody>
+                  {rows.map((row, rowIndex) => (
+                    <tr key={`${rowIndex}-${row.join("-")}`}>
+                      {row.map((cell, cellIndex) => <td key={`${cellIndex}-${cell}`}>{renderInline(cell)}</td>)}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          );
+        }
+
         const backgroundSectionMatch = block.match(/^\[BACKGROUND SECTION:(\/[^|\]]+)\|([^\]]+)\]\n([\s\S]+)$/);
 
         if (backgroundSectionMatch) {
