@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "ukrainian-drone-simulator-ufds-training-tool-war-game": "/portfolio/home/ukrainian-drone-simulator-pablonet.png",
   "stern-transformers-pinball-interview": "/portfolio/home/stern-transformers-pinball-pablonet.png",
   "why-old-consoles-computers-go-yellow": "/portfolio/home/yellowed-acorn-electron-pablonet.png",
   "atari-intellivision-sprint-interview": "/portfolio/home/atari-intellivision-sprint.png",
