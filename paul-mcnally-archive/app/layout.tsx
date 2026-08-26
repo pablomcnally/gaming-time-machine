@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Paul McNally | Personal Archive Terminal",
     description:
-      "Plablonet, Prestel and Teletext energy rebuilt as a readable personal archive for a games journalist.",
+      "Pablonet, Prestel and Teletext energy rebuilt as a readable personal archive for a games journalist.",
     url: siteUrl,
     siteName: "Paul McNally Personal Archive",
     images: [{ url: "/og.svg", width: 1200, height: 630, alt: "Paul McNally personal archive terminal" }],
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Paul McNally | Personal Archive Terminal",
-    description: "A games journalist's personal archive, presented through the Plablonet terminal.",
+    description: "A games journalist's personal archive, presented through the Pablonet terminal.",
     images: ["/og.svg"]
   },
   icons: {

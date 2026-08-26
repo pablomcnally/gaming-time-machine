@@ -46,7 +46,7 @@ export function SiteHeader({ contentKeyboardPages }: { contentKeyboardPages: Key
   return (
     <header className="site-header sticky top-0 z-40 bg-terminal-black/95 font-mono uppercase shadow-terminal backdrop-blur">
       <div className="site-header-grid mx-auto max-w-7xl border-b border-terminal-paper/80">
-        <p className="text-terminal-green">*** PLABLONET 800 SERVICES ***</p>
+        <p className="text-terminal-green">*** PABLONET 800 SERVICES ***</p>
         <p className="site-header-title text-terminal-paper">Personal Archive Terminal</p>
         <div className="site-header-meta text-terminal-green">
           <p className="site-header-clock">{now ? `${formatTime(now)}  ${formatServiceDate(now)}` : "--:--  --- -- --- ----"}</p>

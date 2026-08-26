@@ -15,14 +15,14 @@ export function PortfolioCard({ piece }: { piece: PortfolioPiece }) {
         {previewImage ? (
           <img
             src={previewImage}
-            alt={`Plablonet-style pixel artwork for ${piece.title}`}
+            alt={`Pablonet-style pixel artwork for ${piece.title}`}
             className="aspect-[3/2] w-full border-b border-terminal-cyan/30 object-cover transition duration-300 group-hover:scale-[1.015]"
             loading="lazy"
           />
         ) : (
           <div className="home-portfolio-placeholder aspect-[3/2] border-b border-terminal-cyan/30" aria-hidden="true">
             <span>{piece.kind === "features" ? "FEATURE" : "INTERVIEW"} FILE</span>
-            <strong>PLABLONET SIGNAL</strong>
+            <strong>PABLONET SIGNAL</strong>
             <span>PREVIEW IMAGE PENDING</span>
           </div>
         )}

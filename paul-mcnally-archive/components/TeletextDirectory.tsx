@@ -17,7 +17,7 @@ export function TeletextDirectory({ id, indexCode, label, entries }: TeletextDir
   return (
     <section className="teletext-directory" aria-labelledby={id}>
       <div className="teletext-directory-header">
-        <h2 id={id}>Plablonet {label} Directory</h2>
+        <h2 id={id}>Pablonet {label} Directory</h2>
         <span aria-label={`Index page ${indexCode}`}>P{indexCode}</span>
       </div>
       <ol className="teletext-directory-list">

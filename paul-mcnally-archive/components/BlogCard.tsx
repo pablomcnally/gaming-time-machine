@@ -21,7 +21,7 @@ export function BlogCard({ post }: { post: BlogPost }) {
         <div className="home-portfolio-placeholder aspect-[3/2] border-b border-terminal-cyan/30" aria-hidden="true">
           <span>INDEPENDENT TRANSMISSION</span>
           <strong>BLOG FILE</strong>
-          <span>PLABLONET 601</span>
+          <span>PABLONET 601</span>
         </div>
       )}
 

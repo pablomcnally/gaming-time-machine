@@ -3,13 +3,13 @@ import { PageContainer } from "../../components/PageContainer";
 import { TerminalPanel } from "../../components/TerminalPanel";
 
 export const metadata: Metadata = {
-  title: "Plablonet 800",
+  title: "Pablonet 800",
   description: "A hidden page for visitors who typed 800."
 };
 
-export default function Plablonet800Page() {
+export default function Pablonet800Page() {
   return (
-    <PageContainer eyebrow="Hidden service" title="Plablonet 800 Node" intro="You found the old service route. Very tidy work.">
+    <PageContainer eyebrow="Hidden service" title="Pablonet 800 Node" intro="You found the old service route. Very tidy work.">
       <TerminalPanel title="HIDDEN PAGE 800" tone="yellow">
         <p className="text-lg leading-8">
           This page is reserved for future oddities: old screenshots, scanned notes, terminal jokes, and anything that

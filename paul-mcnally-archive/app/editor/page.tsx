@@ -552,7 +552,7 @@ export default function EditorPage() {
     <main className="min-h-screen bg-terminal-black px-4 py-8 font-mono uppercase text-terminal-paper">
       <div className="mx-auto max-w-7xl">
         <div className="mb-6 border-b border-terminal-paper/80 pb-4">
-          <p className="text-terminal-green">*** PLABLONET 800 SERVICES ***</p>
+          <p className="text-terminal-green">*** PABLONET 800 SERVICES ***</p>
           <h1 className="mt-3 text-4xl text-terminal-yellow">Site editor</h1>
           <p className="mt-3 max-w-3xl normal-case leading-7 text-terminal-paper/85">
             Edit page content without touching the code. The Viewdata layout stays protected; these fields update the JSON
