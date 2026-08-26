@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "stern-transformers-pinball-interview": "/portfolio/home/stern-transformers-pinball-pablonet.png",
   "why-old-consoles-computers-go-yellow": "/portfolio/home/yellowed-acorn-electron-pablonet.png",
   "atari-intellivision-sprint-interview": "/portfolio/home/atari-intellivision-sprint.png",
   "bitmap-books-sam-dyer-interview": "/portfolio/home/bitmap-books-micronet.png",
