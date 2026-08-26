@@ -7,21 +7,21 @@ type Params = Promise<{ slug: string }>;
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return getAllPortfolioPieces("interviews").map((piece) => ({ slug: piece.slug }));
+  return getAllPortfolioPieces("reviews").map((piece) => ({ slug: piece.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { slug } = await params;
-  const piece = getPortfolioPieceBySlug("interviews", slug);
+  const piece = getPortfolioPieceBySlug("reviews", slug);
 
-  if (!piece) return { title: "Interview file not found" };
+  if (!piece) return { title: "Review file not found" };
 
   const images = piece.featuredImage ? [{ url: piece.featuredImage, alt: piece.featuredImageAlt || "" }] : undefined;
 
   return {
     title: piece.title,
     description: piece.excerpt,
-    alternates: { canonical: `/interviews/${piece.slug}` },
+    alternates: { canonical: `/reviews/${piece.slug}` },
     openGraph: {
       title: piece.title,
       description: piece.excerpt,
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   };
 }
 
-export default async function InterviewPage({ params }: { params: Params }) {
+export default async function ReviewPage({ params }: { params: Params }) {
   const { slug } = await params;
-  return <PortfolioPiecePage kind="interviews" slug={slug} />;
+  return <PortfolioPiecePage kind="reviews" slug={slug} />;
 }

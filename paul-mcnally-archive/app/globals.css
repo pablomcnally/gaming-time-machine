@@ -561,7 +561,9 @@ html:not(.crt-frame-off) .crt-power-button {
   }
 
   .teletext-nav-grid {
-    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    row-gap: 0;
+    padding-block: 0.25rem;
   }
 
   .teletext-nav-link {
@@ -859,7 +861,7 @@ textarea {
   color: #fff45c;
 }
 
-.home-directory-link span:last-child {
+.home-directory-link > span:last-child {
   color: #35d6ff;
   font-size: 0.8rem;
   white-space: nowrap;

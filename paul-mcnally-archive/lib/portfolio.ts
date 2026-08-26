@@ -1,9 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 
-export const portfolioKinds = ["interviews", "features"] as const;
+export const portfolioKinds = ["interviews", "features", "reviews"] as const;
 
 export type PortfolioKind = (typeof portfolioKinds)[number];
+export type ReviewCategory = "games" | "tech";
 
 export type PortfolioPiece = {
   kind: PortfolioKind;
@@ -15,8 +16,9 @@ export type PortfolioPiece = {
   publication: string;
   author: string;
   tag?: string;
-  featuredImage: string;
-  featuredImageAlt: string;
+  category?: ReviewCategory;
+  featuredImage?: string;
+  featuredImageAlt?: string;
   imageCredit?: string;
   sourceUrl: string;
   directoryPlacement?: "last";
@@ -29,7 +31,11 @@ export type PortfolioPageEntry = {
   piece: PortfolioPiece;
 };
 
-const portfolioDirectory = path.join(process.cwd(), "content", "portfolio");
+const portfolioDirectories: Record<PortfolioKind, string> = {
+  interviews: path.join(process.cwd(), "content", "portfolio", "interviews"),
+  features: path.join(process.cwd(), "content", "portfolio", "features"),
+  reviews: path.join(process.cwd(), "content", "reviews")
+};
 
 function parseFrontMatter(fileContents: string) {
   const frontMatterMatch = fileContents.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
@@ -57,7 +63,7 @@ function parseFrontMatter(fileContents: string) {
 }
 
 function getPiecesForKind(kind: PortfolioKind): PortfolioPiece[] {
-  const directory = path.join(portfolioDirectory, kind);
+  const directory = portfolioDirectories[kind];
 
   if (!fs.existsSync(directory)) {
     return [];
@@ -65,9 +71,14 @@ function getPiecesForKind(kind: PortfolioKind): PortfolioPiece[] {
 
   return fs
     .readdirSync(directory)
-    .filter((file) => file.endsWith(".md"))
+    .filter((file) => file.endsWith(".md") && file.toLowerCase() !== "readme.md")
     .map((file) => {
       const { data, body } = parseFrontMatter(fs.readFileSync(path.join(directory, file), "utf8"));
+      const category = data.category?.trim().toLowerCase();
+
+      if (kind === "reviews" && category !== "games" && category !== "tech") {
+        throw new Error(`Review ${file} must use category: games or category: tech.`);
+      }
 
       return {
         kind,
@@ -79,8 +90,9 @@ function getPiecesForKind(kind: PortfolioKind): PortfolioPiece[] {
         publication: data.publication,
         author: data.author,
         tag: data.tag || undefined,
-        featuredImage: data.featuredImage,
-        featuredImageAlt: data.featuredImageAlt,
+        category: kind === "reviews" ? category as ReviewCategory : undefined,
+        featuredImage: data.featuredImage || undefined,
+        featuredImageAlt: data.featuredImageAlt || undefined,
         imageCredit: data.imageCredit || undefined,
         sourceUrl: data.sourceUrl,
         directoryPlacement: data.directoryPlacement === "last" ? "last" : undefined,
@@ -104,7 +116,8 @@ export function getAllPortfolioPieces(kind?: PortfolioKind) {
 
 const portfolioPageStarts: Record<PortfolioKind, number> = {
   interviews: 402,
-  features: 502
+  features: 502,
+  reviews: 704
 };
 
 export function getPortfolioPageEntries(kind: PortfolioKind): PortfolioPageEntry[] {
@@ -120,9 +133,13 @@ export function getPortfolioPageCode(kind: PortfolioKind, slug: string) {
 }
 
 export function getPortfolioKeyboardPages() {
-  return portfolioKinds.flatMap((kind) =>
-    getPortfolioPageEntries(kind).map(({ number, href }) => ({ number, href }))
-  );
+  return [
+    { number: "702", href: "/reviews/games" },
+    { number: "703", href: "/reviews/tech" },
+    ...portfolioKinds.flatMap((kind) =>
+      getPortfolioPageEntries(kind).map(({ number, href }) => ({ number, href }))
+    )
+  ];
 }
 
 export function getPortfolioPieceBySlug(kind: PortfolioKind, slug: string) {
@@ -130,5 +147,7 @@ export function getPortfolioPieceBySlug(kind: PortfolioKind, slug: string) {
 }
 
 export function getPortfolioKindLabel(kind: PortfolioKind) {
-  return kind === "interviews" ? "Interviews" : "Features";
+  if (kind === "interviews") return "Interviews";
+  if (kind === "features") return "Features";
+  return "Reviews";
 }

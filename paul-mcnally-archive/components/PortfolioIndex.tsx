@@ -6,7 +6,14 @@ import { TeletextDirectory } from "./TeletextDirectory";
 
 const descriptions: Record<PortfolioKind, string> = {
   interviews: "Long-form conversations with the people building games, worlds, technology and culture — preserved here as permanent archive files.",
-  features: "Reported features, deep dives and original stories from across games, technology and the culture around them."
+  features: "Reported features, deep dives and original stories from across games, technology and the culture around them.",
+  reviews: "Critical writing about games and technology, collected as permanent archive files."
+};
+
+const indexCodes: Record<PortfolioKind, string> = {
+  interviews: "401",
+  features: "501",
+  reviews: "701"
 };
 
 export function PortfolioIndex({ kind }: { kind: PortfolioKind }) {
@@ -14,10 +21,10 @@ export function PortfolioIndex({ kind }: { kind: PortfolioKind }) {
   const pieces = entries.map((entry) => entry.piece);
   const label = getPortfolioKindLabel(kind);
   const otherKind = kind === "interviews" ? "features" : "interviews";
-  const indexCode = kind === "interviews" ? "401" : "501";
+  const indexCode = indexCodes[kind];
 
   return (
-    <PageContainer eyebrow={`Service page ${kind === "interviews" ? "401" : "501"}`} title={label} intro={descriptions[kind]}>
+    <PageContainer eyebrow={`Service page ${indexCode}`} title={label} intro={descriptions[kind]}>
       <div className="mb-8 flex flex-wrap items-center justify-between gap-4 border-b border-terminal-cyan/35 pb-5 font-mono text-sm uppercase">
         <p className="text-terminal-green">{pieces.length.toString().padStart(2, "0")} archive file{pieces.length === 1 ? "" : "s"} online</p>
         <Link href={`/${otherKind}`} className="text-terminal-cyan hover:text-terminal-yellow">

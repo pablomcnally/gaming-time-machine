@@ -16,6 +16,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 
   if (!piece) return { title: "Feature file not found" };
 
+  const images = piece.featuredImage ? [{ url: piece.featuredImage, alt: piece.featuredImageAlt || "" }] : undefined;
+
   return {
     title: piece.title,
     description: piece.excerpt,
@@ -26,13 +28,13 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       type: "article",
       publishedTime: piece.date,
       authors: [piece.author],
-      images: [{ url: piece.featuredImage, alt: piece.featuredImageAlt }]
+      images
     },
     twitter: {
-      card: "summary_large_image",
+      card: piece.featuredImage ? "summary_large_image" : "summary",
       title: piece.title,
       description: piece.excerpt,
-      images: [piece.featuredImage]
+      images: piece.featuredImage ? [piece.featuredImage] : undefined
     }
   };
 }

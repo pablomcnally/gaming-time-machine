@@ -8,6 +8,7 @@ function formatDate(date: string) {
 
 export function PortfolioCard({ piece }: { piece: PortfolioPiece }) {
   const previewImage = getPortfolioPreviewImage(piece.slug);
+  const fileLabel = piece.kind === "features" ? "FEATURE" : piece.kind === "reviews" ? "REVIEW" : "INTERVIEW";
 
   return (
     <article className="group grid overflow-hidden border border-terminal-cyan/50 bg-terminal-black/85 shadow-terminal transition hover:-translate-y-1 hover:border-terminal-yellow">
@@ -21,7 +22,7 @@ export function PortfolioCard({ piece }: { piece: PortfolioPiece }) {
           />
         ) : (
           <div className="home-portfolio-placeholder aspect-[3/2] border-b border-terminal-cyan/30" aria-hidden="true">
-            <span>{piece.kind === "features" ? "FEATURE" : "INTERVIEW"} FILE</span>
+            <span>{fileLabel} FILE</span>
             <strong>PABLONET SIGNAL</strong>
             <span>PREVIEW IMAGE PENDING</span>
           </div>

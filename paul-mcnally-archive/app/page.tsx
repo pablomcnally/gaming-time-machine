@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { StorySoFarPanel } from "../components/StorySoFarPanel";
-import { archiveItems } from "../data/archive";
 import { homeContent } from "../data/pages";
 import { getPortfolioPreviewImage } from "../data/portfolioPreviews";
 import { getAllBlogPosts } from "../lib/blog";
@@ -88,6 +87,7 @@ function PortfolioBand({
 export default function HomePage() {
   const features = getAllPortfolioPieces("features");
   const interviews = getAllPortfolioPieces("interviews");
+  const reviews = getAllPortfolioPieces("reviews");
   const blogPosts = getAllBlogPosts();
   const lastUpdated = new Intl.DateTimeFormat("en-GB", {
     day: "2-digit",
@@ -200,9 +200,9 @@ export default function HomePage() {
                   <span>Blog</span>
                   <span>{blogPosts.length.toString().padStart(2, "0")} posts</span>
                 </Link>
-                <Link className="home-directory-link" href="/work">
-                  <span>Complete work index</span>
-                  <span>{archiveItems.length.toString().padStart(2, "0")} records</span>
+                <Link className="home-directory-link" href="/reviews">
+                  <span>Reviews</span>
+                  <span>{reviews.length.toString().padStart(2, "0")} reviews</span>
                 </Link>
               </div>
             </section>

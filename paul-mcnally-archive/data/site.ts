@@ -5,7 +5,8 @@ export const navigationItems = [
   { number: "401", label: "Interviews", href: "/interviews" },
   { number: "501", label: "Features", href: "/features" },
   { number: "601", label: "Blog", href: "/blog" },
-  { number: "701", label: "Contact", href: "/contact" }
+  { number: "701", label: "Reviews", href: "/reviews" },
+  { number: "801", label: "Contact", href: "/contact" }
 ];
 
 export const pageLabels = {
