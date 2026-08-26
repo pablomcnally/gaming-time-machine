@@ -1,21 +1,67 @@
 {
-  "updatedLabel": "Tuesday, August 25, 2026",
+  "updatedLabel": "Wednesday, August 26, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Fire Hydrant In Slippers Apparently Auditioning For Vice City’s Queue",
+    "Analysts Say A Teapot In A Bowler Hat Is Poised To Completely Reimagine Vice City’s Tram Etiquette",
     "‘Leaked’ Clip Shows A Traffic Cone In A Cardigan Apparently Applying For Vice City’s Deputy Weather",
     "Analysts Say A Mop In Loafers Is Poised To Rewire Vice City’s Entire Wet-Floor Diplomacy",
     "‘Leaked’ Clip Shows A Bin Lorry In A Beanie Apparently Applying For Vice City’s Minister Of Vibes",
     "Analysts Say A Sandwich Board In A Trench Coat Is Poised To Rewire Vice City’s Entire Roadside",
     "‘Leaked’ Clip Shows A Smart Fridge In A Bow Tie Apparently Applying For Vice City’s Deputy Mayor",
-    "Analysts Say A Lawn Flamingo In A Trilby Is Poised To Redraw Vice City’s Entire Neighbourhood Watch",
-    "‘Leaked’ Clip Shows A Toaster In A Fedora Apparently Seeking Vice City’s Night Mayor Job",
-    "Analysts Say A Handbag In Driving Gloves Is Poised To Redraw Vice City’s Entire Snack Economy"
+    "Analysts Say A Lawn Flamingo In A Trilby Is Poised To Redraw Vice City’s Entire Neighbourhood Watch"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-fire-hydrant-in-slippers-apparently-auditioning-for-vi",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "TOTALLY REALISH",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Fire Hydrant In Slippers Apparently Auditioning For Vice City’s Queue",
+      "description": "A very serious-looking bit of video has supposedly captured a fire hydrant practising polite nodding and standing near a velvet rope.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Clive N. Nonsense",
+      "readTime": "3 min read",
+      "date": "Wednesday, August 26, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has once again done what it does best: stare at a blurry shape and declare it destiny.",
+        "This time the object under scrutiny is a fire hydrant in slippers, which is said to be “considering a senior role” in Vice City’s queue management department, despite having no visible hands, credentials, or understanding of jazz brunch etiquette.",
+        "In the footage, the hydrant appears to pivot slightly toward a line of bewildered pedestrians before emitting what witnesses described as “a deeply managerial silence.” Experts have interpreted this as either leadership potential or a minor kink in the camera lens.",
+        "Fans are already split. One camp insists the hydrant’s footwear suggests a more relaxed approach to civil order. The other camp says the slippers are merely decorative and should not be read as a policy statement on loafers.",
+        "Either way, the clip has caused the usual online frenzy, with users enlarging pixels, drawing circles around dust, and announcing they have solved the entire game before lunch.",
+        "As ever, nobody knows anything, but everyone is extremely confident about it. The hydrant itself has not commented, though it is understood to have stood there steadfastly, which frankly is more than most candidates do."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-teapot-in-a-bowler-hat-is-poised-to-completely-reimagine-vi",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "CITY DESK",
+      "accent": "sunset",
+      "title": "Analysts Say A Teapot In A Bowler Hat Is Poised To Completely Reimagine Vice City’s Tram Etiquette",
+      "description": "Commentators claim the city’s next great systems overhaul may come from a teapot with a public-facing sense of manners and a suspiciously firm grip on side-eye.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Maud Weatherby",
+      "readTime": "4 min read",
+      "date": "Wednesday, August 26, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "After six minutes of squinting at promotional crumbs, analysts have reached an important conclusion: Vice City’s tram etiquette is under threat from a teapot in a bowler hat.",
+        "The theory is that this highly polished vessel, seen standing near a platform bench with the confidence of a middle manager on day release, may be signalling a new era of transit-based social order.",
+        "According to the report, the teapot’s hat placement suggests authority, while the spout angle indicates “active concern” about passengers who board before allowing others to alight. One analyst went further, calling it “the first object in years to truly understand queue shame.”",
+        "The broader prediction is that the entire city may begin behaving more politely around stops, crossings, and snack counters if the teapot’s influence proves real. Critics, however, argue that a teapot cannot possibly enforce etiquette without either arms or a clipboard.",
+        "This has not stopped the think pieces. There are already charts. There is a graph involving saucers. Someone has produced a map of “hot beverage authority zones.”",
+        "Whether this amounts to a revolution or simply a rather fancy kettle being dramatic remains unclear. Still, if Vice City is due for better tram manners, the kettle-shaped consensus is hard to ignore."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-traffic-cone-in-a-cardigan-apparently-applying-for-vic",
       "category": "leak",
