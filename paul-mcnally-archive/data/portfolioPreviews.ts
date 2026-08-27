@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "3dmakerpro-moose-3d-scanner-review": "/portfolio/home/3dmakerpro-moose-pablonet.png",
   "flexispot-c7-morpher-review": "/portfolio/home/flexispot-c7-morpher-pablonet.png",
   "benq-screenbar-halo-2-review": "/portfolio/home/benq-screenbar-halo-2-pablonet.png",
   "dwarf-3-smart-telescope-review": "/portfolio/home/dwarf-3-smart-telescope-pablonet.png",
