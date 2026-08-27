@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "flexispot-c7-morpher-review": "/portfolio/home/flexispot-c7-morpher-pablonet.png",
   "benq-screenbar-halo-2-review": "/portfolio/home/benq-screenbar-halo-2-pablonet.png",
   "dwarf-3-smart-telescope-review": "/portfolio/home/dwarf-3-smart-telescope-pablonet.png",
   "eve-fanfest-hilmar-interview-25-years": "/portfolio/home/eve-fanfest-hilmar-pablonet.png",
