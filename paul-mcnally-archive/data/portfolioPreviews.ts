@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "benq-screenbar-halo-2-review": "/portfolio/home/benq-screenbar-halo-2-pablonet.png",
   "dwarf-3-smart-telescope-review": "/portfolio/home/dwarf-3-smart-telescope-pablonet.png",
   "eve-fanfest-hilmar-interview-25-years": "/portfolio/home/eve-fanfest-hilmar-pablonet.png",
   "ukrainian-drone-simulator-ufds-training-tool-war-game": "/portfolio/home/ukrainian-drone-simulator-pablonet.png",
