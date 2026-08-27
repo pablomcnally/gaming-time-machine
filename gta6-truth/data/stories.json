@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Wednesday, August 26, 2026",
+  "updatedLabel": "Thursday, August 27, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Kettle In Corduroy Apparently Applying For Vice City’s Ferry Captain Post",
+    "Analysts Say A Deck Chair In Spectacles Could Redefine Vice City’s Parking Culture",
     "‘Leaked’ Clip Shows A Fire Hydrant In Slippers Apparently Auditioning For Vice City’s Queue",
     "Analysts Say A Teapot In A Bowler Hat Is Poised To Completely Reimagine Vice City’s Tram Etiquette",
     "‘Leaked’ Clip Shows A Traffic Cone In A Cardigan Apparently Applying For Vice City’s Deputy Weather",
     "Analysts Say A Mop In Loafers Is Poised To Rewire Vice City’s Entire Wet-Floor Diplomacy",
     "‘Leaked’ Clip Shows A Bin Lorry In A Beanie Apparently Applying For Vice City’s Minister Of Vibes",
-    "Analysts Say A Sandwich Board In A Trench Coat Is Poised To Rewire Vice City’s Entire Roadside",
-    "‘Leaked’ Clip Shows A Smart Fridge In A Bow Tie Apparently Applying For Vice City’s Deputy Mayor",
-    "Analysts Say A Lawn Flamingo In A Trilby Is Poised To Redraw Vice City’s Entire Neighbourhood Watch"
+    "Analysts Say A Sandwich Board In A Trench Coat Is Poised To Rewire Vice City’s Entire Roadside"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-kettle-in-corduroy-apparently-applying-for-vice-city-s",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "EYEWITNESS MARVEL",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Kettle In Corduroy Apparently Applying For Vice City’s Ferry Captain Post",
+      "description": "A totally fictional clip has apparently captured a very determined kettle making a run at the harbour’s most ceremonial job, despite having no visible legs and a...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel Button, Senior Speculation",
+      "readTime": "3 min read",
+      "date": "Thursday, August 27, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "In what we are absolutely not calling proof, a damp little clip has emerged showing a kettle in corduroy standing near the docks with the sort of confidence usually reserved for men who know where the pens are kept.",
+        "The object, described by witnesses as “boiling with ambition,” appears to be repeatedly pointing at a timetable and then at the sea, as if it has decided both are somebody else’s problem.",
+        "Local onlookers claim the kettle briefly whistled in a way that suggested either courage or a fault in the wiring. It then allegedly accepted a paper hat, which is understood to be the traditional dress code for Vice City ferry administration.",
+        "We should stress, again, that this is nonsense, but the clip has already inspired lively debate about whether the city is ready for a captain who can warm water, calm nerves, and ignore unions with equal elegance.",
+        "If true, the kettle’s platform would reportedly include punctual departures, stricter biscuit inspections, and a firm stance on anyone trying to board with a dripping umbrella and a “just popping over” attitude."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-deck-chair-in-spectacles-could-redefine-vice-city-s-parking",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "CITY THINK TANK",
+      "accent": "yellow",
+      "title": "Analysts Say A Deck Chair In Spectacles Could Redefine Vice City’s Parking Culture",
+      "description": "A grand theory suggests the city’s future may hinge on whether one extremely relaxed deck chair can persuade motorists to stop treating pavements like suggestions.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Felicity Wren, Features And Utter",
+      "readTime": "4 min read",
+      "date": "Thursday, August 27, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Our analysts, who have no known qualifications beyond strong opinions and a lunch order, believe Vice City is on the verge of a parking revolution led by a deck chair wearing spectacles and a deeply managerial expression.",
+        "The thinking is simple: if the chair can successfully appear more organised than the average driver, then residents may finally respect bays, lines, and the basic concept of not leaving a van halfway through a sandwich.",
+        "According to the theory, the chair would introduce a system of “calm zones,” where reverse manoeuvres are conducted with dignity, hazard lights are used only in genuine emergencies, and no one blocks a driveway because they saw a bargain at a fish shop.",
+        "Experts say the deck chair’s glasses are not for reading, but for judging. This is said to be vital, as parking culture in Vice City currently relies too heavily on confidence, horn usage, and the assumption that everyone else can simply go round.",
+        "Naturally, none of this is real, but it is the sort of fiction that almost makes a case for municipal reform."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-fire-hydrant-in-slippers-apparently-auditioning-for-vi",
       "category": "leak",
