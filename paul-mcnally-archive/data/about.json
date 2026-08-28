@@ -1,43 +1,82 @@
 {
   "eyebrow": "Service page 201",
   "title": "About Paul McNally",
-  "intro": "A working biography for a journalist who came through magazines, moved through digital publishing, and still thinks old machines have useful things to teach new media.",
+  "intro": "More than three decades of games journalism, editorial leadership, magazines, digital publishing, professional sport, communications and an enduring fascination with old machines.",
   "panels": [
     {
       "title": "BIOGRAPHY",
       "tone": "yellow",
       "paragraphs": [
-        "Paul McNally is a games journalist, editor and writer with a career that runs through print magazines, websites, guides, podcasts, events and publishing. He has written about games for long enough to remember when screenshots arrived in the post and when a review copy could involve more bubble wrap than bandwidth.",
-        "The useful part of that history is perspective. Games culture has changed repeatedly, but readers still need clear writing, honest judgement and someone willing to separate the genuinely interesting from the very loud."
+        "Paul McNally has been writing about video games since the early 1990s, which means he has somehow managed to turn playing games into a career for more than three decades.",
+        "It began in print, writing and editing magazines when screenshots arrived as transparencies, review code came through the post and getting a magazine onto a newsagent shelf involved considerably more jeopardy than pressing Publish.",
+        "Since then, Paul has worked across magazines, websites, television, professional sport, charities, PR and digital publishing. Today he is Editor of The Escapist and continues to write and edit across games, technology and the strange places where the two collide.",
+        "The technology has changed. The basic idea hasn't: find something interesting, understand why it matters, and tell the reader about it without wasting their time."
       ]
     },
     {
       "title": "EDITORIAL WORK",
       "tone": "cyan",
       "paragraphs": [
-        "Editing is partly taste, partly logistics, and partly knowing when a sentence is trying to sneak past you. Paul has worked across news, reviews, features, guides, commerce and publishing operations, with the practical experience that comes from getting work shipped rather than merely discussed.",
-        "That includes commissioning, rewriting, production planning, traffic-aware editorial work, and helping writers keep their own voice while still serving the reader."
+        "Paul currently leads editorial direction at The Escapist, commissioning and editing news, features, interviews and original coverage while managing writers across multiple time zones. His digital publishing career has also included senior roles at GamesHub, ReadWrite, Gamer Guides and WePC.",
+        "Along the way he has built editorial teams, grown audiences into the millions and spent an unreasonable percentage of his life inside content-management systems.",
+        "His approach to editing is fairly simple: good editing should make a writer sound more like themselves, not more like the editor. Fix what needs fixing, ask the awkward question, lose the boring paragraph and always remember that somebody at the other end actually has to want to read it."
       ]
     },
     {
       "title": "MAGAZINE HISTORY",
       "tone": "green",
       "paragraphs": [
-        "Magazine work teaches useful habits: make the point, respect the space, meet the deadline, and never assume the reader has seen the same demo you have. Those habits still matter online, even if the page furniture has changed."
+        "Before websites ate everything, there were magazines.",
+        "Paul spent more than a decade working in games and computer publishing, including spells on ST Action, Mega Action, Amiga Action, PlayStation Pro and other titles, later writing for publications including GamePro, Official Australian PlayStation Magazine, GQ, Loaded and the Daily Mirror.",
+        "He edited ST Action during the final years of Atari's 16-bit era and took over Mega Action as Sega's Mega Drive was approaching its commercial peak. Later came the PlayStation years and a market-leading title at IDG Media.",
+        "Those years involved deadlines measured in print slots rather than minutes, page budgets that really were page budgets, and discovering that deleting twelve words could sometimes solve an entire production crisis."
+      ]
+    },
+    {
+      "title": "BEYOND THE GAMES INDUSTRY",
+      "tone": "red",
+      "paragraphs": [
+        "There was also a fairly substantial side quest.",
+        "Paul spent more than 14 years as Head of Communications at Salford Red Devils, working across professional sport, media, marketing and communications, before moving into the charity sector with Bolton Hospice and the National Literacy Trust.",
+        "That period meant everything from press conferences and crisis communications to campaigns, broadcast media and explaining complicated things quickly when several people were simultaneously shouting.",
+        "In 2020 he returned full-time to technology and games publishing. Apparently the pull of arguing about frame rates, review scores and old computers was simply too strong."
       ]
     },
     {
       "title": "RETRO COMPUTING",
-      "tone": "red",
+      "tone": "cyan",
       "paragraphs": [
-        "The retro interest is not just nostalgia. Old systems explain why modern interfaces feel the way they do, and why some apparently obsolete ideas still work. Micronet, Prestel, Teletext and early BBS culture all treated navigation as part of the experience. This site borrows that idea without asking anyone to wait for a modem."
+        "Paul's relationship with games started with a Mattel Intellivision in 1980 and never really recovered.",
+        "Retro gaming is consequently less a nostalgic hobby than an ongoing archaeological dig through the machines, magazines and ideas that created modern games culture. Old computers, consoles, arcade machines, Teletext, Prestel, Micronet, BBS systems and the early internet are all recurring obsessions.",
+        "That interest increasingly feeds into long-form features about gaming history, preservation and the people who built the industry, because games history is still disappearing considerably faster than people realise.",
+        "This website deliberately borrows from that older digital world. No modem required."
       ]
     },
     {
       "title": "CURRENT PROJECTS",
       "tone": "yellow",
       "paragraphs": [
-        "Current work spans games journalism, editorial projects, retro archive material, and writing about the places where games, technology and media history overlap. More detail can be added here as the archive fills out."
+        "These days Paul writes and edits games journalism, interviews developers and industry veterans, covers new technology, digs through gaming history and occasionally disappears down research holes involving forgotten magazines, obsolete hardware or software last updated before some of his colleagues were born.",
+        "Current interests include game preservation, retro computing, emulation, 3D printing, hardware, simulation games and the increasingly blurred boundary between physical and digital culture.",
+        "This site is also becoming an archive of more than 30 years of published work - old magazine pages alongside modern features, interviews and projects - partly because leaving all of it scattered across other people's servers seems like a terrible long-term strategy."
+      ]
+    },
+    {
+      "title": "SELECTED PUBLICATIONS",
+      "tone": "green",
+      "paragraphs": [
+        "THE ESCAPIST",
+        "GAMESHUB",
+        "READWRITE",
+        "GAMEPRO",
+        "PLAYSTATION PRO",
+        "OFFICIAL AUSTRALIAN PLAYSTATION MAGAZINE",
+        "AMIGA ACTION",
+        "ST ACTION",
+        "MEGA ACTION",
+        "GQ",
+        "LOADED",
+        "DAILY MIRROR"
       ]
     }
   ]
