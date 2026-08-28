@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "dystopicon-review": "/portfolio/home/dystopicon-review-pablonet.png",
   "intellivision-sprint-review": "/portfolio/home/intellivision-sprint-review-pablonet.png",
   "acmer-p3-review": "/portfolio/home/acmer-p3-pablonet.png",
   "3dmakerpro-moose-3d-scanner-review": "/portfolio/home/3dmakerpro-moose-pablonet.png",
