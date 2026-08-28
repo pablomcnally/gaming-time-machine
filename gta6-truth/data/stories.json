@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Thursday, August 27, 2026",
+  "updatedLabel": "Friday, August 28, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Garden Gnome In Wellington Boots Apparently Standing For Vice City Bus",
+    "Analysts Say A Garden Hose In Reading Glasses Could Completely Reorganise Vice City’s Pavement",
     "‘Leaked’ Clip Shows A Kettle In Corduroy Apparently Applying For Vice City’s Ferry Captain Post",
     "Analysts Say A Deck Chair In Spectacles Could Redefine Vice City’s Parking Culture",
     "‘Leaked’ Clip Shows A Fire Hydrant In Slippers Apparently Auditioning For Vice City’s Queue",
     "Analysts Say A Teapot In A Bowler Hat Is Poised To Completely Reimagine Vice City’s Tram Etiquette",
     "‘Leaked’ Clip Shows A Traffic Cone In A Cardigan Apparently Applying For Vice City’s Deputy Weather",
-    "Analysts Say A Mop In Loafers Is Poised To Rewire Vice City’s Entire Wet-Floor Diplomacy",
-    "‘Leaked’ Clip Shows A Bin Lorry In A Beanie Apparently Applying For Vice City’s Minister Of Vibes",
-    "Analysts Say A Sandwich Board In A Trench Coat Is Poised To Rewire Vice City’s Entire Roadside"
+    "Analysts Say A Mop In Loafers Is Poised To Rewire Vice City’s Entire Wet-Floor Diplomacy"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-garden-gnome-in-wellington-boots-apparently-standing-f",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "ALLEGED CLIP",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Garden Gnome In Wellington Boots Apparently Standing For Vice City Bus",
+      "description": "A suspiciously tidy little rumour claims a garden gnome has been spotted patrolling a depot with a clipboard and a face that says “I’ve had enough of this nonsense.”",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Clive Nibbs",
+      "readTime": "3 min read",
+      "date": "Friday, August 28, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has once again been charmed into a mild panic by what appears to be a garden gnome in wellington boots, allegedly taking a very serious interest in Vice City’s bus timetable.",
+        "In the clip, the gnome is seen inspecting a queue, nodding at a passing double-decker, and then writing something stern in a notebook the size of a biscuit.",
+        "Experts of the unofficial variety say this is either a hint at new world detail, a local civic side quest, or simply the world’s most determined bit of lawn décor.",
+        "One onlooker described the figure as “small, committed, and oddly disappointed in everyone,” which many took as a sign of authentic public-service energy.",
+        "As ever, nobody has confirmed anything except that the clip is clearly daft, likely fictional, and spiritually compatible with a city where a flamingo once had opinions about parking."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-garden-hose-in-reading-glasses-could-completely-reorganise-",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "CITY WATCH",
+      "accent": "sunset",
+      "title": "Analysts Say A Garden Hose In Reading Glasses Could Completely Reorganise Vice City’s Pavement",
+      "description": "Our panel of made-up experts believes the humble hose may become the new symbol of street authority, provided it can stop tangling itself into a diplomatic knot.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel Wren",
+      "readTime": "4 min read",
+      "date": "Friday, August 28, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Fresh from a period of intense nonsense, analysts are now arguing that a garden hose wearing reading glasses could be the next big thing in Vice City’s social ecosystem.",
+        "The theory goes that if the game includes more expressive props and stranger ambient behaviour, then a hose with a bit of administrative flair could easily become the unofficial mayor of the pavement.",
+        "Supporters point to its natural qualities: flexibility, frustration, and the ability to appear useful while quietly getting in everyone’s way.",
+        "The glasses, meanwhile, are said to indicate “premium intellect,” a status usually reserved for pigeons, traffic cones, and one particularly judgmental sandwich.",
+        "Whether this means new missions, enhanced background comedy, or simply a hose having a better work ethic than half the city remains to be seen. Still, the prospect has given the rumour mill something wet to chew on."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-kettle-in-corduroy-apparently-applying-for-vice-city-s",
       "category": "leak",
