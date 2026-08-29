@@ -5,6 +5,7 @@ import Script from "next/script";
 import { CrtDisplayShell } from "../components/CrtDisplayShell";
 import { EasterEggs } from "../components/EasterEggs";
 import { FooterStatusBar } from "../components/FooterStatusBar";
+import { SiteBackgroundVideo } from "../components/SiteBackgroundVideo";
 import { SiteHeader } from "../components/SiteHeader";
 import { getBlogKeyboardPages } from "../lib/blog";
 import { getPortfolioKeyboardPages } from "../lib/portfolio";
@@ -52,6 +53,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Script id="crt-frame-preference" strategy="beforeInteractive">
           {`try{if(localStorage.getItem("paul-mcnally-crt-frame")==="off"){document.documentElement.classList.add("crt-frame-off")}}catch(e){}`}
         </Script>
+        <SiteBackgroundVideo />
         <CrtDisplayShell>
           <SiteHeader contentKeyboardPages={contentKeyboardPages} />
           {children}
