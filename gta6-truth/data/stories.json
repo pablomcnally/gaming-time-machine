@@ -1,21 +1,67 @@
 {
-  "updatedLabel": "Friday, August 28, 2026",
+  "updatedLabel": "Saturday, August 29, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Wheelie Bin In A Cravat Apparently Negotiating Vice City’s Crosswalk Politics",
+    "Analysts Say A Parasol In Trainers Could Recalibrate Vice City’s Entire Shade Economy",
     "‘Leaked’ Clip Shows A Garden Gnome In Wellington Boots Apparently Standing For Vice City Bus",
     "Analysts Say A Garden Hose In Reading Glasses Could Completely Reorganise Vice City’s Pavement",
     "‘Leaked’ Clip Shows A Kettle In Corduroy Apparently Applying For Vice City’s Ferry Captain Post",
     "Analysts Say A Deck Chair In Spectacles Could Redefine Vice City’s Parking Culture",
     "‘Leaked’ Clip Shows A Fire Hydrant In Slippers Apparently Auditioning For Vice City’s Queue",
-    "Analysts Say A Teapot In A Bowler Hat Is Poised To Completely Reimagine Vice City’s Tram Etiquette",
-    "‘Leaked’ Clip Shows A Traffic Cone In A Cardigan Apparently Applying For Vice City’s Deputy Weather",
-    "Analysts Say A Mop In Loafers Is Poised To Rewire Vice City’s Entire Wet-Floor Diplomacy"
+    "Analysts Say A Teapot In A Bowler Hat Is Poised To Completely Reimagine Vice City’s Tram Etiquette"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-wheelie-bin-in-a-cravat-apparently-negotiating-vice-ci",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "CITY SHUFFLE",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Wheelie Bin In A Cravat Apparently Negotiating Vice City’s Crosswalk Politics",
+      "description": "An obviously daft clip has emerged showing a dignified wheelie bin purportedly taking command of a zebra crossing with all the gravitas of a minor duke and the...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel Bucket, Features Correspondent",
+      "readTime": "3 min read",
+      "date": "Saturday, August 29, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The latest non-event to set the internet wobbling is a clip of a wheelie bin in what appears to be a cravat, standing beside a crosswalk like it has every intention of becoming part of local government.",
+        "In the footage, the bin does not speak, blink, or request a press pass, but it does seem to lean slightly toward the button, which commentators have described as \"strong policy energy\".",
+        "One forum sage declared the bin’s posture \"deeply administrative,\" while another insisted the lid was \"giving deputy mayor in a hurry.\" Both claims were, naturally, nonsense.",
+        "The most compelling detail, according to viewers with too much time and a keen eye for nonsense, is the bin’s determined stance near the painted stripes, as if it were about to introduce a new waiting system based on tea breaks.",
+        "No one involved has confirmed anything, because there is nothing to confirm. Still, the clip has prompted grand theories about stricter crossing etiquette, improved rubbish diplomacy, and the possibility of all pedestrians being asked to queue in alphabetical order.",
+        "If this is the future of Vice City street planning, then frankly the future needs a mop and a stern word."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-parasol-in-trainers-could-recalibrate-vice-city-s-entire-sh",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "POLITE THEORY",
+      "accent": "yellow",
+      "title": "Analysts Say A Parasol In Trainers Could Recalibrate Vice City’s Entire Shade Economy",
+      "description": "Armchair experts are now insisting that a very athletic parasol may be about to transform how Vice City thinks about sunshine, pavement ownership, and the noble art...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Tuppence, Senior",
+      "readTime": "4 min read",
+      "date": "Saturday, August 29, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A fresh wave of so-called analysis has landed, this time focused on a parasol wearing trainers, which is allegedly positioned to \"recalibrate\" the city’s shade economy.",
+        "Experts in the comments section argue that the footwear suggests agility, while the parasol itself implies a bold new attitude to sun protection, loitering, and possibly sprinting away from seagulls.",
+        "One commentator claimed the object’s stance would have \"major implications\" for café frontage, beach etiquette, and whether a spot in the shade can be considered a competitive asset. This was met with universal agreement from nobody.",
+        "The theory goes that a mobile parasol could encourage a faster, more territorial style of sidewalk diplomacy, with citizens negotiating over shadow like it is prime parking near a parade.",
+        "Other observers have pointed out that the trainers may be purely decorative, though that has not stopped people from claiming the parasol is \"clearly built for local council ambitions.\"",
+        "In short, there is every reason to believe the parasol is not in the game, is not in a trailer, and is probably not even sentient. But it has, at least, inspired a surprisingly heated debate about suncream and civic order."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-garden-gnome-in-wellington-boots-apparently-standing-f",
       "category": "leak",
