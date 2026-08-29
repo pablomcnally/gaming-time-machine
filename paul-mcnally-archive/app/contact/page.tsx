@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { ContactForm } from "../../components/ContactForm";
 import { PageContainer } from "../../components/PageContainer";
 import { TerminalPanel } from "../../components/TerminalPanel";
 import { contactContent } from "../../data/pages";
@@ -33,7 +32,23 @@ export default function ContactPage() {
             ))}
           </div>
         </TerminalPanel>
-        <ContactForm action={contactContent.formAction} />
+        <TerminalPanel title="START A CONVERSATION" tone="cyan">
+          <p className="text-lg leading-8">
+            Please include a short outline of the project or request, any relevant
+            timings, and the best way to reach you. Press enquiries and interview
+            invitations are welcome when they are relevant to Paul&apos;s areas of work.
+          </p>
+          <a
+            className="mt-7 inline-flex min-h-12 w-full items-center justify-center border border-terminal-yellow bg-terminal-yellow/10 px-5 py-3 text-center font-mono text-base uppercase text-terminal-yellow shadow-terminal transition-colors hover:bg-terminal-yellow hover:text-terminal-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-terminal-cyan sm:w-auto"
+            href={contactContent.formAction}
+          >
+            <span aria-hidden="true">&gt;&nbsp;</span>
+            Email Paul
+          </a>
+          <p className="mt-5 break-all font-mono text-sm text-terminal-paper/75">
+            p.mcnally@btopenworld.com
+          </p>
+        </TerminalPanel>
       </div>
     </PageContainer>
   );

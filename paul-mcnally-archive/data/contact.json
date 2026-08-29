@@ -1,22 +1,22 @@
 {
   "eyebrow": "Service page 801",
   "title": "Contact",
-  "intro": "For commissions, interviews, editorial work, events, archive questions, or a sensible chat about games and media.",
+  "intro": "For freelance commissions, editorial work, interviews, press enquiries and conversations about games, technology or media history.",
   "panelTitle": "CONTACT ROUTES",
-  "panelBody": "Email is the best route for professional enquiries. Short, clear messages are always welcome; ominous attachments with no context are less welcome, but that was true in 1996 as well.",
+  "panelBody": "Paul is available for selected freelance, editorial and interview work. Email is the quickest route for a direct enquiry; professional profiles and recent work can be found below.",
   "links": [
     {
-      "label": "hello@example.com",
-      "href": "mailto:hello@example.com"
+      "label": "p.mcnally@btopenworld.com",
+      "href": "mailto:p.mcnally@btopenworld.com"
     },
     {
-      "label": "LinkedIn",
-      "href": "https://www.linkedin.com/"
+      "label": "Muck Rack profile",
+      "href": "https://muckrack.com/paul-mcnally-techandgaming"
     },
     {
-      "label": "Bluesky",
-      "href": "https://bsky.app/"
+      "label": "LinkedIn profile",
+      "href": "https://www.linkedin.com/in/paulmcnally2012/"
     }
   ],
-  "formAction": "https://formspree.io/f/replace-me"
+  "formAction": "mailto:p.mcnally@btopenworld.com?subject=Professional%20enquiry%20via%20Pablonet"
 }
