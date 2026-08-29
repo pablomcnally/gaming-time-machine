@@ -3,12 +3,8 @@
   "title": "Contact",
   "intro": "For freelance commissions, editorial work, interviews, press enquiries and conversations about games, technology or media history.",
   "panelTitle": "CONTACT ROUTES",
-  "panelBody": "Paul is available for selected freelance, editorial and interview work. Email is the quickest route for a direct enquiry; professional profiles and recent work can be found below.",
+  "panelBody": "Paul is available for selected freelance, editorial and interview work. Use the secure form for direct enquiries; professional profiles and recent work can be found below.",
   "links": [
-    {
-      "label": "p.mcnally@btopenworld.com",
-      "href": "mailto:p.mcnally@btopenworld.com"
-    },
     {
       "label": "Muck Rack profile",
       "href": "https://muckrack.com/paul-mcnally-techandgaming"
@@ -18,5 +14,5 @@
       "href": "https://www.linkedin.com/in/paulmcnally2012/"
     }
   ],
-  "formAction": "mailto:p.mcnally@btopenworld.com?subject=Professional%20enquiry%20via%20Pablonet"
+  "formAction": "https://formspree.io/f/mbgjlzey"
 }
