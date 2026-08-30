@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Saturday, August 29, 2026",
+  "updatedLabel": "Sunday, August 30, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Pigeon In A Waistcoat Apparently Running Vice City’s Seagull Union",
+    "Analysts Say A Roller Skate In A Blazer Could Completely Rebalance Vice City’s Curb Appeal",
     "‘Leaked’ Clip Shows A Wheelie Bin In A Cravat Apparently Negotiating Vice City’s Crosswalk Politics",
     "Analysts Say A Parasol In Trainers Could Recalibrate Vice City’s Entire Shade Economy",
     "‘Leaked’ Clip Shows A Garden Gnome In Wellington Boots Apparently Standing For Vice City Bus",
     "Analysts Say A Garden Hose In Reading Glasses Could Completely Reorganise Vice City’s Pavement",
     "‘Leaked’ Clip Shows A Kettle In Corduroy Apparently Applying For Vice City’s Ferry Captain Post",
-    "Analysts Say A Deck Chair In Spectacles Could Redefine Vice City’s Parking Culture",
-    "‘Leaked’ Clip Shows A Fire Hydrant In Slippers Apparently Auditioning For Vice City’s Queue",
-    "Analysts Say A Teapot In A Bowler Hat Is Poised To Completely Reimagine Vice City’s Tram Etiquette"
+    "Analysts Say A Deck Chair In Spectacles Could Redefine Vice City’s Parking Culture"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-pigeon-in-a-waistcoat-apparently-running-vice-city-s-s",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "TOTALLY NOT VERIFIED",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Pigeon In A Waistcoat Apparently Running Vice City’s Seagull Union",
+      "description": "A bewildering bit of pixel gossip has allegedly surfaced, featuring one very serious pigeon and an alarming amount of workplace paperwork.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Basil P. Knutsford",
+      "readTime": "3 min read",
+      "date": "Sunday, August 30, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A supposedly real clip, which is in no way real at all, appears to show a pigeon in a waistcoat strutting across Vice City’s marina with the sort of confidence normally reserved for tax inspectors and drum majors.",
+        "The bird is seen tapping a tiny clipboard with its beak, then turning to a crowd of seagulls as if announcing a new lunch-hour rota, a parking scheme for chips, and a stern no-bread-in-meetings policy.",
+        "Witnesses in the clip — all of whom may also be gulls, shadows, or several regrettable reflections — suggest the pigeon is negotiating terms for the city’s unofficial seagull union, including hazard pay for swooping, better access to crusts, and a winter coat allowance.",
+        "Naturally, the footage has sparked fierce debate online among people who can tell a scripted scene from a sandwich wrapper, with many calling it the most powerful avian labour dispute ever captured on a phone that definitely wasn’t on airplane mode.",
+        "Industry observers, meanwhile, have noted that if true, this would mark a bold new era in open-world design: fewer tanks, more tiny birds with administrative authority and an alarming grasp of schedules."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-roller-skate-in-a-blazer-could-completely-rebalance-vice-ci",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "HOT TAKE",
+      "accent": "sunset",
+      "title": "Analysts Say A Roller Skate In A Blazer Could Completely Rebalance Vice City’s Curb Appeal",
+      "description": "The experts are back, and this time they believe a very corporate skate may become the key to the city’s entire pedestrian fashion strategy.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Mavis Underhill",
+      "readTime": "4 min read",
+      "date": "Sunday, August 30, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Our panel of analysts, consisting of one retired estate agent, a sandwich enthusiast, and a man who once owned a spreadsheet, have concluded that Vice City’s next big cultural swing may be driven by a roller skate wearing a blazer.",
+        "Their reasoning is impeccable, if slightly damp. The skate’s formal jacket suggests authority; the wheels suggest momentum; together they create what one expert called ‘a troublingly agile middle management energy’.",
+        "This, they argue, could alter how pedestrians, scooters, and decorative bollards interact in the final game, leading to a world where every pavement corner becomes a negotiation between style, speed, and a faint sense of shame.",
+        "The blazer, in particular, is said to be the game-changer. Not because it adds functionality, but because it implies the skate has somewhere important to be and would very much like everyone else to step aside.",
+        "Whether any of this has the slightest basis in reality is beside the point. In modern rumour economics, confidence is king, and this little chap rolls with all the poise of a deputy mayor on a caffeine binge."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-wheelie-bin-in-a-cravat-apparently-negotiating-vice-ci",
       "category": "leak",
