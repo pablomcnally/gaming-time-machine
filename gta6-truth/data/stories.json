@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Sunday, August 30, 2026",
+  "updatedLabel": "Monday, August 31, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Lobster In A Raincoat Apparently Chairing Vice City’s Beach Safety Summit",
+    "Analysts Say A Bin Lorry In A Tie Could Transform Vice City’s Morning Commute Drama",
     "‘Leaked’ Clip Shows A Pigeon In A Waistcoat Apparently Running Vice City’s Seagull Union",
     "Analysts Say A Roller Skate In A Blazer Could Completely Rebalance Vice City’s Curb Appeal",
     "‘Leaked’ Clip Shows A Wheelie Bin In A Cravat Apparently Negotiating Vice City’s Crosswalk Politics",
     "Analysts Say A Parasol In Trainers Could Recalibrate Vice City’s Entire Shade Economy",
     "‘Leaked’ Clip Shows A Garden Gnome In Wellington Boots Apparently Standing For Vice City Bus",
-    "Analysts Say A Garden Hose In Reading Glasses Could Completely Reorganise Vice City’s Pavement",
-    "‘Leaked’ Clip Shows A Kettle In Corduroy Apparently Applying For Vice City’s Ferry Captain Post",
-    "Analysts Say A Deck Chair In Spectacles Could Redefine Vice City’s Parking Culture"
+    "Analysts Say A Garden Hose In Reading Glasses Could Completely Reorganise Vice City’s Pavement"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-lobster-in-a-raincoat-apparently-chairing-vice-city-s-",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "MASSIVELY UNCONFIRMED",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Lobster In A Raincoat Apparently Chairing Vice City’s Beach Safety Summit",
+      "description": "A very blurry clip, almost certainly drawn on a napkin, appears to show a lobster conducting civic business with alarming confidence.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By T. Trelawney",
+      "readTime": "3 min read",
+      "date": "Monday, August 31, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has once again mistaken nonsense for evidence after a wobbling clip emerged of what appears to be a lobster in a raincoat standing beside a folding table marked “Beach Safety Summit”.",
+        "Observers say the crustacean was seen tapping a clipboard, pointing at a clipboard, then tapping the first clipboard again, which experts are calling “administrative energy”.",
+        "No one has confirmed whether the lobster is real, fictional, decorative, or simply making a bold seasonal statement.",
+        "Still, one source close to a seagull quoted by a bin claimed the whole thing may signal a deeper Vice City trend: more maritime bureaucracy, fewer sensible trousers.",
+        "As ever, viewers are advised to treat the clip with the usual degree of suspicion reserved for anything filmed near a kebab shop at midnight."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-bin-lorry-in-a-tie-could-transform-vice-city-s-morning-comm",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TOTALLY NOT A BREAKTHROUGH",
+      "accent": "sunset",
+      "title": "Analysts Say A Bin Lorry In A Tie Could Transform Vice City’s Morning Commute Drama",
+      "description": "Industry boffins believe the arrival of a well-dressed refuse vehicle may completely upend the city’s already chaotic early-morning traffic theatre.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Imogen Wren",
+      "readTime": "4 min read",
+      "date": "Monday, August 31, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Following yesterday’s nonsense, several self-appointed analysts have concluded that a bin lorry wearing a tie could become the next great symbol of order in Vice City.",
+        "Their reasoning is simple: if a vehicle capable of collecting half a street can also look presentable, then perhaps the city’s commuters can too.",
+        "The theory suggests the tie may function as a visual cue, encouraging drivers to queue more politely, cyclists to pretend they saw the red light, and pedestrians to move with purpose for once.",
+        "One analyst described the lorry as “a moving metaphor for municipal confidence”, which is the sort of sentence that should trigger an immediate wellbeing check.",
+        "Whether or not this will actually happen remains unknown, but the market for formal waste management appears to be heating up."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-pigeon-in-a-waistcoat-apparently-running-vice-city-s-s",
       "category": "leak",
