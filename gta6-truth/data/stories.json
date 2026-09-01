@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Monday, August 31, 2026",
+  "updatedLabel": "Tuesday, September 1, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Traffic Cone In A Cardigan Apparently Running Vice City’s Midnight Snack",
+    "Analysts Say A Paper Cup In Sunglasses Could Completely Overhaul Vice City’s Coffee-Power Hierarchy",
     "‘Leaked’ Clip Shows A Lobster In A Raincoat Apparently Chairing Vice City’s Beach Safety Summit",
     "Analysts Say A Bin Lorry In A Tie Could Transform Vice City’s Morning Commute Drama",
     "‘Leaked’ Clip Shows A Pigeon In A Waistcoat Apparently Running Vice City’s Seagull Union",
     "Analysts Say A Roller Skate In A Blazer Could Completely Rebalance Vice City’s Curb Appeal",
     "‘Leaked’ Clip Shows A Wheelie Bin In A Cravat Apparently Negotiating Vice City’s Crosswalk Politics",
-    "Analysts Say A Parasol In Trainers Could Recalibrate Vice City’s Entire Shade Economy",
-    "‘Leaked’ Clip Shows A Garden Gnome In Wellington Boots Apparently Standing For Vice City Bus",
-    "Analysts Say A Garden Hose In Reading Glasses Could Completely Reorganise Vice City’s Pavement"
+    "Analysts Say A Parasol In Trainers Could Recalibrate Vice City’s Entire Shade Economy"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-traffic-cone-in-a-cardigan-apparently-running-vice-cit",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "VERY POSSIBLY FICTITIOUS",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Traffic Cone In A Cardigan Apparently Running Vice City’s Midnight Snack",
+      "description": "A deeply unserious bit of footage allegedly captures a traffic cone in knitwear directing chaos at a burger stand while nobody seems to notice anything unusual at all.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By S. Wobble, Correspondent",
+      "readTime": "3 min read",
+      "date": "Tuesday, September 1, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The latest ‘clip’ doing the rounds online appears to show a traffic cone in a cardigan taking charge of a late-night snack queue at the edge of Vice City, which is either a clue, a prank, or a municipal fashion emergency.",
+        "In the footage, the cone stands proudly by a glowing burger van, making what can only be described as decisive thoughts with its entire body shape. Nearby pedestrians continue their evening as though this is a normal feature of civic life.",
+        "One witness, who may have been a seagull or possibly a man with chips, said the cone had ‘real management energy’ and ‘the calm eyes of someone who has seen too many onion rings’.",
+        "Fans immediately began arguing over whether the cardigan means the game will feature a more detailed weather system, a new snack economy, or simply better wool physics than before.",
+        "We would, of course, stress that this is almost certainly nonsense of the highest order. Still, the cone’s commitment to the role has already made it the public favourite for Vice City’s unofficial Night Shift Director post."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-paper-cup-in-sunglasses-could-completely-overhaul-vice-city",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TABLOID THINK PIECE",
+      "accent": "sunset",
+      "title": "Analysts Say A Paper Cup In Sunglasses Could Completely Overhaul Vice City’s Coffee-Power Hierarchy",
+      "description": "Industry experts, meaning absolutely no one serious, are convinced a stylish cup might be the key to understanding the city’s entire caffeine-based social system.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By M. Titter, Features Desk",
+      "readTime": "4 min read",
+      "date": "Tuesday, September 1, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "If the rumours are to be believed, Vice City is entering a bold new era in which a paper cup wearing sunglasses may be the most influential object on the beachfront.",
+        "Our imaginary analysts suggest that such a character would not merely exist in the background, but would act as a walking symbol of status, timing, and lukewarm ambition. In plain English: it looks expensive, slightly smug, and probably knows where the good espresso is.",
+        "The theory goes that the city’s morning routine could be shaped by coffee kiosks, rival queues, and tense decisions about whether one orders a flat white, an iced thing, or just stares at the menu until the mood passes.",
+        "This, naturally, has led to wild speculation that NPC behaviour may now include stronger opinions about takeaway lids, palm-tree shade, and who gets to stand nearest the grinder.",
+        "None of this is confirmed, because it is all made up. But if a sunglasses-wearing cup does appear, we expect it to be carrying the kind of authority usually reserved for parking attendants and weather presenters."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-lobster-in-a-raincoat-apparently-chairing-vice-city-s-",
       "category": "leak",
