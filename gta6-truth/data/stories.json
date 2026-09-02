@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Tuesday, September 1, 2026",
+  "updatedLabel": "Wednesday, September 2, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Sandwich Board In A Raincoat Apparently Mediating Vice City’s Taxi Feud",
+    "Analysts Say A Teacup With Sideburns Could Completely Reshape Vice City’s Park-Bench Diplomacy",
     "‘Leaked’ Clip Shows A Traffic Cone In A Cardigan Apparently Running Vice City’s Midnight Snack",
     "Analysts Say A Paper Cup In Sunglasses Could Completely Overhaul Vice City’s Coffee-Power Hierarchy",
     "‘Leaked’ Clip Shows A Lobster In A Raincoat Apparently Chairing Vice City’s Beach Safety Summit",
     "Analysts Say A Bin Lorry In A Tie Could Transform Vice City’s Morning Commute Drama",
     "‘Leaked’ Clip Shows A Pigeon In A Waistcoat Apparently Running Vice City’s Seagull Union",
-    "Analysts Say A Roller Skate In A Blazer Could Completely Rebalance Vice City’s Curb Appeal",
-    "‘Leaked’ Clip Shows A Wheelie Bin In A Cravat Apparently Negotiating Vice City’s Crosswalk Politics",
-    "Analysts Say A Parasol In Trainers Could Recalibrate Vice City’s Entire Shade Economy"
+    "Analysts Say A Roller Skate In A Blazer Could Completely Rebalance Vice City’s Curb Appeal"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-sandwich-board-in-a-raincoat-apparently-mediating-vice",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "MYSTERY CLIP",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Sandwich Board In A Raincoat Apparently Mediating Vice City’s Taxi Feud",
+      "description": "A profoundly unofficial clip is said to feature a sandwich board taking charge of curbside diplomacy, which experts agree is very on-brand for the modern city.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Clive T. Wobble",
+      "readTime": "3 min read",
+      "date": "Wednesday, September 2, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A grainy, entirely suspect clip has surfaced online showing what appears to be a sandwich board in a raincoat standing between two taxis near Vice City marina, as if it has a strong opinion about lanes, loyalty and double parking.",
+        "The board, according to viewers with far too much time on their hands, was seen gently wobbling in the breeze while pointing one side toward a side street and the other toward a very aggrieved driver who may or may not have been honking in iambic pentameter.",
+        "One source of no discernible authority claimed the sandwich board had been selected because it was 'impartial, weatherproof and already used to being ignored', which frankly sounds like half the civic apparatus.",
+        "The clip then cuts out, presumably because the board had to attend another meeting about curb access and the emotional wellbeing of laminated signage.",
+        "Industry sages have reportedly interpreted the whole thing as proof that Vice City’s next great power struggle will be fought not with firearms, but with fonts, kerning and aggressive footpath etiquette."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-teacup-with-sideburns-could-completely-reshape-vice-city-s-",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "CITY WATCH",
+      "accent": "sunset",
+      "title": "Analysts Say A Teacup With Sideburns Could Completely Reshape Vice City’s Park-Bench Diplomacy",
+      "description": "Our panel of highly casual thinkers believes the next big force in Vice City politics may be a teacup with a distinguished haircut and a surprising grasp of local...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Maureen P. Dabble",
+      "readTime": "4 min read",
+      "date": "Wednesday, September 2, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A team of analysts, absolutely none of whom are known to have passed a formal exam in anything, has concluded that a teacup sporting sideburns could become the decisive factor in Vice City’s park-bench economy.",
+        "Their reasoning is breathtakingly simple: if the teacup can command respect from pigeons, toddlers and one suspiciously well-dressed jogger, it may be able to negotiate premium bench rights in the busiest parts of town.",
+        "The report claims the cup’s facial hair-like adornments are 'a clear signal of authority', though one commentator suggested they might simply be bits of tea-stained fluff stuck on the porcelain after an unfortunate biscuit incident.",
+        "The same analysis predicts ripple effects across the city, including a rise in informal chess diplomacy, a drop in unlicensed goose whispering, and a troubling increase in people asking for 'the full kettle package'.",
+        "Naturally, no one has seen the teacup file paperwork, but that has not stopped the market from behaving as though it owns three park districts and a jazz trio."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-traffic-cone-in-a-cardigan-apparently-running-vice-cit",
       "category": "leak",
