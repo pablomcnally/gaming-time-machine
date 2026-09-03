@@ -7,7 +7,7 @@ type SubmissionState = "idle" | "submitting" | "success" | "error";
 const fieldClasses =
   "min-h-12 w-full border border-terminal-cyan/50 bg-black px-4 text-base text-terminal-paper outline-none transition-colors placeholder:text-terminal-paper/40 focus:border-terminal-yellow focus-visible:ring-2 focus-visible:ring-terminal-yellow/40 disabled:cursor-wait disabled:opacity-60";
 
-export function ContactForm({ action }: { action: string }) {
+export function ContactForm({ action, appearance = "terminal" }: { action: string; appearance?: "terminal" | "professional" }) {
   const [submissionState, setSubmissionState] = useState<SubmissionState>("idle");
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
@@ -39,7 +39,7 @@ export function ContactForm({ action }: { action: string }) {
   const isSubmitting = submissionState === "submitting";
 
   return (
-    <form className="relative mt-6 grid gap-4" action={action} method="POST" onSubmit={handleSubmit}>
+    <form className={`relative mt-6 grid gap-4 ${appearance === "professional" ? "pro-contact-form" : ""}`} action={action} method="POST" onSubmit={handleSubmit} aria-busy={isSubmitting}>
       <div className="absolute -left-[10000px] top-auto h-px w-px overflow-hidden" aria-hidden="true">
         <label>
           Leave this field empty
@@ -102,7 +102,7 @@ export function ContactForm({ action }: { action: string }) {
         disabled={isSubmitting}
         type="submit"
       >
-        {isSubmitting ? "Transmitting..." : "Send message"}
+        {isSubmitting ? (appearance === "professional" ? "Sending..." : "Transmitting...") : "Send message"}
       </button>
 
       <div className="min-h-7 font-mono text-sm" aria-live="polite" aria-atomic="true">
@@ -113,7 +113,7 @@ export function ContactForm({ action }: { action: string }) {
         ) : null}
         {submissionState === "error" ? (
           <p className="text-terminal-red" role="alert">
-            Transmission failed. Please check your connection and try again.
+            {appearance === "professional" ? "Your message could not be sent. Please check your connection and try again." : "Transmission failed. Please check your connection and try again."}
           </p>
         ) : null}
       </div>
