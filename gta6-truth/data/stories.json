@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Wednesday, September 2, 2026",
+  "updatedLabel": "Thursday, September 3, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Forklift In A Bowler Hat Apparently Chairing Vice City’s Karaoke Tribunal",
+    "Analysts Say A Potted Palm In Loafers Could Redraw Vice City’s Entire Drive-Thru Succession Plan",
     "‘Leaked’ Clip Shows A Sandwich Board In A Raincoat Apparently Mediating Vice City’s Taxi Feud",
     "Analysts Say A Teacup With Sideburns Could Completely Reshape Vice City’s Park-Bench Diplomacy",
     "‘Leaked’ Clip Shows A Traffic Cone In A Cardigan Apparently Running Vice City’s Midnight Snack",
     "Analysts Say A Paper Cup In Sunglasses Could Completely Overhaul Vice City’s Coffee-Power Hierarchy",
     "‘Leaked’ Clip Shows A Lobster In A Raincoat Apparently Chairing Vice City’s Beach Safety Summit",
-    "Analysts Say A Bin Lorry In A Tie Could Transform Vice City’s Morning Commute Drama",
-    "‘Leaked’ Clip Shows A Pigeon In A Waistcoat Apparently Running Vice City’s Seagull Union",
-    "Analysts Say A Roller Skate In A Blazer Could Completely Rebalance Vice City’s Curb Appeal"
+    "Analysts Say A Bin Lorry In A Tie Could Transform Vice City’s Morning Commute Drama"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-forklift-in-a-bowler-hat-apparently-chairing-vice-city",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "TOTALLY UNSANCTIONED",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Forklift In A Bowler Hat Apparently Chairing Vice City’s Karaoke Tribunal",
+      "description": "A very serious-looking bit of nonsense suggests Vice City’s late-night singalong scene may soon be governed by industrial machinery with impeccable manners.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By N. T. Posh, Staff Correspondent",
+      "readTime": "4 min read",
+      "date": "Thursday, September 3, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "An alleged clip, definitely not to be mistaken for evidence of anything, appears to show a forklift in a bowler hat taking over a sticky-floored karaoke venue and restoring order with the sternness of a provincial headmaster.",
+        "Eyewitnesses in the footage — or, more accurately, people standing in the background while holding fizzy drinks — seem convinced the machine is issuing rulings on key matters such as microphone queue fairness, key changes, and whether anyone should be allowed to attempt ‘Wonderwall’ after midnight.",
+        "The forklift’s approach is said to be surprisingly diplomatic. One witness claims it first nudged a wobbling stool into a more constitutional position, then paused as if awaiting applause before moving on to the next dispute like a mayor with tines.",
+        "Rumour-watchers have already overanalysed the scene, insisting the bowler hat is a clear sign of a new ‘formal nightlife’ system in which every chorus must be approved by committee and every encore comes with a small invoice.",
+        "No one involved has confirmed a thing, which is probably for the best. In the meantime, Vice City’s karaoke regulars are reportedly unsettled by the possibility that their next duet may be judged by a vehicle with excellent posture and an iron grip on the room."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-potted-palm-in-loafers-could-redraw-vice-city-s-entire-driv",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "MARKET QUIRK",
+      "accent": "sunset",
+      "title": "Analysts Say A Potted Palm In Loafers Could Redraw Vice City’s Entire Drive-Thru Succession Plan",
+      "description": "Experts have noticed a suspiciously ambitious houseplant in footwear, and believe it may be the key to the city’s most glamorous traffic-based promotion race.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Elsie Chuff, Senior Rumour Analyst",
+      "readTime": "5 min read",
+      "date": "Thursday, September 3, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The latest wave of completely imaginary market analysis suggests Vice City is heading for a leadership shift nobody asked for: a potted palm in loafers, allegedly positioning itself as the future face of drive-thru etiquette.",
+        "According to the sort of people who can turn a parking-lot shrug into a thesis, the palm’s presence signals a broader change in local power structures. If a decorative plant can lean confidently against a menu board, the argument goes, then no role in the city is truly safe.",
+        "The theory is built on three pillars: shade, branding, and an apparent willingness to stand very still while others panic. That, analysts claim, makes the palm an ideal candidate to arbitrate disputes over nugget distribution, lane merging, and which window is ‘the proper window’.",
+        "Some commentators have gone further, predicting a full cultural reset in which drive-thru staff must now address all customers with botanical respect. ‘Welcome, sir. Please proceed to the next frond,’ is one suggested future slogan, though nobody knows who approved it or why.",
+        "As ever, this is all gloriously made up, but it has not stopped investors in nonsense from treating the palm as if it were a blue-chip asset. Vice City, it seems, will always find a way to overthink a sandwich queue."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-sandwich-board-in-a-raincoat-apparently-mediating-vice",
       "category": "leak",
