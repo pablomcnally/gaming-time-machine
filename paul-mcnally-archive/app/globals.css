@@ -74,7 +74,8 @@ body::before {
   opacity: 0.16;
 }
 
-.crt-screen-content > * {
+/* Keep ordinary content above the video without overriding the sticky header. */
+.crt-screen-content > :not(.site-header) {
   position: relative;
   z-index: 2;
 }
