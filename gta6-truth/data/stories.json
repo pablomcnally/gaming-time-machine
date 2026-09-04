@@ -1,21 +1,65 @@
 {
-  "updatedLabel": "Thursday, September 3, 2026",
+  "updatedLabel": "Friday, September 4, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Pizza Oven In A Fedora Apparently Mediating Vice City’s Parking Drama",
+    "Analysts Say A Choir Of Garden Gnomes Could Redraw Vice City’s Entire Bus-Stop Etiquette",
     "‘Leaked’ Clip Shows A Forklift In A Bowler Hat Apparently Chairing Vice City’s Karaoke Tribunal",
     "Analysts Say A Potted Palm In Loafers Could Redraw Vice City’s Entire Drive-Thru Succession Plan",
     "‘Leaked’ Clip Shows A Sandwich Board In A Raincoat Apparently Mediating Vice City’s Taxi Feud",
     "Analysts Say A Teacup With Sideburns Could Completely Reshape Vice City’s Park-Bench Diplomacy",
     "‘Leaked’ Clip Shows A Traffic Cone In A Cardigan Apparently Running Vice City’s Midnight Snack",
-    "Analysts Say A Paper Cup In Sunglasses Could Completely Overhaul Vice City’s Coffee-Power Hierarchy",
-    "‘Leaked’ Clip Shows A Lobster In A Raincoat Apparently Chairing Vice City’s Beach Safety Summit",
-    "Analysts Say A Bin Lorry In A Tie Could Transform Vice City’s Morning Commute Drama"
+    "Analysts Say A Paper Cup In Sunglasses Could Completely Overhaul Vice City’s Coffee-Power Hierarchy"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-pizza-oven-in-a-fedora-apparently-mediating-vice-city-",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "VERY MUCH NOT A REAL LEAK",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Pizza Oven In A Fedora Apparently Mediating Vice City’s Parking Drama",
+      "description": "A deeply unofficial clip, almost certainly invented by everyone involved, appears to show a pizza oven settling a territorial row between two scooters and a...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Percival Nibbles, Weekend Rumour Desk",
+      "readTime": "4 min read",
+      "date": "Friday, September 4, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The internet has once again been blessed with what looks exactly like somebody’s imagination wearing a name tag.",
+        "In the alleged clip, a pizza oven in a sharp fedora is seen parked beside a pay-and-display machine, issuing what experts are calling “firm, dough-based diplomacy” to the surrounding vehicles.",
+        "Witnesses in the video—if they are indeed witnesses and not three blokes in a café—claim the oven refused to speak until the scooters stopped revving and the trolley promised to cease its “unlicensed zig-zagging.”",
+        "There is no evidence this is anything other than a daft fan-made sketch, but that has not stopped viewers from declaring the oven a “natural leader” and “possibly overqualified for municipal work.”",
+        "At press time, the parking feud had apparently calmed down after someone offered the oven extra cheese and a small clipboard."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-choir-of-garden-gnomes-could-redraw-vice-city-s-entire-bus-",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TOTALLY UNSCIENTIFIC ANALYSI",
+      "accent": "sunset",
+      "title": "Analysts Say A Choir Of Garden Gnomes Could Redraw Vice City’s Entire Bus-Stop Etiquette",
+      "description": "Our experts have examined the theory that a disciplined gnome choir may become the next big force in public-transport manners, if anyone can find a baton small enough.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Mavis Trelawney, Correspondence Editor",
+      "readTime": "5 min read",
+      "date": "Friday, September 4, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "Pundits have spent the morning asking the sort of question that would get you politely escorted from a serious office: what if a choir of garden gnomes is the real power behind Vice City’s bus-stop culture?",
+        "According to highly unofficial thinking, the theory rests on three pillars: tiny hats, impeccable timing, and a complete refusal to move when anyone is in a hurry.",
+        "The idea is that a six-strong gnome ensemble could improve queue discipline simply by humming sternly at late arrivals, thereby restoring order to the bus-stop ecosystem without any need for signage, enforcement, or common sense.",
+        "Sceptics have argued that gnomes are decorative and therefore unfit for infrastructure reform. Supporters counter that most of modern civic life is decorative anyway, just with worse singing.",
+        "If true, the implications are huge: a chorus in the north, a brass section by the tram stop, and perhaps a full municipal opera by Christmas."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-forklift-in-a-bowler-hat-apparently-chairing-vice-city",
       "category": "leak",
