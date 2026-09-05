@@ -1,21 +1,67 @@
 {
-  "updatedLabel": "Friday, September 4, 2026",
+  "updatedLabel": "Saturday, September 5, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Chippy Sign In Wellington Boots Apparently Negotiating Vice City’s Nightlife",
+    "Analysts Say A Velvet Rope With A Mustache Could Redraw Vice City’s Entire Moonlit Etiquette",
     "‘Leaked’ Clip Shows A Pizza Oven In A Fedora Apparently Mediating Vice City’s Parking Drama",
     "Analysts Say A Choir Of Garden Gnomes Could Redraw Vice City’s Entire Bus-Stop Etiquette",
     "‘Leaked’ Clip Shows A Forklift In A Bowler Hat Apparently Chairing Vice City’s Karaoke Tribunal",
     "Analysts Say A Potted Palm In Loafers Could Redraw Vice City’s Entire Drive-Thru Succession Plan",
     "‘Leaked’ Clip Shows A Sandwich Board In A Raincoat Apparently Mediating Vice City’s Taxi Feud",
-    "Analysts Say A Teacup With Sideburns Could Completely Reshape Vice City’s Park-Bench Diplomacy",
-    "‘Leaked’ Clip Shows A Traffic Cone In A Cardigan Apparently Running Vice City’s Midnight Snack",
-    "Analysts Say A Paper Cup In Sunglasses Could Completely Overhaul Vice City’s Coffee-Power Hierarchy"
+    "Analysts Say A Teacup With Sideburns Could Completely Reshape Vice City’s Park-Bench Diplomacy"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-chippy-sign-in-wellington-boots-apparently-negotiating",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "ALLEGEDLY FOUND IN A BIN BAG",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Chippy Sign In Wellington Boots Apparently Negotiating Vice City’s Nightlife",
+      "description": "A deeply ordinary rectangle of plywood has reportedly stepped into the gap between impatience and a velvet rope.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel Quibble",
+      "readTime": "3 min read",
+      "date": "Saturday, September 5, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A heroic new bit of nonsense has emerged online in the form of a grainy clip, said to show a seaside chippy sign in Wellington boots directing the flow of nightclub hopefuls outside a Vice City venue.",
+        "The sign, which appears to have the authority of a traffic warden and the confidence of a man who once owned two whistles, is seen indicating a separate line for people carrying novelty cocktails, false optimism and mildly damp trainers.",
+        "Viewers have naturally done what viewers do best and assigned enormous civic significance to a plank with handwriting on it. One camp insists it is a subtle hint at smarter crowd control. Another believes it is simply a sign doing community service after hours.",
+        "In the footage, the queue allegedly becomes more organised whenever the sign is allowed to stand near a neon sausage van. This has led some experts, meaning three people in a forum and one sandwich enthusiast, to describe the scene as a bold new era of urban diplomacy.",
+        "Rockstar, who have not said a single thing because this is made up fun, remain blissfully uninvolved while the internet continues to treat a soggy bit of signage like a constitutional monarch.",
+        "Should the clip prove anything at all, it is that Vice City may once again be a place where the road to mischief is paved by items with excellent footwear."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-velvet-rope-with-a-mustache-could-redraw-vice-city-s-entire",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TABLOID ECONOMICS",
+      "accent": "sunset",
+      "title": "Analysts Say A Velvet Rope With A Mustache Could Redraw Vice City’s Entire Moonlit Etiquette",
+      "description": "Industry onlookers have concluded that facial hair on barriers may become the next big thing in nightlife governance.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Brenda Trolley",
+      "readTime": "4 min read",
+      "date": "Saturday, September 5, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "A brand-new wave of pretend analysis has suggested that Vice City’s social order could be transformed by a velvet rope sporting a tidy mustache and an attitude problem.",
+        "According to entirely imaginary specialists, the mustached rope represents a clear escalation in curbside class warfare. It is said to divide the city not by money, but by whether you can pronounce the word \"guest list\" without sounding like a county councillor.",
+        "The theory goes that once a rope develops facial hair, all nearby systems begin to change. Doormen become philosophers. Queue-jumpers become legends in their own lunch breaks. Even the club bouncers are reportedly forced into self-reflection, which in this setting is basically a form of weather.",
+        "The most dramatic claim is that the mustache may influence moonlit etiquette across the city, encouraging patrons to say \"sorry mate\" before performing any act of social chaos. This would be a significant development for Vice City, where manners are usually more of a decorative concept.",
+        "The analysis is, of course, a complete confection. But in the grand tradition of videogame rumor culture, it is a confection with a strong opinion, a neat fringe and a very firm idea about queue geometry.",
+        "If true, the only remaining question is whether the rope also comes with a tiny comb."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-pizza-oven-in-a-fedora-apparently-mediating-vice-city-",
       "category": "leak",
