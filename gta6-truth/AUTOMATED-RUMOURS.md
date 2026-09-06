@@ -1,10 +1,10 @@
-# Automated Rumours
+# On-Demand Rumours
 
-The site can publish two AI-written parody stories a day with GitHub Actions.
+The site can publish AI-written parody stories on demand with GitHub Actions.
 
 ## How It Works
 
-1. `.github/workflows/gta6-auto-rumours.yml` tries every day at 08:30, 09:00, and 09:30 UTC.
+1. Run `.github/workflows/gta6-auto-rumours.yml` manually from GitHub Actions.
 2. The workflow runs `npm run generate:rumours` inside `gta6-truth`.
 3. `scripts/generate-rumours.js` asks OpenAI for fictional parody story JSON.
 4. The script adds the stories to `data/stories.json`, updates the ticker, and updates the site date.
@@ -12,7 +12,7 @@ The site can publish two AI-written parody stories a day with GitHub Actions.
 6. GitHub commits the generated JSON and HTML.
 7. Vercel sees the commit and redeploys.
 
-Scheduled runs skip automatically if the bot has already published for the current date, so the extra cron times are backup attempts rather than extra editions.
+The previous daily schedule was disabled to avoid unnecessary repository commits and Vercel deployments. The manual workflow remains available whenever a new edition is wanted.
 
 ## GitHub Setup
 
@@ -56,4 +56,4 @@ Dry run prints the generated stories without editing `data/stories.json`.
 
 The prompt tells the model to avoid real leak claims, real-world allegations, explicit material, and anything presented as genuine insider information. The script also rejects a few risky phrases before committing.
 
-This is still automated publishing, so it is deliberately funny rather than bulletproof. If the bot ever writes something too spicy, edit or delete the story in `/editor/`, then redeploy.
+The generated publishing flow is deliberately funny rather than bulletproof. If the bot ever writes something too spicy, edit or delete the story in `/editor/`, then redeploy.

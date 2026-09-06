@@ -89,9 +89,9 @@ GITHUB_IMAGE_PATH=gta6-truth/assets/story-images
 
 `GITHUB_TOKEN` should be a GitHub token with permission to read and write repository contents.
 
-## Automated Rumours
+## On-Demand Rumours
 
-GitHub Actions can generate and publish two fictional parody stories a day using OpenAI.
+GitHub Actions can generate and publish fictional parody stories on demand using OpenAI. The daily schedule is disabled to avoid unnecessary Vercel deployments.
 
 Setup notes live in:
 
