@@ -1,21 +1,66 @@
 {
-  "updatedLabel": "Saturday, September 5, 2026",
+  "updatedLabel": "Sunday, September 6, 2026",
   "lead": {
     "label": "Front page exclusive",
     "title": "We read one blurry screenshot and uncovered the entire economy.",
     "summary": "Our analysts have enhanced, re-enhanced, printed, laminated, and stared emotionally at a 400-pixel image until it confessed."
   },
   "ticker": [
+    "‘Leaked’ Clip Shows A Supermarket Trolley In A Trilby Apparently Negotiating Vice City’s Moonlit",
+    "Analysts Say A Seagull In Smart Gloves Could Redraw Vice City’s Pier Etiquette Once And For All",
     "‘Leaked’ Clip Shows A Chippy Sign In Wellington Boots Apparently Negotiating Vice City’s Nightlife",
     "Analysts Say A Velvet Rope With A Mustache Could Redraw Vice City’s Entire Moonlit Etiquette",
     "‘Leaked’ Clip Shows A Pizza Oven In A Fedora Apparently Mediating Vice City’s Parking Drama",
     "Analysts Say A Choir Of Garden Gnomes Could Redraw Vice City’s Entire Bus-Stop Etiquette",
     "‘Leaked’ Clip Shows A Forklift In A Bowler Hat Apparently Chairing Vice City’s Karaoke Tribunal",
-    "Analysts Say A Potted Palm In Loafers Could Redraw Vice City’s Entire Drive-Thru Succession Plan",
-    "‘Leaked’ Clip Shows A Sandwich Board In A Raincoat Apparently Mediating Vice City’s Taxi Feud",
-    "Analysts Say A Teacup With Sideburns Could Completely Reshape Vice City’s Park-Bench Diplomacy"
+    "Analysts Say A Potted Palm In Loafers Could Redraw Vice City’s Entire Drive-Thru Succession Plan"
   ],
   "stories": [
+    {
+      "slug": "leaked-clip-shows-a-supermarket-trolley-in-a-trilby-apparently-negotiating",
+      "category": "leak",
+      "categoryLabel": "Leak",
+      "badge": "ALLEGED CLIP",
+      "accent": "blue",
+      "title": "‘Leaked’ Clip Shows A Supermarket Trolley In A Trilby Apparently Negotiating Vice City’s Moonlit",
+      "description": "A highly questionable clip appears to show a trolley with strong opinions, weak brakes and an alarming sense of occasion taking charge of the night-shift shopping scene.",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Nigel P. Crumbs",
+      "readTime": "3 min read",
+      "date": "Sunday, September 6, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "The footage, if it is footage and not simply a man with a vivid imagination near a basket return, shows a supermarket trolley wearing a trilby and drifting through Vice City as though it owns the place.",
+        "Witnesses in the imaginary queue say the trolley did not so much roll as loom, making delicate arrangements over reduced mince pies, suspiciously shiny batteries and a packet of festive napkins of great symbolic value.",
+        "At one point the trolley is said to have nudged a display stand with the authority of a minor duke, before pausing beneath a flickering sign that read ‘NO LATE-NIGHT WHEELS WITHOUT CLEARANCE’.",
+        "Fans have already declared the clip a game-changer for urban commerce, trolley culture and any future mission involving a parking bay with ambition.",
+        "As ever, nobody should treat this as a real revelation. It is an obviously daft rumour about a fictional city, posted for those who enjoy the idea of retail infrastructure developing social rank."
+      ]
+    },
+    {
+      "slug": "analysts-say-a-seagull-in-smart-gloves-could-redraw-vice-city-s-pier-etiqu",
+      "category": "analysis",
+      "categoryLabel": "Analysis",
+      "badge": "TABLOID THEORY",
+      "accent": "green",
+      "title": "Analysts Say A Seagull In Smart Gloves Could Redraw Vice City’s Pier Etiquette Once And For All",
+      "description": "Experts with entirely theoretical clipboards suggest the gull may become the true power broker of the waterfront, especially where chips, patience and sea spray are...",
+      "imageUrl": "",
+      "imageAlt": "",
+      "author": "By Penelope Wrye",
+      "readTime": "4 min read",
+      "date": "Sunday, September 6, 2026",
+      "generatedBy": "auto-rumour-bot",
+      "body": [
+        "According to people who have definitely not been promoted into a building site by accident, a seagull in smart gloves could be the next great influence on Vice City’s pier diplomacy.",
+        "The argument is simple: once a bird acquires accessories, it also acquires expectations. And once those expectations are ignored, bins are opened, umbrellas are stolen and sandwich policies begin to shift.",
+        "Analysts claim the gloves imply a new era of waterfront professionalism, one in which dropped snacks are handled with ‘formal notice’ rather than outright panic.",
+        "The seagull is believed to represent a broader trend toward highly organised nonsense, where every passing character must appear to know exactly where the crisps are kept.",
+        "In practical terms, this may mean more boss fights near the arcade, fewer moral questions near the fish stall and a sharp rise in ceremonial squawking at dusk.",
+        "Still, nobody should confuse this with any kind of real-world information. It is just a made-up theory about a made-up bird in a made-up city, which frankly is how the best papers are written anyway."
+      ]
+    },
     {
       "slug": "leaked-clip-shows-a-chippy-sign-in-wellington-boots-apparently-negotiating",
       "category": "leak",
