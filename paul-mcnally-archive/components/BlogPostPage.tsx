@@ -20,12 +20,14 @@ export function BlogPostPage({ slug }: { slug: string }) {
   }
 
   const pageCode = getBlogPageCode(slug);
+  const featuredImage = post.micronetImage || post.featuredImage;
+  const featuredImageAlt = post.micronetImage ? post.micronetImageAlt : post.featuredImageAlt;
   const relatedPosts = getAllBlogPosts().filter((candidate) => candidate.slug !== post.slug).slice(0, 3);
 
   return (
     <main className="min-h-screen">
       <section className="border-b border-terminal-cyan/50 bg-terminal-black px-5 py-10 terminal-grid md:py-14">
-        <div className={`mx-auto grid max-w-7xl gap-8 ${post.featuredImage ? "lg:grid-cols-[minmax(0,1fr)_25rem] lg:items-end" : ""}`}>
+        <div className={`mx-auto grid max-w-7xl gap-8 ${featuredImage ? "lg:grid-cols-[minmax(0,1fr)_25rem] lg:items-end" : ""}`}>
           <div>
             <nav aria-label="Breadcrumb" className="font-mono text-sm uppercase text-terminal-green">
               <Link href="/blog" className="hover:text-terminal-yellow">Blog</Link>
@@ -51,9 +53,9 @@ export function BlogPostPage({ slug }: { slug: string }) {
             ) : null}
           </div>
 
-          {post.featuredImage ? (
+          {featuredImage ? (
             <figure className="viewdata-box overflow-hidden bg-terminal-black/85 p-3 shadow-terminal">
-              <img src={post.featuredImage} alt={post.featuredImageAlt || ""} className="aspect-[3/2] w-full border border-terminal-cyan/35 object-cover" />
+              <img src={featuredImage} alt={featuredImageAlt || ""} className={`${post.micronetImage ? "h-auto" : "aspect-[3/2] object-cover"} w-full border border-terminal-cyan/35`} />
             </figure>
           ) : null}
         </div>

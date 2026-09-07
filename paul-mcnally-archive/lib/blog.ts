@@ -12,6 +12,8 @@ export type BlogPost = {
   sourceUrl?: string;
   featuredImage?: string;
   featuredImageAlt?: string;
+  micronetImage?: string;
+  micronetImageAlt?: string;
   body: string;
 };
 
@@ -83,6 +85,8 @@ export function getAllBlogPosts(): BlogPost[] {
         sourceUrl: data.sourceUrl?.trim() || undefined,
         featuredImage: data.featuredImage?.trim() || undefined,
         featuredImageAlt: data.featuredImageAlt?.trim() || undefined,
+        micronetImage: data.micronetImage?.trim() || undefined,
+        micronetImageAlt: data.micronetImageAlt?.trim() || undefined,
         body
       } satisfies BlogPost;
     })

@@ -7,7 +7,7 @@ function formatDate(date: string) {
 }
 
 export function BlogCard({ post }: { post: BlogPost }) {
-  const previewImage = getPortfolioPreviewImage(post.slug) || post.featuredImage;
+  const previewImage = post.micronetImage || getPortfolioPreviewImage(post.slug) || post.featuredImage;
 
   return (
     <article className="group grid overflow-hidden border border-terminal-cyan/50 bg-terminal-black/85 shadow-terminal transition hover:-translate-y-1 hover:border-terminal-yellow">
@@ -15,8 +15,8 @@ export function BlogCard({ post }: { post: BlogPost }) {
         <Link href={`/blog/${post.slug}`} aria-label={`Read ${post.title}`}>
           <img
             src={previewImage}
-            alt={previewImage === post.featuredImage ? post.featuredImageAlt || "" : `Pablonet-style pixel artwork for ${post.title}`}
-            className="aspect-[3/2] w-full border-b border-terminal-cyan/30 object-cover transition duration-300 group-hover:scale-[1.015]"
+            alt={post.micronetImage ? post.micronetImageAlt || "" : previewImage === post.featuredImage ? post.featuredImageAlt || "" : `Pablonet-style pixel artwork for ${post.title}`}
+            className={`aspect-[3/2] w-full border-b border-terminal-cyan/30 ${post.micronetImage ? "object-contain" : "object-cover"} transition duration-300 group-hover:scale-[1.015]`}
             loading="lazy"
           />
         </Link>
