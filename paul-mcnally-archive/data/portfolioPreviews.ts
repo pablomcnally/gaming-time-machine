@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "eufymake-e1-review": "/portfolio/home/eufymake-e1-pablonet.png",
   "ufo-sightings-over-washington": "/portfolio/home/ufo-washington-pablonet.png",
   "michael-mendheim-mutant-football-league-2-interview": "/portfolio/home/michael-mendheim-pablonet.png",
   "innocn-49q1r-ultrawide-monitor-review": "/portfolio/home/innocn-49q1r-pablonet.png",
