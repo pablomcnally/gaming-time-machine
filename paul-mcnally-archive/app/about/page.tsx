@@ -8,6 +8,17 @@ export const metadata: Metadata = {
   description: "Biography and background for Paul McNally, games journalist, editor, writer and retro enthusiast."
 };
 
+const panelImages: Record<string, { src: string; alt: string }> = {
+  "MAGAZINE HISTORY": {
+    src: "/portfolio/about/retro-magazines-pablonet.png",
+    alt: "Pixel-art covers inspired by Amiga Action, PlayStation Pro and ST Action magazines"
+  },
+  "BEYOND THE GAMES INDUSTRY": {
+    src: "/portfolio/about/sport-pablonet.png",
+    alt: "Pixel-art scene of a rugby interview at a packed stadium"
+  }
+};
+
 export default function AboutPage() {
   return (
     <PageContainer
@@ -25,7 +36,7 @@ export default function AboutPage() {
       <div className="grid gap-6 lg:grid-cols-[1fr_1fr]">
         {aboutContent.panels.map((panel) => {
           const isPublicationList = panel.title === "SELECTED PUBLICATIONS";
-          const isMagazineHistory = panel.title === "MAGAZINE HISTORY";
+          const panelImage = panelImages[panel.title];
 
           return (
             <div key={panel.title} className={isPublicationList ? "lg:col-span-2" : undefined}>
@@ -41,11 +52,11 @@ export default function AboutPage() {
                   </ul>
                 ) : (
                   <>
-                    {isMagazineHistory ? (
+                    {panelImage ? (
                       <figure className="mb-5 overflow-hidden border border-terminal-green/50 bg-terminal-black">
                         <img
-                          src="/portfolio/about/retro-magazines-pablonet.png"
-                          alt="Pixel-art covers inspired by Amiga Action, PlayStation Pro and ST Action magazines"
+                          src={panelImage.src}
+                          alt={panelImage.alt}
                           className="aspect-video w-full object-cover"
                         />
                       </figure>
