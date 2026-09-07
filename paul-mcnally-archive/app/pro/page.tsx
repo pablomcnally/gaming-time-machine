@@ -14,7 +14,7 @@ export default function ProfessionalHome() {
   const latest = articles.filter((article) => !selected.some((pick) => pick.slug === article.slug)).slice(0, 3);
   const publications = [
     ...(aboutContent.panels.find((panel) => panel.title === "SELECTED PUBLICATIONS")?.paragraphs.slice(0, 6) || []),
-    "ST ACTION", "AMIGA ACTION", "THE MIRROR", "TECHOPEDIA"
+    "ST ACTION", "AMIGA ACTION", "THE MIRROR", "TECHOPEDIA", "WEPC", "PC GUIDE"
   ];
 
   return <>
