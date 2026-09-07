@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { getPortfolioPreviewImage } from "../data/portfolioPreviews";
 import type { BlogPost } from "../lib/blog";
 
 function formatDate(date: string) {
@@ -6,13 +7,15 @@ function formatDate(date: string) {
 }
 
 export function BlogCard({ post }: { post: BlogPost }) {
+  const previewImage = getPortfolioPreviewImage(post.slug) || post.featuredImage;
+
   return (
     <article className="group grid overflow-hidden border border-terminal-cyan/50 bg-terminal-black/85 shadow-terminal transition hover:-translate-y-1 hover:border-terminal-yellow">
-      {post.featuredImage ? (
+      {previewImage ? (
         <Link href={`/blog/${post.slug}`} aria-label={`Read ${post.title}`}>
           <img
-            src={post.featuredImage}
-            alt={post.featuredImageAlt || ""}
+            src={previewImage}
+            alt={previewImage === post.featuredImage ? post.featuredImageAlt || "" : `Pablonet-style pixel artwork for ${post.title}`}
             className="aspect-[3/2] w-full border-b border-terminal-cyan/30 object-cover transition duration-300 group-hover:scale-[1.015]"
             loading="lazy"
           />
@@ -27,7 +30,7 @@ export function BlogCard({ post }: { post: BlogPost }) {
 
       <div className="flex flex-col p-5 md:p-6">
         <div className="flex flex-wrap items-center gap-x-3 gap-y-2 font-mono text-xs uppercase">
-          <span className="text-terminal-green">Independent</span>
+          <span className="text-terminal-green">{post.publication || "Independent"}</span>
           {post.tag ? <span className="text-terminal-yellow">{post.tag}</span> : null}
           <span aria-hidden="true" className="text-terminal-paper/50">//</span>
           <time className="text-terminal-cyan" dateTime={post.date}>{formatDate(post.date)}</time>

@@ -6,7 +6,7 @@ import { getBlogPageEntries } from "../../lib/blog";
 
 export const metadata: Metadata = {
   title: "Blog",
-  description: "Occasional independent writing and personal essays by Paul McNally."
+  description: "Personal essays, commentary and previously published writing by Paul McNally."
 };
 
 export default function BlogPage() {
@@ -17,11 +17,11 @@ export default function BlogPage() {
     <PageContainer
       eyebrow="Service page 601"
       title="Blog"
-      intro="Occasional independent writing, personal essays and thoughts published directly rather than through an outlet."
+      intro="Personal essays, commentary and selected writing from Paul’s own channels and earlier publications."
     >
       <div className="mb-8 flex flex-wrap items-center justify-between gap-4 border-b border-terminal-cyan/35 pb-5 font-mono text-sm uppercase">
-        <p className="text-terminal-green">{posts.length.toString().padStart(2, "0")} independent post{posts.length === 1 ? "" : "s"} online</p>
-        <p className="text-terminal-cyan">Channel 601 // Personal transmission</p>
+        <p className="text-terminal-green">{posts.length.toString().padStart(2, "0")} blog post{posts.length === 1 ? "" : "s"} online</p>
+        <p className="text-terminal-cyan">Channel 601 // Collected writing</p>
       </div>
 
       {posts.length ? (

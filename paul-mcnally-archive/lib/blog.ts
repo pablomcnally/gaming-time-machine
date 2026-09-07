@@ -8,6 +8,8 @@ export type BlogPost = {
   excerpt: string;
   author: string;
   tag?: string;
+  publication?: string;
+  sourceUrl?: string;
   featuredImage?: string;
   featuredImageAlt?: string;
   body: string;
@@ -77,6 +79,8 @@ export function getAllBlogPosts(): BlogPost[] {
         excerpt: requireField(data, "excerpt", file),
         author: data.author?.trim() || "Paul McNally",
         tag: data.tag?.trim() || undefined,
+        publication: data.publication?.trim() || undefined,
+        sourceUrl: data.sourceUrl?.trim() || undefined,
         featuredImage: data.featuredImage?.trim() || undefined,
         featuredImageAlt: data.featuredImageAlt?.trim() || undefined,
         body

@@ -29,7 +29,7 @@ export function BlogPostPage({ slug }: { slug: string }) {
           <div>
             <nav aria-label="Breadcrumb" className="font-mono text-sm uppercase text-terminal-green">
               <Link href="/blog" className="hover:text-terminal-yellow">Blog</Link>
-              <span aria-hidden="true"> // Page {pageCode} // Independent transmission</span>
+              <span aria-hidden="true"> // Page {pageCode} // {post.sourceUrl ? "Archive file" : "Independent transmission"}</span>
             </nav>
             <h1 className="mt-5 max-w-5xl font-mono text-3xl uppercase leading-tight text-terminal-yellow sm:text-4xl md:text-5xl">{post.title}</h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-terminal-paper md:text-xl">{post.excerpt}</p>
@@ -39,6 +39,16 @@ export function BlogPostPage({ slug }: { slug: string }) {
               <time className="border border-terminal-cyan/50 bg-terminal-black px-3 py-2 text-terminal-cyan" dateTime={post.date}>{formatDate(post.date)}</time>
               <span className="border border-terminal-yellow/50 bg-terminal-black px-3 py-2 text-terminal-yellow">{getReadingTime(post)} min read</span>
             </div>
+            {post.sourceUrl ? (
+              <a
+                href={post.sourceUrl}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-6 inline-flex min-h-12 items-center border border-terminal-yellow bg-terminal-yellow px-5 font-mono text-sm font-bold uppercase text-terminal-black hover:bg-terminal-paper"
+              >
+                Read the original on {post.publication || "the publisher"} <span aria-hidden="true" className="ml-2">↗</span>
+              </a>
+            ) : null}
           </div>
 
           {post.featuredImage ? (
@@ -52,12 +62,21 @@ export function BlogPostPage({ slug }: { slug: string }) {
       <section className="mx-auto grid max-w-7xl gap-6 px-5 py-10 md:py-14 lg:grid-cols-[minmax(0,1fr)_19rem]">
         <article className="article-shell border border-terminal-paper/60 bg-terminal-black/88 p-5 shadow-terminal md:p-8 lg:p-10">
           <div className="mb-8 border-b border-terminal-yellow/50 pb-5 font-mono text-sm uppercase">
-            <p className="text-terminal-yellow">Independent transmission</p>
-            <p className="mt-2 text-xs leading-5 text-terminal-paper/70">Published directly by the author on {formatDate(post.date)}.</p>
+            <p className="text-terminal-yellow">{post.sourceUrl ? "Permanent archive copy" : "Independent transmission"}</p>
+            <p className="mt-2 text-xs leading-5 text-terminal-paper/70">
+              {post.sourceUrl
+                ? `Originally published by ${post.publication || "the publisher"} on ${formatDate(post.date)}. Preserved here by the author for long-term access.`
+                : `Published directly by the author on ${formatDate(post.date)}.`}
+            </p>
           </div>
           <MarkdownBody className="article-prose portfolio-prose" content={post.body} />
           <footer className="mt-10 border-t border-terminal-cyan/40 pt-6 font-mono text-sm uppercase">
             <p className="text-terminal-green">Transmission complete // end of blog file</p>
+            {post.sourceUrl ? (
+              <a href={post.sourceUrl} target="_blank" rel="noreferrer" className="mt-4 inline-flex text-terminal-cyan hover:text-terminal-yellow">
+                Original publication: {post.publication || "Source"} <span aria-hidden="true" className="ml-2">↗</span>
+              </a>
+            ) : null}
           </footer>
         </article>
 
@@ -68,6 +87,7 @@ export function BlogPostPage({ slug }: { slug: string }) {
               <div><dt className="text-terminal-cyan">File type</dt><dd className="mt-1 text-terminal-paper">Blog post</dd></div>
               {pageCode ? <div><dt className="text-terminal-cyan">Page code</dt><dd className="mt-1 text-terminal-green">{pageCode}</dd></div> : null}
               <div><dt className="text-terminal-cyan">Byline</dt><dd className="mt-1 text-terminal-yellow">{post.author}</dd></div>
+              {post.publication ? <div><dt className="text-terminal-cyan">Publication</dt><dd className="mt-1 text-terminal-paper">{post.publication}</dd></div> : null}
               {post.tag ? <div><dt className="text-terminal-cyan">Tag</dt><dd className="mt-1 text-terminal-paper">{post.tag}</dd></div> : null}
               <div><dt className="text-terminal-cyan">Published</dt><dd className="mt-1 text-terminal-paper">{formatDate(post.date)}</dd></div>
               <div><dt className="text-terminal-cyan">Blog ref</dt><dd className="mt-1 break-words text-terminal-paper">{post.slug}</dd></div>

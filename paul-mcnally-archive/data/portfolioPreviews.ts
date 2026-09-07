@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "how-salford-became-uks-coronavirus-hotspot": "/portfolio/home/salford-coronavirus-pablonet.png",
   "amiga-a500-mini-retro-creators-interview": "/portfolio/home/amiga-a500-mini-pablonet.png",
   "eufymake-e1-review": "/portfolio/home/eufymake-e1-pablonet.png",
   "ufo-sightings-over-washington": "/portfolio/home/ufo-washington-pablonet.png",

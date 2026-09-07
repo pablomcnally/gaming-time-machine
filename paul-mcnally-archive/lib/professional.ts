@@ -16,7 +16,11 @@ export function isProfessionalKind(value: string): value is ProfessionalKind {
 export function getProfessionalArticles(kind?: ProfessionalKind): ProfessionalArticle[] {
   const articles: ProfessionalArticle[] = [
     ...getAllPortfolioPieces(),
-    ...getAllBlogPosts().map((post) => ({ ...post, kind: "blog" as const, publication: "Independent writing" }))
+    ...getAllBlogPosts().map((post) => ({
+      ...post,
+      kind: "blog" as const,
+      publication: post.publication || "Independent writing"
+    }))
   ];
   return articles.filter((article) => !kind || article.kind === kind)
     .sort((a, b) => b.date.localeCompare(a.date) || a.slug.localeCompare(b.slug));
