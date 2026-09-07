@@ -15,6 +15,13 @@ export default function AboutPage() {
       title={aboutContent.title}
       intro={aboutContent.intro}
     >
+      <figure className="mb-8 overflow-hidden border border-terminal-cyan/40 bg-terminal-black md:mb-10">
+        <img
+          src="/portfolio/about/nerdcon-pablonet.png"
+          alt="Pixel-art scene of Paul McNally speaking during an onstage interview at NerdCon"
+          className="aspect-[3/1] w-full object-cover"
+        />
+      </figure>
       <div className="grid gap-6 lg:grid-cols-[1fr_1fr]">
         {aboutContent.panels.map((panel) => {
           const isPublicationList = panel.title === "SELECTED PUBLICATIONS";
