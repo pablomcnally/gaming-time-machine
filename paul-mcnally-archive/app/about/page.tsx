@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { PageContainer } from "../../components/PageContainer";
 import { TerminalPanel } from "../../components/TerminalPanel";
 import { aboutContent } from "../../data/pages";
@@ -73,6 +74,7 @@ export default function AboutPage() {
           );
         })}
       </div>
+      <Link href="/career" className="mt-8 inline-flex min-h-11 items-center font-mono uppercase text-terminal-cyan hover:text-terminal-yellow">View career timeline &gt;</Link>
     </PageContainer>
   );
 }

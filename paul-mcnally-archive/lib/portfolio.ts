@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-export const portfolioKinds = ["interviews", "features", "reviews"] as const;
+export const portfolioKinds = ["opinion", "interviews", "features", "reviews"] as const;
 
 export type PortfolioKind = (typeof portfolioKinds)[number];
 export type ReviewCategory = "games" | "tech";
@@ -32,6 +32,7 @@ export type PortfolioPageEntry = {
 };
 
 const portfolioDirectories: Record<PortfolioKind, string> = {
+  opinion: path.join(process.cwd(), "content", "portfolio", "opinion"),
   interviews: path.join(process.cwd(), "content", "portfolio", "interviews"),
   features: path.join(process.cwd(), "content", "portfolio", "features"),
   reviews: path.join(process.cwd(), "content", "reviews")
@@ -115,6 +116,7 @@ export function getAllPortfolioPieces(kind?: PortfolioKind) {
 }
 
 const portfolioPageStarts: Record<PortfolioKind, number> = {
+  opinion: 302,
   interviews: 402,
   features: 502,
   reviews: 704
@@ -147,6 +149,7 @@ export function getPortfolioPieceBySlug(kind: PortfolioKind, slug: string) {
 }
 
 export function getPortfolioKindLabel(kind: PortfolioKind) {
+  if (kind === "opinion") return "Opinion Pieces";
   if (kind === "interviews") return "Interviews";
   if (kind === "features") return "Features";
   return "Reviews";

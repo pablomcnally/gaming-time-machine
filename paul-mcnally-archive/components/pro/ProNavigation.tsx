@@ -5,12 +5,12 @@ import { usePathname } from "next/navigation";
 
 export function ProNavigation() {
   const pathname = usePathname();
-  const links = [{ label: "Work", href: "/pro/work" }, { label: "About", href: "/pro/about" }, { label: "Contact", href: "/pro/contact" }];
+  const links = [{ label: "Work", href: "/pro/work" }, { label: "Opinion Pieces", href: "/pro/opinion" }, { label: "About", href: "/pro/about" }, { label: "Contact", href: "/pro/contact" }];
   return <nav className="pro-navigation" aria-label="Main navigation">
     {links.map(({ label, href }) => {
       const active = href === "/pro/work"
         ? /^\/pro\/(work|features|interviews|reviews|blog)(\/|$)/.test(pathname)
-        : pathname === href;
+        : pathname === href || pathname.startsWith(`${href}/`);
       return <Link href={href} key={href} aria-current={active ? "page" : undefined}>{label}</Link>;
     })}
     <Link href="/pro/contact" className="pro-nav-contact">Get in touch</Link>

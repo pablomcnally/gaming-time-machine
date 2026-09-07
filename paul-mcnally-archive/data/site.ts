@@ -1,7 +1,7 @@
 export const navigationItems = [
   { number: "101", label: "Home", href: "/" },
   { number: "201", label: "About", href: "/about" },
-  { number: "301", label: "Career", href: "/career" },
+  { number: "301", label: "Opinion Pieces", href: "/opinion" },
   { number: "401", label: "Interviews", href: "/interviews" },
   { number: "501", label: "Features", href: "/features" },
   { number: "601", label: "Blog", href: "/blog" },
@@ -11,7 +11,7 @@ export const navigationItems = [
 
 export const pageLabels = {
   career: {
-    eyebrow: "Service page 301",
+    eyebrow: "Career archive",
     title: "Career Timeline",
     intro: "A Teletext-style route through print, digital, communications, guides, hardware coverage and current games journalism."
   },

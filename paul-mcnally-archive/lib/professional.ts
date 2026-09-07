@@ -1,7 +1,7 @@
 import { getAllBlogPosts } from "./blog";
 import { getAllPortfolioPieces, type PortfolioPiece } from "./portfolio";
 
-export const professionalKinds = ["features", "interviews", "reviews", "blog"] as const;
+export const professionalKinds = ["features", "interviews", "opinion", "reviews", "blog"] as const;
 export type ProfessionalKind = (typeof professionalKinds)[number];
 export type ProfessionalArticle = Omit<PortfolioPiece, "kind" | "sourceUrl"> & {
   kind: ProfessionalKind;

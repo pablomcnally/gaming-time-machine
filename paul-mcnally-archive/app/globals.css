@@ -556,6 +556,9 @@ html:not(.crt-frame-off) .crt-power-button {
 
 .teletext-nav-link {
   display: flex;
+  flex-wrap: wrap;
+  min-width: 0;
+  column-gap: 0.25rem;
   align-items: center;
   justify-content: center;
   font-size: 1.35rem;

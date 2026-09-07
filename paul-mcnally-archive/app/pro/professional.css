@@ -199,10 +199,10 @@ body:has(.pro-site)::before { display: none; }
 }
 @media (max-width: 760px) {
   .pro-container { width: calc(100% - 40px); }
-  .pro-header-inner { min-height: 92px; gap: 16px; }
+  .pro-header-inner { min-height: 92px; gap: 16px; flex-wrap: wrap; }
   .pro-brand { font-size: 21px; }
   .pro-brand span { font-size: 11px; }
-  .pro-navigation { gap: 18px; font-size: 13px; }
+  .pro-navigation { gap: 0 18px; font-size: 13px; flex-wrap: wrap; }
   .pro-navigation .pro-nav-contact { display: none; }
   .pro-introduction { padding: 34px 0 28px; }
   .pro-introduction h1 { font-size: 52px; }

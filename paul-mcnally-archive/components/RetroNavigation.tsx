@@ -102,12 +102,12 @@ export function RetroNavigation({ contentKeyboardPages }: { contentKeyboardPages
               href={item.href}
               aria-current={isActive ? "page" : undefined}
               aria-label={`Page ${item.number}: ${item.label}`}
-              className={`teletext-nav-link min-h-10 whitespace-nowrap px-1 py-1 text-center uppercase transition hover:bg-terminal-yellow hover:text-terminal-black ${
+              className={`teletext-nav-link min-h-10 px-1 py-1 text-center uppercase transition hover:bg-terminal-yellow hover:text-terminal-black ${
                 isActive ? "text-terminal-yellow" : "text-terminal-paper"
               }`}
             >
               <span aria-hidden="true">{item.number}: </span>
-              {item.label}
+              <span className="min-w-0 break-words">{item.label}</span>
             </Link>
           );
         })}

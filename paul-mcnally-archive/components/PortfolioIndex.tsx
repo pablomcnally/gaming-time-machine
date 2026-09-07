@@ -5,12 +5,14 @@ import { PortfolioCard } from "./PortfolioCard";
 import { TeletextDirectory } from "./TeletextDirectory";
 
 const descriptions: Record<PortfolioKind, string> = {
+  opinion: "Columns, commentary and opinion on games, technology and the world around them.",
   interviews: "Long-form conversations with the people building games, worlds, technology and culture — preserved here as permanent archive files.",
   features: "Reported features, deep dives and original stories from across games, technology and the culture around them.",
   reviews: "Critical writing about games and technology, collected as permanent archive files."
 };
 
 const indexCodes: Record<PortfolioKind, string> = {
+  opinion: "301",
   interviews: "401",
   features: "501",
   reviews: "701"

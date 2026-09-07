@@ -10,6 +10,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const pages = ["", "/about", "/career", "/writing", "/interviews", "/features", "/blog", "/reviews", "/reviews/games", "/reviews/tech", "/work", "/contact", "/micronet-800", "/system-status", "/pro", "/pro/work", "/pro/about", "/pro/contact", "/pro/features", "/pro/interviews", "/pro/reviews", "/pro/reviews/games", "/pro/reviews/tech", "/pro/blog"];
 
   return [
+    { url: `${siteUrl}/opinion`, lastModified: now },
+    { url: `${siteUrl}/pro/opinion`, lastModified: now },
     ...pages.map((page) => ({
       url: `${siteUrl}${page}`,
       lastModified: now
