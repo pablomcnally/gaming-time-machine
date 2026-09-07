@@ -25,6 +25,7 @@ export default function AboutPage() {
       <div className="grid gap-6 lg:grid-cols-[1fr_1fr]">
         {aboutContent.panels.map((panel) => {
           const isPublicationList = panel.title === "SELECTED PUBLICATIONS";
+          const isMagazineHistory = panel.title === "MAGAZINE HISTORY";
 
           return (
             <div key={panel.title} className={isPublicationList ? "lg:col-span-2" : undefined}>
@@ -39,11 +40,22 @@ export default function AboutPage() {
                     ))}
                   </ul>
                 ) : (
-                  panel.paragraphs.map((paragraph, index) => (
-                    <p key={`${panel.title}-${index}`} className={`${index > 0 ? "mt-5 " : ""}text-lg leading-8`}>
-                      {paragraph}
-                    </p>
-                  ))
+                  <>
+                    {isMagazineHistory ? (
+                      <figure className="mb-5 overflow-hidden border border-terminal-green/50 bg-terminal-black">
+                        <img
+                          src="/portfolio/about/retro-magazines-pablonet.png"
+                          alt="Pixel-art covers inspired by Amiga Action, PlayStation Pro and ST Action magazines"
+                          className="aspect-video w-full object-cover"
+                        />
+                      </figure>
+                    ) : null}
+                    {panel.paragraphs.map((paragraph, index) => (
+                      <p key={`${panel.title}-${index}`} className={`${index > 0 ? "mt-5 " : ""}text-lg leading-8`}>
+                        {paragraph}
+                      </p>
+                    ))}
+                  </>
                 )}
               </TerminalPanel>
             </div>
