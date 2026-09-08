@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { PablonetConnectionSplash } from "../components/PablonetConnectionSplash";
 import { StorySoFarPanel } from "../components/StorySoFarPanel";
 import { homeContent } from "../data/pages";
 import { getPortfolioPreviewImage } from "../data/portfolioPreviews";
@@ -99,6 +100,7 @@ export default function HomePage() {
 
   return (
     <main className="font-mono uppercase">
+      <PablonetConnectionSplash />
       <section className="px-4 pb-10 pt-4">
         <div className="mx-auto max-w-7xl">
           <div className="viewdata-rule mb-4" />

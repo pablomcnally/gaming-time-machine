@@ -3,7 +3,12 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { isPrestelServerName, pickPrestelServer } from "../lib/prestelServers";
+import {
+  getOrCreatePrestelServer,
+  pickPrestelServer,
+  PRESTEL_CONNECTION_STORAGE_KEY,
+  PRESTEL_SERVER_STORAGE_KEY
+} from "../lib/prestelServers";
 import { BackgroundMusicToggle } from "./BackgroundMusicToggle";
 import { CrtFrameToggle } from "./CrtFrameToggle";
 import { ModemSoundToggle } from "./ModemSoundToggle";
@@ -13,8 +18,6 @@ type KeyboardPage = {
   number: string;
   href: string;
 };
-
-const SERVER_STORAGE_KEY = "paul-mcnally-prestel-server";
 
 function formatDate(now: Date) {
   return new Intl.DateTimeFormat("en-GB", {
@@ -52,14 +55,12 @@ export function SiteHeader({ contentKeyboardPages }: { contentKeyboardPages: Key
   }, []);
 
   useEffect(() => {
-    const storedServer = window.sessionStorage.getItem(SERVER_STORAGE_KEY);
-    const returningHome = pathname === "/" && previousPathname.current !== "/";
-    const nextServer = returningHome || !isPrestelServerName(storedServer)
-      ? pickPrestelServer()
-      : storedServer;
+    const connectionComplete = window.sessionStorage.getItem(PRESTEL_CONNECTION_STORAGE_KEY) === "true";
+    const returningHome = pathname === "/" && previousPathname.current !== "/" && connectionComplete;
+    const nextServer = returningHome ? pickPrestelServer() : getOrCreatePrestelServer(window.sessionStorage);
 
     previousPathname.current = pathname;
-    window.sessionStorage.setItem(SERVER_STORAGE_KEY, nextServer);
+    window.sessionStorage.setItem(PRESTEL_SERVER_STORAGE_KEY, nextServer);
     setServerName(nextServer);
   }, [pathname]);
 

@@ -49,6 +49,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Script id="crt-frame-preference" strategy="beforeInteractive">
           {`try{if(localStorage.getItem("paul-mcnally-crt-frame")==="off"){document.documentElement.classList.add("crt-frame-off")}}catch(e){}`}
         </Script>
+        <Script id="pablonet-connection-session" strategy="beforeInteractive">
+          {`try{if(sessionStorage.getItem("paul-mcnally-prestel-connected")==="true"){document.documentElement.classList.add("pablonet-connected")}}catch(e){}`}
+        </Script>
         <SitePresentation contentKeyboardPages={contentKeyboardPages}>
           {children}
         </SitePresentation>

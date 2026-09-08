@@ -492,6 +492,181 @@ html:not(.crt-frame-off) .crt-power-button {
   line-height: 1.2;
 }
 
+html.pablonet-connected .pablonet-connection-splash {
+  display: none;
+}
+
+.pablonet-connection-splash {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  overflow: auto;
+  place-items: center;
+  padding: 1.25rem;
+  background: #000;
+  color: #f3f0db;
+  font-family: var(--font-mono);
+  text-align: center;
+}
+
+.pablonet-connection-terminal {
+  display: grid;
+  width: min(100%, 48rem);
+  min-height: min(46rem, calc(100svh - 2.5rem));
+  place-items: center;
+  align-content: center;
+  gap: 1.25rem;
+}
+
+.pablonet-connection-kicker {
+  color: #00e5ff;
+  font-size: clamp(0.7rem, 1.8vw, 0.95rem);
+  text-transform: uppercase;
+}
+
+.pablonet-connect-prompt {
+  display: grid;
+  min-height: 20rem;
+  place-content: center;
+  justify-items: center;
+  gap: 1.5rem;
+  color: #31ff65;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  text-transform: uppercase;
+}
+
+.pablonet-connect-prompt button {
+  min-width: 10rem;
+  min-height: 3.25rem;
+  border: 2px solid #31ff65;
+  background: #000;
+  color: #31ff65;
+  font: inherit;
+  text-transform: uppercase;
+}
+
+.pablonet-connect-prompt button:hover,
+.pablonet-connect-prompt button:focus-visible {
+  background: #31ff65;
+  color: #000;
+  outline: none;
+}
+
+.pablonet-logo-frame {
+  position: relative;
+  display: grid;
+  width: min(72vw, 34rem, 48svh);
+  aspect-ratio: 1;
+  place-items: center;
+}
+
+.pablonet-logo-diamond {
+  position: absolute;
+  inset: 15%;
+  transform: rotate(45deg);
+  border: clamp(2px, 0.35vw, 4px) solid #fff;
+}
+
+.pablonet-logo-rows {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: clamp(0.05rem, 0.35vw, 0.2rem);
+}
+
+.pablonet-logo-row {
+  display: flex;
+  min-height: 1em;
+  justify-content: center;
+  gap: clamp(0.45rem, 1.55vw, 1.1rem);
+  font-family: var(--font-teletext);
+  font-size: clamp(1.65rem, 5.2vw, 3.9rem);
+  font-weight: 700;
+  line-height: 0.82;
+}
+
+.pablonet-logo-character {
+  width: 0.62em;
+  opacity: 0;
+  text-align: center;
+  text-shadow: 0 0 0.3rem currentColor;
+}
+
+.pablonet-logo-character[data-visible="true"] {
+  opacity: 1;
+}
+
+.pablonet-logo-character[data-colour="green"] { color: #00f21d; }
+.pablonet-logo-character[data-colour="red"] { color: #ff1420; }
+.pablonet-logo-character[data-colour="cyan"] { color: #00cbea; }
+.pablonet-logo-character[data-colour="yellow"] { color: #fff000; }
+.pablonet-logo-character[data-colour="white"] { color: #fff; }
+.pablonet-logo-character[data-colour="magenta"] { color: #ee00d8; }
+
+.pablonet-connection-status {
+  min-height: 3.2rem;
+  color: #00e5ff;
+  font-size: clamp(0.75rem, 2vw, 1rem);
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+.pablonet-connection-status strong {
+  color: #31ff65;
+  font: inherit;
+}
+
+.pablonet-connection-skip {
+  border: 0;
+  background: transparent;
+  color: rgba(243, 240, 219, 0.65);
+  font: inherit;
+  font-size: 0.7rem;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  text-transform: uppercase;
+}
+
+.pablonet-connection-skip:hover,
+.pablonet-connection-skip:focus-visible {
+  color: #fff45c;
+  outline: 1px solid #fff45c;
+  outline-offset: 0.35rem;
+}
+
+@media (max-width: 520px) {
+  .pablonet-connection-terminal {
+    min-height: calc(100svh - 2.5rem);
+    gap: 0.8rem;
+  }
+
+  .pablonet-logo-frame {
+    width: min(92vw, 26rem, 48svh);
+  }
+
+  .pablonet-logo-row {
+    gap: clamp(0.25rem, 1.8vw, 0.55rem);
+    font-size: clamp(1.45rem, 9.5vw, 2.6rem);
+  }
+}
+
+@media (max-height: 800px) {
+  .pablonet-connection-splash {
+    overflow: hidden;
+    padding: 0.5rem;
+  }
+
+  .pablonet-connection-terminal {
+    min-height: calc(100svh - 1rem);
+    gap: 0.55rem;
+  }
+
+  .pablonet-logo-frame {
+    width: min(72vw, 26rem, 48svh);
+  }
+}
+
 .site-edition-switcher {
   display: inline-flex;
   align-items: stretch;
