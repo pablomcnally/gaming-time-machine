@@ -558,6 +558,7 @@ html.pablonet-connected .pablonet-connection-splash {
   display: grid;
   width: min(72vw, 34rem, 48svh);
   aspect-ratio: 1;
+  container-type: inline-size;
   place-items: center;
 }
 
@@ -572,16 +573,17 @@ html.pablonet-connected .pablonet-connection-splash {
   position: relative;
   z-index: 1;
   display: grid;
-  gap: clamp(0.05rem, 0.35vw, 0.2rem);
+  gap: clamp(0.05rem, 0.5cqw, 0.2rem);
+  transform: scale(0.86);
 }
 
 .pablonet-logo-row {
   display: flex;
   min-height: 1em;
   justify-content: center;
-  gap: clamp(0.45rem, 1.55vw, 1.1rem);
+  gap: clamp(0.3rem, 3cqw, 1rem);
   font-family: var(--font-teletext);
-  font-size: clamp(1.65rem, 5.2vw, 3.9rem);
+  font-size: clamp(1.45rem, 11cqw, 3.4rem);
   font-weight: 700;
   line-height: 0.82;
 }
@@ -645,10 +647,6 @@ html.pablonet-connected .pablonet-connection-splash {
     width: min(92vw, 26rem, 48svh);
   }
 
-  .pablonet-logo-row {
-    gap: clamp(0.25rem, 1.8vw, 0.55rem);
-    font-size: clamp(1.45rem, 9.5vw, 2.6rem);
-  }
 }
 
 @media (max-height: 800px) {

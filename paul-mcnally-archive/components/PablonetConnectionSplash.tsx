@@ -84,6 +84,31 @@ export function PablonetConnectionSplash() {
     setLogoComplete(false);
     setAudioComplete(false);
 
+    function revealLogo(audioDuration: number) {
+      if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        setRevealedCharacters(totalLogoCharacters);
+        setLogoComplete(true);
+        return;
+      }
+
+      const revealDuration = Number.isFinite(audioDuration)
+        ? Math.min(6000, Math.max(3000, audioDuration * 1000 - 300))
+        : 3000;
+      const characterDelay = revealDuration / totalLogoCharacters;
+      let nextCharacter = 0;
+
+      revealTimerRef.current = window.setInterval(() => {
+        nextCharacter += 1;
+        setRevealedCharacters(nextCharacter);
+
+        if (nextCharacter >= totalLogoCharacters) {
+          if (revealTimerRef.current !== null) window.clearInterval(revealTimerRef.current);
+          revealTimerRef.current = null;
+          setLogoComplete(true);
+        }
+      }, characterDelay);
+    }
+
     const audio = new Audio("/media/pablonet-modem.mp3");
     audio.preload = "auto";
     audio.volume = 0.78;
@@ -99,26 +124,11 @@ export function PablonetConnectionSplash() {
       },
       { once: true }
     );
-    audio.play().catch(() => setAudioComplete(true));
     audioFallbackTimerRef.current = window.setTimeout(() => setAudioComplete(true), 10000);
-
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      setRevealedCharacters(totalLogoCharacters);
-      setLogoComplete(true);
-      return;
-    }
-
-    let nextCharacter = 0;
-    revealTimerRef.current = window.setInterval(() => {
-      nextCharacter += 1;
-      setRevealedCharacters(nextCharacter);
-
-      if (nextCharacter >= totalLogoCharacters) {
-        if (revealTimerRef.current !== null) window.clearInterval(revealTimerRef.current);
-        revealTimerRef.current = null;
-        setLogoComplete(true);
-      }
-    }, 95);
+    audio.play().then(() => revealLogo(audio.duration)).catch(() => {
+      setAudioComplete(true);
+      revealLogo(Number.NaN);
+    });
   }
 
   if (phase === "done" || typeof document === "undefined") return null;
