@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "ultimate-mister-fpga-retro-gaming-build": "/portfolio/features/ultimate-mister/ultimate-mister-pablonet.jpg",
   "commodore-callback-phone-retro-opinion": "/portfolio/home/commodore-callback-phone-pablonet.png",
   "ea-fc-27-warning-signs": "/portfolio/home/ea-fc-27-warning-signs-pablonet.png",
   "how-salford-became-uks-coronavirus-hotspot": "/portfolio/home/salford-coronavirus-pablonet.png",
