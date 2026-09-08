@@ -21,6 +21,9 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
 
   const label = getPortfolioKindLabel(kind);
   const pageCode = getPortfolioPageCode(kind, slug);
+  const featuredImage = piece.micronetImage || piece.featuredImage;
+  const featuredImageAlt = piece.micronetImage ? piece.micronetImageAlt : piece.featuredImageAlt;
+  const imageCredit = piece.micronetImage ? undefined : piece.imageCredit;
   const relatedPieces = getAllPortfolioPieces(kind).filter((candidate) => candidate.slug !== piece.slug).slice(0, 3);
 
   return (
@@ -32,7 +35,7 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
             <span aria-hidden="true"> // Page {pageCode} // Archive file</span>
           </nav>
 
-          <div className={`mt-5 grid gap-8 ${piece.featuredImage ? "lg:grid-cols-[minmax(0,1fr)_25rem] lg:items-end" : ""}`}>
+          <div className={`mt-5 grid gap-8 ${featuredImage ? "lg:grid-cols-[minmax(0,1fr)_25rem] lg:items-end" : ""}`}>
             <div>
               <h1 className="max-w-5xl font-mono text-3xl uppercase leading-tight text-terminal-yellow sm:text-4xl md:text-5xl">{piece.title}</h1>
               <p className="mt-6 max-w-3xl text-lg leading-8 text-terminal-paper md:text-xl">{piece.excerpt}</p>
@@ -54,10 +57,10 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
               </a>
             </div>
 
-            {piece.featuredImage ? (
+            {featuredImage ? (
               <figure className="viewdata-box overflow-hidden bg-terminal-black/85 p-3 shadow-terminal">
-                <img src={piece.featuredImage} alt={piece.featuredImageAlt || ""} className="aspect-[3/2] w-full border border-terminal-cyan/35 object-cover" />
-                {piece.imageCredit ? <figcaption className="mt-3 font-mono text-xs uppercase text-terminal-cyan">{piece.imageCredit}</figcaption> : null}
+                <img src={featuredImage} alt={featuredImageAlt || ""} className={`${piece.micronetImage ? "h-auto" : "aspect-[3/2] object-cover"} w-full border border-terminal-cyan/35`} />
+                {imageCredit ? <figcaption className="mt-3 font-mono text-xs uppercase text-terminal-cyan">{imageCredit}</figcaption> : null}
               </figure>
             ) : null}
           </div>

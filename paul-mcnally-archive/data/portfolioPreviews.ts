@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "ea-fc-27-warning-signs": "/portfolio/home/ea-fc-27-warning-signs-pablonet.png",
   "how-salford-became-uks-coronavirus-hotspot": "/portfolio/home/salford-coronavirus-pablonet.png",
   "amiga-a500-mini-retro-creators-interview": "/portfolio/home/amiga-a500-mini-pablonet.png",
   "eufymake-e1-review": "/portfolio/home/eufymake-e1-pablonet.png",

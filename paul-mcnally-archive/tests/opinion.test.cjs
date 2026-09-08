@@ -9,8 +9,8 @@ const root = path.resolve(__dirname, "..");
 const opinionDirectory = path.join(root, "content", "portfolio", "opinion");
 process.chdir(root);
 
-function fixture(slug, date) {
-  return `---\ntitle: "${slug}"\ndate: "${date}"\nslug: "${slug}"\nexcerpt: "A test column"\npublication: "Test publication"\nauthor: "Paul McNally"\nsourceUrl: "https://example.com/${slug}"\n---\nColumn body.`;
+function fixture(slug, date, extraFrontMatter = "") {
+  return `---\ntitle: "${slug}"\ndate: "${date}"\nslug: "${slug}"\nexcerpt: "A test column"\npublication: "Test publication"\nauthor: "Paul McNally"\n${extraFrontMatter}sourceUrl: "https://example.com/${slug}"\n---\nColumn body.`;
 }
 
 // Inject opinion files in memory so test content never enters a production build.
@@ -57,7 +57,7 @@ test("empty opinion directory ignores README and is available in both editions",
 test("new opinion articles enter both indexes and receive page codes from 302", () => {
   const { portfolio, pro, cards } = loadModules({
     "older.md": fixture("older-column", "2014-05-13"),
-    "newer.md": fixture("newer-column", "2020-05-18")
+    "newer.md": fixture("newer-column", "2020-05-18", "featuredImage: \"/pro.jpg\"\nmicronetImage: \"/pablonet.png\"\nmicronetImageAlt: \"Pixel artwork\"\n")
   });
   const entries = portfolio.getPortfolioPageEntries("opinion");
   assert.deepEqual(entries.map(({ number, href }) => ({ number, href })), [
@@ -65,6 +65,8 @@ test("new opinion articles enter both indexes and receive page codes from 302", 
     { number: "303", href: "/opinion/older-column" }
   ]);
   assert.equal(portfolio.getPortfolioPieceBySlug("opinion", "older-column").body, "Column body.");
+  assert.equal(portfolio.getPortfolioPieceBySlug("opinion", "newer-column").micronetImage, "/pablonet.png");
+  assert.equal(portfolio.getPortfolioPieceBySlug("opinion", "newer-column").micronetImageAlt, "Pixel artwork");
   assert.equal(portfolio.getAllPortfolioPieces().filter((piece) => piece.kind === "opinion").length, 2);
   assert.equal(portfolio.getPortfolioKeyboardPages().find((entry) => entry.number === "302").href, "/opinion/newer-column");
   const summaries = pro.getProfessionalSummaries("opinion");

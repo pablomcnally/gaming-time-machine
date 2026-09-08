@@ -19,6 +19,8 @@ export type PortfolioPiece = {
   category?: ReviewCategory;
   featuredImage?: string;
   featuredImageAlt?: string;
+  micronetImage?: string;
+  micronetImageAlt?: string;
   imageCredit?: string;
   sourceUrl: string;
   directoryPlacement?: "last";
@@ -94,6 +96,8 @@ function getPiecesForKind(kind: PortfolioKind): PortfolioPiece[] {
         category: kind === "reviews" ? category as ReviewCategory : undefined,
         featuredImage: data.featuredImage || undefined,
         featuredImageAlt: data.featuredImageAlt || undefined,
+        micronetImage: data.micronetImage || undefined,
+        micronetImageAlt: data.micronetImageAlt || undefined,
         imageCredit: data.imageCredit || undefined,
         sourceUrl: data.sourceUrl,
         directoryPlacement: data.directoryPlacement === "last" ? "last" : undefined,
