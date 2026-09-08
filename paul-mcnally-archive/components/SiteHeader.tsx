@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
+import { isPrestelServerName, pickPrestelServer } from "../lib/prestelServers";
 import { BackgroundMusicToggle } from "./BackgroundMusicToggle";
 import { CrtFrameToggle } from "./CrtFrameToggle";
 import { ModemSoundToggle } from "./ModemSoundToggle";
@@ -11,6 +13,8 @@ type KeyboardPage = {
   number: string;
   href: string;
 };
+
+const SERVER_STORAGE_KEY = "paul-mcnally-prestel-server";
 
 function formatDate(now: Date) {
   return new Intl.DateTimeFormat("en-GB", {
@@ -35,7 +39,10 @@ function formatTime(now: Date) {
 }
 
 export function SiteHeader({ contentKeyboardPages }: { contentKeyboardPages: KeyboardPage[] }) {
+  const pathname = usePathname();
   const [now, setNow] = useState<Date | null>(null);
+  const [serverName, setServerName] = useState<string | null>(null);
+  const previousPathname = useRef<string | null>(null);
 
   useEffect(() => {
     setNow(new Date());
@@ -44,11 +51,28 @@ export function SiteHeader({ contentKeyboardPages }: { contentKeyboardPages: Key
     return () => window.clearInterval(timer);
   }, []);
 
+  useEffect(() => {
+    const storedServer = window.sessionStorage.getItem(SERVER_STORAGE_KEY);
+    const returningHome = pathname === "/" && previousPathname.current !== "/";
+    const nextServer = returningHome || !isPrestelServerName(storedServer)
+      ? pickPrestelServer()
+      : storedServer;
+
+    previousPathname.current = pathname;
+    window.sessionStorage.setItem(SERVER_STORAGE_KEY, nextServer);
+    setServerName(nextServer);
+  }, [pathname]);
+
   return (
     <header className="site-header sticky top-0 z-40 bg-terminal-black font-mono uppercase shadow-terminal">
       <div className="site-header-grid mx-auto max-w-7xl border-b border-terminal-paper/80">
         <div className="site-header-service">
-          <p className="text-terminal-green">*** PABLONET 800 SERVICES ***</p>
+          <div className="site-header-service-copy">
+            <p className="text-terminal-green">*** PABLONET 800 SERVICES ***</p>
+            <p className="site-server-status text-terminal-cyan" aria-live="polite">
+              You are logged in to: {serverName || "---"}
+            </p>
+          </div>
           <nav className="site-edition-switcher" aria-label="Choose site edition">
             <span aria-current="page">Pablonet</span>
             <Link href="/pro">Pro</Link>

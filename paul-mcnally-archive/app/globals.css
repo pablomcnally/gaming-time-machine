@@ -482,6 +482,16 @@ html:not(.crt-frame-off) .crt-power-button {
   gap: 0.35rem 0.75rem;
 }
 
+.site-header-service-copy {
+  display: grid;
+  gap: 0.1rem;
+}
+
+.site-server-status {
+  font-size: 0.625rem;
+  line-height: 1.2;
+}
+
 .site-edition-switcher {
   display: inline-flex;
   align-items: stretch;
