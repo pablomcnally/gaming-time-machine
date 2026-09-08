@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ProNavigation, EditionLink } from "../../components/pro/ProNavigation";
+import { ProNavigation, EditionLink, ProEditionSwitcher } from "../../components/pro/ProNavigation";
 import "./professional.css";
 
 export const metadata: Metadata = {
@@ -21,7 +21,10 @@ export default function ProfessionalLayout({ children }: { children: React.React
   return <div className="pro-site">
     <a className="pro-skip-link" href="#pro-main">Skip to content</a>
     <header className="pro-header"><div className="pro-container pro-header-inner">
-      <Link href="/pro" className="pro-brand" aria-label="Paul McNally, portfolio home">Paul McNally<span>Journalist &amp; editor</span></Link>
+      <div className="pro-brand-block">
+        <Link href="/pro" className="pro-brand" aria-label="Paul McNally, portfolio home">Paul McNally<span>Journalist &amp; editor</span></Link>
+        <ProEditionSwitcher />
+      </div>
       <ProNavigation />
     </div></header>
     <main id="pro-main" tabIndex={-1}>{children}</main>

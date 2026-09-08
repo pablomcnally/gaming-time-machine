@@ -18,7 +18,13 @@ export function ProNavigation() {
 }
 
 export function EditionLink() {
-  const pathname = usePathname();
-  const terminalPath = pathname === "/pro" ? "/" : pathname.replace(/^\/pro/, "");
-  return <Link href={terminalPath}>Micronet edition</Link>;
+  return <Link href="/">Pablonet</Link>;
+}
+
+export function ProEditionSwitcher() {
+  return <nav className="pro-edition-switcher" aria-label="Choose site edition">
+    <Link href="/">Pablonet</Link>
+    <span className="pro-edition-divider" aria-hidden="true">/</span>
+    <span aria-current="page">Pro</span>
+  </nav>;
 }

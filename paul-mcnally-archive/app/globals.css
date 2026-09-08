@@ -475,6 +475,42 @@ html:not(.crt-frame-off) .crt-power-button {
   font-size: 0.875rem;
 }
 
+.site-header-service {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.75rem;
+}
+
+.site-edition-switcher {
+  display: inline-flex;
+  align-items: stretch;
+  border: 1px solid rgba(0, 229, 255, 0.55);
+  font-size: 0.7rem;
+  line-height: 1;
+}
+
+.site-edition-switcher :is(a, span) {
+  display: inline-flex;
+  min-height: 1.65rem;
+  align-items: center;
+  padding: 0.25rem 0.45rem;
+}
+
+.site-edition-switcher span[aria-current="page"] {
+  background: #00e5ff;
+  color: #070807;
+}
+
+.site-edition-switcher a {
+  color: #f3f0db;
+}
+
+.site-edition-switcher a:hover {
+  background: #fff45c;
+  color: #070807;
+}
+
 .site-header-meta {
   display: flex;
   flex-wrap: wrap;

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { BackgroundMusicToggle } from "./BackgroundMusicToggle";
 import { CrtFrameToggle } from "./CrtFrameToggle";
@@ -46,7 +47,13 @@ export function SiteHeader({ contentKeyboardPages }: { contentKeyboardPages: Key
   return (
     <header className="site-header sticky top-0 z-40 bg-terminal-black font-mono uppercase shadow-terminal">
       <div className="site-header-grid mx-auto max-w-7xl border-b border-terminal-paper/80">
-        <p className="text-terminal-green">*** PABLONET 800 SERVICES ***</p>
+        <div className="site-header-service">
+          <p className="text-terminal-green">*** PABLONET 800 SERVICES ***</p>
+          <nav className="site-edition-switcher" aria-label="Choose site edition">
+            <span aria-current="page">Pablonet</span>
+            <Link href="/pro">Pro</Link>
+          </nav>
+        </div>
         <p className="site-header-title text-terminal-paper">Personal Archive Terminal</p>
         <div className="site-header-meta text-terminal-green">
           <p className="site-header-clock">{now ? `${formatTime(now)}  ${formatServiceDate(now)}` : "--:--  --- -- --- ----"}</p>
