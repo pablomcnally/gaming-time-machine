@@ -4,7 +4,7 @@ export type CareerMilestone = {
 };
 
 export const careerMilestones: CareerMilestone[] = [
-  { year: "1986", label: "First published work" },
+  { year: "1986", label: "First Published work (Micronet 800)" },
   { year: "1990", label: "Staff Writer (ST Action)" },
   { year: "1994", label: "First Editor role" },
   { year: "1996", label: "Editor of market-leading PlayStation title" },
