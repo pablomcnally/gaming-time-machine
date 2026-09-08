@@ -120,7 +120,7 @@ export function BackgroundMusicToggle() {
         title={isEnabled && !isPlaying ? "Music enabled; waiting for browser playback permission" : undefined}
         type="button"
       >
-        MUS {isEnabled ? "ON" : "OFF"}
+        MUSIC {isEnabled ? "ON" : "OFF"}
       </button>
       <span aria-live="polite" className="sr-only">
         {isEnabled ? (isPlaying ? "Background music playing" : "Background music enabled and waiting to play") : "Background music off"}

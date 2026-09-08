@@ -11,7 +11,6 @@ import {
 } from "../lib/prestelServers";
 import { BackgroundMusicToggle } from "./BackgroundMusicToggle";
 import { CrtFrameToggle } from "./CrtFrameToggle";
-import { ModemSoundToggle } from "./ModemSoundToggle";
 import { RetroNavigation } from "./RetroNavigation";
 
 type KeyboardPage = {
@@ -84,7 +83,6 @@ export function SiteHeader({ contentKeyboardPages }: { contentKeyboardPages: Key
           <p className="site-header-clock">{now ? `${formatTime(now)}  ${formatServiceDate(now)}` : "--:--  --- -- --- ----"}</p>
           <div className="site-header-controls">
             <CrtFrameToggle />
-            <ModemSoundToggle />
             <BackgroundMusicToggle />
           </div>
         </div>
