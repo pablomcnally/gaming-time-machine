@@ -25,10 +25,7 @@ export function CrtDisplayShell({ children }: CrtDisplayShellProps) {
           <div className="crt-speaker-grille" />
           <div className="crt-control-bay">
             <div className="crt-brand">
-              <span>NEC</span>
-              <i />
-              <i />
-              <i />
+              <img src="/media/der-logo.png" alt="" />
             </div>
             <p>AUTO COLOUR</p>
             <div className="crt-channel-strip">
