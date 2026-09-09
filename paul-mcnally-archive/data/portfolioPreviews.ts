@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "best-weird-game-titles": "/portfolio/features/weird-game-titles/weird-game-titles-pablonet.png",
   "mister-fpga-ai-core-development-opinion": "/portfolio/opinion/mister-fpga-ai-core-development-opinion/mister-fpga-ai-pablonet.png",
   "ultimate-mister-fpga-retro-gaming-build": "/portfolio/features/ultimate-mister/ultimate-mister-pablonet.jpg",
   "commodore-callback-phone-retro-opinion": "/portfolio/home/commodore-callback-phone-pablonet.png",
