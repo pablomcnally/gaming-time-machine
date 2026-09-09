@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "payday-3-review": "/portfolio/reviews/payday-3-review/payday-3-pablonet.png",
   "8bitdo-c64-keyboard-review": "/portfolio/reviews/8bitdo-c64-keyboard-review/8bitdo-c64-keyboard-pablonet.png",
   "best-weird-game-titles": "/portfolio/features/weird-game-titles/weird-game-titles-pablonet.png",
   "how-to-get-started-collecting-retro-games": "/portfolio/features/collecting-retro-games/collecting-retro-games-pablonet.png",
