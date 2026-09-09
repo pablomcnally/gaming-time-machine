@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "8bitdo-c64-keyboard-review": "/portfolio/reviews/8bitdo-c64-keyboard-review/8bitdo-c64-keyboard-pablonet.png",
   "best-weird-game-titles": "/portfolio/features/weird-game-titles/weird-game-titles-pablonet.png",
   "how-to-get-started-collecting-retro-games": "/portfolio/features/collecting-retro-games/collecting-retro-games-pablonet.png",
   "mister-fpga-ai-core-development-opinion": "/portfolio/opinion/mister-fpga-ai-core-development-opinion/mister-fpga-ai-pablonet.png",
