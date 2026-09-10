@@ -170,6 +170,11 @@ body:has(.pro-site)::before { display: none; }
 .pro-site .pro-prose .portfolio-media { background: transparent; border: none; box-shadow: none; margin: 38px 0; }
 .pro-site .pro-prose .portfolio-media img { max-height: 800px; }
 .pro-site .pro-prose .portfolio-media figcaption { color: var(--pro-muted); border: none; padding: 12px 0 0; text-transform: none; font: 12px/1.6 Arial,sans-serif; }
+.pro-site .pro-prose .portfolio-audio { border: 1px solid var(--pro-line); background: #edf1ec; }
+.pro-site .pro-prose .portfolio-audio-player { background: #edf1ec; padding: 28px; }
+.pro-site .pro-prose .portfolio-audio-kicker { margin: 0; color: var(--pro-green); font: 700 11px/1.4 Arial,sans-serif; letter-spacing: .1em; }
+.pro-site .pro-prose .portfolio-audio-player strong { color: var(--pro-ink); font: 700 22px/1.35 Arial,sans-serif; text-transform: none; }
+.pro-site .pro-prose .portfolio-audio figcaption { border-top: 1px solid var(--pro-line); padding: 10px 14px; }
 .pro-site .pro-prose .portfolio-table-scroll { background: white; border: 1px solid var(--pro-line); }
 .pro-site .pro-prose .portfolio-table-scroll table { color: var(--pro-ink); font: 14px/1.6 Arial,sans-serif; }
 .pro-site .pro-prose .portfolio-table-scroll :is(th,td) { border-color: var(--pro-line); color: var(--pro-ink); font-family: Arial,sans-serif; }

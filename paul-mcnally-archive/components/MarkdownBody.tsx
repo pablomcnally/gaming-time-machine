@@ -133,6 +133,27 @@ export function MarkdownBody({ className = "", content }: MarkdownBodyProps) {
           );
         }
 
+        const audioMatch = block.match(/^\[AUDIO:(https:\/\/[^|\]]+)\|([^|\]]+)\|([^\]]+)\]$/);
+
+        if (audioMatch) {
+          const [, audioUrl, title, duration] = audioMatch;
+
+          return (
+            <figure className="portfolio-media portfolio-audio" key={audioUrl}>
+              <div className="portfolio-audio-player">
+                <p className="portfolio-audio-kicker">Audio archive // {duration}</p>
+                <strong>{title}</strong>
+                <audio aria-label={title} controls preload="metadata" src={audioUrl}>
+                  <a href={audioUrl}>Open the audio file</a>
+                </audio>
+              </div>
+              <figcaption>
+                {title} // <a href={audioUrl} rel="noreferrer" target="_blank">Open audio file</a>
+              </figcaption>
+            </figure>
+          );
+        }
+
         if (block.startsWith("## ")) {
           return <h2 key={block}>{block.replace("## ", "")}</h2>;
         }
