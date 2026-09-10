@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "ssx-ps2-ea-sports-big-snowboarding-history": "/portfolio/features/ssx-ps2/ssx-pablonet.webp",
   "jobs-vs-gates": "/portfolio/features/jobs-vs-gates/jobs-vs-gates-pablonet.webp",
   "payday-3-review": "/portfolio/reviews/payday-3-review/payday-3-pablonet.png",
   "8bitdo-c64-keyboard-review": "/portfolio/reviews/8bitdo-c64-keyboard-review/8bitdo-c64-keyboard-pablonet.png",
