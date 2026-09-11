@@ -1326,6 +1326,10 @@ textarea {
   line-height: 1.85;
 }
 
+.prose-terminal:not(.pro-prose) > p + p {
+  margin-top: 1.2rem;
+}
+
 .prose-terminal ul,
 .prose-terminal ol {
   margin: 1.25rem 0;
