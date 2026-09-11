@@ -1,4 +1,5 @@
 const portfolioPreviewImages: Record<string, string> = {
+  "dcs-world-beginners-guide-2026": "/portfolio/features/dcs-world/dcs-world-pablonet.png",
   "maximum-power-up-paul-mcnally-interview": "/portfolio/features/maximum-power-up-interview/maximum-power-up-pablonet.webp",
   "ssx-ps2-ea-sports-big-snowboarding-history": "/portfolio/features/ssx-ps2/ssx-pablonet.webp",
   "jobs-vs-gates": "/portfolio/features/jobs-vs-gates/jobs-vs-gates-pablonet.webp",
