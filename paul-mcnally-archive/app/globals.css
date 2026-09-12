@@ -697,6 +697,59 @@ html.pablonet-connected .pablonet-connection-splash {
   gap: 0.5rem;
 }
 
+@container site-header (max-width: 39.999rem) {
+  .site-header-grid {
+    gap: 0.35rem;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.8rem;
+  }
+
+  .site-header-service {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.4rem;
+  }
+
+  .site-header-title {
+    display: none;
+  }
+
+  .site-server-status {
+    font-size: 0.55rem;
+  }
+
+  .site-edition-switcher {
+    font-size: 0.625rem;
+  }
+
+  .site-edition-switcher :is(a, span) {
+    min-height: 1.5rem;
+    padding: 0.2rem 0.4rem;
+  }
+
+  .site-header-meta {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.4rem;
+  }
+
+  .site-header-clock {
+    width: auto;
+    font-size: 0.7rem;
+  }
+
+  .site-header-controls {
+    gap: 0.3rem;
+  }
+
+  .site-header-controls button {
+    min-height: 1.5rem;
+    padding: 0.2rem 0.4rem;
+    font-size: 0.625rem;
+    line-height: 1;
+  }
+}
+
 @container site-header (min-width: 40rem) {
   .site-header-grid {
     grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
@@ -729,6 +782,24 @@ html.pablonet-connected .pablonet-connection-splash {
   font-family: var(--font-teletext);
   font-synthesis: none;
   letter-spacing: 0;
+}
+
+.teletext-mobile-menu-toggle {
+  min-height: 2.75rem;
+  border-block: 1px solid rgba(243, 240, 219, 0.22);
+  font-size: 1.2rem;
+  line-height: 1;
+  text-shadow: 0 0 0.32rem currentColor;
+}
+
+.teletext-mobile-menu-toggle:focus-visible {
+  outline: 2px solid #fff45c;
+  outline-offset: -3px;
+}
+
+html:not(.crt-frame-off) .teletext-mobile-menu-toggle {
+  padding-right: clamp(2.25rem, 5vw, 3.5rem);
+  padding-left: clamp(2.25rem, 5vw, 3.5rem);
 }
 
 .service-page-code,

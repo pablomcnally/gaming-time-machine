@@ -15,6 +15,7 @@ type KeyboardPage = {
 export function RetroNavigation({ contentKeyboardPages }: { contentKeyboardPages: KeyboardPage[] }) {
   const pathname = usePathname();
   const router = useRouter();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [pageEntry, setPageEntry] = useState("");
   const pageBufferRef = useRef("");
   const resetTimerRef = useRef<number | null>(null);
@@ -74,6 +75,7 @@ export function RetroNavigation({ contentKeyboardPages }: { contentKeyboardPages
 
       if (item) {
         scheduleReset(350);
+        setIsMenuOpen(false);
         router.push(item.href);
       } else {
         setPageEntry("???");
@@ -89,30 +91,54 @@ export function RetroNavigation({ contentKeyboardPages }: { contentKeyboardPages
     };
   }, [contentKeyboardPages, router]);
 
+  const activeNavigationItem =
+    navigationItems.find((item) => pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href))) ||
+    navigationItems[0];
+
   return (
     <>
-      <nav aria-label="Main navigation" className="teletext-navigation bg-terminal-blue">
-        <div className="teletext-nav-grid mx-auto grid max-w-7xl gap-1 px-3 py-2 sm:px-4">
-        {navigationItems.map((item) => {
-          const isActive = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
+      <div className="teletext-navigation bg-terminal-blue">
+        <button
+          aria-controls="teletext-primary-navigation"
+          aria-expanded={isMenuOpen}
+          className="teletext-mobile-menu-toggle mx-auto flex w-full max-w-7xl items-center justify-between px-3 py-2 uppercase sm:hidden"
+          onClick={() => setIsMenuOpen((isOpen) => !isOpen)}
+          type="button"
+        >
+          <span className="text-terminal-yellow">
+            <span aria-hidden="true">{activeNavigationItem.number}: </span>
+            {activeNavigationItem.label}
+          </span>
+          <span className="text-terminal-paper">{isMenuOpen ? "Close -" : "Menu +"}</span>
+        </button>
+        <nav aria-label="Main navigation" id="teletext-primary-navigation">
+          <div
+            className={`teletext-nav-grid mx-auto max-w-7xl gap-1 px-3 py-2 sm:grid sm:px-4 ${
+              isMenuOpen ? "grid" : "hidden"
+            }`}
+          >
+            {navigationItems.map((item) => {
+              const isActive = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
 
-          return (
-            <Link
-              key={item.href}
-              href={item.href}
-              aria-current={isActive ? "page" : undefined}
-              aria-label={`Page ${item.number}: ${item.label}`}
-              className={`teletext-nav-link min-h-10 px-1 py-1 text-center uppercase transition hover:bg-terminal-yellow hover:text-terminal-black ${
-                isActive ? "text-terminal-yellow" : "text-terminal-paper"
-              }`}
-            >
-              <span aria-hidden="true">{item.number}: </span>
-              <span className="min-w-0 break-words">{item.label}</span>
-            </Link>
-          );
-        })}
-        </div>
-      </nav>
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  aria-current={isActive ? "page" : undefined}
+                  aria-label={`Page ${item.number}: ${item.label}`}
+                  className={`teletext-nav-link min-h-10 px-1 py-1 text-center uppercase transition hover:bg-terminal-yellow hover:text-terminal-black ${
+                    isActive ? "text-terminal-yellow" : "text-terminal-paper"
+                  }`}
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  <span aria-hidden="true">{item.number}: </span>
+                  <span className="min-w-0 break-words">{item.label}</span>
+                </Link>
+              );
+            })}
+          </div>
+        </nav>
+      </div>
       {pageEntry ? (
         <div
           aria-label={pageEntry === "???" ? "Unknown page code" : `Page code ${pageEntry}`}
