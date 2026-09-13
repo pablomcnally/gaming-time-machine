@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { getPablonetEditionHref } from "../../lib/editionRoutes";
 
 export function ProNavigation() {
   const pathname = usePathname();
@@ -18,12 +19,16 @@ export function ProNavigation() {
 }
 
 export function EditionLink() {
-  return <Link href="/">Pablonet</Link>;
+  const pathname = usePathname();
+
+  return <Link href={getPablonetEditionHref(pathname)}>Pablonet</Link>;
 }
 
 export function ProEditionSwitcher() {
+  const pathname = usePathname();
+
   return <nav className="pro-edition-switcher" aria-label="Choose site edition">
-    <Link href="/">Pablonet</Link>
+    <Link href={getPablonetEditionHref(pathname)}>Pablonet</Link>
     <span className="pro-edition-divider" aria-hidden="true">/</span>
     <span aria-current="page">Pro</span>
   </nav>;

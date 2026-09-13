@@ -9,6 +9,7 @@ import {
   PRESTEL_CONNECTION_STORAGE_KEY,
   PRESTEL_SERVER_STORAGE_KEY
 } from "../lib/prestelServers";
+import { getProfessionalEditionHref } from "../lib/editionRoutes";
 import { BackgroundMusicToggle } from "./BackgroundMusicToggle";
 import { CrtFrameToggle } from "./CrtFrameToggle";
 import { RetroNavigation } from "./RetroNavigation";
@@ -75,7 +76,7 @@ export function SiteHeader({ contentKeyboardPages }: { contentKeyboardPages: Key
           </div>
           <nav className="site-edition-switcher" aria-label="Choose site edition">
             <span aria-current="page">Pablonet</span>
-            <Link href="/pro">Pro</Link>
+            <Link href={getProfessionalEditionHref(pathname)}>Pro</Link>
           </nav>
         </div>
         <p className="site-header-title text-terminal-paper">Personal Archive Terminal</p>
