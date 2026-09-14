@@ -16,7 +16,7 @@ function formatPortfolioDate(date: string) {
 }
 
 function HomePortfolioCard({ piece, eager = false }: { piece: PortfolioPiece; eager?: boolean }) {
-  const previewImage = getPortfolioPreviewImage(piece.slug);
+  const previewImage = piece.micronetImage || getPortfolioPreviewImage(piece.slug) || piece.featuredImage;
 
   return (
     <Link
@@ -29,7 +29,7 @@ function HomePortfolioCard({ piece, eager = false }: { piece: PortfolioPiece; ea
           <Image
             src={previewImage}
             alt=""
-            className="object-cover"
+            className={piece.micronetImage ? "object-contain" : "object-cover"}
             fill
             priority={eager}
             sizes="(min-width: 1280px) 410px, (min-width: 768px) 50vw, 100vw"

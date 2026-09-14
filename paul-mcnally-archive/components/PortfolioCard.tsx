@@ -8,7 +8,12 @@ function formatDate(date: string) {
 }
 
 export function PortfolioCard({ piece }: { piece: PortfolioPiece }) {
-  const previewImage = getPortfolioPreviewImage(piece.slug);
+  const previewImage = piece.micronetImage || getPortfolioPreviewImage(piece.slug) || piece.featuredImage;
+  const previewImageAlt = piece.micronetImage
+    ? piece.micronetImageAlt || ""
+    : previewImage === piece.featuredImage
+      ? piece.featuredImageAlt || ""
+      : `Pablonet-style pixel artwork for ${piece.title}`;
   const fileLabel = piece.kind === "opinion" ? "OPINION" : piece.kind === "features" ? "FEATURE" : piece.kind === "reviews" ? "REVIEW" : "INTERVIEW";
 
   return (
@@ -17,10 +22,10 @@ export function PortfolioCard({ piece }: { piece: PortfolioPiece }) {
         {previewImage ? (
           <Image
             src={previewImage}
-            alt={`Pablonet-style pixel artwork for ${piece.title}`}
+            alt={previewImageAlt}
             fill
             sizes="(min-width: 1024px) 50vw, 100vw"
-            className="border-b border-terminal-cyan/30 object-cover transition duration-300 group-hover:scale-[1.015]"
+            className={`border-b border-terminal-cyan/30 ${piece.micronetImage ? "object-contain" : "object-cover"} transition duration-300 group-hover:scale-[1.015]`}
           />
         ) : (
           <div className="home-portfolio-placeholder h-full border-b border-terminal-cyan/30" aria-hidden="true">
