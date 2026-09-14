@@ -61,6 +61,6 @@ export function getArticleStructuredData({
     wordCount: body.trim().split(/\s+/).filter(Boolean).length,
     inLanguage: "en-GB",
     image: image ? [absoluteUrl(image)] : undefined,
-    isBasedOn: sourceUrl || undefined
+    isBasedOn: sourceUrl ? absoluteUrl(sourceUrl) : undefined
   };
 }

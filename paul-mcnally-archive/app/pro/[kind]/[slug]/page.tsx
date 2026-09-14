@@ -8,6 +8,7 @@ import { ResponsiveImage } from "../../../../components/ResponsiveImage";
 import { StructuredData } from "../../../../components/StructuredData";
 import { ArticleCard, articleLabel, proDate } from "../../../../components/pro/ArticleCard";
 import { getProfessionalArticles, getProfessionalArticle, isProfessionalKind } from "../../../../lib/professional";
+import { getRelatedArticles } from "../../../../lib/related";
 import { getArticleStructuredData } from "../../../../lib/structuredData";
 
 type Props = { params: Promise<{ kind: string; slug: string }> };
@@ -36,8 +37,9 @@ export default async function ProfessionalArticlePage({ params }: Props) {
   if (!isProfessionalKind(kind)) notFound();
   const article = getProfessionalArticle(kind, slug);
   if (!article) notFound();
-  const collection = getProfessionalArticles(kind).filter((item) => !article.category || item.category === article.category);
-  const related = collection.filter((item) => item.slug !== slug).slice(0, 3);
+  const articles = getProfessionalArticles();
+  const collection = articles.filter((item) => item.kind === kind && (!article.category || item.category === article.category));
+  const related = getRelatedArticles(article, articles);
   const currentIndex = collection.findIndex((item) => item.slug === slug);
   const previousArticle = currentIndex > 0 ? collection[currentIndex - 1] : undefined;
   const nextArticle = currentIndex >= 0 ? collection[currentIndex + 1] : undefined;
@@ -71,6 +73,6 @@ export default async function ProfessionalArticlePage({ params }: Props) {
         next={nextArticle ? { href: `/pro/${kind}/${nextArticle.slug}`, title: nextArticle.title } : undefined}
       />
     </article>
-    {related.length ? <section className="pro-section"><div className="pro-section-heading"><h2>More {kind === "blog" ? "from the blog" : kind}</h2><Link className="pro-text-link" href={directory}>View the collection</Link></div><div className="pro-work-grid">{related.map(({ body: _body, ...item }) => <ArticleCard key={item.slug} article={item} />)}</div></section> : null}
+    {related.length ? <section className="pro-section"><div className="pro-section-heading"><h2>Related work</h2><Link className="pro-text-link" href={directory}>View the collection</Link></div><div className="pro-work-grid">{related.map(({ body: _body, ...item }) => <ArticleCard key={`${item.kind}/${item.slug}`} article={item} />)}</div></section> : null}
   </div>;
 }

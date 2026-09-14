@@ -21,6 +21,7 @@ publication: "Publication name"
 author: "Paul McNally"
 category: "games"
 tag: "Retro Gaming"
+related: "features/example-feature, interviews/example-interview"
 featuredImage: "/portfolio/reviews/example-game-review/featured.jpg"
 featuredImageAlt: "A useful description of the featured image"
 imageCredit: "Optional image credit"
@@ -55,6 +56,7 @@ Videos use:
 
 - `updatedDate`
 - `tag`
+- `related`, as comma-separated `kind/slug` references shown before automatic recommendations
 - `featuredImage`
 - `featuredImageAlt` (include whenever `featuredImage` is used)
 - `imageCredit`

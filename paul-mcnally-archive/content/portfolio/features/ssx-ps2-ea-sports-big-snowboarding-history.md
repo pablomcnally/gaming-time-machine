@@ -6,6 +6,7 @@ excerpt: "The original SSX turned a PlayStation 2 launch game into an arcade sno
 publication: "The Escapist"
 author: "Paul McNally"
 tag: "Retro Gaming"
+related: "interviews/tim-kitzrow-nba-jam-blitz-mutant-football-league-interview, interviews/michael-mendheim-mutant-football-league-2-interview"
 featuredImage: "/portfolio/features/ssx-ps2/ssx-tricky.webp"
 featuredImageAlt: "Two snowboarders racing through a snowy SSX Tricky course"
 micronetImage: "/portfolio/features/ssx-ps2/ssx-pablonet.webp"

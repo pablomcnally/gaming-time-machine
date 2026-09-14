@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { getAllBlogPosts } from "../lib/blog";
 import { getAllPortfolioPieces, getPortfolioKindLabel, getPortfolioPageCode, getPortfolioPieceBySlug, type PortfolioKind, type PortfolioPiece } from "../lib/portfolio";
+import { getRelatedArticles, getRelatedLabel, type RelatedArticle } from "../lib/related";
 import { ArticleContents, ArticlePagination } from "./ArticleReadingTools";
 import { getMarkdownHeadings, MarkdownBody } from "./MarkdownBody";
 import { ReadingProgress } from "./ReadingProgress";
@@ -29,7 +31,11 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
   const featuredImage = piece.micronetImage || piece.featuredImage;
   const featuredImageAlt = piece.micronetImage ? piece.micronetImageAlt : piece.featuredImageAlt;
   const imageCredit = piece.micronetImage ? undefined : piece.imageCredit;
-  const relatedPieces = getAllPortfolioPieces(kind).filter((candidate) => candidate.slug !== piece.slug).slice(0, 3);
+  const relatedCandidates: RelatedArticle[] = [
+    ...getAllPortfolioPieces(),
+    ...getAllBlogPosts().map((post) => ({ ...post, kind: "blog" }))
+  ];
+  const relatedPieces = getRelatedArticles<RelatedArticle>(piece, relatedCandidates);
   const orderedPieces = getAllPortfolioPieces(kind);
   const currentIndex = orderedPieces.findIndex((candidate) => candidate.slug === piece.slug);
   const previousPiece = currentIndex > 0 ? orderedPieces[currentIndex - 1] : undefined;
@@ -141,8 +147,9 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
               <h2 className="text-terminal-green">Related files</h2>
               <div className="mt-5 grid gap-4">
                 {relatedPieces.map((related) => (
-                  <Link key={related.slug} className="block border-l-2 border-terminal-cyan pl-3 leading-5 text-terminal-paper hover:border-terminal-yellow hover:text-terminal-yellow" href={`/${kind}/${related.slug}`}>
-                    {related.title}
+                  <Link key={`${related.kind}/${related.slug}`} className="block border-l-2 border-terminal-cyan pl-3 leading-5 text-terminal-paper hover:border-terminal-yellow hover:text-terminal-yellow" href={`/${related.kind}/${related.slug}`}>
+                    <span className="block text-terminal-cyan">{getRelatedLabel(related)}</span>
+                    <span className="mt-1 block">{related.title}</span>
                   </Link>
                 ))}
               </div>

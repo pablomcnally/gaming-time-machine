@@ -6,6 +6,7 @@ excerpt: "DCS World looks intimidating, but the right starter aircraft, a sensib
 publication: "The Escapist"
 author: "Paul McNally"
 tag: "Flight Simulation"
+related: "reviews/delanclip-fusion-pro-review"
 featuredImage: "/portfolio/features/dcs-world/dcs-world.webp"
 featuredImageAlt: "A fighter aircraft banking over the landscape in DCS World"
 micronetImage: "/portfolio/features/dcs-world/dcs-world-pablonet.png"

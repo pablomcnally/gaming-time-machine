@@ -10,6 +10,7 @@ slug: "post-url-slug"
 excerpt: "A short index and metadata description."
 author: "Paul McNally"
 tag: "Optional tag"
+related: "features/example-feature, reviews/example-review"
 featuredImage: "/optional/image/path.jpg"
 featuredImageAlt: "Optional image description"
 ---
@@ -17,4 +18,4 @@ featuredImageAlt: "Optional image description"
 Post copy starts here.
 ```
 
-The required fields are `title`, `date`, `slug`, and `excerpt`. The author defaults to Paul McNally; the tag and image fields are optional.
+The required fields are `title`, `date`, `slug`, and `excerpt`. The author defaults to Paul McNally; the tag, image and comma-separated `related` fields are optional.

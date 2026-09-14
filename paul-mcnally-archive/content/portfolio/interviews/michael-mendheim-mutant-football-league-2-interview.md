@@ -6,6 +6,7 @@ excerpt: "Michael Mendheim discusses building Mutant Football League 2 with a se
 publication: "The Escapist"
 author: "Paul McNally"
 tag: "Game development"
+related: "features/ssx-ps2-ea-sports-big-snowboarding-history, interviews/tim-kitzrow-nba-jam-blitz-mutant-football-league-interview"
 featuredImage: "/portfolio/interviews/michael-mendheim/mendheim.webp"
 featuredImageAlt: "Michael Mendheim, creator of Mutant Football League"
 sourceUrl: "https://www.escapistmagazine.com/news-mutant-football-league-2-interview-michael-mendheim"

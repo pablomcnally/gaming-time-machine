@@ -43,10 +43,10 @@ npm run dev -- --port 3001
 ## Production Build
 
 ```powershell
-npm run build
+npm run check:publish
 ```
 
-The site is built with normal Next.js static generation where possible. Vercel can deploy it directly as a Next project.
+The publish check validates article metadata, editorial recommendations, local images and internal Markdown links before running the production build. Vercel can deploy the resulting Next project directly.
 
 ## Adding Posts
 
@@ -83,6 +83,12 @@ content/portfolio/features
 ```
 
 Use the same front matter as the existing portfolio files, including the original publication URL and a local featured-image path. Each file automatically appears on its section index and gets a permanent static page at `/interviews/[slug]` or `/features/[slug]`; no page component needs to be copied.
+
+Related reading is selected automatically from the article subject, tag and category. To place specific pieces first, add comma-separated `kind/slug` references:
+
+```yaml
+related: "reviews/example-review, interviews/example-interview"
+```
 
 The shared content loader lives in `lib/portfolio.ts`, while the common index, card and detail layouts live in `components/PortfolioIndex.tsx`, `components/PortfolioCard.tsx` and `components/PortfolioPiecePage.tsx`.
 

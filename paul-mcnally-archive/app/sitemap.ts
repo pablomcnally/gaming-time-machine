@@ -1,36 +1,37 @@
 import type { MetadataRoute } from "next";
-import { careerEntries } from "../data/career";
 import { getAllBlogPosts } from "../lib/blog";
 import { getAllPortfolioPieces } from "../lib/portfolio";
 import { getAllPosts } from "../lib/posts";
+import { SITE_URL } from "../lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://paul-mcnally-archive.vercel.app";
-  const now = new Date();
-  const pages = ["", "/about", "/career", "/writing", "/interviews", "/features", "/blog", "/reviews", "/reviews/games", "/reviews/tech", "/work", "/contact", "/micronet-800", "/system-status", "/pro", "/pro/work", "/pro/about", "/pro/contact", "/pro/features", "/pro/interviews", "/pro/reviews", "/pro/reviews/games", "/pro/reviews/tech", "/pro/blog"];
+  const portfolioPieces = getAllPortfolioPieces();
+  const blogPosts = getAllBlogPosts();
+  const writingPosts = getAllPosts();
+  const newestContentDate = [
+    ...portfolioPieces.map((piece) => piece.updatedDate || piece.date),
+    ...blogPosts.map((post) => post.date),
+    ...writingPosts.map((post) => post.date)
+  ].sort((left, right) => right.localeCompare(left))[0];
+  const collectionModified = new Date(`${newestContentDate}T00:00:00Z`);
+  const pages = ["", "/about", "/career", "/writing", "/opinion", "/interviews", "/features", "/blog", "/reviews", "/reviews/games", "/reviews/tech", "/work", "/contact", "/micronet-800", "/system-status", "/pro", "/pro/work", "/pro/about", "/pro/contact", "/pro/features", "/pro/interviews", "/pro/opinion", "/pro/reviews", "/pro/reviews/games", "/pro/reviews/tech", "/pro/blog"];
 
   return [
-    { url: `${siteUrl}/opinion`, lastModified: now },
-    { url: `${siteUrl}/pro/opinion`, lastModified: now },
     ...pages.map((page) => ({
-      url: `${siteUrl}${page}`,
-      lastModified: now
+      url: `${SITE_URL}${page}`,
+      lastModified: collectionModified
     })),
-    ...getAllPosts().map((post) => ({
-      url: `${siteUrl}/writing/${post.slug}`,
+    ...writingPosts.map((post) => ({
+      url: `${SITE_URL}/writing/${post.slug}`,
       lastModified: new Date(post.date)
     })),
-    ...getAllPortfolioPieces().map((piece) => ({
-      url: `${siteUrl}/${piece.kind}/${piece.slug}`,
-      lastModified: new Date(piece.date)
+    ...portfolioPieces.map((piece) => ({
+      url: `${SITE_URL}/${piece.kind}/${piece.slug}`,
+      lastModified: new Date(piece.updatedDate || piece.date)
     })),
-    ...getAllBlogPosts().map((post) => ({
-      url: `${siteUrl}/blog/${post.slug}`,
+    ...blogPosts.map((post) => ({
+      url: `${SITE_URL}/blog/${post.slug}`,
       lastModified: new Date(post.date)
-    })),
-    ...careerEntries.slice(0, 1).map(() => ({
-      url: `${siteUrl}/career`,
-      lastModified: now
     }))
   ];
 }

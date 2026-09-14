@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { parseRelatedReferences } from "./related";
 
 export type BlogPost = {
   title: string;
@@ -14,6 +15,7 @@ export type BlogPost = {
   featuredImageAlt?: string;
   micronetImage?: string;
   micronetImageAlt?: string;
+  related?: string[];
   body: string;
 };
 
@@ -87,6 +89,7 @@ export function getAllBlogPosts(): BlogPost[] {
         featuredImageAlt: data.featuredImageAlt?.trim() || undefined,
         micronetImage: data.micronetImage?.trim() || undefined,
         micronetImageAlt: data.micronetImageAlt?.trim() || undefined,
+        related: parseRelatedReferences(data.related),
         body
       } satisfies BlogPost;
     })

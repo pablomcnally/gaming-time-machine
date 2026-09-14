@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { parseRelatedReferences } from "./related";
 
 export const portfolioKinds = ["opinion", "interviews", "features", "reviews"] as const;
 
@@ -23,6 +24,7 @@ export type PortfolioPiece = {
   micronetImageAlt?: string;
   imageCredit?: string;
   sourceUrl: string;
+  related?: string[];
   directoryPlacement?: "last";
   body: string;
 };
@@ -100,6 +102,7 @@ function getPiecesForKind(kind: PortfolioKind): PortfolioPiece[] {
         micronetImageAlt: data.micronetImageAlt || undefined,
         imageCredit: data.imageCredit || undefined,
         sourceUrl: data.sourceUrl,
+        related: parseRelatedReferences(data.related),
         directoryPlacement: data.directoryPlacement === "last" ? "last" : undefined,
         body
       } satisfies PortfolioPiece;
