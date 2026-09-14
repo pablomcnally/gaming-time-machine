@@ -1446,6 +1446,99 @@ textarea {
   position: relative;
 }
 
+.reading-progress {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 100;
+  height: 3px;
+  overflow: hidden;
+  background: rgba(7, 8, 7, 0.35);
+  pointer-events: none;
+}
+
+.reading-progress span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform-origin: left center;
+  background: linear-gradient(90deg, #31ff65, #00e5ff, #fff45c);
+  transition: transform 80ms linear;
+}
+
+.article-contents {
+  min-width: 0;
+  border: 1px solid rgba(0, 229, 255, 0.45);
+  padding: 1.2rem;
+  background: rgba(7, 8, 7, 0.9);
+  box-shadow: inset 0 0 1.5rem rgba(0, 229, 255, 0.035);
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+}
+
+.article-contents-label {
+  color: #31ff65;
+}
+
+.article-contents ol {
+  display: grid;
+  gap: 0.7rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.article-contents li[data-level="3"] {
+  margin-left: 0.8rem;
+  font-size: 0.85em;
+}
+
+.article-contents a {
+  color: #f3f0db;
+  line-height: 1.4;
+}
+
+.article-contents a:hover {
+  color: #fff45c;
+}
+
+.article-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  margin-top: 2.5rem;
+  border: 1px solid rgba(0, 229, 255, 0.35);
+  background: rgba(0, 229, 255, 0.25);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.article-pagination a {
+  flex: 1 1 16rem;
+  min-width: 0;
+  padding: 1rem;
+  background: #070807;
+  color: #00e5ff;
+}
+
+.article-pagination a[data-direction="next"] {
+  margin-left: auto;
+  text-align: right;
+}
+
+.article-pagination a:hover {
+  color: #fff45c;
+}
+
+.article-pagination strong {
+  display: block;
+  margin-top: 0.45rem;
+  color: #f3f0db;
+  font: inherit;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
 .article-shell::before {
   position: absolute;
   top: 0.6rem;
@@ -1590,6 +1683,10 @@ textarea {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.portfolio-prose h3 {
+  scroll-margin-top: 8rem;
 }
 
 .portfolio-audio-player {
@@ -1760,6 +1857,7 @@ textarea {
     transform: scaleY(0.68);
   }
 }
+
 
 @media (max-width: 640px) {
   .dotted-leader {

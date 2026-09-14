@@ -40,12 +40,55 @@ type MarkdownBodyProps = {
   content: string;
 };
 
+export type MarkdownHeading = {
+  id: string;
+  level: 2 | 3;
+  text: string;
+};
+
+type ParsedMarkdownHeading = MarkdownHeading & {
+  blockIndex: number;
+};
+
+function collectMarkdownHeadings(content: string): ParsedMarkdownHeading[] {
+  const usedIds = new Map<string, number>();
+
+  return content.split(/\n{2,}/).flatMap((block, blockIndex) => {
+    const match = block.match(/^(#{2,3})\s+([^\n]+)$/);
+
+    if (!match) return [];
+
+    const text = match[2]
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+      .replace(/[\*_`]/g, "")
+      .trim();
+    const baseId = text
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/&/g, " and ")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "") || "section";
+    const occurrence = (usedIds.get(baseId) || 0) + 1;
+    const id = occurrence === 1 ? baseId : `${baseId}-${occurrence}`;
+
+    usedIds.set(baseId, occurrence);
+
+    return [{ blockIndex, id, level: match[1].length as 2 | 3, text }];
+  });
+}
+
+export function getMarkdownHeadings(content: string): MarkdownHeading[] {
+  return collectMarkdownHeadings(content).map(({ blockIndex: _blockIndex, ...heading }) => heading);
+}
+
 export function MarkdownBody({ className = "", content }: MarkdownBodyProps) {
   const blocks = content.split(/\n{2,}/);
+  const headingByBlock = new Map(collectMarkdownHeadings(content).map((heading) => [heading.blockIndex, heading]));
 
   return (
     <div className={`prose-terminal max-w-none ${className}`}>
-      {blocks.map((block) => {
+      {blocks.map((block, blockIndex) => {
         const tableLines = block.split("\n");
         const tableRows = tableLines.map((line) => line.trim().replace(/^\||\|$/g, "").split("|").map((cell) => cell.trim()));
         const isTable =
@@ -143,11 +186,15 @@ export function MarkdownBody({ className = "", content }: MarkdownBodyProps) {
         }
 
         if (block.startsWith("## ")) {
-          return <h2 key={block}>{block.replace("## ", "")}</h2>;
+          const heading = headingByBlock.get(blockIndex);
+
+          return <h2 id={heading?.id} key={block}>{renderInline(block.replace("## ", ""))}</h2>;
         }
 
         if (block.startsWith("### ")) {
-          return <h3 key={block}>{block.replace("### ", "")}</h3>;
+          const heading = headingByBlock.get(blockIndex);
+
+          return <h3 id={heading?.id} key={block}>{renderInline(block.replace("### ", ""))}</h3>;
         }
 
         if (block.startsWith("> ")) {

@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllBlogPosts, getBlogPageCode, getBlogPostBySlug, type BlogPost } from "../lib/blog";
-import { MarkdownBody } from "./MarkdownBody";
+import { ArticleContents, ArticlePagination } from "./ArticleReadingTools";
+import { getMarkdownHeadings, MarkdownBody } from "./MarkdownBody";
+import { ReadingProgress } from "./ReadingProgress";
 
 function formatDate(date: string) {
   return new Intl.DateTimeFormat("en-GB", { dateStyle: "long" }).format(new Date(date));
@@ -23,9 +25,17 @@ export function BlogPostPage({ slug }: { slug: string }) {
   const featuredImage = post.micronetImage || post.featuredImage;
   const featuredImageAlt = post.micronetImage ? post.micronetImageAlt : post.featuredImageAlt;
   const relatedPosts = getAllBlogPosts().filter((candidate) => candidate.slug !== post.slug).slice(0, 3);
+  const orderedPosts = getAllBlogPosts();
+  const currentIndex = orderedPosts.findIndex((candidate) => candidate.slug === post.slug);
+  const previousPost = currentIndex > 0 ? orderedPosts[currentIndex - 1] : undefined;
+  const nextPost = currentIndex >= 0 ? orderedPosts[currentIndex + 1] : undefined;
+  const readingMinutes = getReadingTime(post);
+  const headings = getMarkdownHeadings(post.body);
+  const showContents = readingMinutes >= 6 && headings.length >= 3;
 
   return (
     <main className="min-h-screen">
+      <ReadingProgress targetId="article-body" />
       <section className="border-b border-terminal-cyan/50 bg-terminal-black px-5 py-10 terminal-grid md:py-14">
         <div className={`mx-auto grid max-w-7xl gap-8 ${featuredImage ? "lg:grid-cols-[minmax(0,1fr)_25rem] lg:items-end" : ""}`}>
           <div>
@@ -39,7 +49,7 @@ export function BlogPostPage({ slug }: { slug: string }) {
               <span className="border border-terminal-green/50 bg-terminal-black px-3 py-2 text-terminal-green">By {post.author}</span>
               {post.tag ? <span className="border border-terminal-yellow/50 bg-terminal-black px-3 py-2 text-terminal-yellow">{post.tag}</span> : null}
               <time className="border border-terminal-cyan/50 bg-terminal-black px-3 py-2 text-terminal-cyan" dateTime={post.date}>{formatDate(post.date)}</time>
-              <span className="border border-terminal-yellow/50 bg-terminal-black px-3 py-2 text-terminal-yellow">{getReadingTime(post)} min read</span>
+              <span className="border border-terminal-yellow/50 bg-terminal-black px-3 py-2 text-terminal-yellow">{readingMinutes} min read</span>
             </div>
             {post.sourceUrl ? (
               <a
@@ -62,7 +72,8 @@ export function BlogPostPage({ slug }: { slug: string }) {
       </section>
 
       <section className="mx-auto grid max-w-7xl gap-6 px-5 py-10 md:py-14 lg:grid-cols-[minmax(0,1fr)_19rem]">
-        <article className="article-shell border border-terminal-paper/60 bg-terminal-black/88 p-5 shadow-terminal md:p-8 lg:p-10">
+        {showContents ? <ArticleContents className="lg:hidden" headings={headings} /> : null}
+        <article className="article-shell border border-terminal-paper/60 bg-terminal-black/88 p-5 shadow-terminal md:p-8 lg:p-10" id="article-body">
           <div className="mb-8 border-b border-terminal-yellow/50 pb-5 font-mono text-sm uppercase">
             <p className="text-terminal-yellow">{post.sourceUrl ? "Permanent archive copy" : "Independent transmission"}</p>
             <p className="mt-2 text-xs leading-5 text-terminal-paper/70">
@@ -80,9 +91,14 @@ export function BlogPostPage({ slug }: { slug: string }) {
               </a>
             ) : null}
           </footer>
+          <ArticlePagination
+            previous={previousPost ? { href: `/blog/${previousPost.slug}`, title: previousPost.title } : undefined}
+            next={nextPost ? { href: `/blog/${nextPost.slug}`, title: nextPost.title } : undefined}
+          />
         </article>
 
         <aside className="space-y-5 self-start font-mono text-sm uppercase lg:sticky lg:top-8">
+          {showContents ? <ArticleContents className="hidden lg:block" headings={headings} /> : null}
           <section className="viewdata-box p-5">
             <h2 className="text-terminal-green">File data</h2>
             <dl className="mt-5 grid gap-4">
