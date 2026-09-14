@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { ArchiveGrid } from "../../components/ArchiveGrid";
 import { PageContainer } from "../../components/PageContainer";
-import { archiveItems } from "../../data/archive";
+import { WorkLibrary } from "../../components/pro/WorkLibrary";
 import { pageLabels } from "../../data/site";
+import { getProfessionalSummaries } from "../../lib/professional";
 
 export const metadata: Metadata = {
   title: "Complete Work Index",
@@ -10,13 +10,15 @@ export const metadata: Metadata = {
 };
 
 export default function WorkPage() {
+  const articles = getProfessionalSummaries();
+
   return (
     <PageContainer
       eyebrow={pageLabels.work.eyebrow}
       title={pageLabels.work.title}
       intro={pageLabels.work.intro}
     >
-      <ArchiveGrid items={archiveItems} />
+      <WorkLibrary articles={articles} edition="micronet" />
     </PageContainer>
   );
 }

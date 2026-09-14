@@ -1,20 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getPortfolioPreviewImage } from "../data/portfolioPreviews";
-import type { PortfolioPiece } from "../lib/portfolio";
+import type { ProfessionalSummary } from "../lib/professional";
 
 function formatDate(date: string) {
   return new Intl.DateTimeFormat("en-GB", { dateStyle: "medium" }).format(new Date(date));
 }
 
-export function PortfolioCard({ piece }: { piece: PortfolioPiece }) {
+export function PortfolioCard({ piece }: { piece: ProfessionalSummary }) {
   const previewImage = piece.micronetImage || getPortfolioPreviewImage(piece.slug) || piece.featuredImage;
   const previewImageAlt = piece.micronetImage
     ? piece.micronetImageAlt || ""
     : previewImage === piece.featuredImage
       ? piece.featuredImageAlt || ""
       : `Pablonet-style pixel artwork for ${piece.title}`;
-  const fileLabel = piece.kind === "opinion" ? "OPINION" : piece.kind === "features" ? "FEATURE" : piece.kind === "reviews" ? "REVIEW" : "INTERVIEW";
+  const fileLabel = piece.kind === "opinion" ? "OPINION" : piece.kind === "features" ? "FEATURE" : piece.kind === "reviews" ? "REVIEW" : piece.kind === "blog" ? "BLOG" : "INTERVIEW";
 
   return (
     <article className="group grid overflow-hidden border border-terminal-cyan/50 bg-terminal-black/85 shadow-terminal transition hover:-translate-y-1 hover:border-terminal-yellow">
