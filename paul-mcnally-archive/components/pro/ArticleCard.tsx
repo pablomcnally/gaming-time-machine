@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { ProfessionalSummary } from "../../lib/professional";
 
@@ -17,7 +18,13 @@ export function ArticleCard({ article, lead = false, eager = false }: { article:
     <Link href={href} className="pro-story-link">
       <div className="pro-story-image">
         {article.featuredImage
-          ? <img src={article.featuredImage} alt={article.featuredImageAlt || article.title} loading={eager ? "eager" : "lazy"} />
+          ? <Image
+              src={article.featuredImage}
+              alt={article.featuredImageAlt || article.title}
+              fill
+              sizes={lead ? "(min-width: 1000px) 50vw, 100vw" : "(min-width: 1200px) 360px, (min-width: 700px) 50vw, 100vw"}
+              priority={eager}
+            />
           : <span className="pro-image-fallback" aria-hidden="true">{articleLabel(article)}</span>}
       </div>
       <div className="pro-story-meta"><span>{articleLabel(article)}</span><span>{article.publication}</span></div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { PablonetConnectionSplash } from "../components/PablonetConnectionSplash";
 import { StorySoFarPanel } from "../components/StorySoFarPanel";
 import { homeContent } from "../data/pages";
@@ -25,11 +26,13 @@ function HomePortfolioCard({ piece, eager = false }: { piece: PortfolioPiece; ea
     >
       <div className="home-portfolio-visual">
         {previewImage ? (
-          <img
+          <Image
             src={previewImage}
             alt=""
-            className="h-full w-full object-cover"
-            loading={eager ? "eager" : "lazy"}
+            className="object-cover"
+            fill
+            priority={eager}
+            sizes="(min-width: 1280px) 410px, (min-width: 768px) 50vw, 100vw"
           />
         ) : (
           <div className="home-portfolio-placeholder" aria-hidden="true">
@@ -86,16 +89,22 @@ function PortfolioBand({
 }
 
 export default function HomePage() {
-  const features = getAllPortfolioPieces("features");
-  const interviews = getAllPortfolioPieces("interviews");
-  const reviews = getAllPortfolioPieces("reviews");
+  const portfolioPieces = getAllPortfolioPieces();
+  const features = portfolioPieces.filter((piece) => piece.kind === "features");
+  const interviews = portfolioPieces.filter((piece) => piece.kind === "interviews");
+  const reviews = portfolioPieces.filter((piece) => piece.kind === "reviews");
   const blogPosts = getAllBlogPosts();
+  const newestContentDate = [
+    ...portfolioPieces.map((piece) => piece.updatedDate || piece.date),
+    ...blogPosts.map((post) => post.date)
+  ].sort((left, right) => right.localeCompare(left))[0];
   const lastUpdated = new Intl.DateTimeFormat("en-GB", {
     day: "2-digit",
     month: "2-digit",
-    year: "numeric"
+    year: "numeric",
+    timeZone: "UTC"
   })
-    .format(new Date())
+    .format(new Date(`${newestContentDate}T00:00:00Z`))
     .replaceAll("/", ".");
 
   return (

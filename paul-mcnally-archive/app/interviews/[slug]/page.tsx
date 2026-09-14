@@ -27,6 +27,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       description: piece.excerpt,
       type: "article",
       publishedTime: piece.date,
+      modifiedTime: piece.updatedDate || piece.date,
       authors: [piece.author],
       images
     },

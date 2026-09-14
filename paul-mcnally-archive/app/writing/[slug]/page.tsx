@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MarkdownBody } from "../../../components/MarkdownBody";
+import { ResponsiveImage } from "../../../components/ResponsiveImage";
+import { StructuredData } from "../../../components/StructuredData";
 import { getAllPosts, getPostBySlug, type Post } from "../../../lib/posts";
+import { getArticleStructuredData } from "../../../lib/structuredData";
 
 type Params = Promise<{ slug: string }>;
 
@@ -57,6 +60,17 @@ export default async function PostPage({ params }: { params: Params }) {
 
   return (
     <main className="min-h-screen">
+      <StructuredData
+        data={getArticleStructuredData({
+          path: `/writing/${post.slug}`,
+          title: post.title,
+          description: post.excerpt,
+          datePublished: post.date,
+          section: post.category,
+          body: post.body,
+          image: post.featuredImage
+        })}
+      />
       <section className="border-b border-terminal-cyan/50 bg-terminal-black px-5 py-10 terminal-grid md:py-14">
         <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[minmax(0,1fr)_24rem] lg:items-end">
           <div>
@@ -72,7 +86,13 @@ export default async function PostPage({ params }: { params: Params }) {
             </div>
           </div>
           <figure className="viewdata-box bg-terminal-black/85 p-3 shadow-terminal">
-            <img src={post.featuredImage} alt="" className="aspect-[4/3] w-full border border-terminal-cyan/35 object-cover" />
+            <ResponsiveImage
+              src={post.featuredImage}
+              alt=""
+              sizes="(min-width: 1024px) 384px, 100vw"
+              priority
+              className="aspect-[4/3] w-full border border-terminal-cyan/35 object-cover"
+            />
             <figcaption className="mt-3 font-mono text-xs uppercase text-terminal-cyan">Featured file image // {post.category}</figcaption>
           </figure>
         </div>

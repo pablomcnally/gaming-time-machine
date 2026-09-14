@@ -3,14 +3,15 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Script from "next/script";
 import { SitePresentation } from "../components/SitePresentation";
+import { StructuredData } from "../components/StructuredData";
 import { getBlogKeyboardPages } from "../lib/blog";
 import { getPortfolioKeyboardPages } from "../lib/portfolio";
+import { SITE_URL } from "../lib/site";
+import { personStructuredData } from "../lib/structuredData";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://paul-mcnally-archive.vercel.app";
-
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Paul McNally | Personal Archive Terminal",
     template: "%s | Paul McNally"
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     title: "Paul McNally | Personal Archive Terminal",
     description:
       "Pablonet, Prestel and Teletext energy rebuilt as a readable personal archive for a games journalist.",
-    url: siteUrl,
+    url: SITE_URL,
     siteName: "Paul McNally Personal Archive",
     images: [{ url: "/og.svg", width: 1200, height: 630, alt: "Paul McNally personal archive terminal" }],
     locale: "en_GB",
@@ -46,6 +47,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
       <body>
+        <StructuredData data={personStructuredData} />
         <Script id="crt-frame-preference" strategy="beforeInteractive">
           {`try{if(localStorage.getItem("paul-mcnally-crt-frame")==="off"){document.documentElement.classList.add("crt-frame-off")}}catch(e){}`}
         </Script>

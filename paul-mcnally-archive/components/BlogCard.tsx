@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getPortfolioPreviewImage } from "../data/portfolioPreviews";
 import type { BlogPost } from "../lib/blog";
@@ -12,12 +13,13 @@ export function BlogCard({ post }: { post: BlogPost }) {
   return (
     <article className="group grid overflow-hidden border border-terminal-cyan/50 bg-terminal-black/85 shadow-terminal transition hover:-translate-y-1 hover:border-terminal-yellow">
       {previewImage ? (
-        <Link href={`/blog/${post.slug}`} aria-label={`Read ${post.title}`}>
-          <img
+        <Link href={`/blog/${post.slug}`} aria-label={`Read ${post.title}`} className="relative block aspect-[3/2] overflow-hidden">
+          <Image
             src={previewImage}
             alt={post.micronetImage ? post.micronetImageAlt || "" : previewImage === post.featuredImage ? post.featuredImageAlt || "" : `Pablonet-style pixel artwork for ${post.title}`}
-            className={`aspect-[3/2] w-full border-b border-terminal-cyan/30 ${post.micronetImage ? "object-contain" : "object-cover"} transition duration-300 group-hover:scale-[1.015]`}
-            loading="lazy"
+            fill
+            sizes="(min-width: 1024px) 50vw, 100vw"
+            className={`border-b border-terminal-cyan/30 ${post.micronetImage ? "object-contain" : "object-cover"} transition duration-300 group-hover:scale-[1.015]`}
           />
         </Link>
       ) : (

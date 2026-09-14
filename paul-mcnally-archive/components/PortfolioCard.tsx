@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getPortfolioPreviewImage } from "../data/portfolioPreviews";
 import type { PortfolioPiece } from "../lib/portfolio";
@@ -12,16 +13,17 @@ export function PortfolioCard({ piece }: { piece: PortfolioPiece }) {
 
   return (
     <article className="group grid overflow-hidden border border-terminal-cyan/50 bg-terminal-black/85 shadow-terminal transition hover:-translate-y-1 hover:border-terminal-yellow">
-      <Link href={`/${piece.kind}/${piece.slug}`} aria-label={`Read ${piece.title}`}>
+      <Link href={`/${piece.kind}/${piece.slug}`} aria-label={`Read ${piece.title}`} className="relative block aspect-[3/2] overflow-hidden">
         {previewImage ? (
-          <img
+          <Image
             src={previewImage}
             alt={`Pablonet-style pixel artwork for ${piece.title}`}
-            className="aspect-[3/2] w-full border-b border-terminal-cyan/30 object-cover transition duration-300 group-hover:scale-[1.015]"
-            loading="lazy"
+            fill
+            sizes="(min-width: 1024px) 50vw, 100vw"
+            className="border-b border-terminal-cyan/30 object-cover transition duration-300 group-hover:scale-[1.015]"
           />
         ) : (
-          <div className="home-portfolio-placeholder aspect-[3/2] border-b border-terminal-cyan/30" aria-hidden="true">
+          <div className="home-portfolio-placeholder h-full border-b border-terminal-cyan/30" aria-hidden="true">
             <span>{fileLabel} FILE</span>
             <strong>PABLONET SIGNAL</strong>
             <span>PREVIEW IMAGE PENDING</span>

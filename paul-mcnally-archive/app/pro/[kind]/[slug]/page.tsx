@@ -4,8 +4,11 @@ import { notFound } from "next/navigation";
 import { ArticleContents, ArticlePagination } from "../../../../components/ArticleReadingTools";
 import { getMarkdownHeadings, MarkdownBody } from "../../../../components/MarkdownBody";
 import { ReadingProgress } from "../../../../components/ReadingProgress";
+import { ResponsiveImage } from "../../../../components/ResponsiveImage";
+import { StructuredData } from "../../../../components/StructuredData";
 import { ArticleCard, articleLabel, proDate } from "../../../../components/pro/ArticleCard";
 import { getProfessionalArticles, getProfessionalArticle, isProfessionalKind } from "../../../../lib/professional";
+import { getArticleStructuredData } from "../../../../lib/structuredData";
 
 type Props = { params: Promise<{ kind: string; slug: string }> };
 
@@ -44,11 +47,22 @@ export default async function ProfessionalArticlePage({ params }: Props) {
   const showContents = minutes >= 6 && headings.length >= 3;
 
   return <div className="pro-container pro-page">
+    <StructuredData data={getArticleStructuredData({
+      path: `/pro/${kind}/${article.slug}`,
+      title: article.title,
+      description: article.excerpt,
+      datePublished: article.date,
+      dateModified: article.updatedDate,
+      section: articleLabel(article),
+      body: article.body,
+      image: article.featuredImage,
+      sourceUrl: article.sourceUrl
+    })} />
     <ReadingProgress targetId="article-body" />
     <nav className="pro-breadcrumb" aria-label="Breadcrumb"><Link href="/pro/work">Work</Link><span aria-hidden="true">/</span><Link href={directory}>{article.category ? `${article.category === "tech" ? "Tech" : "Game"} reviews` : kind}</Link></nav>
     <article id="article-body">
       <header className="pro-article-heading"><p className="pro-eyebrow">{articleLabel(article)} <span aria-hidden="true">/</span> {article.publication}</p><h1>{article.title}</h1><p className="pro-article-deck">{article.excerpt}</p><div className="pro-byline"><span>By {article.author}</span><time dateTime={article.date}>{proDate(article.date)}</time><span>{minutes} min read</span>{article.updatedDate ? <span>Updated {proDate(article.updatedDate)}</span> : null}</div></header>
-      {article.featuredImage ? <figure className="pro-article-image"><img src={article.featuredImage} alt={article.featuredImageAlt || article.title} fetchPriority="high" />{article.imageCredit ? <figcaption>{article.imageCredit}</figcaption> : null}</figure> : null}
+      {article.featuredImage ? <figure className="pro-article-image"><ResponsiveImage src={article.featuredImage} alt={article.featuredImageAlt || article.title} priority sizes="(min-width: 1200px) 1120px, 100vw" />{article.imageCredit ? <figcaption>{article.imageCredit}</figcaption> : null}</figure> : null}
       <div className="pro-reading-layout"><aside className="pro-article-context"><p className="pro-eyebrow">{article.sourceUrl ? "Originally published" : "Independent writing"}</p><p>{article.publication}</p>{article.sourceUrl ? <a href={article.sourceUrl} target="_blank" rel="noreferrer">Read the original <span aria-hidden="true">&#8599;</span><span className="sr-only"> (opens in a new tab)</span></a> : null}<Link href={`/${kind}/${slug}`}>Read in Micronet</Link><Link href={directory}>Back to {kind}</Link>{showContents ? <ArticleContents headings={headings} /> : null}</aside>
         <div className="pro-reading-copy"><MarkdownBody content={article.body} className="pro-prose" /><footer className="pro-article-end"><p>Written by {article.author}</p>{article.sourceUrl ? <p>Originally published by <a href={article.sourceUrl} target="_blank" rel="noreferrer">{article.publication}</a> on {proDate(article.date)}. Archived here by the author.</p> : <p>Independent writing. Published {proDate(article.date)}.</p>}</footer></div>
       </div>

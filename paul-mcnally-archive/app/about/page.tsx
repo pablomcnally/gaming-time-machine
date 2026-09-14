@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CareerMilestones } from "../../components/CareerMilestones";
 import { PageContainer } from "../../components/PageContainer";
+import { ResponsiveImage } from "../../components/ResponsiveImage";
 import { TerminalPanel } from "../../components/TerminalPanel";
 import { aboutContent } from "../../data/pages";
 
@@ -29,9 +30,11 @@ export default function AboutPage() {
       intro={aboutContent.intro}
     >
       <figure className="mb-8 overflow-hidden border border-terminal-cyan/40 bg-terminal-black md:mb-10">
-        <img
+        <ResponsiveImage
           src="/portfolio/about/nerdcon-pablonet.png"
           alt="Pixel-art scene of Paul McNally speaking during an onstage interview at NerdCon"
+          sizes="(min-width: 1280px) 1240px, 100vw"
+          priority
           className="aspect-[3/1] w-full object-cover"
         />
       </figure>
@@ -66,9 +69,10 @@ export default function AboutPage() {
                   <>
                     {panelImage ? (
                       <figure className="mb-5 overflow-hidden border border-terminal-green/50 bg-terminal-black">
-                        <img
+                        <ResponsiveImage
                           src={panelImage.src}
                           alt={panelImage.alt}
+                          sizes="(min-width: 1024px) 600px, 100vw"
                           className="aspect-video w-full object-cover"
                         />
                       </figure>

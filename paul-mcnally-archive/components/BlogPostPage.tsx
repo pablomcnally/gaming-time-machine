@@ -4,6 +4,9 @@ import { getAllBlogPosts, getBlogPageCode, getBlogPostBySlug, type BlogPost } fr
 import { ArticleContents, ArticlePagination } from "./ArticleReadingTools";
 import { getMarkdownHeadings, MarkdownBody } from "./MarkdownBody";
 import { ReadingProgress } from "./ReadingProgress";
+import { ResponsiveImage } from "./ResponsiveImage";
+import { StructuredData } from "./StructuredData";
+import { getArticleStructuredData } from "../lib/structuredData";
 
 function formatDate(date: string) {
   return new Intl.DateTimeFormat("en-GB", { dateStyle: "long" }).format(new Date(date));
@@ -35,6 +38,16 @@ export function BlogPostPage({ slug }: { slug: string }) {
 
   return (
     <main className="min-h-screen">
+      <StructuredData data={getArticleStructuredData({
+        path: `/blog/${post.slug}`,
+        title: post.title,
+        description: post.excerpt,
+        datePublished: post.date,
+        section: "Blog",
+        body: post.body,
+        image: featuredImage,
+        sourceUrl: post.sourceUrl
+      })} />
       <ReadingProgress targetId="article-body" />
       <section className="border-b border-terminal-cyan/50 bg-terminal-black px-5 py-10 terminal-grid md:py-14">
         <div className={`mx-auto grid max-w-7xl gap-8 ${featuredImage ? "lg:grid-cols-[minmax(0,1fr)_25rem] lg:items-end" : ""}`}>
@@ -65,7 +78,13 @@ export function BlogPostPage({ slug }: { slug: string }) {
 
           {featuredImage ? (
             <figure className="viewdata-box overflow-hidden bg-terminal-black/85 p-3 shadow-terminal">
-              <img src={featuredImage} alt={featuredImageAlt || ""} className={`${post.micronetImage ? "h-auto" : "aspect-[3/2] object-cover"} w-full border border-terminal-cyan/35`} />
+              <ResponsiveImage
+                src={featuredImage}
+                alt={featuredImageAlt || ""}
+                className={`${post.micronetImage ? "h-auto" : "aspect-[3/2] object-cover"} w-full border border-terminal-cyan/35`}
+                priority
+                sizes="(min-width: 1024px) 400px, 100vw"
+              />
             </figure>
           ) : null}
         </div>

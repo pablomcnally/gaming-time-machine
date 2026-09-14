@@ -1,10 +1,13 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { Post } from "../lib/posts";
 
 export function PostCard({ post }: { post: Post }) {
   return (
     <article className="grid border border-terminal-cyan/50 bg-terminal-black/85 shadow-terminal transition hover:-translate-y-1 hover:border-terminal-yellow">
-      <img src={post.featuredImage} alt="" className="aspect-[16/9] w-full border-b border-terminal-cyan/30 object-cover" loading="lazy" />
+      <div className="relative aspect-[16/9] overflow-hidden border-b border-terminal-cyan/30">
+        <Image src={post.featuredImage} alt="" fill sizes="(min-width: 1024px) 33vw, 100vw" className="object-cover" />
+      </div>
       <div className="p-5">
         <div className="flex flex-wrap gap-3 font-mono text-xs uppercase">
           <span className="text-terminal-green">{post.category}</span>

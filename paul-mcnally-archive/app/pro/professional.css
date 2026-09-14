@@ -73,7 +73,7 @@ body:has(.pro-site)::before { display: none; }
 .pro-selected-grid .pro-story:not(.pro-story-lead) .pro-story-meta span { display: block; }
 .pro-selected-grid .pro-story:not(.pro-story-lead) .pro-story-meta span + span::before { display: none; }
 .pro-story { min-width: 0; }
-.pro-story-image { overflow: hidden; aspect-ratio: 16/10; background: #edf0ec; }
+.pro-story-image { position: relative; overflow: hidden; aspect-ratio: 16/10; background: #edf0ec; }
 .pro-story-image img { width: 100%; height: 100%; object-fit: cover; transition: transform 220ms ease; }
 .pro-story-link:hover .pro-story-image img { transform: scale(1.025); }
 .pro-image-fallback { display: grid; place-items: center; height: 100%; padding: 20px; background: #e4ece5; color: var(--pro-green); font: 28px Georgia,serif; }

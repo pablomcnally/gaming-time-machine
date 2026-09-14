@@ -4,6 +4,9 @@ import { getAllPortfolioPieces, getPortfolioKindLabel, getPortfolioPageCode, get
 import { ArticleContents, ArticlePagination } from "./ArticleReadingTools";
 import { getMarkdownHeadings, MarkdownBody } from "./MarkdownBody";
 import { ReadingProgress } from "./ReadingProgress";
+import { ResponsiveImage } from "./ResponsiveImage";
+import { StructuredData } from "./StructuredData";
+import { getArticleStructuredData } from "../lib/structuredData";
 
 function formatDate(date: string) {
   return new Intl.DateTimeFormat("en-GB", { dateStyle: "long" }).format(new Date(date));
@@ -37,6 +40,17 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
 
   return (
     <main className="min-h-screen">
+      <StructuredData data={getArticleStructuredData({
+        path: `/${kind}/${piece.slug}`,
+        title: piece.title,
+        description: piece.excerpt,
+        datePublished: piece.date,
+        dateModified: piece.updatedDate,
+        section: label,
+        body: piece.body,
+        image: featuredImage,
+        sourceUrl: piece.sourceUrl
+      })} />
       <ReadingProgress targetId="article-body" />
       <section className="border-b border-terminal-cyan/50 bg-terminal-black px-5 py-10 terminal-grid md:py-14">
         <div className="mx-auto max-w-7xl">
@@ -69,7 +83,13 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
 
             {featuredImage ? (
               <figure className="viewdata-box overflow-hidden bg-terminal-black/85 p-3 shadow-terminal">
-                <img src={featuredImage} alt={featuredImageAlt || ""} className={`${piece.micronetImage ? "h-auto" : "aspect-[3/2] object-cover"} w-full border border-terminal-cyan/35`} />
+                <ResponsiveImage
+                  src={featuredImage}
+                  alt={featuredImageAlt || ""}
+                  className={`${piece.micronetImage ? "h-auto" : "aspect-[3/2] object-cover"} w-full border border-terminal-cyan/35`}
+                  priority
+                  sizes="(min-width: 1024px) 400px, 100vw"
+                />
                 {imageCredit ? <figcaption className="mt-3 font-mono text-xs uppercase text-terminal-cyan">{imageCredit}</figcaption> : null}
               </figure>
             ) : null}

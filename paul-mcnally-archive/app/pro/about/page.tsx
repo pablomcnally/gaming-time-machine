@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ResponsiveImage } from "../../../components/ResponsiveImage";
 import { aboutContent } from "../../../data/pages";
 import { careerMilestones } from "../../../data/careerMilestones";
 
@@ -9,7 +10,12 @@ export default function ProfessionalAbout() {
   return <div className="pro-container pro-page">
     <header className="pro-page-heading"><p className="pro-eyebrow">The person behind the byline</p><h1>{aboutContent.title}</h1><p>{aboutContent.intro}</p></header>
     <figure className="pro-about-hero">
-      <img src="/portfolio/about/nerdcon-stage.jpg" alt="Paul McNally speaking during an onstage interview at NerdCon" />
+      <ResponsiveImage
+        src="/portfolio/about/nerdcon-stage.jpg"
+        alt="Paul McNally speaking during an onstage interview at NerdCon"
+        sizes="(min-width: 1200px) 1120px, 100vw"
+        priority
+      />
       <figcaption>On stage at NerdCon.</figcaption>
     </figure>
     <div className="pro-about-layout"><aside><p className="pro-eyebrow">On this page</p><nav aria-label="About sections">{aboutContent.panels.map((panel, index) => <a href={`#about-${index}`} key={panel.title}>{panel.title.toLowerCase()}</a>)}<a href="#podcast">Podcast interview</a><a href="#experience">Career timeline</a></nav><Link className="pro-text-link" href="/pro/contact">Get in touch</Link></aside>

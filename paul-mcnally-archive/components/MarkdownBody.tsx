@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { AudioArchivePlayer } from "./AudioArchivePlayer";
+import { ResponsiveImage } from "./ResponsiveImage";
 
 function renderInline(text: string) {
   const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*|\[[^\]]+\]\((?:https?:\/\/|\/)[^)]+\)|<br\s*\/?>)/g);
@@ -144,7 +145,7 @@ export function MarkdownBody({ className = "", content }: MarkdownBodyProps) {
 
           return (
             <figure className="portfolio-media" key={`${src}-${caption || alt}`}>
-              <img alt={alt} loading="lazy" src={src} />
+              <ResponsiveImage alt={alt} sizes="(min-width: 1024px) 750px, 100vw" src={src} />
               {caption ? <figcaption>{renderInline(caption)}</figcaption> : null}
             </figure>
           );
