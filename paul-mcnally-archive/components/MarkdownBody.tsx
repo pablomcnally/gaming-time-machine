@@ -3,7 +3,7 @@ import { AudioArchivePlayer } from "./AudioArchivePlayer";
 import { ResponsiveImage } from "./ResponsiveImage";
 
 function renderInline(text: string) {
-  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*|\[[^\]]+\]\((?:https?:\/\/|\/)[^)]+\)|<br\s*\/?>)/g);
+  const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*|`[^`]+`|\[[^\]]+\]\((?:https?:\/\/|\/)[^)]+\)|<br\s*\/?>)/g);
 
   return parts.map((part, index) => {
     if (part.startsWith("**") && part.endsWith("**")) {
@@ -12,6 +12,10 @@ function renderInline(text: string) {
 
     if (part.startsWith("*") && part.endsWith("*")) {
       return <em key={index}>{part.slice(1, -1)}</em>;
+    }
+
+    if (part.startsWith("`") && part.endsWith("`")) {
+      return <code key={index}>{part.slice(1, -1)}</code>;
     }
 
     if (/^<br\s*\/?>$/.test(part)) {
@@ -90,6 +94,16 @@ export function MarkdownBody({ className = "", content }: MarkdownBodyProps) {
   return (
     <div className={`prose-terminal max-w-none ${className}`}>
       {blocks.map((block, blockIndex) => {
+        const codeBlockMatch = block.match(/^```(?:\w+)?\n([\s\S]+)\n```$/);
+
+        if (codeBlockMatch) {
+          return (
+            <pre className="overflow-x-auto border border-terminal-cyan/40 bg-black/70 p-4 font-mono text-sm leading-6 text-terminal-green" key={block}>
+              <code>{codeBlockMatch[1]}</code>
+            </pre>
+          );
+        }
+
         const tableLines = block.split("\n");
         const tableRows = tableLines.map((line) => line.trim().replace(/^\||\|$/g, "").split("|").map((cell) => cell.trim()));
         const isTable =
