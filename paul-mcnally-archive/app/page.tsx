@@ -61,12 +61,14 @@ function PortfolioBand({
   id,
   title,
   servicePage,
-  pieces
+  pieces,
+  eagerFirst = false
 }: {
   id: string;
   title: string;
   servicePage: string;
   pieces: PortfolioPiece[];
+  eagerFirst?: boolean;
 }) {
   return (
     <section className="mt-6 viewdata-box" aria-labelledby={id}>
@@ -76,7 +78,7 @@ function PortfolioBand({
       </div>
       <div className={`grid gap-px bg-terminal-cyan/25 ${pieces.length === 2 || pieces.length === 4 ? "md:grid-cols-2" : "md:grid-cols-3"}`}>
         {pieces.map((piece, index) => (
-          <HomePortfolioCard key={piece.slug} piece={piece} eager={index === 0 && piece.kind === "features"} />
+          <HomePortfolioCard key={piece.slug} piece={piece} eager={eagerFirst && index === 0} />
         ))}
       </div>
       <div className="border-t border-terminal-cyan/35 p-4 text-right">
@@ -188,8 +190,8 @@ export default function HomePage() {
             </section>
           </div>
 
+          <PortfolioBand id="home-interviews" title="Interviews" servicePage="/interviews" pieces={interviews} eagerFirst />
           <PortfolioBand id="home-features" title="Features" servicePage="/features" pieces={features} />
-          <PortfolioBand id="home-interviews" title="Interviews" servicePage="/interviews" pieces={interviews} />
 
           <div className="mt-6 grid gap-5 lg:grid-cols-[1.08fr_0.92fr]">
             <StorySoFarPanel />
