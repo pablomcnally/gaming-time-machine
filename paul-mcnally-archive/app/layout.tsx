@@ -13,27 +13,27 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Paul McNally | Personal Archive Terminal",
+    default: "Paul McNally | Games & Technology Journalist",
     template: "%s | Paul McNally"
   },
   description:
-    "A modern personal archive for Paul McNally, games journalist, editor, writer, retro enthusiast, and former magazine journalist.",
-  applicationName: "Paul McNally Personal Archive",
+    "Games and technology journalism, interviews, reviews and editorial work by Paul McNally, spanning three decades across print and digital publishing.",
+  applicationName: "Paul McNally",
   manifest: "/site.webmanifest",
   openGraph: {
-    title: "Paul McNally | Personal Archive Terminal",
+    title: "Paul McNally | Games & Technology Journalist",
     description:
-      "Pablonet, Prestel and Teletext energy rebuilt as a readable personal archive for a games journalist.",
+      "Games and technology journalism, interviews, reviews and editorial work by Paul McNally, spanning three decades across print and digital publishing.",
     url: SITE_URL,
-    siteName: "Paul McNally Personal Archive",
-    images: [{ url: "/og.svg", width: 1200, height: 630, alt: "Paul McNally personal archive terminal" }],
+    siteName: "Paul McNally",
+    images: [{ url: "/og.svg", width: 1200, height: 630, alt: "Paul McNally, games and technology journalist" }],
     locale: "en_GB",
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Paul McNally | Personal Archive Terminal",
-    description: "A games journalist's personal archive, presented through the Pablonet terminal.",
+    title: "Paul McNally | Games & Technology Journalist",
+    description: "Games and technology journalism, interviews, reviews and editorial work by Paul McNally.",
     images: ["/og.svg"]
   },
   icons: {
