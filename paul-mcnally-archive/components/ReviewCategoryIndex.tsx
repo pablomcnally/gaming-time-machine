@@ -7,9 +7,9 @@ import { TeletextDirectory } from "./TeletextDirectory";
 const categoryDetails: Record<ReviewCategory, { code: string; title: string; intro: string; emptyLabel: string }> = {
   games: {
     code: "702",
-    title: "Game Reviews",
-    intro: "Reviews of games across current systems, old machines and everything interesting in between.",
-    emptyLabel: "game reviews"
+    title: "Game and Book Reviews",
+    intro: "Reviews and coverage of games, gaming books and the stories behind them, across current systems and old machines.",
+    emptyLabel: "game and book reviews"
   },
   tech: {
     code: "703",

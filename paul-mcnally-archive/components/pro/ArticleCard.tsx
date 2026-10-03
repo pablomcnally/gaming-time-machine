@@ -7,7 +7,7 @@ export function proDate(date: string) {
 }
 
 export function articleLabel(article: ProfessionalSummary) {
-  if (article.category) return article.category === "games" ? "Game review" : "Tech review";
+  if (article.category) return article.category === "games" ? "Game and book reviews" : "Tech review";
   if (article.kind === "opinion") return "Opinion piece";
   return article.kind === "blog" ? "Journal" : article.kind === "features" ? "Feature" : "Interview";
 }

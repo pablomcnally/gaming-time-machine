@@ -26,7 +26,7 @@ export function getArticleReference(article: Pick<RelatedArticle, "kind" | "slug
 }
 
 export function getRelatedLabel(article: Pick<RelatedArticle, "kind" | "category">) {
-  if (article.kind === "reviews") return article.category === "tech" ? "Tech review" : "Game review";
+  if (article.kind === "reviews") return article.category === "tech" ? "Tech review" : "Game and book reviews";
   if (article.kind === "opinion") return "Opinion";
   if (article.kind === "blog") return "Blog";
   if (article.kind === "interviews") return "Interview";

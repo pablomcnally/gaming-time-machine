@@ -61,7 +61,7 @@ export default async function ProfessionalArticlePage({ params }: Props) {
       sourceUrl: article.sourceUrl
     })} />
     <ReadingProgress targetId="article-body" />
-    <nav className="pro-breadcrumb" aria-label="Breadcrumb"><Link href="/pro/work">Work</Link><span aria-hidden="true">/</span><Link href={directory}>{article.category ? `${article.category === "tech" ? "Tech" : "Game"} reviews` : kind}</Link></nav>
+    <nav className="pro-breadcrumb" aria-label="Breadcrumb"><Link href="/pro/work">Work</Link><span aria-hidden="true">/</span><Link href={directory}>{article.category ? `${article.category === "tech" ? "Tech" : "Game and book"} reviews` : kind}</Link></nav>
     <article id="article-body">
       <header className="pro-article-heading"><p className="pro-eyebrow">{articleLabel(article)} <span aria-hidden="true">/</span> {article.publication}</p><h1>{article.title}</h1><p className="pro-article-deck">{article.excerpt}</p><div className="pro-byline"><span>By {article.author}</span><time dateTime={article.date}>{proDate(article.date)}</time><span>{minutes} min read</span>{article.updatedDate ? <span>Updated {proDate(article.updatedDate)}</span> : null}</div></header>
       {article.featuredImage ? <figure className="pro-article-image"><ResponsiveImage src={article.featuredImage} alt={article.featuredImageAlt || article.title} priority sizes="(min-width: 1200px) 1120px, 100vw" />{article.imageCredit ? <figcaption>{article.imageCredit}</figcaption> : null}</figure> : null}

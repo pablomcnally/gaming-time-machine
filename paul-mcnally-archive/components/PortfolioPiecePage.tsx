@@ -71,7 +71,7 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
               <p className="mt-6 max-w-3xl text-lg leading-8 text-terminal-paper md:text-xl">{piece.excerpt}</p>
               <div className="mt-7 flex flex-wrap gap-3 font-mono text-xs uppercase">
                 <span className="border border-terminal-green/50 bg-terminal-black px-3 py-2 text-terminal-green">By {piece.author}</span>
-                {piece.category ? <span className="border border-terminal-yellow/50 bg-terminal-black px-3 py-2 text-terminal-yellow">{piece.category === "games" ? "Game review" : "Tech review"}</span> : null}
+                {piece.category ? <span className="border border-terminal-yellow/50 bg-terminal-black px-3 py-2 text-terminal-yellow">{piece.category === "games" ? "Game and book reviews" : "Tech review"}</span> : null}
                 {piece.tag ? <span className="border border-terminal-yellow/50 bg-terminal-black px-3 py-2 text-terminal-yellow">{piece.tag}</span> : null}
                 <time className="border border-terminal-cyan/50 bg-terminal-black px-3 py-2 text-terminal-cyan" dateTime={piece.date}>{formatDate(piece.date)}</time>
                 {piece.updatedDate ? <span className="border border-terminal-cyan/50 bg-terminal-black px-3 py-2 text-terminal-cyan">Updated {formatDate(piece.updatedDate)}</span> : null}
@@ -133,7 +133,7 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
               <div><dt className="text-terminal-cyan">File type</dt><dd className="mt-1 text-terminal-paper">{label.slice(0, -1)}</dd></div>
               {pageCode ? <div><dt className="text-terminal-cyan">Page code</dt><dd className="mt-1 text-terminal-green">{pageCode}</dd></div> : null}
               <div><dt className="text-terminal-cyan">Byline</dt><dd className="mt-1 text-terminal-yellow">{piece.author}</dd></div>
-              {piece.category ? <div><dt className="text-terminal-cyan">Category</dt><dd className="mt-1 text-terminal-paper">{piece.category === "games" ? "Game review" : "Tech review"}</dd></div> : null}
+              {piece.category ? <div><dt className="text-terminal-cyan">Category</dt><dd className="mt-1 text-terminal-paper">{piece.category === "games" ? "Game and book reviews" : "Tech review"}</dd></div> : null}
               <div><dt className="text-terminal-cyan">Publication</dt><dd className="mt-1 text-terminal-paper">{piece.publication}</dd></div>
               {piece.tag ? <div><dt className="text-terminal-cyan">Tag</dt><dd className="mt-1 text-terminal-paper">{piece.tag}</dd></div> : null}
               <div><dt className="text-terminal-cyan">Published</dt><dd className="mt-1 text-terminal-paper">{formatDate(piece.date)}</dd></div>
