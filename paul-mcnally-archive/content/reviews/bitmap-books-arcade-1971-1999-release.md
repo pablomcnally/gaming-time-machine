@@ -16,6 +16,8 @@ imageCredit: "Bitmap Books"
 sourceUrl: "https://www.escapistmagazine.com/news-bitmap-books-arcade-1971-1999-release/"
 ---
 
+There was a time when walking into an arcade felt like stepping into the future. The noise was deafening, the carpets were questionable, and somewhere in the darkness was a machine you had never seen before that was about to relieve you of every last bit of pocket money.
+
 For those of us who grew up feeding 10 pence pieces into Space Invaders, Out Run, Defender, and countless other arcade cabinets, those memories never really disappear. Now, retro gaming publisher Bitmap Books has released a substantial new hardback dedicated to the people who made those experiences possible.
 
 The Arcade 1971–1999: The Stories Behind Classic Coin-Ops, Told by Their Creators is a 408-page journey through almost three decades of arcade gaming, featuring 120 classic games and the stories behind their development, told by the people who actually worked on them.
