@@ -76,7 +76,7 @@ export function SiteHeader({ contentKeyboardPages }: { contentKeyboardPages: Key
           </div>
           <nav className="site-edition-switcher" aria-label="Choose site edition">
             <span aria-current="page">Pablonet</span>
-            <Link href={getProfessionalEditionHref(pathname)}>Pro</Link>
+            <Link data-pro-switch href={getProfessionalEditionHref(pathname)}>Pro</Link>
           </nav>
         </div>
         <p className="site-header-title text-terminal-paper">Personal Archive Terminal</p>
@@ -85,6 +85,7 @@ export function SiteHeader({ contentKeyboardPages }: { contentKeyboardPages: Key
           <div className="site-header-controls">
             <CrtFrameToggle />
             <BackgroundMusicToggle />
+            <button type="button" onClick={() => window.dispatchEvent(new Event("pablonet-tour-start"))} aria-label="Help: take the Pablonet tour" className="border border-terminal-green/55 px-2 py-1 text-terminal-green">Help</button>
           </div>
         </div>
       </div>

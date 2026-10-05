@@ -1897,3 +1897,46 @@ textarea {
     animation-iteration-count: 1 !important;
   }
 }
+/* First-visit control tour, rendered above the CRT effects. */
+.pablonet-tour {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #f4f1df;
+  font-family: monospace;
+}
+.pablonet-tour::backdrop { background: rgba(0, 0, 0, .45); }
+.pablonet-tour-highlight {
+  position: fixed;
+  border: 3px solid #ffff00;
+  border-radius: 3px;
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .3);
+  pointer-events: none;
+}
+.pablonet-tour-card {
+  position: absolute;
+  bottom: max(24px, env(safe-area-inset-bottom));
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(560px, calc(100% - 32px));
+  max-height: 55%;
+  overflow-y: auto;
+  padding: clamp(18px, 4vw, 28px);
+  border: 2px solid #00ffff;
+  background: #080808;
+  box-shadow: 8px 8px 0 #1515dd;
+}
+.pablonet-tour-eyebrow { color: #00ffff; font-size: 13px; text-transform: uppercase; }
+.pablonet-tour-card h2 { color: #ffff00; font-size: clamp(21px, 4vw, 28px); margin: 12px 0; line-height: 1.25; }
+.pablonet-tour-card p { line-height: 1.6; }
+.pablonet-tour-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+.pablonet-tour-actions button { min-height: 44px; padding: 8px 14px; border: 1px solid #00ffff; }
+.pablonet-tour-actions button[data-tour-next] { margin-left: auto; background: #ffff00; color: #080808; border-color: #ffff00; }
+.pablonet-tour-actions button:focus-visible { outline: 3px solid white; outline-offset: 3px; }

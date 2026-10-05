@@ -6,6 +6,7 @@ import { EasterEggs } from "./EasterEggs";
 import { FooterStatusBar } from "./FooterStatusBar";
 import { SiteBackgroundVideo } from "./SiteBackgroundVideo";
 import { SiteHeader } from "./SiteHeader";
+import { PablonetTour } from "./PablonetTour";
 
 export function SitePresentation({ children, contentKeyboardPages }: {
   children: React.ReactNode;
@@ -24,5 +25,6 @@ export function SitePresentation({ children, contentKeyboardPages }: {
       <FooterStatusBar />
     </CrtDisplayShell>
     <EasterEggs />
+    <PablonetTour />
   </>;
 }

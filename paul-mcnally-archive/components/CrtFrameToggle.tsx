@@ -27,6 +27,7 @@ export function CrtFrameToggle() {
     <button
       aria-label={isOn ? "Turn CRT frame off" : "Turn CRT frame on"}
       aria-pressed={isOn}
+      data-crt-toggle
       className="border border-terminal-cyan/55 px-2 py-1 text-terminal-cyan transition hover:border-terminal-yellow hover:text-terminal-yellow"
       onClick={toggleFrame}
       type="button"

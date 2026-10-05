@@ -37,6 +37,7 @@ export function RetroNavigation({ contentKeyboardPages }: { contentKeyboardPages
     }
 
     function onKeyDown(event: KeyboardEvent) {
+      if (document.querySelector(".pablonet-tour[open]")) return;
       const target = event.target;
       const isTyping =
         target instanceof HTMLInputElement ||
