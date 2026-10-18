@@ -15,17 +15,26 @@ function authorized(request: NextRequest) {
   return !!expected && timingSafeEqual(createHash("sha256").update(expected).digest(), createHash("sha256").update(supplied).digest());
 }
 function response(status: number, body: object) { return NextResponse.json(body, { status, headers: { "Cache-Control": "no-store" } }); }
-function config() { return { token: process.env.GITHUB_TOKEN, repo: process.env.GITHUB_REPO || "pablomcnally/gaming-time-machine", branch: process.env.GITHUB_BRANCH || "main" }; }
+function config() { return { token: process.env.GITHUB_TOKEN?.trim(), repo: process.env.GITHUB_REPO || "pablomcnally/gaming-time-machine", branch: process.env.GITHUB_BRANCH || "main" }; }
 async function github(endpoint: string, method = "GET", body?: object, missingOK = false) {
   const { token, repo } = config();
   const result = await fetch(`https://api.github.com/repos/${repo}/${endpoint}`, { method, cache: "no-store", headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json", "Content-Type": "application/json", "User-Agent": "paul-archive-article-editor", "X-GitHub-Api-Version": "2022-11-28" }, body: body ? JSON.stringify(body) : undefined });
   if (missingOK && result.status === 404) return null;
+  if (result.status === 401) throw new Error("GitHub rejected the publishing token (401). Replace GITHUB_TOKEN in the Vercel project's Production environment with a valid GitHub token for pablomcnally/gaming-time-machine, then redeploy and reconnect. Your editor password and article draft do not need changing.");
+  if (result.status === 403) throw new Error("GitHub denied publishing access (403). Check that GITHUB_TOKEN has Contents: Read and write permission for pablomcnally/gaming-time-machine and is approved for the repository. If GitHub has temporarily rate-limited it, retry after the limit resets.");
+  if (result.status === 404) throw new Error("GitHub could not access the archive repository or branch (404). Check the publishing token's repository access and the GITHUB_REPO and GITHUB_BRANCH settings.");
   if (!result.ok) throw new Error(result.status === 422 || result.status === 409 ? "The archive changed while publishing. Check the live article before retrying; no existing work was overwritten." : `Publishing service returned ${result.status}. Please try again later.`);
   return result.json();
 }
 export async function GET(request: NextRequest) {
   if (!authorized(request)) return response(401, { ok: false, message: "Enter the editor password." });
-  return response(200, { ok: true, mode: config().token ? "github" : "local", publishAvailable: !!config().token || !process.env.VERCEL });
+  try {
+    const { token, branch } = config();
+    if (token) await github(`git/ref/heads/${branch}`);
+    return response(200, { ok: true, mode: token ? "github" : "local", publishAvailable: !!token || !process.env.VERCEL });
+  } catch (error) {
+    return response(502, { ok: false, publishAvailable: false, message: error instanceof Error ? error.message : "Could not verify the publishing connection." });
+  }
 }
 export async function POST(request: NextRequest) {
   if (!authorized(request)) return response(401, { ok: false, message: "Incorrect editor password." });

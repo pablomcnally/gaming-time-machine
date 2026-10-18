@@ -63,7 +63,7 @@ export function ArticlePublisher() {
   }
   async function unlock() {
     try {
-      setBusy(true); const response = await fetch("/api/articles", { headers: { "x-editor-password": password } }); const result = await response.json();
+      setBusy(true); setMode(null); setChecked(false); const response = await fetch("/api/articles", { headers: { "x-editor-password": password } }); const result = await response.json();
       if (!response.ok || !result.publishAvailable) throw new Error(result.message || "Live publishing is not configured.");
       setMode(result.mode); sessionStorage.setItem("paulArchiveEditorPassword", password); setStatus(result.mode === "github" ? "Connected. Publishing will update both sites." : "Local preview connected. Saving here will not update the live sites.");
     } catch (error) { setStatus(error instanceof Error ? error.message : "Could not connect."); } finally { setBusy(false); }
@@ -90,7 +90,7 @@ export function ArticlePublisher() {
   }
   return <main className="publisher-page"><div className="publisher-container">
     <header><Link href="/editor">← Site editor</Link><h1>Add an archive article</h1><p>One article, two editions. Import your copy, attach its images, check the previews, then publish.</p></header>
-    <section className="publisher-panel"><h2>Publishing connection</h2><div className="publisher-fields"><label>Editor password<input type="password" autoComplete="current-password" className={inputClass} value={password} onChange={(event) => { setPassword(event.target.value); setMode(null); setChecked(false); }} /></label><button type="button" disabled={busy} onClick={unlock}>{mode ? "Reconnect" : "Connect"}</button></div><p role="status" className="publisher-status">{status}</p></section>
+    <section className="publisher-panel" id="publisher-connection"><h2>Publishing connection</h2><div className="publisher-fields"><label>Editor password<input type="password" autoComplete="current-password" className={inputClass} value={password} onChange={(event) => { setPassword(event.target.value); setMode(null); setChecked(false); }} /></label><button type="button" disabled={busy} onClick={unlock}>{mode ? "Reconnect" : "Connect"}</button></div><p role="status" className="publisher-status">{status}</p></section>
     <fieldset disabled={busy || published} className="publisher-panel"><legend>1. Article details</legend><div className="publisher-actions"><label className="publisher-upload">Import Markdown<input type="file" accept=".md,.markdown,text/markdown,text/plain" onChange={(event) => { const file = event.target.files?.[0]; if (file) void importFile(file); event.target.value = ""; }} /></label><button type="button" onClick={saveDraft}>Save text draft</button></div>
       <div className="publisher-fields">{field("title", "Headline")}{field("slug", "Article URL name")}
         <label>Section<select className={inputClass} value={draft.kind} disabled={!!assets.length} onChange={(event) => update("kind", event.target.value as ArticleDraft["kind"])}>{["reviews", "features", "interviews", "opinion"].map((kind) => <option key={kind} value={kind}>{kind}</option>)}</select></label>
@@ -107,10 +107,18 @@ export function ArticlePublisher() {
     </fieldset>
     <section className="publisher-panel"><h2>3. Check both versions</h2><div className="publisher-actions"><button type="button" aria-pressed={edition === "pablonet"} onClick={() => setEdition("pablonet")}>Pablonet preview</button><button type="button" aria-pressed={edition === "pro"} onClick={() => setEdition("pro")}>Pro preview</button></div>
       <article className={`publisher-preview ${edition === "pro" ? "publisher-preview-pro" : "publisher-preview-pablonet"}`}><p>{draft.publication} · {draft.date} · {draft.author}</p><h1>{draft.title || "Your headline"}</h1><p>{draft.excerpt}</p>{imageUrls[edition === "pro" ? resolved.featuredImage : resolved.micronetImage] ? <img className="publisher-lead" src={imageUrls[edition === "pro" ? resolved.featuredImage : resolved.micronetImage]} alt={edition === "pro" ? draft.featuredImageAlt : draft.micronetImageAlt} /> : null}<ArchiveNotice publication={draft.publication} date={draft.date} sourceUrl={draft.sourceUrl} pro={edition === "pro"} /><MarkdownBody content={resolved.body} imageUrls={imageUrls} className="publisher-prose" /></article>
-      {errors.length ? <details><summary>{errors.length} checks to complete</summary><ul>{errors.map((error) => <li key={error}>{error}</li>)}</ul></details> : <p>All form checks passed.</p>}
-      {warnings.length ? <ul className="publisher-warnings">{warnings.map((warning) => <li key={warning}>{warning}</li>)}</ul> : null}
+      <div className="publisher-readiness" id="publisher-readiness">
+        <h3>{published ? "Article published" : "Publishing checklist"}</h3>
+        {!published ? <>
+          {!mode ? <p><strong>Connect the editor first.</strong> Enter your editor password in Publishing connection at the top, then click Connect. <a href="#publisher-connection">Go to publishing connection</a></p> : <p>✓ {mode === "github" ? "Connected for live publishing." : "Connected to local preview."}</p>}
+          {errors.length ? <><p><strong>{errors.length} required {errors.length === 1 ? "check" : "checks"} to complete:</strong></p><ul>{errors.map((error) => <li key={error}>{error}</li>)}</ul></> : <p>✓ All required fields and image matches are complete.</p>}
+          <p>{checked ? "✓ Publishing checks passed." : "Next: run publishing checks once connected and the required fields are complete."}</p>
+          <p>{reviewed ? "✓ Previews confirmed." : "Before publishing, tick the preview confirmation below."}</p>
+        </> : <p>{mode === "github" ? "The article has been sent for deployment." : "The article has been saved locally."}</p>}
+      </div>
+      {warnings.length ? <div className="publisher-warnings"><h3>Editorial reminders — these do not block publishing</h3><ul>{warnings.map((warning) => <li key={warning}>{warning}</li>)}</ul></div> : null}
       <label className="publisher-confirm"><input type="checkbox" checked={reviewed} onChange={(event) => setReviewed(event.target.checked)} /> I have checked the opening paragraph, original date and both image previews.</label>
-      <div className="publisher-actions"><button type="button" disabled={busy || published || !mode || !!errors.length} onClick={() => submit("check")}>Run publishing checks</button><button type="button" disabled={busy || published || !checked || !reviewed || !!errors.length} onClick={() => submit("publish")}>{busy ? "Working…" : mode === "local" ? "Save article locally" : "Publish to both sites"}</button><button type="button" disabled={busy} onClick={reset}>Start another article</button></div>
+      <div className="publisher-actions"><button type="button" aria-describedby="publisher-readiness" disabled={busy || published || !mode || !!errors.length} onClick={() => submit("check")}>Run publishing checks</button><button type="button" aria-describedby="publisher-readiness" disabled={busy || published || !mode || !checked || !reviewed || !!errors.length} onClick={() => submit("publish")}>{busy ? "Working…" : mode === "local" ? "Save article locally" : "Publish to both sites"}</button><button type="button" disabled={busy} onClick={reset}>Start another article</button></div>
       <p className="publisher-status">{status}</p>
       {published && mode === "github" ? <p>The deployment may take a few minutes. <a href={`/${draft.kind}/${draft.slug}`} target="_blank" rel="noreferrer">Open Pablonet article</a> · <a href={`/pro/${draft.kind}/${draft.slug}`} target="_blank" rel="noreferrer">Open Pro article</a></p> : null}
     </section>

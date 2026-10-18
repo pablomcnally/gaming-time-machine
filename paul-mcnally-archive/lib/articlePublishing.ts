@@ -75,7 +75,7 @@ export function articleWarnings(draft: ArticleDraft) {
   const warnings: string[] = [];
   const first = draft.body.split(/\n{2,}/).find((block) => block.trim() && !/^(#|!|\*Archive)/.test(block)) || "";
   if (/^(?:[,;:]|That makes|And |But |This means|These are)/i.test(first.trim())) warnings.push("The opening may be incomplete. Check it against the original before publishing.");
-  if (/pre-order|available now|at the moment/i.test(draft.body) && draft.date < new Date().toISOString().slice(0, 10)) warnings.push("This older article contains time-sensitive wording. Consider adding an archive note.");
+  if (/pre-order|available now|at the moment/i.test(draft.body) && draft.date < new Date().toISOString().slice(0, 10)) warnings.push("This older article contains time-sensitive wording. The automatic archive notice shows its original date. Check that the wording is accurate for that date; no extra archive note is required.");
   return warnings;
 }
 export function formatArticle(draft: ArticleDraft) {

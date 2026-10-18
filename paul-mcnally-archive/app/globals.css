@@ -2013,6 +2013,11 @@ textarea {
 .publisher-preview-pro .publisher-prose .portfolio-background-section p { color: #fff; }
 @media (max-width: 640px) { .publisher-preview-pro .publisher-prose :is(p, li) { font-size: 18px; } .publisher-preview-pro .publisher-prose h2 { font-size: 27px; } }
 .publisher-panel details { margin: 24px 0; }
+.publisher-readiness { margin: 24px 0; border: 1px solid #61768c; padding: 20px; background: #060c14; scroll-margin-top: 24px; }
+.publisher-readiness p { margin: 12px 0; line-height: 1.6; }
+.publisher-readiness ul { padding-left: 24px; list-style: disc; line-height: 1.7; }
+.publisher-readiness a { color: #67e8f9; text-decoration: underline; }
+.publisher-warnings h3 { font-weight: bold; margin-bottom: 12px; }
 .publisher-panel details ul, .publisher-warnings { padding-left: 24px; list-style: disc; line-height: 1.7; }
 .publisher-warnings { color: #ffe38c; margin: 20px 0; }
 @media (max-width: 640px) { .topic-grid, .publisher-fields { grid-template-columns: 1fr; } .publisher-panel { padding: 16px; } }

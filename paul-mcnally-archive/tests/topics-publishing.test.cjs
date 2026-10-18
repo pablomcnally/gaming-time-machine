@@ -99,3 +99,25 @@ test("GitHub publishing uploads a single commit and uses a non-forced ref update
   assert.equal(calls.find((call) => call.endpoint === "git/trees").body.tree.length, 2);
   assert.deepEqual(calls.at(-1).body, { sha: "new-commit", force: false });
 });
+
+test("connecting verifies GitHub credentials and explains rejected tokens before publication", async () => {
+  const { NextRequest } = require("next/server");
+  for (const status of [200, 401, 403, 404]) {
+    const calls = [];
+    const route = load("app/api/articles/route.ts", { "../../../lib/articlePublishing": publishing, "../../../lib/topics": subject, "../../../lib/professional": { getProfessionalArticles: () => [] } }, {
+      process: { env: { EDITOR_PASSWORD: "test-only-password", GITHUB_TOKEN: " test-only-token\n" }, cwd: () => __dirname },
+      fetch: async (url, options) => { calls.push({ url, ...options }); return Response.json(status === 200 ? { object: { sha: "parent" } } : { message: "Not authorized" }, { status }); }
+    });
+    const unauthorized = await route.GET(new NextRequest("http://localhost/api/articles"));
+    assert.equal(unauthorized.status, 401); assert.equal(calls.length, 0);
+    const result = await route.GET(new NextRequest("http://localhost/api/articles", { headers: { "x-editor-password": "test-only-password" } }));
+    const payload = await result.json();
+    assert.equal(result.status, status === 200 ? 200 : 502);
+    assert.equal(payload.publishAvailable, status === 200);
+    assert.equal(calls.length, 1); assert.equal(calls[0].method, "GET");
+    assert.equal(calls[0].headers.Authorization, "Bearer test-only-token");
+    if (status === 401) { assert.match(payload.message, /Replace GITHUB_TOKEN/); assert.doesNotMatch(payload.message, /try again later/i); }
+    if (status === 403) assert.match(payload.message, /Read and write/);
+    if (status === 404) assert.match(payload.message, /repository access/);
+  }
+});
