@@ -1,3 +1,5 @@
+import { normalizeMarkdownStructure } from "./markdownStructure";
+
 export type ArticleDraft = {
   title: string; slug: string; date: string; excerpt: string; publication: string; author: string;
   kind: "reviews" | "features" | "interviews" | "opinion"; category: "tech" | "games";
@@ -29,7 +31,7 @@ export function importArticle(source: string): Partial<ArticleDraft> {
   const metadata: Record<string, string> = {};
   if (front) {
     for (const line of front[1].split("\n")) { const colon = line.indexOf(":"); if (colon > 0) metadata[line.slice(0, colon)] = line.slice(colon + 1).trim().replace(/^["']|["']$/g, ""); }
-    return { ...Object.fromEntries(Object.entries(metadata).filter(([key]) => key in emptyArticle && key !== "kind" && key !== "category")), date: exactDate(metadata.date || ""), body: front[2].trim() };
+    return { ...Object.fromEntries(Object.entries(metadata).filter(([key]) => key in emptyArticle && key !== "kind" && key !== "category")), date: exactDate(metadata.date || ""), body: normalizeMarkdownStructure(front[2].trim()) };
   }
   for (const key of ["TITLE", "ORIGINAL LINK", "ORIGINAL PUBLICATION", "DATE", "TYPE"]) metadata[key] = text.match(new RegExp(`^${key}:\\s*(.+)$`, "m"))?.[1]?.trim() || "";
   let body = text.split(/^INTRO:\s*$/m)[1] ?? text;
@@ -42,12 +44,12 @@ export function importArticle(source: string): Partial<ArticleDraft> {
     if (/Featured image/i.test(details)) { featured = `asset:${name}`; return "\n"; }
     return `\n\n![${caption === "No caption shown" ? name : caption}](asset:${name})\n\n`;
   });
-  body = body.replace(/^SECTION: (.+)$/gm, "\n## $1\n").replace(/^TL;DR:\s*$/gm, "## At a glance").replace(/^PROS:\s*$/gm, "### Pros").replace(/^CONS:\s*$/gm, "### Cons");
+  body = body.replace(/^SECTION: (.+)$/gm, "## $1").replace(/^TL;DR:[\t ]*$/gm, "## At a glance").replace(/^PROS:[\t ]*$/gm, "### Pros").replace(/^CONS:[\t ]*$/gm, "### Cons");
   body = body.replace(/\[YOUTUBE\]\n(https:\/\/www\.youtube\.com\/watch\?v=[\w-]+)\n(?:PLACEMENT:[^\n]*\n?)?/g, "\n[YOUTUBE:$1|Watch the video]\n");
   body = body.trim();
   if (metadata.TITLE && body.startsWith(metadata.TITLE + "\n")) body = body.slice(metadata.TITLE.length).trim();
   const kind = /interview/i.test(metadata.TYPE) ? "interviews" : /opinion/i.test(metadata.TYPE) ? "opinion" : /feature|news/i.test(metadata.TYPE) ? "features" : "reviews";
-  return { title: metadata.TITLE, slug: articleSlug(metadata.TITLE), publication: metadata["ORIGINAL PUBLICATION"], sourceUrl: metadata["ORIGINAL LINK"], date: exactDate(metadata.DATE), kind, featuredImage: featured, body: body.replace(/\n{3,}/g, "\n\n") };
+  return { title: metadata.TITLE, slug: articleSlug(metadata.TITLE), publication: metadata["ORIGINAL PUBLICATION"], sourceUrl: metadata["ORIGINAL LINK"], date: exactDate(metadata.DATE), kind, featuredImage: featured, body: normalizeMarkdownStructure(body.replace(/\n{3,}/g, "\n\n")) };
 }
 export function articleIssues(draft: ArticleDraft, assetPaths: string[], allowedTopics: string[]) {
   const errors: string[] = [];
@@ -78,5 +80,5 @@ export function articleWarnings(draft: ArticleDraft) {
 }
 export function formatArticle(draft: ArticleDraft) {
   const keys = ["title", "date", "slug", "excerpt", "publication", "author", ...(draft.kind === "reviews" ? ["category"] : []), "tag", "topics", "related", "featuredImage", "featuredImageAlt", "micronetImage", "micronetImageAlt", "imageCredit", "sourceUrl"] as (keyof ArticleDraft)[];
-  return `---\n${keys.filter((key) => draft[key]).map((key) => `${key}: "${draft[key]}"`).join("\n")}\n---\n\n${draft.body.trim()}\n`;
+  return `---\n${keys.filter((key) => draft[key]).map((key) => `${key}: "${draft[key]}"`).join("\n")}\n---\n\n${normalizeMarkdownStructure(draft.body.trim())}\n`;
 }

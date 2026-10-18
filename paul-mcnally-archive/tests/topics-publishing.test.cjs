@@ -7,16 +7,44 @@ const { test } = require("node:test");
 const ts = require("typescript");
 function load(relative, overrides = {}, extras = {}) {
   const filename = path.resolve(__dirname, "..", relative);
-  const code = ts.transpileModule(fs.readFileSync(filename, "utf8"), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020, esModuleInterop: true } }).outputText;
+  const code = ts.transpileModule(fs.readFileSync(filename, "utf8"), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020, esModuleInterop: true, jsx: ts.JsxEmit.ReactJSX } }).outputText;
   const module = { exports: {} };
   vm.runInThisContext(`(function(require,module,exports,process,fetch){${code}\n})`, { filename })((name) => overrides[name] || require(name), module, module.exports, extras.process || process, extras.fetch || fetch);
   return module.exports;
 }
-const publishing = load("lib/articlePublishing.ts");
+const markdown = load("lib/markdownStructure.ts");
+const publishing = load("lib/articlePublishing.ts", { "./markdownStructure": markdown });
+const renderer = load("components/MarkdownContent.tsx", { "../lib/markdownStructure": markdown, "./AudioArchivePlayer": { AudioArchivePlayer: () => null } });
 const subject = load("lib/topics.ts");
 const { emptyArticle, articleIssues, articleWarnings, importArticle, articleAssetPath } = publishing;
 const topicSlugs = subject.topics.map((topic) => topic.slug);
 function draft() { return { ...emptyArticle, title: "A resin printer review", slug: "test-printer", date: "2024-03-28", excerpt: "A detailed printer review.", publication: "ReadWrite", sourceUrl: "https://readwrite.com/example", featuredImage: "/portfolio/uploads/reviews-test-printer/1-image.png", featuredImageAlt: "A printer", micronetImage: "/portfolio/uploads/reviews-test-printer/1-image.png", micronetImageAlt: "Printer artwork", body: "There are resin printers and then there is this machine." }; }
+
+test("editorial summaries render separate headings, bullets and opening paragraphs", () => {
+  const imported = importArticle("TITLE: A printer\nINTRO:\nTL;DR:\n- First point\n- Second point\n\nThe full opening.\nSECTION: Setup\nNormal copy.\n\nPROS:\n- Easy setup\n\nCONS:\n- Large footprint");
+  const { createElement } = require("react");
+  const { renderToStaticMarkup } = require("react-dom/server");
+  const html = renderToStaticMarkup(createElement(renderer.MarkdownBody, { content: imported.body }));
+  assert.match(html, /<h2 id="at-a-glance">At a glance<\/h2><ul><li>First point<\/li><li>Second point<\/li><\/ul><p>The full opening\.<\/p>/);
+  assert.match(html, /<h2 id="setup">Setup<\/h2><p>Normal copy\.<\/p>/);
+  assert.match(html, /<h3 id="pros">Pros<\/h3><ul><li>Easy setup<\/li>/);
+  assert.match(html, /<h3 id="cons">Cons<\/h3><ul><li>Large footprint<\/li>/);
+});
+
+test("existing draft headings are repaired for rendering, navigation and publication", () => {
+  const body = "## At a glance\n- One\n- Two\n\nOpening.\n## Setup\nDirections.";
+  const saved = publishing.formatArticle({ ...draft(), body });
+  assert.match(saved, /## At a glance\n\n- One\n- Two/);
+  assert.match(saved, /Opening\.\n\n## Setup\n\nDirections\./);
+  assert.deepEqual(renderer.getMarkdownHeadings(body).map(({ text }) => text), ["At a glance", "Setup"]);
+  assert.equal(importArticle(saved).body, markdown.normalizeMarkdownStructure(body));
+  assert.equal(markdown.normalizeMarkdownStructure(markdown.normalizeMarkdownStructure(body)), markdown.normalizeMarkdownStructure(body));
+});
+
+test("heading spacing preserves fenced examples and paragraph line breaks", () => {
+  const body = "```md\n## Example\n- Keep adjacent\n```\n\nA paragraph\nwith a line break.\n\n~~~md\n### Another example\nKeep adjacent\n~~~";
+  assert.equal(markdown.normalizeMarkdownStructure(body), body);
+});
 test("topics combine precise subject matches with editorial choices", () => {
   assert.ok(subject.getArticleTopics({ title: "GKTwo resin printer", slug: "gktwo" }).some((topic) => topic.slug === "3d-printing-and-making"));
   assert.ok(subject.getArticleTopics({ title: "DCS World head tracking", slug: "dcs" }).some((topic) => topic.slug === "simulation"));

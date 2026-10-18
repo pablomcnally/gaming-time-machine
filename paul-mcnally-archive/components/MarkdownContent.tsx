@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { AudioArchivePlayer } from "./AudioArchivePlayer";
+import { normalizeMarkdownStructure } from "../lib/markdownStructure";
 
 
 function renderInline(text: string) {
@@ -60,7 +61,7 @@ type ParsedMarkdownHeading = MarkdownHeading & {
 function collectMarkdownHeadings(content: string): ParsedMarkdownHeading[] {
   const usedIds = new Map<string, number>();
 
-  return content.split(/\n{2,}/).flatMap((block, blockIndex) => {
+  return normalizeMarkdownStructure(content).split(/\n{2,}/).flatMap((block, blockIndex) => {
     const match = block.match(/^(#{2,3})\s+([^\n]+)$/);
 
     if (!match) return [];
@@ -90,7 +91,7 @@ export function getMarkdownHeadings(content: string): MarkdownHeading[] {
 }
 
 export function MarkdownBody({ className = "", content, imageUrls, renderImage }: MarkdownBodyProps) {
-  const blocks = content.split(/\n{2,}/);
+  const blocks = normalizeMarkdownStructure(content).split(/\n{2,}/);
   const headingByBlock = new Map(collectMarkdownHeadings(content).map((heading) => [heading.blockIndex, heading]));
 
   return (

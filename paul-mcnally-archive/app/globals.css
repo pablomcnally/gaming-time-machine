@@ -1990,6 +1990,21 @@ textarea {
 .publisher-prose li { margin: 8px 0; }
 .publisher-prose img { max-width: 100%; height: auto; margin: 16px auto; }
 .publisher-prose figcaption { font-size: 14px; }
+.publisher-preview-pro .publisher-prose :is(p, li) { color: #202522; font: 19px/1.85 Georgia, "Times New Roman", serif; }
+.publisher-preview-pro .publisher-prose :is(strong, em) { color: inherit; }
+.publisher-preview-pro .publisher-prose h2 { color: #202522; font: 30px/1.3 Georgia, serif; margin: 42px 0 22px; }
+.publisher-preview-pro .publisher-prose h3 { color: #202522; font: bold 20px/1.4 Arial, sans-serif; text-transform: none; margin: 32px 0 18px; }
+.publisher-preview-pro .publisher-prose a { color: #183e35; text-decoration-color: #729c84; }
+.publisher-preview-pro .publisher-prose a:hover { color: #963a42; }
+.publisher-preview-pro .publisher-prose li::marker { color: #183e35; }
+.publisher-preview-pro .publisher-prose blockquote { color: #183e35; text-transform: none; font: 25px/1.55 Georgia, serif; border-left: 3px solid #963a42; padding: 6px 0 6px 24px; margin: 32px 0; }
+.publisher-preview-pro .publisher-prose .portfolio-media { background: transparent; border: none; box-shadow: none; }
+.publisher-preview-pro .publisher-prose figcaption { color: #626b65; font: 12px/1.6 Arial, sans-serif; text-transform: none; border: none; }
+.publisher-preview-pro .publisher-prose .portfolio-table-scroll { background: white; border: 1px solid #d9ded8; }
+.publisher-preview-pro .publisher-prose .portfolio-table-scroll :is(table, th, td) { color: #202522; font-family: Arial, sans-serif; border-color: #d9ded8; }
+.publisher-preview-pro .publisher-prose .portfolio-table-scroll th { background: #edf1ec; text-transform: none; }
+.publisher-preview-pro .publisher-prose .portfolio-background-section p { color: #fff; }
+@media (max-width: 640px) { .publisher-preview-pro .publisher-prose :is(p, li) { font-size: 18px; } .publisher-preview-pro .publisher-prose h2 { font-size: 27px; } }
 .publisher-panel details { margin: 24px 0; }
 .publisher-panel details ul, .publisher-warnings { padding-left: 24px; list-style: disc; line-height: 1.7; }
 .publisher-warnings { color: #ffe38c; margin: 20px 0; }
