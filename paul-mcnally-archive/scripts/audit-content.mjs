@@ -1,5 +1,13 @@
 import fs from "node:fs";
 import path from "node:path";
+import ts from "typescript";
+import vm from "node:vm";
+
+const topicSource = fs.readFileSync(path.join(process.cwd(), "lib/topics.ts"), "utf8");
+const topicCode = ts.transpileModule(topicSource, { compilerOptions: { module: ts.ModuleKind.CommonJS } }).outputText;
+const topicModule = { exports: {} };
+vm.runInNewContext(`(function(exports){${topicCode}\n})`, {})(topicModule.exports);
+const topicSlugs = topicModule.exports.topics.map((topic) => topic.slug);
 
 const projectRoot = process.cwd();
 const publicRoot = path.join(projectRoot, "public");
@@ -16,6 +24,7 @@ const collections = [
 ];
 
 const staticRoutes = new Set([
+  "/topics", "/pro/topics", ...topicSlugs.flatMap((slug) => [`/topics/${slug}`, `/pro/topics/${slug}`]),
   "/", "/about", "/archive", "/blog", "/career", "/contact", "/features", "/interviews", "/micronet-800",
   "/opinion", "/pro", "/pro/about", "/pro/blog", "/pro/contact", "/pro/features", "/pro/interviews",
   "/pro/opinion", "/pro/reviews", "/pro/reviews/games", "/pro/reviews/tech", "/pro/work", "/reviews",
@@ -82,6 +91,7 @@ for (const collection of collections) {
     if (data.updatedDate && data.date && data.updatedDate < data.date) errors.push(`${relativeFile}: updatedDate is earlier than date.`);
     if (data.slug && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(data.slug)) errors.push(`${relativeFile}: slug is not URL-safe.`);
     if (collection.kind === "reviews" && !["games", "tech"].includes(data.category)) errors.push(`${relativeFile}: review category must be games or tech.`);
+    for (const topic of (data.topics || "").split(",").map((value) => value.trim()).filter(Boolean)) if (!topicSlugs.includes(topic)) errors.push(`${relativeFile}: unknown topic ${topic}.`);
 
     for (const field of ["sourceUrl"]) {
       if (!data[field]) continue;

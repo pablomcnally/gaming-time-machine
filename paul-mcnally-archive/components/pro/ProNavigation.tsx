@@ -14,6 +14,7 @@ export function ProNavigation() {
         : pathname === href || pathname.startsWith(`${href}/`);
       return <Link href={href} key={href} aria-current={active ? "page" : undefined}>{label}</Link>;
     })}
+    <Link href="/pro/topics" aria-current={pathname.startsWith("/pro/topics") ? "page" : undefined}>Topics</Link>
     <Link href="/pro/contact" className="pro-nav-contact">Get in touch</Link>
   </nav>;
 }

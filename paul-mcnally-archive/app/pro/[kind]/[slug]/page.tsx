@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ArticleTopics } from "../../../../components/ArticleTopics";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArticleContents, ArticlePagination } from "../../../../components/ArticleReadingTools";
@@ -68,6 +69,7 @@ export default async function ProfessionalArticlePage({ params }: Props) {
       <div className="pro-reading-layout"><aside className="pro-article-context"><p className="pro-eyebrow">{article.sourceUrl ? "Originally published" : "Independent writing"}</p><p>{article.publication}</p>{article.sourceUrl ? <a href={article.sourceUrl} target="_blank" rel="noreferrer">Read the original <span aria-hidden="true">&#8599;</span><span className="sr-only"> (opens in a new tab)</span></a> : null}<Link href={`/${kind}/${slug}`}>Read in Micronet</Link><Link href={directory}>Back to {kind}</Link>{showContents ? <ArticleContents headings={headings} /> : null}</aside>
         <div className="pro-reading-copy"><MarkdownBody content={article.body} className="pro-prose" /><footer className="pro-article-end"><p>Written by {article.author}</p>{article.sourceUrl ? <p>Originally published by <a href={article.sourceUrl} target="_blank" rel="noreferrer">{article.publication}</a> on {proDate(article.date)}. Archived here by the author.</p> : <p>Independent writing. Published {proDate(article.date)}.</p>}</footer></div>
       </div>
+      <ArticleTopics article={article} pro />
       <ArticlePagination
         previous={previousArticle ? { href: `/pro/${kind}/${previousArticle.slug}`, title: previousArticle.title } : undefined}
         next={nextArticle ? { href: `/pro/${kind}/${nextArticle.slug}`, title: nextArticle.title } : undefined}

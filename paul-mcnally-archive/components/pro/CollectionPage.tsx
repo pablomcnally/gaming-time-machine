@@ -19,6 +19,7 @@ export function CollectionPage({ kind, category }: { kind?: ProfessionalKind; ca
   return <div className="pro-container pro-page">
     <header className="pro-page-heading"><p className="pro-eyebrow">The portfolio</p><h1>{category ? `${category === "games" ? "Game and book" : "Tech"} reviews` : details.title}</h1><p>{details.description}</p></header>
     <nav className="pro-collection-tabs" aria-label="Work collections">
+      <Link href="/pro/topics">Browse by topic</Link>
       {[{ label: "All work", value: undefined, href: "/pro/work" }, ...professionalKinds.map((value) => ({ label: collectionDetails[value].title, value, href: `/pro/${value}` }))].map((item) => <Link key={item.href} href={item.href} aria-current={item.value === kind ? "page" : undefined}>
         {item.label}<span>{all.filter((article) => !item.value || article.kind === item.value).length}</span>
       </Link>)}

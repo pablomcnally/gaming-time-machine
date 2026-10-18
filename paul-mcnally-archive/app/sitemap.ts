@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { topics } from "../lib/topics";
 import { getAllBlogPosts } from "../lib/blog";
 import { getAllPortfolioPieces } from "../lib/portfolio";
 import { getAllPosts } from "../lib/posts";
@@ -17,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const pages = ["", "/about", "/career", "/writing", "/opinion", "/interviews", "/features", "/blog", "/reviews", "/reviews/games", "/reviews/tech", "/work", "/contact", "/micronet-800", "/system-status", "/pro", "/pro/work", "/pro/about", "/pro/contact", "/pro/features", "/pro/interviews", "/pro/opinion", "/pro/reviews", "/pro/reviews/games", "/pro/reviews/tech", "/pro/blog"];
 
   return [
+    ...["", "/pro"].flatMap((prefix) => ["", ...topics.map((topic) => `/${topic.slug}`)].map((suffix) => ({ url: `${SITE_URL}${prefix}/topics${suffix}`, lastModified: collectionModified }))),
     ...pages.map((page) => ({
       url: `${SITE_URL}${page}`,
       lastModified: collectionModified

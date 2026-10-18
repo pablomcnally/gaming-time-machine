@@ -1,4 +1,4 @@
-const sharedEditionSections = ["features", "interviews", "opinion", "reviews", "blog"];
+const sharedEditionSections = ["features", "interviews", "opinion", "reviews", "blog", "topics"];
 
 export function getProfessionalEditionHref(pathname: string) {
   if (pathname === "/") return "/pro";

@@ -13,6 +13,7 @@ export function SitePresentation({ children, contentKeyboardPages }: {
   contentKeyboardPages: Array<{ number: string; href: string }>;
 }) {
   const pathname = usePathname();
+  if (pathname.startsWith("/editor/articles")) return <>{children}</>;
 
   // Do not mount terminal media, hotkeys or effects in the professional edition.
   if (pathname === "/pro" || pathname.startsWith("/pro/")) return <>{children}</>;

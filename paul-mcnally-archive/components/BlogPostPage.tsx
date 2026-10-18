@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ArticleTopics } from "./ArticleTopics";
 import { notFound } from "next/navigation";
 import { getAllBlogPosts, getBlogPageCode, getBlogPostBySlug, type BlogPost } from "../lib/blog";
 import { getAllPortfolioPieces } from "../lib/portfolio";
@@ -108,6 +109,7 @@ export function BlogPostPage({ slug }: { slug: string }) {
             </p>
           </div>
           <MarkdownBody className="article-prose portfolio-prose" content={post.body} />
+          <ArticleTopics article={post} />
           <footer className="mt-10 border-t border-terminal-cyan/40 pt-6 font-mono text-sm uppercase">
             <p className="text-terminal-green">Transmission complete // end of blog file</p>
             {post.sourceUrl ? (

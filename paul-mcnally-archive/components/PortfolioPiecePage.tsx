@@ -8,6 +8,7 @@ import { getMarkdownHeadings, MarkdownBody } from "./MarkdownBody";
 import { ReadingProgress } from "./ReadingProgress";
 import { ResponsiveImage } from "./ResponsiveImage";
 import { StructuredData } from "./StructuredData";
+import { ArticleTopics } from "./ArticleTopics";
 import { getArticleStructuredData } from "../lib/structuredData";
 
 function formatDate(date: string) {
@@ -113,6 +114,7 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
             </p>
           </div>
           <MarkdownBody className="article-prose portfolio-prose" content={piece.body} />
+          <ArticleTopics article={piece} />
           <footer className="mt-10 border-t border-terminal-cyan/40 pt-6 font-mono text-sm uppercase">
             <p className="text-terminal-green">Transmission complete // end of archive copy</p>
             <a href={piece.sourceUrl} target="_blank" rel="noreferrer" className="mt-4 inline-flex text-terminal-cyan hover:text-terminal-yellow">

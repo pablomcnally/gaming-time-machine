@@ -17,6 +17,7 @@ export type PortfolioPiece = {
   publication: string;
   author: string;
   tag?: string;
+  topics?: string[];
   category?: ReviewCategory;
   featuredImage?: string;
   featuredImageAlt?: string;
@@ -95,6 +96,7 @@ function getPiecesForKind(kind: PortfolioKind): PortfolioPiece[] {
         publication: data.publication,
         author: data.author,
         tag: data.tag || undefined,
+        topics: parseRelatedReferences(data.topics),
         category: kind === "reviews" ? category as ReviewCategory : undefined,
         featuredImage: data.featuredImage || undefined,
         featuredImageAlt: data.featuredImageAlt || undefined,

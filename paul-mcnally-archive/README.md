@@ -75,6 +75,18 @@ The writing index and individual post pages are generated automatically.
 
 ## Adding Interviews and Features
 
+### Full article publishing workspace
+
+Open `/editor/articles` (also linked from the existing editor). Connect with the same editor password, import a Markdown file, review the original publication metadata, then attach up to 20 PNG/JPG/WebP/GIF images totalling 3MB. Pick the Pro and Pablonet featured images and supply their image descriptions. Imported image markers can be matched to uploads using the selectors; the copy remains editable.
+
+Check both previews and the opening paragraph, run publishing checks, then publish. The API adds a new article and its images in one Git commit using the existing `GITHUB_TOKEN`, `GITHUB_REPO` and `GITHUB_BRANCH` settings. Existing article URLs are rejected rather than overwritten. It never force-pushes. A deployment still needs to finish before the article appears publicly.
+
+Text drafts can be saved in the browser; images must be reattached after leaving. The workspace supports new reviews, features, interviews and opinion pieces. Existing articles continue to be edited in their Markdown source. In local development the password defaults to `local-preview`; a production server requires `EDITOR_PASSWORD`. Without a GitHub token, local saves stay local and Vercel publishing is disabled. Markdown files should be under 300KB.
+
+### Topic collections
+
+Both editions have `/topics` and `/pro/topics`, with collections for 3D printing and making, simulation, retro computing and arcade history. Matching uses the headline, slug and subject label, not passing mentions in the body. Add extra editorial assignments with `topics: "simulation, 3d-printing-and-making"`. The definitions and matching rules live in `lib/topics.ts`; topic routes appear in the sitemap and topic links appear on matching articles.
+
 Published portfolio work is kept separate from the site's own Writing posts. Add a Markdown file to one of these folders:
 
 ```text
