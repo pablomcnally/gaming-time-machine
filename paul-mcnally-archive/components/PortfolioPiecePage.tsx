@@ -9,6 +9,7 @@ import { ReadingProgress } from "./ReadingProgress";
 import { ResponsiveImage } from "./ResponsiveImage";
 import { StructuredData } from "./StructuredData";
 import { ArticleTopics } from "./ArticleTopics";
+import { ArchiveNotice } from "./ArchiveNotice";
 import { getArticleStructuredData } from "../lib/structuredData";
 
 function formatDate(date: string) {
@@ -107,12 +108,7 @@ export function PortfolioPiecePage({ kind, slug }: { kind: PortfolioKind; slug: 
       <section className="mx-auto grid max-w-7xl gap-6 px-5 py-10 md:py-14 lg:grid-cols-[minmax(0,1fr)_19rem]">
         {showContents ? <ArticleContents className="lg:hidden" headings={headings} /> : null}
         <article className="article-shell border border-terminal-paper/60 bg-terminal-black/88 p-5 shadow-terminal md:p-8 lg:p-10" id="article-body">
-          <div className="mb-8 border-b border-terminal-yellow/50 pb-5 font-mono text-sm uppercase">
-            <p className="text-terminal-yellow">Permanent archive copy</p>
-            <p className="mt-2 max-w-3xl text-xs leading-5 text-terminal-paper/70">
-              Originally published by {piece.publication} on {formatDate(piece.date)}{piece.updatedDate ? ` and updated on ${formatDate(piece.updatedDate)}` : ""}. Preserved here by the author for long-term access.
-            </p>
-          </div>
+          <ArchiveNotice publication={piece.publication} date={piece.date} updatedDate={piece.updatedDate} sourceUrl={piece.sourceUrl} />
           <MarkdownBody className="article-prose portfolio-prose" content={piece.body} />
           <ArticleTopics article={piece} />
           <footer className="mt-10 border-t border-terminal-cyan/40 pt-6 font-mono text-sm uppercase">
