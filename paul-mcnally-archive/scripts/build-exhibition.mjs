@@ -70,7 +70,7 @@ for(let index=0;index<raw.length;index++){
  const a=raw[index];
  const source=path.join(archive,'public',a.originalImage);
  const preview=`${base}/assets/previews/${a.slug}.webp`;
- await sharp(source).resize({width:1000,height:780,fit:'inside',withoutEnlargement:true}).webp({quality:85,effort:4}).toFile(path.join(out,'assets/previews',`${a.slug}.webp`));
+ const previewInfo=await sharp(source).resize({width:1000,height:780,fit:'inside',withoutEnlargement:true}).webp({quality:85,effort:4}).toFile(path.join(out,'assets/previews',`${a.slug}.webp`));
  const image=await sharp(source).resize({width:464,height:342,fit:'inside'}).toBuffer({resolveWithObject:true});
  const badge=a.kind==='blog'?'JOURNAL':a.kind.toUpperCase();
  const svg='<svg width="512" height="460" xmlns="http://www.w3.org/2000/svg"><path d="M0 459.5H512M511.5 0V460" stroke="#292b29"/></svg>';
@@ -81,7 +81,8 @@ for(let index=0;index<raw.length;index++){
  const cell=await sharp({create:{width:512,height:460,channels:3,background:'#090a09'}}).composite([{input:image.data,left:Math.round((512-image.info.width)/2),top:42+Math.round((342-image.info.height)/2)},{input:Buffer.from(svg),left:0,top:0},{input:publication.data,left:24,top:13},{input:number.data,left:488-number.info.width,top:13},{input:title.data,left:24,top:398},{input:footer.data,left:24,top:433}]).png().toBuffer();
  cells.push({input:cell,left:(index%7)*512,top:Math.floor(index/7)*460});
  const bodyHtml=markdown.parse(a.body);
- articles.push({slug:a.slug,title:a.title,excerpt:a.excerpt,publication:a.publication,date:a.date,kind:a.kind,category:a.category||'',tag:a.tag||'',topics:(a.topics||'').split(',').map(x=>x.trim()).filter(Boolean),href:`/${a.kind}/${a.slug}`,image:preview,heroImage:preview,bodyHtml,sourceUrl:safeUrl(a.sourceUrl),author:a.author||'Paul McNally',atlasIndex:index,readingMinutes:Math.max(1,Math.round(a.body.split(/\s+/).length/230))});
+ const atlasImageRect={x:Math.round((512-image.info.width)/2),y:42+Math.round((342-image.info.height)/2),width:image.info.width,height:image.info.height};
+ articles.push({slug:a.slug,title:a.title,excerpt:a.excerpt,publication:a.publication,date:a.date,kind:a.kind,category:a.category||'',tag:a.tag||'',topics:(a.topics||'').split(',').map(x=>x.trim()).filter(Boolean),href:`/${a.kind}/${a.slug}`,image:preview,heroImage:preview,imageWidth:previewInfo.width,imageHeight:previewInfo.height,atlasImageRect,bodyHtml,sourceUrl:safeUrl(a.sourceUrl),author:a.author||'Paul McNally',atlasIndex:index,readingMinutes:Math.max(1,Math.round(a.body.split(/\s+/).length/230))});
 }
 await sharp({create:{width:3584,height:atlasRows*460,channels:3,background:'#090a09'}}).composite(cells).webp({quality:87,effort:5}).toFile(path.join(out,'assets/wall-atlas.webp'));
 const copied=[];const missing=[];

@@ -16,6 +16,10 @@ The main build references existing article media directly instead of duplicating
 
 Hover gives a 340 ms horizontal glitch and RGB split, then settles. There is no green hover rectangle. It is disabled for reduced-motion visitors, who initially see the index. Rendering pauses when static or hidden.
 
+Selecting a wall tile lifts its artwork into the reader over 700 ms while the wall recedes. The projection reverses the renderer's radial mapping; image bounds and intrinsic dimensions come from the generated atlas metadata. Closing reverses the flight and restores the same pan, zoom and filters. Index thumbnails also expand into the reader. Direct article URLs and reduced-motion visitors use immediate rendering. Escape during a flight, browser history and viewport resizing cancel safely. Reader-to-reader links replace the current article history entry so Back returns to the collection.
+
+Pablonet / Pro / Exhibition navigation appears on both the wall and reader. Inside a story, the edition links open that same article in the chosen edition.
+
 Paul's original `stars.wav` supplies the looping soundtrack, delivered as `audio/stars.mp3` (about 2.3 MB). The original WAV is retained locally in the standalone project's ignored `audio-masters/` directory. Sound starts off and the audio context is created only after a visitor enables it. Dragging bends playback speed/pitch according to distance from viewport centre, with a 100 ms press threshold and a smooth release back to the original rate. It is clamped above zero to avoid stalls, fades on mute, and suspends while the page is hidden. The article reader also has a sound switch. The Phantom teardown notes remain in `phantom-research/AUDIO.md`; no Phantom sound recordings are included.
 
 ## Checks
