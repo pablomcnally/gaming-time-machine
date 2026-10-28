@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...writingPosts.map((post) => post.date)
   ].sort((left, right) => right.localeCompare(left))[0];
   const collectionModified = new Date(`${newestContentDate}T00:00:00Z`);
-  const pages = ["", "/about", "/career", "/writing", "/opinion", "/interviews", "/features", "/blog", "/reviews", "/reviews/games", "/reviews/tech", "/work", "/contact", "/micronet-800", "/system-status", "/pro", "/pro/work", "/pro/about", "/pro/contact", "/pro/features", "/pro/interviews", "/pro/opinion", "/pro/reviews", "/pro/reviews/games", "/pro/reviews/tech", "/pro/blog"];
+  const pages = ["", "/about", "/career", "/writing", "/opinion", "/interviews", "/features", "/blog", "/reviews", "/reviews/games", "/reviews/tech", "/work", "/contact", "/micronet-800", "/system-status", "/exhibition", "/pro", "/pro/work", "/pro/about", "/pro/contact", "/pro/features", "/pro/interviews", "/pro/opinion", "/pro/reviews", "/pro/reviews/games", "/pro/reviews/tech", "/pro/blog"];
 
   return [
     ...["", "/pro"].flatMap((prefix) => ["", ...topics.map((topic) => `/${topic.slug}`)].map((suffix) => ({ url: `${SITE_URL}${prefix}/topics${suffix}`, lastModified: collectionModified }))),

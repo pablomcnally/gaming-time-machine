@@ -7,7 +7,7 @@ const STORAGE_KEY = "pablonet-welcome-tour-v1";
 const steps = [
   { selector: "[data-music-toggle]", title: "Add a little atmosphere", copy: "Use MUSIC ON / OFF for the retro soundtrack. Sound starts only when you choose to turn it on." },
   { selector: "[data-crt-toggle]", title: "Choose your screen", copy: "Use CRT ON / OFF to show or hide the television frame and screen effects. Choose whichever feels comfortable to read." },
-  { selector: "[data-pro-switch]", title: "Same archive, another look", copy: "Select PRO for a clean, modern presentation of the same articles. You can switch between Pro and Pablonet anytime." }
+  { selector: "[data-pro-switch]", title: "Same archive, three ways", copy: "Choose PRO for a clean editorial presentation, or EXHIBITION to explore the illustrated story wall. Switch between Pablonet, Pro and Exhibition anytime." }
 ];
 
 export function PablonetTour() {

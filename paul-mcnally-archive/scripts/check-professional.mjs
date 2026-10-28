@@ -50,7 +50,11 @@ for (const article of articles) {
   assertProfessional(html, route);
   const canonical = html.match(/<link rel="canonical" href="([^"]+)"/);
   assert.equal(new URL(canonical?.[1]).pathname, `/${article.kind}/${article.slug}`, `${route}: original canonical`);
-  const images = [...html.matchAll(/<img\b[^>]*\bsrc="([^"]+)"/g)].map((match) => match[1]);
+  const images = [...html.matchAll(/<img\b[^>]*\bsrc="([^"]+)"/g)].map((match) => {
+    const src = match[1].replaceAll("&amp;", "&");
+    const url = new URL(src, base);
+    return url.pathname === "/_next/image" ? url.searchParams.get("url") || src : src;
+  });
   if (article.featuredImage) assert.ok(images.includes(article.featuredImage), `${route}: original featured image`);
   assert.ok(images.every((src) => !src.startsWith("/portfolio/home/")), `${route}: no dedicated pixel previews`);
   images.filter((src) => src.startsWith("/")).forEach((src) => assets.add(src));

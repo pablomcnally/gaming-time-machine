@@ -729,13 +729,14 @@ html.pablonet-connected .pablonet-connection-splash {
 
   .site-header-meta {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-columns: minmax(0, 1fr);
     gap: 0.4rem;
   }
 
   .site-header-clock {
     width: auto;
     font-size: 0.7rem;
+    white-space: normal;
   }
 
   .site-header-controls {

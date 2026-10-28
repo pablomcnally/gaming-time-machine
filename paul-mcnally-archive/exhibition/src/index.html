@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090a09">
+  <meta name="description" content="The work and words of Paul McNally. Explore games, technology and four decades of curiosity through the Pablonet archive.">
+  <title>Exhibition — The work & words of Paul McNally</title>
+  <link rel="canonical" href="https://paulmcnally.online/exhibition">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preload" href="/assets/fonts/VT323-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="is-loading">
+  <a class="skip-link" href="#story-index">Skip to the story index</a>
+  <header class="site-header">
+    <div class="brand-lockup"><a class="wordmark" href="/" data-view="explore" aria-label="Pablonet Exhibition home">PABLONET<span class="wordmark-dot" aria-hidden="true"></span><small>PAUL McNALLY / PERSONAL ARCHIVE</small></a><nav class="edition-switcher" aria-label="Choose site edition"><a href="https://paulmcnally.online/">Pablonet</a><span aria-hidden="true">/</span><a href="https://paulmcnally.online/pro">Pro</a><span aria-hidden="true">/</span><span aria-current="page">Exhibition</span></nav></div>
+    <p class="header-intro">GAMES. TECHNOLOGY. CULTURE.<br>FOUR DECADES. STILL CURIOUS.</p>
+    <button class="sound-button" data-sound aria-pressed="false" aria-label="Turn sound on"><span class="sound-indicator" aria-hidden="true">▥</span><span data-sound-label>SOUND [OFF]</span></button>
+    <div class="header-status mono"><span class="live-dot"></span> UK LOCAL TIME <span id="local-clock">00:00</span><small>WRITING SINCE 1986 <span aria-hidden="true">→</span></small></div>
+    <button class="contact-button pill" data-contact>Let’s talk <span aria-hidden="true">↗</span></button>
+  </header>
+
+  <main id="main">
+    <section id="explore-view" class="view explore-view" aria-label="Explore the Pablonet image wall">
+      <div id="wall" class="wall" tabindex="0" role="region" aria-label="Interactive story wall. Drag to move, use arrow keys to explore, Enter to open the selected story. Use Index for a complete list."></div>
+      <div class="wall-shade" aria-hidden="true"></div>
+      <div id="wall-loader" class="wall-loader" role="status"><span class="pixel-spinner" aria-hidden="true"></span><span>ASSEMBLING THE ARCHIVE</span></div>
+      <div class="explore-caption"><span class="mono caption-kicker">A LIFETIME OF GOING DOWN RABBIT HOLES.</span><p>Pick something.<br>Get lost for a bit.</p></div>
+      <div class="wall-hint mono" id="wall-hint"><span aria-hidden="true">↔</span> DRAG TO EXPLORE <i>·</i> SCROLL TO ZOOM</div>
+      <p class="sr-only" id="wall-selection" aria-live="polite"></p>
+      <a class="wall-selection-link" id="selected-link" href="?view=index" hidden>Read selected story <span>↗</span></a>
+    </section>
+
+    <section id="index-view" class="view index-view" aria-labelledby="index-title" hidden>
+      <div class="index-heading"><div><span class="eyebrow">THE WORK & THE WORDS</span><h1 id="index-title">A curious collection<span>.</span></h1></div><span id="index-total" class="index-total">39 stories</span></div>
+      <div class="index-toolbar"><label class="search-field"><span aria-hidden="true">⌕</span><span class="sr-only">Search the archive</span><input id="index-search" type="search" placeholder="Find a story, subject or publication…" autocomplete="off"></label><button class="text-button" id="index-filter">Filter the collection <span aria-hidden="true">↗</span></button></div>
+      <div class="index-column-head mono" aria-hidden="true"><span>YEAR</span><span>STORY</span><span>TYPE</span><span>PUBLICATION</span></div>
+      <div id="story-index" tabindex="-1"></div>
+    </section>
+
+    <section id="about-view" class="view about-view" aria-labelledby="about-title" hidden>
+      <span class="eyebrow">A BIT ABOUT THE PERSON BEHIND THE PIXELS</span>
+      <h1 id="about-title">Four decades.<br>Still <em>curious.</em></h1>
+      <div class="about-strip" id="about-strip" aria-hidden="true"></div>
+      <div class="about-lead"><span class="eyebrow">PAUL McNALLY</span><p id="about-intro"></p></div>
+      <div id="about-panels" class="about-panels"></div>
+      <div class="about-outro"><p>Something interesting<br>to talk about?</p><button class="pill" data-contact>Let’s talk <span aria-hidden="true">↗</span></button></div>
+    </section>
+  </main>
+
+  <div class="bottom-meta mono"><span class="live-dot"></span><span id="collection-count">39 STORIES IN THE COLLECTION</span><button id="reset-camera" class="reset-camera" title="Re-centre the image wall">RESET VIEW <span aria-hidden="true">↺</span></button></div>
+  <nav class="main-nav" aria-label="Main navigation"><a href="/" data-view="explore" aria-current="page"><span class="nav-icon" aria-hidden="true">▦</span> Explore</a><a href="?view=index" data-view="index">Index</a><a href="?view=about" data-view="about">About</a></nav>
+  <button id="open-filter" class="filter-button pill">Filter <span id="filter-count" hidden>0</span><span aria-hidden="true">↗</span></button>
+
+  <dialog id="filter-dialog" class="filter-dialog" aria-labelledby="filter-title">
+    <div class="filter-panel"><div class="panel-heading"><span class="eyebrow" id="filter-title">FIND YOUR RABBIT HOLE</span><button class="icon-button" id="close-filter" aria-label="Close filters">×</button></div>
+      <label class="search-field"><span aria-hidden="true">⌕</span><span class="sr-only">Search stories</span><input id="filter-search" type="search" placeholder="What are you curious about?" autocomplete="off"></label>
+      <div id="kind-filters" class="kind-filters" role="group" aria-label="Story type"></div>
+      <div class="filter-secondary"><label class="eyebrow" for="publication-filter">PUBLICATION</label><select id="publication-filter"><option value="">Every publication</option></select><label class="eyebrow" for="topic-filter">SUBJECT</label><select id="topic-filter"><option value="">Every rabbit hole</option><option value="retro">Retro computing</option><option value="games">Games & arcade</option><option value="tech">Technology & making</option><option value="simulation">Simulation</option></select></div>
+      <div class="filter-footer"><button id="clear-filters" class="text-button">Clear filters</button><button id="show-results" class="pill accent-pill">Show <span id="filter-results">39</span> stories <span aria-hidden="true">↗</span></button></div>
+    </div>
+  </dialog>
+
+  <dialog id="article-dialog" class="article-dialog" aria-labelledby="article-title">
+    <div class="reader-toolbar"><a class="reader-brand" href="/" data-reader-close>PABLONET</a><span class="mono" id="reader-position"></span><button class="sound-button reader-sound" data-sound aria-pressed="false" aria-label="Turn sound on"><span data-sound-label>SOUND [OFF]</span></button><button class="pill" id="close-article"><span aria-hidden="true">↙</span> Back to the collection</button></div>
+    <article id="article-content"></article>
+    <div id="reader-progress" class="reader-progress" aria-hidden="true"></div>
+  </dialog>
+
+  <dialog id="contact-dialog" class="contact-dialog" aria-labelledby="contact-title"><div class="contact-panel"><button class="icon-button" id="close-contact" aria-label="Close contact">×</button><span class="eyebrow">ALWAYS CURIOUS</span><h2 id="contact-title">Let’s talk<span>.</span></h2><p id="contact-intro"></p><div id="contact-links" class="contact-links"></div></div></dialog>
+  <div id="app-message" class="app-message" role="status" hidden></div>
+  <noscript><div class="noscript">This interactive edition needs JavaScript. Your existing Pablonet and Pro editions remain available.</div></noscript>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

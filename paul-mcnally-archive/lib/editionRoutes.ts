@@ -1,5 +1,12 @@
 const sharedEditionSections = ["features", "interviews", "opinion", "reviews", "blog", "topics"];
 
+export function getExhibitionEditionHref(pathname: string) {
+  const original = pathname.replace(/^\/pro(?=\/|$)/, "");
+  const match = original.match(/^\/(features|interviews|opinion|reviews|blog)\/([a-z0-9-]+)$/);
+  if (match?.[1] === "reviews" && ["games", "tech"].includes(match[2])) return "/exhibition";
+  return match ? `/exhibition?article=${encodeURIComponent(match[2])}` : "/exhibition";
+}
+
 export function getProfessionalEditionHref(pathname: string) {
   if (pathname === "/") return "/pro";
   if (pathname === "/about" || pathname === "/contact" || pathname === "/work") return `/pro${pathname}`;

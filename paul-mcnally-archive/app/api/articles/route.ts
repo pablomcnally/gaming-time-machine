@@ -88,7 +88,7 @@ export async function POST(request: NextRequest) {
       const tree = await github("git/trees", "POST", { base_tree: head.tree.sha, tree: entries });
       const commit = await github("git/commits", "POST", { message: `Publish archive article: ${draft.title}`, tree: tree.sha, parents: [ref.object.sha] });
       await github(`git/refs/heads/${branch}`, "PATCH", { sha: commit.sha, force: false });
-      return response(200, { ok: true, mode: "github", commitSha: commit.sha, message: "Published to GitHub. Both sites will update when the deployment finishes." });
+      return response(200, { ok: true, mode: "github", commitSha: commit.sha, message: "Published to GitHub. Pablonet, Pro and Exhibition will update when the deployment finishes." });
     }
     const created: string[] = [];
     try {
