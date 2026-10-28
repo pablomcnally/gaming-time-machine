@@ -18,7 +18,22 @@ export class ArticleTransition{
   addEventListener('resize',()=>{if(dialog.classList.contains('is-transitioning'))this.reset();});
  }
  animate(element,frames,options){const animation=element.animate(frames,{fill:'both',...options});this.animations.push(animation);return animation;}
- cancelAnimations(){for(const animation of this.animations)animation.cancel();this.animations=[];}
+ cancelAnimations(){
+  cancelAnimationFrame(this.glitchFrame);this.glitchFrame=0;this.glitchOrigin?.glitch(null);this.glitchOrigin=null;
+  for(const animation of this.animations)animation.cancel();this.animations=[];
+ }
+ followWallGlitch(animation,origin){
+  if(!origin.glitch)return;
+  this.glitchOrigin=origin;
+  // Read the artwork's own animation clock so signal breakup follows the zoom,
+  // including cancellation and a paused/resumed browser animation timeline.
+  const tick=()=>{
+   if(this.glitchOrigin!==origin)return;
+   origin.glitch(Math.min(1,Number(animation.currentTime||0)/700));
+   this.glitchFrame=requestAnimationFrame(tick);
+  };
+  tick();
+ }
  reset(){
   this.version++;this.cancelAnimations();this.flight?.remove();this.flight=null;
   this.image?.style.removeProperty('visibility');this.origin?.restore();this.origin=null;
@@ -41,10 +56,11 @@ export class ArticleTransition{
   const flight=image.cloneNode();flight.alt='';flight.setAttribute('aria-hidden','true');flight.className='tile-flight';
   flight.style.width=`${width}px`;flight.style.height=`${height}px`;flight.style.transform=from;
   this.dialog.append(flight);this.flight=flight;this.image.style.visibility='hidden';origin.hide();
-  this.animate(this.dialog,[{backgroundColor:'transparent'},{backgroundColor:'#090a09'}],{duration:680,easing:'ease-in'});
-  this.animate(this.scene,[{transform:'scale(1)',filter:'brightness(1) blur(0px)'},{transform:'scale(.94)',filter:'brightness(.4) blur(3px)'}],{duration:700,easing:'cubic-bezier(.22,.75,.2,1)'});
+  this.animate(this.dialog,[{backgroundColor:'transparent',offset:0},{backgroundColor:'#090a0910',offset:.32},{backgroundColor:'#090a09cc',offset:.74},{backgroundColor:'#090a09',offset:1}],{duration:680,easing:'linear'});
+  this.animate(this.scene,[{transform:'scale(1)',filter:'brightness(1) blur(0px)',offset:0},{transform:'scale(.985)',filter:'brightness(.9) blur(0px)',offset:.3},{transform:'scale(.94)',filter:'brightness(.4) blur(3px)',offset:1}],{duration:700,easing:'linear'});
   for(const content of this.dialog.querySelectorAll('#article-content,.reader-toolbar'))this.animate(content,[{opacity:0,translate:'0 16px'},{opacity:1,translate:'0 0'}],{duration:380,delay:320,easing:'ease-out'});
   const movement=this.animate(flight,[{transform:from},{transform:to}],{duration:700,easing:'cubic-bezier(.22,.75,.2,1)'});
+  this.followWallGlitch(movement,origin);
   await movement.finished.catch(()=>{});
   if(version!==this.version)return;
   this.scene.style.transform='scale(.94)';this.scene.style.filter='brightness(.4) blur(3px)';

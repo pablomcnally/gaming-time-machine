@@ -130,7 +130,7 @@ class StoryWall{
   this.renderer=new THREE.WebGLRenderer({antialias:false,alpha:false,powerPreference:'low-power'});
   this.renderer.setPixelRatio(Math.min(devicePixelRatio,1.75));this.renderer.outputColorSpace=THREE.SRGBColorSpace;
   this.renderer.setClearColor(0x090a09);this.element.append(this.renderer.domElement);
-  this.uniforms={uAtlas:{value:null},uAtlasGrid:{value:new THREE.Vector2(data.atlas.columns,data.atlas.rows)},uAspect:{value:1},uScale:{value:this.scale},uPan:{value:new THREE.Vector2(this.pan.x,this.pan.y)},uBend:{value:this.bend},uCount:{value:articles.length},uIndexMap:{value:null},uIndexWidth:{value:1},uHoverCell:{value:new THREE.Vector2(9999,9999)},uGlitchTime:{value:1},uGlitchStrength:{value:reduced.matches?0:1},uLiftedCell:{value:new THREE.Vector2(9999,9999)},uLiftRect:{value:new THREE.Vector4()},uReady:{value:0}};
+  this.uniforms={uAtlas:{value:null},uAtlasGrid:{value:new THREE.Vector2(data.atlas.columns,data.atlas.rows)},uAspect:{value:1},uScale:{value:this.scale},uPan:{value:new THREE.Vector2(this.pan.x,this.pan.y)},uBend:{value:this.bend},uCount:{value:articles.length},uIndexMap:{value:null},uIndexWidth:{value:1},uHoverCell:{value:new THREE.Vector2(9999,9999)},uGlitchTime:{value:1},uGlitchStrength:{value:reduced.matches?0:1},uDeparture:{value:-1},uLiftedCell:{value:new THREE.Vector2(9999,9999)},uLiftRect:{value:new THREE.Vector4()},uReady:{value:0}};
   this.scene=new THREE.Scene();this.camera=new THREE.OrthographicCamera(-1,1,1,-1,0,1);
   this.material=new THREE.ShaderMaterial({uniforms:this.uniforms,depthTest:false,depthWrite:false,
    vertexShader:`varying vec2 vUv;void main(){vUv=uv;gl_Position=vec4(position.xy,0.,1.);}`,
@@ -139,11 +139,17 @@ class StoryWall{
     uniform vec2 uAtlasGrid;
     uniform float uAspect; uniform float uScale; uniform vec2 uPan; uniform float uBend;
     uniform int uCount; uniform sampler2D uIndexMap; uniform float uIndexWidth; uniform vec2 uHoverCell; uniform float uGlitchTime; uniform float uGlitchStrength; uniform float uReady;
-    uniform vec2 uLiftedCell; uniform vec4 uLiftRect;
+    uniform vec2 uLiftedCell; uniform vec4 uLiftRect; uniform float uDeparture;
     varying vec2 vUv;
     float noise(vec2 seed){return fract(sin(dot(seed,vec2(127.1,311.7)))*43758.5453);}
     void main(){
-     vec2 p=(vUv-.5)*2.;float factor=.91+uBend*dot(p,p);
+     float departure=smoothstep(.015,.12,uDeparture)*(1.-smoothstep(.36,.94,uDeparture));
+     float phase=floor(uDeparture*22.);float band=floor(vUv.y*26.);
+     float broken=step(.62,noise(vec2(band,phase)));
+     vec2 p=(vUv-.5)*2.;vec2 originalP=p;
+     p.x+=(noise(vec2(band+11.,phase+3.))-.5)*.22*broken*departure;
+     p.y+=(noise(vec2(phase,91.))-.5)*.006*departure;
+     float factor=.91+uBend*dot(p,p);
      vec2 world=p*factor*vec2(uAspect,1.)*uScale*.5+uPan;
      vec2 grid=world/vec2(1.,.9);vec2 cell=floor(grid);vec2 local=fract(grid);
      vec3 color=vec3(.009,.012,.009);
@@ -159,14 +165,16 @@ class StoryWall{
       vec2 shifted=vec2(clamp(local.x+shift,.001,.999),local.y);
       vec2 sampleUv=vec2((tile.x+shifted.x)/uAtlasGrid.x,1.-(tile.y+1.-shifted.y)/uAtlasGrid.y);
       color=texture2D(uAtlas,sampleUv).rgb;
-      vec2 split=vec2(.008*glitch/uAtlasGrid.x,0.);
+      vec2 split=vec2((.008*glitch+.025*departure*(.35+.65*broken))/uAtlasGrid.x,0.);
       color.r=texture2D(uAtlas,sampleUv+split).r;
       color.b=texture2D(uAtlas,sampleUv-split).b;
       color*=1.-.14*glitch*step(.5,fract(local.y*140.));
       vec2 imagePoint=vec2(local.x,1.-local.y);
-      if(distance(cell,uLiftedCell)<.1&&imagePoint.x>=uLiftRect.x&&imagePoint.y>=uLiftRect.y&&imagePoint.x<=uLiftRect.z&&imagePoint.y<=uLiftRect.w)color=vec3(.0353,.0392,.0353);
+      if(distance(cell,uLiftedCell)<.1&&imagePoint.x>=uLiftRect.x&&imagePoint.y>=uLiftRect.y&&imagePoint.x<=uLiftRect.z&&imagePoint.y<=uLiftRect.w)color=vec3(.00273,.00304,.00273);
      }
-     float vignette=1.-smoothstep(.35,1.5,length(p*vec2(.75,.7)))*.43;
+     float dropout=step(.88,noise(vec2(band+62.,phase)));
+     color*=1.-departure*(.18*step(.5,fract(vUv.y*260.))+.68*dropout);
+     float vignette=1.-smoothstep(.35,1.5,length(originalP*vec2(.75,.7)))*.43;
      color*=vignette;
      gl_FragColor=vec4(color*uReady,1.);
      #include <colorspace_fragment>
@@ -225,6 +233,7 @@ class StoryWall{
   this.uniforms.uScale.value=this.scale;this.uniforms.uPan.value.set(this.pan.x,this.pan.y);this.uniforms.uGlitchTime.value=1;
   this.hoverAt=-1000;this.glitchUntil=0;this.renderer.render(this.scene,this.camera);
   return {slug:article.slug,quad:()=>artworkQuad(cell,rect,this.width,this.height,this.pan,this.scale,this.bend),
+   glitch:progress=>{this.uniforms.uDeparture.value=reduced.matches||progress===null?-1:progress;this.renderer.render(this.scene,this.camera);},
    hide:()=>{this.uniforms.uLiftedCell.value.set(cell.x,cell.y);this.uniforms.uLiftRect.value.set(rect.x/512,rect.y/460,(rect.x+rect.width)/512,(rect.y+rect.height)/460);this.renderer.render(this.scene,this.camera);},
    restore:()=>{this.uniforms.uLiftedCell.value.set(9999,9999);this.renderer.render(this.scene,this.camera);}};
  }
